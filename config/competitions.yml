@@ -1,0 +1,306 @@
+# Catálogo de competiciones. Añadir o quitar una liga = editar este archivo.
+#
+# Campos:
+#   id               ID canónico estable (no cambiar una vez publicado)
+#   sport            id de config/sports.yml
+#   adapter          módulo en pipeline/adapters/
+#   params           parámetros propios del adaptador
+#   season.format    year  -> etiqueta "2026"
+#                    split -> etiqueta "2026-27" (temporadas que cruzan el año)
+#   season.start_month  mes en que arranca la temporada (para calcular la actual)
+#   active_months    meses con actividad; fuera de ellos el perfil "live" no la consulta
+#   history_seasons  cuántas temporadas atrás se rellenan con `backfill`
+#   tags             cuba, latam, europe, usa, asia, winter...
+#   enabled          false = no se procesa (se documenta el motivo)
+
+competitions:
+
+  # ------------------------------------------------------------------ BÉISBOL
+  - id: baseball.snb
+    sport: baseball
+    name: { es: "Serie Nacional de Béisbol" }
+    short: SNB
+    country: CU
+    tier: 1
+    adapter: beisbolcubano
+    params: {}
+    season: { format: split, start_month: 9 }
+    active_months: [10, 11, 12, 1, 2, 3, 4]
+    history_seasons: 0          # el sitio solo expone la serie en curso en HTML
+    tags: [cuba]
+    logo: { url: "https://www.beisbolcubano.cu/images/estilos/snb_c.png", source: beisbolcubano }
+
+  - id: baseball.mlb
+    sport: baseball
+    name: { es: "Grandes Ligas (MLB)" }
+    short: MLB
+    country: US
+    tier: 1
+    adapter: mlb_statsapi
+    params: { sport_id: 1, league_ids: [103, 104], roster_type: 40Man }
+    season: { format: year, start_month: 3 }
+    active_months: [3, 4, 5, 6, 7, 8, 9, 10]
+    history_seasons: 5
+    tags: [usa]
+    logo: { url: "https://www.mlbstatic.com/team-logos/league-on-light/1.svg", source: mlb }
+
+  - id: baseball.lidom
+    sport: baseball
+    name: { es: "Liga de Béisbol Profesional de la República Dominicana (LIDOM)" }
+    short: LIDOM
+    country: DO
+    tier: 1
+    adapter: mlb_statsapi
+    params: { sport_id: 17, league_ids: [131], roster_type: active }
+    season: { format: split, start_month: 10 }
+    active_months: [10, 11, 12, 1]
+    history_seasons: 5
+    tags: [latam, winter]
+
+  - id: baseball.lvbp
+    sport: baseball
+    name: { es: "Liga Venezolana de Béisbol Profesional (LVBP)" }
+    short: LVBP
+    country: VE
+    tier: 1
+    adapter: mlb_statsapi
+    params: { sport_id: 17, league_ids: [135], roster_type: active }
+    season: { format: split, start_month: 10 }
+    active_months: [10, 11, 12, 1]
+    history_seasons: 5
+    tags: [latam, winter]
+
+  - id: baseball.lmp
+    sport: baseball
+    name: { es: "Liga Mexicana del Pacífico (LMP)" }
+    short: LMP
+    country: MX
+    tier: 1
+    adapter: mlb_statsapi
+    params: { sport_id: 17, league_ids: [132], roster_type: active }
+    season: { format: split, start_month: 10 }
+    active_months: [10, 11, 12, 1]
+    history_seasons: 5
+    tags: [latam, winter]
+
+  - id: baseball.lbprc
+    sport: baseball
+    name: { es: "Liga de Béisbol Profesional Roberto Clemente (Puerto Rico)" }
+    short: LBPRC
+    country: PR
+    tier: 1
+    adapter: mlb_statsapi
+    params: { sport_id: 17, league_ids: [133], roster_type: active }
+    season: { format: split, start_month: 10 }
+    active_months: [11, 12, 1]
+    history_seasons: 5
+    tags: [latam, winter]
+
+  - id: baseball.serie-del-caribe
+    sport: baseball
+    name: { es: "Serie del Caribe" }
+    short: SDC
+    country: null
+    tier: 1
+    adapter: mlb_statsapi
+    params: { sport_id: 17, league_ids: [162], roster_type: active }
+    season: { format: split, start_month: 10 }
+    active_months: [1, 2]
+    history_seasons: 5
+    tags: [latam, winter, cuba]
+
+  - id: baseball.lmb
+    sport: baseball
+    name: { es: "Liga Mexicana de Béisbol (LMB)" }
+    short: LMB
+    country: MX
+    tier: 1
+    adapter: mlb_statsapi
+    params: { sport_id: 23, league_ids: [125], roster_type: active }
+    season: { format: year, start_month: 4 }
+    active_months: [4, 5, 6, 7, 8, 9]
+    history_seasons: 5
+    tags: [latam]
+
+  - id: baseball.npb
+    sport: baseball
+    name: { es: "Liga Profesional de Japón (NPB)" }
+    short: NPB
+    country: JP
+    tier: 1
+    adapter: npb
+    params: {}
+    season: { format: year, start_month: 3 }
+    active_months: [3, 4, 5, 6, 7, 8, 9, 10]
+    history_seasons: 3
+    tags: [asia]
+
+  - id: baseball.kbo
+    sport: baseball
+    name: { es: "Organización de Béisbol de Corea (KBO)" }
+    short: KBO
+    country: KR
+    tier: 1
+    adapter: kbo
+    params: {}
+    season: { format: year, start_month: 3 }
+    active_months: [3, 4, 5, 6, 7, 8, 9, 10]
+    history_seasons: 0
+    tags: [asia]
+
+  - id: baseball.lpb-colombia
+    sport: baseball
+    name: { es: "Liga Profesional de Béisbol de Colombia" }
+    short: LPB
+    country: CO
+    tier: 1
+    adapter: lpbcol
+    params: {}
+    season: { format: split, start_month: 11 }
+    active_months: [11, 12, 1]
+    history_seasons: 0
+    tags: [latam, winter]
+
+  - id: baseball.probeis
+    sport: baseball
+    name: { es: "Liga Profesional de Béisbol de Panamá (Probeis)" }
+    short: PROBEIS
+    country: PA
+    tier: 1
+    adapter: probeis
+    params: {}
+    season: { format: split, start_month: 11 }
+    active_months: [11, 12, 1]
+    history_seasons: 0
+    tags: [latam, winter]
+    enabled: false   # panamaprobeis.com no resolvió DNS en las pruebas (2026-10-03). Ver docs/estado-fuentes.md
+
+  # ------------------------------------------------------------------ FÚTBOL (ESPN)
+  # params.slug = slug de liga en ESPN
+  # rosters: false en copas: la plantilla del club ya se toma de su liga (evita duplicar/sobrescribir)
+  - { id: soccer.eng-1, sport: soccer, name: { es: "Premier League" }, short: EPL, country: GB, tier: 1, adapter: espn, params: { sport: soccer, slug: eng.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 5, tags: [europe] }
+  - { id: soccer.esp-1, sport: soccer, name: { es: "LaLiga" }, short: LALIGA, country: ES, tier: 1, adapter: espn, params: { sport: soccer, slug: esp.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 5, tags: [europe] }
+  - { id: soccer.ita-1, sport: soccer, name: { es: "Serie A (Italia)" }, short: SERIEA, country: IT, tier: 1, adapter: espn, params: { sport: soccer, slug: ita.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 5, tags: [europe] }
+  - { id: soccer.ger-1, sport: soccer, name: { es: "Bundesliga" }, short: BUND, country: DE, tier: 1, adapter: espn, params: { sport: soccer, slug: ger.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 5, tags: [europe] }
+  - { id: soccer.fra-1, sport: soccer, name: { es: "Ligue 1" }, short: L1, country: FR, tier: 1, adapter: espn, params: { sport: soccer, slug: fra.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 5, tags: [europe] }
+  - { id: soccer.por-1, sport: soccer, name: { es: "Primeira Liga (Portugal)" }, short: POR, country: PT, tier: 1, adapter: espn, params: { sport: soccer, slug: por.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 3, tags: [europe] }
+  - { id: soccer.ned-1, sport: soccer, name: { es: "Eredivisie" }, short: ERE, country: NL, tier: 1, adapter: espn, params: { sport: soccer, slug: ned.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 3, tags: [europe] }
+  - { id: soccer.tur-1, sport: soccer, name: { es: "Superliga de Turquía" }, short: TUR, country: TR, tier: 1, adapter: espn, params: { sport: soccer, slug: tur.1 }, season: { format: split, start_month: 8 }, active_months: [8,9,10,11,12,1,2,3,4,5], history_seasons: 3, tags: [europe] }
+  - { id: soccer.uefa-champions, sport: soccer, name: { es: "UEFA Champions League" }, short: UCL, country: null, tier: 1, adapter: espn, params: { sport: soccer, slug: uefa.champions, rosters: false }, season: { format: split, start_month: 7 }, active_months: [9,10,11,12,1,2,3,4,5], history_seasons: 3, tags: [europe] }
+  - { id: soccer.uefa-europa, sport: soccer, name: { es: "UEFA Europa League" }, short: UEL, country: null, tier: 2, adapter: espn, params: { sport: soccer, slug: uefa.europa, rosters: false }, season: { format: split, start_month: 7 }, active_months: [9,10,11,12,1,2,3,4,5], history_seasons: 3, tags: [europe] }
+  - { id: soccer.usa-1, sport: soccer, name: { es: "MLS" }, short: MLS, country: US, tier: 1, adapter: espn, params: { sport: soccer, slug: usa.1 }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6,7,8,9,10,11,12], history_seasons: 5, tags: [usa] }
+  - { id: soccer.mex-1, sport: soccer, name: { es: "Liga MX" }, short: LIGAMX, country: MX, tier: 1, adapter: espn, params: { sport: soccer, slug: mex.1 }, season: { format: split, start_month: 7 }, active_months: [1,2,3,4,5,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.arg-1, sport: soccer, name: { es: "Liga Profesional Argentina" }, short: ARG, country: AR, tier: 1, adapter: espn, params: { sport: soccer, slug: arg.1 }, season: { format: year, start_month: 1 }, active_months: [1,2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.bra-1, sport: soccer, name: { es: "Brasileirão Serie A" }, short: BRA, country: BR, tier: 1, adapter: espn, params: { sport: soccer, slug: bra.1 }, season: { format: year, start_month: 3 }, active_months: [3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.col-1, sport: soccer, name: { es: "Liga BetPlay (Colombia)" }, short: COL, country: CO, tier: 1, adapter: espn, params: { sport: soccer, slug: col.1 }, season: { format: year, start_month: 1 }, active_months: [1,2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.chi-1, sport: soccer, name: { es: "Primera División de Chile" }, short: CHI, country: CL, tier: 1, adapter: espn, params: { sport: soccer, slug: chi.1 }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.per-1, sport: soccer, name: { es: "Liga 1 (Perú)" }, short: PER, country: PE, tier: 1, adapter: espn, params: { sport: soccer, slug: per.1 }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.uru-1, sport: soccer, name: { es: "Liga AUF Uruguaya" }, short: URU, country: UY, tier: 1, adapter: espn, params: { sport: soccer, slug: uru.1 }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.ecu-1, sport: soccer, name: { es: "LigaPro Ecuador" }, short: ECU, country: EC, tier: 1, adapter: espn, params: { sport: soccer, slug: ecu.1 }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.par-1, sport: soccer, name: { es: "Primera División de Paraguay" }, short: PAR, country: PY, tier: 1, adapter: espn, params: { sport: soccer, slug: par.1 }, season: { format: year, start_month: 1 }, active_months: [1,2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.bol-1, sport: soccer, name: { es: "Liga Profesional de Bolivia" }, short: BOL, country: BO, tier: 1, adapter: espn, params: { sport: soccer, slug: bol.1 }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.ven-1, sport: soccer, name: { es: "Liga FUTVE (Venezuela)" }, short: VEN, country: VE, tier: 1, adapter: espn, params: { sport: soccer, slug: ven.1 }, season: { format: year, start_month: 1 }, active_months: [1,2,3,4,5,6,7,8,9,10,11,12], history_seasons: 3, tags: [latam] }
+  - { id: soccer.libertadores, sport: soccer, name: { es: "Copa Libertadores" }, short: LIB, country: null, tier: 1, adapter: espn, params: { sport: soccer, slug: conmebol.libertadores, rosters: false }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6,7,8,9,10,11], history_seasons: 3, tags: [latam] }
+  - { id: soccer.sudamericana, sport: soccer, name: { es: "Copa Sudamericana" }, short: SUD, country: null, tier: 2, adapter: espn, params: { sport: soccer, slug: conmebol.sudamericana, rosters: false }, season: { format: year, start_month: 3 }, active_months: [3,4,5,6,7,8,9,10,11], history_seasons: 3, tags: [latam] }
+  - { id: soccer.concacaf-champions, sport: soccer, name: { es: "Copa de Campeones de la Concacaf" }, short: CCC, country: null, tier: 1, adapter: espn, params: { sport: soccer, slug: concacaf.champions, rosters: false }, season: { format: year, start_month: 2 }, active_months: [2,3,4,5,6], history_seasons: 3, tags: [latam, usa] }
+
+  # ------------------------------------------------------------------ VOLEIBOL
+  - id: volleyball.superlega
+    sport: volleyball
+    name: { es: "SuperLega (Italia)" }
+    short: SUPERLEGA
+    country: IT
+    tier: 1
+    adapter: legavolley
+    # id_campionato por temporada (legavolley.it/classifica/?IdCampionato=...)
+    # Sin IdCampionato la página muestra la SuperLega del año indicado (verificado 2025).
+    params: { campionati: { "2026-27": 999 } }
+    season: { format: split, start_month: 9 }
+    active_months: [10, 11, 12, 1, 2, 3, 4, 5]
+    history_seasons: 3
+    tags: [europe]
+
+  # ------------------------------------------------------------------ UFC / MMA
+  - id: mma.ufc
+    sport: mma
+    name: { es: "UFC" }
+    short: UFC
+    country: null
+    tier: 1
+    adapter: ufc            # ufc.com oficial (los rankings de ESPN están desactualizados)
+    params: {}
+    season: { format: year, start_month: 1 }
+    active_months: [1,2,3,4,5,6,7,8,9,10,11,12]
+    history_seasons: 0
+    tags: []
+
+  # ------------------------------------------------------------------ BOXEO
+  - id: boxing.wbc
+    sport: boxing
+    name: { es: "Consejo Mundial de Boxeo (WBC)" }
+    short: WBC
+    country: null
+    tier: 1
+    adapter: wbc
+    params: { genders: [male, female] }
+    season: { format: year, start_month: 1 }
+    active_months: [1,2,3,4,5,6,7,8,9,10,11,12]
+    history_seasons: 0
+    tags: []
+
+  # ------------------------------------------------------------------ AJEDREZ
+  - id: chess.fide-ranking
+    sport: chess
+    name: { es: "Ranking mundial FIDE" }
+    short: FIDE
+    country: null
+    tier: 1
+    adapter: fide_top
+    params: { lists: [open, women, juniors, girls] }
+    season: { format: year, start_month: 1 }
+    active_months: [1,2,3,4,5,6,7,8,9,10,11,12]
+    history_seasons: 0
+    tags: []
+
+  - id: chess.fide-cuba
+    sport: chess
+    name: { es: "Ranking FIDE de Cuba" }
+    short: FIDE-CUB
+    country: CU
+    tier: 1
+    adapter: fide_federation
+    refresh: monthly          # la FIDE publica la lista completa una vez al mes (~14 MB)
+    params: { federation: CUB, top: 500 }
+    season: { format: year, start_month: 1 }
+    active_months: [1,2,3,4,5,6,7,8,9,10,11,12]
+    history_seasons: 0
+    tags: [cuba]
+
+  - id: chess.capablanca
+    sport: chess
+    name: { es: "Capablanca in Memoriam" }
+    short: CAPA
+    country: CU
+    tier: 1
+    adapter: chess_results
+    # Cada edición/grupo es un torneo en chess-results.com (tnr). Añadir nuevas aquí.
+    params:
+      editions:
+        - { season: "2026", group: open, name: "LIX Capablanca in Memoriam - Open", tnr: 1433961, host: s2.chess-results.com }
+    season: { format: year, start_month: 1 }
+    active_months: [5, 6, 7]
+    history_seasons: 0
+    tags: [cuba]
+
+  - id: chess.elite-broadcasts
+    sport: chess
+    name: { es: "Torneos de élite (transmisiones Lichess)" }
+    short: ELITE
+    country: null
+    tier: 1
+    adapter: lichess_broadcasts
+    params: { min_tier: 4, max_events: 25 }   # tier 4-5 = élite según Lichess
+    season: { format: year, start_month: 1 }
+    active_months: [1,2,3,4,5,6,7,8,9,10,11,12]
+    history_seasons: 0
+    tags: []

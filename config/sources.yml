@@ -1,0 +1,41 @@
+# Políticas de acceso por host. El cliente HTTP respeta un intervalo mínimo
+# entre peticiones al mismo host y reintenta con backoff ante 429/5xx.
+#
+# user_agent: algunos hosts (ESPN) rechazan UAs con '@' o '+'; por eso se
+# permite definir uno por host. Siempre identificamos el proyecto.
+defaults:
+  user_agent: "CubaDeportes/0.1 ({contact})"   # {contact} = variable PIPELINE_CONTACT (URL del repo o email)
+  min_interval_s: 1.0
+  timeout_s: 30
+  retries: 4
+  backoff_s: 5
+
+hosts:
+  site.api.espn.com:        { user_agent: "CubaDeportes/0.1", min_interval_s: 0.35 }
+  sports.core.api.espn.com: { user_agent: "CubaDeportes/0.1", min_interval_s: 0.35 }
+  site.web.api.espn.com:    { user_agent: "CubaDeportes/0.1", min_interval_s: 0.35 }
+  a.espncdn.com:            { user_agent: "CubaDeportes/0.1", min_interval_s: 0.2 }
+  statsapi.mlb.com:         { min_interval_s: 0.25 }
+  img.mlbstatic.com:        { min_interval_s: 0.2 }
+  www.mlbstatic.com:        { min_interval_s: 0.2 }
+  www.beisbolcubano.cu:     { min_interval_s: 2.0, timeout_s: 60 }
+  npb.jp:                   { min_interval_s: 1.5 }
+  p.npb.jp:                 { min_interval_s: 0.5 }
+  eng.koreabaseball.com:    { min_interval_s: 2.0, timeout_s: 60 }
+  www.lpbcol.com.co:        { min_interval_s: 2.0 }
+  www.legavolley.it:        { min_interval_s: 1.5 }
+  ratings.fide.com:         { min_interval_s: 2.0, timeout_s: 120 }
+  lichess.org:              { min_interval_s: 3.0 }   # Lichess: una peticion a la vez; 429 -> esperar 60 s
+  image.lichess1.org:       { min_interval_s: 0.5 }
+  chess-results.com:        { min_interval_s: 3.0 }
+  s1.chess-results.com:     { min_interval_s: 3.0 }
+  s2.chess-results.com:     { min_interval_s: 3.0 }
+  s3.chess-results.com:     { min_interval_s: 3.0 }
+  www.ufc.com:              { min_interval_s: 1.5 }
+  ufc.com:                  { min_interval_s: 0.5 }
+  wbcboxing.com:            { min_interval_s: 2.0 }
+  # Wikimedia exige un User-Agent descriptivo con contacto
+  query.wikidata.org:       { min_interval_s: 2.0, timeout_s: 90, user_agent: "CubaDeportesBot/0.1 ({contact}) python-requests" }
+  www.wikidata.org:         { min_interval_s: 1.0, user_agent: "CubaDeportesBot/0.1 ({contact}) python-requests" }
+  commons.wikimedia.org:    { min_interval_s: 1.0, user_agent: "CubaDeportesBot/0.1 ({contact}) python-requests" }
+  upload.wikimedia.org:     { min_interval_s: 1.0, user_agent: "CubaDeportesBot/0.1 ({contact}) python-requests" }

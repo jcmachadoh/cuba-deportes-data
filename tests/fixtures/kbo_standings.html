@@ -1,0 +1,608 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="x-ua-compatible" content="IE=9" /><title>
+	KBO
+</title><link rel="shortcut icon" type="image/x-icon" href="/images/common/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/min/css/common.min.css?version=20251030" />
+	<link rel="stylesheet" type="text/css" href="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/css/font.css?version=20251030"  crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/min/css/jquery-ui.min.css?version=20251030"/>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/min/js/common.min.js?version=20241219"></script>
+	<script type="text/javascript" src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/min/js/jquery-ui.min.js?version=20241219"></script>
+    
+
+
+<link rel="Stylesheet" type="text/css" href="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/min/css/layout.min.css?version=20251030" />
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        onLnb("0401");
+
+        $('.calendar').mouseenter(function () {
+            $("#contents .standing_day .today a, #contents .standing_day .today span, #contents .standing_day .today img").attr("src", "//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/images/common/btn_cal_on.png");
+        });
+
+        $('.calendar').mouseleave(function () {
+            $("#contents .standing_day .today a, #contents .standing_day .today span, #contents .standing_day .today img").attr("src", "//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/images/common/btn_cal_off.png");
+        });
+    });
+
+    $(document).ready(function () {
+        if(0 == 1) {
+            $("#cphContainer_cphContainer_cphContent_cphContent_txtCalendarDate").datepicker({
+                showOn: 'button',
+                buttonImageOnly: true,
+                buttonImage: "//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/images/common/btn_cal_off.png",
+                buttonText: "달력",
+                dateFormat: "yy-mm-dd'(D)'",
+                minDate: new Date("2010/03/01"),
+                beforeShow: function (input) {
+                    var i_offset = $(input).offset(); //클릭된 input의 위치값 체크
+                    setTimeout(function () {
+                        $('#ui-datepicker-div').css({ 'top': 259, 'bottom': '', 'left': i_offset.left - 163 });
+                    })
+                },
+                onSelect: function (dateText, inst) {
+                    document.location.href = "/Standings/TeamStandings.aspx?searchDate=" + dateText.substring(0, 10);
+                }
+            });
+        }        
+    });
+
+
+    function year(year) {
+        document.getElementById("cphContainer_cphContainer_cphContent_cphContent_inputYear").value = year;
+
+        var url = location.href;
+        var param = '2026-10-04';
+
+        if (url.indexOf('?') > 0) {
+            param = year + url.substring(url.indexOf('=') + 5, url.length);
+        }
+        else {
+            param = year + param.substring(4, url.length);
+        }
+
+        location.href = 'TeamStandings.aspx?searchDate=' + param;
+    }
+
+    function sort(sort) {
+        document.getElementById("cphContainer_cphContainer_cphContent_cphContent_sort").value = sort;
+
+        var frm = document.getElementById('mainForm');
+        frm.submit();
+    }
+</script>
+
+
+
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-15700655-22', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <form method="post" action="./TeamStandings.aspx" id="mainForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjc2NzAzNzcxD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCAgMPZBYCAgMPZBYCAgEPZBYCAgEPZBYCAgEPZBYCAgEPDxYCHgRUZXh0BQ8yMDI2LjEwLjA0KFNVTilkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgVRY3RsMDAkY3RsMDAkY3RsMDAkY3RsMDAkY3BoQ29udGFpbmVyJGNwaENvbnRhaW5lciRjcGhDb250ZW50JGNwaENvbnRlbnQkYnRuQmVmb3JlBU9jdGwwMCRjdGwwMCRjdGwwMCRjdGwwMCRjcGhDb250YWluZXIkY3BoQ29udGFpbmVyJGNwaENvbnRlbnQkY3BoQ29udGVudCRidG5OZXh0zYz7lfDKV01ACnE8+SCYYrM3Qdk=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7FBCFB08" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAllziVX0ntfi0Bpbp7kBEnq2E4cICodjCdim4JsrIdV9kcaVaDkq4TBwyAd9Dl2hVlagR2KFG9tREYWKU+mKO/DSSjjO+JrN8ShR3IRB3sc+M1bMIovpfEpe/w/9Rww6Aod774GrjiPQ8KSHl+p+82NfZ9aReczTvkG0KStxYIxzT8uWN4jWx5iIKfiPKsXh3Azt8DjO3ON2YXql5kEMNwW0Gf/vg==" />
+        
+<script type="text/javascript">
+function playerSearch() {
+    if (document.getElementById("cphHeader_txtPlayerSearch").value == "Player Search") {
+
+    }
+    else {
+        __doPostBack('ctl00$ctl00$ctl00$ctl00$cphHeader$btnPlayerSearch','');
+    }
+}
+</script>
+<div id="header">
+	<div id="header_top">
+		<div id="srch_bar">
+			<div class="srch_box">
+				<ul>
+					<li><a href="http://www.koreabaseball.com/Default.aspx" class="on"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/common/ico_lang_ko.png" alt="korean" />&nbsp;<span>Korean</span></a></li>
+					<li><a href="/Etc/Sitemap.aspx"><span class="last">Sitemap</span></a></li>
+					
+					<li>
+						<fieldset class="srch_player">
+							<input name="ctl00$ctl00$ctl00$ctl00$cphHeader$txtPlayerSearch" type="text" id="cphHeader_txtPlayerSearch" title="Player Search" value="Player Search" onclick="javascript:this.value=&#39;&#39;;" /><input type="image" title="search" src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/common/btn_srch.png" onclick="javascript:playerSearch();" />
+						</fieldset>
+					</li>
+				</ul>
+			</div>
+		</div> <!--//srch_bar -->
+        <a id="cphHeader_btnPlayerSearch" href="javascript:__doPostBack(&#39;ctl00$ctl00$ctl00$ctl00$cphHeader$btnPlayerSearch&#39;,&#39;&#39;)"></a>
+		<div id="gnb" class="tabs">
+			<div class="gnb_tit">
+					<a href="/Default.aspx">
+						<img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/common/logo_kbo_k.png" alt="" />
+					</a>
+				
+			</div> <!--//gnb_tit -->
+			<ul class="tabMenu">
+				<li><a id="#tab1" href="/About/AboutKbo.aspx" class="depth_01"><span>ABOUT KBO</span></a></li>
+				<li><a id="#tab2" href="/Teams/TeamInformation.aspx" class="depth_02"><span>TEAMS</span></a></li>
+				<li><a id="#tab3" href="/Schedule/Scoreboard.aspx" class="depth_03"><span>SCHEDULE</span></a></li>
+				<li><a id="#tab4" href="/Standings/TeamStandings.aspx" class="depth_04"><span>STANDINGS</span></a></li>
+				<li class="last"><a id="#tab5" href="/stats/BattingTop5.aspx" class="depth_05"><span>STATS</span></a></li>
+			</ul>
+		</div> <!--//gnb -->
+	</div> <!--//header_top -->
+	<div class="gnb_sub tabContainer">
+		<div id="tab1" class="subarea tab-cont">
+			<ul>
+				<li><a href="/About/aboutkbo.aspx" class="about_01"><span>About KBO</span></a></li>
+				
+				<li class="last"><a href="/About/KBOProcedures.aspx" class="about_03"><span>KBO Procedures</span></a></li>
+				<!--<li class="last"><a href="/About/Changes.aspx" class="about_04"><span>Changes in 2015</span></a></li>-->
+			</ul>
+		</div> <!--//subarea -->
+		<div id="tab2" class="subarea tab-cont">
+			<ul>
+				<li><a href="/Teams/TeamInformation.aspx" class="team_01"><span>Team Information</span></a></li>
+				<li class="last"><a href="/Teams/PlayerSearch.aspx" class="team_02"><span>Player Search</span></a></li>
+			</ul>
+		</div> <!--//subarea -->
+		<div id="tab3" class="subarea tab-cont">
+			<ul>
+				<li><a href="/Schedule/Scoreboard.aspx" class="schedule_01"><span>Scoreboard</span></a></li>
+				<li class="last"><a href="/Schedule/DailySchedule.aspx" class="schedule_02"><span>Daily Schedule</span></a></li>
+			</ul>
+		</div> <!--//subarea -->
+		<div id="tab4" class="subarea tab-cont">
+			<ul>
+				<li class="last"><a href="/Standings/TeamStandings.aspx" class="standing_01"><span>Team Standings</span></a></li>
+			</ul>
+		</div> <!--//subarea -->
+		<div  id="tab5" class="subarea tab-cont">
+			<ul>
+				<li><a href="/stats/BattingTop5.aspx" class="stats_01 active"><span>Batting Top5</span></a></li>
+				<li><a href="/stats/PitchingTop5.aspx" class="stats_02"><span>Pitching Top5</span></a></li>
+				<li><a href="/stats/BattingLeaders.aspx" class="stats_03"><span>Batting Leaders</span></a></li>
+				<li><a href="/stats/PitchingLeaders.aspx" class="stats_04"><span>Pitching Leaders</span></a></li>
+				<li><a href="/stats/BattingByTeams.aspx" class="stats_05"><span>Batting By Teams</span></a></li>
+				<li><a href="/stats/PitchingByTeams.aspx" class="stats_06"><span>Pitching By Teams</span></a></li>
+				<li class="last"><a href="/stats/TeamStats.aspx" class="stats_07"><span>Team Stats</span></a></li>
+			</ul>
+		</div> <!--//subarea -->
+	</div> <!--//gnb_sub -->
+</div> <!--//header -->
+
+        
+
+<div id="container">
+	
+<div id="lnb">
+	<h2 class="standings"><span>standings</span></h2>
+	<ul>
+		<li><a id="lnb0401" href="/Standings/TeamStandings.aspx" class="lnb_standings_01"><span>standings</span></a></li>
+	</ul>
+</div> <!--//lnb -->
+
+<div id="contents">
+	<div class="tit_sub">
+		<div class="nav">
+			<ul>
+				<li class="home"><a href="/Default.aspx"><span>HOME</span></a> <span class="arrow">&gt;</span></li>
+				<li><a href="/Standings/TeamStandings.aspx"><span>STANDINGS</span></a> <span class="arrow">&gt;</span></li>
+				<li class="last"><a href="/Standings/TeamStandings.aspx"><span>Team Standings</span></a></li>
+			</ul>
+		</div>
+		<h3 class="standings01"><span>Team Standings</span></h3>
+	</div>
+	<div class="inner">
+		<div class="standing_day uifix">
+			<div class="datearea">
+                <input type="image" name="ctl00$ctl00$ctl00$ctl00$cphContainer$cphContainer$cphContent$cphContent$btnBefore" id="cphContainer_cphContainer_cphContent_cphContent_btnBefore" class="prev" alt="이전" src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/images/common/btn_cal_prev.png" />
+                <div class="today">
+                    <span style="cursor:pointer" class="calendar">
+                            <input name="ctl00$ctl00$ctl00$ctl00$cphContainer$cphContainer$cphContent$cphContent$txtSearchDate" type="text" value="2026.10.04(SUN)" readonly="readonly" id="cphContainer_cphContainer_cphContent_cphContent_txtSearchDate" title="날짜" border="0" />
+                            <input name="ctl00$ctl00$ctl00$ctl00$cphContainer$cphContainer$cphContent$cphContent$txtCalendarDate" type="text" readonly="readonly" id="cphContainer_cphContainer_cphContent_cphContent_txtCalendarDate" title="날짜" border="0" />
+                    </span>
+                    
+                </div>
+                <input type="image" name="ctl00$ctl00$ctl00$ctl00$cphContainer$cphContainer$cphContent$cphContent$btnNext" id="cphContainer_cphContainer_cphContent_cphContent_btnNext" class="next" alt="다음" src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/images/common/btn_cal_next.png" />
+				<!--<a href="#" class="prev"><span>prev</span></a>
+				<div class="today">
+					<span>2013.08.14(WED)</span>
+					<a href="#" class="calender"><span>calender</span></a>
+				</div> 20190101 heokyunam 임시처리
+				<div id="datepicker" class="datepicker_position" style="display:block;position:absolute;z-index:100;margin-left:55px;"></div>
+				<a href="#" class="next"><span>next</span></a>-->
+			</div>
+		</div> <!--//standing_day -->
+
+	    <input type="hidden" name="ctl00$ctl00$ctl00$ctl00$cphContainer$cphContainer$cphContent$cphContent$sort" id="cphContainer_cphContainer_cphContent_cphContent_sort" value="HRA_RT" />
+
+		<div class="selectarea">
+			<span class="select_a select_a_type1" style="width:80px;">
+				<input name="ctl00$ctl00$ctl00$ctl00$cphContainer$cphContainer$cphContent$cphContent$inputYear" type="text" id="cphContainer_cphContainer_cphContent_cphContent_inputYear" class="selected" readonly="readonly" value="2026" />
+				<div class="list">
+					<ul>
+						
+						<li><a href="javascript:year(2026);">2026</a></li>
+                        
+						<li><a href="javascript:year(2025);">2025</a></li>
+                        
+						<li><a href="javascript:year(2024);">2024</a></li>
+                        
+						<li><a href="javascript:year(2023);">2023</a></li>
+                        
+						<li><a href="javascript:year(2022);">2022</a></li>
+                        
+						<li><a href="javascript:year(2021);">2021</a></li>
+                        
+						<li><a href="javascript:year(2020);">2020</a></li>
+                        
+						<li><a href="javascript:year(2019);">2019</a></li>
+                        
+						<li><a href="javascript:year(2018);">2018</a></li>
+                        
+						<li><a href="javascript:year(2017);">2017</a></li>
+                        
+						<li><a href="javascript:year(2016);">2016</a></li>
+                        
+						<li><a href="javascript:year(2015);">2015</a></li>
+                        
+						<li><a href="javascript:year(2014);">2014</a></li>
+                        
+						<li><a href="javascript:year(2013);">2013</a></li>
+                        
+						<li><a href="javascript:year(2012);">2012</a></li>
+                        
+						<li><a href="javascript:year(2011);">2011</a></li>
+                        
+						<li><a href="javascript:year(2010);">2010</a></li>
+                        
+					</ul>
+				</div>
+			</span>
+		</div>
+
+		<div class="tbl_common">
+			<table summary="team standings">
+				<thead>
+					<tr>
+						<th scope="col"><span>RK</span></th>
+						<th scope="col"><span>TEAM</span></th>
+						<th scope="col"><span>GAMES</span></th>
+						<th scope="col"><span>W</span></th>
+						<th scope="col"><span>L</span></th>
+						<th scope="col"><span>D</span></th>
+						<th scope="col"><span>PCT</span></th>
+						<th scope="col"><span>GB</span></th>
+						<th scope="col"><span>STREAK</span></th>
+						<th scope="col"><span>HOME</span></th>
+						<th scope="col"><span>AWAY</span></th>
+					</tr>
+				</thead>
+				<tbody>
+                    
+					<tr class="standing_first">
+						<td title="RK">1</td>
+						<td title="TEAM">KT</td>
+						<td title="GAMES">138</td>
+						<td title="W">85</td>
+						<td title="L">49</td>
+						<td title="D">4</td>
+						<td title="PCT">0.634</td>
+						<td title="GB">0.0</td>
+						<td title="STREAK">W5</td>
+						<td title="HOME">43-24-1</td>
+						<td title="AWAY">42-25-3</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">2</td>
+						<td title="TEAM">SAMSUNG</td>
+						<td title="GAMES">137</td>
+						<td title="W">82</td>
+						<td title="L">52</td>
+						<td title="D">3</td>
+						<td title="PCT">0.612</td>
+						<td title="GB">3.0</td>
+						<td title="STREAK">W6</td>
+						<td title="HOME">43-25-1</td>
+						<td title="AWAY">39-27-2</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">3</td>
+						<td title="TEAM">LG</td>
+						<td title="GAMES">137</td>
+						<td title="W">75</td>
+						<td title="L">61</td>
+						<td title="D">1</td>
+						<td title="PCT">0.551</td>
+						<td title="GB">11.0</td>
+						<td title="STREAK">L6</td>
+						<td title="HOME">40-29-0</td>
+						<td title="AWAY">35-32-1</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">4</td>
+						<td title="TEAM">KIA</td>
+						<td title="GAMES">136</td>
+						<td title="W">73</td>
+						<td title="L">61</td>
+						<td title="D">2</td>
+						<td title="PCT">0.545</td>
+						<td title="GB">12.0</td>
+						<td title="STREAK">W1</td>
+						<td title="HOME">40-27-2</td>
+						<td title="AWAY">33-34-0</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">5</td>
+						<td title="TEAM">DOOSAN</td>
+						<td title="GAMES">139</td>
+						<td title="W">70</td>
+						<td title="L">64</td>
+						<td title="D">5</td>
+						<td title="PCT">0.522</td>
+						<td title="GB">15.0</td>
+						<td title="STREAK">L1</td>
+						<td title="HOME">40-27-3</td>
+						<td title="AWAY">30-37-2</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">6</td>
+						<td title="TEAM">NC</td>
+						<td title="GAMES">138</td>
+						<td title="W">63</td>
+						<td title="L">73</td>
+						<td title="D">2</td>
+						<td title="PCT">0.463</td>
+						<td title="GB">23.0</td>
+						<td title="STREAK">W1</td>
+						<td title="HOME">32-38-0</td>
+						<td title="AWAY">31-35-2</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">7</td>
+						<td title="TEAM">SSG</td>
+						<td title="GAMES">138</td>
+						<td title="W">61</td>
+						<td title="L">72</td>
+						<td title="D">5</td>
+						<td title="PCT">0.459</td>
+						<td title="GB">23.5</td>
+						<td title="STREAK">L1</td>
+						<td title="HOME">32-33-4</td>
+						<td title="AWAY">29-39-1</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">8</td>
+						<td title="TEAM">LOTTE</td>
+						<td title="GAMES">136</td>
+						<td title="W">61</td>
+						<td title="L">73</td>
+						<td title="D">2</td>
+						<td title="PCT">0.455</td>
+						<td title="GB">24.0</td>
+						<td title="STREAK">L1</td>
+						<td title="HOME">28-39-0</td>
+						<td title="AWAY">33-34-2</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">9</td>
+						<td title="TEAM">HANWHA</td>
+						<td title="GAMES">139</td>
+						<td title="W">55</td>
+						<td title="L">80</td>
+						<td title="D">4</td>
+						<td title="PCT">0.407</td>
+						<td title="GB">30.5</td>
+						<td title="STREAK">L4</td>
+						<td title="HOME">25-39-3</td>
+						<td title="AWAY">30-41-1</td>
+					</tr>
+                    
+					<tr class="">
+						<td title="RK">10</td>
+						<td title="TEAM">KIWOOM</td>
+						<td title="GAMES">140</td>
+						<td title="W">48</td>
+						<td title="L">88</td>
+						<td title="D">4</td>
+						<td title="PCT">0.353</td>
+						<td title="GB">38.0</td>
+						<td title="STREAK">W1</td>
+						<td title="HOME">27-42-2</td>
+						<td title="AWAY">21-46-2</td>
+					</tr>
+                    
+				</tbody>
+			</table>
+		</div> <!--//tbl_common -->
+
+		<div class="tbl_common">
+			<table summary="team standings">
+				<colgroup>
+					<col style="width:5%;" />
+                    <col style="width:18%;" />
+                    <col style="width:15%;" />
+                    <col style="width:15%;" />
+                    <col style="width:15%;" />
+                    <col style="width:18%;" />
+                    <col style="width:auto;" />
+				</colgroup>
+
+				<thead>
+					<tr>
+						<th scope="col"><span>RK</span></th>
+						<th scope="col"><span>TEAM</span></th>
+						<th scope="col"><span>AVG</span><a href="javascript:sort('HRA_RT');"><span class="arrow on">▼</span></a></th>
+						<th scope="col"><span>ERA</span><a href="javascript:sort('ERA_RT');"><span class="arrow ">▼</span></a></th>
+						<th scope="col"><span>RUNS</span><a href="javascript:sort('RUN_CN');"><span class="arrow ">▼</span></a></th>
+						<th scope="col"><span>RUNS ALLOWED</span><a href="javascript:sort('R_CN');"><span class="arrow ">▼</span></a></th>
+						<th scope="col"><span>HR</span><a href="javascript:sort('HR_CN');"><span class="arrow ">▼</span></a></th>
+					</tr>
+				</thead>
+				<tbody>
+                    
+					<tr>
+						<td title="PK">1</td>
+						<td title="TEAM">KT</td>
+						<td title="AVG" class="on">0.283</td>
+						<td title="ERA" class="">4.25</td>
+						<td title="RUNS" class="">779</td>
+						<td title="RUNS ALLOWED" class="">638</td>
+						<td title="HR" class="">113</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">2</td>
+						<td title="TEAM">SAMSUNG</td>
+						<td title="AVG" class="on">0.277</td>
+						<td title="ERA" class="">4.19</td>
+						<td title="RUNS" class="">787</td>
+						<td title="RUNS ALLOWED" class="">618</td>
+						<td title="HR" class="">134</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">3</td>
+						<td title="TEAM">HANWHA</td>
+						<td title="AVG" class="on">0.272</td>
+						<td title="ERA" class="">5.26</td>
+						<td title="RUNS" class="">785</td>
+						<td title="RUNS ALLOWED" class="">804</td>
+						<td title="HR" class="">169</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">4</td>
+						<td title="TEAM">LOTTE</td>
+						<td title="AVG" class="on">0.272</td>
+						<td title="ERA" class="">4.76</td>
+						<td title="RUNS" class="">649</td>
+						<td title="RUNS ALLOWED" class="">706</td>
+						<td title="HR" class="">105</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">5</td>
+						<td title="TEAM">NC</td>
+						<td title="AVG" class="on">0.272</td>
+						<td title="ERA" class="">4.71</td>
+						<td title="RUNS" class="">702</td>
+						<td title="RUNS ALLOWED" class="">730</td>
+						<td title="HR" class="">130</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">6</td>
+						<td title="TEAM">KIA</td>
+						<td title="AVG" class="on">0.271</td>
+						<td title="ERA" class="">4.29</td>
+						<td title="RUNS" class="">721</td>
+						<td title="RUNS ALLOWED" class="">633</td>
+						<td title="HR" class="">164</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">7</td>
+						<td title="TEAM">DOOSAN</td>
+						<td title="AVG" class="on">0.267</td>
+						<td title="ERA" class="">3.86</td>
+						<td title="RUNS" class="">657</td>
+						<td title="RUNS ALLOWED" class="">610</td>
+						<td title="HR" class="">109</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">8</td>
+						<td title="TEAM">LG</td>
+						<td title="AVG" class="on">0.265</td>
+						<td title="ERA" class="">4.85</td>
+						<td title="RUNS" class="">694</td>
+						<td title="RUNS ALLOWED" class="">692</td>
+						<td title="HR" class="">126</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">9</td>
+						<td title="TEAM">SSG</td>
+						<td title="AVG" class="on">0.259</td>
+						<td title="ERA" class="">5.22</td>
+						<td title="RUNS" class="">675</td>
+						<td title="RUNS ALLOWED" class="">774</td>
+						<td title="HR" class="">139</td>
+					</tr>
+					
+					<tr>
+						<td title="PK">10</td>
+						<td title="TEAM">KIWOOM</td>
+						<td title="AVG" class="on">0.243</td>
+						<td title="ERA" class="">5.27</td>
+						<td title="RUNS" class="">544</td>
+						<td title="RUNS ALLOWED" class="">788</td>
+						<td title="HR" class="">106</td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</div> <!--//tbl_common -->
+	</div> <!--//inner -->
+</div> <!--//contents -->
+
+
+</div> <!--//container -->
+
+
+        
+
+<div id="footer">
+	<div class="kbo_home">
+		<a href="/Default.aspx" title="kbo homepage"><span>KBO</span></a>
+	</div>
+	<div class="ebl">
+		<ul>
+			<li><a href="http://www.tigers.co.kr" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_HT.png" alt="" /></a></li>
+			<li><a href="http://www.samsunglions.com" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_SS.png" alt="" /></a></li>
+			<li><a href="http://www.lgtwins.com" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_LG.png" alt="" /></a></li>
+			<li><a href="http://www.doosanbears.com" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_OB.png" alt="" /></a></li>
+			<li><a href="http://ktwiz.co.kr"  class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_KT.png" alt="" /></a></li>
+			<li><a href="http://www.ssglanders.com" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_SK.png" alt="" /></a></li>
+            <li><a href="http://www.giantsclub.com" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_LT.png" alt="" /></a></li>
+			<li class="last"><a href="http://www.hanwhaeagles.co.kr" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_HH.png" alt="" /></a></li>        
+			<li><a href="http://www.ncdinos.com" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_NC.png" alt="" /></a></li>
+			<li><a href="http://www.heroesbaseball.co.kr" class="" target="_blank" title="link title"><img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/ebl/regular/fixed/ebl_ft_WO.png" alt="" /></a></li>
+		</ul>
+		<p>&copy; Korea Baseball Organization, 278 Gangnam-daero, Gangnam-gu, Seoul, Korea 06258 TEL 02) 3460-4600</p>
+		<p>This is the official KBO website for our fans operated by sports2i co. LTD. </p>
+		<p>
+			Copyright&copy; 2010~2016 KBO. All rights reserved.
+			<img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/common/ico_w3c.png" alt="W3C 웹표준XHTML 1.0 Transitional준수" />
+		</p>
+	</div> <!--//ebl -->
+	<div class="verisign">
+		<img src="//6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/eng/resources/images/common/ico_verisign.png" alt="" />
+	</div>
+</div> <!--//footer -->
+
+
+    </form>
+</body>
+</html>

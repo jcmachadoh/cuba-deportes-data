@@ -1,0 +1,736 @@
+{
+ "schemaVersion": 1,
+ "type": "standings",
+ "id": "baseball.mlb:2022",
+ "updatedAt": "2026-10-03T18:03:50Z",
+ "sources": [
+  "mlb-statsapi"
+ ],
+ "competitionId": "baseball.mlb",
+ "season": "2022",
+ "groups": [
+  {
+   "id": "201",
+   "name": "American League East",
+   "rows": [
+    {
+     "participantId": "baseball.new-york-yankees",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 162,
+      "W": 99,
+      "L": 63,
+      "PCT": 0.611,
+      "STRK": "L2",
+      "L10": "5-5",
+      "HOME": "57-24",
+      "AWAY": "42-39",
+      "RS": 807,
+      "RA": 567,
+      "RD": 240
+     },
+     "extra": {
+      "clinchIndicator": "y",
+      "leagueRank": "2"
+     }
+    },
+    {
+     "participantId": "baseball.toronto-blue-jays",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 162,
+      "W": 92,
+      "L": 70,
+      "PCT": 0.568,
+      "GB": 7.0,
+      "STRK": "W1",
+      "L10": "7-3",
+      "HOME": "47-34",
+      "AWAY": "45-36",
+      "RS": 775,
+      "RA": 679,
+      "RD": 96
+     },
+     "extra": {
+      "clinchIndicator": "w",
+      "wildCardGamesBack": "+6.0",
+      "leagueRank": "4"
+     }
+    },
+    {
+     "participantId": "baseball.tampa-bay-rays",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 162,
+      "W": 86,
+      "L": 76,
+      "PCT": 0.531,
+      "GB": 13.0,
+      "STRK": "L5",
+      "L10": "2-8",
+      "HOME": "51-30",
+      "AWAY": "35-46",
+      "RS": 666,
+      "RA": 614,
+      "RD": 52
+     },
+     "extra": {
+      "clinchIndicator": "w",
+      "leagueRank": "6"
+     }
+    },
+    {
+     "participantId": "baseball.baltimore-orioles",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 162,
+      "W": 83,
+      "L": 79,
+      "PCT": 0.512,
+      "GB": 16.0,
+      "STRK": "L1",
+      "L10": "4-6",
+      "HOME": "45-36",
+      "AWAY": "38-43",
+      "RS": 674,
+      "RA": 688,
+      "RD": -14
+     },
+     "extra": {
+      "wildCardGamesBack": "3.0",
+      "leagueRank": "7"
+     }
+    },
+    {
+     "participantId": "baseball.boston-red-sox",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 162,
+      "W": 78,
+      "L": 84,
+      "PCT": 0.481,
+      "GB": 21.0,
+      "STRK": "W3",
+      "L10": "6-4",
+      "HOME": "43-38",
+      "AWAY": "35-46",
+      "RS": 735,
+      "RA": 787,
+      "RD": -52
+     },
+     "extra": {
+      "wildCardGamesBack": "8.0",
+      "leagueRank": "10"
+     }
+    }
+   ]
+  },
+  {
+   "id": "202",
+   "name": "American League Central",
+   "rows": [
+    {
+     "participantId": "baseball.cleveland-guardians",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 162,
+      "W": 92,
+      "L": 70,
+      "PCT": 0.568,
+      "STRK": "W2",
+      "L10": "7-3",
+      "HOME": "46-35",
+      "AWAY": "46-35",
+      "RS": 698,
+      "RA": 634,
+      "RD": 64
+     },
+     "extra": {
+      "clinchIndicator": "y",
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.chicago-white-sox",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 162,
+      "W": 81,
+      "L": 81,
+      "PCT": 0.5,
+      "GB": 11.0,
+      "STRK": "L1",
+      "L10": "5-5",
+      "HOME": "37-44",
+      "AWAY": "44-37",
+      "RS": 686,
+      "RA": 717,
+      "RD": -31
+     },
+     "extra": {
+      "wildCardGamesBack": "5.0",
+      "leagueRank": "8"
+     }
+    },
+    {
+     "participantId": "baseball.minnesota-twins",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 162,
+      "W": 78,
+      "L": 84,
+      "PCT": 0.481,
+      "GB": 14.0,
+      "STRK": "W1",
+      "L10": "4-6",
+      "HOME": "46-35",
+      "AWAY": "32-49",
+      "RS": 696,
+      "RA": 684,
+      "RD": 12
+     },
+     "extra": {
+      "wildCardGamesBack": "8.0",
+      "leagueRank": "9"
+     }
+    },
+    {
+     "participantId": "baseball.detroit-tigers",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 162,
+      "W": 66,
+      "L": 96,
+      "PCT": 0.407,
+      "GB": 26.0,
+      "STRK": "L3",
+      "L10": "6-4",
+      "HOME": "36-46",
+      "AWAY": "30-50",
+      "RS": 557,
+      "RA": 713,
+      "RD": -156
+     },
+     "extra": {
+      "wildCardGamesBack": "20.0",
+      "leagueRank": "13"
+     }
+    },
+    {
+     "participantId": "baseball.kansas-city-royals",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 162,
+      "W": 65,
+      "L": 97,
+      "PCT": 0.401,
+      "GB": 27.0,
+      "STRK": "L2",
+      "L10": "3-7",
+      "HOME": "39-42",
+      "AWAY": "26-55",
+      "RS": 640,
+      "RA": 810,
+      "RD": -170
+     },
+     "extra": {
+      "wildCardGamesBack": "21.0",
+      "leagueRank": "14"
+     }
+    }
+   ]
+  },
+  {
+   "id": "200",
+   "name": "American League West",
+   "rows": [
+    {
+     "participantId": "baseball.houston-astros",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 162,
+      "W": 106,
+      "L": 56,
+      "PCT": 0.654,
+      "STRK": "W2",
+      "L10": "7-3",
+      "HOME": "55-26",
+      "AWAY": "51-30",
+      "RS": 737,
+      "RA": 518,
+      "RD": 219
+     },
+     "extra": {
+      "clinchIndicator": "z",
+      "leagueRank": "1"
+     }
+    },
+    {
+     "participantId": "baseball.seattle-mariners",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 162,
+      "W": 90,
+      "L": 72,
+      "PCT": 0.556,
+      "GB": 16.0,
+      "STRK": "W3",
+      "L10": "7-3",
+      "HOME": "46-35",
+      "AWAY": "44-37",
+      "RS": 690,
+      "RA": 623,
+      "RD": 67
+     },
+     "extra": {
+      "clinchIndicator": "w",
+      "wildCardGamesBack": "+4.0",
+      "leagueRank": "5"
+     }
+    },
+    {
+     "participantId": "baseball.los-angeles-angels",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 162,
+      "W": 73,
+      "L": 89,
+      "PCT": 0.451,
+      "GB": 33.0,
+      "STRK": "L3",
+      "L10": "7-3",
+      "HOME": "40-41",
+      "AWAY": "33-48",
+      "RS": 623,
+      "RA": 668,
+      "RD": -45
+     },
+     "extra": {
+      "wildCardGamesBack": "13.0",
+      "leagueRank": "11"
+     }
+    },
+    {
+     "participantId": "baseball.texas-rangers",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 162,
+      "W": 68,
+      "L": 94,
+      "PCT": 0.42,
+      "GB": 38.0,
+      "STRK": "W2",
+      "L10": "3-7",
+      "HOME": "34-47",
+      "AWAY": "34-47",
+      "RS": 707,
+      "RA": 743,
+      "RD": -36
+     },
+     "extra": {
+      "wildCardGamesBack": "18.0",
+      "leagueRank": "12"
+     }
+    },
+    {
+     "participantId": "baseball.athletics",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 162,
+      "W": 60,
+      "L": 102,
+      "PCT": 0.37,
+      "GB": 46.0,
+      "STRK": "W4",
+      "L10": "4-6",
+      "HOME": "29-51",
+      "AWAY": "31-51",
+      "RS": 568,
+      "RA": 770,
+      "RD": -202
+     },
+     "extra": {
+      "wildCardGamesBack": "26.0",
+      "leagueRank": "15"
+     }
+    }
+   ]
+  },
+  {
+   "id": "204",
+   "name": "National League East",
+   "rows": [
+    {
+     "participantId": "baseball.atlanta-braves",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 162,
+      "W": 101,
+      "L": 61,
+      "PCT": 0.623,
+      "STRK": "L1",
+      "L10": "7-3",
+      "HOME": "55-26",
+      "AWAY": "46-35",
+      "RS": 789,
+      "RA": 609,
+      "RD": 180
+     },
+     "extra": {
+      "clinchIndicator": "y",
+      "leagueRank": "2"
+     }
+    },
+    {
+     "participantId": "baseball.new-york-mets",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 162,
+      "W": 101,
+      "L": 61,
+      "PCT": 0.623,
+      "STRK": "W3",
+      "L10": "5-5",
+      "HOME": "54-27",
+      "AWAY": "47-34",
+      "RS": 772,
+      "RA": 606,
+      "RD": 166
+     },
+     "extra": {
+      "clinchIndicator": "w",
+      "wildCardGamesBack": "+14.0",
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.philadelphia-phillies",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 162,
+      "W": 87,
+      "L": 75,
+      "PCT": 0.537,
+      "GB": 14.0,
+      "STRK": "L2",
+      "L10": "4-6",
+      "HOME": "47-34",
+      "AWAY": "40-41",
+      "RS": 747,
+      "RA": 685,
+      "RD": 62
+     },
+     "extra": {
+      "clinchIndicator": "w",
+      "leagueRank": "6"
+     }
+    },
+    {
+     "participantId": "baseball.miami-marlins",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 162,
+      "W": 69,
+      "L": 93,
+      "PCT": 0.426,
+      "GB": 32.0,
+      "STRK": "W1",
+      "L10": "6-4",
+      "HOME": "34-47",
+      "AWAY": "35-46",
+      "RS": 586,
+      "RA": 676,
+      "RD": -90
+     },
+     "extra": {
+      "wildCardGamesBack": "18.0",
+      "leagueRank": "11"
+     }
+    },
+    {
+     "participantId": "baseball.washington-nationals",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 162,
+      "W": 55,
+      "L": 107,
+      "PCT": 0.34,
+      "GB": 46.0,
+      "STRK": "L5",
+      "L10": "2-8",
+      "HOME": "26-55",
+      "AWAY": "29-52",
+      "RS": 603,
+      "RA": 855,
+      "RD": -252
+     },
+     "extra": {
+      "wildCardGamesBack": "32.0",
+      "leagueRank": "15"
+     }
+    }
+   ]
+  },
+  {
+   "id": "205",
+   "name": "National League Central",
+   "rows": [
+    {
+     "participantId": "baseball.st-louis-cardinals",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 162,
+      "W": 93,
+      "L": 69,
+      "PCT": 0.574,
+      "STRK": "L1",
+      "L10": "4-6",
+      "HOME": "53-28",
+      "AWAY": "40-41",
+      "RS": 772,
+      "RA": 637,
+      "RD": 135
+     },
+     "extra": {
+      "clinchIndicator": "y",
+      "leagueRank": "4"
+     }
+    },
+    {
+     "participantId": "baseball.milwaukee-brewers",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 162,
+      "W": 86,
+      "L": 76,
+      "PCT": 0.531,
+      "GB": 7.0,
+      "STRK": "L1",
+      "L10": "4-6",
+      "HOME": "46-35",
+      "AWAY": "40-41",
+      "RS": 725,
+      "RA": 688,
+      "RD": 37
+     },
+     "extra": {
+      "wildCardGamesBack": "1.0",
+      "leagueRank": "7"
+     }
+    },
+    {
+     "participantId": "baseball.chicago-cubs",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 162,
+      "W": 74,
+      "L": 88,
+      "PCT": 0.457,
+      "GB": 19.0,
+      "STRK": "W1",
+      "L10": "8-2",
+      "HOME": "37-44",
+      "AWAY": "37-44",
+      "RS": 657,
+      "RA": 731,
+      "RD": -74
+     },
+     "extra": {
+      "wildCardGamesBack": "13.0",
+      "leagueRank": "10"
+     }
+    },
+    {
+     "participantId": "baseball.pittsburgh-pirates",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 162,
+      "W": 62,
+      "L": 100,
+      "PCT": 0.383,
+      "GB": 31.0,
+      "STRK": "W1",
+      "L10": "6-4",
+      "HOME": "34-47",
+      "AWAY": "28-53",
+      "RS": 591,
+      "RA": 817,
+      "RD": -226
+     },
+     "extra": {
+      "wildCardGamesBack": "25.0",
+      "leagueRank": "13"
+     }
+    },
+    {
+     "participantId": "baseball.cincinnati-reds",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 162,
+      "W": 62,
+      "L": 100,
+      "PCT": 0.383,
+      "GB": 31.0,
+      "STRK": "L1",
+      "L10": "3-7",
+      "HOME": "33-48",
+      "AWAY": "29-52",
+      "RS": 648,
+      "RA": 815,
+      "RD": -167
+     },
+     "extra": {
+      "wildCardGamesBack": "25.0",
+      "leagueRank": "14"
+     }
+    }
+   ]
+  },
+  {
+   "id": "203",
+   "name": "National League West",
+   "rows": [
+    {
+     "participantId": "baseball.los-angeles-dodgers",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 162,
+      "W": 111,
+      "L": 51,
+      "PCT": 0.685,
+      "STRK": "W1",
+      "L10": "6-4",
+      "HOME": "57-24",
+      "AWAY": "54-27",
+      "RS": 847,
+      "RA": 513,
+      "RD": 334
+     },
+     "extra": {
+      "clinchIndicator": "z",
+      "leagueRank": "1"
+     }
+    },
+    {
+     "participantId": "baseball.san-diego-padres",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 162,
+      "W": 89,
+      "L": 73,
+      "PCT": 0.549,
+      "GB": 22.0,
+      "STRK": "L1",
+      "L10": "5-5",
+      "HOME": "44-37",
+      "AWAY": "45-36",
+      "RS": 705,
+      "RA": 660,
+      "RD": 45
+     },
+     "extra": {
+      "clinchIndicator": "w",
+      "wildCardGamesBack": "+2.0",
+      "leagueRank": "5"
+     }
+    },
+    {
+     "participantId": "baseball.san-francisco-giants",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 162,
+      "W": 81,
+      "L": 81,
+      "PCT": 0.5,
+      "GB": 30.0,
+      "STRK": "W1",
+      "L10": "7-3",
+      "HOME": "44-37",
+      "AWAY": "37-44",
+      "RS": 716,
+      "RA": 697,
+      "RD": 19
+     },
+     "extra": {
+      "wildCardGamesBack": "6.0",
+      "leagueRank": "8"
+     }
+    },
+    {
+     "participantId": "baseball.arizona-diamondbacks",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 162,
+      "W": 74,
+      "L": 88,
+      "PCT": 0.457,
+      "GB": 37.0,
+      "STRK": "W1",
+      "L10": "4-6",
+      "HOME": "40-41",
+      "AWAY": "34-47",
+      "RS": 702,
+      "RA": 740,
+      "RD": -38
+     },
+     "extra": {
+      "wildCardGamesBack": "13.0",
+      "leagueRank": "9"
+     }
+    },
+    {
+     "participantId": "baseball.colorado-rockies",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 162,
+      "W": 68,
+      "L": 94,
+      "PCT": 0.42,
+      "GB": 43.0,
+      "STRK": "L1",
+      "L10": "3-7",
+      "HOME": "41-40",
+      "AWAY": "27-54",
+      "RS": 698,
+      "RA": 873,
+      "RD": -175
+     },
+     "extra": {
+      "wildCardGamesBack": "19.0",
+      "leagueRank": "12"
+     }
+    }
+   ]
+  }
+ ]
+}

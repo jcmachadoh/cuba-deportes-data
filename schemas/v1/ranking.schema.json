@@ -1,0 +1,194 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Ranking",
+ "type": "object",
+ "required": [
+  "schemaVersion",
+  "type",
+  "id",
+  "competitionId",
+  "rankingId",
+  "entries"
+ ],
+ "properties": {
+  "schemaVersion": {
+   "const": 1
+  },
+  "type": {
+   "type": "string"
+  },
+  "id": {
+   "type": "string"
+  },
+  "updatedAt": {
+   "type": "string"
+  },
+  "sources": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "competitionId": {
+   "type": "string"
+  },
+  "rankingId": {
+   "type": "string"
+  },
+  "asOf": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "entries": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/row"
+   }
+  }
+ },
+ "additionalProperties": true,
+ "$defs": {
+  "personSummary": {
+   "type": "object",
+   "required": [
+    "id",
+    "name"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^p\\."
+    },
+    "name": {
+     "type": "object",
+     "required": [
+      "full"
+     ],
+     "properties": {
+      "full": {
+       "type": "string"
+      },
+      "first": {
+       "type": "string"
+      },
+      "last": {
+       "type": "string"
+      },
+      "short": {
+       "type": "string"
+      },
+      "abbrev": {
+       "type": "string"
+      }
+     }
+    },
+    "birthDate": {
+     "type": "string"
+    },
+    "nationalities": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+     }
+    },
+    "isCuban": {
+     "type": "boolean"
+    },
+    "birthCountry": {
+     "type": "string",
+     "pattern": "^[A-Z]{2}$"
+    },
+    "photo": {
+     "$ref": "#/$defs/photo"
+    }
+   }
+  },
+  "photo": {
+   "type": "object",
+   "required": [
+    "url"
+   ],
+   "properties": {
+    "url": {
+     "type": "string"
+    },
+    "credit": {
+     "type": "string"
+    },
+    "license": {
+     "type": "string"
+    },
+    "source": {
+     "type": "string"
+    }
+   }
+  },
+  "row": {
+   "type": "object",
+   "required": [
+    "participantId",
+    "participantType",
+    "stats"
+   ],
+   "properties": {
+    "participantId": {
+     "type": "string"
+    },
+    "participantType": {
+     "enum": [
+      "team",
+      "person"
+     ]
+    },
+    "rank": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "stats": {
+     "type": "object",
+     "additionalProperties": {
+      "type": [
+       "number",
+       "string",
+       "null"
+      ]
+     }
+    },
+    "extra": {
+     "type": "object"
+    },
+    "person": {
+     "$ref": "#/$defs/personSummary"
+    }
+   }
+  },
+  "name": {
+   "type": "object",
+   "required": [
+    "full"
+   ],
+   "properties": {
+    "full": {
+     "type": "string"
+    },
+    "first": {
+     "type": "string"
+    },
+    "last": {
+     "type": "string"
+    },
+    "short": {
+     "type": "string"
+    },
+    "abbrev": {
+     "type": "string"
+    }
+   }
+  }
+ }
+}

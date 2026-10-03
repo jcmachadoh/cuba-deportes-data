@@ -1,0 +1,130 @@
+# Catálogo de deportes. Define cómo se agrupan las plantillas (por posición)
+# y el diccionario de estadísticas. Añadir una métrica = añadirla aquí; el
+# esquema de datos no cambia (stats es clave-valor).
+sports:
+  - id: baseball
+    name: { es: "Béisbol", en: "Baseball" }
+    participant: team
+    order: 1
+    roster_groups:            # orden de pantalla de la plantilla
+      - { code: P,     name: { es: "Lanzadores" } }
+      - { code: C,     name: { es: "Receptores" } }
+      - { code: IF,    name: { es: "Jugadores de cuadro" } }
+      - { code: OF,    name: { es: "Jardineros" } }
+      - { code: DH,    name: { es: "Bateadores designados" } }
+      - { code: STAFF, name: { es: "Cuerpo técnico" } }
+    position_to_group:
+      P: P
+      SP: P
+      RP: P
+      TWP: P
+      C: C
+      1B: IF
+      2B: IF
+      3B: IF
+      SS: IF
+      IF: IF
+      LF: OF
+      CF: OF
+      RF: OF
+      OF: OF
+      DH: DH
+    stats:
+      GP:   { es: "Juegos jugados" }
+      W:    { es: "Ganados" }
+      L:    { es: "Perdidos" }
+      T:    { es: "Empates" }
+      PCT:  { es: "Promedio" }
+      GB:   { es: "Diferencia" }
+      STRK: { es: "Racha" }
+      L10:  { es: "Últimos 10" }
+      RS:   { es: "Carreras anotadas" }
+      RA:   { es: "Carreras permitidas" }
+      RD:   { es: "Diferencia de carreras" }
+      HOME: { es: "En casa" }
+      AWAY: { es: "Visitante" }
+
+  - id: soccer
+    name: { es: "Fútbol", en: "Soccer" }
+    participant: team
+    order: 2
+    roster_groups:
+      - { code: G,     name: { es: "Porteros" } }
+      - { code: D,     name: { es: "Defensas" } }
+      - { code: M,     name: { es: "Centrocampistas" } }
+      - { code: F,     name: { es: "Delanteros" } }
+      - { code: STAFF, name: { es: "Cuerpo técnico" } }
+    position_to_group: { G: G, GK: G, D: D, DF: D, M: M, MF: M, F: F, FW: F }
+    stats:
+      GP:  { es: "Partidos jugados" }
+      W:   { es: "Ganados" }
+      D:   { es: "Empatados" }
+      L:   { es: "Perdidos" }
+      GF:  { es: "Goles a favor" }
+      GA:  { es: "Goles en contra" }
+      GD:  { es: "Diferencia de goles" }
+      PTS: { es: "Puntos" }
+
+  - id: volleyball
+    name: { es: "Voleibol", en: "Volleyball" }
+    participant: team
+    order: 3
+    roster_groups:
+      - { code: S,     name: { es: "Pasadores" } }
+      - { code: OH,    name: { es: "Atacadores auxiliares" } }
+      - { code: OPP,   name: { es: "Opuestos" } }
+      - { code: MB,    name: { es: "Centrales" } }
+      - { code: L,     name: { es: "Líberos" } }
+      - { code: STAFF, name: { es: "Cuerpo técnico" } }
+    position_to_group: { S: S, OH: OH, OPP: OPP, MB: MB, L: L }
+    stats:
+      PTS: { es: "Puntos" }
+      GP:  { es: "Partidos jugados" }
+      W:   { es: "Ganados" }
+      L:   { es: "Perdidos" }
+      SW:  { es: "Sets ganados" }
+      SL:  { es: "Sets perdidos" }
+      SR:  { es: "Cociente de sets" }
+      PR:  { es: "Cociente de puntos" }
+      PF:  { es: "Puntos a favor" }
+      PA:  { es: "Puntos en contra" }
+      R30: { es: "Victorias 3-0" }
+      R31: { es: "Victorias 3-1" }
+      R32: { es: "Victorias 3-2" }
+      R23: { es: "Derrotas 2-3" }
+      R13: { es: "Derrotas 1-3" }
+      R03: { es: "Derrotas 0-3" }
+
+  - id: mma
+    name: { es: "UFC / MMA", en: "MMA" }
+    participant: person
+    order: 4
+    stats:
+      RANK: { es: "Posición" }
+      W:    { es: "Victorias" }
+      L:    { es: "Derrotas" }
+      D:    { es: "Empates" }
+
+  - id: boxing
+    name: { es: "Boxeo", en: "Boxing" }
+    participant: person
+    order: 5
+    stats:
+      RANK: { es: "Posición" }
+      W:    { es: "Victorias" }
+      L:    { es: "Derrotas" }
+      KO:   { es: "Nocauts" }
+
+  - id: chess
+    name: { es: "Ajedrez", en: "Chess" }
+    participant: person
+    order: 6
+    stats:
+      RANK:  { es: "Posición" }
+      ELO:   { es: "Elo clásico" }
+      RAPID: { es: "Elo rápido" }
+      BLITZ: { es: "Elo blitz" }
+      PTS:   { es: "Puntos" }
+      TB1:   { es: "Desempate 1" }
+      TB2:   { es: "Desempate 2" }
+      TB3:   { es: "Desempate 3" }

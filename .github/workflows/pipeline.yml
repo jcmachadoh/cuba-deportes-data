@@ -1,0 +1,120 @@
+# Pipeline de datos: recolecta -> enriquece -> imágenes -> build -> deploy a Cloudflare.
+#
+# Horarios (UTC). GitHub puede retrasar los cron unos minutos en horas pico.
+#   live    cada 2 h     clasificaciones/rankings de competiciones activas este mes
+#   full    diario       equipos, plantillas, rankings, torneos + Wikidata
+#   photos  diario       resolución de fotos (lotes de 1200)
+#   logos   semanal      descarga/normalización de logos (lunes)
+#   backfill manual      temporadas pasadas (history_seasons)
+name: pipeline
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"     # live
+    - cron: "40 8 * * *"       # full
+    - cron: "10 11 * * *"      # photos
+    - cron: "5 6 * * 1"        # logos
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: "live | full | backfill | photos | logos | build"
+        required: true
+        default: full
+      only:
+        description: "IDs de competición separados por coma (opcional)"
+        required: false
+        default: ""
+
+concurrency:
+  group: pipeline            # nunca dos ejecuciones escribiendo a la vez
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: "1"
+  PIPELINE_CONTACT: ${{ vars.PIPELINE_CONTACT || format('https://github.com/{0}', github.repository) }}
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Elegir perfil
+        id: p
+        run: |
+          case "${{ github.event.schedule }}" in
+            "17 */2 * * *") P=live ;;
+            "40 8 * * *")   P=full ;;
+            "10 11 * * *")  P=photos ;;
+            "5 6 * * 1")    P=logos ;;
+            *)              P="${{ github.event.inputs.profile || 'full' }}" ;;
+          esac
+          echo "profile=$P" >> "$GITHUB_OUTPUT"
+          echo "Perfil: $P"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias
+        run: |
+          sudo apt-get install -y --no-install-recommends libcairo2 >/dev/null
+          pip install -r requirements.txt
+
+      - name: Recolectar
+        if: contains(fromJSON('["live","full","backfill"]'), steps.p.outputs.profile)
+        run: |
+          ARGS="--profile ${{ steps.p.outputs.profile }}"
+          if [ -n "${{ github.event.inputs.only }}" ]; then ARGS="$ARGS --only ${{ github.event.inputs.only }}"; fi
+          python -m pipeline.run collect $ARGS
+
+      - name: Wikidata (cubanos por el mundo)
+        if: contains(fromJSON('["full","backfill"]'), steps.p.outputs.profile)
+        run: python -m pipeline.run enrich
+
+      - name: Logos
+        if: contains(fromJSON('["full","logos","backfill"]'), steps.p.outputs.profile)
+        run: python -m pipeline.run logos       # solo procesa nuevos o vencidos (30 días)
+
+      - name: Fotos
+        if: steps.p.outputs.profile == 'photos'
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_PUBLIC_BASE: ${{ vars.R2_PUBLIC_BASE }}
+        run: python -m pipeline.run photos --limit 1200
+
+      - name: Resumen de fuentes
+        if: always()
+        run: python -m pipeline.run report >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar cambios en git
+        run: |
+          git config user.name  "pipeline-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data state
+          if git diff --cached --quiet; then
+            echo "Sin cambios"; echo "changed=0" >> "$GITHUB_ENV"
+          else
+            git commit -q -m "datos: ${{ steps.p.outputs.profile }} $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+            echo "changed=1" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build
+        if: env.changed == '1' || steps.p.outputs.profile == 'build'
+        run: python -m pipeline.run build
+
+      - name: Deploy a Cloudflare (Workers Static Assets)
+        if: env.changed == '1' || steps.p.outputs.profile == 'build'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 deploy --config worker/wrangler.jsonc

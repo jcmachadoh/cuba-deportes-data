@@ -1,0 +1,13 @@
+// Worker solo de archivos estáticos (sin script): peticiones ilimitadas y
+// gratuitas en el plan Free. `public/` lo genera `python -m pipeline.run build`.
+{
+  "name": "cuba-deportes-data",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "../public",
+    "not_found_handling": "none",
+    "html_handling": "none"
+  },
+  // Dominio *.workers.dev por defecto; para dominio propio añade "routes".
+  "workers_dev": true
+}
