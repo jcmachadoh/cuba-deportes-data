@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.arg-1:2026",
- "updatedAt": "2026-10-03T18:10:18Z",
+ "updatedAt": "2026-10-03T23:03:33Z",
  "sources": [
   "espn"
  ],
@@ -29,9 +29,24 @@
      }
     },
     {
-     "participantId": "soccer.boca-juniors",
+     "participantId": "soccer.defensa-y-justicia",
      "participantType": "team",
      "rank": 2,
+     "stats": {
+      "GP": 11,
+      "W": 6,
+      "D": 3,
+      "L": 2,
+      "GF": 16,
+      "GA": 11,
+      "GD": 5,
+      "PTS": 21
+     }
+    },
+    {
+     "participantId": "soccer.boca-juniors",
+     "participantType": "team",
+     "rank": 3,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -46,7 +61,7 @@
     {
      "participantId": "soccer.velez-sarsfield",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 10,
       "W": 5,
@@ -56,21 +71,6 @@
       "GA": 9,
       "GD": 6,
       "PTS": 20
-     }
-    },
-    {
-     "participantId": "soccer.defensa-y-justicia",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 10,
-      "W": 5,
-      "D": 3,
-      "L": 2,
-      "GF": 13,
-      "GA": 11,
-      "GD": 2,
-      "PTS": 18
      }
     },
     {
@@ -89,9 +89,39 @@
      }
     },
     {
-     "participantId": "soccer.independiente",
+     "participantId": "soccer.lanus",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 11,
+      "W": 5,
+      "D": 2,
+      "L": 4,
+      "GF": 13,
+      "GA": 9,
+      "GD": 4,
+      "PTS": 17
+     }
+    },
+    {
+     "participantId": "soccer.newell-s-old-boys",
+     "participantType": "team",
+     "rank": 7,
+     "stats": {
+      "GP": 11,
+      "W": 4,
+      "D": 5,
+      "L": 2,
+      "GF": 11,
+      "GA": 8,
+      "GD": 3,
+      "PTS": 17
+     }
+    },
+    {
+     "participantId": "soccer.independiente",
+     "participantType": "team",
+     "rank": 8,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -101,36 +131,6 @@
       "GA": 12,
       "GD": -1,
       "PTS": 17
-     }
-    },
-    {
-     "participantId": "soccer.lanus",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 10,
-      "W": 5,
-      "D": 1,
-      "L": 4,
-      "GF": 13,
-      "GA": 9,
-      "GD": 4,
-      "PTS": 16
-     }
-    },
-    {
-     "participantId": "soccer.newell-s-old-boys",
-     "participantType": "team",
-     "rank": 8,
-     "stats": {
-      "GP": 10,
-      "W": 4,
-      "D": 4,
-      "L": 2,
-      "GF": 11,
-      "GA": 8,
-      "GD": 3,
-      "PTS": 16
      }
     },
     {
@@ -153,13 +153,13 @@
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 3,
       "D": 2,
-      "L": 5,
+      "L": 6,
       "GF": 4,
-      "GA": 8,
-      "GD": -4,
+      "GA": 11,
+      "GD": -7,
       "PTS": 11
      }
     },
@@ -350,9 +350,24 @@
      }
     },
     {
-     "participantId": "soccer.river-plate",
+     "participantId": "soccer.barracas-central",
      "participantType": "team",
      "rank": 8,
+     "stats": {
+      "GP": 11,
+      "W": 4,
+      "D": 3,
+      "L": 4,
+      "GF": 8,
+      "GA": 9,
+      "GD": -1,
+      "PTS": 15
+     }
+    },
+    {
+     "participantId": "soccer.river-plate",
+     "participantType": "team",
+     "rank": 9,
      "stats": {
       "GP": 10,
       "W": 4,
@@ -367,22 +382,22 @@
     {
      "participantId": "soccer.atletico-tucuman",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 3,
       "D": 4,
-      "L": 3,
-      "GF": 7,
-      "GA": 6,
-      "GD": 1,
+      "L": 4,
+      "GF": 9,
+      "GA": 9,
+      "GD": 0,
       "PTS": 13
      }
     },
     {
      "participantId": "soccer.tigre",
      "participantType": "team",
-     "rank": 10,
+     "rank": 11,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -391,21 +406,6 @@
       "GF": 9,
       "GA": 9,
       "GD": 0,
-      "PTS": 12
-     }
-    },
-    {
-     "participantId": "soccer.barracas-central",
-     "participantType": "team",
-     "rank": 11,
-     "stats": {
-      "GP": 10,
-      "W": 3,
-      "D": 3,
-      "L": 4,
-      "GF": 5,
-      "GA": 7,
-      "GD": -2,
       "PTS": 12
      }
     },
