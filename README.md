@@ -45,6 +45,12 @@ copiar a R2 las fotos de Commons. Sin R2, se enlaza la URL original.
 
 ## Despliegue
 
+URL pública: **https://cuba-deportes-data.cuba-deportes.workers.dev** (por ejemplo `/v1/manifest.json`).
+
+`python -m pipeline.deploy` sube `public/` con la API de Cloudflare (no necesita Node);
+solo envía los archivos que cambiaron. `npx wrangler deploy --config worker/wrangler.jsonc`
+es equivalente.
+
 1. Crear el repositorio **público** (Actions gratis sin límite de minutos) y subir este código.
 2. En Cloudflare: crear un API token con la plantilla "Edit Cloudflare Workers".
 3. En GitHub → Settings → Secrets and variables → Actions:
