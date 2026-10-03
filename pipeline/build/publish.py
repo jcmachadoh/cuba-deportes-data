@@ -266,6 +266,7 @@ class Builder:
             "/v1/*\n"
             "  Cache-Control: public, max-age=300, stale-while-revalidate=3600\n"
             "/v1/manifest.json\n"
+            "  ! Cache-Control\n"          # quita la regla de /v1/* (si no, Cloudflare une ambos valores)
             "  Cache-Control: public, max-age=60\n"
             "/media/*\n"
             "  Cache-Control: public, max-age=31536000, immutable\n", encoding="utf-8")
