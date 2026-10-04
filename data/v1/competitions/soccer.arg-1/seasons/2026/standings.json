@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.arg-1:2026",
- "updatedAt": "2026-10-03T23:03:33Z",
+ "updatedAt": "2026-10-04T21:30:01Z",
  "sources": [
   "espn"
  ],
@@ -245,9 +245,24 @@
    "name": "Group B",
    "rows": [
     {
-     "participantId": "soccer.argentinos-juniors",
+     "participantId": "soccer.huracan",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 11,
+      "W": 5,
+      "D": 4,
+      "L": 2,
+      "GF": 11,
+      "GA": 8,
+      "GD": 3,
+      "PTS": 19
+     }
+    },
+    {
+     "participantId": "soccer.argentinos-juniors",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 10,
       "W": 5,
@@ -262,7 +277,7 @@
     {
      "participantId": "soccer.rosario-central",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 10,
       "W": 5,
@@ -277,7 +292,7 @@
     {
      "participantId": "soccer.independiente-rivadavia",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -292,7 +307,7 @@
     {
      "participantId": "soccer.gimnasia-la-plata",
      "participantType": "team",
-     "rank": 4,
+     "rank": 5,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -307,7 +322,7 @@
     {
      "participantId": "soccer.belgrano-cordoba",
      "participantType": "team",
-     "rank": 5,
+     "rank": 6,
      "stats": {
       "GP": 10,
       "W": 4,
@@ -316,21 +331,6 @@
       "GF": 11,
       "GA": 7,
       "GD": 4,
-      "PTS": 16
-     }
-    },
-    {
-     "participantId": "soccer.huracan",
-     "participantType": "team",
-     "rank": 6,
-     "stats": {
-      "GP": 10,
-      "W": 4,
-      "D": 4,
-      "L": 2,
-      "GF": 10,
-      "GA": 8,
-      "GD": 2,
       "PTS": 16
      }
     },
@@ -429,13 +429,13 @@
      "participantType": "team",
      "rank": 13,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 2,
       "D": 2,
-      "L": 6,
+      "L": 7,
       "GF": 12,
-      "GA": 16,
-      "GD": -4,
+      "GA": 17,
+      "GD": -5,
       "PTS": 8
      }
     },
