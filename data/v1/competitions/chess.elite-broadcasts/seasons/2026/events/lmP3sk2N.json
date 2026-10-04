@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:lmP3sk2N",
- "updatedAt": "2026-10-04T14:37:20Z",
+ "updatedAt": "2026-10-04T18:10:31Z",
  "sources": [
   "lichess"
  ],
@@ -51,65 +51,40 @@
    {
     "name": "Ronda 6",
     "startsAt": 1791126000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 7",
     "startsAt": 1791127200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 8",
     "startsAt": 1791128400000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 9",
     "startsAt": 1791129600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 10",
     "startsAt": 1791130800000,
-    "finished": null
+    "finished": true
    }
   ]
  },
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.benjamin-bok",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 3.5,
-    "ELO": 2599,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.benjamin-bok",
-    "name": {
-     "full": "Benjamin Bok"
-    },
-    "nationalities": [
-     "NL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2768
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.jules-moussard",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
-    "PTS": 3.0,
+    "RANK": 1,
+    "PTS": 7.0,
     "ELO": 2637,
-    "GP": 5
+    "GP": 10
    },
    "person": {
     "id": "p.jules-moussard",
@@ -123,44 +98,43 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2683
+    "performance": 2760
    }
   },
   {
-   "rank": 3,
-   "participantId": "p.gawain-c-b-maroroa-jones.1987",
+   "rank": 2,
+   "participantId": "p.benjamin-bok",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 2.5,
-    "ELO": 2616,
-    "GP": 5
+    "RANK": 2,
+    "PTS": 6.0,
+    "ELO": 2599,
+    "GP": 10
    },
    "person": {
-    "id": "p.gawain-c-b-maroroa-jones.1987",
+    "id": "p.benjamin-bok",
     "name": {
-     "full": "Gawain C B Maroroa Jones"
+     "full": "Benjamin Bok"
     },
-    "birthDate": "1987",
     "nationalities": [
-     "GB"
+     "NL"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "performance": 2616
+    "performance": 2691
    }
   },
   {
-   "rank": 4,
+   "rank": 3,
    "participantId": "p.maxime-lagarde",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 2.5,
+    "RANK": 3,
+    "PTS": 5.5,
     "ELO": 2597,
-    "GP": 5
+    "GP": 10
    },
    "person": {
     "id": "p.maxime-lagarde",
@@ -174,18 +148,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2619
+    "performance": 2655
    }
   },
   {
-   "rank": 5,
+   "rank": 4,
    "participantId": "p.sergei-tiviakov",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 2.0,
+    "RANK": 4,
+    "PTS": 4.0,
     "ELO": 2653,
-    "GP": 5
+    "GP": 10
    },
    "person": {
     "id": "p.sergei-tiviakov",
@@ -203,14 +177,14 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 5,
    "participantId": "p.luke-j-mcshane",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
-    "PTS": 1.5,
+    "RANK": 5,
+    "PTS": 4.0,
     "ELO": 2594,
-    "GP": 5
+    "GP": 10
    },
    "person": {
     "id": "p.luke-j-mcshane",
@@ -224,7 +198,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2471
+    "performance": 2548
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.gawain-c-b-maroroa-jones.1987",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 3.5,
+    "ELO": 2616,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.gawain-c-b-maroroa-jones.1987",
+    "name": {
+     "full": "Gawain C B Maroroa Jones"
+    },
+    "birthDate": "1987",
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2506
    }
   }
  ]
