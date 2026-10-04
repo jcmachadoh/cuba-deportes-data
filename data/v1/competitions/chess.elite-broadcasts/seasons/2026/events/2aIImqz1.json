@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:2aIImqz1",
- "updatedAt": "2026-10-03T18:13:09Z",
+ "updatedAt": "2026-10-04T12:42:54Z",
  "sources": [
   "lichess"
  ],
@@ -51,22 +51,22 @@
    {
     "name": "Ronda 6",
     "startsAt": 1791104400000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 7",
     "startsAt": 1791108000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 8",
     "startsAt": 1791111600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 9",
     "startsAt": 1791115200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 10",
@@ -78,13 +78,38 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.gawain-c-b-maroroa-jones.1987",
+   "participantId": "p.jules-moussard",
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 8.0,
+    "PTS": 13.0,
+    "ELO": 2620,
+    "GP": 9
+   },
+   "person": {
+    "id": "p.jules-moussard",
+    "name": {
+     "full": "Jules Moussard"
+    },
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2769
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.gawain-c-b-maroroa-jones.1987",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 11.0,
     "ELO": 2609,
-    "GP": 5
+    "GP": 9
    },
    "person": {
     "id": "p.gawain-c-b-maroroa-jones.1987",
@@ -99,68 +124,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2843
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.jules-moussard",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 7.0,
-    "ELO": 2620,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.jules-moussard",
-    "name": {
-     "full": "Jules Moussard"
-    },
-    "nationalities": [
-     "FR"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2750
+    "performance": 2683
    }
   },
   {
    "rank": 3,
-   "participantId": "p.benjamin-bok",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 7.0,
-    "ELO": 2563,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.benjamin-bok",
-    "name": {
-     "full": "Benjamin Bok"
-    },
-    "nationalities": [
-     "NL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2761
-   }
-  },
-  {
-   "rank": 4,
    "participantId": "p.sergei-tiviakov",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 5.0,
+    "RANK": 3,
+    "PTS": 11.0,
     "ELO": 2602,
-    "GP": 5
+    "GP": 9
    },
    "person": {
     "id": "p.sergei-tiviakov",
@@ -174,43 +149,43 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2604
+    "performance": 2684
    }
   },
   {
-   "rank": 5,
-   "participantId": "p.luke-j-mcshane",
+   "rank": 4,
+   "participantId": "p.benjamin-bok",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 2.0,
-    "ELO": 2647,
-    "GP": 5
+    "RANK": 4,
+    "PTS": 10.0,
+    "ELO": 2563,
+    "GP": 9
    },
    "person": {
-    "id": "p.luke-j-mcshane",
+    "id": "p.benjamin-bok",
     "name": {
-     "full": "Luke J McShane"
+     "full": "Benjamin Bok"
     },
     "nationalities": [
-     "GB"
+     "NL"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "performance": 2355
+    "performance": 2651
    }
   },
   {
-   "rank": 6,
+   "rank": 5,
    "participantId": "p.maxime-lagarde",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
-    "PTS": 1.0,
+    "RANK": 5,
+    "PTS": 5.0,
     "ELO": 2585,
-    "GP": 5
+    "GP": 9
    },
    "person": {
     "id": "p.maxime-lagarde",
@@ -224,7 +199,32 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2242
+    "performance": 2440
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.luke-j-mcshane",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 4.0,
+    "ELO": 2647,
+    "GP": 9
+   },
+   "person": {
+    "id": "p.luke-j-mcshane",
+    "name": {
+     "full": "Luke J McShane"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2379
    }
   }
  ]
