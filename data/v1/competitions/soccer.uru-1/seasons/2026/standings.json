@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.uru-1:2026",
- "updatedAt": "2026-10-04T21:30:04Z",
+ "updatedAt": "2026-10-05T00:55:23Z",
  "sources": [
   "espn"
  ],
@@ -44,9 +44,27 @@
      }
     },
     {
-     "participantId": "soccer.deportivo-maldonado",
+     "participantId": "soccer.penarol",
      "participantType": "team",
      "rank": 3,
+     "stats": {
+      "GP": 9,
+      "W": 6,
+      "D": 2,
+      "L": 1,
+      "GF": 15,
+      "GA": 6,
+      "GD": 9,
+      "PTS": 19
+     },
+     "extra": {
+      "deductions": 1.0
+     }
+    },
+    {
+     "participantId": "soccer.deportivo-maldonado",
+     "participantType": "team",
+     "rank": 4,
      "stats": {
       "GP": 9,
       "W": 5,
@@ -56,24 +74,6 @@
       "GA": 5,
       "GD": 8,
       "PTS": 17
-     }
-    },
-    {
-     "participantId": "soccer.penarol",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 8,
-      "W": 5,
-      "D": 2,
-      "L": 1,
-      "GF": 14,
-      "GA": 6,
-      "GD": 8,
-      "PTS": 16
-     },
-     "extra": {
-      "deductions": 1.0
      }
     },
     {
@@ -141,13 +141,13 @@
      "participantType": "team",
      "rank": 9,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 3,
       "D": 3,
-      "L": 2,
+      "L": 3,
       "GF": 9,
-      "GA": 7,
-      "GD": 2,
+      "GA": 8,
+      "GD": 1,
       "PTS": 12
      }
     },
