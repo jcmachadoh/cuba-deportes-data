@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "4f",
- "updatedAt": "2026-10-03T18:13:12Z",
+ "updatedAt": "2026-10-05T17:45:09Z",
  "persons": {
   "p.abdellahi-khaled-abdellahi": {
    "id": "p.abdellahi-khaled-abdellahi",
@@ -266,6 +266,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.boris-itkis": {
+   "id": "p.boris-itkis",
+   "name": {
+    "full": "Boris Itkis"
+   },
+   "nationalities": [
+    "RO"
+   ],
+   "isCuban": false,
+   "title": "IM",
+   "externalIds": {
+    "fide": "1209167"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "ROU"
+   }
   },
   "p.chris-hook": {
    "id": "p.chris-hook",
@@ -686,6 +706,26 @@
     "federation": "EST"
    }
   },
+  "p.ivan-sokolov": {
+   "id": "p.ivan-sokolov",
+   "name": {
+    "full": "Ivan Sokolov"
+   },
+   "nationalities": [
+    "NL"
+   ],
+   "isCuban": false,
+   "title": "GM",
+   "externalIds": {
+    "fide": "14400030"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "NED"
+   }
+  },
   "p.jacobo-pimentel.2002": {
    "id": "p.jacobo-pimentel.2002",
    "name": {
@@ -1008,15 +1048,16 @@
     "first": "Juan",
     "last": "Franco"
    },
-   "birthDate": "2002-01-02",
+   "birthDate": "1992-02-10",
    "nationalities": [
-    "CO"
+    "CO",
+    "PY"
    ],
    "isCuban": false,
    "gender": "M",
    "body": {
-    "heightCm": 177.8,
-    "weightKg": 68.9
+    "heightCm": 175.3,
+    "weightKg": 71.2
    },
    "externalIds": {
     "espn": "120800"
