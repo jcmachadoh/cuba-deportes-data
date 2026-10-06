@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.arg-1:2026",
- "updatedAt": "2026-10-05T09:03:04Z",
+ "updatedAt": "2026-10-06T01:18:27Z",
  "sources": [
   "espn"
  ],
@@ -29,9 +29,24 @@
      }
     },
     {
-     "participantId": "soccer.defensa-y-justicia",
+     "participantId": "soccer.velez-sarsfield",
      "participantType": "team",
      "rank": 2,
+     "stats": {
+      "GP": 11,
+      "W": 5,
+      "D": 6,
+      "L": 0,
+      "GF": 17,
+      "GA": 11,
+      "GD": 6,
+      "PTS": 21
+     }
+    },
+    {
+     "participantId": "soccer.defensa-y-justicia",
+     "participantType": "team",
+     "rank": 3,
      "stats": {
       "GP": 11,
       "W": 6,
@@ -46,7 +61,7 @@
     {
      "participantId": "soccer.boca-juniors",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -59,39 +74,9 @@
      }
     },
     {
-     "participantId": "soccer.velez-sarsfield",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 10,
-      "W": 5,
-      "D": 5,
-      "L": 0,
-      "GF": 15,
-      "GA": 9,
-      "GD": 6,
-      "PTS": 20
-     }
-    },
-    {
-     "participantId": "soccer.gimnasia-mendoza",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 10,
-      "W": 5,
-      "D": 2,
-      "L": 3,
-      "GF": 14,
-      "GA": 9,
-      "GD": 5,
-      "PTS": 17
-     }
-    },
-    {
      "participantId": "soccer.lanus",
      "participantType": "team",
-     "rank": 6,
+     "rank": 5,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -106,7 +91,7 @@
     {
      "participantId": "soccer.newell-s-old-boys",
      "participantType": "team",
-     "rank": 7,
+     "rank": 6,
      "stats": {
       "GP": 11,
       "W": 4,
@@ -115,6 +100,21 @@
       "GF": 11,
       "GA": 8,
       "GD": 3,
+      "PTS": 17
+     }
+    },
+    {
+     "participantId": "soccer.gimnasia-mendoza",
+     "participantType": "team",
+     "rank": 7,
+     "stats": {
+      "GP": 11,
+      "W": 5,
+      "D": 2,
+      "L": 4,
+      "GF": 14,
+      "GA": 12,
+      "GD": 2,
       "PTS": 17
      }
     },
@@ -134,9 +134,24 @@
      }
     },
     {
-     "participantId": "soccer.union-santa-fe",
+     "participantId": "soccer.estudiantes-de-la-plata",
      "participantType": "team",
      "rank": 9,
+     "stats": {
+      "GP": 11,
+      "W": 4,
+      "D": 1,
+      "L": 6,
+      "GF": 13,
+      "GA": 11,
+      "GD": 2,
+      "PTS": 13
+     }
+    },
+    {
+     "participantId": "soccer.union-santa-fe",
+     "participantType": "team",
+     "rank": 10,
      "stats": {
       "GP": 11,
       "W": 4,
@@ -149,9 +164,24 @@
      }
     },
     {
+     "participantId": "soccer.deportivo-riestra",
+     "participantType": "team",
+     "rank": 11,
+     "stats": {
+      "GP": 11,
+      "W": 2,
+      "D": 5,
+      "L": 4,
+      "GF": 9,
+      "GA": 11,
+      "GD": -2,
+      "PTS": 11
+     }
+    },
+    {
      "participantId": "soccer.san-lorenzo",
      "participantType": "team",
-     "rank": 10,
+     "rank": 12,
      "stats": {
       "GP": 11,
       "W": 3,
@@ -164,48 +194,18 @@
      }
     },
     {
-     "participantId": "soccer.estudiantes-de-la-plata",
-     "participantType": "team",
-     "rank": 11,
-     "stats": {
-      "GP": 10,
-      "W": 3,
-      "D": 1,
-      "L": 6,
-      "GF": 10,
-      "GA": 11,
-      "GD": -1,
-      "PTS": 10
-     }
-    },
-    {
-     "participantId": "soccer.deportivo-riestra",
-     "participantType": "team",
-     "rank": 12,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 4,
-      "L": 4,
-      "GF": 8,
-      "GA": 10,
-      "GD": -2,
-      "PTS": 10
-     }
-    },
-    {
      "participantId": "soccer.platense",
      "participantType": "team",
      "rank": 13,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 2,
-      "D": 3,
+      "D": 4,
       "L": 5,
-      "GF": 9,
-      "GA": 15,
+      "GF": 11,
+      "GA": 17,
       "GD": -6,
-      "PTS": 9
+      "PTS": 10
      }
     },
     {
@@ -213,14 +213,14 @@
      "participantType": "team",
      "rank": 14,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 2,
-      "D": 2,
+      "D": 3,
       "L": 6,
-      "GF": 7,
-      "GA": 13,
+      "GF": 8,
+      "GA": 14,
       "GD": -6,
-      "PTS": 8
+      "PTS": 9
      }
     },
     {
