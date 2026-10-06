@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:7zcBnsRQ",
- "updatedAt": "2026-10-06T15:43:05Z",
+ "updatedAt": "2026-10-06T17:11:23Z",
  "sources": [
   "lichess"
  ],
@@ -72,10 +72,36 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.daniel-dardha",
+   "participantId": "p.alexandru-vasile-david",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 3.5,
+    "ELO": 2326,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.alexandru-vasile-david",
+    "name": {
+     "full": "Alexandru-Vasile David"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "VADOS IFB FINWEST ARAD",
+    "performance": 2667
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.daniel-dardha",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
     "PTS": 3.0,
     "ELO": 2612,
     "GP": 3
@@ -97,11 +123,11 @@
    }
   },
   {
-   "rank": 2,
+   "rank": 3,
    "participantId": "p.victor-bologan",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 3,
     "PTS": 3.0,
     "ELO": 2590,
     "GP": 4
@@ -123,11 +149,63 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "participantId": "p.alexander-motylev",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 3.0,
+    "ELO": 2547,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.alexander-motylev",
+    "name": {
+     "full": "Alexander Motylev"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ACS SUPERCHESS",
+    "performance": 2508
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.jegor-lashkin",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 3.0,
+    "ELO": 2492,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.jegor-lashkin",
+    "name": {
+     "full": "Jegor Lashkin"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ACS ARNIA CHESSIT",
+    "performance": 2645
+   }
+  },
+  {
+   "rank": 6,
    "participantId": "p.vladislav-nevednichy",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 6,
     "PTS": 3.0,
     "ELO": 2436,
     "GP": 4
@@ -149,11 +227,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 7,
    "participantId": "p.pranesh-m.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 7,
     "PTS": 2.5,
     "ELO": 2674,
     "GP": 3
@@ -176,11 +254,65 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 8,
+   "participantId": "p.bogdan-daniel-deac.2001",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 2.5,
+    "ELO": 2654,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.bogdan-daniel-deac.2001",
+    "name": {
+     "full": "Bogdan-Daniel Deac"
+    },
+    "birthDate": "2001",
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ACS SUPERCHESS",
+    "performance": 2704
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.raunak-sadhwani.2005",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 2.5,
+    "ELO": 2645,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.raunak-sadhwani.2005",
+    "name": {
+     "full": "Raunak Sadhwani"
+    },
+    "birthDate": "2005",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "VADOS IFB FINWEST ARAD",
+    "performance": 2593
+   }
+  },
+  {
+   "rank": 10,
    "participantId": "p.b-adhiban",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 10,
     "PTS": 2.5,
     "ELO": 2574,
     "GP": 4
@@ -202,11 +334,11 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 11,
    "participantId": "p.constantin-lupulescu",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 11,
     "PTS": 2.5,
     "ELO": 2569,
     "GP": 3
@@ -228,37 +360,11 @@
    }
   },
   {
-   "rank": 7,
-   "participantId": "p.jegor-lashkin",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 2.5,
-    "ELO": 2492,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.jegor-lashkin",
-    "name": {
-     "full": "Jegor Lashkin"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ACS ARNIA CHESSIT",
-    "performance": 2704
-   }
-  },
-  {
-   "rank": 8,
+   "rank": 12,
    "participantId": "p.henry-edward-tudor",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
+    "RANK": 12,
     "PTS": 2.5,
     "ELO": 2459,
     "GP": 3
@@ -280,11 +386,11 @@
    }
   },
   {
-   "rank": 9,
+   "rank": 13,
    "participantId": "p.george-gabriel-grigore",
    "participantType": "person",
    "stats": {
-    "RANK": 9,
+    "RANK": 13,
     "PTS": 2.5,
     "ELO": 2412,
     "GP": 4
@@ -306,37 +412,37 @@
    }
   },
   {
-   "rank": 10,
-   "participantId": "p.alexandru-vasile-david",
+   "rank": 14,
+   "participantId": "p.andrei-filip",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 14,
     "PTS": 2.5,
-    "ELO": 2326,
-    "GP": 3
+    "ELO": 2308,
+    "GP": 4
    },
    "person": {
-    "id": "p.alexandru-vasile-david",
+    "id": "p.andrei-filip",
     "name": {
-     "full": "Alexandru-Vasile David"
+     "full": "Andrei Filip"
     },
     "nationalities": [
      "RO"
     ],
     "isCuban": false,
-    "title": "IM"
+    "title": "FM"
    },
    "extra": {
-    "team": "VADOS IFB FINWEST ARAD",
-    "performance": 2670
+    "team": "CS SPARTA TECHIRGHIOL",
+    "performance": 2463
    }
   },
   {
-   "rank": 11,
+   "rank": 15,
    "participantId": "p.andrei-negrean",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 15,
     "PTS": 2.5,
     "ELO": 2289,
     "GP": 4
@@ -358,11 +464,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 16,
    "participantId": "p.ruslan-soltanici",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 16,
     "PTS": 2.5,
     "ELO": 2245,
     "GP": 4
@@ -384,11 +490,11 @@
    }
   },
   {
-   "rank": 13,
+   "rank": 17,
    "participantId": "p.rafael-ienasoaie",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 17,
     "PTS": 2.5,
     "ELO": 2151,
     "GP": 4
@@ -410,38 +516,38 @@
    }
   },
   {
-   "rank": 14,
-   "participantId": "p.raunak-sadhwani.2005",
+   "rank": 18,
+   "participantId": "p.haik-m-martirosyan.2000",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 18,
     "PTS": 2.0,
-    "ELO": 2645,
+    "ELO": 2661,
     "GP": 3
    },
    "person": {
-    "id": "p.raunak-sadhwani.2005",
+    "id": "p.haik-m-martirosyan.2000",
     "name": {
-     "full": "Raunak Sadhwani"
+     "full": "Haik M. Martirosyan"
     },
-    "birthDate": "2005",
+    "birthDate": "2000",
     "nationalities": [
-     "IN"
+     "AM"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "team": "VADOS IFB FINWEST ARAD",
-    "performance": 2634
+    "team": "ACS SUPERCHESS",
+    "performance": 2664
    }
   },
   {
-   "rank": 15,
+   "rank": 19,
    "participantId": "p.pierre-laurent-paoli",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 19,
     "PTS": 2.0,
     "ELO": 2550,
     "GP": 4
@@ -463,37 +569,11 @@
    }
   },
   {
-   "rank": 16,
-   "participantId": "p.alexander-motylev",
-   "participantType": "person",
-   "stats": {
-    "RANK": 16,
-    "PTS": 2.0,
-    "ELO": 2547,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alexander-motylev",
-    "name": {
-     "full": "Alexander Motylev"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ACS SUPERCHESS",
-    "performance": 2472
-   }
-  },
-  {
-   "rank": 17,
+   "rank": 20,
    "participantId": "p.momchil-petkov",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 20,
     "PTS": 2.0,
     "ELO": 2547,
     "GP": 4
@@ -515,11 +595,11 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 21,
    "participantId": "p.ivan-schitco",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 21,
     "PTS": 2.0,
     "ELO": 2508,
     "GP": 4
@@ -541,11 +621,38 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 22,
+   "participantId": "p.felix-antonio-ilinca.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 22,
+    "PTS": 2.0,
+    "ELO": 2507,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.felix-antonio-ilinca.2010",
+    "name": {
+     "full": "Felix-Antonio Ilinca"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "VADOS IFB FINWEST ARAD",
+    "performance": 2419
+   }
+  },
+  {
+   "rank": 23,
    "participantId": "p.vladyslav-larkin",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 23,
     "PTS": 2.0,
     "ELO": 2502,
     "GP": 4
@@ -567,11 +674,11 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 24,
    "participantId": "p.gergely-andras-gyula-szabo",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 24,
     "PTS": 2.0,
     "ELO": 2483,
     "GP": 4
@@ -593,11 +700,11 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 25,
    "participantId": "p.adar-tarhan.2007",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 25,
     "PTS": 2.0,
     "ELO": 2480,
     "GP": 4
@@ -620,11 +727,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 26,
    "participantId": "p.samuel-timotei-ghimpu",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 26,
     "PTS": 2.0,
     "ELO": 2475,
     "GP": 4
@@ -646,11 +753,11 @@
    }
   },
   {
-   "rank": 23,
+   "rank": 27,
    "participantId": "p.vlad-cristian-jianu",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 27,
     "PTS": 2.0,
     "ELO": 2435,
     "GP": 4
@@ -672,11 +779,11 @@
    }
   },
   {
-   "rank": 24,
+   "rank": 28,
    "participantId": "p.vladimir-alexandru-cnejev",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 28,
     "PTS": 2.0,
     "ELO": 2431,
     "GP": 3
@@ -698,11 +805,37 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 29,
+   "participantId": "p.serghei-vedmediuc",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29,
+    "PTS": 2.0,
+    "ELO": 2399,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.serghei-vedmediuc",
+    "name": {
+     "full": "Serghei Vedmediuc"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "CLUBUL DE SAH al Municipiului Baia Mare",
+    "performance": 2239
+   }
+  },
+  {
+   "rank": 30,
    "participantId": "p.mircea-talu",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 30,
     "PTS": 2.0,
     "ELO": 2348,
     "GP": 3
@@ -724,11 +857,37 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 31,
+   "participantId": "p.nicodim-cosmin-stepanencu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 31,
+    "PTS": 2.0,
+    "ELO": 2329,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.nicodim-cosmin-stepanencu",
+    "name": {
+     "full": "Nicodim-Cosmin Stepanencu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CLUBUL DE SAH al Municipiului Baia Mare",
+    "performance": 2405
+   }
+  },
+  {
+   "rank": 32,
    "participantId": "p.artiom-vedmediuc",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 32,
     "PTS": 2.0,
     "ELO": 2327,
     "GP": 3
@@ -750,40 +909,40 @@
    }
   },
   {
-   "rank": 27,
-   "participantId": "p.andrei-filip",
+   "rank": 33,
+   "participantId": "p.alexandr-baranciuc",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 33,
     "PTS": 2.0,
-    "ELO": 2308,
-    "GP": 3
+    "ELO": 2315,
+    "GP": 4
    },
    "person": {
-    "id": "p.andrei-filip",
+    "id": "p.alexandr-baranciuc",
     "name": {
-     "full": "Andrei Filip"
+     "full": "Alexandr Baranciuc"
     },
     "nationalities": [
-     "RO"
+     "MD"
     ],
     "isCuban": false,
     "title": "FM"
    },
    "extra": {
-    "team": "CS SPARTA TECHIRGHIOL",
-    "performance": 2511
+    "team": "ACS ACB INEU",
+    "performance": 2379
    }
   },
   {
-   "rank": 28,
+   "rank": 34,
    "participantId": "p.lucian-ioan-filip",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 34,
     "PTS": 2.0,
     "ELO": 2293,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.lucian-ioan-filip",
@@ -798,18 +957,44 @@
    },
    "extra": {
     "team": "CSU UNIVERSITATEA DE VEST Timisoara",
-    "performance": 2583
+    "performance": 2507
    }
   },
   {
-   "rank": 29,
+   "rank": 35,
+   "participantId": "p.rao-s-v-srinath",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35,
+    "PTS": 2.0,
+    "ELO": 2280,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.rao-s-v-srinath",
+    "name": {
+     "full": "Rao S.V. Srinath"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "CSU UNIVERSITATEA DE VEST Timisoara",
+    "performance": 2366
+   }
+  },
+  {
+   "rank": 36,
    "participantId": "p.iustin-ciorgovean",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
+    "RANK": 36,
     "PTS": 2.0,
     "ELO": 2220,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.iustin-ciorgovean",
@@ -824,42 +1009,41 @@
    },
    "extra": {
     "team": "CSU UNIVERSITATEA DE VEST Timisoara",
-    "performance": 2484
+    "performance": 2406
    }
   },
   {
-   "rank": 30,
-   "participantId": "p.bogdan-daniel-deac.2001",
+   "rank": 37,
+   "participantId": "p.george-alexandru-corbu",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
-    "PTS": 1.5,
-    "ELO": 2654,
-    "GP": 2
+    "RANK": 37,
+    "PTS": 2.0,
+    "ELO": 2182,
+    "GP": 4
    },
    "person": {
-    "id": "p.bogdan-daniel-deac.2001",
+    "id": "p.george-alexandru-corbu",
     "name": {
-     "full": "Bogdan-Daniel Deac"
+     "full": "George-Alexandru Corbu"
     },
-    "birthDate": "2001",
     "nationalities": [
      "RO"
     ],
     "isCuban": false,
-    "title": "GM"
+    "title": "CM"
    },
    "extra": {
-    "team": "ACS SUPERCHESS",
-    "performance": 2693
+    "team": "SAH CLUB OLTENIA Craiova",
+    "performance": 2307
    }
   },
   {
-   "rank": 31,
+   "rank": 38,
    "participantId": "p.david-gavrilescu",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 38,
     "PTS": 1.5,
     "ELO": 2520,
     "GP": 4
@@ -881,11 +1065,37 @@
    }
   },
   {
-   "rank": 32,
+   "rank": 39,
+   "participantId": "p.mircea-emilian-parligras",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 1.5,
+    "ELO": 2517,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.mircea-emilian-parligras",
+    "name": {
+     "full": "Mircea-Emilian Parligras"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "CSU ASE BUCURESTI",
+    "performance": 2383
+   }
+  },
+  {
+   "rank": 40,
    "participantId": "p.evgeny-zanan",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 40,
     "PTS": 1.5,
     "ELO": 2475,
     "GP": 4
@@ -907,11 +1117,37 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 41,
+   "participantId": "p.guy-levin",
+   "participantType": "person",
+   "stats": {
+    "RANK": 41,
+    "PTS": 1.5,
+    "ELO": 2467,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.guy-levin",
+    "name": {
+     "full": "Guy Levin"
+    },
+    "nationalities": [
+     "IL"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "ACS PIONII REGELUI ROMANESTI",
+    "performance": 2492
+   }
+  },
+  {
+   "rank": 42,
    "participantId": "p.mihnea-costachi",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 42,
     "PTS": 1.5,
     "ELO": 2459,
     "GP": 4
@@ -933,11 +1169,37 @@
    }
   },
   {
-   "rank": 34,
+   "rank": 43,
+   "participantId": "p.umut-ata-akbas",
+   "participantType": "person",
+   "stats": {
+    "RANK": 43,
+    "PTS": 1.5,
+    "ELO": 2451,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.umut-ata-akbas",
+    "name": {
+     "full": "Umut Ata Akbas"
+    },
+    "nationalities": [
+     "TR"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "SAH CLUB OLTENIA Craiova",
+    "performance": 2383
+   }
+  },
+  {
+   "rank": 44,
    "participantId": "p.teodor-anton",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 44,
     "PTS": 1.5,
     "ELO": 2425,
     "GP": 4
@@ -959,40 +1221,14 @@
    }
   },
   {
-   "rank": 35,
-   "participantId": "p.serghei-vedmediuc",
-   "participantType": "person",
-   "stats": {
-    "RANK": 35,
-    "PTS": 1.5,
-    "ELO": 2399,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.serghei-vedmediuc",
-    "name": {
-     "full": "Serghei Vedmediuc"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "CLUBUL DE SAH al Municipiului Baia Mare",
-    "performance": 2258
-   }
-  },
-  {
-   "rank": 36,
+   "rank": 45,
    "participantId": "p.raahul-v-s",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 45,
     "PTS": 1.5,
     "ELO": 2393,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.raahul-v-s",
@@ -1007,18 +1243,70 @@
    },
    "extra": {
     "team": "CSU UNIVERSITATEA DE VEST Timisoara",
-    "performance": 2515
+    "performance": 2464
    }
   },
   {
-   "rank": 37,
+   "rank": 46,
+   "participantId": "p.matei-andrei-coicev",
+   "participantType": "person",
+   "stats": {
+    "RANK": 46,
+    "PTS": 1.5,
+    "ELO": 2358,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.matei-andrei-coicev",
+    "name": {
+     "full": "Matei-Andrei Coicev"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS SUPERCHESS",
+    "performance": 2210
+   }
+  },
+  {
+   "rank": 47,
+   "participantId": "p.andrei-istratescu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 47,
+    "PTS": 1.5,
+    "ELO": 2356,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.andrei-istratescu",
+    "name": {
+     "full": "Andrei Istratescu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "CLUBUL DE SAH al Municipiului Baia Mare",
+    "performance": 2423
+   }
+  },
+  {
+   "rank": 48,
    "participantId": "p.adrian-musat",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 48,
     "PTS": 1.5,
     "ELO": 2327,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.adrian-musat",
@@ -1033,41 +1321,15 @@
    },
    "extra": {
     "team": "SAH CLUB OLTENIA Craiova",
-    "performance": 2345
+    "performance": 2254
    }
   },
   {
-   "rank": 38,
-   "participantId": "p.alexandr-baranciuc",
-   "participantType": "person",
-   "stats": {
-    "RANK": 38,
-    "PTS": 1.5,
-    "ELO": 2315,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alexandr-baranciuc",
-    "name": {
-     "full": "Alexandr Baranciuc"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS ACB INEU",
-    "performance": 2403
-   }
-  },
-  {
-   "rank": 39,
+   "rank": 49,
    "participantId": "p.robert-gabriel-sava",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 49,
     "PTS": 1.5,
     "ELO": 2296,
     "GP": 2
@@ -1089,37 +1351,11 @@
    }
   },
   {
-   "rank": 40,
-   "participantId": "p.rao-s-v-srinath",
-   "participantType": "person",
-   "stats": {
-    "RANK": 40,
-    "PTS": 1.5,
-    "ELO": 2280,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.rao-s-v-srinath",
-    "name": {
-     "full": "Rao S.V. Srinath"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "CSU UNIVERSITATEA DE VEST Timisoara",
-    "performance": 2369
-   }
-  },
-  {
-   "rank": 41,
+   "rank": 50,
    "participantId": "p.tudor-gabriel-danila",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 50,
     "PTS": 1.5,
     "ELO": 2273,
     "GP": 4
@@ -1141,11 +1377,11 @@
    }
   },
   {
-   "rank": 42,
+   "rank": 51,
    "participantId": "p.boris-itkis",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 51,
     "PTS": 1.5,
     "ELO": 2227,
     "GP": 2
@@ -1167,64 +1403,11 @@
    }
   },
   {
-   "rank": 43,
-   "participantId": "p.george-alexandru-corbu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 43,
-    "PTS": 1.5,
-    "ELO": 2182,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.george-alexandru-corbu",
-    "name": {
-     "full": "George-Alexandru Corbu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "SAH CLUB OLTENIA Craiova",
-    "performance": 2277
-   }
-  },
-  {
-   "rank": 44,
-   "participantId": "p.haik-m-martirosyan.2000",
-   "participantType": "person",
-   "stats": {
-    "RANK": 44,
-    "PTS": 1.0,
-    "ELO": 2661,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.haik-m-martirosyan.2000",
-    "name": {
-     "full": "Haik M. Martirosyan"
-    },
-    "birthDate": "2000",
-    "nationalities": [
-     "AM"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ACS SUPERCHESS",
-    "performance": 2612
-   }
-  },
-  {
-   "rank": 45,
+   "rank": 52,
    "participantId": "p.ivan-sokolov",
    "participantType": "person",
    "stats": {
-    "RANK": 45,
+    "RANK": 52,
     "PTS": 1.0,
     "ELO": 2551,
     "GP": 2
@@ -1246,168 +1429,11 @@
    }
   },
   {
-   "rank": 46,
-   "participantId": "p.mircea-emilian-parligras",
-   "participantType": "person",
-   "stats": {
-    "RANK": 46,
-    "PTS": 1.0,
-    "ELO": 2517,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.mircea-emilian-parligras",
-    "name": {
-     "full": "Mircea-Emilian Parligras"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "CSU ASE BUCURESTI",
-    "performance": 2338
-   }
-  },
-  {
-   "rank": 47,
-   "participantId": "p.felix-antonio-ilinca.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 47,
-    "PTS": 1.0,
-    "ELO": 2507,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.felix-antonio-ilinca.2010",
-    "name": {
-     "full": "Felix-Antonio Ilinca"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "VADOS IFB FINWEST ARAD",
-    "performance": 2332
-   }
-  },
-  {
-   "rank": 48,
-   "participantId": "p.guy-levin",
-   "participantType": "person",
-   "stats": {
-    "RANK": 48,
-    "PTS": 1.0,
-    "ELO": 2467,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.guy-levin",
-    "name": {
-     "full": "Guy Levin"
-    },
-    "nationalities": [
-     "IL"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "ACS PIONII REGELUI ROMANESTI",
-    "performance": 2432
-   }
-  },
-  {
-   "rank": 49,
-   "participantId": "p.umut-ata-akbas",
-   "participantType": "person",
-   "stats": {
-    "RANK": 49,
-    "PTS": 1.0,
-    "ELO": 2451,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.umut-ata-akbas",
-    "name": {
-     "full": "Umut Ata Akbas"
-    },
-    "nationalities": [
-     "TR"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "SAH CLUB OLTENIA Craiova",
-    "performance": 2384
-   }
-  },
-  {
-   "rank": 50,
-   "participantId": "p.matei-andrei-coicev",
-   "participantType": "person",
-   "stats": {
-    "RANK": 50,
-    "PTS": 1.0,
-    "ELO": 2358,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.matei-andrei-coicev",
-    "name": {
-     "full": "Matei-Andrei Coicev"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS SUPERCHESS",
-    "performance": 2178
-   }
-  },
-  {
-   "rank": 51,
-   "participantId": "p.andrei-istratescu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 51,
-    "PTS": 1.0,
-    "ELO": 2356,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.andrei-istratescu",
-    "name": {
-     "full": "Andrei Istratescu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "CLUBUL DE SAH al Municipiului Baia Mare",
-    "performance": 2405
-   }
-  },
-  {
-   "rank": 52,
+   "rank": 53,
    "participantId": "p.pavel-alexandru-nastore",
    "participantType": "person",
    "stats": {
-    "RANK": 52,
+    "RANK": 53,
     "PTS": 1.0,
     "ELO": 2353,
     "GP": 4
@@ -1429,19 +1455,45 @@
    }
   },
   {
-   "rank": 53,
-   "participantId": "p.nicodim-cosmin-stepanencu",
+   "rank": 54,
+   "participantId": "p.vladimir-doncea",
    "participantType": "person",
    "stats": {
-    "RANK": 53,
+    "RANK": 54,
     "PTS": 1.0,
-    "ELO": 2329,
-    "GP": 3
+    "ELO": 2345,
+    "GP": 2
    },
    "person": {
-    "id": "p.nicodim-cosmin-stepanencu",
+    "id": "p.vladimir-doncea",
     "name": {
-     "full": "Nicodim-Cosmin Stepanencu"
+     "full": "Vladimir Doncea"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "ACS SUPERCHESS",
+    "performance": 2080
+   }
+  },
+  {
+   "rank": 55,
+   "participantId": "p.randi-ioan-gales",
+   "participantType": "person",
+   "stats": {
+    "RANK": 55,
+    "PTS": 1.0,
+    "ELO": 2258,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.randi-ioan-gales",
+    "name": {
+     "full": "Randi-Ioan Gales"
     },
     "nationalities": [
      "RO"
@@ -1450,16 +1502,16 @@
     "title": "FM"
    },
    "extra": {
-    "team": "CLUBUL DE SAH al Municipiului Baia Mare",
-    "performance": 2307
+    "team": "VADOS IFB FINWEST ARAD",
+    "performance": 2869
    }
   },
   {
-   "rank": 54,
+   "rank": 56,
    "participantId": "p.andrei-eugeniu-costache",
    "participantType": "person",
    "stats": {
-    "RANK": 54,
+    "RANK": 56,
     "PTS": 1.0,
     "ELO": 2186,
     "GP": 3
@@ -1480,11 +1532,11 @@
    }
   },
   {
-   "rank": 55,
+   "rank": 57,
    "participantId": "p.matei-andrei-badescu",
    "participantType": "person",
    "stats": {
-    "RANK": 55,
+    "RANK": 57,
     "PTS": 1.0,
     "ELO": 2092,
     "GP": 1
@@ -1505,14 +1557,14 @@
    }
   },
   {
-   "rank": 56,
+   "rank": 58,
    "participantId": "p.raul-cristian-codru",
    "participantType": "person",
    "stats": {
-    "RANK": 56,
+    "RANK": 58,
     "PTS": 1.0,
     "ELO": 2069,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.raul-cristian-codru",
@@ -1526,15 +1578,42 @@
    },
    "extra": {
     "team": "ACS PIONII REGELUI ROMANESTI",
-    "performance": 3145
+    "performance": 2301
    }
   },
   {
-   "rank": 57,
+   "rank": 59,
+   "participantId": "p.filip-magold.2008",
+   "participantType": "person",
+   "stats": {
+    "RANK": 59,
+    "PTS": 0.5,
+    "ELO": 2494,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.filip-magold.2008",
+    "name": {
+     "full": "Filip Magold"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "VADOS IFB FINWEST ARAD",
+    "performance": 2119
+   }
+  },
+  {
+   "rank": 60,
    "participantId": "p.tamas-kristof-balla",
    "participantType": "person",
    "stats": {
-    "RANK": 57,
+    "RANK": 60,
     "PTS": 0.5,
     "ELO": 2321,
     "GP": 3
@@ -1556,11 +1635,11 @@
    }
   },
   {
-   "rank": 58,
+   "rank": 61,
    "participantId": "p.calin-gheorghiu",
    "participantType": "person",
    "stats": {
-    "RANK": 58,
+    "RANK": 61,
     "PTS": 0.5,
     "ELO": 2313,
     "GP": 1
@@ -1582,14 +1661,14 @@
    }
   },
   {
-   "rank": 59,
+   "rank": 62,
    "participantId": "p.matei-teodor-dodoi",
    "participantType": "person",
    "stats": {
-    "RANK": 59,
+    "RANK": 62,
     "PTS": 0.5,
     "ELO": 2303,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.matei-teodor-dodoi",
@@ -1604,15 +1683,41 @@
    },
    "extra": {
     "team": "ACS PIONII REGELUI ROMANESTI",
-    "performance": 2163
+    "performance": 2131
    }
   },
   {
-   "rank": 60,
+   "rank": 63,
+   "participantId": "p.alexandru-ovidiu-stanciu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 63,
+    "PTS": 0.5,
+    "ELO": 2284,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.alexandru-ovidiu-stanciu",
+    "name": {
+     "full": "Alexandru-Ovidiu Stanciu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS PIONII REGELUI ROMANESTI",
+    "performance": 2204
+   }
+  },
+  {
+   "rank": 64,
    "participantId": "p.ioan-cosma",
    "participantType": "person",
    "stats": {
-    "RANK": 60,
+    "RANK": 64,
     "PTS": 0.5,
     "ELO": 2260,
     "GP": 2
@@ -1634,11 +1739,11 @@
    }
   },
   {
-   "rank": 61,
+   "rank": 65,
    "participantId": "p.david-saioc",
    "participantType": "person",
    "stats": {
-    "RANK": 61,
+    "RANK": 65,
     "PTS": 0.5,
     "ELO": 2213,
     "GP": 1
@@ -1659,11 +1764,11 @@
    }
   },
   {
-   "rank": 62,
+   "rank": 66,
    "participantId": "p.iulian-sabarez",
    "participantType": "person",
    "stats": {
-    "RANK": 62,
+    "RANK": 66,
     "PTS": 0.5,
     "ELO": 2124,
     "GP": 3
@@ -1685,93 +1790,14 @@
    }
   },
   {
-   "rank": 63,
-   "participantId": "p.filip-magold.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 63,
-    "PTS": 0.0,
-    "ELO": 2494,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.filip-magold.2008",
-    "name": {
-     "full": "Filip Magold"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "VADOS IFB FINWEST ARAD",
-    "performance": 1694
-   }
-  },
-  {
-   "rank": 64,
-   "participantId": "p.vladimir-doncea",
-   "participantType": "person",
-   "stats": {
-    "RANK": 64,
-    "PTS": 0.0,
-    "ELO": 2345,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.vladimir-doncea",
-    "name": {
-     "full": "Vladimir Doncea"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "ACS SUPERCHESS",
-    "performance": 1269
-   }
-  },
-  {
-   "rank": 65,
-   "participantId": "p.alexandru-ovidiu-stanciu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 65,
-    "PTS": 0.0,
-    "ELO": 2284,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alexandru-ovidiu-stanciu",
-    "name": {
-     "full": "Alexandru-Ovidiu Stanciu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS PIONII REGELUI ROMANESTI",
-    "performance": 1737
-   }
-  },
-  {
-   "rank": 66,
+   "rank": 67,
    "participantId": "p.stefan-fabian-mazilu",
    "participantType": "person",
    "stats": {
-    "RANK": 66,
+    "RANK": 67,
     "PTS": 0.0,
     "ELO": 2133,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.stefan-fabian-mazilu",
@@ -1785,18 +1811,18 @@
    },
    "extra": {
     "team": "ACS PIONII REGELUI ROMANESTI",
-    "performance": 1461
+    "performance": 1483
    }
   },
   {
-   "rank": 67,
+   "rank": 68,
    "participantId": "p.alexandru-balaban-voia",
    "participantType": "person",
    "stats": {
-    "RANK": 67,
+    "RANK": 68,
     "PTS": 0.0,
     "ELO": 2091,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.alexandru-balaban-voia",
@@ -1810,15 +1836,15 @@
    },
    "extra": {
     "team": "CSU UNIVERSITATEA DE VEST Timisoara",
-    "performance": 1528
+    "performance": 1532
    }
   },
   {
-   "rank": 68,
+   "rank": 69,
    "participantId": "p.vlad-petroff",
    "participantType": "person",
    "stats": {
-    "RANK": 68,
+    "RANK": 69,
     "PTS": 0.0,
     "ELO": 2054,
     "GP": 1
@@ -1837,30 +1863,6 @@
    "extra": {
     "team": "ACS ACB INEU",
     "performance": 1292
-   }
-  },
-  {
-   "rank": 69,
-   "participantId": "p.randi-ioan-gales",
-   "participantType": "person",
-   "stats": {
-    "RANK": 69,
-    "ELO": 2258,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.randi-ioan-gales",
-    "name": {
-     "full": "Randi-Ioan Gales"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "VADOS IFB FINWEST ARAD"
    }
   }
  ]
