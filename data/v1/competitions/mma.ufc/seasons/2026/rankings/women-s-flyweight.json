@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:women-s-flyweight",
- "updatedAt": "2026-10-06T01:18:35Z",
+ "updatedAt": "2026-10-06T22:39:56Z",
  "sources": [
   "ufc.com"
  ],
@@ -34,6 +34,25 @@
    },
    "extra": {
     "champion": true
+   }
+  },
+  {
+   "rank": 1,
+   "participantId": "p.valentina-shevchenko",
+   "participantType": "person",
+   "stats": {
+    "RANK": 1
+   },
+   "person": {
+    "id": "p.valentina-shevchenko",
+    "name": {
+     "full": "Valentina Shevchenko"
+    },
+    "isCuban": false,
+    "birthCountry": "KG"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
@@ -117,11 +136,11 @@
    }
   },
   {
-   "rank": 7,
+   "rank": 6,
    "participantId": "p.jasmine-jasudavicius",
    "participantType": "person",
    "stats": {
-    "RANK": 7
+    "RANK": 6
    },
    "person": {
     "id": "p.jasmine-jasudavicius",
@@ -130,6 +149,9 @@
     },
     "isCuban": false,
     "birthCountry": "CA"
+   },
+   "extra": {
+    "trend": 1
    }
   },
   {
@@ -242,9 +264,6 @@
     },
     "isCuban": false,
     "birthCountry": "MX"
-   },
-   "extra": {
-    "trend": 1
    }
   },
   {
@@ -261,9 +280,6 @@
     },
     "isCuban": false,
     "birthCountry": "BR"
-   },
-   "extra": {
-    "trend": -1
    }
   }
  ]

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:heavyweight",
- "updatedAt": "2026-10-06T01:18:35Z",
+ "updatedAt": "2026-10-06T22:39:56Z",
  "sources": [
   "ufc.com"
  ],
@@ -246,26 +246,10 @@
   },
   {
    "rank": 14,
-   "participantId": "p.mario-pinto",
-   "participantType": "person",
-   "stats": {
-    "RANK": 14
-   },
-   "person": {
-    "id": "p.mario-pinto",
-    "name": {
-     "full": "Mario Pinto"
-    },
-    "isCuban": false,
-    "birthCountry": "PT"
-   }
-  },
-  {
-   "rank": 15,
    "participantId": "p.aleksandar-rakic",
    "participantType": "person",
    "stats": {
-    "RANK": 15
+    "RANK": 14
    },
    "person": {
     "id": "p.aleksandar-rakic",
@@ -274,6 +258,28 @@
     },
     "isCuban": false,
     "birthCountry": "AT"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.mario-pinto",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15
+   },
+   "person": {
+    "id": "p.mario-pinto",
+    "name": {
+     "full": "Mario Pinto"
+    },
+    "isCuban": false,
+    "birthCountry": "PT"
+   },
+   "extra": {
+    "trend": -1
    }
   }
  ]

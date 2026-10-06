@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:bantamweight",
- "updatedAt": "2026-10-06T01:18:35Z",
+ "updatedAt": "2026-10-06T22:39:56Z",
  "sources": [
   "ufc.com"
  ],
@@ -134,10 +134,29 @@
   },
   {
    "rank": 7,
-   "participantId": "p.aiemann-zahabi",
+   "participantId": "p.payton-talbott",
    "participantType": "person",
    "stats": {
     "RANK": 7
+   },
+   "person": {
+    "id": "p.payton-talbott",
+    "name": {
+     "full": "Payton Talbott"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   },
+   "extra": {
+    "trend": 5
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.aiemann-zahabi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8
    },
    "person": {
     "id": "p.aiemann-zahabi",
@@ -146,14 +165,17 @@
     },
     "isCuban": false,
     "birthCountry": "CA"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
-   "rank": 8,
+   "rank": 9,
    "participantId": "p.david-martinez",
    "participantType": "person",
    "stats": {
-    "RANK": 8
+    "RANK": 9
    },
    "person": {
     "id": "p.david-martinez",
@@ -162,46 +184,17 @@
     },
     "isCuban": false,
     "birthCountry": "MX"
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.deiveson-figueiredo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9
    },
-   "person": {
-    "id": "p.deiveson-figueiredo",
-    "name": {
-     "full": "Deiveson Figueiredo"
-    },
-    "isCuban": false,
-    "birthCountry": "BR"
+   "extra": {
+    "trend": -1
    }
   },
   {
    "rank": 10,
-   "participantId": "p.marlon-vera",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10
-   },
-   "person": {
-    "id": "p.marlon-vera",
-    "name": {
-     "full": "Marlon Vera"
-    },
-    "isCuban": false,
-    "birthCountry": "EC"
-   }
-  },
-  {
-   "rank": 11,
    "participantId": "p.raul-rosas-jr",
    "participantType": "person",
    "stats": {
-    "RANK": 11
+    "RANK": 10
    },
    "person": {
     "id": "p.raul-rosas-jr",
@@ -216,22 +209,41 @@
    }
   },
   {
+   "rank": 11,
+   "participantId": "p.marlon-vera",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11
+   },
+   "person": {
+    "id": "p.marlon-vera",
+    "name": {
+     "full": "Marlon Vera"
+    },
+    "isCuban": false,
+    "birthCountry": "EC"
+   },
+   "extra": {
+    "trend": -1
+   }
+  },
+  {
    "rank": 12,
-   "participantId": "p.payton-talbott",
+   "participantId": "p.deiveson-figueiredo",
    "participantType": "person",
    "stats": {
     "RANK": 12
    },
    "person": {
-    "id": "p.payton-talbott",
+    "id": "p.deiveson-figueiredo",
     "name": {
-     "full": "Payton Talbott"
+     "full": "Deiveson Figueiredo"
     },
     "isCuban": false,
-    "birthCountry": "US"
+    "birthCountry": "BR"
    },
    "extra": {
-    "trend": -1
+    "trend": -3
    }
   },
   {
@@ -248,17 +260,33 @@
     },
     "isCuban": false,
     "birthCountry": "AF"
+   }
+  },
+  {
+   "rank": 14,
+   "participantId": "p.marcus-mcghee",
+   "participantType": "person",
+   "stats": {
+    "RANK": 14
+   },
+   "person": {
+    "id": "p.marcus-mcghee",
+    "name": {
+     "full": "Marcus McGhee"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
    },
    "extra": {
     "trend": 1
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
    "participantId": "p.raoni-barcelos",
    "participantType": "person",
    "stats": {
-    "RANK": 14
+    "RANK": 15
    },
    "person": {
     "id": "p.raoni-barcelos",
@@ -270,22 +298,6 @@
    },
    "extra": {
     "trend": -1
-   }
-  },
-  {
-   "rank": 15,
-   "participantId": "p.marcus-mcghee",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15
-   },
-   "person": {
-    "id": "p.marcus-mcghee",
-    "name": {
-     "full": "Marcus McGhee"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
    }
   }
  ]
