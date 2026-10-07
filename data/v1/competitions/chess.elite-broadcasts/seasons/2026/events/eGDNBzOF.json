@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:eGDNBzOF",
- "updatedAt": "2026-10-07T16:07:25Z",
+ "updatedAt": "2026-10-07T20:23:13Z",
  "sources": [
   "lichess"
  ],
@@ -40,7 +40,7 @@
    {
     "name": "Ronda 4",
     "startsAt": 1791378900000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 5",
@@ -82,10 +82,36 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.mihajlo-radovanovic",
+   "participantId": "p.vuk-damjanovic",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 3.5,
+    "ELO": 2414,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.vuk-damjanovic",
+    "name": {
+     "full": "Vuk Damjanovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "RADNIČKI - ZMAJ - Beograd",
+    "performance": 2621
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.mihajlo-radovanovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
     "PTS": 3.5,
     "ELO": 2374,
     "GP": 4
@@ -107,11 +133,11 @@
    }
   },
   {
-   "rank": 2,
+   "rank": 3,
    "participantId": "p.milovan-ratkovic",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 3,
     "PTS": 3.0,
     "ELO": 2449,
     "GP": 4
@@ -133,14 +159,195 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "participantId": "p.roman-shogdzhiev",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 3.0,
+    "ELO": 2445,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.roman-shogdzhiev",
+    "name": {
+     "full": "Roman Shogdzhiev"
+    },
+    "nationalities": [
+     "XX"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "PARTIZAN - Beograd",
+    "performance": 2690
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.dusan-popovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 3.0,
+    "ELO": 2415,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.dusan-popovic",
+    "name": {
+     "full": "Dusan Popovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "RADNIK - Surdulica",
+    "performance": 2494
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.aleksa-strikovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 3.0,
+    "ELO": 2393,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.aleksa-strikovic",
+    "name": {
+     "full": "Aleksa Strikovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "POŽEGA - Požega",
+    "performance": 2540
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.petar-spasic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 3.0,
+    "ELO": 2372,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.petar-spasic",
+    "name": {
+     "full": "Petar Spasic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "RADNIK - Surdulica",
+    "performance": 2484
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.dusan-radovanovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 3.0,
+    "ELO": 2280,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.dusan-radovanovic",
+    "name": {
+     "full": "Dusan Radovanovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "POŽEGA - Požega",
+    "performance": 2448
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.leonid-ivanovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 3.0,
+    "ELO": 2270,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.leonid-ivanovic",
+    "name": {
+     "full": "Leonid Ivanovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "DEČ - Deč",
+    "performance": 2523
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.slavisa-milanovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 3.0,
+    "ELO": 2269,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.slavisa-milanovic",
+    "name": {
+     "full": "Slavisa Milanovic"
+    },
+    "nationalities": [
+     "ME"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "GORNJA JABLANICA - Medveđa",
+    "performance": 2450
+   }
+  },
+  {
+   "rank": 11,
    "participantId": "p.murali-karthikeyan.1999",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 11,
     "PTS": 2.5,
     "ELO": 2647,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.murali-karthikeyan.1999",
@@ -156,15 +363,67 @@
    },
    "extra": {
     "team": "JELICA PEP - Goračići",
-    "performance": 2806
+    "performance": 2645
    }
   },
   {
-   "rank": 4,
+   "rank": 12,
+   "participantId": "p.jingyao-tin",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12,
+    "PTS": 2.5,
+    "ELO": 2602,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.jingyao-tin",
+    "name": {
+     "full": "Jingyao Tin"
+    },
+    "nationalities": [
+     "SG"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "RUDAR - Kostolac",
+    "performance": 2665
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.robert-markus",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
+    "PTS": 2.5,
+    "ELO": 2531,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.robert-markus",
+    "name": {
+     "full": "Robert Markus"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "RADNIK - Surdulica",
+    "performance": 2461
+   }
+  },
+  {
+   "rank": 14,
    "participantId": "p.vitaliy-bernadskiy",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 14,
     "PTS": 2.5,
     "ELO": 2517,
     "GP": 4
@@ -186,11 +445,11 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 15,
    "participantId": "p.ivan-ivanisevic",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 15,
     "PTS": 2.5,
     "ELO": 2510,
     "GP": 4
@@ -212,14 +471,14 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 16,
    "participantId": "p.luka-budisavljevic",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 16,
     "PTS": 2.5,
     "ELO": 2501,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.luka-budisavljevic",
@@ -234,15 +493,15 @@
    },
    "extra": {
     "team": "RADNIČKI - ZMAJ - Beograd",
-    "performance": 2630
+    "performance": 2424
    }
   },
   {
-   "rank": 7,
+   "rank": 17,
    "participantId": "p.milos-perunovic",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 17,
     "PTS": 2.5,
     "ELO": 2500,
     "GP": 4
@@ -264,11 +523,37 @@
    }
   },
   {
-   "rank": 8,
+   "rank": 18,
+   "participantId": "p.milos-roganovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
+    "PTS": 2.5,
+    "ELO": 2448,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.milos-roganovic",
+    "name": {
+     "full": "Milos Roganovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "JELICA PEP - Goračići",
+    "performance": 2501
+   }
+  },
+  {
+   "rank": 19,
    "participantId": "p.novak-cabarkapa",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
+    "RANK": 19,
     "PTS": 2.5,
     "ELO": 2438,
     "GP": 4
@@ -290,37 +575,63 @@
    }
   },
   {
-   "rank": 9,
-   "participantId": "p.vuk-damjanovic",
+   "rank": 20,
+   "participantId": "p.miloje-ratkovic",
    "participantType": "person",
    "stats": {
-    "RANK": 9,
+    "RANK": 20,
     "PTS": 2.5,
-    "ELO": 2414,
-    "GP": 3
+    "ELO": 2437,
+    "GP": 4
    },
    "person": {
-    "id": "p.vuk-damjanovic",
+    "id": "p.miloje-ratkovic",
     "name": {
-     "full": "Vuk Damjanovic"
+     "full": "Miloje Ratkovic"
     },
     "nationalities": [
      "RS"
     ],
     "isCuban": false,
-    "title": "IM"
+    "title": "GM"
    },
    "extra": {
-    "team": "RADNIČKI - ZMAJ - Beograd",
-    "performance": 2580
+    "team": "NAFTAGAS - Elemir",
+    "performance": 2444
    }
   },
   {
-   "rank": 10,
+   "rank": 21,
+   "participantId": "p.miodrag-r-savic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21,
+    "PTS": 2.5,
+    "ELO": 2430,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.miodrag-r-savic",
+    "name": {
+     "full": "Miodrag R Savic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "GORNJA JABLANICA - Medveđa",
+    "performance": 2420
+   }
+  },
+  {
+   "rank": 22,
    "participantId": "p.dalibor-stojanovic",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 22,
     "PTS": 2.5,
     "ELO": 2402,
     "GP": 4
@@ -342,11 +653,11 @@
    }
   },
   {
-   "rank": 11,
+   "rank": 23,
    "participantId": "p.danila-sutormin",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 23,
     "PTS": 2.5,
     "ELO": 2390,
     "GP": 4
@@ -368,19 +679,45 @@
    }
   },
   {
-   "rank": 12,
-   "participantId": "p.petar-spasic",
+   "rank": 24,
+   "participantId": "p.toni-lazov",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 24,
     "PTS": 2.5,
-    "ELO": 2372,
-    "GP": 3
+    "ELO": 2387,
+    "GP": 4
    },
    "person": {
-    "id": "p.petar-spasic",
+    "id": "p.toni-lazov",
     "name": {
-     "full": "Petar Spasic"
+     "full": "Toni Lazov"
+    },
+    "nationalities": [
+     "MK"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "PTT - Beograd",
+    "performance": 2447
+   }
+  },
+  {
+   "rank": 25,
+   "participantId": "p.novak-dumbelovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25,
+    "PTS": 2.5,
+    "ELO": 2336,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.novak-dumbelovic",
+    "name": {
+     "full": "Novak Dumbelovic"
     },
     "nationalities": [
      "RS"
@@ -389,16 +726,42 @@
     "title": "FM"
    },
    "extra": {
-    "team": "RADNIK - Surdulica",
-    "performance": 2594
+    "team": "POŽEGA - Požega",
+    "performance": 2404
    }
   },
   {
-   "rank": 13,
+   "rank": 26,
+   "participantId": "p.ilija-stanojevic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "PTS": 2.5,
+    "ELO": 2256,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.ilija-stanojevic",
+    "name": {
+     "full": "Ilija Stanojevic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "DEČ - Deč",
+    "performance": 2478
+   }
+  },
+  {
+   "rank": 27,
    "participantId": "p.dragan-cica",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 27,
     "PTS": 2.5,
     "ELO": 2126,
     "GP": 4
@@ -420,19 +783,19 @@
    }
   },
   {
-   "rank": 14,
-   "participantId": "p.robert-markus",
+   "rank": 28,
+   "participantId": "p.bojan-maksimovic",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 28,
     "PTS": 2.0,
-    "ELO": 2531,
-    "GP": 3
+    "ELO": 2530,
+    "GP": 4
    },
    "person": {
-    "id": "p.robert-markus",
+    "id": "p.bojan-maksimovic",
     "name": {
-     "full": "Robert Markus"
+     "full": "Bojan Maksimovic"
     },
     "nationalities": [
      "RS"
@@ -441,16 +804,42 @@
     "title": "GM"
    },
    "extra": {
-    "team": "RADNIK - Surdulica",
-    "performance": 2539
+    "team": "JELICA PEP - Goračići",
+    "performance": 2481
    }
   },
   {
-   "rank": 15,
+   "rank": 29,
+   "participantId": "p.temur-kuybokarov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29,
+    "PTS": 2.0,
+    "ELO": 2529,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.temur-kuybokarov",
+    "name": {
+     "full": "Temur Kuybokarov"
+    },
+    "nationalities": [
+     "AU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "CRVENA ZVEZDA - Beograd",
+    "performance": 2529
+   }
+  },
+  {
+   "rank": 30,
    "participantId": "p.atilla-kuru.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 30,
     "PTS": 2.0,
     "ELO": 2514,
     "GP": 4
@@ -473,11 +862,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 31,
    "participantId": "p.ajay-santhosh-parvathareddy.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 31,
     "PTS": 2.0,
     "ELO": 2494,
     "GP": 4
@@ -500,45 +889,19 @@
    }
   },
   {
-   "rank": 17,
-   "participantId": "p.roman-shogdzhiev",
+   "rank": 32,
+   "participantId": "p.andrey-shariyazdanov",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 32,
     "PTS": 2.0,
-    "ELO": 2445,
-    "GP": 3
+    "ELO": 2468,
+    "GP": 4
    },
    "person": {
-    "id": "p.roman-shogdzhiev",
+    "id": "p.andrey-shariyazdanov",
     "name": {
-     "full": "Roman Shogdzhiev"
-    },
-    "nationalities": [
-     "XX"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "PARTIZAN - Beograd",
-    "performance": 2577
-   }
-  },
-  {
-   "rank": 18,
-   "participantId": "p.miloje-ratkovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 18,
-    "PTS": 2.0,
-    "ELO": 2437,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.miloje-ratkovic",
-    "name": {
-     "full": "Miloje Ratkovic"
+     "full": "Andrey Shariyazdanov"
     },
     "nationalities": [
      "RS"
@@ -547,42 +910,16 @@
     "title": "GM"
    },
    "extra": {
-    "team": "NAFTAGAS - Elemir",
-    "performance": 2455
+    "team": "RUDAR - Kostolac",
+    "performance": 2421
    }
   },
   {
-   "rank": 19,
-   "participantId": "p.dusan-popovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 19,
-    "PTS": 2.0,
-    "ELO": 2415,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.dusan-popovic",
-    "name": {
-     "full": "Dusan Popovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "RADNIK - Surdulica",
-    "performance": 2451
-   }
-  },
-  {
-   "rank": 20,
+   "rank": 33,
    "participantId": "p.vladimir-lukovic",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 33,
     "PTS": 2.0,
     "ELO": 2414,
     "GP": 2
@@ -604,11 +941,11 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 34,
    "participantId": "p.milos-stankovic",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 34,
     "PTS": 2.0,
     "ELO": 2413,
     "GP": 4
@@ -630,11 +967,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 35,
    "participantId": "p.mikhail-bryakin",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 35,
     "PTS": 2.0,
     "ELO": 2407,
     "GP": 4
@@ -656,19 +993,97 @@
    }
   },
   {
-   "rank": 23,
-   "participantId": "p.aleksa-strikovic",
+   "rank": 36,
+   "participantId": "p.nikola-radovanovic",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 36,
     "PTS": 2.0,
-    "ELO": 2393,
-    "GP": 3
+    "ELO": 2407,
+    "GP": 4
    },
    "person": {
-    "id": "p.aleksa-strikovic",
+    "id": "p.nikola-radovanovic",
     "name": {
-     "full": "Aleksa Strikovic"
+     "full": "Nikola Radovanovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "PTT - Beograd",
+    "performance": 2438
+   }
+  },
+  {
+   "rank": 37,
+   "participantId": "p.stefan-tadic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 37,
+    "PTS": 2.0,
+    "ELO": 2394,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.stefan-tadic",
+    "name": {
+     "full": "Stefan Tadic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "RADNIČKI - ZMAJ - Beograd",
+    "performance": 2309
+   }
+  },
+  {
+   "rank": 38,
+   "participantId": "p.andrej-ljepic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 38,
+    "PTS": 2.0,
+    "ELO": 2378,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.andrej-ljepic",
+    "name": {
+     "full": "Andrej Ljepic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "GORNJA JABLANICA - Medveđa",
+    "performance": 2247
+   }
+  },
+  {
+   "rank": 39,
+   "participantId": "p.suat-atalik",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 2.0,
+    "ELO": 2371,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.suat-atalik",
+    "name": {
+     "full": "Suat Atalik"
     },
     "nationalities": [
      "RS"
@@ -677,148 +1092,19 @@
     "title": "GM"
    },
    "extra": {
-    "team": "POŽEGA - Požega",
-    "performance": 2503
+    "team": "CRVENA ZVEZDA - Beograd",
+    "performance": 2413
    }
   },
   {
-   "rank": 24,
-   "participantId": "p.toni-lazov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 24,
-    "PTS": 2.0,
-    "ELO": 2387,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.toni-lazov",
-    "name": {
-     "full": "Toni Lazov"
-    },
-    "nationalities": [
-     "MK"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "PTT - Beograd",
-    "performance": 2524
-   }
-  },
-  {
-   "rank": 25,
-   "participantId": "p.novak-dumbelovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 25,
-    "PTS": 2.0,
-    "ELO": 2336,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.novak-dumbelovic",
-    "name": {
-     "full": "Novak Dumbelovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "POŽEGA - Požega",
-    "performance": 2452
-   }
-  },
-  {
-   "rank": 26,
-   "participantId": "p.dusan-radovanovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 26,
-    "PTS": 2.0,
-    "ELO": 2280,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.dusan-radovanovic",
-    "name": {
-     "full": "Dusan Radovanovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "POŽEGA - Požega",
-    "performance": 2411
-   }
-  },
-  {
-   "rank": 27,
-   "participantId": "p.leonid-ivanovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 27,
-    "PTS": 2.0,
-    "ELO": 2270,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.leonid-ivanovic",
-    "name": {
-     "full": "Leonid Ivanovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "DEČ - Deč",
-    "performance": 2474
-   }
-  },
-  {
-   "rank": 28,
-   "participantId": "p.slavisa-milanovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 28,
-    "PTS": 2.0,
-    "ELO": 2269,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.slavisa-milanovic",
-    "name": {
-     "full": "Slavisa Milanovic"
-    },
-    "nationalities": [
-     "ME"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "GORNJA JABLANICA - Medveđa",
-    "performance": 2380
-   }
-  },
-  {
-   "rank": 29,
+   "rank": 40,
    "participantId": "p.pavle-ciric",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
+    "RANK": 40,
     "PTS": 2.0,
     "ELO": 2263,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.pavle-ciric",
@@ -833,44 +1119,18 @@
    },
    "extra": {
     "team": "CRVENA ZVEZDA - Beograd",
-    "performance": 2426
+    "performance": 2293
    }
   },
   {
-   "rank": 30,
-   "participantId": "p.ilija-stanojevic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 30,
-    "PTS": 2.0,
-    "ELO": 2256,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.ilija-stanojevic",
-    "name": {
-     "full": "Ilija Stanojevic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "DEČ - Deč",
-    "performance": 2524
-   }
-  },
-  {
-   "rank": 31,
+   "rank": 41,
    "participantId": "p.marko-ivanovic",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 41,
     "PTS": 2.0,
     "ELO": 2253,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.marko-ivanovic",
@@ -884,15 +1144,41 @@
    },
    "extra": {
     "team": "CRVENA ZVEZDA - Beograd",
-    "performance": 2418
+    "performance": 2314
    }
   },
   {
-   "rank": 32,
+   "rank": 42,
+   "participantId": "p.aleksa-alimpic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 42,
+    "PTS": 2.0,
+    "ELO": 2247,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.aleksa-alimpic",
+    "name": {
+     "full": "Aleksa Alimpic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "HERCEGOVAC - Gajdobra",
+    "performance": 2478
+   }
+  },
+  {
+   "rank": 43,
    "participantId": "p.ferenc-berkes",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 43,
     "PTS": 1.5,
     "ELO": 2612,
     "GP": 4
@@ -914,89 +1200,38 @@
    }
   },
   {
-   "rank": 33,
-   "participantId": "p.jingyao-tin",
+   "rank": 44,
+   "participantId": "p.bharath-subramaniyam-h.2007",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 44,
     "PTS": 1.5,
-    "ELO": 2602,
+    "ELO": 2603,
     "GP": 3
    },
    "person": {
-    "id": "p.jingyao-tin",
+    "id": "p.bharath-subramaniyam-h.2007",
     "name": {
-     "full": "Jingyao Tin"
+     "full": "Bharath Subramaniyam H"
     },
+    "birthDate": "2007",
     "nationalities": [
-     "SG"
+     "IN"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "team": "RUDAR - Kostolac",
-    "performance": 2545
+    "team": "RADNIČKI - ZMAJ - Beograd",
+    "performance": 2462
    }
   },
   {
-   "rank": 34,
-   "participantId": "p.bojan-maksimovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 34,
-    "PTS": 1.5,
-    "ELO": 2530,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.bojan-maksimovic",
-    "name": {
-     "full": "Bojan Maksimovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "JELICA PEP - Goračići",
-    "performance": 2485
-   }
-  },
-  {
-   "rank": 35,
-   "participantId": "p.temur-kuybokarov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 35,
-    "PTS": 1.5,
-    "ELO": 2529,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.temur-kuybokarov",
-    "name": {
-     "full": "Temur Kuybokarov"
-    },
-    "nationalities": [
-     "AU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "CRVENA ZVEZDA - Beograd",
-    "performance": 2544
-   }
-  },
-  {
-   "rank": 36,
+   "rank": 45,
    "participantId": "p.merab-gagunashvili",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 45,
     "PTS": 1.5,
     "ELO": 2520,
     "GP": 3
@@ -1018,71 +1253,71 @@
    }
   },
   {
-   "rank": 37,
-   "participantId": "p.andrey-shariyazdanov",
+   "rank": 46,
+   "participantId": "p.radoslav-dimitrov",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 46,
     "PTS": 1.5,
-    "ELO": 2468,
-    "GP": 3
+    "ELO": 2486,
+    "GP": 4
    },
    "person": {
-    "id": "p.andrey-shariyazdanov",
+    "id": "p.radoslav-dimitrov",
     "name": {
-     "full": "Andrey Shariyazdanov"
+     "full": "Radoslav Dimitrov"
     },
     "nationalities": [
-     "RS"
+     "BG"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "team": "RUDAR - Kostolac",
-    "performance": 2385
-   }
-  },
-  {
-   "rank": 38,
-   "participantId": "p.milos-roganovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 38,
-    "PTS": 1.5,
-    "ELO": 2448,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.milos-roganovic",
-    "name": {
-     "full": "Milos Roganovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "JELICA PEP - Goračići",
+    "team": "GORNJA JABLANICA - Medveđa",
     "performance": 2414
    }
   },
   {
-   "rank": 39,
-   "participantId": "p.miodrag-r-savic",
+   "rank": 47,
+   "participantId": "p.marko-nenezic",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 47,
     "PTS": 1.5,
-    "ELO": 2430,
-    "GP": 3
+    "ELO": 2483,
+    "GP": 4
    },
    "person": {
-    "id": "p.miodrag-r-savic",
+    "id": "p.marko-nenezic",
     "name": {
-     "full": "Miodrag R Savic"
+     "full": "Marko Nenezic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "POŽEGA - Požega",
+    "performance": 2265
+   }
+  },
+  {
+   "rank": 48,
+   "participantId": "p.misa-pap",
+   "participantType": "person",
+   "stats": {
+    "RANK": 48,
+    "PTS": 1.5,
+    "ELO": 2428,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.misa-pap",
+    "name": {
+     "full": "Misa Pap"
     },
     "nationalities": [
      "RS"
@@ -1092,44 +1327,18 @@
    },
    "extra": {
     "team": "GORNJA JABLANICA - Medveđa",
-    "performance": 2332
+    "performance": 2300
    }
   },
   {
-   "rank": 40,
-   "participantId": "p.nikola-radovanovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 40,
-    "PTS": 1.5,
-    "ELO": 2407,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.nikola-radovanovic",
-    "name": {
-     "full": "Nikola Radovanovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "PTT - Beograd",
-    "performance": 2438
-   }
-  },
-  {
-   "rank": 41,
+   "rank": 49,
    "participantId": "p.kirill-klukin",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 49,
     "PTS": 1.5,
     "ELO": 2382,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.kirill-klukin",
@@ -1144,15 +1353,15 @@
    },
    "extra": {
     "team": "RUDAR - Kostolac",
-    "performance": 2355
+    "performance": 2291
    }
   },
   {
-   "rank": 42,
+   "rank": 50,
    "participantId": "p.miroslav-d-miljkovic",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 50,
     "PTS": 1.5,
     "ELO": 2382,
     "GP": 3
@@ -1174,19 +1383,19 @@
    }
   },
   {
-   "rank": 43,
-   "participantId": "p.suat-atalik",
+   "rank": 51,
+   "participantId": "p.milan-zajic",
    "participantType": "person",
    "stats": {
-    "RANK": 43,
+    "RANK": 51,
     "PTS": 1.5,
-    "ELO": 2371,
-    "GP": 3
+    "ELO": 2353,
+    "GP": 2
    },
    "person": {
-    "id": "p.suat-atalik",
+    "id": "p.milan-zajic",
     "name": {
-     "full": "Suat Atalik"
+     "full": "Milan Zajic"
     },
     "nationalities": [
      "RS"
@@ -1195,19 +1404,45 @@
     "title": "GM"
    },
    "extra": {
-    "team": "CRVENA ZVEZDA - Beograd",
+    "team": "JELICA PEP - Goračići",
     "performance": 2408
    }
   },
   {
-   "rank": 44,
+   "rank": 52,
+   "participantId": "p.aleksandar-simonovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 52,
+    "PTS": 1.5,
+    "ELO": 2335,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.aleksandar-simonovic",
+    "name": {
+     "full": "Aleksandar Simonovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "PARTIZAN - Beograd",
+    "performance": 2475
+   }
+  },
+  {
+   "rank": 53,
    "participantId": "p.dejan-antic",
    "participantType": "person",
    "stats": {
-    "RANK": 44,
+    "RANK": 53,
     "PTS": 1.5,
     "ELO": 2306,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.dejan-antic",
@@ -1222,18 +1457,44 @@
    },
    "extra": {
     "team": "CRVENA ZVEZDA - Beograd",
-    "performance": 2359
+    "performance": 2290
    }
   },
   {
-   "rank": 45,
+   "rank": 54,
+   "participantId": "p.boroljub-zlatanovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 54,
+    "PTS": 1.5,
+    "ELO": 2269,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.boroljub-zlatanovic",
+    "name": {
+     "full": "Boroljub Zlatanovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "NAFTAGAS - Elemir",
+    "performance": 2190
+   }
+  },
+  {
+   "rank": 55,
    "participantId": "p.dusan-lekic",
    "participantType": "person",
    "stats": {
-    "RANK": 45,
+    "RANK": 55,
     "PTS": 1.5,
     "ELO": 2227,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.dusan-lekic",
@@ -1248,18 +1509,44 @@
    },
    "extra": {
     "team": "PARTIZAN - Beograd",
-    "performance": 2256
+    "performance": 2209
    }
   },
   {
-   "rank": 46,
+   "rank": 56,
+   "participantId": "p.bosko-stefanovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 56,
+    "PTS": 1.5,
+    "ELO": 2223,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.bosko-stefanovic",
+    "name": {
+     "full": "Bosko Stefanovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "PARTIZAN - Beograd",
+    "performance": 2388
+   }
+  },
+  {
+   "rank": 57,
    "participantId": "p.aleksa-ilincic",
    "participantType": "person",
    "stats": {
-    "RANK": 46,
+    "RANK": 57,
     "PTS": 1.5,
     "ELO": 2220,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.aleksa-ilincic",
@@ -1274,15 +1561,66 @@
    },
    "extra": {
     "team": "HERCEGOVAC - Gajdobra",
-    "performance": 2482
+    "performance": 2330
    }
   },
   {
-   "rank": 47,
+   "rank": 58,
+   "participantId": "p.mikhail-gusev",
+   "participantType": "person",
+   "stats": {
+    "RANK": 58,
+    "PTS": 1.5,
+    "ELO": 2211,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.mikhail-gusev",
+    "name": {
+     "full": "Mikhail Gusev"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "NAFTAGAS - Elemir",
+    "performance": 2208
+   }
+  },
+  {
+   "rank": 59,
+   "participantId": "p.sinisa-kovacevic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 59,
+    "PTS": 1.5,
+    "ELO": 2204,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.sinisa-kovacevic",
+    "name": {
+     "full": "Sinisa Kovacevic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "HERCEGOVAC - Gajdobra",
+    "performance": 2271
+   }
+  },
+  {
+   "rank": 60,
    "participantId": "p.alexandr-predke",
    "participantType": "person",
    "stats": {
-    "RANK": 47,
+    "RANK": 60,
     "PTS": 1.0,
     "ELO": 2612,
     "GP": 2
@@ -1304,14 +1642,14 @@
    }
   },
   {
-   "rank": 48,
+   "rank": 61,
    "participantId": "p.aleksandar-indjic",
    "participantType": "person",
    "stats": {
-    "RANK": 48,
+    "RANK": 61,
     "PTS": 1.0,
     "ELO": 2606,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.aleksandar-indjic",
@@ -1326,75 +1664,23 @@
    },
    "extra": {
     "team": "RADNIK - Surdulica",
-    "performance": 2515
+    "performance": 2330
    }
   },
   {
-   "rank": 49,
-   "participantId": "p.radoslav-dimitrov",
+   "rank": 62,
+   "participantId": "p.boban-bogosavljevic",
    "participantType": "person",
    "stats": {
-    "RANK": 49,
+    "RANK": 62,
     "PTS": 1.0,
-    "ELO": 2486,
+    "ELO": 2451,
     "GP": 3
    },
    "person": {
-    "id": "p.radoslav-dimitrov",
+    "id": "p.boban-bogosavljevic",
     "name": {
-     "full": "Radoslav Dimitrov"
-    },
-    "nationalities": [
-     "BG"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "GORNJA JABLANICA - Medveđa",
-    "performance": 2367
-   }
-  },
-  {
-   "rank": 50,
-   "participantId": "p.marko-nenezic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 50,
-    "PTS": 1.0,
-    "ELO": 2483,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.marko-nenezic",
-    "name": {
-     "full": "Marko Nenezic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "POŽEGA - Požega",
-    "performance": 2250
-   }
-  },
-  {
-   "rank": 51,
-   "participantId": "p.misa-pap",
-   "participantType": "person",
-   "stats": {
-    "RANK": 51,
-    "PTS": 1.0,
-    "ELO": 2428,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.misa-pap",
-    "name": {
-     "full": "Misa Pap"
+     "full": "Boban Bogosavljevic"
     },
     "nationalities": [
      "RS"
@@ -1403,68 +1689,16 @@
     "title": "GM"
    },
    "extra": {
-    "team": "GORNJA JABLANICA - Medveđa",
-    "performance": 2267
+    "team": "JELICA PEP - Goračići",
+    "performance": 2246
    }
   },
   {
-   "rank": 52,
-   "participantId": "p.stefan-tadic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 52,
-    "PTS": 1.0,
-    "ELO": 2394,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.stefan-tadic",
-    "name": {
-     "full": "Stefan Tadic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "RADNIČKI - ZMAJ - Beograd",
-    "performance": 2223
-   }
-  },
-  {
-   "rank": 53,
-   "participantId": "p.andrej-ljepic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 53,
-    "PTS": 1.0,
-    "ELO": 2378,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.andrej-ljepic",
-    "name": {
-     "full": "Andrej Ljepic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "GORNJA JABLANICA - Medveđa",
-    "performance": 2120
-   }
-  },
-  {
-   "rank": 54,
+   "rank": 63,
    "participantId": "p.milos-lapcevic",
    "participantType": "person",
    "stats": {
-    "RANK": 54,
+    "RANK": 63,
     "PTS": 1.0,
     "ELO": 2371,
     "GP": 1
@@ -1486,14 +1720,14 @@
    }
   },
   {
-   "rank": 55,
+   "rank": 64,
    "participantId": "p.maksim-schekachikhin",
    "participantType": "person",
    "stats": {
-    "RANK": 55,
+    "RANK": 64,
     "PTS": 1.0,
     "ELO": 2358,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.maksim-schekachikhin",
@@ -1508,18 +1742,69 @@
    },
    "extra": {
     "team": "HERCEGOVAC - Gajdobra",
-    "performance": 2416
+    "performance": 2363
    }
   },
   {
-   "rank": 56,
+   "rank": 65,
+   "participantId": "p.goran-pavlovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 65,
+    "PTS": 1.0,
+    "ELO": 2327,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.goran-pavlovic",
+    "name": {
+     "full": "Goran Pavlovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "RUDAR - Kostolac",
+    "performance": 2379
+   }
+  },
+  {
+   "rank": 66,
+   "participantId": "p.zoran-arsovic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 66,
+    "PTS": 1.0,
+    "ELO": 2307,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.zoran-arsovic",
+    "name": {
+     "full": "Zoran Arsovic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "PTT - Beograd",
+    "performance": 2298
+   }
+  },
+  {
+   "rank": 67,
    "participantId": "p.dragan-kosic",
    "participantType": "person",
    "stats": {
-    "RANK": 56,
+    "RANK": 67,
     "PTS": 1.0,
     "ELO": 2305,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.dragan-kosic",
@@ -1534,49 +1819,23 @@
    },
    "extra": {
     "team": "RUDAR - Kostolac",
-    "performance": 2198
+    "performance": 2137
    }
   },
   {
-   "rank": 57,
-   "participantId": "p.boroljub-zlatanovic",
+   "rank": 68,
+   "participantId": "p.luka-radovic",
    "participantType": "person",
    "stats": {
-    "RANK": 57,
+    "RANK": 68,
     "PTS": 1.0,
-    "ELO": 2269,
-    "GP": 3
+    "ELO": 2283,
+    "GP": 4
    },
    "person": {
-    "id": "p.boroljub-zlatanovic",
+    "id": "p.luka-radovic",
     "name": {
-     "full": "Boroljub Zlatanovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "NAFTAGAS - Elemir",
-    "performance": 2142
-   }
-  },
-  {
-   "rank": 58,
-   "participantId": "p.aleksa-alimpic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 58,
-    "PTS": 1.0,
-    "ELO": 2247,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.aleksa-alimpic",
-    "name": {
-     "full": "Aleksa Alimpic"
+     "full": "Luka Radovic"
     },
     "nationalities": [
      "RS"
@@ -1585,42 +1844,16 @@
     "title": "FM"
    },
    "extra": {
-    "team": "HERCEGOVAC - Gajdobra",
-    "performance": 2345
+    "team": "DEČ - Deč",
+    "performance": 2273
    }
   },
   {
-   "rank": 59,
-   "participantId": "p.bosko-stefanovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 59,
-    "PTS": 1.0,
-    "ELO": 2223,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.bosko-stefanovic",
-    "name": {
-     "full": "Bosko Stefanovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "PARTIZAN - Beograd",
-    "performance": 2317
-   }
-  },
-  {
-   "rank": 60,
+   "rank": 69,
    "participantId": "p.dusan-rajkovic",
    "participantType": "person",
    "stats": {
-    "RANK": 60,
+    "RANK": 69,
     "PTS": 1.0,
     "ELO": 2218,
     "GP": 2
@@ -1642,40 +1875,14 @@
    }
   },
   {
-   "rank": 61,
-   "participantId": "p.mikhail-gusev",
-   "participantType": "person",
-   "stats": {
-    "RANK": 61,
-    "PTS": 1.0,
-    "ELO": 2211,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.mikhail-gusev",
-    "name": {
-     "full": "Mikhail Gusev"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "NAFTAGAS - Elemir",
-    "performance": 2140
-   }
-  },
-  {
-   "rank": 62,
+   "rank": 70,
    "participantId": "p.nebojsa-pavkov",
    "participantType": "person",
    "stats": {
-    "RANK": 62,
+    "RANK": 70,
     "PTS": 1.0,
     "ELO": 2191,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.nebojsa-pavkov",
@@ -1689,18 +1896,18 @@
    },
    "extra": {
     "team": "HERCEGOVAC - Gajdobra",
-    "performance": 2277
+    "performance": 2207
    }
   },
   {
-   "rank": 63,
+   "rank": 71,
    "participantId": "p.ivan-cheparinov.1986",
    "participantType": "person",
    "stats": {
-    "RANK": 63,
+    "RANK": 71,
     "PTS": 0.5,
     "ELO": 2631,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.ivan-cheparinov.1986",
@@ -1716,68 +1923,15 @@
    },
    "extra": {
     "team": "RADNIK - Surdulica",
-    "performance": 2436
+    "performance": 2295
    }
   },
   {
-   "rank": 64,
-   "participantId": "p.bharath-subramaniyam-h.2007",
-   "participantType": "person",
-   "stats": {
-    "RANK": 64,
-    "PTS": 0.5,
-    "ELO": 2603,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.bharath-subramaniyam-h.2007",
-    "name": {
-     "full": "Bharath Subramaniyam H"
-    },
-    "birthDate": "2007",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "RADNIČKI - ZMAJ - Beograd",
-    "performance": 2322
-   }
-  },
-  {
-   "rank": 65,
-   "participantId": "p.boban-bogosavljevic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 65,
-    "PTS": 0.5,
-    "ELO": 2451,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.boban-bogosavljevic",
-    "name": {
-     "full": "Boban Bogosavljevic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "JELICA PEP - Goračići",
-    "performance": 2200
-   }
-  },
-  {
-   "rank": 66,
+   "rank": 72,
    "participantId": "p.dusan-d-jovanovic",
    "participantType": "person",
    "stats": {
-    "RANK": 66,
+    "RANK": 72,
     "PTS": 0.5,
     "ELO": 2365,
     "GP": 2
@@ -1799,37 +1953,11 @@
    }
   },
   {
-   "rank": 67,
-   "participantId": "p.milan-zajic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 67,
-    "PTS": 0.5,
-    "ELO": 2353,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.milan-zajic",
-    "name": {
-     "full": "Milan Zajic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "JELICA PEP - Goračići",
-    "performance": 2126
-   }
-  },
-  {
-   "rank": 68,
+   "rank": 73,
    "participantId": "p.mladen-rajkovic",
    "participantType": "person",
    "stats": {
-    "RANK": 68,
+    "RANK": 73,
     "PTS": 0.5,
     "ELO": 2344,
     "GP": 3
@@ -1851,62 +1979,11 @@
    }
   },
   {
-   "rank": 69,
-   "participantId": "p.aleksandar-simonovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 69,
-    "PTS": 0.5,
-    "ELO": 2335,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.aleksandar-simonovic",
-    "name": {
-     "full": "Aleksandar Simonovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "PARTIZAN - Beograd",
-    "performance": 2217
-   }
-  },
-  {
-   "rank": 70,
-   "participantId": "p.goran-pavlovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 70,
-    "PTS": 0.5,
-    "ELO": 2327,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.goran-pavlovic",
-    "name": {
-     "full": "Goran Pavlovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "RUDAR - Kostolac",
-    "performance": 2307
-   }
-  },
-  {
-   "rank": 71,
+   "rank": 74,
    "participantId": "p.goran-arsovic",
    "participantType": "person",
    "stats": {
-    "RANK": 71,
+    "RANK": 74,
     "PTS": 0.5,
     "ELO": 2308,
     "GP": 2
@@ -1928,66 +2005,14 @@
    }
   },
   {
-   "rank": 72,
-   "participantId": "p.zoran-arsovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 72,
-    "PTS": 0.5,
-    "ELO": 2307,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.zoran-arsovic",
-    "name": {
-     "full": "Zoran Arsovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "PTT - Beograd",
-    "performance": 2327
-   }
-  },
-  {
-   "rank": 73,
-   "participantId": "p.luka-radovic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 73,
-    "PTS": 0.5,
-    "ELO": 2283,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.luka-radovic",
-    "name": {
-     "full": "Luka Radovic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "DEČ - Deč",
-    "performance": 2187
-   }
-  },
-  {
-   "rank": 74,
+   "rank": 75,
    "participantId": "p.yury-garifulin",
    "participantType": "person",
    "stats": {
-    "RANK": 74,
+    "RANK": 75,
     "PTS": 0.5,
     "ELO": 2256,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.yury-garifulin",
@@ -2002,15 +2027,15 @@
    },
    "extra": {
     "team": "DEČ - Deč",
-    "performance": 2135
+    "performance": 2082
    }
   },
   {
-   "rank": 75,
+   "rank": 76,
    "participantId": "p.nenad-ristic",
    "participantType": "person",
    "stats": {
-    "RANK": 75,
+    "RANK": 76,
     "PTS": 0.5,
     "ELO": 2246,
     "GP": 3
@@ -2032,19 +2057,19 @@
    }
   },
   {
-   "rank": 76,
-   "participantId": "p.sinisa-kovacevic",
+   "rank": 77,
+   "participantId": "p.strahinja-bajkic",
    "participantType": "person",
    "stats": {
-    "RANK": 76,
+    "RANK": 77,
     "PTS": 0.5,
-    "ELO": 2204,
-    "GP": 3
+    "ELO": 2203,
+    "GP": 1
    },
    "person": {
-    "id": "p.sinisa-kovacevic",
+    "id": "p.strahinja-bajkic",
     "name": {
-     "full": "Sinisa Kovacevic"
+     "full": "Strahinja Bajkic"
     },
     "nationalities": [
      "RS"
@@ -2052,19 +2077,19 @@
     "isCuban": false
    },
    "extra": {
-    "team": "HERCEGOVAC - Gajdobra",
-    "performance": 2052
+    "team": "PARTIZAN - Beograd",
+    "performance": 2372
    }
   },
   {
-   "rank": 77,
+   "rank": 78,
    "participantId": "p.daniel-milekic",
    "participantType": "person",
    "stats": {
-    "RANK": 77,
+    "RANK": 78,
     "PTS": 0.5,
     "ELO": 2164,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.daniel-milekic",
@@ -2079,18 +2104,18 @@
    },
    "extra": {
     "team": "DEČ - Deč",
-    "performance": 2065
+    "performance": 2001
    }
   },
   {
-   "rank": 78,
+   "rank": 79,
    "participantId": "p.novak-pezelj",
    "participantType": "person",
    "stats": {
-    "RANK": 78,
+    "RANK": 79,
     "PTS": 0.0,
     "ELO": 2455,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.novak-pezelj",
@@ -2105,15 +2130,15 @@
    },
    "extra": {
     "team": "RADNIČKI - ZMAJ - Beograd",
-    "performance": 1456
+    "performance": 1430
    }
   },
   {
-   "rank": 79,
+   "rank": 80,
    "participantId": "p.ivan-sarenac",
    "participantType": "person",
    "stats": {
-    "RANK": 79,
+    "RANK": 80,
     "PTS": 0.0,
     "ELO": 2351,
     "GP": 1
@@ -2135,11 +2160,11 @@
    }
   },
   {
-   "rank": 80,
+   "rank": 81,
    "participantId": "p.nebojsa-b-ristic",
    "participantType": "person",
    "stats": {
-    "RANK": 80,
+    "RANK": 81,
     "PTS": 0.0,
     "ELO": 2280,
     "GP": 1
@@ -2161,11 +2186,37 @@
    }
   },
   {
-   "rank": 81,
+   "rank": 82,
+   "participantId": "p.nikola-marcetic",
+   "participantType": "person",
+   "stats": {
+    "RANK": 82,
+    "PTS": 0.0,
+    "ELO": 2272,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.nikola-marcetic",
+    "name": {
+     "full": "Nikola Marcetic"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "POŽEGA - Požega",
+    "performance": 1470
+   }
+  },
+  {
+   "rank": 83,
    "participantId": "p.mihailo-djokic",
    "participantType": "person",
    "stats": {
-    "RANK": 81,
+    "RANK": 83,
     "PTS": 0.0,
     "ELO": 2269,
     "GP": 3
@@ -2187,11 +2238,11 @@
    }
   },
   {
-   "rank": 82,
+   "rank": 84,
    "participantId": "p.zarko-dedijer",
    "participantType": "person",
    "stats": {
-    "RANK": 82,
+    "RANK": 84,
     "PTS": 0.0,
     "ELO": 1930,
     "GP": 1
@@ -2209,53 +2260,6 @@
    "extra": {
     "team": "HERCEGOVAC - Gajdobra",
     "performance": 1602
-   }
-  },
-  {
-   "rank": 83,
-   "participantId": "p.nikola-marcetic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 83,
-    "ELO": 2272,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.nikola-marcetic",
-    "name": {
-     "full": "Nikola Marcetic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "POŽEGA - Požega"
-   }
-  },
-  {
-   "rank": 84,
-   "participantId": "p.strahinja-bajkic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 84,
-    "ELO": 2203,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.strahinja-bajkic",
-    "name": {
-     "full": "Strahinja Bajkic"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "PARTIZAN - Beograd"
    }
   }
  ]
