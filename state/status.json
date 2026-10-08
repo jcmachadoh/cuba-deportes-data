@@ -1,7 +1,7 @@
 {
  "baseball.kbo:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:40Z",
+  "at": "2026-10-08T00:12:17Z",
   "mode": "standings",
   "counts": {
    "teams": 10,
@@ -12,8 +12,8 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 0.9,
-  "lastOk": "2026-10-07T20:00:40Z"
+  "seconds": 1.3,
+  "lastOk": "2026-10-08T00:12:17Z"
  },
  "baseball.lbprc:2021-22": {
   "ok": true,
@@ -193,7 +193,7 @@
  },
  "baseball.lidom:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:36Z",
+  "at": "2026-10-08T00:12:12Z",
   "mode": "standings",
   "counts": {
    "teams": 6,
@@ -205,7 +205,7 @@
   },
   "warnings": [],
   "seconds": 0.5,
-  "lastOk": "2026-10-07T20:00:36Z"
+  "lastOk": "2026-10-08T00:12:12Z"
  },
  "baseball.lmb:2021": {
   "ok": true,
@@ -385,7 +385,7 @@
  },
  "baseball.lmp:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:37Z",
+  "at": "2026-10-08T00:12:13Z",
   "mode": "standings",
   "counts": {
    "teams": 10,
@@ -396,8 +396,8 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 0.4,
-  "lastOk": "2026-10-07T20:00:37Z"
+  "seconds": 0.5,
+  "lastOk": "2026-10-08T00:12:13Z"
  },
  "baseball.lpb-colombia:2025-26": {
   "ok": true,
@@ -499,7 +499,7 @@
  },
  "baseball.lvbp:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:37Z",
+  "at": "2026-10-08T00:12:13Z",
   "mode": "standings",
   "counts": {
    "teams": 8,
@@ -510,8 +510,8 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 0.6,
-  "lastOk": "2026-10-07T20:00:37Z"
+  "seconds": 0.5,
+  "lastOk": "2026-10-08T00:12:13Z"
  },
  "baseball.mlb:2021": {
   "ok": true,
@@ -595,7 +595,7 @@
  },
  "baseball.mlb:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:36Z",
+  "at": "2026-10-08T00:12:12Z",
   "mode": "standings",
   "counts": {
    "teams": 30,
@@ -606,8 +606,8 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 0.4,
-  "lastOk": "2026-10-07T20:00:36Z"
+  "seconds": 0.3,
+  "lastOk": "2026-10-08T00:12:12Z"
  },
  "baseball.npb:2023": {
   "ok": true,
@@ -659,7 +659,7 @@
  },
  "baseball.npb:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:39Z",
+  "at": "2026-10-08T00:12:15Z",
   "mode": "standings",
   "counts": {
    "teams": 12,
@@ -670,8 +670,8 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 1.7,
-  "lastOk": "2026-10-07T20:00:39Z"
+  "seconds": 1.8,
+  "lastOk": "2026-10-08T00:12:15Z"
  },
  "baseball.serie-del-caribe:2021-22": {
   "ok": true,
@@ -770,15 +770,24 @@
   "lastOk": "2026-10-07T15:46:43Z"
  },
  "baseball.snb:2026-27": {
-  "ok": false,
-  "at": "2026-10-07T20:00:36Z",
+  "ok": true,
+  "at": "2026-10-08T00:12:12Z",
   "mode": "standings",
-  "error": "HttpError: HTTP 0 https://www.beisbolcubano.cu/estadisticas/posiciones HTTPSConnectionPool(host='www.beisbolcubano.cu', port=443): Max retries exceeded with url: /estadisticas/posiciones (Caused by NameResolutionError(\"HTTPSConnection(host='www.beisbolcubano.cu', port=443): Failed to resolve 'www.beisbolcubano.cu' ([Errno -3] Temporary failure in name resolution)\"))",
-  "lastOk": "2026-10-07T15:46:06Z"
+  "counts": {
+   "teams": 16,
+   "persons": 0,
+   "rosters": 0,
+   "standings": 16,
+   "rankings": 0,
+   "events": 0
+  },
+  "warnings": [],
+  "seconds": 1.6,
+  "lastOk": "2026-10-08T00:12:12Z"
  },
  "boxing.wbc:2026": {
   "ok": false,
-  "at": "2026-10-07T20:00:58Z",
+  "at": "2026-10-08T00:12:34Z",
   "mode": "standings",
   "error": "HttpError: HTTP 403 https://wbcboxing.com/en/ratings/male/heavyweight/",
   "lastOk": "2026-10-03T18:12:56Z"
@@ -792,7 +801,7 @@
  },
  "chess.elite-broadcasts:2026": {
   "ok": true,
-  "at": "2026-10-07T20:23:13Z",
+  "at": "2026-10-08T00:13:24Z",
   "mode": "standings",
   "counts": {
    "teams": 0,
@@ -803,26 +812,44 @@
    "events": 10
   },
   "warnings": [],
-  "seconds": 33.2,
-  "lastOk": "2026-10-07T20:23:13Z"
+  "seconds": 33.1,
+  "lastOk": "2026-10-08T00:13:24Z"
  },
  "chess.fide-cuba:2026": {
-  "ok": false,
-  "at": "2026-10-07T20:22:39Z",
+  "ok": true,
+  "at": "2026-10-08T00:12:51Z",
   "mode": "standings",
-  "error": "HttpError: HTTP 0 https://ratings.fide.com/download/standard_rating_list_xml.zip HTTPSConnectionPool(host='ratings.fide.com', port=443): Max retries exceeded with url: /download/standard_rating_list_xml.zip (Caused by ConnectTimeoutError(<HTTPSConnection(host='ratings.fide.com', port=443) at 0x7f7eb4420ef0>, 'Connection to ratings.fide.com timed out. (connect timeout=120.0)'))",
-  "lastOk": "2026-10-07T13:22:22Z"
+  "counts": {
+   "teams": 0,
+   "persons": 554,
+   "rosters": 0,
+   "standings": 0,
+   "rankings": 3,
+   "events": 0
+  },
+  "warnings": [],
+  "seconds": 9.9,
+  "lastOk": "2026-10-08T00:12:51Z"
  },
  "chess.fide-ranking:2026": {
-  "ok": false,
-  "at": "2026-10-07T20:11:48Z",
+  "ok": true,
+  "at": "2026-10-08T00:12:40Z",
   "mode": "standings",
-  "error": "HttpError: HTTP 0 https://ratings.fide.com/a_top.php?list=open HTTPSConnectionPool(host='ratings.fide.com', port=443): Max retries exceeded with url: /a_top.php?list=open (Caused by ConnectTimeoutError(<HTTPSConnection(host='ratings.fide.com', port=443) at 0x7f7eb1d8e9c0>, 'Connection to ratings.fide.com timed out. (connect timeout=120.0)'))",
-  "lastOk": "2026-10-07T13:22:09Z"
+  "counts": {
+   "teams": 0,
+   "persons": 376,
+   "rosters": 0,
+   "standings": 0,
+   "rankings": 4,
+   "events": 0
+  },
+  "warnings": [],
+  "seconds": 6.2,
+  "lastOk": "2026-10-08T00:12:40Z"
  },
  "mma.ufc:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:57Z",
+  "at": "2026-10-08T00:12:34Z",
   "mode": "standings",
   "counts": {
    "teams": 0,
@@ -834,11 +861,11 @@
   },
   "warnings": [],
   "seconds": 0.3,
-  "lastOk": "2026-10-07T20:00:57Z"
+  "lastOk": "2026-10-08T00:12:34Z"
  },
  "soccer.arg-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:49Z",
+  "at": "2026-10-08T00:12:25Z",
   "mode": "standings",
   "counts": {
    "teams": 30,
@@ -849,12 +876,12 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:49Z"
+  "seconds": 0.6,
+  "lastOk": "2026-10-08T00:12:25Z"
  },
  "soccer.bol-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:55Z",
+  "at": "2026-10-08T00:12:31Z",
   "mode": "standings",
   "counts": {
    "teams": 16,
@@ -866,11 +893,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:55Z"
+  "lastOk": "2026-10-08T00:12:31Z"
  },
  "soccer.bra-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:50Z",
+  "at": "2026-10-08T00:12:26Z",
   "mode": "standings",
   "counts": {
    "teams": 20,
@@ -882,11 +909,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:50Z"
+  "lastOk": "2026-10-08T00:12:26Z"
  },
  "soccer.chi-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:51Z",
+  "at": "2026-10-08T00:12:27Z",
   "mode": "standings",
   "counts": {
    "teams": 16,
@@ -898,11 +925,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:51Z"
+  "lastOk": "2026-10-08T00:12:27Z"
  },
  "soccer.col-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:50Z",
+  "at": "2026-10-08T00:12:27Z",
   "mode": "standings",
   "counts": {
    "teams": 20,
@@ -914,7 +941,7 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:50Z"
+  "lastOk": "2026-10-08T00:12:27Z"
  },
  "soccer.concacaf-champions:2026": {
   "ok": true,
@@ -934,7 +961,7 @@
  },
  "soccer.ecu-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:53Z",
+  "at": "2026-10-08T00:12:30Z",
   "mode": "standings",
   "counts": {
    "teams": 16,
@@ -946,11 +973,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:53Z"
+  "lastOk": "2026-10-08T00:12:30Z"
  },
  "soccer.eng-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:41Z",
+  "at": "2026-10-08T00:12:17Z",
   "mode": "standings",
   "counts": {
    "teams": 20,
@@ -962,11 +989,11 @@
   },
   "warnings": [],
   "seconds": 0.4,
-  "lastOk": "2026-10-07T20:00:41Z"
+  "lastOk": "2026-10-08T00:12:17Z"
  },
  "soccer.esp-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:41Z",
+  "at": "2026-10-08T00:12:18Z",
   "mode": "standings",
   "counts": {
    "teams": 20,
@@ -977,12 +1004,12 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 0.6,
-  "lastOk": "2026-10-07T20:00:41Z"
+  "seconds": 0.7,
+  "lastOk": "2026-10-08T00:12:18Z"
  },
  "soccer.fra-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:43Z",
+  "at": "2026-10-08T00:12:20Z",
   "mode": "standings",
   "counts": {
    "teams": 18,
@@ -994,11 +1021,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:43Z"
+  "lastOk": "2026-10-08T00:12:20Z"
  },
  "soccer.ger-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:43Z",
+  "at": "2026-10-08T00:12:19Z",
   "mode": "standings",
   "counts": {
    "teams": 18,
@@ -1010,11 +1037,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:43Z"
+  "lastOk": "2026-10-08T00:12:19Z"
  },
  "soccer.ita-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:42Z",
+  "at": "2026-10-08T00:12:18Z",
   "mode": "standings",
   "counts": {
    "teams": 20,
@@ -1026,11 +1053,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:42Z"
+  "lastOk": "2026-10-08T00:12:18Z"
  },
  "soccer.libertadores:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:56Z",
+  "at": "2026-10-08T00:12:32Z",
   "mode": "standings",
   "counts": {
    "teams": 46,
@@ -1042,11 +1069,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:56Z"
+  "lastOk": "2026-10-08T00:12:32Z"
  },
  "soccer.mex-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:48Z",
+  "at": "2026-10-08T00:12:25Z",
   "mode": "standings",
   "counts": {
    "teams": 18,
@@ -1057,12 +1084,12 @@
    "events": 0
   },
   "warnings": [],
-  "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:48Z"
+  "seconds": 0.8,
+  "lastOk": "2026-10-08T00:12:25Z"
  },
  "soccer.ned-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:45Z",
+  "at": "2026-10-08T00:12:21Z",
   "mode": "standings",
   "counts": {
    "teams": 18,
@@ -1074,11 +1101,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:45Z"
+  "lastOk": "2026-10-08T00:12:21Z"
  },
  "soccer.par-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:54Z",
+  "at": "2026-10-08T00:12:30Z",
   "mode": "standings",
   "counts": {
    "teams": 12,
@@ -1090,11 +1117,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:54Z"
+  "lastOk": "2026-10-08T00:12:30Z"
  },
  "soccer.per-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:52Z",
+  "at": "2026-10-08T00:12:28Z",
   "mode": "standings",
   "counts": {
    "teams": 18,
@@ -1106,11 +1133,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:52Z"
+  "lastOk": "2026-10-08T00:12:28Z"
  },
  "soccer.por-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:44Z",
+  "at": "2026-10-08T00:12:20Z",
   "mode": "standings",
   "counts": {
    "teams": 18,
@@ -1122,11 +1149,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:44Z"
+  "lastOk": "2026-10-08T00:12:20Z"
  },
  "soccer.sudamericana:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:57Z",
+  "at": "2026-10-08T00:12:33Z",
   "mode": "standings",
   "counts": {
    "teams": 58,
@@ -1138,11 +1165,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:57Z"
+  "lastOk": "2026-10-08T00:12:33Z"
  },
  "soccer.tur-1:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:45Z",
+  "at": "2026-10-08T00:12:22Z",
   "mode": "standings",
   "counts": {
    "teams": 18,
@@ -1154,27 +1181,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:45Z"
+  "lastOk": "2026-10-08T00:12:22Z"
  },
  "soccer.uefa-champions:2026-27": {
   "ok": true,
-  "at": "2026-10-07T20:00:46Z",
-  "mode": "standings",
-  "counts": {
-   "teams": 36,
-   "persons": 0,
-   "rosters": 0,
-   "standings": 36,
-   "rankings": 0,
-   "events": 0
-  },
-  "warnings": [],
-  "seconds": 0.6,
-  "lastOk": "2026-10-07T20:00:46Z"
- },
- "soccer.uefa-europa:2026-27": {
-  "ok": true,
-  "at": "2026-10-07T20:00:47Z",
+  "at": "2026-10-08T00:12:23Z",
   "mode": "standings",
   "counts": {
    "teams": 36,
@@ -1186,11 +1197,27 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:47Z"
+  "lastOk": "2026-10-08T00:12:23Z"
+ },
+ "soccer.uefa-europa:2026-27": {
+  "ok": true,
+  "at": "2026-10-08T00:12:23Z",
+  "mode": "standings",
+  "counts": {
+   "teams": 36,
+   "persons": 0,
+   "rosters": 0,
+   "standings": 36,
+   "rankings": 0,
+   "events": 0
+  },
+  "warnings": [],
+  "seconds": 0.7,
+  "lastOk": "2026-10-08T00:12:23Z"
  },
  "soccer.uru-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:52Z",
+  "at": "2026-10-08T00:12:29Z",
   "mode": "standings",
   "counts": {
    "teams": 16,
@@ -1202,11 +1229,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:52Z"
+  "lastOk": "2026-10-08T00:12:29Z"
  },
  "soccer.usa-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:48Z",
+  "at": "2026-10-08T00:12:24Z",
   "mode": "standings",
   "counts": {
    "teams": 30,
@@ -1218,11 +1245,11 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:48Z"
+  "lastOk": "2026-10-08T00:12:24Z"
  },
  "soccer.ven-1:2026": {
   "ok": true,
-  "at": "2026-10-07T20:00:55Z",
+  "at": "2026-10-08T00:12:32Z",
   "mode": "standings",
   "counts": {
    "teams": 14,
@@ -1234,7 +1261,7 @@
   },
   "warnings": [],
   "seconds": 0.7,
-  "lastOk": "2026-10-07T20:00:55Z"
+  "lastOk": "2026-10-08T00:12:32Z"
  },
  "volleyball.superlega:2023-24": {
   "ok": true,
@@ -1286,7 +1313,7 @@
  },
  "volleyball.superlega:2026-27": {
   "ok": false,
-  "at": "2026-10-07T20:00:57Z",
+  "at": "2026-10-08T00:12:33Z",
   "mode": "standings",
   "error": "HttpError: HTTP 403 https://www.legavolley.it/classifica/?Anno=2026&IdCampionato=999",
   "lastOk": "2026-10-03T18:12:50Z"
