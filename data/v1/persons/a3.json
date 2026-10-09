@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "a3",
- "updatedAt": "2026-10-07T06:22:32Z",
+ "updatedAt": "2026-10-09T15:38:57Z",
  "persons": {
   "p.alexander-schwolow.1992": {
    "id": "p.alexander-schwolow.1992",
@@ -845,6 +845,22 @@
     "espn"
    ]
   },
+  "p.guilherme-pires-soares": {
+   "id": "p.guilherme-pires-soares",
+   "name": {
+    "full": "Guilherme Pires Soares",
+    "first": "Guilherme",
+    "last": "Pires Soares"
+   },
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "3144811"
+   },
+   "sources": [
+    "espn"
+   ]
+  },
   "p.hakua-iwaki.2003": {
    "id": "p.hakua-iwaki.2003",
    "name": {
@@ -1331,11 +1347,13 @@
     "fide": "16213955"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "GER"
-   }
+   },
+   "title": "GM"
   },
   "p.leonidas-stergiou.2002": {
    "id": "p.leonidas-stergiou.2002",

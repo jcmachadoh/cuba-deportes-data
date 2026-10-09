@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "e4",
- "updatedAt": "2026-10-03T18:13:12Z",
+ "updatedAt": "2026-10-09T15:38:57Z",
  "persons": {
   "p.adam-choplick.1992": {
    "id": "p.adam-choplick.1992",
@@ -195,6 +195,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.alexander-berelowitsch": {
+   "id": "p.alexander-berelowitsch",
+   "name": {
+    "full": "Alexander Berelowitsch"
+   },
+   "nationalities": [
+    "DE"
+   ],
+   "isCuban": false,
+   "title": "GM",
+   "externalIds": {
+    "fide": "14101440"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "GER"
+   }
   },
   "p.angel-sepulveda.1991": {
    "id": "p.angel-sepulveda.1991",
@@ -1741,11 +1761,13 @@
     "fide": "14102951"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "UKR"
-   }
+   },
+   "title": "GM"
   },
   "p.porfirio-guerrero.2003": {
    "id": "p.porfirio-guerrero.2003",
