@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:s6VvqAQR",
- "updatedAt": "2026-10-08T16:07:28Z",
+ "updatedAt": "2026-10-09T09:27:52Z",
  "sources": [
   "lichess"
  ],
@@ -26,21 +26,21 @@
    {
     "name": "Partida 1",
     "startsAt": 1791522000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Partida 2",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1791526816451,
+    "finished": true
    },
    {
     "name": "Partida 3",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1791531600000,
+    "finished": true
    },
    {
     "name": "Partida 4",
-    "startsAt": null,
+    "startsAt": 1791536400000,
     "finished": null
    },
    {
@@ -63,12 +63,62 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.tong-qd-xiao.2008",
+   "participantId": "p.yihan-meng",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 3.0,
+    "ELO": 2453,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.yihan-meng",
+    "name": {
+     "full": "Yihan Meng"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 3070
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.renjie-huang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 3.0,
+    "ELO": 2434,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.renjie-huang",
+    "name": {
+     "full": "Renjie Huang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 3244
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.tong-qd-xiao.2008",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 2.5,
     "ELO": 2472,
-    "GP": 0
+    "GP": 3
    },
    "person": {
     "id": "p.tong-qd-xiao.2008",
@@ -81,101 +131,20 @@
     ],
     "isCuban": false,
     "title": "GM"
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.yihan-meng",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "ELO": 2453,
-    "GP": 0
    },
-   "person": {
-    "id": "p.yihan-meng",
-    "name": {
-     "full": "Yihan Meng"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.jiner-zhu.2002",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "ELO": 2444,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jiner-zhu.2002",
-    "name": {
-     "full": "Jiner Zhu"
-    },
-    "birthDate": "2002",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
+   "extra": {
+    "performance": 2701
    }
   },
   {
    "rank": 4,
-   "participantId": "p.renjie-huang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "ELO": 2434,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.renjie-huang",
-    "name": {
-     "full": "Renjie Huang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.haochen-jiang.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "ELO": 2428,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.haochen-jiang.2011",
-    "name": {
-     "full": "Haochen Jiang"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   }
-  },
-  {
-   "rank": 6,
    "participantId": "p.xiangrui-kong.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 4,
+    "PTS": 1.5,
     "ELO": 2390,
-    "GP": 0
+    "GP": 3
    },
    "person": {
     "id": "p.xiangrui-kong.2009",
@@ -188,16 +157,20 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 2375
    }
   },
   {
-   "rank": 7,
+   "rank": 5,
    "participantId": "p.xiongjian-peng",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 5,
+    "PTS": 1.5,
     "ELO": 2375,
-    "GP": 0
+    "GP": 3
    },
    "person": {
     "id": "p.xiongjian-peng",
@@ -209,6 +182,61 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 2390
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.haochen-jiang.2011",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 0.5,
+    "ELO": 2428,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.haochen-jiang.2011",
+    "name": {
+     "full": "Haochen Jiang"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2199
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.jiner-zhu.2002",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 0.0,
+    "ELO": 2444,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.jiner-zhu.2002",
+    "name": {
+     "full": "Jiner Zhu"
+    },
+    "birthDate": "2002",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 1634
    }
   },
   {
@@ -217,8 +245,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 8,
+    "PTS": 0.0,
     "ELO": 2270,
-    "GP": 0
+    "GP": 3
    },
    "person": {
     "id": "p.tianqi-yan",
@@ -230,6 +259,9 @@
     ],
     "isCuban": false,
     "title": "WIM"
+   },
+   "extra": {
+    "performance": 1653
    }
   }
  ]
