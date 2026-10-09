@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.uru-1:2026",
- "updatedAt": "2026-10-06T01:18:30Z",
+ "updatedAt": "2026-10-09T22:38:10Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,24 @@
    "name": "Torneo Clausura 2026",
    "rows": [
     {
-     "participantId": "soccer.liverpool-2",
+     "participantId": "soccer.montevideo-city-torque",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 10,
+      "W": 7,
+      "D": 1,
+      "L": 2,
+      "GF": 20,
+      "GA": 10,
+      "GD": 10,
+      "PTS": 22
+     }
+    },
+    {
+     "participantId": "soccer.liverpool-2",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 9,
       "W": 6,
@@ -26,21 +41,6 @@
       "GA": 7,
       "GD": 10,
       "PTS": 20
-     }
-    },
-    {
-     "participantId": "soccer.montevideo-city-torque",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 9,
-      "W": 6,
-      "D": 1,
-      "L": 2,
-      "GF": 19,
-      "GA": 10,
-      "GD": 9,
-      "PTS": 19
      }
     },
     {
@@ -201,13 +201,13 @@
      "participantType": "team",
      "rank": 13,
      "stats": {
-      "GP": 9,
+      "GP": 10,
       "W": 1,
       "D": 4,
-      "L": 4,
+      "L": 5,
       "GF": 4,
-      "GA": 10,
-      "GD": -6,
+      "GA": 11,
+      "GD": -7,
       "PTS": 7
      }
     },

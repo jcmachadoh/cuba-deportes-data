@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.esp-1:2026-27",
- "updatedAt": "2026-10-03T18:08:48Z",
+ "updatedAt": "2026-10-09T22:37:59Z",
  "sources": [
   "espn"
  ],
@@ -212,9 +212,24 @@
      }
     },
     {
-     "participantId": "soccer.getafe",
+     "participantId": "soccer.espanyol",
      "participantType": "team",
      "rank": 11,
+     "stats": {
+      "GP": 8,
+      "W": 2,
+      "D": 2,
+      "L": 4,
+      "GF": 11,
+      "GA": 11,
+      "GD": 0,
+      "PTS": 8
+     }
+    },
+    {
+     "participantId": "soccer.getafe",
+     "participantType": "team",
+     "rank": 12,
      "stats": {
       "GP": 7,
       "W": 2,
@@ -229,7 +244,7 @@
     {
      "participantId": "soccer.rayo-vallecano",
      "participantType": "team",
-     "rank": 12,
+     "rank": 13,
      "stats": {
       "GP": 7,
       "W": 2,
@@ -244,7 +259,7 @@
     {
      "participantId": "soccer.osasuna",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 7,
       "W": 2,
@@ -259,7 +274,7 @@
     {
      "participantId": "soccer.celta-vigo",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 7,
       "W": 1,
@@ -268,21 +283,6 @@
       "GF": 8,
       "GA": 6,
       "GD": 2,
-      "PTS": 7
-     }
-    },
-    {
-     "participantId": "soccer.espanyol",
-     "participantType": "team",
-     "rank": 15,
-     "stats": {
-      "GP": 7,
-      "W": 2,
-      "D": 1,
-      "L": 4,
-      "GF": 10,
-      "GA": 10,
-      "GD": 0,
       "PTS": 7
      }
     },
@@ -363,14 +363,14 @@
      "participantType": "team",
      "rank": 20,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 0,
-      "D": 3,
+      "D": 4,
       "L": 4,
-      "GF": 3,
-      "GA": 12,
+      "GF": 4,
+      "GA": 13,
       "GD": -9,
-      "PTS": 3
+      "PTS": 4
      },
      "extra": {
       "note": {

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.por-1:2026-27",
- "updatedAt": "2026-10-03T18:09:18Z",
+ "updatedAt": "2026-10-09T22:38:02Z",
  "sources": [
   "espn"
  ],
@@ -35,18 +35,18 @@
      }
     },
     {
-     "participantId": "soccer.benfica",
+     "participantId": "soccer.sporting-cp",
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 5,
-      "D": 1,
-      "L": 1,
-      "GF": 22,
-      "GA": 7,
-      "GD": 15,
-      "PTS": 16
+      "D": 3,
+      "L": 0,
+      "GF": 20,
+      "GA": 9,
+      "GD": 11,
+      "PTS": 18
      },
      "extra": {
       "note": {
@@ -56,18 +56,18 @@
      }
     },
     {
-     "participantId": "soccer.sporting-cp",
+     "participantId": "soccer.benfica",
      "participantType": "team",
      "rank": 3,
      "stats": {
       "GP": 7,
-      "W": 4,
-      "D": 3,
-      "L": 0,
-      "GF": 17,
-      "GA": 8,
-      "GD": 9,
-      "PTS": 15
+      "W": 5,
+      "D": 1,
+      "L": 1,
+      "GF": 22,
+      "GA": 7,
+      "GD": 15,
+      "PTS": 16
      },
      "extra": {
       "note": {
@@ -98,39 +98,9 @@
      }
     },
     {
-     "participantId": "soccer.arouca",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 7,
-      "W": 3,
-      "D": 2,
-      "L": 2,
-      "GF": 10,
-      "GA": 7,
-      "GD": 3,
-      "PTS": 11
-     }
-    },
-    {
-     "participantId": "soccer.braga",
-     "participantType": "team",
-     "rank": 6,
-     "stats": {
-      "GP": 6,
-      "W": 3,
-      "D": 2,
-      "L": 1,
-      "GF": 7,
-      "GA": 5,
-      "GD": 2,
-      "PTS": 11
-     }
-    },
-    {
      "participantId": "soccer.academico-de-viseu",
      "participantType": "team",
-     "rank": 7,
+     "rank": 5,
      "stats": {
       "GP": 7,
       "W": 3,
@@ -143,9 +113,54 @@
      }
     },
     {
-     "participantId": "soccer.estrela",
+     "participantId": "soccer.arouca",
+     "participantType": "team",
+     "rank": 6,
+     "stats": {
+      "GP": 7,
+      "W": 3,
+      "D": 2,
+      "L": 2,
+      "GF": 10,
+      "GA": 7,
+      "GD": 3,
+      "PTS": 11
+     }
+    },
+    {
+     "participantId": "soccer.gil-vicente",
+     "participantType": "team",
+     "rank": 7,
+     "stats": {
+      "GP": 7,
+      "W": 3,
+      "D": 2,
+      "L": 2,
+      "GF": 6,
+      "GA": 5,
+      "GD": 1,
+      "PTS": 11
+     }
+    },
+    {
+     "participantId": "soccer.braga",
      "participantType": "team",
      "rank": 8,
+     "stats": {
+      "GP": 7,
+      "W": 3,
+      "D": 2,
+      "L": 2,
+      "GF": 8,
+      "GA": 8,
+      "GD": 0,
+      "PTS": 11
+     }
+    },
+    {
+     "participantId": "soccer.estrela",
+     "participantType": "team",
+     "rank": 9,
      "stats": {
       "GP": 7,
       "W": 2,
@@ -160,52 +175,22 @@
     {
      "participantId": "soccer.moreirense",
      "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 7,
-      "W": 2,
-      "D": 2,
-      "L": 3,
-      "GF": 8,
-      "GA": 14,
-      "GD": -6,
-      "PTS": 8
-     }
-    },
-    {
-     "participantId": "soccer.gil-vicente",
-     "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 6,
+      "GP": 8,
       "W": 2,
       "D": 2,
-      "L": 2,
-      "GF": 5,
-      "GA": 5,
-      "GD": 0,
-      "PTS": 8
-     }
-    },
-    {
-     "participantId": "soccer.maritimo",
-     "participantType": "team",
-     "rank": 11,
-     "stats": {
-      "GP": 7,
-      "W": 2,
-      "D": 2,
-      "L": 3,
+      "L": 4,
       "GF": 8,
-      "GA": 12,
-      "GD": -4,
+      "GA": 15,
+      "GD": -7,
       "PTS": 8
      }
     },
     {
      "participantId": "soccer.alverca",
      "participantType": "team",
-     "rank": 12,
+     "rank": 11,
      "stats": {
       "GP": 7,
       "W": 2,
@@ -214,6 +199,21 @@
       "GF": 9,
       "GA": 11,
       "GD": -2,
+      "PTS": 8
+     }
+    },
+    {
+     "participantId": "soccer.maritimo",
+     "participantType": "team",
+     "rank": 12,
+     "stats": {
+      "GP": 7,
+      "W": 2,
+      "D": 2,
+      "L": 3,
+      "GF": 8,
+      "GA": 12,
+      "GD": -4,
       "PTS": 8
      }
     },

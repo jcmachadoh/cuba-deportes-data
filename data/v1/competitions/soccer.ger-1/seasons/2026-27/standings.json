@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ger-1:2026-27",
- "updatedAt": "2026-10-03T18:09:04Z",
+ "updatedAt": "2026-10-09T22:38:00Z",
  "sources": [
   "espn"
  ],
@@ -18,14 +18,14 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 4,
+      "GP": 5,
       "W": 4,
-      "D": 0,
+      "D": 1,
       "L": 0,
-      "GF": 9,
-      "GA": 2,
+      "GF": 11,
+      "GA": 4,
       "GD": 7,
-      "PTS": 12
+      "PTS": 13
      },
      "extra": {
       "note": {
@@ -77,9 +77,30 @@
      }
     },
     {
-     "participantId": "soccer.fc-augsburg",
+     "participantId": "soccer.werder-bremen",
      "participantType": "team",
      "rank": 4,
+     "stats": {
+      "GP": 5,
+      "W": 2,
+      "D": 2,
+      "L": 1,
+      "GF": 10,
+      "GA": 10,
+      "GD": 0,
+      "PTS": 8
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.fc-augsburg",
+     "participantType": "team",
+     "rank": 5,
      "stats": {
       "GP": 4,
       "W": 2,
@@ -92,15 +113,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
+       "text": "Europa League",
+       "color": "#B2BFD0"
       }
      }
     },
     {
      "participantId": "soccer.bayer-leverkusen",
      "participantType": "team",
-     "rank": 5,
+     "rank": 6,
      "stats": {
       "GP": 4,
       "W": 2,
@@ -121,7 +142,7 @@
     {
      "participantId": "soccer.mainz",
      "participantType": "team",
-     "rank": 6,
+     "rank": 7,
      "stats": {
       "GP": 4,
       "W": 2,
@@ -134,34 +155,13 @@
      },
      "extra": {
       "note": {
-       "text": "Europa League",
-       "color": "#B2BFD0"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.sv-elversberg",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 4,
-      "W": 2,
-      "D": 1,
-      "L": 1,
-      "GF": 8,
-      "GA": 7,
-      "GD": 1,
-      "PTS": 7
-     },
-     "extra": {
-      "note": {
        "text": "Conference League qualifying",
        "color": "#B2BFD0"
       }
      }
     },
     {
-     "participantId": "soccer.werder-bremen",
+     "participantId": "soccer.sv-elversberg",
      "participantType": "team",
      "rank": 8,
      "stats": {
@@ -170,8 +170,8 @@
       "D": 1,
       "L": 1,
       "GF": 8,
-      "GA": 8,
-      "GD": 0,
+      "GA": 7,
+      "GD": 1,
       "PTS": 7
      }
     },
