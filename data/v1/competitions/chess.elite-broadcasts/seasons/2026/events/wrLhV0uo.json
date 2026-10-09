@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:wrLhV0uo",
- "updatedAt": "2026-10-07T06:22:32Z",
+ "updatedAt": "2026-10-09T17:28:14Z",
  "sources": [
   "lichess"
  ],
@@ -40,17 +40,17 @@
    {
     "name": "Ronda 4",
     "startsAt": 1791353700000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 5",
     "startsAt": 1791378900000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 6",
     "startsAt": 1791461700000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 7",
@@ -72,65 +72,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.semion-sapocinic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 3.0,
-    "ELO": 2356,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.semion-sapocinic",
-    "name": {
-     "full": "Semion Sapocinic"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "AC DE SAH ALFIL PITESTI",
-    "performance": 3111
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.robert-paul-nastase",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 3.0,
-    "ELO": 2237,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.robert-paul-nastase",
-    "name": {
-     "full": "Robert-Paul Nastase"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "CS OTOPENI",
-    "performance": 2236
-   }
-  },
-  {
-   "rank": 3,
    "participantId": "p.radu-tampea",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 3.0,
+    "RANK": 1,
+    "PTS": 6.5,
     "ELO": 2200,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.radu-tampea",
@@ -144,222 +92,18 @@
    },
    "extra": {
     "team": "CS STUDENTESC MEDICINA TIMISOARA",
-    "performance": 2690
+    "performance": 2396
    }
   },
   {
-   "rank": 4,
-   "participantId": "p.daniel-cristian-padurean",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 3.0,
-    "ELO": 2195,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.daniel-cristian-padurean",
-    "name": {
-     "full": "Daniel-Cristian Padurean"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "CS STUDENTESC MEDICINA TIMISOARA",
-    "performance": 2818
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.vasily-naidich",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 3.0,
-    "ELO": 2103,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.vasily-naidich",
-    "name": {
-     "full": "Vasily Naidich"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS ȘAH SUCEAVA",
-    "performance": 2815
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.andrei-simulescu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 3.0,
-    "ELO": 1865,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.andrei-simulescu",
-    "name": {
-     "full": "Andrei Simulescu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM GALATI",
-    "performance": 2742
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.ranko-szuhanek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 2.5,
-    "ELO": 2401,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.ranko-szuhanek",
-    "name": {
-     "full": "Ranko Szuhanek"
-    },
-    "nationalities": [
-     "RS"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "CS STUDENTESC MEDICINA TIMISOARA",
-    "performance": 2370
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.iosif-ciocani",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 2.5,
-    "ELO": 2329,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.iosif-ciocani",
-    "name": {
-     "full": "Iosif Ciocani"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
-    "performance": 2616
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.robert-daniel-pisu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 2.5,
-    "ELO": 2096,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.robert-daniel-pisu",
-    "name": {
-     "full": "Robert-Daniel Pisu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS SMART GALATI",
-    "performance": 2088
-   }
-  },
-  {
-   "rank": 10,
-   "participantId": "p.alex-cosmin-codreanu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10,
-    "PTS": 2.5,
-    "ELO": 2091,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.alex-cosmin-codreanu",
-    "name": {
-     "full": "Alex-Cosmin Codreanu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS LOGIC DELTA TULCEA",
-    "performance": 2257
-   }
-  },
-  {
-   "rank": 11,
-   "participantId": "p.andrei-sfichi",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "PTS": 2.5,
-    "ELO": 2028,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.andrei-sfichi",
-    "name": {
-     "full": "Andrei Sfichi"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS ȘAH SUCEAVA",
-    "performance": 2334
-   }
-  },
-  {
-   "rank": 12,
+   "rank": 2,
    "participantId": "p.ion-cristian-veneteanu",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
-    "PTS": 2.5,
+    "RANK": 2,
+    "PTS": 6.0,
     "ELO": 2023,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.ion-cristian-veneteanu",
@@ -374,43 +118,18 @@
    },
    "extra": {
     "team": "ACS VIITORUL URZICENI",
-    "performance": 2191
+    "performance": 2204
    }
   },
   {
-   "rank": 13,
-   "participantId": "p.mihai-teodor-panaite",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13,
-    "PTS": 2.5,
-    "ELO": 1959,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.mihai-teodor-panaite",
-    "name": {
-     "full": "Mihai-Teodor Panaite"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "AC DE SAH ALFIL PITESTI",
-    "performance": 2147
-   }
-  },
-  {
-   "rank": 14,
+   "rank": 3,
    "participantId": "p.darius-cristian-pana",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
-    "PTS": 2.5,
+    "RANK": 3,
+    "PTS": 5.5,
     "ELO": 1936,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.darius-cristian-pana",
@@ -424,147 +143,70 @@
    },
    "extra": {
     "team": "ACS PHEONIX BUZĂU",
-    "performance": 2200
+    "performance": 2059
    }
   },
   {
-   "rank": 15,
-   "participantId": "p.luca-mocan",
+   "rank": 4,
+   "participantId": "p.ranko-szuhanek",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
-    "PTS": 2.5,
-    "ELO": 1624,
-    "GP": 3
+    "RANK": 4,
+    "PTS": 5.0,
+    "ELO": 2401,
+    "GP": 7
    },
    "person": {
-    "id": "p.luca-mocan",
+    "id": "p.ranko-szuhanek",
     "name": {
-     "full": "Luca Mocan"
+     "full": "Ranko Szuhanek"
     },
     "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS COMUNAL DUDEȘTII NOI",
-    "performance": 1895
-   }
-  },
-  {
-   "rank": 16,
-   "participantId": "p.george-stoleriu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 16,
-    "PTS": 2.0,
-    "ELO": 2381,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.george-stoleriu",
-    "name": {
-     "full": "George Stoleriu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "CS POLITEHNICA IASI",
-    "performance": 2343
-   }
-  },
-  {
-   "rank": 17,
-   "participantId": "p.daniel-baratosi",
-   "participantType": "person",
-   "stats": {
-    "RANK": 17,
-    "PTS": 2.0,
-    "ELO": 2306,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.daniel-baratosi",
-    "name": {
-     "full": "Daniel Baratosi"
-    },
-    "nationalities": [
-     "RO"
+     "RS"
     ],
     "isCuban": false,
     "title": "IM"
    },
    "extra": {
-    "team": "AC DE SAH ALFIL PITESTI",
-    "performance": 2238
+    "team": "CS STUDENTESC MEDICINA TIMISOARA",
+    "performance": 2311
    }
   },
   {
-   "rank": 18,
-   "participantId": "p.vasile-sanduleac",
+   "rank": 5,
+   "participantId": "p.semion-sapocinic",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
-    "PTS": 2.0,
-    "ELO": 2304,
-    "GP": 3
+    "RANK": 5,
+    "PTS": 5.0,
+    "ELO": 2356,
+    "GP": 7
    },
    "person": {
-    "id": "p.vasile-sanduleac",
+    "id": "p.semion-sapocinic",
     "name": {
-     "full": "Vasile Sanduleac"
+     "full": "Semion Sapocinic"
     },
     "nationalities": [
      "MD"
     ],
     "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "CS POLITEHNICA IASI",
-    "performance": 2348
-   }
-  },
-  {
-   "rank": 19,
-   "participantId": "p.sasha-matei-craciun",
-   "participantType": "person",
-   "stats": {
-    "RANK": 19,
-    "PTS": 2.0,
-    "ELO": 2289,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.sasha-matei-craciun",
-    "name": {
-     "full": "Sasha-Matei Craciun"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
     "title": "FM"
    },
    "extra": {
-    "team": "CS OTOPENI",
-    "performance": 2396
+    "team": "AC DE SAH ALFIL PITESTI",
+    "performance": 2485
    }
   },
   {
-   "rank": 20,
+   "rank": 6,
    "participantId": "p.vlad-ungureanu",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
-    "PTS": 2.0,
+    "RANK": 6,
+    "PTS": 5.0,
     "ELO": 2283,
-    "GP": 2
+    "GP": 6
    },
    "person": {
     "id": "p.vlad-ungureanu",
@@ -579,70 +221,18 @@
    },
    "extra": {
     "team": "CS POLITEHNICA IASI",
-    "performance": 2943
+    "performance": 2337
    }
   },
   {
-   "rank": 21,
-   "participantId": "p.alexandru-sachilaru",
-   "participantType": "person",
-   "stats": {
-    "RANK": 21,
-    "PTS": 2.0,
-    "ELO": 2281,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alexandru-sachilaru",
-    "name": {
-     "full": "Alexandru Sachilaru"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
-    "performance": 2335
-   }
-  },
-  {
-   "rank": 22,
-   "participantId": "p.alexandru-pop",
-   "participantType": "person",
-   "stats": {
-    "RANK": 22,
-    "PTS": 2.0,
-    "ELO": 2272,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alexandru-pop",
-    "name": {
-     "full": "Alexandru Pop"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "CSM CLUJ-NAPOCA",
-    "performance": 2390
-   }
-  },
-  {
-   "rank": 23,
+   "rank": 7,
    "participantId": "p.alexandru-manea",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
-    "PTS": 2.0,
+    "RANK": 7,
+    "PTS": 5.0,
     "ELO": 2255,
-    "GP": 2
+    "GP": 6
    },
    "person": {
     "id": "p.alexandru-manea",
@@ -657,23 +247,23 @@
    },
    "extra": {
     "team": "AC DE SAH ALFIL PITESTI",
-    "performance": 3032
+    "performance": 2540
    }
   },
   {
-   "rank": 24,
-   "participantId": "p.sebastian-taran",
+   "rank": 8,
+   "participantId": "p.daniel-cristian-padurean",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
-    "PTS": 2.0,
-    "ELO": 2253,
-    "GP": 3
+    "RANK": 8,
+    "PTS": 5.0,
+    "ELO": 2195,
+    "GP": 7
    },
    "person": {
-    "id": "p.sebastian-taran",
+    "id": "p.daniel-cristian-padurean",
     "name": {
-     "full": "Sebastian Taran"
+     "full": "Daniel-Cristian Padurean"
     },
     "nationalities": [
      "RO"
@@ -682,19 +272,274 @@
     "title": "CM"
    },
    "extra": {
-    "team": "ACS SMART GALATI",
-    "performance": 2200
+    "team": "CS STUDENTESC MEDICINA TIMISOARA",
+    "performance": 2269
    }
   },
   {
-   "rank": 25,
+   "rank": 9,
+   "participantId": "p.tudor-mihai-cruceru-uceanu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 5.0,
+    "ELO": 2105,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.tudor-mihai-cruceru-uceanu",
+    "name": {
+     "full": "Tudor-Mihai Cruceru-Uceanu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS OTOPENI",
+    "performance": 2186
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.vasily-naidich",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 5.0,
+    "ELO": 2103,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.vasily-naidich",
+    "name": {
+     "full": "Vasily Naidich"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS ȘAH SUCEAVA",
+    "performance": 2334
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.alex-cosmin-codreanu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11,
+    "PTS": 5.0,
+    "ELO": 2091,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.alex-cosmin-codreanu",
+    "name": {
+     "full": "Alex-Cosmin Codreanu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS LOGIC DELTA TULCEA",
+    "performance": 2341
+   }
+  },
+  {
+   "rank": 12,
+   "participantId": "p.simon-alexandru-barbu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12,
+    "PTS": 5.0,
+    "ELO": 2034,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.simon-alexandru-barbu",
+    "name": {
+     "full": "Simon-Alexandru Barbu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM GALATI",
+    "performance": 2265
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.andrei-flora",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
+    "PTS": 5.0,
+    "ELO": 1856,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.andrei-flora",
+    "name": {
+     "full": "Andrei Flora"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM CLUJ-NAPOCA",
+    "performance": 2181
+   }
+  },
+  {
+   "rank": 14,
+   "participantId": "p.marius-manolache",
+   "participantType": "person",
+   "stats": {
+    "RANK": 14,
+    "PTS": 4.5,
+    "ELO": 2421,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.marius-manolache",
+    "name": {
+     "full": "Marius Manolache"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "CSM GALATI",
+    "performance": 2371
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.george-stoleriu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
+    "PTS": 4.5,
+    "ELO": 2381,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.george-stoleriu",
+    "name": {
+     "full": "George Stoleriu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS POLITEHNICA IASI",
+    "performance": 2340
+   }
+  },
+  {
+   "rank": 16,
+   "participantId": "p.christian-arrydan-tamas",
+   "participantType": "person",
+   "stats": {
+    "RANK": 16,
+    "PTS": 4.5,
+    "ELO": 2354,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.christian-arrydan-tamas",
+    "name": {
+     "full": "Christian-Arrydan Tamas"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS STUDENTESC MEDICINA TIMISOARA",
+    "performance": 2422
+   }
+  },
+  {
+   "rank": 17,
+   "participantId": "p.alexandru-sachilaru",
+   "participantType": "person",
+   "stats": {
+    "RANK": 17,
+    "PTS": 4.5,
+    "ELO": 2281,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.alexandru-sachilaru",
+    "name": {
+     "full": "Alexandru Sachilaru"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
+    "performance": 2447
+   }
+  },
+  {
+   "rank": 18,
+   "participantId": "p.robert-paul-nastase",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
+    "PTS": 4.5,
+    "ELO": 2237,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.robert-paul-nastase",
+    "name": {
+     "full": "Robert-Paul Nastase"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS OTOPENI",
+    "performance": 2257
+   }
+  },
+  {
+   "rank": 19,
    "participantId": "p.dragos-stefan-leu",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
-    "PTS": 2.0,
+    "RANK": 19,
+    "PTS": 4.5,
     "ELO": 2236,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.dragos-stefan-leu",
@@ -709,23 +554,23 @@
    },
    "extra": {
     "team": "CSM GALATI",
-    "performance": 2378
+    "performance": 2328
    }
   },
   {
-   "rank": 26,
-   "participantId": "p.lukas-george-sprincean",
+   "rank": 20,
+   "participantId": "p.mihai-edward-padurariu",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
-    "PTS": 2.0,
-    "ELO": 2184,
-    "GP": 3
+    "RANK": 20,
+    "PTS": 4.5,
+    "ELO": 2227,
+    "GP": 7
    },
    "person": {
-    "id": "p.lukas-george-sprincean",
+    "id": "p.mihai-edward-padurariu",
     "name": {
-     "full": "Lukas George Sprincean"
+     "full": "Mihai-Edward Padurariu"
     },
     "nationalities": [
      "RO"
@@ -733,69 +578,19 @@
     "isCuban": false
    },
    "extra": {
-    "team": "ACS VIITORUL URZICENI",
-    "performance": 2279
+    "team": "ACS LOGIC DELTA TULCEA",
+    "performance": 2316
    }
   },
   {
-   "rank": 27,
-   "participantId": "p.alexandru-david-korcsek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 27,
-    "PTS": 2.0,
-    "ELO": 2152,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alexandru-david-korcsek",
-    "name": {
-     "full": "Alexandru-David Korcsek"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS DACUS ARCHERY",
-    "performance": 2373
-   }
-  },
-  {
-   "rank": 28,
-   "participantId": "p.tudor-mihai-cruceru-uceanu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 28,
-    "PTS": 2.0,
-    "ELO": 2105,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.tudor-mihai-cruceru-uceanu",
-    "name": {
-     "full": "Tudor-Mihai Cruceru-Uceanu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS OTOPENI",
-    "performance": 2162
-   }
-  },
-  {
-   "rank": 29,
+   "rank": 21,
    "participantId": "p.radu-laurentiu-tincu",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
-    "PTS": 2.0,
+    "RANK": 21,
+    "PTS": 4.5,
     "ELO": 2059,
-    "GP": 4
+    "GP": 7
    },
    "person": {
     "id": "p.radu-laurentiu-tincu",
@@ -809,23 +604,252 @@
    },
    "extra": {
     "team": "ACS DACUS ARCHERY",
-    "performance": 2155
+    "performance": 2092
+   }
+  },
+  {
+   "rank": 22,
+   "participantId": "p.rares-gazdaru",
+   "participantType": "person",
+   "stats": {
+    "RANK": 22,
+    "PTS": 4.5,
+    "ELO": 2012,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.rares-gazdaru",
+    "name": {
+     "full": "Rares Gazdaru"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS LOGIC DELTA TULCEA",
+    "performance": 2216
+   }
+  },
+  {
+   "rank": 23,
+   "participantId": "p.iosif-ciocani",
+   "participantType": "person",
+   "stats": {
+    "RANK": 23,
+    "PTS": 4.0,
+    "ELO": 2329,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.iosif-ciocani",
+    "name": {
+     "full": "Iosif Ciocani"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
+    "performance": 2461
+   }
+  },
+  {
+   "rank": 24,
+   "participantId": "p.sasha-matei-craciun",
+   "participantType": "person",
+   "stats": {
+    "RANK": 24,
+    "PTS": 4.0,
+    "ELO": 2289,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.sasha-matei-craciun",
+    "name": {
+     "full": "Sasha-Matei Craciun"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS OTOPENI",
+    "performance": 2349
+   }
+  },
+  {
+   "rank": 25,
+   "participantId": "p.cristian-clement-daianu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25,
+    "PTS": 4.0,
+    "ELO": 2219,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.cristian-clement-daianu",
+    "name": {
+     "full": "Cristian-Clement Daianu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS OTOPENI",
+    "performance": 2131
+   }
+  },
+  {
+   "rank": 26,
+   "participantId": "p.igor-volcov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "PTS": 4.0,
+    "ELO": 2211,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.igor-volcov",
+    "name": {
+     "full": "Igor Volcov"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "CS ȘAH SUCEAVA",
+    "performance": 2236
+   }
+  },
+  {
+   "rank": 27,
+   "participantId": "p.andrei-catalin-mintau",
+   "participantType": "person",
+   "stats": {
+    "RANK": 27,
+    "PTS": 4.0,
+    "ELO": 2122,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.andrei-catalin-mintau",
+    "name": {
+     "full": "Andrei-Catalin Mintau"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM CLUJ-NAPOCA",
+    "performance": 2270
+   }
+  },
+  {
+   "rank": 28,
+   "participantId": "p.bogdan-girmacea",
+   "participantType": "person",
+   "stats": {
+    "RANK": 28,
+    "PTS": 4.0,
+    "ELO": 2027,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.bogdan-girmacea",
+    "name": {
+     "full": "Bogdan Girmacea"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS ȘAH SUCEAVA",
+    "performance": 2025
+   }
+  },
+  {
+   "rank": 29,
+   "participantId": "p.mihai-teodor-panaite",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29,
+    "PTS": 4.0,
+    "ELO": 1959,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.mihai-teodor-panaite",
+    "name": {
+     "full": "Mihai-Teodor Panaite"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "AC DE SAH ALFIL PITESTI",
+    "performance": 2082
    }
   },
   {
    "rank": 30,
-   "participantId": "p.simon-alexandru-barbu",
+   "participantId": "p.dimitrie-miron",
    "participantType": "person",
    "stats": {
     "RANK": 30,
-    "PTS": 2.0,
-    "ELO": 2034,
-    "GP": 3
+    "PTS": 4.0,
+    "ELO": 1895,
+    "GP": 4
    },
    "person": {
-    "id": "p.simon-alexandru-barbu",
+    "id": "p.dimitrie-miron",
     "name": {
-     "full": "Simon-Alexandru Barbu"
+     "full": "Dimitrie Miron"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS LOGIC DELTA TULCEA",
+    "performance": 2776
+   }
+  },
+  {
+   "rank": 31,
+   "participantId": "p.andrei-simulescu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 31,
+    "PTS": 4.0,
+    "ELO": 1865,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.andrei-simulescu",
+    "name": {
+     "full": "Andrei Simulescu"
     },
     "nationalities": [
      "RO"
@@ -834,18 +858,323 @@
    },
    "extra": {
     "team": "CSM GALATI",
-    "performance": 2194
+    "performance": 2141
    }
   },
   {
-   "rank": 31,
+   "rank": 32,
+   "participantId": "p.nicolae-dan-tusu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32,
+    "PTS": 4.0,
+    "ELO": 1858,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.nicolae-dan-tusu",
+    "name": {
+     "full": "Nicolae-Dan Tusu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS CHIMIA RAMNICU VALCEA",
+    "performance": 1974
+   }
+  },
+  {
+   "rank": 33,
+   "participantId": "p.vasile-sanduleac",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33,
+    "PTS": 3.5,
+    "ELO": 2304,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.vasile-sanduleac",
+    "name": {
+     "full": "Vasile Sanduleac"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "CS POLITEHNICA IASI",
+    "performance": 2168
+   }
+  },
+  {
+   "rank": 34,
+   "participantId": "p.alexandru-pop",
+   "participantType": "person",
+   "stats": {
+    "RANK": 34,
+    "PTS": 3.5,
+    "ELO": 2272,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.alexandru-pop",
+    "name": {
+     "full": "Alexandru Pop"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CSM CLUJ-NAPOCA",
+    "performance": 2318
+   }
+  },
+  {
+   "rank": 35,
+   "participantId": "p.viorel-adrian-ciobanu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35,
+    "PTS": 3.5,
+    "ELO": 2206,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.viorel-adrian-ciobanu",
+    "name": {
+     "full": "Viorel-Adrian Ciobanu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS SMART GALATI",
+    "performance": 2120
+   }
+  },
+  {
+   "rank": 36,
+   "participantId": "p.lukas-george-sprincean",
+   "participantType": "person",
+   "stats": {
+    "RANK": 36,
+    "PTS": 3.5,
+    "ELO": 2184,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.lukas-george-sprincean",
+    "name": {
+     "full": "Lukas George Sprincean"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS VIITORUL URZICENI",
+    "performance": 2179
+   }
+  },
+  {
+   "rank": 37,
+   "participantId": "p.razvan-catalin-tudoroiu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 37,
+    "PTS": 3.5,
+    "ELO": 2137,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.razvan-catalin-tudoroiu",
+    "name": {
+     "full": "Razvan-Catalin Tudoroiu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM GALATI",
+    "performance": 2258
+   }
+  },
+  {
+   "rank": 38,
+   "participantId": "p.raul-ionut-luncasu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 38,
+    "PTS": 3.5,
+    "ELO": 2110,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.raul-ionut-luncasu",
+    "name": {
+     "full": "Raul-Ionut Luncasu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS PHEONIX BUZĂU",
+    "performance": 2213
+   }
+  },
+  {
+   "rank": 39,
+   "participantId": "p.robert-daniel-pisu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 3.5,
+    "ELO": 2096,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.robert-daniel-pisu",
+    "name": {
+     "full": "Robert-Daniel Pisu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS SMART GALATI",
+    "performance": 1970
+   }
+  },
+  {
+   "rank": 40,
+   "participantId": "p.cristian-gabriel-voiteanu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 40,
+    "PTS": 3.5,
+    "ELO": 2084,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.cristian-gabriel-voiteanu",
+    "name": {
+     "full": "Cristian-Gabriel Voiteanu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS CALCOOL",
+    "performance": 2150
+   }
+  },
+  {
+   "rank": 41,
+   "participantId": "p.iustin-nicolas-cazacu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 41,
+    "PTS": 3.5,
+    "ELO": 2061,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.iustin-nicolas-cazacu",
+    "name": {
+     "full": "Iustin-Nicolas Cazacu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "CS POLITEHNICA IASI",
+    "performance": 2064
+   }
+  },
+  {
+   "rank": 42,
+   "participantId": "p.dan-bujac",
+   "participantType": "person",
+   "stats": {
+    "RANK": 42,
+    "PTS": 3.5,
+    "ELO": 2043,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.dan-bujac",
+    "name": {
+     "full": "Dan Bujac"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS VIITORUL URZICENI",
+    "performance": 2015
+   }
+  },
+  {
+   "rank": 43,
+   "participantId": "p.andrei-sfichi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 43,
+    "PTS": 3.5,
+    "ELO": 2028,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.andrei-sfichi",
+    "name": {
+     "full": "Andrei Sfichi"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS ȘAH SUCEAVA",
+    "performance": 2139
+   }
+  },
+  {
+   "rank": 44,
    "participantId": "p.yanis-andrei-tarabic",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
-    "PTS": 2.0,
+    "RANK": 44,
+    "PTS": 3.5,
     "ELO": 2003,
-    "GP": 3
+    "GP": 6
    },
    "person": {
     "id": "p.yanis-andrei-tarabic",
@@ -859,18 +1188,43 @@
    },
    "extra": {
     "team": "ACS CALCOOL",
-    "performance": 2100
+    "performance": 1937
    }
   },
   {
-   "rank": 32,
+   "rank": 45,
+   "participantId": "p.dragos-olivar-minescu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 45,
+    "PTS": 3.5,
+    "ELO": 1998,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.dragos-olivar-minescu",
+    "name": {
+     "full": "Dragos-Olivar Minescu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS DACUS ARCHERY",
+    "performance": 2041
+   }
+  },
+  {
+   "rank": 46,
    "participantId": "p.stefan-constantin-harnagea",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
-    "PTS": 2.0,
+    "RANK": 46,
+    "PTS": 3.5,
     "ELO": 1956,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.stefan-constantin-harnagea",
@@ -884,18 +1238,653 @@
    },
    "extra": {
     "team": "CS POLITEHNICA IASI",
-    "performance": 2091
+    "performance": 1966
    }
   },
   {
-   "rank": 33,
+   "rank": 47,
+   "participantId": "p.daniel-alexandru-dobre",
+   "participantType": "person",
+   "stats": {
+    "RANK": 47,
+    "PTS": 3.5,
+    "ELO": 1954,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.daniel-alexandru-dobre",
+    "name": {
+     "full": "Daniel-Alexandru Dobre"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "AC DE SAH ALFIL PITESTI",
+    "performance": 2101
+   }
+  },
+  {
+   "rank": 48,
+   "participantId": "p.matei-mocanita",
+   "participantType": "person",
+   "stats": {
+    "RANK": 48,
+    "PTS": 3.5,
+    "ELO": 1932,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.matei-mocanita",
+    "name": {
+     "full": "Matei Mocanita"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS LOGIC DELTA TULCEA",
+    "performance": 1973
+   }
+  },
+  {
+   "rank": 49,
+   "participantId": "p.adam-alexandru-mihai",
+   "participantType": "person",
+   "stats": {
+    "RANK": 49,
+    "PTS": 3.5,
+    "ELO": 1808,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.adam-alexandru-mihai",
+    "name": {
+     "full": "Adam-Alexandru Mihai"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS CALCOOL",
+    "performance": 1845
+   }
+  },
+  {
+   "rank": 50,
+   "participantId": "p.bogdan-andrei-grecu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 50,
+    "PTS": 3.5,
+    "ELO": 1753,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.bogdan-andrei-grecu",
+    "name": {
+     "full": "Bogdan-Andrei Grecu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS DACUS ARCHERY",
+    "performance": 1817
+   }
+  },
+  {
+   "rank": 51,
+   "participantId": "p.daniel-baratosi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 51,
+    "PTS": 3.0,
+    "ELO": 2306,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.daniel-baratosi",
+    "name": {
+     "full": "Daniel Baratosi"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "AC DE SAH ALFIL PITESTI",
+    "performance": 2078
+   }
+  },
+  {
+   "rank": 52,
+   "participantId": "p.pavel-vavric",
+   "participantType": "person",
+   "stats": {
+    "RANK": 52,
+    "PTS": 3.0,
+    "ELO": 2296,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.pavel-vavric",
+    "name": {
+     "full": "Pavel Vavric"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS PHEONIX BUZĂU",
+    "performance": 2205
+   }
+  },
+  {
+   "rank": 53,
+   "participantId": "p.andrei-mihai-bonte",
+   "participantType": "person",
+   "stats": {
+    "RANK": 53,
+    "PTS": 3.0,
+    "ELO": 2220,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.andrei-mihai-bonte",
+    "name": {
+     "full": "Andrei-Mihai Bonte"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "AC DE SAH ALFIL PITESTI",
+    "performance": 2138
+   }
+  },
+  {
+   "rank": 54,
+   "participantId": "p.victor-dominic-onica",
+   "participantType": "person",
+   "stats": {
+    "RANK": 54,
+    "PTS": 3.0,
+    "ELO": 2184,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.victor-dominic-onica",
+    "name": {
+     "full": "Victor-Dominic Onica"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS COMUNAL DUDEȘTII NOI",
+    "performance": 2194
+   }
+  },
+  {
+   "rank": 55,
+   "participantId": "p.david-cr-radu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 55,
+    "PTS": 3.0,
+    "ELO": 2179,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.david-cr-radu",
+    "name": {
+     "full": "David Cr. Radu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "CS STUDENTESC MEDICINA TIMISOARA",
+    "performance": 2752
+   }
+  },
+  {
+   "rank": 56,
+   "participantId": "p.alexandru-david-korcsek",
+   "participantType": "person",
+   "stats": {
+    "RANK": 56,
+    "PTS": 3.0,
+    "ELO": 2152,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.alexandru-david-korcsek",
+    "name": {
+     "full": "Alexandru-David Korcsek"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS DACUS ARCHERY",
+    "performance": 2193
+   }
+  },
+  {
+   "rank": 57,
+   "participantId": "p.matei-vasile",
+   "participantType": "person",
+   "stats": {
+    "RANK": 57,
+    "PTS": 3.0,
+    "ELO": 2095,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.matei-vasile",
+    "name": {
+     "full": "Matei Vasile"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
+    "performance": 2150
+   }
+  },
+  {
+   "rank": 58,
+   "participantId": "p.leonard-vasiloi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 58,
+    "PTS": 3.0,
+    "ELO": 1989,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.leonard-vasiloi",
+    "name": {
+     "full": "Leonard Vasiloi"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM CONSTANȚA",
+    "performance": 2037
+   }
+  },
+  {
+   "rank": 59,
+   "participantId": "p.andrei-v-tanase",
+   "participantType": "person",
+   "stats": {
+    "RANK": 59,
+    "PTS": 3.0,
+    "ELO": 1916,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.andrei-v-tanase",
+    "name": {
+     "full": "Andrei V. Tanase"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS CHIMIA RAMNICU VALCEA",
+    "performance": 2040
+   }
+  },
+  {
+   "rank": 60,
+   "participantId": "p.mihai-lucian-grunberg",
+   "participantType": "person",
+   "stats": {
+    "RANK": 60,
+    "PTS": 2.5,
+    "ELO": 2381,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.mihai-lucian-grunberg",
+    "name": {
+     "full": "Mihai-Lucian Grunberg"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "CS STUDENTESC MEDICINA TIMISOARA",
+    "performance": 2145
+   }
+  },
+  {
+   "rank": 61,
+   "participantId": "p.eric-matei-prelipcean",
+   "participantType": "person",
+   "stats": {
+    "RANK": 61,
+    "PTS": 2.5,
+    "ELO": 2298,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.eric-matei-prelipcean",
+    "name": {
+     "full": "Eric-Matei Prelipcean"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
+    "performance": 2148
+   }
+  },
+  {
+   "rank": 62,
+   "participantId": "p.alin-marian-lucaci",
+   "participantType": "person",
+   "stats": {
+    "RANK": 62,
+    "PTS": 2.5,
+    "ELO": 2291,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.alin-marian-lucaci",
+    "name": {
+     "full": "Alin-Marian Lucaci"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS ȘAH SUCEAVA",
+    "performance": 2179
+   }
+  },
+  {
+   "rank": 63,
+   "participantId": "p.lehel-vrencian",
+   "participantType": "person",
+   "stats": {
+    "RANK": 63,
+    "PTS": 2.5,
+    "ELO": 2263,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.lehel-vrencian",
+    "name": {
+     "full": "Lehel Vrencian"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "CS OTOPENI",
+    "performance": 2189
+   }
+  },
+  {
+   "rank": 64,
+   "participantId": "p.catalin-lucian-patrascu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 64,
+    "PTS": 2.5,
+    "ELO": 2261,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.catalin-lucian-patrascu",
+    "name": {
+     "full": "Catalin-Lucian Patrascu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS PHEONIX BUZĂU",
+    "performance": 2252
+   }
+  },
+  {
+   "rank": 65,
+   "participantId": "p.lucian-gilea",
+   "participantType": "person",
+   "stats": {
+    "RANK": 65,
+    "PTS": 2.5,
+    "ELO": 2236,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.lucian-gilea",
+    "name": {
+     "full": "Lucian Gilea"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS SMART GALATI",
+    "performance": 2186
+   }
+  },
+  {
+   "rank": 66,
+   "participantId": "p.andrei-cristian-bulau",
+   "participantType": "person",
+   "stats": {
+    "RANK": 66,
+    "PTS": 2.5,
+    "ELO": 2194,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.andrei-cristian-bulau",
+    "name": {
+     "full": "Andrei-Cristian Bulau"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS PHEONIX BUZĂU",
+    "performance": 2297
+   }
+  },
+  {
+   "rank": 67,
+   "participantId": "p.mihai-veneteanu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 67,
+    "PTS": 2.5,
+    "ELO": 2178,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.mihai-veneteanu",
+    "name": {
+     "full": "Mihai Veneteanu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS VIITORUL URZICENI",
+    "performance": 2167
+   }
+  },
+  {
+   "rank": 68,
+   "participantId": "p.madalin-andronescu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 68,
+    "PTS": 2.5,
+    "ELO": 2071,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.madalin-andronescu",
+    "name": {
+     "full": "Madalin Andronescu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS PHEONIX BUZĂU",
+    "performance": 1899
+   }
+  },
+  {
+   "rank": 69,
+   "participantId": "p.daniel-vasilica-popescu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 69,
+    "PTS": 2.5,
+    "ELO": 2018,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.daniel-vasilica-popescu",
+    "name": {
+     "full": "Daniel-Vasilica Popescu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS PHEONIX BUZĂU",
+    "performance": 1952
+   }
+  },
+  {
+   "rank": 70,
+   "participantId": "p.alin-stingu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 70,
+    "PTS": 2.5,
+    "ELO": 1984,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.alin-stingu",
+    "name": {
+     "full": "Alin Stingu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "ACS DACUS ARCHERY",
+    "performance": 2030
+   }
+  },
+  {
+   "rank": 71,
+   "participantId": "p.eduard-russu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 71,
+    "PTS": 2.5,
+    "ELO": 1953,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.eduard-russu",
+    "name": {
+     "full": "Eduard Russu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS CHIMIA RAMNICU VALCEA",
+    "performance": 1928
+   }
+  },
+  {
+   "rank": 72,
    "participantId": "p.eduard-andrei-panaite",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
-    "PTS": 2.0,
+    "RANK": 72,
+    "PTS": 2.5,
     "ELO": 1938,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.eduard-andrei-panaite",
@@ -909,15 +1898,444 @@
    },
    "extra": {
     "team": "ACS LOGIC DELTA TULCEA",
-    "performance": 1916
+    "performance": 1937
    }
   },
   {
-   "rank": 34,
+   "rank": 73,
+   "participantId": "p.constantin-andrei-arba",
+   "participantType": "person",
+   "stats": {
+    "RANK": 73,
+    "PTS": 2.5,
+    "ELO": 1935,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.constantin-andrei-arba",
+    "name": {
+     "full": "Constantin-Andrei Arba"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS CALCOOL",
+    "performance": 1808
+   }
+  },
+  {
+   "rank": 74,
+   "participantId": "p.alexandru-mohonea",
+   "participantType": "person",
+   "stats": {
+    "RANK": 74,
+    "PTS": 2.5,
+    "ELO": 1888,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.alexandru-mohonea",
+    "name": {
+     "full": "Alexandru Mohonea"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM GALATI",
+    "performance": 1968
+   }
+  },
+  {
+   "rank": 75,
+   "participantId": "p.matei-andrei-croitoru",
+   "participantType": "person",
+   "stats": {
+    "RANK": 75,
+    "PTS": 2.5,
+    "ELO": 1883,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.matei-andrei-croitoru",
+    "name": {
+     "full": "Matei-Andrei Croitoru"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS LOGIC DELTA TULCEA",
+    "performance": 1977
+   }
+  },
+  {
+   "rank": 76,
+   "participantId": "p.razvan-nicolae-popa",
+   "participantType": "person",
+   "stats": {
+    "RANK": 76,
+    "PTS": 2.5,
+    "ELO": 1724,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.razvan-nicolae-popa",
+    "name": {
+     "full": "Razvan-Nicolae Popa"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM CLUJ-NAPOCA",
+    "performance": 1682
+   }
+  },
+  {
+   "rank": 77,
+   "participantId": "p.tudor-grosu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 77,
+    "PTS": 2.5,
+    "ELO": 1687,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.tudor-grosu",
+    "name": {
+     "full": "Tudor Grosu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS COMUNAL DUDEȘTII NOI",
+    "performance": 1840
+   }
+  },
+  {
+   "rank": 78,
+   "participantId": "p.luca-mocan",
+   "participantType": "person",
+   "stats": {
+    "RANK": 78,
+    "PTS": 2.5,
+    "ELO": 1624,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.luca-mocan",
+    "name": {
+     "full": "Luca Mocan"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS COMUNAL DUDEȘTII NOI",
+    "performance": 1685
+   }
+  },
+  {
+   "rank": 79,
+   "participantId": "p.costin-valeriu-cozianu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 79,
+    "PTS": 2.0,
+    "ELO": 2337,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.costin-valeriu-cozianu",
+    "name": {
+     "full": "Costin-Valeriu Cozianu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ACS SMART GALATI",
+    "performance": 2132
+   }
+  },
+  {
+   "rank": 80,
+   "participantId": "p.marius-moraru",
+   "participantType": "person",
+   "stats": {
+    "RANK": 80,
+    "PTS": 2.0,
+    "ELO": 2307,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.marius-moraru",
+    "name": {
+     "full": "Marius Moraru"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "ACS CALCOOL",
+    "performance": 2072
+   }
+  },
+  {
+   "rank": 81,
+   "participantId": "p.sebastian-taran",
+   "participantType": "person",
+   "stats": {
+    "RANK": 81,
+    "PTS": 2.0,
+    "ELO": 2253,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.sebastian-taran",
+    "name": {
+     "full": "Sebastian Taran"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "ACS SMART GALATI",
+    "performance": 2066
+   }
+  },
+  {
+   "rank": 82,
+   "participantId": "p.ioan-radu-dima",
+   "participantType": "person",
+   "stats": {
+    "RANK": 82,
+    "PTS": 2.0,
+    "ELO": 2144,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.ioan-radu-dima",
+    "name": {
+     "full": "Ioan-Radu Dima"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS STUDENTESC MEDICINA TIMISOARA",
+    "performance": 1892
+   }
+  },
+  {
+   "rank": 83,
+   "participantId": "p.razvan-alexandru-panait",
+   "participantType": "person",
+   "stats": {
+    "RANK": 83,
+    "PTS": 2.0,
+    "ELO": 2107,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.razvan-alexandru-panait",
+    "name": {
+     "full": "Razvan-Alexandru Panait"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS CHIMIA RAMNICU VALCEA",
+    "performance": 2119
+   }
+  },
+  {
+   "rank": 84,
+   "participantId": "p.david-alexandru-harabor",
+   "participantType": "person",
+   "stats": {
+    "RANK": 84,
+    "PTS": 2.0,
+    "ELO": 2097,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.david-alexandru-harabor",
+    "name": {
+     "full": "David-Alexandru Harabor"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS CHIMIA RAMNICU VALCEA",
+    "performance": 1946
+   }
+  },
+  {
+   "rank": 85,
+   "participantId": "p.nichita-soilita",
+   "participantType": "person",
+   "stats": {
+    "RANK": 85,
+    "PTS": 2.0,
+    "ELO": 2093,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.nichita-soilita",
+    "name": {
+     "full": "Nichita Soilita"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS VIITORUL URZICENI",
+    "performance": 1951
+   }
+  },
+  {
+   "rank": 86,
+   "participantId": "p.dan-andrei-vasilache",
+   "participantType": "person",
+   "stats": {
+    "RANK": 86,
+    "PTS": 2.0,
+    "ELO": 2064,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.dan-andrei-vasilache",
+    "name": {
+     "full": "Dan-Andrei Vasilache"
+    },
+    "nationalities": [
+     "MD"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS VIITORUL URZICENI",
+    "performance": 1901
+   }
+  },
+  {
+   "rank": 87,
+   "participantId": "p.lucian-mihail-vasilescu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 87,
+    "PTS": 2.0,
+    "ELO": 2058,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.lucian-mihail-vasilescu",
+    "name": {
+     "full": "Lucian-Mihail Vasilescu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "CS OTOPENI",
+    "performance": 1832
+   }
+  },
+  {
+   "rank": 88,
+   "participantId": "p.marika-nicolas-mihaila",
+   "participantType": "person",
+   "stats": {
+    "RANK": 88,
+    "PTS": 2.0,
+    "ELO": 2045,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.marika-nicolas-mihaila",
+    "name": {
+     "full": "Marika-Nicolas Mihaila"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
+    "performance": 1828
+   }
+  },
+  {
+   "rank": 89,
+   "participantId": "p.alexandru-bogdan-visoescu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 89,
+    "PTS": 2.0,
+    "ELO": 1926,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.alexandru-bogdan-visoescu",
+    "name": {
+     "full": "Alexandru-Bogdan Visoescu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS CHIMIA RAMNICU VALCEA",
+    "performance": 1859
+   }
+  },
+  {
+   "rank": 90,
    "participantId": "p.theodor-palamar",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 90,
     "PTS": 2.0,
     "ELO": 1869,
     "GP": 3
@@ -938,19 +2356,19 @@
    }
   },
   {
-   "rank": 35,
-   "participantId": "p.nicolae-dan-tusu",
+   "rank": 91,
+   "participantId": "p.ilio-phoem-stanculet",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 91,
     "PTS": 2.0,
-    "ELO": 1858,
-    "GP": 3
+    "ELO": 1640,
+    "GP": 4
    },
    "person": {
-    "id": "p.nicolae-dan-tusu",
+    "id": "p.ilio-phoem-stanculet",
     "name": {
-     "full": "Nicolae-Dan Tusu"
+     "full": "Ilio-Phoem Stanculet"
     },
     "nationalities": [
      "RO"
@@ -958,24 +2376,24 @@
     "isCuban": false
    },
    "extra": {
-    "team": "CS CHIMIA RAMNICU VALCEA",
-    "performance": 2074
+    "team": "CSM CONSTANȚA",
+    "performance": 1810
    }
   },
   {
-   "rank": 36,
-   "participantId": "p.andrei-flora",
+   "rank": 92,
+   "participantId": "p.karla-marina-panici",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 92,
     "PTS": 2.0,
-    "ELO": 1856,
-    "GP": 3
+    "ELO": 1636,
+    "GP": 6
    },
    "person": {
-    "id": "p.andrei-flora",
+    "id": "p.karla-marina-panici",
     "name": {
-     "full": "Andrei Flora"
+     "full": "Karla Marina Panici"
     },
     "nationalities": [
      "RO"
@@ -983,24 +2401,24 @@
     "isCuban": false
    },
    "extra": {
-    "team": "CSM CLUJ-NAPOCA",
-    "performance": 2107
+    "team": "CS COMUNAL DUDEȘTII NOI",
+    "performance": 1876
    }
   },
   {
-   "rank": 37,
-   "participantId": "p.adam-alexandru-mihai",
+   "rank": 93,
+   "participantId": "p.beniamin-anghel-claudiu-sabau",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
-    "PTS": 2.0,
-    "ELO": 1808,
-    "GP": 3
+    "RANK": 93,
+    "PTS": 1.5,
+    "ELO": 2031,
+    "GP": 6
    },
    "person": {
-    "id": "p.adam-alexandru-mihai",
+    "id": "p.beniamin-anghel-claudiu-sabau",
     "name": {
-     "full": "Adam-Alexandru Mihai"
+     "full": "Beniamin-Anghel-Claudiu Sabau"
     },
     "nationalities": [
      "RO"
@@ -1009,49 +2427,23 @@
    },
    "extra": {
     "team": "ACS CALCOOL",
-    "performance": 2000
+    "performance": 1817
    }
   },
   {
-   "rank": 38,
-   "participantId": "p.marius-manolache",
+   "rank": 94,
+   "participantId": "p.ionut-buzbuchi",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 94,
     "PTS": 1.5,
-    "ELO": 2421,
-    "GP": 3
+    "ELO": 1972,
+    "GP": 6
    },
    "person": {
-    "id": "p.marius-manolache",
+    "id": "p.ionut-buzbuchi",
     "name": {
-     "full": "Marius Manolache"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "CSM GALATI",
-    "performance": 2263
-   }
-  },
-  {
-   "rank": 39,
-   "participantId": "p.christian-arrydan-tamas",
-   "participantType": "person",
-   "stats": {
-    "RANK": 39,
-    "PTS": 1.5,
-    "ELO": 2354,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.christian-arrydan-tamas",
-    "name": {
-     "full": "Christian-Arrydan Tamas"
+     "full": "Ionut Buzbuchi"
     },
     "nationalities": [
      "RO"
@@ -1060,255 +2452,24 @@
     "title": "FM"
    },
    "extra": {
-    "team": "CS STUDENTESC MEDICINA TIMISOARA",
-    "performance": 2326
+    "team": "CSM CONSTANȚA",
+    "performance": 2084
    }
   },
   {
-   "rank": 40,
-   "participantId": "p.eric-matei-prelipcean",
+   "rank": 95,
+   "participantId": "p.marius-lucian-tatar",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 95,
     "PTS": 1.5,
-    "ELO": 2298,
-    "GP": 3
+    "ELO": 1955,
+    "GP": 6
    },
    "person": {
-    "id": "p.eric-matei-prelipcean",
+    "id": "p.marius-lucian-tatar",
     "name": {
-     "full": "Eric-Matei Prelipcean"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
-    "performance": 2144
-   }
-  },
-  {
-   "rank": 41,
-   "participantId": "p.pavel-vavric",
-   "participantType": "person",
-   "stats": {
-    "RANK": 41,
-    "PTS": 1.5,
-    "ELO": 2296,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.pavel-vavric",
-    "name": {
-     "full": "Pavel Vavric"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS PHEONIX BUZĂU",
-    "performance": 2249
-   }
-  },
-  {
-   "rank": 42,
-   "participantId": "p.lucian-gilea",
-   "participantType": "person",
-   "stats": {
-    "RANK": 42,
-    "PTS": 1.5,
-    "ELO": 2236,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.lucian-gilea",
-    "name": {
-     "full": "Lucian Gilea"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS SMART GALATI",
-    "performance": 2283
-   }
-  },
-  {
-   "rank": 43,
-   "participantId": "p.mihai-edward-padurariu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 43,
-    "PTS": 1.5,
-    "ELO": 2227,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.mihai-edward-padurariu",
-    "name": {
-     "full": "Mihai-Edward Padurariu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS LOGIC DELTA TULCEA",
-    "performance": 2196
-   }
-  },
-  {
-   "rank": 44,
-   "participantId": "p.andrei-mihai-bonte",
-   "participantType": "person",
-   "stats": {
-    "RANK": 44,
-    "PTS": 1.5,
-    "ELO": 2220,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.andrei-mihai-bonte",
-    "name": {
-     "full": "Andrei-Mihai Bonte"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "AC DE SAH ALFIL PITESTI",
-    "performance": 2116
-   }
-  },
-  {
-   "rank": 45,
-   "participantId": "p.cristian-clement-daianu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 45,
-    "PTS": 1.5,
-    "ELO": 2219,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.cristian-clement-daianu",
-    "name": {
-     "full": "Cristian-Clement Daianu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "CS OTOPENI",
-    "performance": 1992
-   }
-  },
-  {
-   "rank": 46,
-   "participantId": "p.igor-volcov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 46,
-    "PTS": 1.5,
-    "ELO": 2211,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.igor-volcov",
-    "name": {
-     "full": "Igor Volcov"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "CS ȘAH SUCEAVA",
-    "performance": 2114
-   }
-  },
-  {
-   "rank": 47,
-   "participantId": "p.viorel-adrian-ciobanu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 47,
-    "PTS": 1.5,
-    "ELO": 2206,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.viorel-adrian-ciobanu",
-    "name": {
-     "full": "Viorel-Adrian Ciobanu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS SMART GALATI",
-    "performance": 2002
-   }
-  },
-  {
-   "rank": 48,
-   "participantId": "p.mihai-veneteanu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 48,
-    "PTS": 1.5,
-    "ELO": 2178,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.mihai-veneteanu",
-    "name": {
-     "full": "Mihai Veneteanu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS VIITORUL URZICENI",
-    "performance": 2204
-   }
-  },
-  {
-   "rank": 49,
-   "participantId": "p.andrei-catalin-mintau",
-   "participantType": "person",
-   "stats": {
-    "RANK": 49,
-    "PTS": 1.5,
-    "ELO": 2122,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.andrei-catalin-mintau",
-    "name": {
-     "full": "Andrei-Catalin Mintau"
+     "full": "Marius Lucian Tatar"
     },
     "nationalities": [
      "RO"
@@ -1317,249 +2478,23 @@
    },
    "extra": {
     "team": "CSM CLUJ-NAPOCA",
-    "performance": 2107
+    "performance": 1837
    }
   },
   {
-   "rank": 50,
-   "participantId": "p.raul-ionut-luncasu",
+   "rank": 96,
+   "participantId": "p.liviu-catalin-lung",
    "participantType": "person",
    "stats": {
-    "RANK": 50,
+    "RANK": 96,
     "PTS": 1.5,
-    "ELO": 2110,
-    "GP": 3
+    "ELO": 1916,
+    "GP": 7
    },
    "person": {
-    "id": "p.raul-ionut-luncasu",
+    "id": "p.liviu-catalin-lung",
     "name": {
-     "full": "Raul-Ionut Luncasu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS PHEONIX BUZĂU",
-    "performance": 2084
-   }
-  },
-  {
-   "rank": 51,
-   "participantId": "p.matei-vasile",
-   "participantType": "person",
-   "stats": {
-    "RANK": 51,
-    "PTS": 1.5,
-    "ELO": 2095,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.matei-vasile",
-    "name": {
-     "full": "Matei Vasile"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
-    "performance": 2189
-   }
-  },
-  {
-   "rank": 52,
-   "participantId": "p.nichita-soilita",
-   "participantType": "person",
-   "stats": {
-    "RANK": 52,
-    "PTS": 1.5,
-    "ELO": 2093,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.nichita-soilita",
-    "name": {
-     "full": "Nichita Soilita"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS VIITORUL URZICENI",
-    "performance": 2117
-   }
-  },
-  {
-   "rank": 53,
-   "participantId": "p.madalin-andronescu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 53,
-    "PTS": 1.5,
-    "ELO": 2071,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.madalin-andronescu",
-    "name": {
-     "full": "Madalin Andronescu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS PHEONIX BUZĂU",
-    "performance": 2033
-   }
-  },
-  {
-   "rank": 54,
-   "participantId": "p.dan-andrei-vasilache",
-   "participantType": "person",
-   "stats": {
-    "RANK": 54,
-    "PTS": 1.5,
-    "ELO": 2064,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.dan-andrei-vasilache",
-    "name": {
-     "full": "Dan-Andrei Vasilache"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS VIITORUL URZICENI",
-    "performance": 2060
-   }
-  },
-  {
-   "rank": 55,
-   "participantId": "p.iustin-nicolas-cazacu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 55,
-    "PTS": 1.5,
-    "ELO": 2061,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.iustin-nicolas-cazacu",
-    "name": {
-     "full": "Iustin-Nicolas Cazacu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "CS POLITEHNICA IASI",
-    "performance": 2105
-   }
-  },
-  {
-   "rank": 56,
-   "participantId": "p.dan-bujac",
-   "participantType": "person",
-   "stats": {
-    "RANK": 56,
-    "PTS": 1.5,
-    "ELO": 2043,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.dan-bujac",
-    "name": {
-     "full": "Dan Bujac"
-    },
-    "nationalities": [
-     "MD"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS VIITORUL URZICENI",
-    "performance": 2010
-   }
-  },
-  {
-   "rank": 57,
-   "participantId": "p.bogdan-girmacea",
-   "participantType": "person",
-   "stats": {
-    "RANK": 57,
-    "PTS": 1.5,
-    "ELO": 2027,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.bogdan-girmacea",
-    "name": {
-     "full": "Bogdan Girmacea"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS ȘAH SUCEAVA",
-    "performance": 1899
-   }
-  },
-  {
-   "rank": 58,
-   "participantId": "p.rares-gazdaru",
-   "participantType": "person",
-   "stats": {
-    "RANK": 58,
-    "PTS": 1.5,
-    "ELO": 2012,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.rares-gazdaru",
-    "name": {
-     "full": "Rares Gazdaru"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS LOGIC DELTA TULCEA",
-    "performance": 2174
-   }
-  },
-  {
-   "rank": 59,
-   "participantId": "p.dragos-olivar-minescu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 59,
-    "PTS": 1.5,
-    "ELO": 1998,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.dragos-olivar-minescu",
-    "name": {
-     "full": "Dragos-Olivar Minescu"
+     "full": "Liviu-Catalin Lung"
     },
     "nationalities": [
      "RO"
@@ -1568,68 +2503,18 @@
    },
    "extra": {
     "team": "ACS DACUS ARCHERY",
-    "performance": 2024
+    "performance": 1698
    }
   },
   {
-   "rank": 60,
-   "participantId": "p.matei-mocanita",
-   "participantType": "person",
-   "stats": {
-    "RANK": 60,
-    "PTS": 1.5,
-    "ELO": 1932,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.matei-mocanita",
-    "name": {
-     "full": "Matei Mocanita"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS LOGIC DELTA TULCEA",
-    "performance": 1990
-   }
-  },
-  {
-   "rank": 61,
-   "participantId": "p.alexandru-mohonea",
-   "participantType": "person",
-   "stats": {
-    "RANK": 61,
-    "PTS": 1.5,
-    "ELO": 1888,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.alexandru-mohonea",
-    "name": {
-     "full": "Alexandru Mohonea"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM GALATI",
-    "performance": 2144
-   }
-  },
-  {
-   "rank": 62,
+   "rank": 97,
    "participantId": "p.flavius-iulian-mihailiuc",
    "participantType": "person",
    "stats": {
-    "RANK": 62,
+    "RANK": 97,
     "PTS": 1.5,
     "ELO": 1855,
-    "GP": 2
+    "GP": 5
    },
    "person": {
     "id": "p.flavius-iulian-mihailiuc",
@@ -1643,15 +2528,15 @@
    },
    "extra": {
     "team": "ACS SMART GALATI",
-    "performance": 2016
+    "performance": 1783
    }
   },
   {
-   "rank": 63,
+   "rank": 98,
    "participantId": "p.sorin-emanuel-iordachescu",
    "participantType": "person",
    "stats": {
-    "RANK": 63,
+    "RANK": 98,
     "PTS": 1.5,
     "ELO": 1796,
     "GP": 2
@@ -1672,97 +2557,19 @@
    }
   },
   {
-   "rank": 64,
-   "participantId": "p.mihai-lucian-grunberg",
+   "rank": 99,
+   "participantId": "p.mihai-iucu",
    "participantType": "person",
    "stats": {
-    "RANK": 64,
-    "PTS": 1.0,
-    "ELO": 2381,
-    "GP": 3
+    "RANK": 99,
+    "PTS": 1.5,
+    "ELO": 1746,
+    "GP": 6
    },
    "person": {
-    "id": "p.mihai-lucian-grunberg",
+    "id": "p.mihai-iucu",
     "name": {
-     "full": "Mihai-Lucian Grunberg"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "CS STUDENTESC MEDICINA TIMISOARA",
-    "performance": 2116
-   }
-  },
-  {
-   "rank": 65,
-   "participantId": "p.costin-valeriu-cozianu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 65,
-    "PTS": 1.0,
-    "ELO": 2337,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.costin-valeriu-cozianu",
-    "name": {
-     "full": "Costin-Valeriu Cozianu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS SMART GALATI",
-    "performance": 2145
-   }
-  },
-  {
-   "rank": 66,
-   "participantId": "p.catalin-lucian-patrascu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 66,
-    "PTS": 1.0,
-    "ELO": 2261,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.catalin-lucian-patrascu",
-    "name": {
-     "full": "Catalin-Lucian Patrascu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS PHEONIX BUZĂU",
-    "performance": 2884
-   }
-  },
-  {
-   "rank": 67,
-   "participantId": "p.victor-dominic-onica",
-   "participantType": "person",
-   "stats": {
-    "RANK": 67,
-    "PTS": 1.0,
-    "ELO": 2184,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.victor-dominic-onica",
-    "name": {
-     "full": "Victor-Dominic Onica"
+     "full": "Mihai Iucu"
     },
     "nationalities": [
      "RO"
@@ -1771,350 +2578,23 @@
    },
    "extra": {
     "team": "CS COMUNAL DUDEȘTII NOI",
-    "performance": 2314
+    "performance": 1841
    }
   },
   {
-   "rank": 68,
-   "participantId": "p.ioan-radu-dima",
+   "rank": 100,
+   "participantId": "p.darius-ioan-nae",
    "participantType": "person",
    "stats": {
-    "RANK": 68,
-    "PTS": 1.0,
-    "ELO": 2144,
+    "RANK": 100,
+    "PTS": 1.5,
+    "ELO": 1622,
     "GP": 3
    },
    "person": {
-    "id": "p.ioan-radu-dima",
+    "id": "p.darius-ioan-nae",
     "name": {
-     "full": "Ioan-Radu Dima"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS STUDENTESC MEDICINA TIMISOARA",
-    "performance": 1716
-   }
-  },
-  {
-   "rank": 69,
-   "participantId": "p.cristian-gabriel-voiteanu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 69,
-    "PTS": 1.0,
-    "ELO": 2084,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.cristian-gabriel-voiteanu",
-    "name": {
-     "full": "Cristian-Gabriel Voiteanu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ACS CALCOOL",
-    "performance": 2076
-   }
-  },
-  {
-   "rank": 70,
-   "participantId": "p.daniel-vasilica-popescu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 70,
-    "PTS": 1.0,
-    "ELO": 2018,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.daniel-vasilica-popescu",
-    "name": {
-     "full": "Daniel-Vasilica Popescu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS PHEONIX BUZĂU",
-    "performance": 1948
-   }
-  },
-  {
-   "rank": 71,
-   "participantId": "p.alin-stingu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 71,
-    "PTS": 1.0,
-    "ELO": 1984,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alin-stingu",
-    "name": {
-     "full": "Alin Stingu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "ACS DACUS ARCHERY",
-    "performance": 2013
-   }
-  },
-  {
-   "rank": 72,
-   "participantId": "p.janos-helmer",
-   "participantType": "person",
-   "stats": {
-    "RANK": 72,
-    "PTS": 1.0,
-    "ELO": 1961,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.janos-helmer",
-    "name": {
-     "full": "Janos Helmer"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM CLUJ-NAPOCA",
-    "performance": 1963
-   }
-  },
-  {
-   "rank": 73,
-   "participantId": "p.daniel-alexandru-dobre",
-   "participantType": "person",
-   "stats": {
-    "RANK": 73,
-    "PTS": 1.0,
-    "ELO": 1954,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.daniel-alexandru-dobre",
-    "name": {
-     "full": "Daniel-Alexandru Dobre"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "AC DE SAH ALFIL PITESTI",
-    "performance": 1917
-   }
-  },
-  {
-   "rank": 74,
-   "participantId": "p.andrei-v-tanase",
-   "participantType": "person",
-   "stats": {
-    "RANK": 74,
-    "PTS": 1.0,
-    "ELO": 1916,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.andrei-v-tanase",
-    "name": {
-     "full": "Andrei V. Tanase"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS CHIMIA RAMNICU VALCEA",
-    "performance": 2030
-   }
-  },
-  {
-   "rank": 75,
-   "participantId": "p.dimitrie-miron",
-   "participantType": "person",
-   "stats": {
-    "RANK": 75,
-    "PTS": 1.0,
-    "ELO": 1895,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.dimitrie-miron",
-    "name": {
-     "full": "Dimitrie Miron"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS LOGIC DELTA TULCEA",
-    "performance": 2620
-   }
-  },
-  {
-   "rank": 76,
-   "participantId": "p.matei-andrei-croitoru",
-   "participantType": "person",
-   "stats": {
-    "RANK": 76,
-    "PTS": 1.0,
-    "ELO": 1883,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.matei-andrei-croitoru",
-    "name": {
-     "full": "Matei-Andrei Croitoru"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS LOGIC DELTA TULCEA",
-    "performance": 1957
-   }
-  },
-  {
-   "rank": 77,
-   "participantId": "p.ianis-cristian-ciuca",
-   "participantType": "person",
-   "stats": {
-    "RANK": 77,
-    "PTS": 1.0,
-    "ELO": 1827,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.ianis-cristian-ciuca",
-    "name": {
-     "full": "Ianis-Cristian Ciuca"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
-    "performance": 1737
-   }
-  },
-  {
-   "rank": 78,
-   "participantId": "p.bogdan-andrei-grecu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 78,
-    "PTS": 1.0,
-    "ELO": 1753,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.bogdan-andrei-grecu",
-    "name": {
-     "full": "Bogdan-Andrei Grecu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS DACUS ARCHERY",
-    "performance": 1722
-   }
-  },
-  {
-   "rank": 79,
-   "participantId": "p.razvan-nicolae-popa",
-   "participantType": "person",
-   "stats": {
-    "RANK": 79,
-    "PTS": 1.0,
-    "ELO": 1724,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.razvan-nicolae-popa",
-    "name": {
-     "full": "Razvan-Nicolae Popa"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM CLUJ-NAPOCA",
-    "performance": 1655
-   }
-  },
-  {
-   "rank": 80,
-   "participantId": "p.tudor-grosu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 80,
-    "PTS": 1.0,
-    "ELO": 1687,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.tudor-grosu",
-    "name": {
-     "full": "Tudor Grosu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS COMUNAL DUDEȘTII NOI",
-    "performance": 1941
-   }
-  },
-  {
-   "rank": 81,
-   "participantId": "p.ilio-phoem-stanculet",
-   "participantType": "person",
-   "stats": {
-    "RANK": 81,
-    "PTS": 1.0,
-    "ELO": 1640,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.ilio-phoem-stanculet",
-    "name": {
-     "full": "Ilio-Phoem Stanculet"
+     "full": "Darius-Ioan Nae"
     },
     "nationalities": [
      "RO"
@@ -2123,420 +2603,18 @@
    },
    "extra": {
     "team": "CSM CONSTANȚA",
-    "performance": 1774
+    "performance": 1822
    }
   },
   {
-   "rank": 82,
-   "participantId": "p.karla-marina-panici",
-   "participantType": "person",
-   "stats": {
-    "RANK": 82,
-    "PTS": 1.0,
-    "ELO": 1636,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.karla-marina-panici",
-    "name": {
-     "full": "Karla Marina Panici"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS COMUNAL DUDEȘTII NOI",
-    "performance": 1299
-   }
-  },
-  {
-   "rank": 83,
-   "participantId": "p.marius-moraru",
-   "participantType": "person",
-   "stats": {
-    "RANK": 83,
-    "PTS": 0.5,
-    "ELO": 2307,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.marius-moraru",
-    "name": {
-     "full": "Marius Moraru"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "ACS CALCOOL",
-    "performance": 2035
-   }
-  },
-  {
-   "rank": 84,
-   "participantId": "p.alin-marian-lucaci",
-   "participantType": "person",
-   "stats": {
-    "RANK": 84,
-    "PTS": 0.5,
-    "ELO": 2291,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.alin-marian-lucaci",
-    "name": {
-     "full": "Alin-Marian Lucaci"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS ȘAH SUCEAVA",
-    "performance": 2003
-   }
-  },
-  {
-   "rank": 85,
-   "participantId": "p.lehel-vrencian",
-   "participantType": "person",
-   "stats": {
-    "RANK": 85,
-    "PTS": 0.5,
-    "ELO": 2263,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.lehel-vrencian",
-    "name": {
-     "full": "Lehel Vrencian"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "CS OTOPENI",
-    "performance": 2091
-   }
-  },
-  {
-   "rank": 86,
-   "participantId": "p.razvan-catalin-tudoroiu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 86,
-    "PTS": 0.5,
-    "ELO": 2137,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.razvan-catalin-tudoroiu",
-    "name": {
-     "full": "Razvan-Catalin Tudoroiu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM GALATI",
-    "performance": 2156
-   }
-  },
-  {
-   "rank": 87,
-   "participantId": "p.marika-nicolas-mihaila",
-   "participantType": "person",
-   "stats": {
-    "RANK": 87,
-    "PTS": 0.5,
-    "ELO": 2045,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.marika-nicolas-mihaila",
-    "name": {
-     "full": "Marika-Nicolas Mihaila"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
-    "performance": 1636
-   }
-  },
-  {
-   "rank": 88,
-   "participantId": "p.beniamin-anghel-claudiu-sabau",
-   "participantType": "person",
-   "stats": {
-    "RANK": 88,
-    "PTS": 0.5,
-    "ELO": 2031,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.beniamin-anghel-claudiu-sabau",
-    "name": {
-     "full": "Beniamin-Anghel-Claudiu Sabau"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS CALCOOL",
-    "performance": 1852
-   }
-  },
-  {
-   "rank": 89,
-   "participantId": "p.george-ciprian-cernencu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 89,
-    "PTS": 0.5,
-    "ELO": 2018,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.george-ciprian-cernencu",
-    "name": {
-     "full": "George-Ciprian Cernencu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM GALATI",
-    "performance": 1865
-   }
-  },
-  {
-   "rank": 90,
-   "participantId": "p.mircea-andrei-cazan",
-   "participantType": "person",
-   "stats": {
-    "RANK": 90,
-    "PTS": 0.5,
-    "ELO": 2009,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.mircea-andrei-cazan",
-    "name": {
-     "full": "Mircea-Andrei Cazan"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM CONSTANȚA",
-    "performance": 2004
-   }
-  },
-  {
-   "rank": 91,
-   "participantId": "p.leonard-vasiloi",
-   "participantType": "person",
-   "stats": {
-    "RANK": 91,
-    "PTS": 0.5,
-    "ELO": 1989,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.leonard-vasiloi",
-    "name": {
-     "full": "Leonard Vasiloi"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM CONSTANȚA",
-    "performance": 1954
-   }
-  },
-  {
-   "rank": 92,
-   "participantId": "p.marius-lucian-tatar",
-   "participantType": "person",
-   "stats": {
-    "RANK": 92,
-    "PTS": 0.5,
-    "ELO": 1955,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.marius-lucian-tatar",
-    "name": {
-     "full": "Marius Lucian Tatar"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM CLUJ-NAPOCA",
-    "performance": 1816
-   }
-  },
-  {
-   "rank": 93,
-   "participantId": "p.eduard-russu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 93,
-    "PTS": 0.5,
-    "ELO": 1953,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.eduard-russu",
-    "name": {
-     "full": "Eduard Russu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS CHIMIA RAMNICU VALCEA",
-    "performance": 1870
-   }
-  },
-  {
-   "rank": 94,
-   "participantId": "p.liviu-catalin-lung",
-   "participantType": "person",
-   "stats": {
-    "RANK": 94,
-    "PTS": 0.5,
-    "ELO": 1916,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.liviu-catalin-lung",
-    "name": {
-     "full": "Liviu-Catalin Lung"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS DACUS ARCHERY",
-    "performance": 1672
-   }
-  },
-  {
-   "rank": 95,
-   "participantId": "p.mihai-savin",
-   "participantType": "person",
-   "stats": {
-    "RANK": 95,
-    "PTS": 0.5,
-    "ELO": 1781,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.mihai-savin",
-    "name": {
-     "full": "Mihai Savin"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS SMART GALATI",
-    "performance": 1481
-   }
-  },
-  {
-   "rank": 96,
-   "participantId": "p.razvan-alexandru-panait",
-   "participantType": "person",
-   "stats": {
-    "RANK": 96,
-    "PTS": 0.0,
-    "ELO": 2107,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.razvan-alexandru-panait",
-    "name": {
-     "full": "Razvan-Alexandru Panait"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS CHIMIA RAMNICU VALCEA",
-    "performance": 1499
-   }
-  },
-  {
-   "rank": 97,
-   "participantId": "p.david-alexandru-harabor",
-   "participantType": "person",
-   "stats": {
-    "RANK": 97,
-    "PTS": 0.0,
-    "ELO": 2097,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.david-alexandru-harabor",
-    "name": {
-     "full": "David-Alexandru Harabor"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS CHIMIA RAMNICU VALCEA",
-    "performance": 1370
-   }
-  },
-  {
-   "rank": 98,
+   "rank": 101,
    "participantId": "p.adelin-stefan-dascalescu",
    "participantType": "person",
    "stats": {
-    "RANK": 98,
-    "PTS": 0.0,
+    "RANK": 101,
+    "PTS": 1.0,
     "ELO": 2061,
-    "GP": 2
+    "GP": 4
    },
    "person": {
     "id": "p.adelin-stefan-dascalescu",
@@ -2550,70 +2628,193 @@
    },
    "extra": {
     "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
-    "performance": 1186
+    "performance": 1813
    }
   },
   {
-   "rank": 99,
-   "participantId": "p.lucian-mihail-vasilescu",
+   "rank": 102,
+   "participantId": "p.george-ciprian-cernencu",
    "participantType": "person",
    "stats": {
-    "RANK": 99,
-    "PTS": 0.0,
-    "ELO": 2058,
-    "GP": 2
+    "RANK": 102,
+    "PTS": 1.0,
+    "ELO": 2018,
+    "GP": 5
    },
    "person": {
-    "id": "p.lucian-mihail-vasilescu",
+    "id": "p.george-ciprian-cernencu",
     "name": {
-     "full": "Lucian-Mihail Vasilescu"
+     "full": "George-Ciprian Cernencu"
     },
     "nationalities": [
      "RO"
     ],
-    "isCuban": false,
-    "title": "IM"
+    "isCuban": false
    },
    "extra": {
-    "team": "CS OTOPENI",
-    "performance": 1181
+    "team": "CSM GALATI",
+    "performance": 1803
    }
   },
   {
-   "rank": 100,
-   "participantId": "p.ionut-buzbuchi",
+   "rank": 103,
+   "participantId": "p.mircea-andrei-cazan",
    "participantType": "person",
    "stats": {
-    "RANK": 100,
-    "PTS": 0.0,
-    "ELO": 1972,
-    "GP": 2
+    "RANK": 103,
+    "PTS": 1.0,
+    "ELO": 2009,
+    "GP": 6
    },
    "person": {
-    "id": "p.ionut-buzbuchi",
+    "id": "p.mircea-andrei-cazan",
     "name": {
-     "full": "Ionut Buzbuchi"
+     "full": "Mircea-Andrei Cazan"
     },
     "nationalities": [
      "RO"
     ],
-    "isCuban": false,
-    "title": "FM"
+    "isCuban": false
    },
    "extra": {
     "team": "CSM CONSTANȚA",
-    "performance": 1504
+    "performance": 1845
    }
   },
   {
-   "rank": 101,
+   "rank": 104,
+   "participantId": "p.janos-helmer",
+   "participantType": "person",
+   "stats": {
+    "RANK": 104,
+    "PTS": 1.0,
+    "ELO": 1961,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.janos-helmer",
+    "name": {
+     "full": "Janos Helmer"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM CLUJ-NAPOCA",
+    "performance": 1839
+   }
+  },
+  {
+   "rank": 105,
+   "participantId": "p.luca-daniel-borciu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 105,
+    "PTS": 1.0,
+    "ELO": 1850,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.luca-daniel-borciu",
+    "name": {
+     "full": "Luca-Daniel Borciu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS COMUNAL DUDEȘTII NOI",
+    "performance": 1833
+   }
+  },
+  {
+   "rank": 106,
+   "participantId": "p.ianis-cristian-ciuca",
+   "participantType": "person",
+   "stats": {
+    "RANK": 106,
+    "PTS": 1.0,
+    "ELO": 1827,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.ianis-cristian-ciuca",
+    "name": {
+     "full": "Ianis-Cristian Ciuca"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS UNIVERSITAR DE ȘAH BUCUREȘTI",
+    "performance": 1678
+   }
+  },
+  {
+   "rank": 107,
+   "participantId": "p.mihai-savin",
+   "participantType": "person",
+   "stats": {
+    "RANK": 107,
+    "PTS": 1.0,
+    "ELO": 1781,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.mihai-savin",
+    "name": {
+     "full": "Mihai Savin"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ACS SMART GALATI",
+    "performance": 1626
+   }
+  },
+  {
+   "rank": 108,
+   "participantId": "p.maria-sofia-cazacu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 108,
+    "PTS": 1.0,
+    "ELO": 1637,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.maria-sofia-cazacu",
+    "name": {
+     "full": "Maria-Sofia Cazacu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CS POLITEHNICA IASI",
+    "performance": 1785
+   }
+  },
+  {
+   "rank": 109,
    "participantId": "p.tudor-beldiman",
    "participantType": "person",
    "stats": {
-    "RANK": 101,
-    "PTS": 0.0,
+    "RANK": 109,
+    "PTS": 0.5,
     "ELO": 1967,
-    "GP": 1
+    "GP": 3
    },
    "person": {
     "id": "p.tudor-beldiman",
@@ -2627,48 +2828,23 @@
    },
    "extra": {
     "team": "AC DE SAH ALFIL PITESTI",
-    "performance": 1008
+    "performance": 1701
    }
   },
   {
-   "rank": 102,
-   "participantId": "p.constantin-andrei-arba",
+   "rank": 110,
+   "participantId": "p.daniel-cirjan",
    "participantType": "person",
    "stats": {
-    "RANK": 102,
-    "PTS": 0.0,
-    "ELO": 1935,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.constantin-andrei-arba",
-    "name": {
-     "full": "Constantin-Andrei Arba"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS CALCOOL",
-    "performance": 1162
-   }
-  },
-  {
-   "rank": 103,
-   "participantId": "p.alexandru-bogdan-visoescu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 103,
-    "PTS": 0.0,
-    "ELO": 1926,
+    "RANK": 110,
+    "PTS": 0.5,
+    "ELO": 1851,
     "GP": 1
    },
    "person": {
-    "id": "p.alexandru-bogdan-visoescu",
+    "id": "p.daniel-cirjan",
     "name": {
-     "full": "Alexandru-Bogdan Visoescu"
+     "full": "Daniel Cirjan"
     },
     "nationalities": [
      "RO"
@@ -2677,15 +2853,15 @@
    },
    "extra": {
     "team": "CS CHIMIA RAMNICU VALCEA",
-    "performance": 1264
+    "performance": 1624
    }
   },
   {
-   "rank": 104,
+   "rank": 111,
    "participantId": "p.gheorghe-severian-berbece",
    "participantType": "person",
    "stats": {
-    "RANK": 104,
+    "RANK": 111,
     "PTS": 0.0,
     "ELO": 1855,
     "GP": 1
@@ -2706,39 +2882,14 @@
    }
   },
   {
-   "rank": 105,
-   "participantId": "p.luca-daniel-borciu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 105,
-    "PTS": 0.0,
-    "ELO": 1850,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.luca-daniel-borciu",
-    "name": {
-     "full": "Luca-Daniel Borciu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS COMUNAL DUDEȘTII NOI",
-    "performance": 1432
-   }
-  },
-  {
-   "rank": 106,
+   "rank": 112,
    "participantId": "p.cezar-teodor-capatina",
    "participantType": "person",
    "stats": {
-    "RANK": 106,
+    "RANK": 112,
     "PTS": 0.0,
     "ELO": 1833,
-    "GP": 2
+    "GP": 6
    },
    "person": {
     "id": "p.cezar-teodor-capatina",
@@ -2752,18 +2903,18 @@
    },
    "extra": {
     "team": "CS ȘAH SUCEAVA",
-    "performance": 1114
+    "performance": 1125
    }
   },
   {
-   "rank": 107,
+   "rank": 113,
    "participantId": "p.nicola-diana-dospin",
    "participantType": "person",
    "stats": {
-    "RANK": 107,
+    "RANK": 113,
     "PTS": 0.0,
     "ELO": 1820,
-    "GP": 2
+    "GP": 5
    },
    "person": {
     "id": "p.nicola-diana-dospin",
@@ -2777,23 +2928,23 @@
    },
    "extra": {
     "team": "CSM CONSTANȚA",
-    "performance": 1178
+    "performance": 1113
    }
   },
   {
-   "rank": 108,
-   "participantId": "p.mihai-iucu",
+   "rank": 114,
+   "participantId": "p.darius-mihai-tuzlaru",
    "participantType": "person",
    "stats": {
-    "RANK": 108,
+    "RANK": 114,
     "PTS": 0.0,
-    "ELO": 1746,
+    "ELO": 1791,
     "GP": 2
    },
    "person": {
-    "id": "p.mihai-iucu",
+    "id": "p.darius-mihai-tuzlaru",
     "name": {
-     "full": "Mihai Iucu"
+     "full": "Darius-Mihai Tuzlaru"
     },
     "nationalities": [
      "RO"
@@ -2801,19 +2952,44 @@
     "isCuban": false
    },
    "extra": {
-    "team": "CS COMUNAL DUDEȘTII NOI",
-    "performance": 1317
+    "team": "CSM CONSTANȚA",
+    "performance": 1045
    }
   },
   {
-   "rank": 109,
+   "rank": 115,
+   "participantId": "p.alecsandru-matei-burghisan",
+   "participantType": "person",
+   "stats": {
+    "RANK": 115,
+    "PTS": 0.0,
+    "ELO": 1702,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.alecsandru-matei-burghisan",
+    "name": {
+     "full": "Alecsandru-Matei Burghisan"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "CSM CONSTANȚA",
+    "performance": 1135
+   }
+  },
+  {
+   "rank": 116,
    "participantId": "p.theodor-timofte",
    "participantType": "person",
    "stats": {
-    "RANK": 109,
+    "RANK": 116,
     "PTS": 0.0,
     "ELO": 1658,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.theodor-timofte",
@@ -2827,40 +3003,15 @@
    },
    "extra": {
     "team": "CSM CONSTANȚA",
-    "performance": 1144
+    "performance": 1114
    }
   },
   {
-   "rank": 110,
-   "participantId": "p.maria-sofia-cazacu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 110,
-    "PTS": 0.0,
-    "ELO": 1637,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.maria-sofia-cazacu",
-    "name": {
-     "full": "Maria-Sofia Cazacu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CS POLITEHNICA IASI",
-    "performance": 1344
-   }
-  },
-  {
-   "rank": 111,
+   "rank": 117,
    "participantId": "p.doru-cosmin-ailincai",
    "participantType": "person",
    "stats": {
-    "RANK": 111,
+    "RANK": 117,
     "PTS": 0.0,
     "ELO": 1624,
     "GP": 1
@@ -2881,14 +3032,14 @@
    }
   },
   {
-   "rank": 112,
+   "rank": 118,
    "participantId": "p.rucsandra-sofia-dumitru",
    "participantType": "person",
    "stats": {
-    "RANK": 112,
+    "RANK": 118,
     "PTS": 0.0,
     "ELO": 1610,
-    "GP": 3
+    "GP": 5
    },
    "person": {
     "id": "p.rucsandra-sofia-dumitru",
@@ -2902,77 +3053,7 @@
    },
    "extra": {
     "team": "CS POLITEHNICA IASI",
-    "performance": 1089
-   }
-  },
-  {
-   "rank": 113,
-   "participantId": "p.andrei-cristian-bulau",
-   "participantType": "person",
-   "stats": {
-    "RANK": 113,
-    "ELO": 2194,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.andrei-cristian-bulau",
-    "name": {
-     "full": "Andrei-Cristian Bulau"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ACS PHEONIX BUZĂU"
-   }
-  },
-  {
-   "rank": 114,
-   "participantId": "p.david-cr-radu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 114,
-    "ELO": 2179,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.david-cr-radu",
-    "name": {
-     "full": "David Cr. Radu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "CS STUDENTESC MEDICINA TIMISOARA"
-   }
-  },
-  {
-   "rank": 115,
-   "participantId": "p.darius-ioan-nae",
-   "participantType": "person",
-   "stats": {
-    "RANK": 115,
-    "ELO": 1622,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.darius-ioan-nae",
-    "name": {
-     "full": "Darius-Ioan Nae"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "CSM CONSTANȚA"
+    "performance": 1065
    }
   }
  ]
