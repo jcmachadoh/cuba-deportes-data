@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:lmP3sk2N",
- "updatedAt": "2026-10-09T17:28:14Z",
+ "updatedAt": "2026-10-10T14:59:17Z",
  "sources": [
   "lichess"
  ],
@@ -21,7 +21,211 @@
   "tc": "3+2",
   "website": "https://sites.google.com/view/chessengland",
   "tier": 4,
-  "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=hyUF_-LhiIcz.webp&w=800&sig=9cb4b723e679066a7506bfe835296019307b0243"
+  "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=hyUF_-LhiIcz.webp&w=800&sig=9cb4b723e679066a7506bfe835296019307b0243",
+  "rounds": [
+   {
+    "name": "Ronda 1",
+    "startsAt": 1791039600000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 2",
+    "startsAt": 1791040800000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 3",
+    "startsAt": 1791042000000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 4",
+    "startsAt": 1791043200000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 5",
+    "startsAt": 1791044400000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 6",
+    "startsAt": 1791126000000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 7",
+    "startsAt": 1791127200000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 8",
+    "startsAt": 1791128400000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 9",
+    "startsAt": 1791129600000,
+    "finished": true
+   },
+   {
+    "name": "Ronda 10",
+    "startsAt": 1791130800000,
+    "finished": true
+   }
+  ]
  },
- "standings": []
+ "standings": [
+  {
+   "rank": 1,
+   "participantId": "p.jules-moussard",
+   "participantType": "person",
+   "stats": {
+    "RANK": 1,
+    "PTS": 7.0,
+    "ELO": 2637,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.jules-moussard",
+    "name": {
+     "full": "Jules Moussard"
+    },
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2760
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.benjamin-bok",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 6.0,
+    "ELO": 2599,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.benjamin-bok",
+    "name": {
+     "full": "Benjamin Bok"
+    },
+    "nationalities": [
+     "NL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2691
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.maxime-lagarde",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 5.5,
+    "ELO": 2597,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.maxime-lagarde",
+    "name": {
+     "full": "Maxime Lagarde"
+    },
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2655
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.sergei-tiviakov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 4.0,
+    "ELO": 2653,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.sergei-tiviakov",
+    "name": {
+     "full": "Sergei Tiviakov"
+    },
+    "nationalities": [
+     "NL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2536
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.luke-j-mcshane",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 4.0,
+    "ELO": 2594,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.luke-j-mcshane",
+    "name": {
+     "full": "Luke J McShane"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2548
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.gawain-c-b-maroroa-jones.1987",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 3.5,
+    "ELO": 2616,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.gawain-c-b-maroroa-jones.1987",
+    "name": {
+     "full": "Gawain C B Maroroa Jones"
+    },
+    "birthDate": "1987",
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2506
+   }
+  }
+ ]
 }
