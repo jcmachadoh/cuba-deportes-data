@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-10-09T22:38:01Z",
+ "updatedAt": "2026-10-10T18:35:01Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,30 @@
    "name": "French Ligue 1 2026-27",
    "rows": [
     {
-     "participantId": "soccer.as-monaco",
+     "participantId": "soccer.lille",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 6,
+      "W": 4,
+      "D": 1,
+      "L": 1,
+      "GF": 9,
+      "GA": 4,
+      "GD": 5,
+      "PTS": 13
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.as-monaco",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 5,
       "W": 4,
@@ -37,7 +58,7 @@
     {
      "participantId": "soccer.lyon",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -58,7 +79,7 @@
     {
      "participantId": "soccer.paris-fc",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 5,
       "W": 3,
@@ -68,27 +89,6 @@
       "GA": 3,
       "GD": 5,
       "PTS": 11
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.lille",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 5,
-      "W": 3,
-      "D": 1,
-      "L": 1,
-      "GF": 8,
-      "GA": 4,
-      "GD": 4,
-      "PTS": 10
      },
      "extra": {
       "note": {
@@ -327,13 +327,13 @@
      "participantType": "team",
      "rank": 18,
      "stats": {
-      "GP": 5,
+      "GP": 6,
       "W": 0,
       "D": 2,
-      "L": 3,
+      "L": 4,
       "GF": 4,
-      "GA": 7,
-      "GD": -3,
+      "GA": 8,
+      "GD": -4,
       "PTS": 2
      },
      "extra": {
