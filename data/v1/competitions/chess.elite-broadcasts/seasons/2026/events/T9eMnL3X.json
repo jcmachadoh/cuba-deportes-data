@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:T9eMnL3X",
- "updatedAt": "2026-10-10T06:14:17Z",
+ "updatedAt": "2026-10-10T12:38:04Z",
  "sources": [
   "lichess"
  ],
@@ -31,32 +31,27 @@
    {
     "name": "Cuartos de final | Partida 2",
     "startsAt": 1791613200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Cuartos de final | Partida 3",
     "startsAt": 1791618000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Cuartos de final | Partida 4",
     "startsAt": 1791622800000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Cuartos de final | Tiebreak 1",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1791626400000,
+    "finished": true
    },
    {
     "name": "Cuartos de final | Tiebreak 2",
-    "startsAt": null,
-    "finished": null
-   },
-   {
-    "name": "Cuartos de final | Armageddon",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1791627632643,
+    "finished": true
    },
    {
     "name": "Semifinales | Partida 1",
@@ -133,192 +128,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.yangyi-yu.1994",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 1.0,
-    "ELO": 2667,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yangyi-yu.1994",
-    "name": {
-     "full": "Yangyi Yu"
-    },
-    "birthDate": "1994",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3234
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.xiangyu-xu.1999",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 1.0,
-    "ELO": 2605,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.xiangyu-xu.1999",
-    "name": {
-     "full": "Xiangyu Xu"
-    },
-    "birthDate": "1999",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3190
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.liren-ding.1992",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 0.5,
-    "ELO": 2693,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.liren-ding.1992",
-    "name": {
-     "full": "Liren Ding"
-    },
-    "birthDate": "1992",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2453
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.hao-wang.1989",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 0.5,
-    "ELO": 2649,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.hao-wang.1989",
-    "name": {
-     "full": "Hao Wang"
-    },
-    "birthDate": "1989",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2472
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.tong-qd-xiao.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 0.5,
-    "ELO": 2472,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.tong-qd-xiao.2008",
-    "name": {
-     "full": "Tong(QD) Xiao"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2649
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.yihan-meng",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 0.5,
-    "ELO": 2453,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yihan-meng",
-    "name": {
-     "full": "Yihan Meng"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2693
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.renjie-huang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 0.0,
-    "ELO": 2434,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.renjie-huang",
-    "name": {
-     "full": "Renjie Huang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1867
-   }
-  },
-  {
-   "rank": 8,
    "participantId": "p.xiangrui-kong.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
-    "PTS": 0.0,
+    "RANK": 1,
+    "PTS": 3.5,
     "ELO": 2390,
-    "GP": 1
+    "GP": 6
    },
    "person": {
     "id": "p.xiangrui-kong.2009",
@@ -333,7 +149,186 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 1805
+    "performance": 2605
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.liren-ding.1992",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 3.0,
+    "ELO": 2693,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.liren-ding.1992",
+    "name": {
+     "full": "Liren Ding"
+    },
+    "birthDate": "1992",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2646
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.yangyi-yu.1994",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 2.5,
+    "ELO": 2667,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.yangyi-yu.1994",
+    "name": {
+     "full": "Yangyi Yu"
+    },
+    "birthDate": "1994",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2707
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.hao-wang.1989",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 2.5,
+    "ELO": 2649,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.hao-wang.1989",
+    "name": {
+     "full": "Hao Wang"
+    },
+    "birthDate": "1989",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2567
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.xiangyu-xu.1999",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 2.5,
+    "ELO": 2605,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.xiangyu-xu.1999",
+    "name": {
+     "full": "Xiangyu Xu"
+    },
+    "birthDate": "1999",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2390
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.tong-qd-xiao.2008",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 1.5,
+    "ELO": 2472,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.tong-qd-xiao.2008",
+    "name": {
+     "full": "Tong(QD) Xiao"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2562
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.yihan-meng",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 1.0,
+    "ELO": 2453,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.yihan-meng",
+    "name": {
+     "full": "Yihan Meng"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2500
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.renjie-huang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 0.5,
+    "ELO": 2434,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.renjie-huang",
+    "name": {
+     "full": "Renjie Huang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2394
    }
   }
  ]
