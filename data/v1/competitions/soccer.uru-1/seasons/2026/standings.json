@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.uru-1:2026",
- "updatedAt": "2026-10-11T05:47:15Z",
+ "updatedAt": "2026-10-11T18:54:25Z",
  "sources": [
   "espn"
  ],
@@ -77,9 +77,24 @@
      }
     },
     {
-     "participantId": "soccer.nacional",
+     "participantId": "soccer.juventud",
      "participantType": "team",
      "rank": 5,
+     "stats": {
+      "GP": 10,
+      "W": 4,
+      "D": 5,
+      "L": 1,
+      "GF": 12,
+      "GA": 6,
+      "GD": 6,
+      "PTS": 17
+     }
+    },
+    {
+     "participantId": "soccer.nacional",
+     "participantType": "team",
+     "rank": 6,
      "stats": {
       "GP": 9,
       "W": 5,
@@ -94,7 +109,7 @@
     {
      "participantId": "soccer.cerro",
      "participantType": "team",
-     "rank": 6,
+     "rank": 7,
      "stats": {
       "GP": 10,
       "W": 5,
@@ -109,7 +124,7 @@
     {
      "participantId": "soccer.montevideo-wanderers",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
       "GP": 10,
       "W": 4,
@@ -119,21 +134,6 @@
       "GA": 14,
       "GD": -1,
       "PTS": 15
-     }
-    },
-    {
-     "participantId": "soccer.juventud",
-     "participantType": "team",
-     "rank": 8,
-     "stats": {
-      "GP": 9,
-      "W": 3,
-      "D": 5,
-      "L": 1,
-      "GF": 10,
-      "GA": 6,
-      "GD": 4,
-      "PTS": 14
      }
     },
     {
@@ -152,24 +152,9 @@
      }
     },
     {
-     "participantId": "soccer.racing-montevideo",
-     "participantType": "team",
-     "rank": 10,
-     "stats": {
-      "GP": 9,
-      "W": 3,
-      "D": 3,
-      "L": 3,
-      "GF": 9,
-      "GA": 8,
-      "GD": 1,
-      "PTS": 12
-     }
-    },
-    {
      "participantId": "soccer.boston-river",
      "participantType": "team",
-     "rank": 11,
+     "rank": 10,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -178,6 +163,21 @@
       "GF": 13,
       "GA": 13,
       "GD": 0,
+      "PTS": 12
+     }
+    },
+    {
+     "participantId": "soccer.racing-montevideo",
+     "participantType": "team",
+     "rank": 11,
+     "stats": {
+      "GP": 10,
+      "W": 3,
+      "D": 3,
+      "L": 4,
+      "GF": 9,
+      "GA": 10,
+      "GD": -1,
       "PTS": 12
      }
     },

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-10-11T15:06:20Z",
+ "updatedAt": "2026-10-11T18:54:16Z",
  "sources": [
   "espn"
  ],
@@ -56,9 +56,30 @@
      }
     },
     {
-     "participantId": "soccer.lyon",
+     "participantId": "soccer.stade-rennais",
      "participantType": "team",
      "rank": 3,
+     "stats": {
+      "GP": 6,
+      "W": 4,
+      "D": 1,
+      "L": 1,
+      "GF": 12,
+      "GA": 10,
+      "GD": 2,
+      "PTS": 13
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.lyon",
+     "participantType": "team",
+     "rank": 4,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -71,15 +92,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
       }
      }
     },
     {
      "participantId": "soccer.paris-fc",
      "participantType": "team",
-     "rank": 4,
+     "rank": 5,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -92,15 +113,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
+       "text": "Europa League",
+       "color": "#B2BFD0"
       }
      }
     },
     {
      "participantId": "soccer.paris-saint-germain",
      "participantType": "team",
-     "rank": 5,
+     "rank": 6,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -110,27 +131,6 @@
       "GA": 8,
       "GD": 3,
       "PTS": 11
-     },
-     "extra": {
-      "note": {
-       "text": "Europa League",
-       "color": "#B2BFD0"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.stade-rennais",
-     "participantType": "team",
-     "rank": 6,
-     "stats": {
-      "GP": 5,
-      "W": 3,
-      "D": 1,
-      "L": 1,
-      "GF": 8,
-      "GA": 9,
-      "GD": -1,
-      "PTS": 10
      },
      "extra": {
       "note": {
@@ -270,13 +270,13 @@
      "participantType": "team",
      "rank": 15,
      "stats": {
-      "GP": 5,
+      "GP": 6,
       "W": 2,
       "D": 0,
-      "L": 3,
-      "GF": 7,
-      "GA": 12,
-      "GD": -5,
+      "L": 4,
+      "GF": 8,
+      "GA": 16,
+      "GD": -8,
       "PTS": 6
      }
     },

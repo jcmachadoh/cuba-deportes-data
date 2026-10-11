@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:T1kePX1E",
- "updatedAt": "2026-10-11T15:20:30Z",
+ "updatedAt": "2026-10-11T19:16:57Z",
  "sources": [
   "lichess"
  ],
@@ -77,9 +77,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 1.0,
+    "PTS": 2.0,
     "ELO": 2265,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.nelson-pinal-borges",
@@ -89,19 +89,43 @@
     "nationalities": [
      "DO"
     ],
-    "isCuban": false,
+    "isCuban": true,
     "title": "IM"
    },
    "extra": {
-    "performance": 2647
+    "performance": 2709
    }
   },
   {
    "rank": 2,
-   "participantId": "p.otoniel-ledesma",
+   "participantId": "p.hugo-orizondo",
    "participantType": "person",
    "stats": {
     "RANK": 2,
+    "PTS": 2.0,
+    "ELO": 2016,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.hugo-orizondo",
+    "name": {
+     "full": "Hugo Orizondo"
+    },
+    "nationalities": [
+     "DO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2552
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.otoniel-ledesma",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
     "PTS": 1.0,
     "ELO": 2186,
     "GP": 1
@@ -121,11 +145,11 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.mario-leskovar",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 4,
     "PTS": 1.0,
     "ELO": 2170,
     "GP": 1
@@ -146,11 +170,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 5,
    "participantId": "p.rene-antonio-pilarte-tijerino",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 5,
     "PTS": 1.0,
     "ELO": 2069,
     "GP": 1
@@ -168,11 +192,11 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 6,
    "participantId": "p.javier-antonio-torres",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 6,
     "PTS": 1.0,
     "ELO": 2068,
     "GP": 1
@@ -193,11 +217,11 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 7,
    "participantId": "p.carlos-a-reyes-najera",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 7,
     "PTS": 1.0,
     "ELO": 2036,
     "GP": 1
@@ -215,11 +239,11 @@
    }
   },
   {
-   "rank": 7,
+   "rank": 8,
    "participantId": "p.cesar-augusto-blanco-gramajo",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 8,
     "PTS": 1.0,
     "ELO": 2025,
     "GP": 1
@@ -234,30 +258,6 @@
    },
    "extra": {
     "performance": 2557
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.hugo-orizondo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 1.0,
-    "ELO": 2016,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.hugo-orizondo",
-    "name": {
-     "full": "Hugo Orizondo"
-    },
-    "nationalities": [
-     "DO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2552
    }
   },
   {
@@ -316,7 +316,7 @@
     "RANK": 11,
     "PTS": 1.0,
     "ELO": 1972,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.daniel-gonzalez-mesa.1961",
@@ -331,7 +331,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2426
+    "performance": 1945
    }
   },
   {
@@ -425,10 +425,55 @@
   },
   {
    "rank": 16,
-   "participantId": "p.jorge-luis-vera-gajardo",
+   "participantId": "p.cassio-roberto-sopko",
    "participantType": "person",
    "stats": {
     "RANK": 16,
+    "PTS": 1.0,
+    "ELO": 1807,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.cassio-roberto-sopko",
+    "name": {
+     "full": "Cassio Roberto Sopko"
+    },
+    "nationalities": [
+     "BR"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1796
+   }
+  },
+  {
+   "rank": 17,
+   "participantId": "p.rigoberto-alas",
+   "participantType": "person",
+   "stats": {
+    "RANK": 17,
+    "PTS": 1.0,
+    "ELO": 1806,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.rigoberto-alas",
+    "name": {
+     "full": "Rigoberto Alas"
+    },
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1811
+   }
+  },
+  {
+   "rank": 18,
+   "participantId": "p.jorge-luis-vera-gajardo",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
     "PTS": 1.0,
     "ELO": 1759,
     "GP": 1
@@ -445,11 +490,81 @@
    }
   },
   {
-   "rank": 17,
+   "rank": 19,
+   "participantId": "p.mario-davila-texeira",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19,
+    "PTS": 1.0,
+    "ELO": 1752,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.mario-davila-texeira",
+    "name": {
+     "full": "Mario Davila Texeira"
+    },
+    "nationalities": [
+     "UY"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1930
+   }
+  },
+  {
+   "rank": 20,
+   "participantId": "p.blass-ernesto-barria-valdez",
+   "participantType": "person",
+   "stats": {
+    "RANK": 20,
+    "PTS": 1.0,
+    "ELO": 1743,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.blass-ernesto-barria-valdez",
+    "name": {
+     "full": "Blass Ernesto Barria Valdez"
+    },
+    "nationalities": [
+     "PA"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "performance": 1868
+   }
+  },
+  {
+   "rank": 21,
+   "participantId": "p.juan-rivas",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21,
+    "PTS": 1.0,
+    "ELO": 1520,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.juan-rivas",
+    "name": {
+     "full": "Juan Rivas"
+    },
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1820
+   }
+  },
+  {
+   "rank": 22,
    "participantId": "p.juan-leon-jimenez-molina",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 22,
     "PTS": 0.5,
     "ELO": 2005,
     "GP": 1
@@ -467,36 +582,32 @@
    }
   },
   {
-   "rank": 18,
-   "participantId": "p.blass-ernesto-barria-valdez",
+   "rank": 23,
+   "participantId": "p.antonio-rodolfo-reina-pineda",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 23,
     "PTS": 0.5,
-    "ELO": 1743,
+    "ELO": 1731,
     "GP": 1
    },
    "person": {
-    "id": "p.blass-ernesto-barria-valdez",
+    "id": "p.antonio-rodolfo-reina-pineda",
     "name": {
-     "full": "Blass Ernesto Barria Valdez"
+     "full": "Antonio Rodolfo Reina Pineda"
     },
-    "nationalities": [
-     "PA"
-    ],
-    "isCuban": false,
-    "title": "CM"
+    "isCuban": false
    },
    "extra": {
-    "performance": 2005
+    "performance": 1743
    }
   },
   {
-   "rank": 19,
+   "rank": 24,
    "participantId": "p.alejandro-bauza",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 24,
     "PTS": 0.0,
     "ELO": 2074,
     "GP": 1
@@ -517,11 +628,11 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 25,
    "participantId": "p.nelson-castillo",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 25,
     "PTS": 0.0,
     "ELO": 1847,
     "GP": 1
@@ -538,14 +649,14 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 26,
    "participantId": "p.daniel-santiso",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 26,
     "PTS": 0.0,
     "ELO": 1844,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.daniel-santiso",
@@ -556,14 +667,17 @@
      "AR"
     ],
     "isCuban": false
+   },
+   "extra": {
+    "performance": 952
    }
   },
   {
-   "rank": 22,
+   "rank": 27,
    "participantId": "p.gabriel-barandiaran",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 27,
     "PTS": 0.0,
     "ELO": 1838,
     "GP": 1
@@ -583,11 +697,11 @@
    }
   },
   {
-   "rank": 23,
+   "rank": 28,
    "participantId": "p.clifford-shaw",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 28,
     "PTS": 0.0,
     "ELO": 1817,
     "GP": 1
@@ -605,59 +719,14 @@
    }
   },
   {
-   "rank": 24,
-   "participantId": "p.cassio-roberto-sopko",
-   "participantType": "person",
-   "stats": {
-    "RANK": 24,
-    "PTS": 0.0,
-    "ELO": 1807,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.cassio-roberto-sopko",
-    "name": {
-     "full": "Cassio Roberto Sopko"
-    },
-    "nationalities": [
-     "BR"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1269
-   }
-  },
-  {
-   "rank": 25,
-   "participantId": "p.rigoberto-alas",
-   "participantType": "person",
-   "stats": {
-    "RANK": 25,
-    "PTS": 0.0,
-    "ELO": 1806,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.rigoberto-alas",
-    "name": {
-     "full": "Rigoberto Alas"
-    },
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1268
-   }
-  },
-  {
-   "rank": 26,
+   "rank": 29,
    "participantId": "p.batlle-garcia",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 29,
     "PTS": 0.0,
     "ELO": 1785,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.batlle-garcia",
@@ -670,15 +739,15 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1236
+    "performance": 978
    }
   },
   {
-   "rank": 27,
+   "rank": 30,
    "participantId": "p.mauricio-hernandez",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 30,
     "PTS": 0.0,
     "ELO": 1757,
     "GP": 1
@@ -695,35 +764,11 @@
    }
   },
   {
-   "rank": 28,
-   "participantId": "p.mario-davila-texeira",
-   "participantType": "person",
-   "stats": {
-    "RANK": 28,
-    "PTS": 0.0,
-    "ELO": 1752,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.mario-davila-texeira",
-    "name": {
-     "full": "Mario Davila Texeira"
-    },
-    "nationalities": [
-     "UY"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1216
-   }
-  },
-  {
-   "rank": 29,
+   "rank": 31,
    "participantId": "p.constantino-gudiel",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
+    "RANK": 31,
     "PTS": 0.0,
     "ELO": 1707,
     "GP": 1
@@ -740,11 +785,11 @@
    }
   },
   {
-   "rank": 30,
+   "rank": 32,
    "participantId": "p.daniel-kaciusis",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
+    "RANK": 32,
     "PTS": 0.0,
     "ELO": 1626,
     "GP": 1
@@ -764,14 +809,14 @@
    }
   },
   {
-   "rank": 31,
+   "rank": 33,
    "participantId": "p.marco-vinicio-navarrete",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 33,
     "PTS": 0.0,
     "ELO": 1554,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.marco-vinicio-navarrete",
@@ -781,18 +826,18 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1172
+    "performance": 1089
    }
   },
   {
-   "rank": 32,
+   "rank": 34,
    "participantId": "p.efrain-pomares-herrera",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 34,
     "PTS": 0.0,
     "ELO": 1524,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.efrain-pomares-herrera",
@@ -802,15 +847,15 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1132
+    "performance": 1069
    }
   },
   {
-   "rank": 33,
+   "rank": 35,
    "participantId": "p.oscar-anzora",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 35,
     "PTS": 0.0,
     "ELO": 1523,
     "GP": 1
@@ -827,32 +872,31 @@
    }
   },
   {
-   "rank": 34,
-   "participantId": "p.juan-rivas",
+   "rank": 36,
+   "participantId": "p.monterrosa-rafael-alfonso",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 36,
     "PTS": 0.0,
-    "ELO": 1520,
     "GP": 1
    },
    "person": {
-    "id": "p.juan-rivas",
+    "id": "p.monterrosa-rafael-alfonso",
     "name": {
-     "full": "Juan Rivas"
+     "full": "Monterrosa Rafael Alfonso"
     },
     "isCuban": false
    },
    "extra": {
-    "performance": 1056
+    "performance": 1216
    }
   },
   {
-   "rank": 35,
+   "rank": 37,
    "participantId": "p.juan-koch",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 37,
     "ELO": 1991,
     "GP": 0
    },
@@ -864,39 +908,6 @@
     "nationalities": [
      "AR"
     ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 36,
-   "participantId": "p.antonio-rodolfo-reina-pineda",
-   "participantType": "person",
-   "stats": {
-    "RANK": 36,
-    "ELO": 1731,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.antonio-rodolfo-reina-pineda",
-    "name": {
-     "full": "Antonio Rodolfo Reina Pineda"
-    },
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 37,
-   "participantId": "p.monterrosa-rafael-alfonso",
-   "participantType": "person",
-   "stats": {
-    "RANK": 37,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.monterrosa-rafael-alfonso",
-    "name": {
-     "full": "Monterrosa Rafael Alfonso"
-    },
     "isCuban": false
    }
   }

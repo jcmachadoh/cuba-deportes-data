@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ned-1:2026-27",
- "updatedAt": "2026-10-11T15:06:34Z",
+ "updatedAt": "2026-10-11T18:54:17Z",
  "sources": [
   "espn"
  ],
@@ -119,9 +119,24 @@
      }
     },
     {
-     "participantId": "soccer.fortuna-sittard",
+     "participantId": "soccer.fc-groningen",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 8,
+      "W": 4,
+      "D": 2,
+      "L": 2,
+      "GF": 20,
+      "GA": 14,
+      "GD": 6,
+      "PTS": 14
+     }
+    },
+    {
+     "participantId": "soccer.fortuna-sittard",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 8,
       "W": 4,
@@ -131,21 +146,6 @@
       "GA": 15,
       "GD": -1,
       "PTS": 14
-     }
-    },
-    {
-     "participantId": "soccer.excelsior",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 7,
-      "W": 3,
-      "D": 2,
-      "L": 2,
-      "GF": 15,
-      "GA": 9,
-      "GD": 6,
-      "PTS": 11
      },
      "extra": {
       "note": {
@@ -155,24 +155,9 @@
      }
     },
     {
-     "participantId": "soccer.fc-groningen",
-     "participantType": "team",
-     "rank": 8,
-     "stats": {
-      "GP": 7,
-      "W": 3,
-      "D": 2,
-      "L": 2,
-      "GF": 15,
-      "GA": 13,
-      "GD": 2,
-      "PTS": 11
-     }
-    },
-    {
      "participantId": "soccer.go-ahead-eagles",
      "participantType": "team",
-     "rank": 9,
+     "rank": 8,
      "stats": {
       "GP": 8,
       "W": 2,
@@ -180,6 +165,21 @@
       "L": 1,
       "GF": 19,
       "GA": 17,
+      "GD": 2,
+      "PTS": 11
+     }
+    },
+    {
+     "participantId": "soccer.excelsior",
+     "participantType": "team",
+     "rank": 9,
+     "stats": {
+      "GP": 8,
+      "W": 3,
+      "D": 2,
+      "L": 3,
+      "GF": 16,
+      "GA": 14,
       "GD": 2,
       "PTS": 11
      }
