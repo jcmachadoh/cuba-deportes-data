@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:T9eMnL3X",
- "updatedAt": "2026-10-11T06:09:59Z",
+ "updatedAt": "2026-10-11T12:49:53Z",
  "sources": [
   "lichess"
  ],
@@ -60,33 +60,18 @@
    },
    {
     "name": "Semifinales | Partida 2",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1791699606214,
+    "finished": true
    },
    {
     "name": "Semifinales | Partida 3",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1791704400000,
+    "finished": true
    },
    {
     "name": "Semifinales | Partida 4",
-    "startsAt": null,
-    "finished": null
-   },
-   {
-    "name": "Semifinales | Tiebreak 1",
-    "startsAt": null,
-    "finished": null
-   },
-   {
-    "name": "Semifinales | Tiebreak 2",
-    "startsAt": null,
-    "finished": null
-   },
-   {
-    "name": "Semifinales | Armageddon",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1791709200000,
+    "finished": true
    },
    {
     "name": "Finales | Partida 1",
@@ -128,39 +113,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.xiangrui-kong.2009",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 4.0,
-    "ELO": 2390,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.xiangrui-kong.2009",
-    "name": {
-     "full": "Xiangrui Kong"
-    },
-    "birthDate": "2009",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2622
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.liren-ding.1992",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
-    "PTS": 3.5,
+    "RANK": 1,
+    "PTS": 5.5,
     "ELO": 2693,
-    "GP": 5
+    "GP": 7
    },
    "person": {
     "id": "p.liren-ding.1992",
@@ -175,18 +134,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2589
+    "performance": 2656
    }
   },
   {
-   "rank": 3,
+   "rank": 2,
    "participantId": "p.yangyi-yu.1994",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 3.0,
+    "RANK": 2,
+    "PTS": 5.5,
     "ELO": 2667,
-    "GP": 4
+    "GP": 7
    },
    "person": {
     "id": "p.yangyi-yu.1994",
@@ -201,7 +160,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2680
+    "performance": 2786
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.xiangrui-kong.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 4.0,
+    "ELO": 2390,
+    "GP": 9
+   },
+   "person": {
+    "id": "p.xiangrui-kong.2009",
+    "name": {
+     "full": "Xiangrui Kong"
+    },
+    "birthDate": "2009",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2540
    }
   },
   {
@@ -210,9 +195,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 4,
-    "PTS": 3.0,
+    "PTS": 3.5,
     "ELO": 2649,
-    "GP": 5
+    "GP": 8
    },
    "person": {
     "id": "p.hao-wang.1989",
@@ -227,7 +212,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2583
+    "performance": 2526
    }
   },
   {
