@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:ZMjIOQMC",
- "updatedAt": "2026-10-11T12:49:53Z",
+ "updatedAt": "2026-10-11T15:20:30Z",
  "sources": [
   "lichess"
  ],
@@ -71,7 +71,7 @@
    {
     "name": "Ronda 10",
     "startsAt": 1791702900000,
-    "finished": null
+    "finished": true
    }
   ]
  },
@@ -1550,10 +1550,34 @@
   },
   {
    "rank": 60,
-   "participantId": "p.aidas-juodziukynas",
+   "participantId": "p.siver-flaten",
    "participantType": "person",
    "stats": {
     "RANK": 60,
+    "PTS": 2.5,
+    "ELO": 1963,
+    "GP": 9
+   },
+   "person": {
+    "id": "p.siver-flaten",
+    "name": {
+     "full": "Siver Flaten"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1917
+   }
+  },
+  {
+   "rank": 61,
+   "participantId": "p.aidas-juodziukynas",
+   "participantType": "person",
+   "stats": {
+    "RANK": 61,
     "PTS": 2.0,
     "ELO": 2025,
     "GP": 9
@@ -1573,38 +1597,14 @@
    }
   },
   {
-   "rank": 61,
-   "participantId": "p.siver-flaten",
-   "participantType": "person",
-   "stats": {
-    "RANK": 61,
-    "PTS": 2.0,
-    "ELO": 1963,
-    "GP": 8
-   },
-   "person": {
-    "id": "p.siver-flaten",
-    "name": {
-     "full": "Siver Flaten"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1899
-   }
-  },
-  {
    "rank": 62,
    "participantId": "p.elias-buschmann-rustan",
    "participantType": "person",
    "stats": {
     "RANK": 62,
-    "PTS": 1.0,
+    "PTS": 1.5,
     "ELO": 2005,
-    "GP": 8
+    "GP": 9
    },
    "person": {
     "id": "p.elias-buschmann-rustan",
@@ -1617,7 +1617,7 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1753
+    "performance": 1790
    }
   }
  ]

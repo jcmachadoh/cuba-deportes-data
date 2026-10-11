@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "e4",
- "updatedAt": "2026-10-10T18:57:55Z",
+ "updatedAt": "2026-10-11T15:20:41Z",
  "persons": {
   "p.adam-choplick.1992": {
    "id": "p.adam-choplick.1992",
@@ -1669,17 +1669,21 @@
    "nationalities": [
     "DO"
    ],
-   "isCuban": false,
+   "isCuban": true,
    "title": "IM",
    "externalIds": {
-    "fide": "3500594"
+    "fide": "3500594",
+    "wikidata": "Q9049194"
    },
    "sources": [
     "lichess"
    ],
    "extra": {
     "federation": "DOM"
-   }
+   },
+   "cubanEvidence": [
+    "wikidata.P19"
+   ]
   },
   "p.newton.2000": {
    "id": "p.newton.2000",
