@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-10-11T18:54:16Z",
+ "updatedAt": "2026-10-11T23:41:13Z",
  "sources": [
   "espn"
  ],
@@ -236,9 +236,24 @@
      }
     },
     {
-     "participantId": "soccer.le-mans",
+     "participantId": "soccer.marseille",
      "participantType": "team",
      "rank": 13,
+     "stats": {
+      "GP": 6,
+      "W": 2,
+      "D": 0,
+      "L": 4,
+      "GF": 9,
+      "GA": 8,
+      "GD": 1,
+      "PTS": 6
+     }
+    },
+    {
+     "participantId": "soccer.le-mans",
+     "participantType": "team",
+     "rank": 14,
      "stats": {
       "GP": 6,
       "W": 1,
@@ -253,7 +268,7 @@
     {
      "participantId": "soccer.toulouse",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 6,
       "W": 1,
@@ -268,7 +283,7 @@
     {
      "participantId": "soccer.aj-auxerre",
      "participantType": "team",
-     "rank": 15,
+     "rank": 16,
      "stats": {
       "GP": 6,
       "W": 2,
@@ -278,21 +293,6 @@
       "GA": 16,
       "GD": -8,
       "PTS": 6
-     }
-    },
-    {
-     "participantId": "soccer.troyes",
-     "participantType": "team",
-     "rank": 16,
-     "stats": {
-      "GP": 5,
-      "W": 1,
-      "D": 1,
-      "L": 3,
-      "GF": 4,
-      "GA": 11,
-      "GD": -7,
-      "PTS": 4
      },
      "extra": {
       "note": {
@@ -302,18 +302,18 @@
      }
     },
     {
-     "participantId": "soccer.marseille",
+     "participantId": "soccer.troyes",
      "participantType": "team",
      "rank": 17,
      "stats": {
-      "GP": 5,
+      "GP": 6,
       "W": 1,
-      "D": 0,
+      "D": 1,
       "L": 4,
-      "GF": 7,
-      "GA": 8,
-      "GD": -1,
-      "PTS": 3
+      "GF": 4,
+      "GA": 13,
+      "GD": -9,
+      "PTS": 4
      },
      "extra": {
       "note": {

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.arg-1:2026",
- "updatedAt": "2026-10-11T05:47:11Z",
+ "updatedAt": "2026-10-11T23:41:18Z",
  "sources": [
   "espn"
  ],
@@ -149,9 +149,24 @@
      }
     },
     {
-     "participantId": "soccer.union-santa-fe",
+     "participantId": "soccer.san-lorenzo",
      "participantType": "team",
      "rank": 10,
+     "stats": {
+      "GP": 12,
+      "W": 4,
+      "D": 2,
+      "L": 6,
+      "GF": 5,
+      "GA": 11,
+      "GD": -6,
+      "PTS": 14
+     }
+    },
+    {
+     "participantId": "soccer.union-santa-fe",
+     "participantType": "team",
+     "rank": 11,
      "stats": {
       "GP": 12,
       "W": 4,
@@ -166,30 +181,15 @@
     {
      "participantId": "soccer.deportivo-riestra",
      "participantType": "team",
-     "rank": 11,
-     "stats": {
-      "GP": 11,
-      "W": 2,
-      "D": 5,
-      "L": 4,
-      "GF": 9,
-      "GA": 11,
-      "GD": -2,
-      "PTS": 11
-     }
-    },
-    {
-     "participantId": "soccer.san-lorenzo",
-     "participantType": "team",
      "rank": 12,
      "stats": {
-      "GP": 11,
-      "W": 3,
-      "D": 2,
-      "L": 6,
-      "GF": 4,
-      "GA": 11,
-      "GD": -7,
+      "GP": 12,
+      "W": 2,
+      "D": 5,
+      "L": 5,
+      "GF": 9,
+      "GA": 12,
+      "GD": -3,
       "PTS": 11
      }
     },
@@ -198,14 +198,14 @@
      "participantType": "team",
      "rank": 13,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 2,
-      "D": 4,
+      "D": 5,
       "L": 5,
-      "GF": 11,
-      "GA": 17,
+      "GF": 12,
+      "GA": 18,
       "GD": -6,
-      "PTS": 10
+      "PTS": 11
      }
     },
     {
@@ -245,24 +245,39 @@
    "name": "Group B",
    "rows": [
     {
-     "participantId": "soccer.argentinos-juniors",
+     "participantId": "soccer.rosario-central",
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 6,
-      "D": 3,
+      "D": 4,
       "L": 2,
-      "GF": 15,
-      "GA": 10,
+      "GF": 17,
+      "GA": 9,
+      "GD": 8,
+      "PTS": 22
+     }
+    },
+    {
+     "participantId": "soccer.argentinos-juniors",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 12,
+      "W": 6,
+      "D": 4,
+      "L": 2,
+      "GF": 16,
+      "GA": 11,
       "GD": 5,
-      "PTS": 21
+      "PTS": 22
      }
     },
     {
      "participantId": "soccer.belgrano-cordoba",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -277,7 +292,7 @@
     {
      "participantId": "soccer.sarmiento-junin",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 11,
       "W": 6,
@@ -285,21 +300,6 @@
       "L": 4,
       "GF": 20,
       "GA": 17,
-      "GD": 3,
-      "PTS": 19
-     }
-    },
-    {
-     "participantId": "soccer.rosario-central",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 11,
-      "W": 5,
-      "D": 4,
-      "L": 2,
-      "GF": 12,
-      "GA": 9,
       "GD": 3,
       "PTS": 19
      }
@@ -335,24 +335,9 @@
      }
     },
     {
-     "participantId": "soccer.independiente-rivadavia",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 11,
-      "W": 5,
-      "D": 3,
-      "L": 3,
-      "GF": 15,
-      "GA": 14,
-      "GD": 1,
-      "PTS": 18
-     }
-    },
-    {
      "participantId": "soccer.barracas-central",
      "participantType": "team",
-     "rank": 8,
+     "rank": 7,
      "stats": {
       "GP": 12,
       "W": 5,
@@ -361,6 +346,21 @@
       "GF": 10,
       "GA": 9,
       "GD": 1,
+      "PTS": 18
+     }
+    },
+    {
+     "participantId": "soccer.independiente-rivadavia",
+     "participantType": "team",
+     "rank": 8,
+     "stats": {
+      "GP": 12,
+      "W": 5,
+      "D": 3,
+      "L": 4,
+      "GF": 15,
+      "GA": 19,
+      "GD": -4,
       "PTS": 18
      }
     },
