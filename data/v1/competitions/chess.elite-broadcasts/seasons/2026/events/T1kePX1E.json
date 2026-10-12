@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:T1kePX1E",
- "updatedAt": "2026-10-12T15:46:53Z",
+ "updatedAt": "2026-10-12T18:32:17Z",
  "sources": [
   "lichess"
  ],
@@ -77,9 +77,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 3.0,
+    "PTS": 3.5,
     "ELO": 2069,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.rene-antonio-pilarte-tijerino",
@@ -90,7 +90,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2683
+    "performance": 2257
    }
   },
   {
@@ -99,9 +99,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 2.5,
+    "PTS": 3.0,
     "ELO": 2265,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.nelson-pinal-borges",
@@ -115,15 +115,111 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2224
+    "performance": 2160
    }
   },
   {
    "rank": 3,
-   "participantId": "p.mario-leskovar",
+   "participantId": "p.carlos-a-reyes-najera",
    "participantType": "person",
    "stats": {
     "RANK": 3,
+    "PTS": 3.0,
+    "ELO": 2036,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.carlos-a-reyes-najera",
+    "name": {
+     "full": "Carlos A. Reyes Najera"
+    },
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2162
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.hugo-orizondo",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 3.0,
+    "ELO": 2016,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.hugo-orizondo",
+    "name": {
+     "full": "Hugo Orizondo"
+    },
+    "nationalities": [
+     "DO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2187
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.gonzalo-castro-murillo",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 3.0,
+    "ELO": 1988,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.gonzalo-castro-murillo",
+    "name": {
+     "full": "Gonzalo Castro Murillo"
+    },
+    "nationalities": [
+     "EC"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2119
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.daniel-gonzalez-mesa.1961",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 3.0,
+    "ELO": 1972,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.daniel-gonzalez-mesa.1961",
+    "name": {
+     "full": "Daniel Gonzalez Mesa"
+    },
+    "birthDate": "1961",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2067
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.mario-leskovar",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
     "PTS": 2.5,
     "ELO": 2170,
     "GP": 3
@@ -144,11 +240,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 8,
    "participantId": "p.javier-antonio-torres",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 8,
     "PTS": 2.5,
     "ELO": 2068,
     "GP": 3
@@ -169,57 +265,11 @@
    }
   },
   {
-   "rank": 5,
-   "participantId": "p.carlos-a-reyes-najera",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 2.5,
-    "ELO": 2036,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.carlos-a-reyes-najera",
-    "name": {
-     "full": "Carlos A. Reyes Najera"
-    },
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2209
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.hugo-orizondo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 2.5,
-    "ELO": 2016,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.hugo-orizondo",
-    "name": {
-     "full": "Hugo Orizondo"
-    },
-    "nationalities": [
-     "DO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2154
-   }
-  },
-  {
-   "rank": 7,
+   "rank": 9,
    "participantId": "p.otoniel-ledesma",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 9,
     "PTS": 2.0,
     "ELO": 2186,
     "GP": 3
@@ -239,11 +289,11 @@
    }
   },
   {
-   "rank": 8,
+   "rank": 10,
    "participantId": "p.juan-leon-jimenez-molina",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
+    "RANK": 10,
     "PTS": 2.0,
     "ELO": 2005,
     "GP": 3
@@ -261,35 +311,11 @@
    }
   },
   {
-   "rank": 9,
-   "participantId": "p.gonzalo-castro-murillo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 2.0,
-    "ELO": 1988,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.gonzalo-castro-murillo",
-    "name": {
-     "full": "Gonzalo Castro Murillo"
-    },
-    "nationalities": [
-     "EC"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2112
-   }
-  },
-  {
-   "rank": 10,
+   "rank": 11,
    "participantId": "p.jaime-escofet",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 11,
     "PTS": 2.0,
     "ELO": 1972,
     "GP": 3
@@ -306,32 +332,6 @@
    },
    "extra": {
     "performance": 2000
-   }
-  },
-  {
-   "rank": 11,
-   "participantId": "p.daniel-gonzalez-mesa.1961",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "PTS": 2.0,
-    "ELO": 1972,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.daniel-gonzalez-mesa.1961",
-    "name": {
-     "full": "Daniel Gonzalez Mesa"
-    },
-    "birthDate": "1961",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2008
    }
   },
   {
@@ -366,7 +366,7 @@
     "RANK": 13,
     "PTS": 2.0,
     "ELO": 1847,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.nelson-castillo",
@@ -376,7 +376,7 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1973
+    "performance": 1879
    }
   },
   {
@@ -427,13 +427,61 @@
   },
   {
    "rank": 16,
-   "participantId": "p.blass-ernesto-barria-valdez",
+   "participantId": "p.batlle-garcia",
    "participantType": "person",
    "stats": {
     "RANK": 16,
     "PTS": 2.0,
+    "ELO": 1785,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.batlle-garcia",
+    "name": {
+     "full": "Batlle Garcia"
+    },
+    "nationalities": [
+     "UY"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1676
+   }
+  },
+  {
+   "rank": 17,
+   "participantId": "p.jorge-luis-vera-gajardo",
+   "participantType": "person",
+   "stats": {
+    "RANK": 17,
+    "PTS": 2.0,
+    "ELO": 1759,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.jorge-luis-vera-gajardo",
+    "name": {
+     "full": "Jorge Luis Vera Gajardo"
+    },
+    "nationalities": [
+     "PY"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1717
+   }
+  },
+  {
+   "rank": 18,
+   "participantId": "p.blass-ernesto-barria-valdez",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
+    "PTS": 2.0,
     "ELO": 1743,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.blass-ernesto-barria-valdez",
@@ -447,15 +495,15 @@
     "title": "CM"
    },
    "extra": {
-    "performance": 2014
+    "performance": 1914
    }
   },
   {
-   "rank": 17,
+   "rank": 19,
    "participantId": "p.alejandro-bauza",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 19,
     "PTS": 1.5,
     "ELO": 2074,
     "GP": 3
@@ -476,11 +524,11 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 20,
    "participantId": "p.cesar-augusto-blanco-gramajo",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 20,
     "PTS": 1.5,
     "ELO": 2025,
     "GP": 3
@@ -498,11 +546,11 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 21,
    "participantId": "p.cassio-roberto-sopko",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 21,
     "PTS": 1.5,
     "ELO": 1807,
     "GP": 3
@@ -522,11 +570,11 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 22,
    "participantId": "p.rigoberto-alas",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 22,
     "PTS": 1.5,
     "ELO": 1806,
     "GP": 3
@@ -543,11 +591,11 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 23,
    "participantId": "p.antonio-rodolfo-reina-pineda",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 23,
     "PTS": 1.5,
     "ELO": 1731,
     "GP": 2
@@ -564,11 +612,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 24,
    "participantId": "p.juan-koch",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 24,
     "PTS": 1.0,
     "ELO": 1991,
     "GP": 2
@@ -588,11 +636,11 @@
    }
   },
   {
-   "rank": 23,
+   "rank": 25,
    "participantId": "p.hector-velasquez",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 25,
     "PTS": 1.0,
     "ELO": 1932,
     "GP": 3
@@ -610,11 +658,11 @@
    }
   },
   {
-   "rank": 24,
+   "rank": 26,
    "participantId": "p.rolando-ayala",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 26,
     "PTS": 1.0,
     "ELO": 1856,
     "GP": 3
@@ -632,11 +680,11 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 27,
    "participantId": "p.daniel-santiso",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 27,
     "PTS": 1.0,
     "ELO": 1844,
     "GP": 3
@@ -656,11 +704,11 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 28,
    "participantId": "p.hector-antonio-chavez",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 28,
     "PTS": 1.0,
     "ELO": 1813,
     "GP": 3
@@ -674,54 +722,6 @@
    },
    "extra": {
     "performance": 1963
-   }
-  },
-  {
-   "rank": 27,
-   "participantId": "p.batlle-garcia",
-   "participantType": "person",
-   "stats": {
-    "RANK": 27,
-    "PTS": 1.0,
-    "ELO": 1785,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.batlle-garcia",
-    "name": {
-     "full": "Batlle Garcia"
-    },
-    "nationalities": [
-     "UY"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1602
-   }
-  },
-  {
-   "rank": 28,
-   "participantId": "p.jorge-luis-vera-gajardo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 28,
-    "PTS": 1.0,
-    "ELO": 1759,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.jorge-luis-vera-gajardo",
-    "name": {
-     "full": "Jorge Luis Vera Gajardo"
-    },
-    "nationalities": [
-     "PY"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1204
    }
   },
   {
@@ -777,7 +777,7 @@
     "RANK": 31,
     "PTS": 1.0,
     "ELO": 1520,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.juan-rivas",
@@ -787,7 +787,7 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1694
+    "performance": 1611
    }
   },
   {
@@ -885,7 +885,7 @@
     "RANK": 36,
     "PTS": 0.0,
     "ELO": 1523,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.oscar-anzora",
@@ -895,7 +895,7 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1063
+    "performance": 1037
    }
   },
   {

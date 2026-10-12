@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "87",
- "updatedAt": "2026-10-06T09:20:53Z",
+ "updatedAt": "2026-10-12T18:14:57Z",
  "persons": {
   "p.adam-kozak": {
    "id": "p.adam-kozak",
@@ -368,6 +368,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.carlos-mosquera.1996": {
+   "id": "p.carlos-mosquera.1996",
+   "name": {
+    "full": "Carlos Mosquera",
+    "first": "Carlos",
+    "last": "Mosquera"
+   },
+   "birthDate": "1996-01-09",
+   "birthPlace": {
+    "city": "Panama City",
+    "country": "PA"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 175.3,
+    "weightKg": 68.0
+   },
+   "hand": {
+    "bats": "S",
+    "throws": "L"
+   },
+   "externalIds": {
+    "mlb": "656050"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.caroline-dubois": {
@@ -787,6 +815,22 @@
    },
    "externalIds": {
     "espn": "287394"
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  "p.gabriel-maya": {
+   "id": "p.gabriel-maya",
+   "name": {
+    "full": "Gabriel Maya",
+    "first": "Gabriel",
+    "last": "Maya"
+   },
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "3107532"
    },
    "sources": [
     "espn"

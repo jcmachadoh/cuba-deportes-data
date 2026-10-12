@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "soccer.san-lorenzo:2026",
- "updatedAt": "2026-10-05T17:27:45Z",
+ "updatedAt": "2026-10-12T18:14:57Z",
  "sources": [
   "espn"
  ],
  "teamId": "soccer.san-lorenzo",
  "competitionId": "soccer.arg-1",
  "season": "2026",
- "count": 38,
+ "count": 39,
  "groups": [
   {
    "code": "G",
@@ -30,6 +30,25 @@
        "last": "Clemente"
       },
       "birthDate": "2002-06-12",
+      "nationalities": [
+       "AR"
+      ],
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.facundo-altamira.2001",
+     "number": "20",
+     "position": "G",
+     "role": "player",
+     "person": {
+      "id": "p.facundo-altamira.2001",
+      "name": {
+       "full": "Facundo Altamirano",
+       "first": "Facundo",
+       "last": "Altamirano"
+      },
+      "birthDate": "1996-03-21",
       "nationalities": [
        "AR"
       ],
@@ -422,11 +441,11 @@
      "person": {
       "id": "p.juan-alvarez.1996",
       "name": {
-       "full": "Juan Ignacio Álvarez",
-       "first": "Juan Ignacio",
+       "full": "Juan Álvarez",
+       "first": "Juan",
        "last": "Álvarez"
       },
-      "birthDate": "1997-10-27",
+      "birthDate": "1996-02-10",
       "nationalities": [
        "AR"
       ],
@@ -631,25 +650,6 @@
      }
     },
     {
-     "personId": "p.matias-reali.1997",
-     "number": "11",
-     "position": "F",
-     "role": "player",
-     "person": {
-      "id": "p.matias-reali.1997",
-      "name": {
-       "full": "Matías Reali",
-       "first": "Matías",
-       "last": "Reali"
-      },
-      "birthDate": "1997-11-14",
-      "nationalities": [
-       "AR"
-      ],
-      "isCuban": false
-     }
-    },
-    {
      "personId": "p.agustin-ladstatter.2005",
      "number": "14",
      "position": "F",
@@ -755,6 +755,28 @@
        "full": "Enzo Alan Salas",
        "first": "Enzo Alan",
        "last": "Salas"
+      },
+      "isCuban": false
+     }
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": {
+    "es": "OTHER"
+   },
+   "players": [
+    {
+     "personId": "p.maximo-atrio",
+     "number": "34",
+     "role": "player",
+     "person": {
+      "id": "p.maximo-atrio",
+      "name": {
+       "full": "Maximo Atrio",
+       "first": "Maximo",
+       "last": "Atrio"
       },
       "isCuban": false
      }
