@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:T9eMnL3X",
- "updatedAt": "2026-10-12T05:59:22Z",
+ "updatedAt": "2026-10-12T15:46:53Z",
  "sources": [
   "lichess"
  ],
@@ -20,7 +20,7 @@
   "timeControl": "rapid",
   "tc": "15 min + 10 sec / move",
   "website": "https://cca.mindsports.org.cn/",
-  "tier": 5,
+  "tier": 4,
   "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=SMdI5ILFbBGo.webp&w=800&sig=28fa4b06ecda58ef904414dce16ae43df212121b",
   "rounds": [
    {
@@ -71,66 +71,40 @@
    {
     "name": "Finales | Partida 1",
     "startsAt": 1791781200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finales | Partida 2",
     "startsAt": 1791786000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finales | Partida 3",
     "startsAt": 1791790800000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finales | Partida 4",
     "startsAt": 1791795600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finales | Desempates",
-    "startsAt": 1791799200000,
-    "finished": null
+    "startsAt": 1791800400000,
+    "finished": true
    }
   ]
  },
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.liren-ding.1992",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 5.5,
-    "ELO": 2693,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.liren-ding.1992",
-    "name": {
-     "full": "Liren Ding"
-    },
-    "birthDate": "1992",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2656
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.yangyi-yu.1994",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
-    "PTS": 5.5,
+    "RANK": 1,
+    "PTS": 9.5,
     "ELO": 2667,
-    "GP": 7
+    "GP": 14
    },
    "person": {
     "id": "p.yangyi-yu.1994",
@@ -145,7 +119,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2786
+    "performance": 2739
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.liren-ding.1992",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 8.5,
+    "ELO": 2693,
+    "GP": 14
+   },
+   "person": {
+    "id": "p.liren-ding.1992",
+    "name": {
+     "full": "Liren Ding"
+    },
+    "birthDate": "1992",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2646
    }
   },
   {
@@ -154,9 +154,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 3,
-    "PTS": 4.5,
+    "PTS": 6.0,
     "ELO": 2649,
-    "GP": 9
+    "GP": 12
    },
    "person": {
     "id": "p.hao-wang.1989",
@@ -171,7 +171,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2549
+    "performance": 2509
    }
   },
   {
@@ -180,9 +180,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 4,
-    "PTS": 4.0,
+    "PTS": 5.5,
     "ELO": 2390,
-    "GP": 10
+    "GP": 13
    },
    "person": {
     "id": "p.xiangrui-kong.2009",
@@ -197,7 +197,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2502
+    "performance": 2543
    }
   },
   {

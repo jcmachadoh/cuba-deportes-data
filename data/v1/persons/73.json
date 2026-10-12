@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "73",
- "updatedAt": "2026-10-10T18:57:55Z",
+ "updatedAt": "2026-10-12T15:46:53Z",
  "persons": {
   "p.adrian-pacheco.2005": {
    "id": "p.adrian-pacheco.2005",
@@ -95,6 +95,25 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.altair-kazhmurat": {
+   "id": "p.altair-kazhmurat",
+   "name": {
+    "full": "Altair Kazhmurat"
+   },
+   "nationalities": [
+    "KZ"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "13750208"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "KAZ"
+   }
   },
   "p.alvaro-rios-mallcu": {
    "id": "p.alvaro-rios-mallcu",
@@ -1101,11 +1120,13 @@
     "fide": "13431552"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "AZE"
-   }
+   },
+   "title": "IM"
   },
   "p.kyle-ming.1999": {
    "id": "p.kyle-ming.1999",
