@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "4b",
- "updatedAt": "2026-10-06T09:20:53Z",
+ "updatedAt": "2026-10-13T16:26:09Z",
  "persons": {
   "p.adam-melhuse": {
    "id": "p.adam-melhuse",
@@ -1819,6 +1819,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.raimon-gomez.2001": {
+   "id": "p.raimon-gomez.2001",
+   "name": {
+    "full": "Raimon Gomez",
+    "first": "Raimon",
+    "last": "Gomez"
+   },
+   "birthDate": "2001-09-06",
+   "birthPlace": {
+    "city": "Barcelona",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 188.0,
+    "weightKg": 79.4
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "703148"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.ricardo-porras": {

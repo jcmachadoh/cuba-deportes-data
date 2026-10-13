@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "2b",
- "updatedAt": "2026-10-08T15:55:29Z",
+ "updatedAt": "2026-10-13T16:26:09Z",
  "persons": {
   "p.adrian-fernandez.2006": {
    "id": "p.adrian-fernandez.2006",
@@ -851,6 +851,33 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.jose-leandro.2002": {
+   "id": "p.jose-leandro.2002",
+   "name": {
+    "full": "Jose Leandro",
+    "first": "Jose",
+    "last": "Leandro"
+   },
+   "birthDate": "2002-04-24",
+   "birthPlace": {
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 190.5,
+    "weightKg": 84.8
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "L"
+   },
+   "externalIds": {
+    "mlb": "805769"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.jose-rodriguez.2001-2": {
