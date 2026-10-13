@@ -1,0 +1,61 @@
+{
+ "schemaVersion": 1,
+ "type": "standings",
+ "id": "baseball.lvbp:2026-27",
+ "updatedAt": "2026-10-13T06:46:52Z",
+ "sources": [
+  "mlb-statsapi"
+ ],
+ "competitionId": "baseball.lvbp",
+ "season": "2026-27",
+ "groups": [
+  {
+   "id": "135",
+   "name": "Liga Venezolana de Béisbol Profesional (LVBP)",
+   "rows": [
+    {
+     "participantId": "baseball.tiburones-de-la-guaira",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 1,
+      "W": 1,
+      "L": 0,
+      "PCT": 1.0,
+      "STRK": "W1",
+      "L10": "1-0",
+      "HOME": "0-0",
+      "AWAY": "1-0",
+      "RS": 10,
+      "RA": 6,
+      "RD": 4
+     },
+     "extra": {
+      "leagueRank": "1"
+     }
+    },
+    {
+     "participantId": "baseball.navegantes-del-magallanes",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 1,
+      "W": 0,
+      "L": 1,
+      "PCT": 0.0,
+      "STRK": "L1",
+      "L10": "0-1",
+      "HOME": "0-1",
+      "AWAY": "0-0",
+      "RS": 6,
+      "RA": 10,
+      "RD": -4
+     },
+     "extra": {
+      "leagueRank": "2"
+     }
+    }
+   ]
+  }
+ ]
+}
