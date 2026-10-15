@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lvbp:2026-27",
- "updatedAt": "2026-10-14T07:37:35Z",
+ "updatedAt": "2026-10-15T04:37:24Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -35,7 +35,7 @@
      }
     },
     {
-     "participantId": "baseball.aguilas-del-zulia",
+     "participantId": "baseball.cardenales-de-lara",
      "participantType": "team",
      "rank": 2,
      "stats": {
@@ -47,30 +47,30 @@
       "L10": "1-0",
       "HOME": "1-0",
       "AWAY": "0-0",
-      "RS": 8,
-      "RA": 0,
-      "RD": 8
+      "RS": 4,
+      "RA": 3,
+      "RD": 1
      },
      "extra": {
       "leagueRank": "2"
      }
     },
     {
-     "participantId": "baseball.tigres-de-aragua",
+     "participantId": "baseball.aguilas-del-zulia",
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 1,
-      "L": 0,
-      "PCT": 1.0,
-      "STRK": "W1",
-      "L10": "1-0",
-      "HOME": "0-0",
-      "AWAY": "1-0",
-      "RS": 8,
-      "RA": 4,
-      "RD": 4
+      "L": 1,
+      "PCT": 0.5,
+      "STRK": "L1",
+      "L10": "1-1",
+      "HOME": "1-1",
+      "AWAY": "0-0",
+      "RS": 12,
+      "RA": 9,
+      "RD": 3
      },
      "extra": {
       "leagueRank": "3"
@@ -81,17 +81,17 @@
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 1,
-      "W": 0,
+      "GP": 2,
+      "W": 1,
       "L": 1,
-      "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
-      "HOME": "0-1",
+      "PCT": 0.5,
+      "STRK": "W1",
+      "L10": "1-1",
+      "HOME": "1-1",
       "AWAY": "0-0",
-      "RS": 4,
+      "RS": 13,
       "RA": 8,
-      "RD": -4
+      "RD": 5
      },
      "extra": {
       "leagueRank": "4"
@@ -102,6 +102,48 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
+      "GP": 2,
+      "W": 1,
+      "L": 1,
+      "PCT": 0.5,
+      "STRK": "W1",
+      "L10": "1-1",
+      "HOME": "0-0",
+      "AWAY": "1-1",
+      "RS": 9,
+      "RA": 12,
+      "RD": -3
+     },
+     "extra": {
+      "leagueRank": "5"
+     }
+    },
+    {
+     "participantId": "baseball.tigres-de-aragua",
+     "participantType": "team",
+     "rank": 6,
+     "stats": {
+      "GP": 2,
+      "W": 1,
+      "L": 1,
+      "PCT": 0.5,
+      "STRK": "L1",
+      "L10": "1-1",
+      "HOME": "0-0",
+      "AWAY": "1-1",
+      "RS": 8,
+      "RA": 13,
+      "RD": -5
+     },
+     "extra": {
+      "leagueRank": "6"
+     }
+    },
+    {
+     "participantId": "baseball.bravos-de-margarita",
+     "participantType": "team",
+     "rank": 7,
+     "stats": {
       "GP": 1,
       "W": 0,
       "L": 1,
@@ -110,18 +152,18 @@
       "L10": "0-1",
       "HOME": "0-0",
       "AWAY": "0-1",
-      "RS": 0,
-      "RA": 8,
-      "RD": -8
+      "RS": 3,
+      "RA": 4,
+      "RD": -1
      },
      "extra": {
-      "leagueRank": "5"
+      "leagueRank": "7"
      }
     },
     {
      "participantId": "baseball.navegantes-del-magallanes",
      "participantType": "team",
-     "rank": 6,
+     "rank": 8,
      "stats": {
       "GP": 2,
       "W": 0,
@@ -136,7 +178,7 @@
       "RD": -8
      },
      "extra": {
-      "leagueRank": "6"
+      "leagueRank": "8"
      }
     }
    ]

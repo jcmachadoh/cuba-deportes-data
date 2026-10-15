@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:8dbzURAs",
- "updatedAt": "2026-10-14T14:05:45Z",
+ "updatedAt": "2026-10-15T04:59:48Z",
  "sources": [
   "lichess"
  ],
@@ -61,7 +61,7 @@
    {
     "name": "Ronda 8",
     "startsAt": 1792026900000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Ronda 9",
@@ -77,9 +77,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 5.5,
+    "PTS": 6.0,
     "ELO": 2592,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.luis-engel",
@@ -93,7 +93,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2635
+    "performance": 2604
    }
   },
   {
@@ -102,9 +102,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 5.5,
+    "PTS": 6.0,
     "ELO": 2444,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.tao-pang",
@@ -118,7 +118,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2602
+    "performance": 2578
    }
   },
   {
@@ -127,9 +127,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 3,
-    "PTS": 5.0,
+    "PTS": 5.5,
     "ELO": 2470,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.radoslaw-psyk",
@@ -142,7 +142,7 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 2563
+    "performance": 2551
    }
   },
   {
@@ -151,9 +151,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 4,
-    "PTS": 5.0,
+    "PTS": 5.5,
     "ELO": 2458,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.stepan-hrbek",
@@ -167,18 +167,68 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2548
+    "performance": 2556
    }
   },
   {
    "rank": 5,
-   "participantId": "p.ulziikhishig-khishigbat",
+   "participantId": "p.shixu-b-wang",
    "participantType": "person",
    "stats": {
     "RANK": 5,
-    "PTS": 5.0,
+    "PTS": 5.5,
+    "ELO": 2457,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.shixu-b-wang",
+    "name": {
+     "full": "Shixu B Wang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2556
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.kamil-dzida",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 5.5,
+    "ELO": 2415,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.kamil-dzida",
+    "name": {
+     "full": "Kamil Dzida"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2467
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.ulziikhishig-khishigbat",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 5.5,
     "ELO": 2349,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.ulziikhishig-khishigbat",
@@ -192,18 +242,143 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2446
+    "performance": 2450
    }
   },
   {
-   "rank": 6,
+   "rank": 8,
+   "participantId": "p.jonasz-baum",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 5.0,
+    "ELO": 2459,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.jonasz-baum",
+    "name": {
+     "full": "Jonasz Baum"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2416
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.nikolas-wachinger",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 5.0,
+    "ELO": 2438,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.nikolas-wachinger",
+    "name": {
+     "full": "Nikolas Wachinger"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2431
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.khoi-pham",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 5.0,
+    "ELO": 2423,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.khoi-pham",
+    "name": {
+     "full": "Khoi Pham"
+    },
+    "nationalities": [
+     "NL"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2369
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.hengyi-zhu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11,
+    "PTS": 5.0,
+    "ELO": 2412,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.hengyi-zhu",
+    "name": {
+     "full": "Hengyi Zhu"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2389
+   }
+  },
+  {
+   "rank": 12,
+   "participantId": "p.richard-turcan",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12,
+    "PTS": 5.0,
+    "ELO": 2347,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.richard-turcan",
+    "name": {
+     "full": "Richard Turcan"
+    },
+    "nationalities": [
+     "SK"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2391
+   }
+  },
+  {
+   "rank": 13,
    "participantId": "p.augustin-droin.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 13,
     "PTS": 4.5,
     "ELO": 2505,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.augustin-droin.2006",
@@ -218,168 +393,18 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2401
+    "performance": 2361
    }
   },
   {
-   "rank": 7,
-   "participantId": "p.jonasz-baum",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 4.5,
-    "ELO": 2459,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.jonasz-baum",
-    "name": {
-     "full": "Jonasz Baum"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2419
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.shixu-b-wang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 4.5,
-    "ELO": 2457,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.shixu-b-wang",
-    "name": {
-     "full": "Shixu B Wang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2504
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.richard-stalmach",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 4.5,
-    "ELO": 2456,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.richard-stalmach",
-    "name": {
-     "full": "Richard Stalmach"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2459
-   }
-  },
-  {
-   "rank": 10,
-   "participantId": "p.khoi-pham",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10,
-    "PTS": 4.5,
-    "ELO": 2423,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.khoi-pham",
-    "name": {
-     "full": "Khoi Pham"
-    },
-    "nationalities": [
-     "NL"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2365
-   }
-  },
-  {
-   "rank": 11,
-   "participantId": "p.kamil-dzida",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "PTS": 4.5,
-    "ELO": 2415,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.kamil-dzida",
-    "name": {
-     "full": "Kamil Dzida"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2409
-   }
-  },
-  {
-   "rank": 12,
-   "participantId": "p.richard-turcan",
-   "participantType": "person",
-   "stats": {
-    "RANK": 12,
-    "PTS": 4.5,
-    "ELO": 2347,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.richard-turcan",
-    "name": {
-     "full": "Richard Turcan"
-    },
-    "nationalities": [
-     "SK"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2380
-   }
-  },
-  {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.tobias-koelle",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
-    "PTS": 4.0,
+    "RANK": 14,
+    "PTS": 4.5,
     "ELO": 2504,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.tobias-koelle",
@@ -393,93 +418,43 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2322
-   }
-  },
-  {
-   "rank": 14,
-   "participantId": "p.nikolas-wachinger",
-   "participantType": "person",
-   "stats": {
-    "RANK": 14,
-    "PTS": 4.0,
-    "ELO": 2438,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.nikolas-wachinger",
-    "name": {
-     "full": "Nikolas Wachinger"
-    },
-    "nationalities": [
-     "DE"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2381
+    "performance": 2328
    }
   },
   {
    "rank": 15,
-   "participantId": "p.hengyi-zhu",
+   "participantId": "p.richard-stalmach",
    "participantType": "person",
    "stats": {
     "RANK": 15,
-    "PTS": 4.0,
-    "ELO": 2412,
-    "GP": 7
+    "PTS": 4.5,
+    "ELO": 2456,
+    "GP": 8
    },
    "person": {
-    "id": "p.hengyi-zhu",
+    "id": "p.richard-stalmach",
     "name": {
-     "full": "Hengyi Zhu"
+     "full": "Richard Stalmach"
     },
     "nationalities": [
-     "CN"
+     "CZ"
     ],
     "isCuban": false,
     "title": "IM"
    },
    "extra": {
-    "performance": 2329
+    "performance": 2407
    }
   },
   {
    "rank": 16,
-   "participantId": "p.prin-laohawirapap",
-   "participantType": "person",
-   "stats": {
-    "RANK": 16,
-    "PTS": 4.0,
-    "ELO": 2376,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.prin-laohawirapap",
-    "name": {
-     "full": "Prin Laohawirapap"
-    },
-    "nationalities": [
-     "TH"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2447
-   }
-  },
-  {
-   "rank": 17,
    "participantId": "p.bartlomiej-niedbala",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
-    "PTS": 4.0,
+    "RANK": 16,
+    "PTS": 4.5,
     "ELO": 2376,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.bartlomiej-niedbala",
@@ -493,43 +468,18 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2305
+    "performance": 2329
    }
   },
   {
-   "rank": 18,
-   "participantId": "p.phileas-mathieu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 18,
-    "PTS": 3.5,
-    "ELO": 2405,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.phileas-mathieu",
-    "name": {
-     "full": "Phileas Mathieu"
-    },
-    "nationalities": [
-     "FR"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2251
-   }
-  },
-  {
-   "rank": 19,
+   "rank": 17,
    "participantId": "p.leandro-slagboom",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
-    "PTS": 3.5,
+    "RANK": 17,
+    "PTS": 4.5,
     "ELO": 2357,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.leandro-slagboom",
@@ -543,18 +493,264 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2239
+    "performance": 2291
+   }
+  },
+  {
+   "rank": 18,
+   "participantId": "p.prin-laohawirapap",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
+    "PTS": 4.0,
+    "ELO": 2376,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.prin-laohawirapap",
+    "name": {
+     "full": "Prin Laohawirapap"
+    },
+    "nationalities": [
+     "TH"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2402
+   }
+  },
+  {
+   "rank": 19,
+   "participantId": "p.noah-fecker",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19,
+    "PTS": 4.0,
+    "ELO": 2352,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.noah-fecker",
+    "name": {
+     "full": "Noah Fecker"
+    },
+    "nationalities": [
+     "CH"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2258
    }
   },
   {
    "rank": 20,
-   "participantId": "p.stefan-emilian-prisacaru",
+   "participantId": "p.qinyu-jiang",
    "participantType": "person",
    "stats": {
     "RANK": 20,
+    "PTS": 4.0,
+    "ELO": 2287,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.qinyu-jiang",
+    "name": {
+     "full": "Qinyu Jiang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2287
+   }
+  },
+  {
+   "rank": 21,
+   "participantId": "p.lik-zang-lye",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21,
+    "PTS": 4.0,
+    "ELO": 2242,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.lik-zang-lye",
+    "name": {
+     "full": "Lik Zang Lye"
+    },
+    "nationalities": [
+     "MY"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2206
+   }
+  },
+  {
+   "rank": 22,
+   "participantId": "p.xuan-rui-ethan-poh",
+   "participantType": "person",
+   "stats": {
+    "RANK": 22,
+    "PTS": 4.0,
+    "ELO": 2234,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.xuan-rui-ethan-poh",
+    "name": {
+     "full": "Xuan Rui Ethan Poh"
+    },
+    "nationalities": [
+     "SG"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2235
+   }
+  },
+  {
+   "rank": 23,
+   "participantId": "p.mukhriez-shah-mahmood-shah",
+   "participantType": "person",
+   "stats": {
+    "RANK": 23,
+    "PTS": 4.0,
+    "ELO": 2121,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.mukhriez-shah-mahmood-shah",
+    "name": {
+     "full": "Mukhriez Shah Mahmood Shah"
+    },
+    "nationalities": [
+     "MY"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "performance": 2175
+   }
+  },
+  {
+   "rank": 24,
+   "participantId": "p.yiheng-tang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 24,
+    "PTS": 4.0,
+    "ELO": 2020,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.yiheng-tang",
+    "name": {
+     "full": "Yiheng Tang"
+    },
+    "nationalities": [
+     "SG"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2106
+   }
+  },
+  {
+   "rank": 25,
+   "participantId": "p.phileas-mathieu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25,
+    "PTS": 3.5,
+    "ELO": 2405,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.phileas-mathieu",
+    "name": {
+     "full": "Phileas Mathieu"
+    },
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2228
+   }
+  },
+  {
+   "rank": 26,
+   "participantId": "p.sasa-albers",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "PTS": 3.5,
+    "ELO": 2359,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.sasa-albers",
+    "name": {
+     "full": "Sasa Albers"
+    },
+    "nationalities": [
+     "NL"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2221
+   }
+  },
+  {
+   "rank": 27,
+   "participantId": "p.yifan-hlj-hou",
+   "participantType": "person",
+   "stats": {
+    "RANK": 27,
+    "PTS": 3.5,
+    "ELO": 2338,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.yifan-hlj-hou",
+    "name": {
+     "full": "Yifan(HLJ) Hou"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2259
+   }
+  },
+  {
+   "rank": 28,
+   "participantId": "p.stefan-emilian-prisacaru",
+   "participantType": "person",
+   "stats": {
+    "RANK": 28,
     "PTS": 3.5,
     "ELO": 2311,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.stefan-emilian-prisacaru",
@@ -572,231 +768,14 @@
    }
   },
   {
-   "rank": 21,
-   "participantId": "p.qinyu-jiang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 21,
-    "PTS": 3.5,
-    "ELO": 2287,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.qinyu-jiang",
-    "name": {
-     "full": "Qinyu Jiang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2279
-   }
-  },
-  {
-   "rank": 22,
-   "participantId": "p.mukhriez-shah-mahmood-shah",
-   "participantType": "person",
-   "stats": {
-    "RANK": 22,
-    "PTS": 3.5,
-    "ELO": 2121,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.mukhriez-shah-mahmood-shah",
-    "name": {
-     "full": "Mukhriez Shah Mahmood Shah"
-    },
-    "nationalities": [
-     "MY"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "performance": 2198
-   }
-  },
-  {
-   "rank": 23,
-   "participantId": "p.yiheng-tang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23,
-    "PTS": 3.5,
-    "ELO": 2020,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.yiheng-tang",
-    "name": {
-     "full": "Yiheng Tang"
-    },
-    "nationalities": [
-     "SG"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2104
-   }
-  },
-  {
-   "rank": 24,
-   "participantId": "p.sasa-albers",
-   "participantType": "person",
-   "stats": {
-    "RANK": 24,
-    "PTS": 3.0,
-    "ELO": 2359,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.sasa-albers",
-    "name": {
-     "full": "Sasa Albers"
-    },
-    "nationalities": [
-     "NL"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2259
-   }
-  },
-  {
-   "rank": 25,
-   "participantId": "p.noah-fecker",
-   "participantType": "person",
-   "stats": {
-    "RANK": 25,
-    "PTS": 3.0,
-    "ELO": 2352,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.noah-fecker",
-    "name": {
-     "full": "Noah Fecker"
-    },
-    "nationalities": [
-     "CH"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2260
-   }
-  },
-  {
-   "rank": 26,
-   "participantId": "p.yifan-hlj-hou",
-   "participantType": "person",
-   "stats": {
-    "RANK": 26,
-    "PTS": 3.0,
-    "ELO": 2338,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.yifan-hlj-hou",
-    "name": {
-     "full": "Yifan(HLJ) Hou"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2254
-   }
-  },
-  {
-   "rank": 27,
-   "participantId": "p.lik-zang-lye",
-   "participantType": "person",
-   "stats": {
-    "RANK": 27,
-    "PTS": 3.0,
-    "ELO": 2242,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.lik-zang-lye",
-    "name": {
-     "full": "Lik Zang Lye"
-    },
-    "nationalities": [
-     "MY"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2198
-   }
-  },
-  {
-   "rank": 28,
-   "participantId": "p.xuan-rui-ethan-poh",
-   "participantType": "person",
-   "stats": {
-    "RANK": 28,
-    "PTS": 3.0,
-    "ELO": 2234,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.xuan-rui-ethan-poh",
-    "name": {
-     "full": "Xuan Rui Ethan Poh"
-    },
-    "nationalities": [
-     "SG"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2219
-   }
-  },
-  {
    "rank": 29,
-   "participantId": "p.r-k-t-dissanayake",
-   "participantType": "person",
-   "stats": {
-    "RANK": 29,
-    "PTS": 3.0,
-    "ELO": 1997,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.r-k-t-dissanayake",
-    "name": {
-     "full": "R K T Dissanayake"
-    },
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2136
-   }
-  },
-  {
-   "rank": 30,
    "participantId": "p.sukhbat-gendendorj",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
-    "PTS": 3.0,
+    "RANK": 29,
+    "PTS": 3.5,
     "ELO": 1955,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.sukhbat-gendendorj",
@@ -809,18 +788,63 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 2283
+    "performance": 2293
+   }
+  },
+  {
+   "rank": 30,
+   "participantId": "p.r-k-t-dissanayake",
+   "participantType": "person",
+   "stats": {
+    "RANK": 30,
+    "PTS": 3.0,
+    "ELO": 1997,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.r-k-t-dissanayake",
+    "name": {
+     "full": "R K T Dissanayake"
+    },
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2105
    }
   },
   {
    "rank": 31,
-   "participantId": "p.g-k-pasindu-nimsara-dharmakeerthi",
+   "participantId": "p.waylon-brander",
    "participantType": "person",
    "stats": {
     "RANK": 31,
     "PTS": 2.5,
-    "ELO": 1929,
+    "ELO": 1956,
     "GP": 7
+   },
+   "person": {
+    "id": "p.waylon-brander",
+    "name": {
+     "full": "Waylon Brander"
+    },
+    "nationalities": [
+     "ZA"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1984
+   }
+  },
+  {
+   "rank": 32,
+   "participantId": "p.g-k-pasindu-nimsara-dharmakeerthi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32,
+    "PTS": 2.5,
+    "ELO": 1929,
+    "GP": 8
    },
    "person": {
     "id": "p.g-k-pasindu-nimsara-dharmakeerthi",
@@ -830,15 +854,60 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 2101
+    "performance": 2031
    }
   },
   {
-   "rank": 32,
+   "rank": 33,
+   "participantId": "p.darshan-revinthran",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33,
+    "PTS": 2.0,
+    "ELO": 2002,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.darshan-revinthran",
+    "name": {
+     "full": "Darshan Revinthran"
+    },
+    "nationalities": [
+     "MY"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1956
+   }
+  },
+  {
+   "rank": 34,
+   "participantId": "p.k-g-t-s-d-kiriella",
+   "participantType": "person",
+   "stats": {
+    "RANK": 34,
+    "PTS": 2.0,
+    "ELO": 1954,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.k-g-t-s-d-kiriella",
+    "name": {
+     "full": "K G T S D Kiriella"
+    },
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1977
+   }
+  },
+  {
+   "rank": 35,
    "participantId": "p.yuan-hui-yeoh",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 35,
     "PTS": 2.0,
     "ELO": 1937,
     "GP": 7
@@ -858,14 +927,14 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 36,
    "participantId": "p.osia-phokela",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 36,
     "PTS": 2.0,
     "ELO": 1910,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.osia-phokela",
@@ -878,18 +947,18 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1988
+    "performance": 1973
    }
   },
   {
-   "rank": 34,
+   "rank": 37,
    "participantId": "p.lovers-mthembu",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 37,
     "PTS": 2.0,
     "ELO": 1900,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.lovers-mthembu",
@@ -902,111 +971,18 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 2043
-   }
-  },
-  {
-   "rank": 35,
-   "participantId": "p.darshan-revinthran",
-   "participantType": "person",
-   "stats": {
-    "RANK": 35,
-    "PTS": 1.5,
-    "ELO": 2002,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.darshan-revinthran",
-    "name": {
-     "full": "Darshan Revinthran"
-    },
-    "nationalities": [
-     "MY"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1948
-   }
-  },
-  {
-   "rank": 36,
-   "participantId": "p.waylon-brander",
-   "participantType": "person",
-   "stats": {
-    "RANK": 36,
-    "PTS": 1.5,
-    "ELO": 1956,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.waylon-brander",
-    "name": {
-     "full": "Waylon Brander"
-    },
-    "nationalities": [
-     "ZA"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1919
-   }
-  },
-  {
-   "rank": 37,
-   "participantId": "p.k-g-t-s-d-kiriella",
-   "participantType": "person",
-   "stats": {
-    "RANK": 37,
-    "PTS": 1.5,
-    "ELO": 1954,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.k-g-t-s-d-kiriella",
-    "name": {
-     "full": "K G T S D Kiriella"
-    },
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1965
+    "performance": 2037
    }
   },
   {
    "rank": 38,
-   "participantId": "p.dai-araki",
-   "participantType": "person",
-   "stats": {
-    "RANK": 38,
-    "PTS": 0.5,
-    "ELO": 1831,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.dai-araki",
-    "name": {
-     "full": "Dai Araki"
-    },
-    "nationalities": [
-     "JP"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1693
-   }
-  },
-  {
-   "rank": 39,
    "participantId": "p.laviens-makhetha",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
-    "PTS": 0.0,
+    "RANK": 38,
+    "PTS": 1.0,
     "ELO": 1858,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.laviens-makhetha",
@@ -1019,7 +995,31 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1291
+    "performance": 1745
+   }
+  },
+  {
+   "rank": 39,
+   "participantId": "p.dai-araki",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 0.5,
+    "ELO": 1831,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.dai-araki",
+    "name": {
+     "full": "Dai Araki"
+    },
+    "nationalities": [
+     "JP"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1639
    }
   }
  ]
