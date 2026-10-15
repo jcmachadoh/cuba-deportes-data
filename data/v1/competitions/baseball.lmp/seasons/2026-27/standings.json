@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lmp:2026-27",
- "updatedAt": "2026-10-14T07:37:35Z",
+ "updatedAt": "2026-10-15T11:27:26Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -14,7 +14,7 @@
    "name": "Liga Mexicana del Pacífico (LMP)",
    "rows": [
     {
-     "participantId": "baseball.charros-de-jalisco",
+     "participantId": "baseball.algodoneros-de-guasave",
      "participantType": "team",
      "rank": 1,
      "stats": {
@@ -22,6 +22,29 @@
       "W": 1,
       "L": 0,
       "PCT": 1.0,
+      "GB": -1.0,
+      "STRK": "W1",
+      "L10": "1-0",
+      "HOME": "0-0",
+      "AWAY": "1-0",
+      "RS": 2,
+      "RA": 0,
+      "RD": 2
+     },
+     "extra": {
+      "leagueRank": "1"
+     }
+    },
+    {
+     "participantId": "baseball.charros-de-jalisco",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 1,
+      "W": 1,
+      "L": 0,
+      "PCT": 1.0,
+      "GB": -1.0,
       "STRK": "W1",
       "L10": "1-0",
       "HOME": "1-0",
@@ -31,13 +54,121 @@
       "RD": 3
      },
      "extra": {
-      "leagueRank": "1"
+      "leagueRank": "2"
+     }
+    },
+    {
+     "participantId": "baseball.naranjeros-de-hermosillo",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 1,
+      "W": 1,
+      "L": 0,
+      "PCT": 1.0,
+      "GB": -1.0,
+      "STRK": "W1",
+      "L10": "1-0",
+      "HOME": "0-0",
+      "AWAY": "1-0",
+      "RS": 3,
+      "RA": 0,
+      "RD": 3
+     },
+     "extra": {
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.tomateros-de-culiacan",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 1,
+      "W": 1,
+      "L": 0,
+      "PCT": 1.0,
+      "GB": -1.0,
+      "STRK": "W1",
+      "L10": "1-0",
+      "HOME": "0-0",
+      "AWAY": "1-0",
+      "RS": 4,
+      "RA": 3,
+      "RD": 1
+     },
+     "extra": {
+      "leagueRank": "4"
+     }
+    },
+    {
+     "participantId": "baseball.yaquis-de-obregon",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 1,
+      "W": 1,
+      "L": 0,
+      "PCT": 1.0,
+      "GB": -1.0,
+      "STRK": "W1",
+      "L10": "1-0",
+      "HOME": "0-0",
+      "AWAY": "1-0",
+      "RS": 11,
+      "RA": 5,
+      "RD": 6
+     },
+     "extra": {
+      "leagueRank": "5"
+     }
+    },
+    {
+     "participantId": "baseball.aguilas-de-mexicali",
+     "participantType": "team",
+     "rank": 6,
+     "stats": {
+      "GP": 1,
+      "W": 0,
+      "L": 1,
+      "PCT": 0.0,
+      "STRK": "L1",
+      "L10": "0-1",
+      "HOME": "0-1",
+      "AWAY": "0-0",
+      "RS": 0,
+      "RA": 3,
+      "RD": -3
+     },
+     "extra": {
+      "leagueRank": "6"
+     }
+    },
+    {
+     "participantId": "baseball.caneros-de-los-mochis",
+     "participantType": "team",
+     "rank": 7,
+     "stats": {
+      "GP": 1,
+      "W": 0,
+      "L": 1,
+      "PCT": 0.0,
+      "STRK": "L1",
+      "L10": "0-1",
+      "HOME": "0-1",
+      "AWAY": "0-0",
+      "RS": 0,
+      "RA": 2,
+      "RD": -2
+     },
+     "extra": {
+      "leagueRank": "7"
      }
     },
     {
      "participantId": "baseball.jaguares-de-nayarit",
      "participantType": "team",
-     "rank": 2,
+     "rank": 8,
      "stats": {
       "GP": 1,
       "W": 0,
@@ -52,7 +183,49 @@
       "RD": -3
      },
      "extra": {
-      "leagueRank": "2"
+      "leagueRank": "8"
+     }
+    },
+    {
+     "participantId": "baseball.mayos-de-navojoa",
+     "participantType": "team",
+     "rank": 9,
+     "stats": {
+      "GP": 1,
+      "W": 0,
+      "L": 1,
+      "PCT": 0.0,
+      "STRK": "L1",
+      "L10": "0-1",
+      "HOME": "0-1",
+      "AWAY": "0-0",
+      "RS": 5,
+      "RA": 11,
+      "RD": -6
+     },
+     "extra": {
+      "leagueRank": "9"
+     }
+    },
+    {
+     "participantId": "baseball.venados-de-mazatlan",
+     "participantType": "team",
+     "rank": 10,
+     "stats": {
+      "GP": 1,
+      "W": 0,
+      "L": 1,
+      "PCT": 0.0,
+      "STRK": "L1",
+      "L10": "0-1",
+      "HOME": "0-1",
+      "AWAY": "0-0",
+      "RS": 3,
+      "RA": 4,
+      "RD": -1
+     },
+     "extra": {
+      "leagueRank": "10"
      }
     }
    ]
