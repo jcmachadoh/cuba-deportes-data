@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "26",
- "updatedAt": "2026-10-08T15:54:29Z",
+ "updatedAt": "2026-10-15T13:42:03Z",
  "persons": {
   "p.adam-weisenburger": {
    "id": "p.adam-weisenburger",
@@ -463,14 +463,15 @@
     "first": "Daniel",
     "last": "Muñoz"
    },
-   "birthDate": "2006-07-19",
+   "birthDate": "1996-05-26",
    "nationalities": [
+    "CO",
     "ES"
    ],
    "isCuban": false,
    "gender": "M",
    "body": {
-    "heightCm": 165.1,
+    "heightCm": 180.3,
     "weightKg": 78.0
    },
    "externalIds": {
@@ -1530,6 +1531,19 @@
    },
    "externalIds": {
     "mlb": "516410"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.manuel-lopez": {
+   "id": "p.manuel-lopez",
+   "name": {
+    "full": "Manuel Lopez"
+   },
+   "isCuban": false,
+   "externalIds": {
+    "mlb": "500972"
    },
    "sources": [
     "mlb-statsapi"

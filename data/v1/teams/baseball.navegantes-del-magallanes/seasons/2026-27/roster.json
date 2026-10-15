@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.navegantes-del-magallanes:2026-27",
- "updatedAt": "2026-10-13T16:26:09Z",
+ "updatedAt": "2026-10-15T13:41:08Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.navegantes-del-magallanes",
  "competitionId": "baseball.lvbp",
  "season": "2026-27",
- "count": 45,
+ "count": 48,
  "groups": [
   {
    "code": "P",
@@ -662,7 +662,38 @@
    },
    "players": [
     {
+     "personId": "p.yadier-molina.1982",
+     "number": "4",
+     "role": "staff",
+     "roleName": "Manager",
+     "person": {
+      "id": "p.yadier-molina.1982",
+      "name": {
+       "full": "Yadier Molina",
+       "first": "Yadier",
+       "last": "Molina"
+      },
+      "birthDate": "1982-07-13",
+      "isCuban": false,
+      "birthCountry": "PR"
+     }
+    },
+    {
+     "personId": "p.roberto-espinoza",
+     "number": "29",
+     "role": "staff",
+     "roleName": "Bench Coach",
+     "person": {
+      "id": "p.roberto-espinoza",
+      "name": {
+       "full": "Roberto Espinoza"
+      },
+      "isCuban": false
+     }
+    },
+    {
      "personId": "p.clemente-alvarez",
+     "number": "37",
      "role": "staff",
      "roleName": "Catching Coach",
      "person": {
@@ -674,55 +705,8 @@
      }
     },
     {
-     "personId": "p.darwin-marrero",
-     "role": "staff",
-     "roleName": "Pitching Coach",
-     "person": {
-      "id": "p.darwin-marrero",
-      "name": {
-       "full": "Darwin Marrero"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.edgardo-rivera",
-     "role": "staff",
-     "roleName": "Quality Control Coach",
-     "person": {
-      "id": "p.edgardo-rivera",
-      "name": {
-       "full": "Edgardo Rivera"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.eliezer-alfonzo",
-     "role": "staff",
-     "roleName": "Assistant Hitting Coach",
-     "person": {
-      "id": "p.eliezer-alfonzo",
-      "name": {
-       "full": "Eliezer Alfonzo"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.endy-chavez",
-     "role": "staff",
-     "roleName": "First Base Coach",
-     "person": {
-      "id": "p.endy-chavez",
-      "name": {
-       "full": "Endy Chavez"
-      },
-      "isCuban": false
-     }
-    },
-    {
      "personId": "p.felix-escalona",
+     "number": "43",
      "role": "staff",
      "roleName": "Coach",
      "person": {
@@ -734,19 +718,34 @@
      }
     },
     {
-     "personId": "p.kleininger-teran",
+     "personId": "p.endy-chavez",
+     "number": "47",
      "role": "staff",
-     "roleName": "Batting Coach",
+     "roleName": "First Base Coach",
      "person": {
-      "id": "p.kleininger-teran",
+      "id": "p.endy-chavez",
       "name": {
-       "full": "Kleininger Teran"
+       "full": "Endy Chavez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.eliezer-alfonzo",
+     "number": "50",
+     "role": "staff",
+     "roleName": "Assistant Hitting Coach",
+     "person": {
+      "id": "p.eliezer-alfonzo",
+      "name": {
+       "full": "Eliezer Alfonzo"
       },
       "isCuban": false
      }
     },
     {
      "personId": "p.miguel-socolovich",
+     "number": "55",
      "role": "staff",
      "roleName": "Bullpen Coach",
      "person": {
@@ -762,19 +761,86 @@
      }
     },
     {
-     "personId": "p.roberto-espinoza",
+     "personId": "p.darwin-marrero",
+     "number": "63",
      "role": "staff",
-     "roleName": "Bench Coach",
+     "roleName": "Pitching Coach",
      "person": {
-      "id": "p.roberto-espinoza",
+      "id": "p.darwin-marrero",
       "name": {
-       "full": "Roberto Espinoza"
+       "full": "Darwin Marrero"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.edgardo-rivera",
+     "number": "64",
+     "role": "staff",
+     "roleName": "Quality Control Coach",
+     "person": {
+      "id": "p.edgardo-rivera",
+      "name": {
+       "full": "Edgardo Rivera"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.cesar-hernandez",
+     "number": "74",
+     "role": "staff",
+     "roleName": "Bullpen Catcher",
+     "person": {
+      "id": "p.cesar-hernandez",
+      "name": {
+       "full": "Cesar Hernandez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.kleininger-teran",
+     "number": "76",
+     "role": "staff",
+     "roleName": "Batting Coach",
+     "person": {
+      "id": "p.kleininger-teran",
+      "name": {
+       "full": "Kleininger Teran"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.luis-rodriguez",
+     "number": "79",
+     "role": "staff",
+     "roleName": "Assistant Coach",
+     "person": {
+      "id": "p.luis-rodriguez",
+      "name": {
+       "full": "Luis Rodriguez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.ernesto-leon",
+     "number": "85",
+     "role": "staff",
+     "roleName": "Bullpen Catcher",
+     "person": {
+      "id": "p.ernesto-leon",
+      "name": {
+       "full": "Ernesto Leon"
       },
       "isCuban": false
      }
     },
     {
      "personId": "p.stubby-clapp",
+     "number": "98",
      "role": "staff",
      "roleName": "Third Base Coach",
      "person": {
@@ -783,22 +849,6 @@
        "full": "Stubby Clapp"
       },
       "isCuban": false
-     }
-    },
-    {
-     "personId": "p.yadier-molina.1982",
-     "role": "staff",
-     "roleName": "Manager",
-     "person": {
-      "id": "p.yadier-molina.1982",
-      "name": {
-       "full": "Yadier Molina",
-       "first": "Yadier",
-       "last": "Molina"
-      },
-      "birthDate": "1982-07-13",
-      "isCuban": false,
-      "birthCountry": "PR"
      }
     }
    ]

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "89",
- "updatedAt": "2026-10-13T16:27:52Z",
+ "updatedAt": "2026-10-15T13:41:14Z",
  "persons": {
   "p.abel-paredes.1997": {
    "id": "p.abel-paredes.1997",
@@ -324,6 +324,34 @@
    },
    "externalIds": {
     "mlb": "543068"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.carlos-colmenarez.2003": {
+   "id": "p.carlos-colmenarez.2003",
+   "name": {
+    "full": "Carlos Colmenarez",
+    "first": "Carlos",
+    "last": "Colmenarez"
+   },
+   "birthDate": "2003-11-15",
+   "birthPlace": {
+    "city": "San Felipe",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 175.3,
+    "weightKg": 78.0
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "694181"
    },
    "sources": [
     "mlb-statsapi"
@@ -1057,6 +1085,19 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.joey-dominiak": {
+   "id": "p.joey-dominiak",
+   "name": {
+    "full": "Joey Dominiak"
+   },
+   "isCuban": false,
+   "externalIds": {
+    "mlb": "845023"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.jordan-griffin.2008": {

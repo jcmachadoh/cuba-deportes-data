@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "9a",
- "updatedAt": "2026-10-15T11:49:57Z",
+ "updatedAt": "2026-10-15T13:56:27Z",
  "persons": {
   "p.adriel-lazo-de-la-vega-aja.2013": {
    "id": "p.adriel-lazo-de-la-vega-aja.2013",
@@ -127,13 +127,14 @@
   "p.anto.1995": {
    "id": "p.anto.1995",
    "name": {
-    "full": "Anto",
-    "first": "Antonio",
-    "last": "Mateo"
+    "full": "Mateo Antoni",
+    "first": "Mateo",
+    "last": "Antoni"
    },
-   "birthDate": "1995-08-17",
+   "birthDate": "2003-04-22",
    "nationalities": [
-    "ES"
+    "ES",
+    "UY"
    ],
    "isCuban": false,
    "gender": "M",
@@ -1058,11 +1059,13 @@
     "fide": "54540046"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "ESP"
-   }
+   },
+   "title": "WFM"
   },
   "p.helieyker-guzman.2006": {
    "id": "p.helieyker-guzman.2006",
@@ -1243,8 +1246,8 @@
   "p.jesse-castillo.1983": {
    "id": "p.jesse-castillo.1983",
    "name": {
-    "full": "Jesse Castillo",
-    "first": "Jesse",
+    "full": "Jesus Castillo",
+    "first": "Jesus",
     "last": "Castillo"
    },
    "birthDate": "1983-03-03",
@@ -1469,6 +1472,34 @@
    },
    "externalIds": {
     "mlb": "502522"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.kendeglys-virguez.2004": {
+   "id": "p.kendeglys-virguez.2004",
+   "name": {
+    "full": "Kendeglys Virguez",
+    "first": "Kendeglys",
+    "last": "Virguez"
+   },
+   "birthDate": "2004-05-06",
+   "birthPlace": {
+    "city": "Barquisimeto",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 190.5,
+    "weightKg": 90.7
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "802068"
    },
    "sources": [
     "mlb-statsapi"
@@ -2388,7 +2419,7 @@
     "first": "Sebastián",
     "last": "Díaz"
    },
-   "birthDate": "2003-11-01",
+   "birthDate": "1996-02-23",
    "nationalities": [
     "AR",
     "CL"
@@ -2396,8 +2427,8 @@
    "isCuban": false,
    "gender": "M",
    "body": {
-    "heightCm": 185.4,
-    "weightKg": 81.2
+    "heightCm": 170.2,
+    "weightKg": 68.0
    },
    "externalIds": {
     "espn": "204911"

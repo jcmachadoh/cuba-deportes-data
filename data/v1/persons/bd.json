@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "bd",
- "updatedAt": "2026-10-15T11:49:58Z",
+ "updatedAt": "2026-10-15T13:41:14Z",
  "persons": {
   "p.adalberto-flores.1986": {
    "id": "p.adalberto-flores.1986",
@@ -1367,6 +1367,34 @@
    },
    "title": "GM"
   },
+  "p.jose-meza.2003": {
+   "id": "p.jose-meza.2003",
+   "name": {
+    "full": "Jose Meza",
+    "first": "Jose",
+    "last": "Meza"
+   },
+   "birthDate": "2003-04-22",
+   "birthPlace": {
+    "city": "Barquisimeto",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 188.0,
+    "weightKg": 72.6
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "691561"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
   "p.jose-munoz": {
    "id": "p.jose-munoz",
    "name": {
@@ -1446,6 +1474,19 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.juan-uribe": {
+   "id": "p.juan-uribe",
+   "name": {
+    "full": "Juan Uribe"
+   },
+   "isCuban": false,
+   "externalIds": {
+    "mlb": "444719"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.julio-rangel": {

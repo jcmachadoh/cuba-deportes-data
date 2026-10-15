@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.leones-del-caracas:2026-27",
- "updatedAt": "2026-10-13T16:26:09Z",
+ "updatedAt": "2026-10-15T13:41:08Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.leones-del-caracas",
  "competitionId": "baseball.lvbp",
  "season": "2026-27",
- "count": 39,
+ "count": 42,
  "groups": [
   {
    "code": "P",
@@ -108,24 +108,6 @@
      }
     },
     {
-     "personId": "p.jose-leandro.2002",
-     "number": "36",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.jose-leandro.2002",
-      "name": {
-       "full": "Jose Leandro",
-       "first": "Jose",
-       "last": "Leandro"
-      },
-      "birthDate": "2002-04-24",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
      "personId": "p.luis-palacios.2000",
      "number": "39",
      "position": "P",
@@ -157,6 +139,24 @@
        "last": "Van Scoyoc"
       },
       "birthDate": "1999-11-26",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
+    {
+     "personId": "p.zak-kent.1998",
+     "number": "49",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.zak-kent.1998",
+      "name": {
+       "full": "Zak Kent",
+       "first": "Zak",
+       "last": "Kent"
+      },
+      "birthDate": "1998-02-24",
       "isCuban": false,
       "birthCountry": "US"
      }
@@ -253,7 +253,7 @@
     },
     {
      "personId": "p.yoimer-camacho.1990",
-     "number": "73",
+     "number": "74",
      "position": "P",
      "role": "player",
      "status": "Active",
@@ -339,6 +339,24 @@
       "birthDate": "1999-07-08",
       "isCuban": false,
       "birthCountry": "US"
+     }
+    },
+    {
+     "personId": "p.simon-leandro.2002",
+     "number": "95",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.simon-leandro.2002",
+      "name": {
+       "full": "Simon Leandro",
+       "first": "Simon",
+       "last": "Leandro"
+      },
+      "birthDate": "2002-04-24",
+      "isCuban": false,
+      "birthCountry": "VE"
      }
     },
     {
@@ -564,6 +582,24 @@
    },
    "players": [
     {
+     "personId": "p.yonathan-daza.1994",
+     "number": "22",
+     "position": "CF",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.yonathan-daza.1994",
+      "name": {
+       "full": "Yonathan Daza",
+       "first": "Yonathan",
+       "last": "Daza"
+      },
+      "birthDate": "1994-02-28",
+      "isCuban": false,
+      "birthCountry": "VE"
+     }
+    },
+    {
      "personId": "p.kenedy-corona.2000",
      "number": "28",
      "position": "CF",
@@ -626,19 +662,8 @@
    },
    "players": [
     {
-     "personId": "p.franklin-font",
-     "role": "staff",
-     "roleName": "Third Base Coach",
-     "person": {
-      "id": "p.franklin-font",
-      "name": {
-       "full": "Franklin Font"
-      },
-      "isCuban": false
-     }
-    },
-    {
      "personId": "p.heberto-andrade",
+     "number": "12",
      "role": "staff",
      "roleName": "Bench Coach",
      "person": {
@@ -650,31 +675,21 @@
      }
     },
     {
-     "personId": "p.lipso-nava",
+     "personId": "p.wilson-alvarez",
+     "number": "40",
      "role": "staff",
-     "roleName": "Manager",
+     "roleName": "Pitching Coach",
      "person": {
-      "id": "p.lipso-nava",
+      "id": "p.wilson-alvarez",
       "name": {
-       "full": "Lipso Nava"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.ramon-castro",
-     "role": "staff",
-     "roleName": "Assistant Hitting Coach",
-     "person": {
-      "id": "p.ramon-castro",
-      "name": {
-       "full": "Ramon Castro"
+       "full": "Wilson Alvarez"
       },
       "isCuban": false
      }
     },
     {
      "personId": "p.roger-cedeno",
+     "number": "47",
      "role": "staff",
      "roleName": "First Base Coach",
      "person": {
@@ -687,6 +702,7 @@
     },
     {
      "personId": "p.willie-romero",
+     "number": "52",
      "role": "staff",
      "roleName": "Batting Coach",
      "person": {
@@ -698,13 +714,53 @@
      }
     },
     {
-     "personId": "p.wilson-alvarez",
+     "personId": "p.franklin-font",
+     "number": "62",
      "role": "staff",
-     "roleName": "Pitching Coach",
+     "roleName": "Third Base Coach",
      "person": {
-      "id": "p.wilson-alvarez",
+      "id": "p.franklin-font",
       "name": {
-       "full": "Wilson Alvarez"
+       "full": "Franklin Font"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.levi-romero",
+     "number": "64",
+     "role": "staff",
+     "roleName": "Bullpen Coach",
+     "person": {
+      "id": "p.levi-romero",
+      "name": {
+       "full": "Levi Romero"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.ramon-castro",
+     "number": "72",
+     "role": "staff",
+     "roleName": "Assistant Hitting Coach",
+     "person": {
+      "id": "p.ramon-castro",
+      "name": {
+       "full": "Ramon Castro"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.lipso-nava",
+     "number": "79",
+     "role": "staff",
+     "roleName": "Manager",
+     "person": {
+      "id": "p.lipso-nava",
+      "name": {
+       "full": "Lipso Nava"
       },
       "isCuban": false
      }

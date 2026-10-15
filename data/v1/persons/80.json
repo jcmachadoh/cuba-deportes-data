@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "80",
- "updatedAt": "2026-10-10T14:59:18Z",
+ "updatedAt": "2026-10-15T13:56:27Z",
  "persons": {
   "p.adrian-sporle.1995": {
    "id": "p.adrian-sporle.1995",
@@ -1265,6 +1265,34 @@
    },
    "externalIds": {
     "mlb": "669618"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.jose-atencio.2001": {
+   "id": "p.jose-atencio.2001",
+   "name": {
+    "full": "Jose Atencio",
+    "first": "Jose",
+    "last": "Atencio"
+   },
+   "birthDate": "2001-09-18",
+   "birthPlace": {
+    "city": "Maracaibo",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 180.3,
+    "weightKg": 74.8
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "682719"
    },
    "sources": [
     "mlb-statsapi"
@@ -2558,11 +2586,13 @@
     "fide": "8626480"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "CHN"
-   }
+   },
+   "title": "WIM"
   },
   "p.tomas-araujo.2002": {
    "id": "p.tomas-araujo.2002",

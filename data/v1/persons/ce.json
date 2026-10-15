@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "ce",
- "updatedAt": "2026-10-15T11:49:58Z",
+ "updatedAt": "2026-10-15T13:56:26Z",
  "persons": {
   "p.alan-roden.1999": {
    "id": "p.alan-roden.1999",
@@ -1427,11 +1427,13 @@
     "fide": "4704703"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "ALB"
-   }
+   },
+   "title": "WFM"
   },
   "p.lenny-joseph.2000": {
    "id": "p.lenny-joseph.2000",
@@ -2187,6 +2189,34 @@
    },
    "externalIds": {
     "mlb": "605441"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.yasmil-bucce.2004": {
+   "id": "p.yasmil-bucce.2004",
+   "name": {
+    "full": "Yasmil Bucce",
+    "first": "Yasmil",
+    "last": "Bucce"
+   },
+   "birthDate": "2004-08-13",
+   "birthPlace": {
+    "city": "Lecheria",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 177.8,
+    "weightKg": 76.2
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "698935"
    },
    "sources": [
     "mlb-statsapi"

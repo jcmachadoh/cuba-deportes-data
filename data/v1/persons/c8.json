@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "c8",
- "updatedAt": "2026-10-15T11:49:58Z",
+ "updatedAt": "2026-10-15T13:56:27Z",
  "persons": {
   "p.ahmed-bouzidi": {
    "id": "p.ahmed-bouzidi",
@@ -469,6 +469,34 @@
    "extra": {
     "federation": "POL"
    }
+  },
+  "p.denson-hull.1996": {
+   "id": "p.denson-hull.1996",
+   "name": {
+    "full": "Denson Hull",
+    "first": "Denson",
+    "last": "Hull"
+   },
+   "birthDate": "1996-10-21",
+   "birthPlace": {
+    "city": "Missouri City",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 185.4,
+    "weightKg": 99.8
+   },
+   "hand": {
+    "bats": "S",
+    "throws": "L"
+   },
+   "externalIds": {
+    "mlb": "687650"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
   },
   "p.derek-fisher.1993": {
    "id": "p.derek-fisher.1993",
@@ -1679,11 +1707,13 @@
     "fide": "13748505"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "KAZ"
-   }
+   },
+   "title": "WIM"
   },
   "p.mark-budzinski": {
    "id": "p.mark-budzinski",

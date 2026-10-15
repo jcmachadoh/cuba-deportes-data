@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.bravos-de-margarita:2026-27",
- "updatedAt": "2026-10-13T16:26:09Z",
+ "updatedAt": "2026-10-15T13:41:08Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.bravos-de-margarita",
  "competitionId": "baseball.lvbp",
  "season": "2026-27",
- "count": 41,
+ "count": 47,
  "groups": [
   {
    "code": "P",
@@ -36,19 +36,91 @@
      }
     },
     {
-     "personId": "p.jonalbert-rumbol.1998",
-     "number": "6",
+     "personId": "p.luis-cohen.2003",
+     "number": "7",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.jonalbert-rumbol.1998",
+      "id": "p.luis-cohen.2003",
       "name": {
-       "full": "Jonalbert Rumbol",
-       "first": "Jonalbert",
-       "last": "Rumbol"
+       "full": "Luis Cohen",
+       "first": "Luis",
+       "last": "Cohen"
       },
-      "birthDate": "1998-11-11",
+      "birthDate": "2003-05-26",
+      "isCuban": false,
+      "birthCountry": "VE"
+     }
+    },
+    {
+     "personId": "p.jorge-garcia.2002",
+     "number": "15",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.jorge-garcia.2002",
+      "name": {
+       "full": "Jorge Garcia",
+       "first": "Jorge",
+       "last": "Garcia"
+      },
+      "birthDate": "2002-05-10",
+      "isCuban": false,
+      "birthCountry": "PA"
+     }
+    },
+    {
+     "personId": "p.alfred-gutierrez.1995",
+     "number": "16",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.alfred-gutierrez.1995",
+      "name": {
+       "full": "Alfred Gutierrez",
+       "first": "Alfred",
+       "last": "Gutierrez"
+      },
+      "birthDate": "1995-06-12",
+      "isCuban": false,
+      "birthCountry": "VE"
+     }
+    },
+    {
+     "personId": "p.claudio-custodio.1990",
+     "number": "21",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.claudio-custodio.1990",
+      "name": {
+       "full": "Claudio Custodio",
+       "first": "Claudio",
+       "last": "Custodio"
+      },
+      "birthDate": "1990-10-30",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
+    },
+    {
+     "personId": "p.felix-doubront.1987",
+     "number": "23",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.felix-doubront.1987",
+      "name": {
+       "full": "Félix Doubront",
+       "first": "Félix",
+       "last": "Doubront"
+      },
+      "birthDate": "1987-10-23",
       "isCuban": false,
       "birthCountry": "VE"
      }
@@ -126,21 +198,78 @@
      }
     },
     {
-     "personId": "p.claudio-custodio.1990",
-     "number": "51",
+     "personId": "p.darien-nunez.1993",
+     "number": "45",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.claudio-custodio.1990",
+      "id": "p.darien-nunez.1993",
       "name": {
-       "full": "Claudio Custodio",
-       "first": "Claudio",
-       "last": "Custodio"
+       "full": "Darien Núñez",
+       "first": "Darien",
+       "last": "Núñez"
       },
-      "birthDate": "1990-10-30",
+      "birthDate": "1993-03-19",
+      "nationalities": [
+       "CU"
+      ],
+      "isCuban": true,
+      "birthCountry": "CU"
+     }
+    },
+    {
+     "personId": "p.alejandro-hernandez.2001",
+     "number": "46",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.alejandro-hernandez.2001",
+      "name": {
+       "full": "Alejandro Hernandez",
+       "first": "Alejandro",
+       "last": "Hernandez"
+      },
+      "birthDate": "2001-01-30",
+      "isCuban": true,
+      "birthCountry": "CU"
+     }
+    },
+    {
+     "personId": "p.henson-leal.2003",
+     "number": "53",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.henson-leal.2003",
+      "name": {
+       "full": "Henson Leal",
+       "first": "Henson",
+       "last": "Leal"
+      },
+      "birthDate": "2003-09-19",
       "isCuban": false,
-      "birthCountry": "DO"
+      "birthCountry": "VE"
+     }
+    },
+    {
+     "personId": "p.jonalbert-rumbol.1998",
+     "number": "54",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.jonalbert-rumbol.1998",
+      "name": {
+       "full": "Jonalbert Rumbol",
+       "first": "Jonalbert",
+       "last": "Rumbol"
+      },
+      "birthDate": "1998-11-11",
+      "isCuban": false,
+      "birthCountry": "VE"
      }
     },
     {
@@ -162,39 +291,21 @@
      }
     },
     {
-     "personId": "p.felix-doubront.1987",
-     "number": "69",
+     "personId": "p.luis-escobar.1996",
+     "number": "78",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.felix-doubront.1987",
+      "id": "p.luis-escobar.1996",
       "name": {
-       "full": "Félix Doubront",
-       "first": "Félix",
-       "last": "Doubront"
+       "full": "Luis Escobar",
+       "first": "Luis",
+       "last": "Escobar"
       },
-      "birthDate": "1987-10-23",
+      "birthDate": "1996-05-30",
       "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
-     "personId": "p.jorge-garcia.2002",
-     "number": "70",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.jorge-garcia.2002",
-      "name": {
-       "full": "Jorge Garcia",
-       "first": "Jorge",
-       "last": "Garcia"
-      },
-      "birthDate": "2002-05-10",
-      "isCuban": false,
-      "birthCountry": "PA"
+      "birthCountry": "CO"
      }
     },
     {
@@ -216,42 +327,8 @@
      }
     },
     {
-     "personId": "p.alfred-gutierrez.1995",
-     "number": "91",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.alfred-gutierrez.1995",
-      "name": {
-       "full": "Alfred Gutierrez",
-       "first": "Alfred",
-       "last": "Gutierrez"
-      },
-      "birthDate": "1995-06-12",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
-     "personId": "p.alejandro-hernandez.2001",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.alejandro-hernandez.2001",
-      "name": {
-       "full": "Alejandro Hernandez",
-       "first": "Alejandro",
-       "last": "Hernandez"
-      },
-      "birthDate": "2001-01-30",
-      "isCuban": true,
-      "birthCountry": "CU"
-     }
-    },
-    {
      "personId": "p.angel-rondon.1997",
+     "number": "85",
      "position": "P",
      "role": "player",
      "status": "Active",
@@ -266,77 +343,6 @@
       "isCuban": false,
       "birthCountry": "DO"
      }
-    },
-    {
-     "personId": "p.darien-nunez.1993",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.darien-nunez.1993",
-      "name": {
-       "full": "Darien Núñez",
-       "first": "Darien",
-       "last": "Núñez"
-      },
-      "birthDate": "1993-03-19",
-      "nationalities": [
-       "CU"
-      ],
-      "isCuban": true,
-      "birthCountry": "CU"
-     }
-    },
-    {
-     "personId": "p.henson-leal.2003",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.henson-leal.2003",
-      "name": {
-       "full": "Henson Leal",
-       "first": "Henson",
-       "last": "Leal"
-      },
-      "birthDate": "2003-09-19",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
-     "personId": "p.luis-cohen.2003",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.luis-cohen.2003",
-      "name": {
-       "full": "Luis Cohen",
-       "first": "Luis",
-       "last": "Cohen"
-      },
-      "birthDate": "2003-05-26",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
-     "personId": "p.luis-escobar.1996",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.luis-escobar.1996",
-      "name": {
-       "full": "Luis Escobar",
-       "first": "Luis",
-       "last": "Escobar"
-      },
-      "birthDate": "1996-05-30",
-      "isCuban": false,
-      "birthCountry": "CO"
-     }
     }
    ]
   },
@@ -348,7 +354,7 @@
    "players": [
     {
      "personId": "p.jose-herrera.1997",
-     "number": "8",
+     "number": "4",
      "position": "C",
      "role": "player",
      "status": "Active",
@@ -366,7 +372,7 @@
     },
     {
      "personId": "p.carlos-perez.1996",
-     "number": "12",
+     "number": "36",
      "position": "C",
      "role": "player",
      "status": "Active",
@@ -409,6 +415,42 @@
    },
    "players": [
     {
+     "personId": "p.diosbel-arias.1996",
+     "number": "0",
+     "position": "2B",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.diosbel-arias.1996",
+      "name": {
+       "full": "Diosbel Arias",
+       "first": "Diosbel",
+       "last": "Arias"
+      },
+      "birthDate": "1996-07-21",
+      "isCuban": true,
+      "birthCountry": "CU"
+     }
+    },
+    {
+     "personId": "p.ahbram-liendo.2004",
+     "number": "1",
+     "position": "2B",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.ahbram-liendo.2004",
+      "name": {
+       "full": "Ahbram Liendo",
+       "first": "Ahbram",
+       "last": "Liendo"
+      },
+      "birthDate": "2004-02-01",
+      "isCuban": false,
+      "birthCountry": "VE"
+     }
+    },
+    {
      "personId": "p.alexi-amarista.1989",
      "number": "2",
      "position": "2B",
@@ -422,24 +464,6 @@
        "last": "Amarista"
       },
       "birthDate": "1989-04-06",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
-     "personId": "p.pedro-martinez.2001",
-     "number": "2",
-     "position": "1B",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.pedro-martinez.2001",
-      "name": {
-       "full": "Pedro Martinez",
-       "first": "Pedro",
-       "last": "Martinez"
-      },
-      "birthDate": "2001-01-28",
       "isCuban": false,
       "birthCountry": "VE"
      }
@@ -481,6 +505,24 @@
      }
     },
     {
+     "personId": "p.lizandro-espinoza.2002",
+     "number": "18",
+     "position": "SS",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.lizandro-espinoza.2002",
+      "name": {
+       "full": "Lizandro Espinoza",
+       "first": "Lizandro",
+       "last": "Espinoza"
+      },
+      "birthDate": "2002-11-20",
+      "isCuban": false,
+      "birthCountry": "VE"
+     }
+    },
+    {
      "personId": "p.jose-martinez.1996",
      "number": "22",
      "position": "SS",
@@ -499,52 +541,19 @@
      }
     },
     {
-     "personId": "p.ahbram-liendo.2004",
-     "position": "2B",
+     "personId": "p.pedro-martinez.2001",
+     "number": "67",
+     "position": "1B",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.ahbram-liendo.2004",
+      "id": "p.pedro-martinez.2001",
       "name": {
-       "full": "Ahbram Liendo",
-       "first": "Ahbram",
-       "last": "Liendo"
+       "full": "Pedro Martinez",
+       "first": "Pedro",
+       "last": "Martinez"
       },
-      "birthDate": "2004-02-01",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
-     "personId": "p.diosbel-arias.1996",
-     "position": "2B",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.diosbel-arias.1996",
-      "name": {
-       "full": "Diosbel Arias",
-       "first": "Diosbel",
-       "last": "Arias"
-      },
-      "birthDate": "1996-07-21",
-      "isCuban": true,
-      "birthCountry": "CU"
-     }
-    },
-    {
-     "personId": "p.lizandro-espinoza.2002",
-     "position": "SS",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.lizandro-espinoza.2002",
-      "name": {
-       "full": "Lizandro Espinoza",
-       "first": "Lizandro",
-       "last": "Espinoza"
-      },
-      "birthDate": "2002-11-20",
+      "birthDate": "2001-01-28",
       "isCuban": false,
       "birthCountry": "VE"
      }
@@ -558,21 +567,21 @@
    },
    "players": [
     {
-     "personId": "p.tomo-otosaka.1994",
+     "personId": "p.david-peralta.1987",
      "number": "6",
-     "position": "OF",
+     "position": "RF",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.tomo-otosaka.1994",
+      "id": "p.david-peralta.1987",
       "name": {
-       "full": "Tomo Otosaka",
-       "first": "Tomo",
-       "last": "Otosaka"
+       "full": "David Peralta",
+       "first": "David",
+       "last": "Peralta"
       },
-      "birthDate": "1994-01-06",
+      "birthDate": "1987-08-14",
       "isCuban": false,
-      "birthCountry": "JP"
+      "birthCountry": "VE"
      }
     },
     {
@@ -612,8 +621,26 @@
      }
     },
     {
+     "personId": "p.tomo-otosaka.1994",
+     "number": "33",
+     "position": "OF",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.tomo-otosaka.1994",
+      "name": {
+       "full": "Tomo Otosaka",
+       "first": "Tomo",
+       "last": "Otosaka"
+      },
+      "birthDate": "1994-01-06",
+      "isCuban": false,
+      "birthCountry": "JP"
+     }
+    },
+    {
      "personId": "p.moises-gomez.1998",
-     "number": "60",
+     "number": "56",
      "position": "OF",
      "role": "player",
      "status": "Active",
@@ -628,23 +655,6 @@
       "isCuban": false,
       "birthCountry": "VE"
      }
-    },
-    {
-     "personId": "p.david-peralta.1987",
-     "position": "RF",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.david-peralta.1987",
-      "name": {
-       "full": "David Peralta",
-       "first": "David",
-       "last": "Peralta"
-      },
-      "birthDate": "1987-08-14",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
     }
    ]
   },
@@ -655,19 +665,38 @@
    },
    "players": [
     {
-     "personId": "p.emilio-linares",
+     "personId": "p.eleardo-cabrera.1995",
+     "number": "12",
      "role": "staff",
-     "roleName": "Third Base Coach",
+     "roleName": "Assistant Hitting Coach",
      "person": {
-      "id": "p.emilio-linares",
+      "id": "p.eleardo-cabrera.1995",
       "name": {
-       "full": "Emilio Linares"
+       "full": "Eleardo Cabrera",
+       "first": "Eleardo",
+       "last": "Cabrera"
+      },
+      "birthDate": "1995-11-08",
+      "isCuban": false,
+      "birthCountry": "VE"
+     }
+    },
+    {
+     "personId": "p.omar-alvarez",
+     "number": "13",
+     "role": "staff",
+     "roleName": "Coach",
+     "person": {
+      "id": "p.omar-alvarez",
+      "name": {
+       "full": "Omar Alvarez"
       },
       "isCuban": false
      }
     },
     {
      "personId": "p.henry-blanco",
+     "number": "24",
      "role": "staff",
      "roleName": "Manager",
      "person": {
@@ -679,7 +708,99 @@
      }
     },
     {
+     "personId": "p.emilio-linares",
+     "number": "26",
+     "role": "staff",
+     "roleName": "First Base Coach",
+     "person": {
+      "id": "p.emilio-linares",
+      "name": {
+       "full": "Emilio Linares"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.emilio-linares",
+     "number": "26",
+     "role": "staff",
+     "roleName": "Third Base Coach",
+     "person": {
+      "id": "p.emilio-linares",
+      "name": {
+       "full": "Emilio Linares"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.oscar-salazar",
+     "number": "30",
+     "role": "staff",
+     "roleName": "Bench Coach",
+     "person": {
+      "id": "p.oscar-salazar",
+      "name": {
+       "full": "Oscar Salazar"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.nate-irving",
+     "number": "47",
+     "role": "staff",
+     "roleName": "Hitting Coach",
+     "person": {
+      "id": "p.nate-irving",
+      "name": {
+       "full": "Nate Irving"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.yunir-garcia",
+     "number": "50",
+     "role": "staff",
+     "roleName": "Third Base Coach",
+     "person": {
+      "id": "p.yunir-garcia",
+      "name": {
+       "full": "Yunir Garcia"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.ricky-bones",
+     "number": "55",
+     "role": "staff",
+     "roleName": "Pitching Coach",
+     "person": {
+      "id": "p.ricky-bones",
+      "name": {
+       "full": "Ricky Bones"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.larry-curiel",
+     "number": "58",
+     "role": "staff",
+     "roleName": "Bullpen Catcher",
+     "person": {
+      "id": "p.larry-curiel",
+      "name": {
+       "full": "Larry Curiel"
+      },
+      "isCuban": false
+     }
+    },
+    {
      "personId": "p.jesus-sanchez",
+     "number": "82",
      "role": "staff",
      "roleName": "Bullpen Coach",
      "person": {
@@ -698,30 +819,6 @@
       "id": "p.juan-francia",
       "name": {
        "full": "Juan Francia"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.oscar-salazar",
-     "role": "staff",
-     "roleName": "Bench Coach",
-     "person": {
-      "id": "p.oscar-salazar",
-      "name": {
-       "full": "Oscar Salazar"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.ricky-bones",
-     "role": "staff",
-     "roleName": "Pitching Coach",
-     "person": {
-      "id": "p.ricky-bones",
-      "name": {
-       "full": "Ricky Bones"
       },
       "isCuban": false
      }

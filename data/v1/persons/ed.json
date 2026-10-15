@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "ed",
- "updatedAt": "2026-10-12T15:46:53Z",
+ "updatedAt": "2026-10-15T13:43:52Z",
  "persons": {
   "p.abdulakh-khaybulaev.2001": {
    "id": "p.abdulakh-khaybulaev.2001",
@@ -231,6 +231,34 @@
    "gender": "M",
    "sources": [
     "wbcboxing"
+   ]
+  },
+  "p.andres-nolaya.2005": {
+   "id": "p.andres-nolaya.2005",
+   "name": {
+    "full": "Andrés Nolaya",
+    "first": "Andrés",
+    "last": "Nolaya"
+   },
+   "birthDate": "2005-03-27",
+   "birthPlace": {
+    "city": "Maracaibo",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 180.3,
+    "weightKg": 83.9
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "800438"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.angel-aguilar.1995": {
@@ -1092,6 +1120,34 @@
     "espn"
    ]
   },
+  "p.jhon-gil.2007": {
+   "id": "p.jhon-gil.2007",
+   "name": {
+    "full": "Jhon Gil",
+    "first": "Jhon",
+    "last": "Gil"
+   },
+   "birthDate": "2007-12-15",
+   "birthPlace": {
+    "city": "Maracaibo",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 175.3,
+    "weightKg": 72.6
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "830459"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
   "p.jimmy-camacaro": {
    "id": "p.jimmy-camacaro",
    "name": {
@@ -1604,8 +1660,9 @@
     "first": "Lucas",
     "last": "Soto"
    },
-   "birthDate": "2003-02-24",
+   "birthDate": "1999-09-07",
    "nationalities": [
+    "AR",
     "CL"
    ],
    "isCuban": false,
