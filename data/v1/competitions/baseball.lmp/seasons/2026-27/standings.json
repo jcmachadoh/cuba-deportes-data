@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lmp:2026-27",
- "updatedAt": "2026-10-15T21:22:13Z",
+ "updatedAt": "2026-10-16T07:14:44Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,18 +18,18 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 1,
-      "W": 1,
+      "GP": 2,
+      "W": 2,
       "L": 0,
       "PCT": 1.0,
       "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
-      "HOME": "0-0",
+      "STRK": "W2",
+      "L10": "2-0",
+      "HOME": "1-0",
       "AWAY": "1-0",
-      "RS": 2,
-      "RA": 0,
-      "RD": 2
+      "RS": 7,
+      "RA": 4,
+      "RD": 3
      },
      "extra": {
       "leagueRank": "1"
@@ -40,18 +40,18 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 1,
-      "W": 1,
+      "GP": 2,
+      "W": 2,
       "L": 0,
       "PCT": 1.0,
       "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
+      "STRK": "W2",
+      "L10": "2-0",
       "HOME": "1-0",
-      "AWAY": "0-0",
-      "RS": 8,
-      "RA": 5,
-      "RD": 3
+      "AWAY": "1-0",
+      "RS": 19,
+      "RA": 13,
+      "RD": 6
      },
      "extra": {
       "leagueRank": "2"
@@ -62,124 +62,125 @@
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 1,
-      "W": 1,
+      "GP": 2,
+      "W": 2,
       "L": 0,
       "PCT": 1.0,
       "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
-      "HOME": "0-0",
+      "STRK": "W2",
+      "L10": "2-0",
+      "HOME": "1-0",
       "AWAY": "1-0",
-      "RS": 3,
-      "RA": 0,
-      "RD": 3
+      "RS": 9,
+      "RA": 2,
+      "RD": 7
      },
      "extra": {
       "leagueRank": "3"
      }
     },
     {
-     "participantId": "baseball.tomateros-de-culiacan",
+     "participantId": "baseball.yaquis-de-obregon",
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 1,
-      "W": 1,
+      "GP": 2,
+      "W": 2,
       "L": 0,
       "PCT": 1.0,
       "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
-      "HOME": "0-0",
-      "AWAY": "1-0",
-      "RS": 4,
-      "RA": 3,
-      "RD": 1
+      "STRK": "W2",
+      "L10": "2-0",
+      "HOME": "2-0",
+      "AWAY": "0-0",
+      "RS": 15,
+      "RA": 6,
+      "RD": 9
      },
      "extra": {
       "leagueRank": "4"
      }
     },
     {
-     "participantId": "baseball.yaquis-de-obregon",
+     "participantId": "baseball.tomateros-de-culiacan",
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 1,
-      "L": 0,
-      "PCT": 1.0,
-      "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
-      "HOME": "1-0",
-      "AWAY": "0-0",
-      "RS": 11,
-      "RA": 5,
-      "RD": 6
+      "L": 1,
+      "PCT": 0.5,
+      "STRK": "L1",
+      "L10": "1-1",
+      "HOME": "0-1",
+      "AWAY": "1-0",
+      "RS": 10,
+      "RA": 11,
+      "RD": -1
      },
      "extra": {
       "leagueRank": "5"
      }
     },
     {
-     "participantId": "baseball.aguilas-de-mexicali",
+     "participantId": "baseball.venados-de-mazatlan",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 1,
-      "W": 0,
+      "GP": 2,
+      "W": 1,
       "L": 1,
-      "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
+      "PCT": 0.5,
+      "STRK": "W1",
+      "L10": "1-1",
       "HOME": "0-1",
-      "AWAY": "0-0",
-      "RS": 0,
-      "RA": 3,
-      "RD": -3
+      "AWAY": "1-0",
+      "RS": 11,
+      "RA": 10,
+      "RD": 1
      },
      "extra": {
       "leagueRank": "6"
      }
     },
     {
-     "participantId": "baseball.caneros-de-los-mochis",
+     "participantId": "baseball.aguilas-de-mexicali",
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 0,
-      "L": 1,
+      "L": 2,
       "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
+      "GB": 1.0,
+      "STRK": "L2",
+      "L10": "0-2",
       "HOME": "0-1",
-      "AWAY": "0-0",
-      "RS": 0,
-      "RA": 2,
-      "RD": -2
+      "AWAY": "0-1",
+      "RS": 2,
+      "RA": 9,
+      "RD": -7
      },
      "extra": {
       "leagueRank": "7"
      }
     },
     {
-     "participantId": "baseball.jaguares-de-nayarit",
+     "participantId": "baseball.caneros-de-los-mochis",
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 0,
-      "L": 1,
+      "L": 2,
       "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
-      "HOME": "0-0",
+      "GB": 1.0,
+      "STRK": "L2",
+      "L10": "0-2",
+      "HOME": "0-1",
       "AWAY": "0-1",
-      "RS": 5,
-      "RA": 8,
+      "RS": 4,
+      "RA": 7,
       "RD": -3
      },
      "extra": {
@@ -187,20 +188,21 @@
      }
     },
     {
-     "participantId": "baseball.mayos-de-navojoa",
+     "participantId": "baseball.jaguares-de-nayarit",
      "participantType": "team",
      "rank": 9,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 0,
-      "L": 1,
+      "L": 2,
       "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
-      "HOME": "0-0",
+      "GB": 1.0,
+      "STRK": "L2",
+      "L10": "0-2",
+      "HOME": "0-1",
       "AWAY": "0-1",
-      "RS": 5,
-      "RA": 11,
+      "RS": 13,
+      "RA": 19,
       "RD": -6
      },
      "extra": {
@@ -208,21 +210,22 @@
      }
     },
     {
-     "participantId": "baseball.venados-de-mazatlan",
+     "participantId": "baseball.mayos-de-navojoa",
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 0,
-      "L": 1,
+      "L": 2,
       "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
-      "HOME": "0-1",
-      "AWAY": "0-0",
-      "RS": 3,
-      "RA": 4,
-      "RD": -1
+      "GB": 1.0,
+      "STRK": "L2",
+      "L10": "0-2",
+      "HOME": "0-0",
+      "AWAY": "0-2",
+      "RS": 6,
+      "RA": 15,
+      "RD": -9
      },
      "extra": {
       "leagueRank": "10"
