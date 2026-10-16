@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ita-1:2026-27",
- "updatedAt": "2026-10-12T22:58:43Z",
+ "updatedAt": "2026-10-16T21:07:07Z",
  "sources": [
   "espn"
  ],
@@ -98,9 +98,30 @@
      }
     },
     {
-     "participantId": "soccer.ac-milan",
+     "participantId": "soccer.frosinone",
      "participantType": "team",
      "rank": 5,
+     "stats": {
+      "GP": 7,
+      "W": 4,
+      "D": 1,
+      "L": 2,
+      "GF": 13,
+      "GA": 9,
+      "GD": 4,
+      "PTS": 13
+     },
+     "extra": {
+      "note": {
+       "text": "Europa League",
+       "color": "#B2BFD0"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.ac-milan",
+     "participantType": "team",
+     "rank": 6,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -121,7 +142,7 @@
     {
      "participantId": "soccer.juventus",
      "participantType": "team",
-     "rank": 6,
+     "rank": 7,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -134,7 +155,7 @@
      },
      "extra": {
       "note": {
-       "text": "Europa League",
+       "text": "Conference League qualifying",
        "color": "#B2BFD0"
       }
      }
@@ -142,7 +163,7 @@
     {
      "participantId": "soccer.como",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -152,18 +173,12 @@
       "GA": 6,
       "GD": 3,
       "PTS": 11
-     },
-     "extra": {
-      "note": {
-       "text": "Conference League qualifying",
-       "color": "#B2BFD0"
-      }
      }
     },
     {
      "participantId": "soccer.napoli",
      "participantType": "team",
-     "rank": 8,
+     "rank": 9,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -172,21 +187,6 @@
       "GF": 10,
       "GA": 6,
       "GD": 4,
-      "PTS": 10
-     }
-    },
-    {
-     "participantId": "soccer.frosinone",
-     "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 6,
-      "W": 3,
-      "D": 1,
-      "L": 2,
-      "GF": 9,
-      "GA": 7,
-      "GD": 2,
       "PTS": 10
      }
     },
@@ -210,13 +210,13 @@
      "participantType": "team",
      "rank": 11,
      "stats": {
-      "GP": 6,
+      "GP": 7,
       "W": 2,
       "D": 2,
-      "L": 2,
-      "GF": 10,
-      "GA": 10,
-      "GD": 0,
+      "L": 3,
+      "GF": 12,
+      "GA": 14,
+      "GD": -2,
       "PTS": 8
      }
     },

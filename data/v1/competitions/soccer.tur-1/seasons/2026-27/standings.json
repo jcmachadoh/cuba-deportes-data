@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.tur-1:2026-27",
- "updatedAt": "2026-10-12T22:58:46Z",
+ "updatedAt": "2026-10-16T21:07:11Z",
  "sources": [
   "espn"
  ],
@@ -113,9 +113,24 @@
      }
     },
     {
-     "participantId": "soccer.alanyaspor",
+     "participantId": "soccer.corum-fk",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 8,
+      "W": 4,
+      "D": 1,
+      "L": 3,
+      "GF": 18,
+      "GA": 13,
+      "GD": 5,
+      "PTS": 13
+     }
+    },
+    {
+     "participantId": "soccer.alanyaspor",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 7,
       "W": 3,
@@ -130,7 +145,7 @@
     {
      "participantId": "soccer.kocaelispor",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
       "GP": 7,
       "W": 4,
@@ -140,21 +155,6 @@
       "GA": 6,
       "GD": 2,
       "PTS": 12
-     }
-    },
-    {
-     "participantId": "soccer.corum-fk",
-     "participantType": "team",
-     "rank": 8,
-     "stats": {
-      "GP": 7,
-      "W": 3,
-      "D": 1,
-      "L": 3,
-      "GF": 16,
-      "GA": 12,
-      "GD": 4,
-      "PTS": 10
      }
     },
     {
@@ -177,13 +177,13 @@
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 3,
       "D": 1,
-      "L": 3,
-      "GF": 7,
-      "GA": 9,
-      "GD": -2,
+      "L": 4,
+      "GF": 8,
+      "GA": 11,
+      "GD": -3,
       "PTS": 10
      }
     },
