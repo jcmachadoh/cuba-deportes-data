@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ger-1:2026-27",
- "updatedAt": "2026-10-17T15:33:34Z",
+ "updatedAt": "2026-10-17T18:30:44Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,30 @@
    "name": "2026-27 German Bundesliga",
    "rows": [
     {
-     "participantId": "soccer.borussia-dortmund",
+     "participantId": "soccer.bayern-munich",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 6,
+      "W": 4,
+      "D": 2,
+      "L": 0,
+      "GF": 22,
+      "GA": 5,
+      "GD": 17,
+      "PTS": 14
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.borussia-dortmund",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 6,
       "W": 4,
@@ -37,7 +58,7 @@
     {
      "participantId": "soccer.sc-freiburg",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 5,
       "W": 4,
@@ -47,27 +68,6 @@
       "GA": 4,
       "GD": 10,
       "PTS": 13
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.bayern-munich",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 5,
-      "W": 3,
-      "D": 2,
-      "L": 0,
-      "GF": 16,
-      "GA": 4,
-      "GD": 12,
-      "PTS": 11
      },
      "extra": {
       "note": {
@@ -119,18 +119,18 @@
      }
     },
     {
-     "participantId": "soccer.rb-leipzig",
+     "participantId": "soccer.sv-elversberg",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 5,
+      "GP": 6,
       "W": 3,
-      "D": 0,
+      "D": 1,
       "L": 2,
-      "GF": 15,
-      "GA": 5,
-      "GD": 10,
-      "PTS": 9
+      "GF": 12,
+      "GA": 11,
+      "GD": 1,
+      "PTS": 10
      },
      "extra": {
       "note": {
@@ -140,17 +140,17 @@
      }
     },
     {
-     "participantId": "soccer.werder-bremen",
+     "participantId": "soccer.rb-leipzig",
      "participantType": "team",
      "rank": 7,
      "stats": {
       "GP": 6,
-      "W": 2,
-      "D": 3,
-      "L": 1,
-      "GF": 12,
-      "GA": 12,
-      "GD": 0,
+      "W": 3,
+      "D": 0,
+      "L": 3,
+      "GF": 16,
+      "GA": 11,
+      "GD": 5,
       "PTS": 9
      },
      "extra": {
@@ -161,9 +161,24 @@
      }
     },
     {
-     "participantId": "soccer.hamburg-sv",
+     "participantId": "soccer.werder-bremen",
      "participantType": "team",
      "rank": 8,
+     "stats": {
+      "GP": 6,
+      "W": 2,
+      "D": 3,
+      "L": 1,
+      "GF": 12,
+      "GA": 12,
+      "GD": 0,
+      "PTS": 9
+     }
+    },
+    {
+     "participantId": "soccer.hamburg-sv",
+     "participantType": "team",
+     "rank": 9,
      "stats": {
       "GP": 6,
       "W": 3,
@@ -178,22 +193,22 @@
     {
      "participantId": "soccer.fc-augsburg",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
-      "GP": 5,
+      "GP": 6,
       "W": 2,
       "D": 2,
-      "L": 1,
-      "GF": 13,
-      "GA": 8,
-      "GD": 5,
+      "L": 2,
+      "GF": 16,
+      "GA": 12,
+      "GD": 4,
       "PTS": 8
      }
     },
     {
      "participantId": "soccer.eintracht-frankfurt",
      "participantType": "team",
-     "rank": 10,
+     "rank": 11,
      "stats": {
       "GP": 6,
       "W": 2,
@@ -203,21 +218,6 @@
       "GA": 16,
       "GD": -6,
       "PTS": 8
-     }
-    },
-    {
-     "participantId": "soccer.sv-elversberg",
-     "participantType": "team",
-     "rank": 11,
-     "stats": {
-      "GP": 5,
-      "W": 2,
-      "D": 1,
-      "L": 2,
-      "GF": 8,
-      "GA": 8,
-      "GD": 0,
-      "PTS": 7
      }
     },
     {
