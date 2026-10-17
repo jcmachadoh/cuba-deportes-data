@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.eng-1:2026-27",
- "updatedAt": "2026-10-12T22:58:41Z",
+ "updatedAt": "2026-10-17T15:33:32Z",
  "sources": [
   "espn"
  ],
@@ -77,9 +77,30 @@
      }
     },
     {
-     "participantId": "soccer.brentford",
+     "participantId": "soccer.chelsea",
      "participantType": "team",
      "rank": 4,
+     "stats": {
+      "GP": 7,
+      "W": 4,
+      "D": 1,
+      "L": 2,
+      "GF": 17,
+      "GA": 13,
+      "GD": 4,
+      "PTS": 13
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.brentford",
+     "participantType": "team",
+     "rank": 5,
      "stats": {
       "GP": 6,
       "W": 2,
@@ -92,44 +113,23 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.everton",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 6,
-      "W": 2,
-      "D": 4,
-      "L": 0,
-      "GF": 8,
-      "GA": 5,
-      "GD": 3,
-      "PTS": 10
-     },
-     "extra": {
-      "note": {
        "text": "Europa League",
        "color": "##B5E7CE"
       }
      }
     },
     {
-     "participantId": "soccer.chelsea",
+     "participantId": "soccer.everton",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 6,
-      "W": 3,
-      "D": 1,
-      "L": 2,
-      "GF": 15,
-      "GA": 13,
-      "GD": 2,
+      "GP": 7,
+      "W": 2,
+      "D": 4,
+      "L": 1,
+      "GF": 8,
+      "GA": 7,
+      "GD": 1,
       "PTS": 10
      }
     },
