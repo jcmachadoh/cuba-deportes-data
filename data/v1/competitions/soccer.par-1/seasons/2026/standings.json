@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.par-1:2026",
- "updatedAt": "2026-10-17T00:29:00Z",
+ "updatedAt": "2026-10-17T22:17:58Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,24 @@
    "name": "Torneo Clausura 2026",
    "rows": [
     {
-     "participantId": "soccer.2-de-mayo",
+     "participantId": "soccer.nacional-asuncion",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 15,
+      "W": 8,
+      "D": 5,
+      "L": 2,
+      "GF": 23,
+      "GA": 8,
+      "GD": 15,
+      "PTS": 29
+     }
+    },
+    {
+     "participantId": "soccer.2-de-mayo",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 14,
       "W": 8,
@@ -31,7 +46,7 @@
     {
      "participantId": "soccer.club-olimpia",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 14,
       "W": 8,
@@ -46,7 +61,7 @@
     {
      "participantId": "soccer.libertad",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 14,
       "W": 8,
@@ -56,21 +71,6 @@
       "GA": 16,
       "GD": 7,
       "PTS": 27
-     }
-    },
-    {
-     "participantId": "soccer.nacional-asuncion",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 14,
-      "W": 7,
-      "D": 5,
-      "L": 2,
-      "GF": 21,
-      "GA": 8,
-      "GD": 13,
-      "PTS": 26
      }
     },
     {
@@ -93,13 +93,13 @@
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 14,
+      "GP": 15,
       "W": 5,
       "D": 7,
-      "L": 2,
+      "L": 3,
       "GF": 16,
-      "GA": 12,
-      "GD": 4,
+      "GA": 14,
+      "GD": 2,
       "PTS": 22
      }
     },

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.arg-1:2026",
- "updatedAt": "2026-10-17T06:57:01Z",
+ "updatedAt": "2026-10-17T22:17:53Z",
  "sources": [
   "espn"
  ],
@@ -245,9 +245,24 @@
    "name": "Group B",
    "rows": [
     {
-     "participantId": "soccer.rosario-central",
+     "participantId": "soccer.argentinos-juniors",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 13,
+      "W": 7,
+      "D": 4,
+      "L": 2,
+      "GF": 17,
+      "GA": 11,
+      "GD": 6,
+      "PTS": 25
+     }
+    },
+    {
+     "participantId": "soccer.rosario-central",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 12,
       "W": 6,
@@ -262,7 +277,7 @@
     {
      "participantId": "soccer.belgrano-cordoba",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 12,
       "W": 6,
@@ -271,21 +286,6 @@
       "GF": 14,
       "GA": 7,
       "GD": 7,
-      "PTS": 22
-     }
-    },
-    {
-     "participantId": "soccer.argentinos-juniors",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 12,
-      "W": 6,
-      "D": 4,
-      "L": 2,
-      "GF": 16,
-      "GA": 11,
-      "GD": 5,
       "PTS": 22
      }
     },
@@ -399,13 +399,13 @@
      "participantType": "team",
      "rank": 11,
      "stats": {
-      "GP": 12,
+      "GP": 13,
       "W": 3,
       "D": 4,
-      "L": 5,
+      "L": 6,
       "GF": 14,
-      "GA": 18,
-      "GD": -4,
+      "GA": 19,
+      "GD": -5,
       "PTS": 13
      }
     },
