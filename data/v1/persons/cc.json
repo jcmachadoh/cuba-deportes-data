@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "cc",
- "updatedAt": "2026-10-15T11:49:58Z",
+ "updatedAt": "2026-10-17T12:33:17Z",
  "persons": {
   "p.aboubakary-koita.1998": {
    "id": "p.aboubakary-koita.1998",
@@ -863,6 +863,26 @@
    "sources": [
     "mlb-statsapi"
    ]
+  },
+  "p.emil-schmidek": {
+   "id": "p.emil-schmidek",
+   "name": {
+    "full": "Emil Schmidek"
+   },
+   "nationalities": [
+    "DE"
+   ],
+   "isCuban": false,
+   "title": "IM",
+   "externalIds": {
+    "fide": "12908150"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "GER"
+   }
   },
   "p.erich-uelmen.1996": {
    "id": "p.erich-uelmen.1996",
@@ -2130,11 +2150,13 @@
     "fide": "13429078"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "AZE"
-   }
+   },
+   "title": "IM"
   },
   "p.shoma-fujihira.1998": {
    "id": "p.shoma-fujihira.1998",
