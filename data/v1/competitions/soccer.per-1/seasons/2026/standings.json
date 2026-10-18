@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.per-1:2026",
- "updatedAt": "2026-10-18T04:31:54Z",
+ "updatedAt": "2026-10-18T18:38:24Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,24 @@
    "name": "2026 Clausura",
    "rows": [
     {
-     "participantId": "soccer.sport-huancayo",
+     "participantId": "soccer.sporting-cristal",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 12,
+      "W": 8,
+      "D": 1,
+      "L": 3,
+      "GF": 25,
+      "GA": 12,
+      "GD": 13,
+      "PTS": 25
+     }
+    },
+    {
+     "participantId": "soccer.sport-huancayo",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 12,
       "W": 8,
@@ -26,21 +41,6 @@
       "GA": 14,
       "GD": 5,
       "PTS": 25
-     }
-    },
-    {
-     "participantId": "soccer.sporting-cristal",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 11,
-      "W": 7,
-      "D": 1,
-      "L": 3,
-      "GF": 21,
-      "GA": 10,
-      "GD": 11,
-      "PTS": 22
      }
     },
     {
@@ -228,13 +228,13 @@
      "participantType": "team",
      "rank": 15,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 2,
       "D": 4,
-      "L": 5,
-      "GF": 18,
-      "GA": 19,
-      "GD": -1,
+      "L": 6,
+      "GF": 20,
+      "GA": 23,
+      "GD": -3,
       "PTS": 10
      }
     },
