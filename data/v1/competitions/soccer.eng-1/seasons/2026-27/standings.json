@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.eng-1:2026-27",
- "updatedAt": "2026-10-17T18:30:42Z",
+ "updatedAt": "2026-10-18T15:51:41Z",
  "sources": [
   "espn"
  ],
@@ -35,18 +35,18 @@
      }
     },
     {
-     "participantId": "soccer.arsenal",
+     "participantId": "soccer.brighton-hove-albion",
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 6,
+      "GP": 7,
       "W": 5,
-      "D": 0,
+      "D": 1,
       "L": 1,
-      "GF": 10,
+      "GF": 23,
       "GA": 5,
-      "GD": 5,
-      "PTS": 15
+      "GD": 18,
+      "PTS": 16
      },
      "extra": {
       "note": {
@@ -56,18 +56,18 @@
      }
     },
     {
-     "participantId": "soccer.brighton-hove-albion",
+     "participantId": "soccer.arsenal",
      "participantType": "team",
      "rank": 3,
      "stats": {
       "GP": 6,
-      "W": 4,
-      "D": 1,
+      "W": 5,
+      "D": 0,
       "L": 1,
-      "GF": 18,
+      "GF": 10,
       "GA": 5,
-      "GD": 13,
-      "PTS": 13
+      "GD": 5,
+      "PTS": 15
      },
      "extra": {
       "note": {
@@ -134,9 +134,24 @@
      }
     },
     {
-     "participantId": "soccer.everton",
+     "participantId": "soccer.leeds-united",
      "participantType": "team",
      "rank": 7,
+     "stats": {
+      "GP": 7,
+      "W": 2,
+      "D": 4,
+      "L": 1,
+      "GF": 9,
+      "GA": 6,
+      "GD": 3,
+      "PTS": 10
+     }
+    },
+    {
+     "participantId": "soccer.everton",
+     "participantType": "team",
+     "rank": 8,
      "stats": {
       "GP": 7,
       "W": 2,
@@ -146,21 +161,6 @@
       "GA": 7,
       "GD": 1,
       "PTS": 10
-     }
-    },
-    {
-     "participantId": "soccer.leeds-united",
-     "participantType": "team",
-     "rank": 8,
-     "stats": {
-      "GP": 6,
-      "W": 2,
-      "D": 3,
-      "L": 1,
-      "GF": 8,
-      "GA": 5,
-      "GD": 3,
-      "PTS": 9
      }
     },
     {
@@ -224,39 +224,54 @@
      }
     },
     {
-     "participantId": "soccer.crystal-palace",
+     "participantId": "soccer.manchester-united",
      "participantType": "team",
      "rank": 13,
      "stats": {
-      "GP": 6,
-      "W": 2,
-      "D": 1,
-      "L": 3,
-      "GF": 9,
-      "GA": 12,
-      "GD": -3,
+      "GP": 7,
+      "W": 1,
+      "D": 4,
+      "L": 2,
+      "GF": 10,
+      "GA": 10,
+      "GD": 0,
       "PTS": 7
      }
     },
     {
-     "participantId": "soccer.manchester-united",
+     "participantId": "soccer.crystal-palace",
      "participantType": "team",
      "rank": 14,
      "stats": {
-      "GP": 6,
+      "GP": 7,
+      "W": 2,
+      "D": 1,
+      "L": 4,
+      "GF": 9,
+      "GA": 17,
+      "GD": -8,
+      "PTS": 7
+     }
+    },
+    {
+     "participantId": "soccer.afc-bournemouth",
+     "participantType": "team",
+     "rank": 15,
+     "stats": {
+      "GP": 7,
       "W": 1,
       "D": 3,
-      "L": 2,
+      "L": 3,
       "GF": 9,
-      "GA": 9,
-      "GD": 0,
+      "GA": 13,
+      "GD": -4,
       "PTS": 6
      }
     },
     {
      "participantId": "soccer.coventry-city",
      "participantType": "team",
-     "rank": 15,
+     "rank": 16,
      "stats": {
       "GP": 6,
       "W": 2,
@@ -271,7 +286,7 @@
     {
      "participantId": "soccer.fulham",
      "participantType": "team",
-     "rank": 16,
+     "rank": 17,
      "stats": {
       "GP": 7,
       "W": 1,
@@ -286,7 +301,7 @@
     {
      "participantId": "soccer.nottingham-forest",
      "participantType": "team",
-     "rank": 17,
+     "rank": 18,
      "stats": {
       "GP": 6,
       "W": 1,
@@ -296,21 +311,6 @@
       "GA": 8,
       "GD": -3,
       "PTS": 5
-     }
-    },
-    {
-     "participantId": "soccer.sunderland",
-     "participantType": "team",
-     "rank": 18,
-     "stats": {
-      "GP": 6,
-      "W": 1,
-      "D": 1,
-      "L": 4,
-      "GF": 6,
-      "GA": 12,
-      "GD": -6,
-      "PTS": 4
      },
      "extra": {
       "note": {
@@ -320,18 +320,18 @@
      }
     },
     {
-     "participantId": "soccer.afc-bournemouth",
+     "participantId": "soccer.sunderland",
      "participantType": "team",
      "rank": 19,
      "stats": {
-      "GP": 6,
-      "W": 0,
-      "D": 3,
-      "L": 3,
-      "GF": 7,
-      "GA": 13,
-      "GD": -6,
-      "PTS": 3
+      "GP": 7,
+      "W": 1,
+      "D": 1,
+      "L": 5,
+      "GF": 6,
+      "GA": 14,
+      "GD": -8,
+      "PTS": 4
      },
      "extra": {
       "note": {
