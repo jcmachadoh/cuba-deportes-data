@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.tigres-de-aragua:2026-27",
- "updatedAt": "2026-10-15T13:41:08Z",
+ "updatedAt": "2026-10-18T12:47:59Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.tigres-de-aragua",
  "competitionId": "baseball.lvbp",
  "season": "2026-27",
- "count": 43,
+ "count": 44,
  "groups": [
   {
    "code": "P",
@@ -231,6 +231,24 @@
       "birthDate": "1999-05-11",
       "isCuban": false,
       "birthCountry": "US"
+     }
+    },
+    {
+     "personId": "p.luis-rijo.1998",
+     "number": "60",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.luis-rijo.1998",
+      "name": {
+       "full": "Luis Rijo",
+       "first": "Luis",
+       "last": "Rijo"
+      },
+      "birthDate": "1998-09-06",
+      "isCuban": false,
+      "birthCountry": "VE"
      }
     },
     {
@@ -662,95 +680,8 @@
    },
    "players": [
     {
-     "personId": "p.angel-tovar",
-     "role": "staff",
-     "roleName": "Quality Control Coach",
-     "person": {
-      "id": "p.angel-tovar",
-      "name": {
-       "full": "Angel Tovar"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.cibney-bello",
-     "role": "staff",
-     "roleName": "Pitching Coach",
-     "person": {
-      "id": "p.cibney-bello",
-      "name": {
-       "full": "Cibney Bello"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.guillermo-moscoso",
-     "role": "staff",
-     "roleName": "Bullpen Coach",
-     "person": {
-      "id": "p.guillermo-moscoso",
-      "name": {
-       "full": "Guillermo Moscoso",
-       "first": "Guillermo",
-       "last": "Moscoso"
-      },
-      "birthDate": "1983-11-14",
-      "isCuban": false,
-      "birthCountry": "VE"
-     }
-    },
-    {
-     "personId": "p.hensley-meulens",
-     "role": "staff",
-     "roleName": "Batting Coach",
-     "person": {
-      "id": "p.hensley-meulens",
-      "name": {
-       "full": "Hensley Meulens"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.miguel-perez",
-     "role": "staff",
-     "roleName": "Manager",
-     "person": {
-      "id": "p.miguel-perez",
-      "name": {
-       "full": "Miguel Perez"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.ramon-hernandez",
-     "role": "staff",
-     "roleName": "Bench Coach",
-     "person": {
-      "id": "p.ramon-hernandez",
-      "name": {
-       "full": "Ramon Hernandez"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.russell-vazquez",
-     "role": "staff",
-     "roleName": "Third Base Coach",
-     "person": {
-      "id": "p.russell-vazquez",
-      "name": {
-       "full": "Russell Vazquez"
-      },
-      "isCuban": false
-     }
-    },
-    {
      "personId": "p.victor-oramas",
+     "number": "25",
      "role": "staff",
      "roleName": "First Base Coach",
      "person": {
@@ -763,6 +694,7 @@
     },
     {
      "personId": "p.yorvit-torrealba",
+     "number": "30",
      "role": "staff",
      "roleName": "Catching Coach",
      "person": {
@@ -771,6 +703,101 @@
        "full": "Yorvit Torrealba"
       },
       "isCuban": false
+     }
+    },
+    {
+     "personId": "p.hensley-meulens",
+     "number": "31",
+     "role": "staff",
+     "roleName": "Batting Coach",
+     "person": {
+      "id": "p.hensley-meulens",
+      "name": {
+       "full": "Hensley Meulens"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.miguel-perez",
+     "number": "41",
+     "role": "staff",
+     "roleName": "Manager",
+     "person": {
+      "id": "p.miguel-perez",
+      "name": {
+       "full": "Miguel Perez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.angel-tovar",
+     "number": "42",
+     "role": "staff",
+     "roleName": "Quality Control Coach",
+     "person": {
+      "id": "p.angel-tovar",
+      "name": {
+       "full": "Angel Tovar"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.russell-vazquez",
+     "number": "49",
+     "role": "staff",
+     "roleName": "Third Base Coach",
+     "person": {
+      "id": "p.russell-vazquez",
+      "name": {
+       "full": "Russell Vazquez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.ramon-hernandez",
+     "number": "55",
+     "role": "staff",
+     "roleName": "Bench Coach",
+     "person": {
+      "id": "p.ramon-hernandez",
+      "name": {
+       "full": "Ramon Hernandez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.cibney-bello",
+     "number": "67",
+     "role": "staff",
+     "roleName": "Pitching Coach",
+     "person": {
+      "id": "p.cibney-bello",
+      "name": {
+       "full": "Cibney Bello"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.guillermo-moscoso",
+     "number": "70",
+     "role": "staff",
+     "roleName": "Bullpen Coach",
+     "person": {
+      "id": "p.guillermo-moscoso",
+      "name": {
+       "full": "Guillermo Moscoso",
+       "first": "Guillermo",
+       "last": "Moscoso"
+      },
+      "birthDate": "1983-11-14",
+      "isCuban": false,
+      "birthCountry": "VE"
      }
     }
    ]

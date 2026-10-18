@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.yaquis-de-obregon:2026-27",
- "updatedAt": "2026-10-15T13:41:14Z",
+ "updatedAt": "2026-10-18T12:48:05Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.yaquis-de-obregon",
  "competitionId": "baseball.lmp",
  "season": "2026-27",
- "count": 30,
+ "count": 41,
  "groups": [
   {
    "code": "P",
@@ -147,6 +147,24 @@
      }
     },
     {
+     "personId": "p.dominic-pipkin.1999",
+     "number": "51",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.dominic-pipkin.1999",
+      "name": {
+       "full": "Dominic Pipkin",
+       "first": "Dominic",
+       "last": "Pipkin"
+      },
+      "birthDate": "1999-11-05",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
+    {
      "personId": "p.edgar-gallegos.2006",
      "number": "52",
      "position": "P",
@@ -183,6 +201,24 @@
      }
     },
     {
+     "personId": "p.fineas-del-bonta-smith.1997",
+     "number": "57",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.fineas-del-bonta-smith.1997",
+      "name": {
+       "full": "Fineas Del Bonta-Smith",
+       "first": "Fineas",
+       "last": "Del Bonta-Smith"
+      },
+      "birthDate": "1997-02-02",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
+    {
      "personId": "p.edwin-fierro.1993",
      "number": "58",
      "position": "P",
@@ -196,24 +232,6 @@
        "last": "Fierro"
       },
       "birthDate": "1993-08-30",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
-    },
-    {
-     "personId": "p.jesus-broca.2003",
-     "number": "60",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.jesus-broca.2003",
-      "name": {
-       "full": "Jesús Broca",
-       "first": "Jesús",
-       "last": "Broca"
-      },
-      "birthDate": "2003-10-16",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -333,24 +351,6 @@
       "isCuban": false,
       "birthCountry": "MX"
      }
-    },
-    {
-     "personId": "p.jesus-guerrero.2007",
-     "number": "90",
-     "position": "C",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.jesus-guerrero.2007",
-      "name": {
-       "full": "Jesus Guerrero",
-       "first": "Jesus",
-       "last": "Guerrero"
-      },
-      "birthDate": "2007-05-21",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
     }
    ]
   },
@@ -360,6 +360,24 @@
     "es": "Jugadores de cuadro"
    },
    "players": [
+    {
+     "personId": "p.kevin-villavicencio.2003",
+     "number": "1",
+     "position": "SS",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.kevin-villavicencio.2003",
+      "name": {
+       "full": "Kevin Villavicencio",
+       "first": "Kevin",
+       "last": "Villavicencio"
+      },
+      "birthDate": "2003-11-24",
+      "isCuban": false,
+      "birthCountry": "MX"
+     }
+    },
     {
      "personId": "p.luis-urias.1997",
      "number": "3",
@@ -410,24 +428,6 @@
        "last": "Perez"
       },
       "birthDate": "1993-09-13",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
-    },
-    {
-     "personId": "p.kevin-villavicencio.2003",
-     "number": "23",
-     "position": "SS",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.kevin-villavicencio.2003",
-      "name": {
-       "full": "Kevin Villavicencio",
-       "first": "Kevin",
-       "last": "Villavicencio"
-      },
-      "birthDate": "2003-11-24",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -582,6 +582,157 @@
       "birthDate": "2004-03-16",
       "isCuban": false,
       "birthCountry": "MX"
+     }
+    }
+   ]
+  },
+  {
+   "code": "STAFF",
+   "name": {
+    "es": "Cuerpo técnico"
+   },
+   "players": [
+    {
+     "personId": "p.ivan-cervantes",
+     "number": "2",
+     "role": "staff",
+     "roleName": "Third Base Coach",
+     "person": {
+      "id": "p.ivan-cervantes",
+      "name": {
+       "full": "Ivan Cervantes"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.mario-mendoza",
+     "number": "16",
+     "role": "staff",
+     "roleName": "Bullpen Coach",
+     "person": {
+      "id": "p.mario-mendoza",
+      "name": {
+       "full": "Mario Mendoza"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.jose-mosquera",
+     "number": "19",
+     "role": "staff",
+     "roleName": "Manager",
+     "person": {
+      "id": "p.jose-mosquera",
+      "name": {
+       "full": "Jose Mosquera"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.tavo-alvarez",
+     "number": "31",
+     "role": "staff",
+     "roleName": "Pitching Coach",
+     "person": {
+      "id": "p.tavo-alvarez",
+      "name": {
+       "full": "Tavo Alvarez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.emmanuel-valdez",
+     "number": "32",
+     "role": "staff",
+     "roleName": "Catching Coach",
+     "person": {
+      "id": "p.emmanuel-valdez",
+      "name": {
+       "full": "Emmanuel Valdez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.jesus-lopez",
+     "number": "34",
+     "role": "staff",
+     "roleName": "Coach",
+     "person": {
+      "id": "p.jesus-lopez",
+      "name": {
+       "full": "Jesus Lopez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.sergio-gastelum",
+     "number": "40",
+     "role": "staff",
+     "roleName": "Bench Coach",
+     "person": {
+      "id": "p.sergio-gastelum",
+      "name": {
+       "full": "Sergio Gastelum"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.carlos-rivera",
+     "number": "44",
+     "role": "staff",
+     "roleName": "Assistant Hitting Coach",
+     "person": {
+      "id": "p.carlos-rivera",
+      "name": {
+       "full": "Carlos Rivera"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.matias-carrillo",
+     "number": "48",
+     "role": "staff",
+     "roleName": "First Base Coach",
+     "person": {
+      "id": "p.matias-carrillo",
+      "name": {
+       "full": "Matias Carrillo"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.hector-alvarez-2",
+     "number": "81",
+     "role": "staff",
+     "roleName": "Coach",
+     "person": {
+      "id": "p.hector-alvarez-2",
+      "name": {
+       "full": "Hector Alvarez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.carlos-sievers",
+     "number": "85",
+     "role": "staff",
+     "roleName": "Hitting Coach",
+     "person": {
+      "id": "p.carlos-sievers",
+      "name": {
+       "full": "Carlos Sievers"
+      },
+      "isCuban": false
      }
     }
    ]

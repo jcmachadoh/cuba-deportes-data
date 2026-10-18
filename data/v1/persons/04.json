@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "04",
- "updatedAt": "2026-10-18T11:25:23Z",
+ "updatedAt": "2026-10-18T12:47:54Z",
  "persons": {
   "p.abdel-grado": {
    "id": "p.abdel-grado",
@@ -1382,6 +1382,34 @@
    "extra": {
     "federation": "SWE"
    }
+  },
+  "p.john-gil.2006": {
+   "id": "p.john-gil.2006",
+   "name": {
+    "full": "John Gil",
+    "first": "John",
+    "last": "Gil"
+   },
+   "birthDate": "2006-05-14",
+   "birthPlace": {
+    "city": "Santo Domingo",
+    "country": "DO"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 180.3,
+    "weightKg": 79.4
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "808535"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
   },
   "p.johnny-cueto.1986": {
    "id": "p.johnny-cueto.1986",

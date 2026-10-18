@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.aguilas-de-mexicali:2026-27",
- "updatedAt": "2026-10-15T13:41:14Z",
+ "updatedAt": "2026-10-18T12:48:05Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,19 +18,19 @@
    },
    "players": [
     {
-     "personId": "p.alain-pena.2003",
-     "number": "18",
+     "personId": "p.yamil-castillo.1999",
+     "number": "6",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.alain-pena.2003",
+      "id": "p.yamil-castillo.1999",
       "name": {
-       "full": "Alain Pena",
-       "first": "Alain",
-       "last": "Pena"
+       "full": "Yamil Castillo",
+       "first": "Yamil",
+       "last": "Castillo"
       },
-      "birthDate": "2003-04-10",
+      "birthDate": "1999-08-18",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -69,6 +69,42 @@
       "birthDate": "2002-09-16",
       "isCuban": false,
       "birthCountry": "MX"
+     }
+    },
+    {
+     "personId": "p.fernando-lozano.2000",
+     "number": "36",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.fernando-lozano.2000",
+      "name": {
+       "full": "Fernando Lozano",
+       "first": "Fernando",
+       "last": "Lozano"
+      },
+      "birthDate": "2000-01-11",
+      "isCuban": false,
+      "birthCountry": "MX"
+     }
+    },
+    {
+     "personId": "p.jake-garland.2000",
+     "number": "38",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.jake-garland.2000",
+      "name": {
+       "full": "Jake Garland",
+       "first": "Jake",
+       "last": "Garland"
+      },
+      "birthDate": "2000-09-26",
+      "isCuban": false,
+      "birthCountry": "US"
      }
     },
     {
@@ -180,24 +216,6 @@
      }
     },
     {
-     "personId": "p.sergio-garcia-repper.2004",
-     "number": "64",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.sergio-garcia-repper.2004",
-      "name": {
-       "full": "Sergio Garcia-Repper",
-       "first": "Sergio",
-       "last": "Garcia-Repper"
-      },
-      "birthDate": "2004-04-15",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
-    },
-    {
      "personId": "p.alonso-becerra.2004",
      "number": "66",
      "position": "P",
@@ -249,24 +267,6 @@
       "birthDate": "1992-09-26",
       "isCuban": false,
       "birthCountry": "US"
-     }
-    },
-    {
-     "personId": "p.daniel-nunez.2003",
-     "number": "93",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.daniel-nunez.2003",
-      "name": {
-       "full": "Daniel Nunez",
-       "first": "Daniel",
-       "last": "Nunez"
-      },
-      "birthDate": "2003-03-04",
-      "isCuban": false,
-      "birthCountry": "MX"
      }
     },
     {
@@ -430,21 +430,21 @@
      }
     },
     {
-     "personId": "p.roberto-ramos.1994",
+     "personId": "p.phillip-evans.1992",
      "number": "25",
-     "position": "1B",
+     "position": "3B",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.roberto-ramos.1994",
+      "id": "p.phillip-evans.1992",
       "name": {
-       "full": "Roberto Ramos",
-       "first": "Roberto",
-       "last": "Ramos"
+       "full": "Phillip Evans",
+       "first": "Phillip",
+       "last": "Evans"
       },
-      "birthDate": "1994-12-28",
+      "birthDate": "1992-09-10",
       "isCuban": false,
-      "birthCountry": "MX"
+      "birthCountry": "US"
      }
     },
     {
@@ -681,23 +681,6 @@
      }
     },
     {
-     "personId": "p.carlos-m-rodriguez",
-     "number": "38",
-     "role": "staff",
-     "roleName": "Catching Coach",
-     "person": {
-      "id": "p.carlos-m-rodriguez",
-      "name": {
-       "full": "Carlos M. Rodriguez",
-       "first": "Carlos M.",
-       "last": "Rodriguez"
-      },
-      "birthDate": "1981-12-26",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
-    },
-    {
      "personId": "p.bronswell-patrick",
      "number": "44",
      "role": "staff",
@@ -712,7 +695,7 @@
     },
     {
      "personId": "p.martin-enriquez",
-     "number": "55",
+     "number": "44",
      "role": "staff",
      "roleName": "Pitching Coach",
      "person": {
@@ -721,6 +704,23 @@
        "full": "Martin Enriquez"
       },
       "isCuban": false
+     }
+    },
+    {
+     "personId": "p.carlos-m-rodriguez",
+     "number": "53",
+     "role": "staff",
+     "roleName": "Catching Coach",
+     "person": {
+      "id": "p.carlos-m-rodriguez",
+      "name": {
+       "full": "Carlos M. Rodriguez",
+       "first": "Carlos M.",
+       "last": "Rodriguez"
+      },
+      "birthDate": "1981-12-26",
+      "isCuban": false,
+      "birthCountry": "MX"
      }
     },
     {

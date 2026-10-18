@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "8a",
- "updatedAt": "2026-10-15T13:41:08Z",
+ "updatedAt": "2026-10-18T12:47:54Z",
  "persons": {
   "p.adam-morgan.1990": {
    "id": "p.adam-morgan.1990",
@@ -1404,6 +1404,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.juan-carela.2001": {
+   "id": "p.juan-carela.2001",
+   "name": {
+    "full": "Juan Carela",
+    "first": "Juan",
+    "last": "Carela"
+   },
+   "birthDate": "2001-12-15",
+   "birthPlace": {
+    "city": "Samana",
+    "country": "DO"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 190.5,
+    "weightKg": 88.5
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "683636"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.juan-francisco.1987": {
