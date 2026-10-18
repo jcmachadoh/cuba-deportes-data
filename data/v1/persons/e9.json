@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "e9",
- "updatedAt": "2026-10-11T15:05:58Z",
+ "updatedAt": "2026-10-18T11:25:22Z",
  "persons": {
   "p.abel-fabian-lopez-gonzalez.1997": {
    "id": "p.abel-fabian-lopez-gonzalez.1997",
@@ -310,6 +310,26 @@
     "espn"
    ]
   },
+  "p.anthony-wirig": {
+   "id": "p.anthony-wirig",
+   "name": {
+    "full": "Anthony Wirig"
+   },
+   "nationalities": [
+    "FR"
+   ],
+   "isCuban": false,
+   "title": "GM",
+   "externalIds": {
+    "fide": "615013"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "FRA"
+   }
+  },
   "p.beau-amaral.1991": {
    "id": "p.beau-amaral.1991",
    "name": {
@@ -404,11 +424,13 @@
     "fide": "2805677"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "ISR"
-   }
+   },
+   "title": "GM"
   },
   "p.brandon-marsh.1997": {
    "id": "p.brandon-marsh.1997",
