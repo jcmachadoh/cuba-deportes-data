@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lidom:2026-27",
- "updatedAt": "2026-10-17T06:56:48Z",
+ "updatedAt": "2026-10-18T04:31:38Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,18 +18,18 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 1,
-      "W": 1,
+      "GP": 2,
+      "W": 2,
       "L": 0,
       "PCT": 1.0,
       "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
-      "HOME": "0-0",
+      "STRK": "W2",
+      "L10": "2-0",
+      "HOME": "1-0",
       "AWAY": "1-0",
-      "RS": 11,
-      "RA": 0,
-      "RD": 11
+      "RS": 19,
+      "RA": 3,
+      "RD": 16
      },
      "extra": {
       "leagueRank": "1"
@@ -40,18 +40,18 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 1,
-      "W": 1,
+      "GP": 2,
+      "W": 2,
       "L": 0,
       "PCT": 1.0,
       "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
+      "STRK": "W2",
+      "L10": "2-0",
       "HOME": "1-0",
-      "AWAY": "0-0",
-      "RS": 4,
-      "RA": 1,
-      "RD": 3
+      "AWAY": "1-0",
+      "RS": 11,
+      "RA": 2,
+      "RD": 9
      },
      "extra": {
       "leagueRank": "2"
@@ -62,81 +62,82 @@
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 1,
-      "L": 0,
-      "PCT": 1.0,
-      "GB": -1.0,
-      "STRK": "W1",
-      "L10": "1-0",
-      "HOME": "0-0",
+      "L": 1,
+      "PCT": 0.5,
+      "STRK": "L1",
+      "L10": "1-1",
+      "HOME": "0-1",
       "AWAY": "1-0",
-      "RS": 12,
-      "RA": 2,
-      "RD": 10
+      "RS": 13,
+      "RA": 9,
+      "RD": 4
      },
      "extra": {
       "leagueRank": "3"
      }
     },
     {
-     "participantId": "baseball.aguilas-cibaenas",
+     "participantId": "baseball.toros-del-este",
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 1,
-      "W": 0,
+      "GP": 2,
+      "W": 1,
       "L": 1,
-      "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
-      "HOME": "0-0",
-      "AWAY": "0-1",
-      "RS": 1,
-      "RA": 4,
-      "RD": -3
+      "PCT": 0.5,
+      "STRK": "W1",
+      "L10": "1-1",
+      "HOME": "0-1",
+      "AWAY": "1-0",
+      "RS": 5,
+      "RA": 14,
+      "RD": -9
      },
      "extra": {
       "leagueRank": "4"
      }
     },
     {
-     "participantId": "baseball.leones-del-escogido",
+     "participantId": "baseball.aguilas-cibaenas",
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 0,
-      "L": 1,
+      "L": 2,
       "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
+      "GB": 1.0,
+      "STRK": "L2",
+      "L10": "0-2",
       "HOME": "0-1",
-      "AWAY": "0-0",
-      "RS": 2,
-      "RA": 12,
-      "RD": -10
+      "AWAY": "0-1",
+      "RS": 4,
+      "RA": 9,
+      "RD": -5
      },
      "extra": {
       "leagueRank": "5"
      }
     },
     {
-     "participantId": "baseball.toros-del-este",
+     "participantId": "baseball.leones-del-escogido",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 0,
-      "L": 1,
+      "L": 2,
       "PCT": 0.0,
-      "STRK": "L1",
-      "L10": "0-1",
+      "GB": 1.0,
+      "STRK": "L2",
+      "L10": "0-2",
       "HOME": "0-1",
-      "AWAY": "0-0",
-      "RS": 0,
-      "RA": 11,
-      "RD": -11
+      "AWAY": "0-1",
+      "RS": 5,
+      "RA": 20,
+      "RD": -15
      },
      "extra": {
       "leagueRank": "6"
