@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.bra-1:2026",
- "updatedAt": "2026-10-18T04:31:52Z",
+ "updatedAt": "2026-10-18T22:26:16Z",
  "sources": [
   "espn"
  ],
@@ -59,24 +59,39 @@
      }
     },
     {
-     "participantId": "soccer.fluminense",
+     "participantId": "soccer.cruzeiro",
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 30,
+      "GP": 31,
+      "W": 15,
+      "D": 6,
+      "L": 10,
+      "GF": 50,
+      "GA": 46,
+      "GD": 4,
+      "PTS": 51
+     }
+    },
+    {
+     "participantId": "soccer.fluminense",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 31,
       "W": 14,
       "D": 9,
-      "L": 7,
-      "GF": 48,
-      "GA": 37,
-      "GD": 11,
+      "L": 8,
+      "GF": 49,
+      "GA": 39,
+      "GD": 10,
       "PTS": 51
      }
     },
     {
      "participantId": "soccer.atletico-mg",
      "participantType": "team",
-     "rank": 5,
+     "rank": 6,
      "stats": {
       "GP": 31,
       "W": 14,
@@ -91,7 +106,7 @@
     {
      "participantId": "soccer.bahia",
      "participantType": "team",
-     "rank": 6,
+     "rank": 7,
      "stats": {
       "GP": 30,
       "W": 13,
@@ -104,24 +119,24 @@
      }
     },
     {
-     "participantId": "soccer.cruzeiro",
+     "participantId": "soccer.santos-2",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
-      "GP": 30,
-      "W": 14,
-      "D": 6,
+      "GP": 31,
+      "W": 12,
+      "D": 9,
       "L": 10,
-      "GF": 46,
-      "GA": 44,
+      "GF": 48,
+      "GA": 46,
       "GD": 2,
-      "PTS": 48
+      "PTS": 45
      }
     },
     {
      "participantId": "soccer.sao-paulo",
      "participantType": "team",
-     "rank": 8,
+     "rank": 9,
      "stats": {
       "GP": 31,
       "W": 12,
@@ -129,21 +144,6 @@
       "L": 13,
       "GF": 36,
       "GA": 35,
-      "GD": 1,
-      "PTS": 42
-     }
-    },
-    {
-     "participantId": "soccer.santos-2",
-     "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 30,
-      "W": 11,
-      "D": 9,
-      "L": 10,
-      "GF": 46,
-      "GA": 45,
       "GD": 1,
       "PTS": 42
      }
@@ -273,13 +273,13 @@
      "participantType": "team",
      "rank": 18,
      "stats": {
-      "GP": 30,
+      "GP": 31,
       "W": 7,
       "D": 10,
-      "L": 13,
-      "GF": 32,
-      "GA": 40,
-      "GD": -8,
+      "L": 14,
+      "GF": 34,
+      "GA": 44,
+      "GD": -10,
       "PTS": 31
      }
     },
