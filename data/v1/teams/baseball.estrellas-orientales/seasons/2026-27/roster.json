@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.estrellas-orientales:2026-27",
- "updatedAt": "2026-10-18T12:47:54Z",
+ "updatedAt": "2026-10-19T15:52:40Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.estrellas-orientales",
  "competitionId": "baseball.lidom",
  "season": "2026-27",
- "count": 43,
+ "count": 44,
  "groups": [
   {
    "code": "P",
@@ -31,6 +31,24 @@
        "last": "Mariñez"
       },
       "birthDate": "1988-08-12",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
+    },
+    {
+     "personId": "p.enny-romero.1991",
+     "number": "19",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.enny-romero.1991",
+      "name": {
+       "full": "Enny Romero",
+       "first": "Enny",
+       "last": "Romero"
+      },
+      "birthDate": "1991-01-24",
       "isCuban": false,
       "birthCountry": "DO"
      }
@@ -162,6 +180,24 @@
      }
     },
     {
+     "personId": "p.richard-guasch.1998",
+     "number": "57",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.richard-guasch.1998",
+      "name": {
+       "full": "Richard Guasch",
+       "first": "Richard",
+       "last": "Guasch"
+      },
+      "birthDate": "1998-04-10",
+      "isCuban": true,
+      "birthCountry": "CU"
+     }
+    },
+    {
      "personId": "p.oddy-nunez.1996",
      "number": "63",
      "position": "P",
@@ -283,23 +319,6 @@
        "last": "Santos"
       },
       "birthDate": "2001-08-16",
-      "isCuban": false,
-      "birthCountry": "DO"
-     }
-    },
-    {
-     "personId": "p.enny-romero.1991",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.enny-romero.1991",
-      "name": {
-       "full": "Enny Romero",
-       "first": "Enny",
-       "last": "Romero"
-      },
-      "birthDate": "1991-01-24",
       "isCuban": false,
       "birthCountry": "DO"
      }
