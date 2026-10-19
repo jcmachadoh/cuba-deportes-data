@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lvbp:2026-27",
- "updatedAt": "2026-10-18T22:26:03Z",
+ "updatedAt": "2026-10-19T04:39:27Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -35,7 +35,7 @@
      }
     },
     {
-     "participantId": "baseball.caribes-de-anzoategui",
+     "participantId": "baseball.cardenales-de-lara",
      "participantType": "team",
      "rank": 2,
      "stats": {
@@ -43,55 +43,55 @@
       "W": 4,
       "L": 1,
       "PCT": 0.8,
-      "STRK": "W4",
+      "STRK": "W3",
       "L10": "4-1",
-      "HOME": "4-1",
-      "AWAY": "0-0",
-      "RS": 44,
-      "RA": 25,
-      "RD": 19
+      "HOME": "2-0",
+      "AWAY": "2-1",
+      "RS": 27,
+      "RA": 19,
+      "RD": 8
      },
      "extra": {
       "leagueRank": "2"
      }
     },
     {
-     "participantId": "baseball.cardenales-de-lara",
+     "participantId": "baseball.bravos-de-margarita",
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 4,
-      "W": 3,
+      "GP": 5,
+      "W": 4,
       "L": 1,
-      "PCT": 0.75,
-      "STRK": "W2",
-      "L10": "3-1",
-      "HOME": "2-0",
-      "AWAY": "1-1",
-      "RS": 19,
-      "RA": 14,
-      "RD": 5
+      "PCT": 0.8,
+      "STRK": "W4",
+      "L10": "4-1",
+      "HOME": "0-0",
+      "AWAY": "4-1",
+      "RS": 30,
+      "RA": 15,
+      "RD": 15
      },
      "extra": {
       "leagueRank": "3"
      }
     },
     {
-     "participantId": "baseball.bravos-de-margarita",
+     "participantId": "baseball.caribes-de-anzoategui",
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 4,
-      "W": 3,
-      "L": 1,
-      "PCT": 0.75,
-      "STRK": "W3",
-      "L10": "3-1",
-      "HOME": "0-0",
-      "AWAY": "3-1",
-      "RS": 22,
-      "RA": 13,
-      "RD": 9
+      "GP": 6,
+      "W": 4,
+      "L": 2,
+      "PCT": 0.667,
+      "STRK": "L1",
+      "L10": "4-2",
+      "HOME": "4-2",
+      "AWAY": "0-0",
+      "RS": 48,
+      "RA": 33,
+      "RD": 15
      },
      "extra": {
       "leagueRank": "4"
@@ -102,26 +102,47 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 5,
+      "GP": 6,
       "W": 2,
-      "L": 3,
-      "PCT": 0.4,
-      "STRK": "L2",
-      "L10": "2-3",
-      "HOME": "2-3",
+      "L": 4,
+      "PCT": 0.333,
+      "STRK": "L3",
+      "L10": "2-4",
+      "HOME": "2-4",
       "AWAY": "0-0",
-      "RS": 25,
-      "RA": 24,
-      "RD": 1
+      "RS": 27,
+      "RA": 32,
+      "RD": -5
      },
      "extra": {
       "leagueRank": "5"
      }
     },
     {
-     "participantId": "baseball.tiburones-de-la-guaira",
+     "participantId": "baseball.leones-del-caracas",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 6,
+      "W": 2,
+      "L": 4,
+      "PCT": 0.333,
+      "STRK": "W1",
+      "L10": "2-4",
+      "HOME": "0-2",
+      "AWAY": "2-2",
+      "RS": 28,
+      "RA": 37,
+      "RD": -9
+     },
+     "extra": {
+      "leagueRank": "6"
+     }
+    },
+    {
+     "participantId": "baseball.tiburones-de-la-guaira",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 6,
       "W": 2,
@@ -136,27 +157,6 @@
       "RD": -7
      },
      "extra": {
-      "leagueRank": "6"
-     }
-    },
-    {
-     "participantId": "baseball.leones-del-caracas",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 5,
-      "W": 1,
-      "L": 4,
-      "PCT": 0.2,
-      "STRK": "L3",
-      "L10": "1-4",
-      "HOME": "0-2",
-      "AWAY": "1-2",
-      "RS": 20,
-      "RA": 33,
-      "RD": -13
-     },
-     "extra": {
       "leagueRank": "7"
      }
     },
@@ -165,17 +165,17 @@
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 5,
+      "GP": 6,
       "W": 0,
-      "L": 5,
+      "L": 6,
       "PCT": 0.0,
-      "STRK": "L5",
-      "L10": "0-5",
-      "HOME": "0-2",
+      "STRK": "L6",
+      "L10": "0-6",
+      "HOME": "0-3",
       "AWAY": "0-3",
-      "RS": 26,
-      "RA": 46,
-      "RD": -20
+      "RS": 31,
+      "RA": 54,
+      "RD": -23
      },
      "extra": {
       "leagueRank": "8"

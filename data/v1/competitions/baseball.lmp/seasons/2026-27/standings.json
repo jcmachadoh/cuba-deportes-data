@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lmp:2026-27",
- "updatedAt": "2026-10-18T04:31:39Z",
+ "updatedAt": "2026-10-19T04:39:28Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,18 +18,18 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 4,
-      "W": 4,
+      "GP": 5,
+      "W": 5,
       "L": 0,
       "PCT": 1.0,
-      "GB": -2.0,
-      "STRK": "W4",
-      "L10": "4-0",
+      "GB": -3.0,
+      "STRK": "W5",
+      "L10": "5-0",
       "HOME": "1-0",
-      "AWAY": "3-0",
-      "RS": 20,
-      "RA": 13,
-      "RD": 7
+      "AWAY": "4-0",
+      "RS": 30,
+      "RA": 17,
+      "RD": 13
      },
      "extra": {
       "leagueRank": "1"
@@ -40,18 +40,18 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 4,
-      "W": 3,
+      "GP": 5,
+      "W": 4,
       "L": 1,
-      "PCT": 0.75,
-      "GB": -1.0,
-      "STRK": "W1",
-      "L10": "3-1",
+      "PCT": 0.8,
+      "GB": -2.0,
+      "STRK": "W2",
+      "L10": "4-1",
       "HOME": "1-0",
-      "AWAY": "2-1",
-      "RS": 27,
-      "RA": 18,
-      "RD": 9
+      "AWAY": "3-1",
+      "RS": 36,
+      "RA": 24,
+      "RD": 12
      },
      "extra": {
       "leagueRank": "2"
@@ -62,18 +62,18 @@
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 4,
-      "W": 3,
+      "GP": 5,
+      "W": 4,
       "L": 1,
-      "PCT": 0.75,
-      "GB": -1.0,
-      "STRK": "L1",
-      "L10": "3-1",
+      "PCT": 0.8,
+      "GB": -2.0,
+      "STRK": "W1",
+      "L10": "4-1",
       "HOME": "1-0",
-      "AWAY": "2-1",
-      "RS": 20,
-      "RA": 12,
-      "RD": 8
+      "AWAY": "3-1",
+      "RS": 30,
+      "RA": 18,
+      "RD": 12
      },
      "extra": {
       "leagueRank": "3"
@@ -84,59 +84,61 @@
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 4,
-      "W": 2,
+      "GP": 5,
+      "W": 3,
       "L": 2,
-      "PCT": 0.5,
-      "STRK": "W2",
-      "L10": "2-2",
-      "HOME": "2-1",
+      "PCT": 0.6,
+      "GB": -1.0,
+      "STRK": "W3",
+      "L10": "3-2",
+      "HOME": "3-1",
       "AWAY": "0-1",
-      "RS": 12,
+      "RS": 17,
       "RA": 17,
-      "RD": -5
+      "RD": 0
      },
      "extra": {
       "leagueRank": "4"
      }
     },
     {
-     "participantId": "baseball.yaquis-de-obregon",
+     "participantId": "baseball.tomateros-de-culiacan",
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 4,
-      "W": 2,
+      "GP": 5,
+      "W": 3,
       "L": 2,
-      "PCT": 0.5,
-      "STRK": "L2",
-      "L10": "2-2",
-      "HOME": "2-0",
-      "AWAY": "0-2",
-      "RS": 23,
-      "RA": 16,
-      "RD": 7
+      "PCT": 0.6,
+      "GB": -1.0,
+      "STRK": "W1",
+      "L10": "3-2",
+      "HOME": "0-1",
+      "AWAY": "3-1",
+      "RS": 30,
+      "RA": 22,
+      "RD": 8
      },
      "extra": {
       "leagueRank": "5"
      }
     },
     {
-     "participantId": "baseball.tomateros-de-culiacan",
+     "participantId": "baseball.yaquis-de-obregon",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 4,
+      "GP": 5,
       "W": 2,
-      "L": 2,
-      "PCT": 0.5,
-      "STRK": "L1",
-      "L10": "2-2",
-      "HOME": "0-1",
-      "AWAY": "2-1",
+      "L": 3,
+      "PCT": 0.4,
+      "STRK": "L3",
+      "L10": "2-3",
+      "HOME": "2-0",
+      "AWAY": "0-3",
       "RS": 23,
-      "RA": 17,
-      "RD": 6
+      "RA": 21,
+      "RD": 2
      },
      "extra": {
       "leagueRank": "6"
@@ -147,18 +149,18 @@
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 4,
+      "GP": 5,
       "W": 1,
-      "L": 3,
-      "PCT": 0.25,
+      "L": 4,
+      "PCT": 0.2,
       "GB": 1.0,
-      "STRK": "W1",
-      "L10": "1-3",
-      "HOME": "1-2",
+      "STRK": "L1",
+      "L10": "1-4",
+      "HOME": "1-3",
       "AWAY": "0-1",
-      "RS": 10,
-      "RA": 20,
-      "RD": -10
+      "RS": 15,
+      "RA": 27,
+      "RD": -12
      },
      "extra": {
       "leagueRank": "7"
@@ -169,18 +171,18 @@
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 4,
+      "GP": 5,
       "W": 1,
-      "L": 3,
-      "PCT": 0.25,
+      "L": 4,
+      "PCT": 0.2,
       "GB": 1.0,
-      "STRK": "L1",
-      "L10": "1-3",
-      "HOME": "1-2",
+      "STRK": "L2",
+      "L10": "1-4",
+      "HOME": "1-3",
       "AWAY": "0-1",
-      "RS": 18,
-      "RA": 27,
-      "RD": -9
+      "RS": 24,
+      "RA": 36,
+      "RD": -12
      },
      "extra": {
       "leagueRank": "8"
@@ -191,18 +193,18 @@
      "participantType": "team",
      "rank": 9,
      "stats": {
-      "GP": 4,
+      "GP": 5,
       "W": 1,
-      "L": 3,
-      "PCT": 0.25,
+      "L": 4,
+      "PCT": 0.2,
       "GB": 1.0,
-      "STRK": "W1",
-      "L10": "1-3",
-      "HOME": "1-1",
+      "STRK": "L1",
+      "L10": "1-4",
+      "HOME": "1-2",
       "AWAY": "0-2",
-      "RS": 16,
-      "RA": 26,
-      "RD": -10
+      "RS": 22,
+      "RA": 36,
+      "RD": -14
      },
      "extra": {
       "leagueRank": "9"
@@ -213,18 +215,18 @@
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 4,
+      "GP": 5,
       "W": 1,
-      "L": 3,
-      "PCT": 0.25,
+      "L": 4,
+      "PCT": 0.2,
       "GB": 1.0,
-      "STRK": "L2",
-      "L10": "1-3",
-      "HOME": "0-3",
+      "STRK": "L3",
+      "L10": "1-4",
+      "HOME": "0-4",
       "AWAY": "1-0",
-      "RS": 20,
-      "RA": 23,
-      "RD": -3
+      "RS": 24,
+      "RA": 33,
+      "RD": -9
      },
      "extra": {
       "leagueRank": "10"
