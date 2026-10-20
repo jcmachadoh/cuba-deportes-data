@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:women-s-pound-for-pound",
- "updatedAt": "2026-10-20T04:49:41Z",
+ "updatedAt": "2026-10-20T21:37:01Z",
  "sources": [
   "ufc.com"
  ],
@@ -131,26 +131,10 @@
   },
   {
    "rank": 8,
-   "participantId": "p.erin-blanchfield",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8
-   },
-   "person": {
-    "id": "p.erin-blanchfield",
-    "name": {
-     "full": "Erin Blanchfield"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 9,
    "participantId": "p.tatiana-suarez",
    "participantType": "person",
    "stats": {
-    "RANK": 9
+    "RANK": 8
    },
    "person": {
     "id": "p.tatiana-suarez",
@@ -159,6 +143,28 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.erin-blanchfield",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9
+   },
+   "person": {
+    "id": "p.erin-blanchfield",
+    "name": {
+     "full": "Erin Blanchfield"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
@@ -195,10 +201,26 @@
   },
   {
    "rank": 12,
-   "participantId": "p.rose-namajunas",
+   "participantId": "p.jasmine-jasudavicius",
    "participantType": "person",
    "stats": {
     "RANK": 12
+   },
+   "person": {
+    "id": "p.jasmine-jasudavicius",
+    "name": {
+     "full": "Jasmine Jasudavicius"
+    },
+    "isCuban": false,
+    "birthCountry": "CA"
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.rose-namajunas",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13
    },
    "person": {
     "id": "p.rose-namajunas",
@@ -207,14 +229,17 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.raquel-pennington",
    "participantType": "person",
    "stats": {
-    "RANK": 13
+    "RANK": 14
    },
    "person": {
     "id": "p.raquel-pennington",
@@ -223,14 +248,17 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
    "participantId": "p.denise-gomes",
    "participantType": "person",
    "stats": {
-    "RANK": 14
+    "RANK": 15
    },
    "person": {
     "id": "p.denise-gomes",
@@ -239,22 +267,9 @@
     },
     "isCuban": false,
     "birthCountry": "BR"
-   }
-  },
-  {
-   "rank": 15,
-   "participantId": "p.maycee-barber",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15
    },
-   "person": {
-    "id": "p.maycee-barber",
-    "name": {
-     "full": "Maycee Barber"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
+   "extra": {
+    "trend": -1
    }
   }
  ]

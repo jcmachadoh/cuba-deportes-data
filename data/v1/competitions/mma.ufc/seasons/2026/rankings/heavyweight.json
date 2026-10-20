@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:heavyweight",
- "updatedAt": "2026-10-20T04:49:41Z",
+ "updatedAt": "2026-10-20T21:37:01Z",
  "sources": [
   "ufc.com"
  ],
@@ -214,6 +214,22 @@
   },
   {
    "rank": 12,
+   "participantId": "p.derrick-lewis",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12
+   },
+   "person": {
+    "id": "p.derrick-lewis",
+    "name": {
+     "full": "Derrick Lewis"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   }
+  },
+  {
+   "rank": 12,
    "participantId": "p.tyrell-fortune",
    "participantType": "person",
    "stats": {
@@ -223,22 +239,6 @@
     "id": "p.tyrell-fortune",
     "name": {
      "full": "Tyrell Fortune"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 13,
-   "participantId": "p.derrick-lewis",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13
-   },
-   "person": {
-    "id": "p.derrick-lewis",
-    "name": {
-     "full": "Derrick Lewis"
     },
     "isCuban": false,
     "birthCountry": "US"
@@ -258,9 +258,6 @@
     },
     "isCuban": false,
     "birthCountry": "AT"
-   },
-   "extra": {
-    "trend": 1
    }
   },
   {
@@ -277,9 +274,6 @@
     },
     "isCuban": false,
     "birthCountry": "PT"
-   },
-   "extra": {
-    "trend": -1
    }
   }
  ]
