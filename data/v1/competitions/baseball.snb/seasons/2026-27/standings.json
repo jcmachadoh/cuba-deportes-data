@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.snb:2026-27",
- "updatedAt": "2026-10-18T22:26:02Z",
+ "updatedAt": "2026-10-19T23:40:15Z",
  "sources": [
   "beisbolcubano"
  ],
@@ -29,25 +29,41 @@
      }
     },
     {
-     "participantId": "baseball.matanzas",
+     "participantId": "baseball.cienfuegos",
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 12,
-      "W": 7,
+      "GP": 11,
+      "W": 6,
       "L": 5,
-      "GB": 3.0,
-      "PCT": 0.583,
+      "GB": 3.5,
+      "PCT": 0.545,
+      "L10": "6-4",
+      "STRK": "G-1",
+      "HOME": "5-0",
+      "AWAY": "1-5"
+     }
+    },
+    {
+     "participantId": "baseball.matanzas",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 13,
+      "W": 7,
+      "L": 6,
+      "GB": 3.5,
+      "PCT": 0.538,
       "L10": "5-5",
-      "STRK": "P-1",
+      "STRK": "P-2",
       "HOME": "6-2",
-      "AWAY": "1-3"
+      "AWAY": "1-4"
      }
     },
     {
      "participantId": "baseball.mayabeque",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 10,
       "W": 5,
@@ -61,25 +77,9 @@
      }
     },
     {
-     "participantId": "baseball.cienfuegos",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 10,
-      "W": 5,
-      "L": 5,
-      "GB": 4.0,
-      "PCT": 0.5,
-      "L10": "5-5",
-      "STRK": "P-2",
-      "HOME": "4-0",
-      "AWAY": "1-5"
-     }
-    },
-    {
      "participantId": "baseball.industriales",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 10,
       "W": 5,
@@ -147,29 +147,59 @@
    "name": "Zona Oriental",
    "rows": [
     {
+     "participantId": "baseball.ciego-de-avila",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 13,
+      "W": 8,
+      "L": 5,
+      "PCT": 0.615,
+      "L10": "6-4",
+      "STRK": "G-2",
+      "HOME": "4-1",
+      "AWAY": "4-4"
+     }
+    },
+    {
+     "participantId": "baseball.granma",
+     "participantType": "team",
+     "rank": 1,
+     "stats": {
+      "GP": 13,
+      "W": 8,
+      "L": 5,
+      "PCT": 0.615,
+      "L10": "7-3",
+      "STRK": "G-1",
+      "HOME": "4-1",
+      "AWAY": "4-4"
+     }
+    },
+    {
      "participantId": "baseball.santiago-de-cuba",
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 12,
+      "GP": 13,
       "W": 8,
-      "L": 4,
-      "PCT": 0.667,
-      "L10": "6-4",
-      "STRK": "G-1",
+      "L": 5,
+      "PCT": 0.615,
+      "L10": "5-5",
+      "STRK": "P-1",
       "HOME": "6-2",
-      "AWAY": "2-2"
+      "AWAY": "2-3"
      }
     },
     {
      "participantId": "baseball.sancti-spiritus",
      "participantType": "team",
-     "rank": 2,
+     "rank": 4,
      "stats": {
       "GP": 12,
       "W": 7,
       "L": 5,
-      "GB": 1.0,
+      "GB": 0.5,
       "PCT": 0.583,
       "L10": "5-5",
       "STRK": "P-1",
@@ -178,51 +208,19 @@
      }
     },
     {
-     "participantId": "baseball.ciego-de-avila",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 12,
-      "W": 7,
-      "L": 5,
-      "GB": 1.0,
-      "PCT": 0.583,
-      "L10": "6-4",
-      "STRK": "G-1",
-      "HOME": "3-1",
-      "AWAY": "4-4"
-     }
-    },
-    {
-     "participantId": "baseball.granma",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 12,
-      "W": 7,
-      "L": 5,
-      "GB": 1.0,
-      "PCT": 0.583,
-      "L10": "6-4",
-      "STRK": "P-1",
-      "HOME": "3-1",
-      "AWAY": "4-4"
-     }
-    },
-    {
      "participantId": "baseball.holguin",
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 12,
+      "GP": 13,
       "W": 6,
-      "L": 6,
+      "L": 7,
       "GB": 2.0,
-      "PCT": 0.5,
-      "L10": "5-5",
-      "STRK": "P-2",
+      "PCT": 0.462,
+      "L10": "4-6",
+      "STRK": "P-3",
       "HOME": "4-4",
-      "AWAY": "2-2"
+      "AWAY": "2-3"
      }
     },
     {
@@ -230,15 +228,15 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 12,
+      "GP": 13,
       "W": 6,
-      "L": 6,
+      "L": 7,
       "GB": 2.0,
-      "PCT": 0.5,
+      "PCT": 0.462,
       "L10": "5-5",
-      "STRK": "P-1",
+      "STRK": "P-2",
       "HOME": "4-4",
-      "AWAY": "2-2"
+      "AWAY": "2-3"
      }
     },
     {
@@ -249,7 +247,7 @@
       "GP": 12,
       "W": 4,
       "L": 8,
-      "GB": 4.0,
+      "GB": 3.5,
       "PCT": 0.333,
       "L10": "4-6",
       "STRK": "G-1",
@@ -262,14 +260,14 @@
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 12,
-      "W": 3,
+      "GP": 13,
+      "W": 4,
       "L": 9,
-      "GB": 5.0,
-      "PCT": 0.25,
-      "L10": "3-7",
-      "STRK": "G-2",
-      "HOME": "2-2",
+      "GB": 4.0,
+      "PCT": 0.308,
+      "L10": "4-6",
+      "STRK": "G-3",
+      "HOME": "3-2",
       "AWAY": "1-7"
      }
     }

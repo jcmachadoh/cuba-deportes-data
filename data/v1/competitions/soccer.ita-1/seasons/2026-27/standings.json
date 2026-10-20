@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ita-1:2026-27",
- "updatedAt": "2026-10-19T19:55:47Z",
+ "updatedAt": "2026-10-19T23:40:21Z",
  "sources": [
   "espn"
  ],
@@ -191,9 +191,24 @@
      }
     },
     {
-     "participantId": "soccer.atalanta",
+     "participantId": "soccer.torino",
      "participantType": "team",
      "rank": 10,
+     "stats": {
+      "GP": 7,
+      "W": 3,
+      "D": 1,
+      "L": 3,
+      "GF": 10,
+      "GA": 9,
+      "GD": 1,
+      "PTS": 10
+     }
+    },
+    {
+     "participantId": "soccer.atalanta",
+     "participantType": "team",
+     "rank": 11,
      "stats": {
       "GP": 7,
       "W": 3,
@@ -208,7 +223,7 @@
     {
      "participantId": "soccer.lecce",
      "participantType": "team",
-     "rank": 11,
+     "rank": 12,
      "stats": {
       "GP": 7,
       "W": 3,
@@ -223,7 +238,7 @@
     {
      "participantId": "soccer.sassuolo",
      "participantType": "team",
-     "rank": 12,
+     "rank": 13,
      "stats": {
       "GP": 7,
       "W": 2,
@@ -233,21 +248,6 @@
       "GA": 14,
       "GD": -2,
       "PTS": 8
-     }
-    },
-    {
-     "participantId": "soccer.torino",
-     "participantType": "team",
-     "rank": 13,
-     "stats": {
-      "GP": 6,
-      "W": 2,
-      "D": 1,
-      "L": 3,
-      "GF": 7,
-      "GA": 9,
-      "GD": -2,
-      "PTS": 7
      }
     },
     {
@@ -281,24 +281,9 @@
      }
     },
     {
-     "participantId": "soccer.parma",
-     "participantType": "team",
-     "rank": 16,
-     "stats": {
-      "GP": 6,
-      "W": 1,
-      "D": 1,
-      "L": 4,
-      "GF": 4,
-      "GA": 10,
-      "GD": -6,
-      "PTS": 4
-     }
-    },
-    {
      "participantId": "soccer.udinese",
      "participantType": "team",
-     "rank": 17,
+     "rank": 16,
      "stats": {
       "GP": 7,
       "W": 1,
@@ -313,7 +298,7 @@
     {
      "participantId": "soccer.genoa",
      "participantType": "team",
-     "rank": 18,
+     "rank": 17,
      "stats": {
       "GP": 7,
       "W": 1,
@@ -322,6 +307,21 @@
       "GF": 5,
       "GA": 13,
       "GD": -8,
+      "PTS": 4
+     }
+    },
+    {
+     "participantId": "soccer.fiorentina",
+     "participantType": "team",
+     "rank": 18,
+     "stats": {
+      "GP": 7,
+      "W": 1,
+      "D": 1,
+      "L": 5,
+      "GF": 8,
+      "GA": 17,
+      "GD": -9,
       "PTS": 4
      },
      "extra": {
@@ -332,7 +332,7 @@
      }
     },
     {
-     "participantId": "soccer.fiorentina",
+     "participantId": "soccer.parma",
      "participantType": "team",
      "rank": 19,
      "stats": {
@@ -340,8 +340,8 @@
       "W": 1,
       "D": 1,
       "L": 5,
-      "GF": 8,
-      "GA": 17,
+      "GF": 4,
+      "GA": 13,
       "GD": -9,
       "PTS": 4
      },
