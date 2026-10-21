@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.uefa-champions:2026-27",
- "updatedAt": "2026-10-20T21:36:50Z",
+ "updatedAt": "2026-10-21T18:47:46Z",
  "sources": [
   "espn"
  ],
@@ -119,9 +119,30 @@
      }
     },
     {
-     "participantId": "soccer.manchester-city",
+     "participantId": "soccer.como",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 3,
+      "W": 2,
+      "D": 0,
+      "L": 1,
+      "GF": 10,
+      "GA": 5,
+      "GD": 5,
+      "PTS": 6
+     },
+     "extra": {
+      "note": {
+       "text": "Qualifies for round of 16",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.manchester-city",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 3,
       "W": 2,
@@ -142,7 +163,7 @@
     {
      "participantId": "soccer.sporting-cp",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
       "GP": 2,
       "W": 2,
@@ -163,7 +184,7 @@
     {
      "participantId": "soccer.arsenal",
      "participantType": "team",
-     "rank": 8,
+     "rank": 9,
      "stats": {
       "GP": 2,
       "W": 2,
@@ -176,34 +197,13 @@
      },
      "extra": {
       "note": {
-       "text": "Qualifies for round of 16",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.real-madrid",
-     "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 2,
-      "W": 2,
-      "D": 0,
-      "L": 0,
-      "GF": 6,
-      "GA": 4,
-      "GD": 2,
-      "PTS": 6
-     },
-     "extra": {
-      "note": {
        "text": "Knockout phase playoffs - seeded",
        "color": "#B5E7CE"
       }
      }
     },
     {
-     "participantId": "soccer.real-betis",
+     "participantId": "soccer.real-madrid",
      "participantType": "team",
      "rank": 10,
      "stats": {
@@ -224,9 +224,30 @@
      }
     },
     {
-     "participantId": "soccer.borussia-dortmund",
+     "participantId": "soccer.real-betis",
      "participantType": "team",
      "rank": 11,
+     "stats": {
+      "GP": 2,
+      "W": 2,
+      "D": 0,
+      "L": 0,
+      "GF": 6,
+      "GA": 4,
+      "GD": 2,
+      "PTS": 6
+     },
+     "extra": {
+      "note": {
+       "text": "Knockout phase playoffs - seeded",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.borussia-dortmund",
+     "participantType": "team",
+     "rank": 12,
      "stats": {
       "GP": 3,
       "W": 2,
@@ -247,7 +268,7 @@
     {
      "participantId": "soccer.bayern-munich",
      "participantType": "team",
-     "rank": 12,
+     "rank": 13,
      "stats": {
       "GP": 2,
       "W": 1,
@@ -268,7 +289,7 @@
     {
      "participantId": "soccer.as-roma",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -289,7 +310,7 @@
     {
      "participantId": "soccer.shakhtar-donetsk",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 2,
       "W": 1,
@@ -310,7 +331,7 @@
     {
      "participantId": "soccer.atletico-madrid",
      "participantType": "team",
-     "rank": 15,
+     "rank": 16,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -331,7 +352,7 @@
     {
      "participantId": "soccer.psv-eindhoven",
      "participantType": "team",
-     "rank": 16,
+     "rank": 17,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -344,48 +365,6 @@
      },
      "extra": {
       "note": {
-       "text": "Knockout phase playoffs - seeded",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.como",
-     "participantType": "team",
-     "rank": 17,
-     "stats": {
-      "GP": 2,
-      "W": 1,
-      "D": 0,
-      "L": 1,
-      "GF": 6,
-      "GA": 4,
-      "GD": 2,
-      "PTS": 3
-     },
-     "extra": {
-      "note": {
-       "text": "Knockout phase playoffs - unseeded",
-       "color": "#B2BFD0"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.manchester-united",
-     "participantType": "team",
-     "rank": 18,
-     "stats": {
-      "GP": 2,
-      "W": 1,
-      "D": 0,
-      "L": 1,
-      "GF": 4,
-      "GA": 2,
-      "GD": 2,
-      "PTS": 3
-     },
-     "extra": {
-      "note": {
        "text": "Knockout phase playoffs - unseeded",
        "color": "#B2BFD0"
       }
@@ -394,7 +373,7 @@
     {
      "participantId": "soccer.villarreal",
      "participantType": "team",
-     "rank": 19,
+     "rank": 18,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -415,7 +394,7 @@
     {
      "participantId": "soccer.club-brugge",
      "participantType": "team",
-     "rank": 20,
+     "rank": 19,
      "stats": {
       "GP": 2,
       "W": 1,
@@ -424,6 +403,27 @@
       "GF": 6,
       "GA": 6,
       "GD": 0,
+      "PTS": 3
+     },
+     "extra": {
+      "note": {
+       "text": "Knockout phase playoffs - unseeded",
+       "color": "#B2BFD0"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.manchester-united",
+     "participantType": "team",
+     "rank": 20,
+     "stats": {
+      "GP": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 5,
+      "GA": 6,
+      "GD": -1,
       "PTS": 3
      },
      "extra": {
@@ -497,9 +497,30 @@
      }
     },
     {
-     "participantId": "soccer.feyenoord-rotterdam",
+     "participantId": "soccer.galatasaray",
      "participantType": "team",
      "rank": 24,
+     "stats": {
+      "GP": 3,
+      "W": 1,
+      "D": 0,
+      "L": 2,
+      "GF": 6,
+      "GA": 9,
+      "GD": -3,
+      "PTS": 3
+     },
+     "extra": {
+      "note": {
+       "text": "Knockout phase playoffs - unseeded",
+       "color": "#B2BFD0"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.feyenoord-rotterdam",
+     "participantType": "team",
+     "rank": 25,
      "stats": {
       "GP": 2,
       "W": 1,
@@ -512,15 +533,15 @@
      },
      "extra": {
       "note": {
-       "text": "Knockout phase playoffs - unseeded",
-       "color": "#B2BFD0"
+       "text": "Eliminated",
+       "color": "#FF7F84"
       }
      }
     },
     {
      "participantId": "soccer.sabah-fk",
      "participantType": "team",
-     "rank": 25,
+     "rank": 26,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -541,7 +562,7 @@
     {
      "participantId": "soccer.bodo-glimt",
      "participantType": "team",
-     "rank": 26,
+     "rank": 27,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -562,7 +583,7 @@
     {
      "participantId": "soccer.aek-athens",
      "participantType": "team",
-     "rank": 27,
+     "rank": 28,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -583,7 +604,7 @@
     {
      "participantId": "soccer.fenerbahce",
      "participantType": "team",
-     "rank": 28,
+     "rank": 29,
      "stats": {
       "GP": 3,
       "W": 0,
@@ -604,7 +625,7 @@
     {
      "participantId": "soccer.viking-fk",
      "participantType": "team",
-     "rank": 29,
+     "rank": 30,
      "stats": {
       "GP": 2,
       "W": 0,
@@ -625,7 +646,7 @@
     {
      "participantId": "soccer.slavia-prague",
      "participantType": "team",
-     "rank": 30,
+     "rank": 31,
      "stats": {
       "GP": 3,
       "W": 0,
@@ -646,7 +667,7 @@
     {
      "participantId": "soccer.internazionale",
      "participantType": "team",
-     "rank": 31,
+     "rank": 32,
      "stats": {
       "GP": 2,
       "W": 0,
@@ -667,7 +688,7 @@
     {
      "participantId": "soccer.lask-linz",
      "participantType": "team",
-     "rank": 32,
+     "rank": 33,
      "stats": {
       "GP": 2,
       "W": 0,
@@ -688,7 +709,7 @@
     {
      "participantId": "soccer.fc-porto",
      "participantType": "team",
-     "rank": 33,
+     "rank": 34,
      "stats": {
       "GP": 3,
       "W": 0,
@@ -709,36 +730,15 @@
     {
      "participantId": "soccer.lille",
      "participantType": "team",
-     "rank": 34,
-     "stats": {
-      "GP": 2,
-      "W": 0,
-      "D": 0,
-      "L": 2,
-      "GF": 2,
-      "GA": 6,
-      "GD": -4,
-      "PTS": 0
-     },
-     "extra": {
-      "note": {
-       "text": "Eliminated",
-       "color": "#FF7F84"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.galatasaray",
-     "participantType": "team",
      "rank": 35,
      "stats": {
-      "GP": 2,
+      "GP": 3,
       "W": 0,
       "D": 0,
-      "L": 2,
-      "GF": 2,
-      "GA": 7,
-      "GD": -5,
+      "L": 3,
+      "GF": 4,
+      "GA": 10,
+      "GD": -6,
       "PTS": 0
      },
      "extra": {
