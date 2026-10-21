@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:Bkg9PAup",
- "updatedAt": "2026-10-21T19:09:55Z",
+ "updatedAt": "2026-10-21T23:44:14Z",
  "sources": [
   "lichess"
  ],
@@ -11,7 +11,7 @@
  "name": "U.S. Chess Championships 2026 | Open",
  "group": null,
  "start": "2026-10-09",
- "end": "2026-10-21",
+ "end": "2026-10-22",
  "location": "Saint Louis, USA",
  "url": "https://lichess.org/broadcast/us-chess-championships-2026-open/Bkg9PAup",
  "status": "in_progress",
@@ -76,6 +76,16 @@
    {
     "name": "Ronda 11",
     "startsAt": 1792602600000,
+    "finished": true
+   },
+   {
+    "name": "Playoff | Rápida",
+    "startsAt": 1792689000000,
+    "finished": null
+   },
+   {
+    "name": "Playoff | Blitz",
+    "startsAt": null,
     "finished": null
    }
   ]
@@ -83,39 +93,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.wesley-so.1993",
+   "participantId": "p.fabiano-caruana.1992",
    "participantType": "person",
    "stats": {
     "RANK": 1,
     "PTS": 7.0,
-    "ELO": 2770,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.wesley-so.1993",
-    "name": {
-     "full": "Wesley So"
-    },
-    "birthDate": "1993",
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2825
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.fabiano-caruana.1992",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 6.0,
     "ELO": 2784,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.fabiano-caruana.1992",
@@ -130,18 +114,70 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2749
+    "performance": 2780
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.wesley-so.1993",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 7.0,
+    "ELO": 2770,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.wesley-so.1993",
+    "name": {
+     "full": "Wesley So"
+    },
+    "birthDate": "1993",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2781
    }
   },
   {
    "rank": 3,
-   "participantId": "p.grigoriy-oparin.1997",
+   "participantId": "p.jeffery-xiong.2000",
    "participantType": "person",
    "stats": {
     "RANK": 3,
-    "PTS": 6.0,
+    "PTS": 6.5,
+    "ELO": 2656,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.jeffery-xiong.2000",
+    "name": {
+     "full": "Jeffery Xiong"
+    },
+    "birthDate": "2000",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2754
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.grigoriy-oparin.1997",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 6.5,
     "ELO": 2638,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.grigoriy-oparin.1997",
@@ -156,15 +192,15 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2766
+    "performance": 2756
    }
   },
   {
-   "rank": 4,
+   "rank": 5,
    "participantId": "p.andy-woodward.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 5,
     "PTS": 6.0,
     "ELO": 2619,
     "GP": 11
@@ -186,11 +222,11 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 6,
    "participantId": "p.levon-aronian.1982",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 6,
     "PTS": 5.5,
     "ELO": 2725,
     "GP": 11
@@ -212,14 +248,14 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 7,
    "participantId": "p.awonder-liang.2003",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 7,
     "PTS": 5.5,
     "ELO": 2685,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.awonder-liang.2003",
@@ -234,33 +270,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2713
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.jeffery-xiong.2000",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 5.5,
-    "ELO": 2656,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.jeffery-xiong.2000",
-    "name": {
-     "full": "Jeffery Xiong"
-    },
-    "birthDate": "2000",
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2723
+    "performance": 2687
    }
   },
   {
@@ -269,9 +279,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 8,
-    "PTS": 5.0,
+    "PTS": 5.5,
     "ELO": 2636,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.abhimanyu-mishra.2009",
@@ -286,7 +296,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2696
+    "performance": 2691
    }
   },
   {
@@ -295,9 +305,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 9,
-    "PTS": 4.5,
+    "PTS": 5.0,
     "ELO": 2646,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.sam-shankland.1991",
@@ -312,7 +322,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2660
+    "performance": 2654
    }
   },
   {
@@ -323,7 +333,7 @@
     "RANK": 10,
     "PTS": 4.0,
     "ELO": 2717,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.hans-moke-niemann.2003",
@@ -338,7 +348,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2615
+    "performance": 2582
    }
   },
   {
@@ -347,9 +357,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 11,
-    "PTS": 3.5,
+    "PTS": 4.0,
     "ELO": 2659,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.ray-robson.1994",
@@ -364,7 +374,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2584
+    "performance": 2587
    }
   },
   {
@@ -373,9 +383,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 12,
-    "PTS": 2.5,
+    "PTS": 3.5,
     "ELO": 2708,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.samuel-sevian.2000",
@@ -390,7 +400,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2483
+    "performance": 2552
    }
   }
  ]
