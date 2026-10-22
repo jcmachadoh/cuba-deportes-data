@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.snb:2026-27",
- "updatedAt": "2026-10-21T23:18:35Z",
+ "updatedAt": "2026-10-22T21:34:54Z",
  "sources": [
   "beisbolcubano"
  ],
@@ -18,13 +18,13 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 15,
-      "W": 11,
+      "GP": 16,
+      "W": 12,
       "L": 4,
-      "PCT": 0.733,
+      "PCT": 0.75,
       "L10": "7-3",
-      "STRK": "P-2",
-      "HOME": "5-2",
+      "STRK": "G-1",
+      "HOME": "6-2",
       "AWAY": "6-2"
      }
     },
@@ -33,15 +33,31 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 15,
-      "W": 9,
+      "GP": 16,
+      "W": 10,
       "L": 6,
       "GB": 2.0,
-      "PCT": 0.6,
+      "PCT": 0.625,
       "L10": "6-4",
-      "STRK": "G-2",
+      "STRK": "G-3",
       "HOME": "6-2",
-      "AWAY": "3-4"
+      "AWAY": "4-4"
+     }
+    },
+    {
+     "participantId": "baseball.artemisa",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 16,
+      "W": 8,
+      "L": 8,
+      "GB": 4.0,
+      "PCT": 0.5,
+      "L10": "5-5",
+      "STRK": "G-1",
+      "HOME": "4-4",
+      "AWAY": "4-4"
      }
     },
     {
@@ -49,78 +65,62 @@
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 13,
+      "GP": 14,
       "W": 7,
-      "L": 6,
-      "GB": 3.0,
-      "PCT": 0.538,
+      "L": 7,
+      "GB": 4.0,
+      "PCT": 0.5,
       "L10": "6-4",
-      "STRK": "G-2",
+      "STRK": "P-1",
       "HOME": "4-4",
-      "AWAY": "3-2"
+      "AWAY": "3-3"
      }
     },
     {
      "participantId": "baseball.villa-clara",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 14,
-      "W": 7,
-      "L": 7,
-      "GB": 3.5,
-      "PCT": 0.5,
-      "L10": "5-5",
-      "STRK": "G-3",
-      "HOME": "5-1",
-      "AWAY": "2-6"
-     }
-    },
-    {
-     "participantId": "baseball.artemisa",
      "participantType": "team",
      "rank": 5,
      "stats": {
       "GP": 15,
       "W": 7,
       "L": 8,
-      "GB": 4.0,
+      "GB": 4.5,
       "PCT": 0.467,
-      "L10": "4-6",
+      "L10": "5-5",
       "STRK": "P-1",
-      "HOME": "4-4",
-      "AWAY": "3-4"
+      "HOME": "5-2",
+      "AWAY": "2-6"
      }
     },
     {
-     "participantId": "baseball.cienfuegos",
+     "participantId": "baseball.mayabeque",
      "participantType": "team",
      "rank": 6,
      "stats": {
       "GP": 13,
       "W": 6,
       "L": 7,
-      "GB": 4.0,
+      "GB": 4.5,
       "PCT": 0.462,
-      "L10": "5-5",
-      "STRK": "P-2",
-      "HOME": "5-2",
-      "AWAY": "1-5"
+      "L10": "4-6",
+      "STRK": "G-1",
+      "HOME": "4-2",
+      "AWAY": "2-5"
      }
     },
     {
-     "participantId": "baseball.mayabeque",
+     "participantId": "baseball.cienfuegos",
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 12,
-      "W": 5,
-      "L": 7,
-      "GB": 4.5,
-      "PCT": 0.417,
-      "L10": "4-6",
-      "STRK": "P-2",
-      "HOME": "4-2",
+      "GP": 14,
+      "W": 6,
+      "L": 8,
+      "GB": 5.0,
+      "PCT": 0.429,
+      "L10": "5-5",
+      "STRK": "P-3",
+      "HOME": "5-3",
       "AWAY": "1-5"
      }
     },
@@ -129,14 +129,14 @@
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 13,
+      "GP": 14,
       "W": 3,
-      "L": 10,
-      "GB": 7.0,
-      "PCT": 0.231,
+      "L": 11,
+      "GB": 8.0,
+      "PCT": 0.214,
       "L10": "2-8",
-      "STRK": "G-1",
-      "HOME": "2-3",
+      "STRK": "P-1",
+      "HOME": "2-4",
       "AWAY": "1-7"
      }
     }
@@ -146,21 +146,6 @@
    "id": "zona-oriental",
    "name": "Zona Oriental",
    "rows": [
-    {
-     "participantId": "baseball.granma",
-     "participantType": "team",
-     "rank": 1,
-     "stats": {
-      "GP": 15,
-      "W": 9,
-      "L": 6,
-      "PCT": 0.6,
-      "L10": "7-3",
-      "STRK": "P-1",
-      "HOME": "5-2",
-      "AWAY": "4-4"
-     }
-    },
     {
      "participantId": "baseball.santiago-de-cuba",
      "participantType": "team",
@@ -179,65 +164,81 @@
     {
      "participantId": "baseball.las-tunas",
      "participantType": "team",
-     "rank": 3,
+     "rank": 2,
      "stats": {
-      "GP": 15,
-      "W": 8,
+      "GP": 16,
+      "W": 9,
       "L": 7,
-      "GB": 1.0,
-      "PCT": 0.533,
-      "L10": "6-4",
-      "STRK": "G-2",
+      "GB": 0.5,
+      "PCT": 0.563,
+      "L10": "7-3",
+      "STRK": "G-3",
       "HOME": "4-4",
-      "AWAY": "4-3"
+      "AWAY": "5-3"
      }
     },
     {
      "participantId": "baseball.sancti-spiritus",
      "participantType": "team",
-     "rank": 3,
+     "rank": 2,
      "stats": {
-      "GP": 15,
-      "W": 8,
+      "GP": 16,
+      "W": 9,
       "L": 7,
-      "GB": 1.0,
-      "PCT": 0.533,
+      "GB": 0.5,
+      "PCT": 0.563,
       "L10": "4-6",
+      "STRK": "G-1",
+      "HOME": "5-3",
+      "AWAY": "4-4"
+     }
+    },
+    {
+     "participantId": "baseball.granma",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 16,
+      "W": 9,
+      "L": 7,
+      "GB": 0.5,
+      "PCT": 0.563,
+      "L10": "6-4",
       "STRK": "P-2",
       "HOME": "5-3",
-      "AWAY": "3-4"
+      "AWAY": "4-4"
      }
     },
     {
      "participantId": "baseball.ciego-de-avila",
      "participantType": "team",
-     "rank": 3,
+     "rank": 5,
      "stats": {
-      "GP": 15,
+      "GP": 16,
       "W": 8,
-      "L": 7,
-      "GB": 1.0,
-      "PCT": 0.533,
+      "L": 8,
+      "GB": 1.5,
+      "PCT": 0.5,
       "L10": "5-5",
-      "STRK": "P-2",
-      "HOME": "4-3",
+      "STRK": "P-3",
+      "HOME": "4-4",
       "AWAY": "4-4"
      }
     },
     {
      "participantId": "baseball.holguin",
      "participantType": "team",
-     "rank": 6,
+     "rank": 5,
      "stats": {
-      "GP": 15,
-      "W": 7,
+      "GP": 16,
+      "W": 8,
       "L": 8,
-      "GB": 2.0,
-      "PCT": 0.467,
+      "GB": 1.5,
+      "PCT": 0.5,
       "L10": "4-6",
-      "STRK": "G-1",
+      "STRK": "G-2",
       "HOME": "4-4",
-      "AWAY": "3-4"
+      "AWAY": "4-4"
      }
     },
     {
@@ -245,14 +246,14 @@
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 15,
+      "GP": 16,
       "W": 6,
-      "L": 9,
-      "GB": 3.0,
-      "PCT": 0.4,
-      "L10": "5-5",
-      "STRK": "G-2",
-      "HOME": "4-3",
+      "L": 10,
+      "GB": 3.5,
+      "PCT": 0.375,
+      "L10": "4-6",
+      "STRK": "P-1",
+      "HOME": "4-4",
       "AWAY": "2-6"
      }
     },
