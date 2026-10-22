@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.toros-del-este:2026-27",
- "updatedAt": "2026-10-19T15:52:40Z",
+ "updatedAt": "2026-10-22T14:05:48Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.toros-del-este",
  "competitionId": "baseball.lidom",
  "season": "2026-27",
- "count": 55,
+ "count": 65,
  "groups": [
   {
    "code": "P",
@@ -17,6 +17,24 @@
     "es": "Lanzadores"
    },
    "players": [
+    {
+     "personId": "p.noah-skirrow.1998",
+     "number": "30",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.noah-skirrow.1998",
+      "name": {
+       "full": "Noah Skirrow",
+       "first": "Noah",
+       "last": "Skirrow"
+      },
+      "birthDate": "1998-07-21",
+      "isCuban": false,
+      "birthCountry": "CA"
+     }
+    },
     {
      "personId": "p.spencer-turnbull.1992",
      "number": "32",
@@ -394,6 +412,91 @@
       "isCuban": false,
       "birthCountry": "DO"
      }
+    },
+    {
+     "personId": "p.bryce-conley.1994",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.bryce-conley.1994",
+      "name": {
+       "full": "Bryce Conley",
+       "first": "Bryce",
+       "last": "Conley"
+      },
+      "birthDate": "1994-08-22",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
+    {
+     "personId": "p.carlos-rodriguez.2001",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.carlos-rodriguez.2001",
+      "name": {
+       "full": "Carlos Rodriguez",
+       "first": "Carlos",
+       "last": "Rodriguez"
+      },
+      "birthDate": "2001-11-27",
+      "isCuban": false,
+      "birthCountry": "NI"
+     }
+    },
+    {
+     "personId": "p.deyni-olivero.1998",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.deyni-olivero.1998",
+      "name": {
+       "full": "Deyni Olivero",
+       "first": "Deyni",
+       "last": "Olivero"
+      },
+      "birthDate": "1998-01-07",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
+    },
+    {
+     "personId": "p.francys-peguero.1995",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.francys-peguero.1995",
+      "name": {
+       "full": "Francys Peguero",
+       "first": "Francys",
+       "last": "Peguero"
+      },
+      "birthDate": "1995-10-04",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
+    },
+    {
+     "personId": "p.ronaldo-alesandro.1998",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.ronaldo-alesandro.1998",
+      "name": {
+       "full": "Ronaldo Alesandro",
+       "first": "Ronaldo",
+       "last": "Alesandro"
+      },
+      "birthDate": "1998-05-07",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
     }
    ]
   },
@@ -453,6 +556,23 @@
        "last": "Rodriguez"
       },
       "birthDate": "1997-06-11",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
+    },
+    {
+     "personId": "p.carlos-castro.1994",
+     "position": "C",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.carlos-castro.1994",
+      "name": {
+       "full": "Carlos Castro",
+       "first": "Carlos",
+       "last": "Castro"
+      },
+      "birthDate": "1994-05-24",
       "isCuban": false,
       "birthCountry": "DO"
      }
@@ -556,6 +676,24 @@
      }
     },
     {
+     "personId": "p.juan-brito.2001",
+     "number": "35",
+     "position": "2B",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.juan-brito.2001",
+      "name": {
+       "full": "Juan Brito",
+       "first": "Juan",
+       "last": "Brito"
+      },
+      "birthDate": "2001-09-24",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
+    },
+    {
      "personId": "p.rainer-nunez.2000",
      "number": "37",
      "position": "SS",
@@ -608,6 +746,23 @@
       "isCuban": false,
       "birthCountry": "DO"
      }
+    },
+    {
+     "personId": "p.dawel-lugo.1994",
+     "position": "3B",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.dawel-lugo.1994",
+      "name": {
+       "full": "Dawel Lugo",
+       "first": "Dawel",
+       "last": "Lugo"
+      },
+      "birthDate": "1994-12-31",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
     }
    ]
   },
@@ -656,7 +811,7 @@
     {
      "personId": "p.jesus-sanchez.1997",
      "number": "23",
-     "position": "RF",
+     "position": "OF",
      "role": "player",
      "status": "Active",
      "person": {
@@ -690,9 +845,27 @@
      }
     },
     {
+     "personId": "p.ronny-simon.2000",
+     "number": "36",
+     "position": "RF",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.ronny-simon.2000",
+      "name": {
+       "full": "Ronny Simon",
+       "first": "Ronny",
+       "last": "Simon"
+      },
+      "birthDate": "2000-04-17",
+      "isCuban": false,
+      "birthCountry": "DO"
+     }
+    },
+    {
      "personId": "p.jhonkensy-noel.2001",
      "number": "43",
-     "position": "RF",
+     "position": "OF",
      "role": "player",
      "status": "Active",
      "person": {
@@ -710,7 +883,7 @@
     {
      "personId": "p.george-valera.2000",
      "number": "55",
-     "position": "RF",
+     "position": "OF",
      "role": "player",
      "status": "Active",
      "person": {
@@ -728,7 +901,7 @@
     {
      "personId": "p.ismael-alcantara.1998",
      "number": "65",
-     "position": "CF",
+     "position": "OF",
      "role": "player",
      "status": "Active",
      "person": {
@@ -763,7 +936,7 @@
     },
     {
      "personId": "p.bryan-de-la-cruz.1996",
-     "position": "RF",
+     "position": "OF",
      "role": "player",
      "status": "Active",
      "person": {
