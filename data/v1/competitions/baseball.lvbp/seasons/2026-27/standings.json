@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lvbp:2026-27",
- "updatedAt": "2026-10-22T04:43:02Z",
+ "updatedAt": "2026-10-23T07:30:56Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -14,30 +14,9 @@
    "name": "Liga Venezolana de Béisbol Profesional (LVBP)",
    "rows": [
     {
-     "participantId": "baseball.caribes-de-anzoategui",
-     "participantType": "team",
-     "rank": 1,
-     "stats": {
-      "GP": 8,
-      "W": 6,
-      "L": 2,
-      "PCT": 0.75,
-      "STRK": "W2",
-      "L10": "6-2",
-      "HOME": "4-2",
-      "AWAY": "2-0",
-      "RS": 58,
-      "RA": 35,
-      "RD": 23
-     },
-     "extra": {
-      "leagueRank": "1"
-     }
-    },
-    {
      "participantId": "baseball.tigres-de-aragua",
      "participantType": "team",
-     "rank": 2,
+     "rank": 1,
      "stats": {
       "GP": 8,
       "W": 6,
@@ -52,25 +31,46 @@
       "RD": 9
      },
      "extra": {
-      "leagueRank": "2"
+      "leagueRank": "1"
      }
     },
     {
      "participantId": "baseball.cardenales-de-lara",
      "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 7,
+      "W": 5,
+      "L": 2,
+      "PCT": 0.714,
+      "STRK": "W1",
+      "L10": "5-2",
+      "HOME": "3-1",
+      "AWAY": "2-1",
+      "RS": 48,
+      "RA": 37,
+      "RD": 11
+     },
+     "extra": {
+      "leagueRank": "2"
+     }
+    },
+    {
+     "participantId": "baseball.caribes-de-anzoategui",
+     "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 6,
-      "W": 4,
-      "L": 2,
+      "GP": 9,
+      "W": 6,
+      "L": 3,
       "PCT": 0.667,
       "STRK": "L1",
-      "L10": "4-2",
-      "HOME": "2-1",
+      "L10": "6-3",
+      "HOME": "4-2",
       "AWAY": "2-1",
-      "RS": 34,
-      "RA": 30,
-      "RD": 4
+      "RS": 59,
+      "RA": 39,
+      "RD": 20
      },
      "extra": {
       "leagueRank": "3"
@@ -81,17 +81,17 @@
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 7,
-      "W": 4,
+      "GP": 8,
+      "W": 5,
       "L": 3,
-      "PCT": 0.571,
-      "STRK": "L2",
-      "L10": "4-3",
-      "HOME": "0-2",
+      "PCT": 0.625,
+      "STRK": "W1",
+      "L10": "5-3",
+      "HOME": "1-2",
       "AWAY": "4-1",
-      "RS": 32,
-      "RA": 25,
-      "RD": 7
+      "RS": 41,
+      "RA": 30,
+      "RD": 11
      },
      "extra": {
       "leagueRank": "4"
@@ -102,17 +102,17 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 4,
-      "L": 4,
-      "PCT": 0.5,
-      "STRK": "W2",
-      "L10": "4-4",
+      "L": 5,
+      "PCT": 0.444,
+      "STRK": "L1",
+      "L10": "4-5",
       "HOME": "2-1",
-      "AWAY": "2-3",
-      "RS": 63,
-      "RA": 65,
-      "RD": -2
+      "AWAY": "2-4",
+      "RS": 68,
+      "RA": 74,
+      "RD": -6
      },
      "extra": {
       "leagueRank": "5"
@@ -123,17 +123,17 @@
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 3,
-      "L": 5,
-      "PCT": 0.375,
-      "STRK": "W1",
-      "L10": "3-5",
+      "L": 6,
+      "PCT": 0.333,
+      "STRK": "L1",
+      "L10": "3-6",
       "HOME": "3-5",
-      "AWAY": "0-0",
-      "RS": 33,
-      "RA": 41,
-      "RD": -8
+      "AWAY": "0-1",
+      "RS": 40,
+      "RA": 55,
+      "RD": -15
      },
      "extra": {
       "leagueRank": "6"
@@ -165,17 +165,17 @@
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 8,
-      "W": 1,
+      "GP": 9,
+      "W": 2,
       "L": 7,
-      "PCT": 0.125,
-      "STRK": "L1",
-      "L10": "1-7",
-      "HOME": "0-4",
+      "PCT": 0.222,
+      "STRK": "W1",
+      "L10": "2-7",
+      "HOME": "1-4",
       "AWAY": "1-3",
-      "RS": 48,
-      "RA": 69,
-      "RD": -21
+      "RS": 52,
+      "RA": 70,
+      "RD": -18
      },
      "extra": {
       "leagueRank": "8"

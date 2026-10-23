@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lidom:2026-27",
- "updatedAt": "2026-10-22T04:43:01Z",
+ "updatedAt": "2026-10-23T07:30:55Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -40,49 +40,27 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 5,
-      "W": 3,
+      "GP": 6,
+      "W": 4,
       "L": 2,
-      "PCT": 0.6,
-      "GB": -0.5,
-      "STRK": "W1",
-      "L10": "3-2",
-      "HOME": "1-1",
+      "PCT": 0.667,
+      "GB": -1.0,
+      "STRK": "W2",
+      "L10": "4-2",
+      "HOME": "2-1",
       "AWAY": "2-1",
-      "RS": 27,
-      "RA": 29,
-      "RD": -2
+      "RS": 34,
+      "RA": 35,
+      "RD": -1
      },
      "extra": {
       "leagueRank": "2"
      }
     },
     {
-     "participantId": "baseball.toros-del-este",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 5,
-      "W": 3,
-      "L": 2,
-      "PCT": 0.6,
-      "GB": -0.5,
-      "STRK": "L1",
-      "L10": "3-2",
-      "HOME": "1-2",
-      "AWAY": "2-0",
-      "RS": 18,
-      "RA": 25,
-      "RD": -7
-     },
-     "extra": {
-      "leagueRank": "3"
-     }
-    },
-    {
      "participantId": "baseball.estrellas-orientales",
      "participantType": "team",
-     "rank": 4,
+     "rank": 3,
      "stats": {
       "GP": 4,
       "W": 2,
@@ -95,6 +73,27 @@
       "RS": 26,
       "RA": 14,
       "RD": 12
+     },
+     "extra": {
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.toros-del-este",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 6,
+      "W": 3,
+      "L": 3,
+      "PCT": 0.5,
+      "STRK": "L2",
+      "L10": "3-3",
+      "HOME": "1-2",
+      "AWAY": "2-1",
+      "RS": 24,
+      "RA": 32,
+      "RD": -8
      },
      "extra": {
       "leagueRank": "4"

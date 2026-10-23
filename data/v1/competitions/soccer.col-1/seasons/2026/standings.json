@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.col-1:2026",
- "updatedAt": "2026-10-22T04:46:35Z",
+ "updatedAt": "2026-10-23T07:34:29Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,24 @@
    "name": "Clausura",
    "rows": [
     {
-     "participantId": "soccer.deportivo-cali",
+     "participantId": "soccer.atletico-nacional",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 14,
+      "W": 9,
+      "D": 2,
+      "L": 3,
+      "GF": 28,
+      "GA": 12,
+      "GD": 16,
+      "PTS": 29
+     }
+    },
+    {
+     "participantId": "soccer.deportivo-cali",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 15,
       "W": 8,
@@ -31,7 +46,7 @@
     {
      "participantId": "soccer.america-de-cali",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 14,
       "W": 8,
@@ -41,21 +56,6 @@
       "GA": 10,
       "GD": 16,
       "PTS": 28
-     }
-    },
-    {
-     "participantId": "soccer.atletico-nacional",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 13,
-      "W": 8,
-      "D": 2,
-      "L": 3,
-      "GF": 25,
-      "GA": 12,
-      "GD": 13,
-      "PTS": 26
      }
     },
     {
@@ -303,13 +303,13 @@
      "participantType": "team",
      "rank": 20,
      "stats": {
-      "GP": 13,
+      "GP": 14,
       "W": 2,
       "D": 3,
-      "L": 8,
+      "L": 9,
       "GF": 9,
-      "GA": 19,
-      "GD": -10,
+      "GA": 22,
+      "GD": -13,
       "PTS": 9
      }
     }
