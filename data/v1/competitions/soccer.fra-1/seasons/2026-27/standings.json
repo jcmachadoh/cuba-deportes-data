@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-10-23T23:11:49Z",
+ "updatedAt": "2026-10-24T22:31:52Z",
  "sources": [
   "espn"
  ],
@@ -56,7 +56,7 @@
      }
     },
     {
-     "participantId": "soccer.paris-fc",
+     "participantId": "soccer.lille",
      "participantType": "team",
      "rank": 3,
      "stats": {
@@ -64,8 +64,8 @@
       "W": 4,
       "D": 2,
       "L": 1,
-      "GF": 12,
-      "GA": 7,
+      "GF": 10,
+      "GA": 5,
       "GD": 5,
       "PTS": 14
      },
@@ -77,17 +77,17 @@
      }
     },
     {
-     "participantId": "soccer.lille",
+     "participantId": "soccer.paris-fc",
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 4,
       "D": 2,
-      "L": 1,
-      "GF": 10,
-      "GA": 5,
-      "GD": 5,
+      "L": 2,
+      "GF": 13,
+      "GA": 9,
+      "GD": 4,
       "PTS": 14
      },
      "extra": {
@@ -119,9 +119,30 @@
      }
     },
     {
-     "participantId": "soccer.stade-rennais",
+     "participantId": "soccer.lens",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 8,
+      "W": 4,
+      "D": 1,
+      "L": 3,
+      "GF": 16,
+      "GA": 12,
+      "GD": 4,
+      "PTS": 13
+     },
+     "extra": {
+      "note": {
+       "text": "Europa League",
+       "color": "#B2BFD0"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.stade-rennais",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 7,
       "W": 4,
@@ -134,7 +155,7 @@
      },
      "extra": {
       "note": {
-       "text": "Europa League",
+       "text": "Conference League qualifying",
        "color": "#B2BFD0"
       }
      }
@@ -142,7 +163,7 @@
     {
      "participantId": "soccer.lorient",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
       "GP": 7,
       "W": 3,
@@ -152,18 +173,12 @@
       "GA": 6,
       "GD": 1,
       "PTS": 11
-     },
-     "extra": {
-      "note": {
-       "text": "Conference League qualifying",
-       "color": "#B2BFD0"
-      }
      }
     },
     {
      "participantId": "soccer.nice",
      "participantType": "team",
-     "rank": 8,
+     "rank": 9,
      "stats": {
       "GP": 8,
       "W": 3,
@@ -173,21 +188,6 @@
       "GA": 10,
       "GD": -2,
       "PTS": 11
-     }
-    },
-    {
-     "participantId": "soccer.lens",
-     "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 7,
-      "W": 3,
-      "D": 1,
-      "L": 3,
-      "GF": 14,
-      "GA": 11,
-      "GD": 3,
-      "PTS": 10
      }
     },
     {
