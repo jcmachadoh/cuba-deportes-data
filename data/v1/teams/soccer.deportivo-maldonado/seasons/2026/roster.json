@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "soccer.deportivo-maldonado:2026",
- "updatedAt": "2026-10-15T13:44:05Z",
+ "updatedAt": "2026-10-24T13:02:28Z",
  "sources": [
   "espn"
  ],
  "teamId": "soccer.deportivo-maldonado",
  "competitionId": "soccer.uru-1",
  "season": "2026",
- "count": 33,
+ "count": 35,
  "groups": [
   {
    "code": "G",
@@ -52,26 +52,6 @@
      }
     },
     {
-     "personId": "p.santiago-ramirez.1997",
-     "number": "17",
-     "position": "G",
-     "role": "player",
-     "person": {
-      "id": "p.santiago-ramirez.1997",
-      "name": {
-       "full": "Santiago Ramírez",
-       "first": "Santiago",
-       "last": "Ramírez"
-      },
-      "birthDate": "1997-02-16",
-      "nationalities": [
-       "MX",
-       "UY"
-      ],
-      "isCuban": false
-     }
-    },
-    {
      "personId": "p.diego-segovia.2000",
      "number": "25",
      "position": "G",
@@ -105,6 +85,24 @@
       "birthDate": "1998-07-15",
       "nationalities": [
        "AR"
+      ],
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.guillermo-de-amores.1994",
+     "position": "G",
+     "role": "player",
+     "person": {
+      "id": "p.guillermo-de-amores.1994",
+      "name": {
+       "full": "Guillermo De Amores",
+       "first": "Guillermo",
+       "last": "De Amores"
+      },
+      "birthDate": "1994-10-19",
+      "nationalities": [
+       "UY"
       ],
       "isCuban": false
      }
@@ -298,11 +296,11 @@
      "person": {
       "id": "p.lucas-nunez.2001",
       "name": {
-       "full": "Lucas Nuñez",
+       "full": "Lucas Núñez",
        "first": "Lucas",
-       "last": "Nuñez"
+       "last": "Núñez"
       },
-      "birthDate": "2006-03-18",
+      "birthDate": "2001-06-09",
       "nationalities": [
        "ES",
        "UY"
@@ -341,7 +339,7 @@
        "first": "Maximiliano",
        "last": "González"
       },
-      "birthDate": "1994-03-12",
+      "birthDate": "2004-05-04",
       "nationalities": [
        "AR"
       ],
@@ -608,6 +606,26 @@
      }
     },
     {
+     "personId": "p.santiago-ramirez.1997",
+     "number": "17",
+     "position": "F",
+     "role": "player",
+     "person": {
+      "id": "p.santiago-ramirez.1997",
+      "name": {
+       "full": "Santiago Ramírez",
+       "first": "Santiago",
+       "last": "Ramírez"
+      },
+      "birthDate": "2001-09-03",
+      "nationalities": [
+       "MX",
+       "UY"
+      ],
+      "isCuban": false
+     }
+    },
+    {
      "personId": "p.emiliano-mozzone.1998",
      "number": "29",
      "position": "F",
@@ -636,6 +654,27 @@
        "full": "Thiago David Ortega Silva",
        "first": "Thiago David",
        "last": "Ortega Silva"
+      },
+      "isCuban": false
+     }
+    }
+   ]
+  },
+  {
+   "code": "OTHER",
+   "name": {
+    "es": "OTHER"
+   },
+   "players": [
+    {
+     "personId": "p.ignacio-sosa",
+     "role": "player",
+     "person": {
+      "id": "p.ignacio-sosa",
+      "name": {
+       "full": "Ignacio Sosa",
+       "first": "Ignacio",
+       "last": "Sosa"
       },
       "isCuban": false
      }
