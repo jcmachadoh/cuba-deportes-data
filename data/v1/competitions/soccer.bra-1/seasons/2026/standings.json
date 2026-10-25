@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.bra-1:2026",
- "updatedAt": "2026-10-24T22:31:58Z",
+ "updatedAt": "2026-10-25T04:43:20Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,24 @@
    "name": "2026",
    "rows": [
     {
-     "participantId": "soccer.flamengo",
+     "participantId": "soccer.palmeiras",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 32,
+      "W": 20,
+      "D": 9,
+      "L": 3,
+      "GF": 56,
+      "GA": 22,
+      "GD": 34,
+      "PTS": 69
+     }
+    },
+    {
+     "participantId": "soccer.flamengo",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 31,
       "W": 20,
@@ -26,21 +41,6 @@
       "GA": 25,
       "GD": 36,
       "PTS": 67
-     }
-    },
-    {
-     "participantId": "soccer.palmeiras",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 31,
-      "W": 19,
-      "D": 9,
-      "L": 3,
-      "GF": 54,
-      "GA": 22,
-      "GD": 32,
-      "PTS": 66
      }
     },
     {
@@ -78,13 +78,13 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 14,
       "D": 9,
-      "L": 8,
-      "GF": 49,
-      "GA": 39,
-      "GD": 10,
+      "L": 9,
+      "GF": 50,
+      "GA": 41,
+      "GD": 9,
       "PTS": 51
      }
     },
@@ -108,14 +108,14 @@
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 13,
-      "D": 10,
+      "D": 11,
       "L": 8,
-      "GF": 44,
-      "GA": 39,
+      "GF": 45,
+      "GA": 40,
       "GD": 5,
-      "PTS": 49
+      "PTS": 50
      }
     },
     {
@@ -123,14 +123,14 @@
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 12,
-      "D": 9,
+      "D": 10,
       "L": 10,
-      "GF": 48,
-      "GA": 46,
+      "GF": 49,
+      "GA": 47,
       "GD": 2,
-      "PTS": 45
+      "PTS": 46
      }
     },
     {
@@ -153,13 +153,13 @@
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 11,
       "D": 8,
-      "L": 12,
+      "L": 13,
       "GF": 39,
-      "GA": 36,
-      "GD": 3,
+      "GA": 38,
+      "GD": 1,
       "PTS": 41
      }
     },
@@ -194,9 +194,24 @@
      }
     },
     {
-     "participantId": "soccer.vitoria",
+     "participantId": "soccer.vasco-da-gama",
      "participantType": "team",
      "rank": 13,
+     "stats": {
+      "GP": 31,
+      "W": 10,
+      "D": 8,
+      "L": 13,
+      "GF": 39,
+      "GA": 45,
+      "GD": -6,
+      "PTS": 38
+     }
+    },
+    {
+     "participantId": "soccer.vitoria",
+     "participantType": "team",
+     "rank": 14,
      "stats": {
       "GP": 32,
       "W": 10,
@@ -211,7 +226,7 @@
     {
      "participantId": "soccer.mirassol",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 32,
       "W": 9,
@@ -221,21 +236,6 @@
       "GA": 45,
       "GD": -8,
       "PTS": 37
-     }
-    },
-    {
-     "participantId": "soccer.vasco-da-gama",
-     "participantType": "team",
-     "rank": 15,
-     "stats": {
-      "GP": 30,
-      "W": 9,
-      "D": 8,
-      "L": 13,
-      "GF": 36,
-      "GA": 43,
-      "GD": -7,
-      "PTS": 35
      }
     },
     {
@@ -258,13 +258,13 @@
      "participantType": "team",
      "rank": 17,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 8,
       "D": 9,
-      "L": 14,
-      "GF": 32,
-      "GA": 39,
-      "GD": -7,
+      "L": 15,
+      "GF": 34,
+      "GA": 42,
+      "GD": -8,
       "PTS": 33
      }
     },
@@ -303,14 +303,14 @@
      "participantType": "team",
      "rank": 20,
      "stats": {
-      "GP": 30,
-      "W": 3,
+      "GP": 31,
+      "W": 4,
       "D": 9,
       "L": 18,
-      "GF": 30,
-      "GA": 62,
-      "GD": -32,
-      "PTS": 18
+      "GF": 32,
+      "GA": 63,
+      "GD": -31,
+      "PTS": 21
      }
     }
    ]
