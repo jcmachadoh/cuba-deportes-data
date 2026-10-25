@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "e1",
- "updatedAt": "2026-10-21T14:18:52Z",
+ "updatedAt": "2026-10-25T13:22:02Z",
  "persons": {
   "p.adam-azim": {
    "id": "p.adam-azim",
@@ -821,6 +821,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.gerardo-lopez.2005": {
+   "id": "p.gerardo-lopez.2005",
+   "name": {
+    "full": "Gerardo Lopez",
+    "first": "Gerardo",
+    "last": "Lopez"
+   },
+   "birthDate": "2005-07-30",
+   "birthPlace": {
+    "city": "San Pedro Tapanatepec",
+    "country": "MX"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 180.3,
+    "weightKg": 83.0
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "825751"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.gianluca-prestianni.2006": {
