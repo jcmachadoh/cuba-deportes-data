@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-10-25T16:20:15Z",
+ "updatedAt": "2026-10-25T19:09:32Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,30 @@
    "name": "French Ligue 1 2026-27",
    "rows": [
     {
-     "participantId": "soccer.lille",
+     "participantId": "soccer.stade-rennais",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 8,
+      "W": 5,
+      "D": 1,
+      "L": 2,
+      "GF": 18,
+      "GA": 14,
+      "GD": 4,
+      "PTS": 16
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.lille",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 8,
       "W": 4,
@@ -37,7 +58,7 @@
     {
      "participantId": "soccer.as-monaco",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 8,
       "W": 4,
@@ -58,7 +79,7 @@
     {
      "participantId": "soccer.lyon",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 7,
       "W": 4,
@@ -71,15 +92,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
       }
      }
     },
     {
      "participantId": "soccer.paris-saint-germain",
      "participantType": "team",
-     "rank": 4,
+     "rank": 5,
      "stats": {
       "GP": 7,
       "W": 4,
@@ -92,15 +113,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
+       "text": "Europa League",
+       "color": "#B2BFD0"
       }
      }
     },
     {
      "participantId": "soccer.paris-fc",
      "participantType": "team",
-     "rank": 5,
+     "rank": 6,
      "stats": {
       "GP": 8,
       "W": 4,
@@ -121,7 +142,7 @@
     {
      "participantId": "soccer.lens",
      "participantType": "team",
-     "rank": 6,
+     "rank": 7,
      "stats": {
       "GP": 8,
       "W": 4,
@@ -134,51 +155,45 @@
      },
      "extra": {
       "note": {
-       "text": "Europa League",
-       "color": "#B2BFD0"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.stade-rennais",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 7,
-      "W": 4,
-      "D": 1,
-      "L": 2,
-      "GF": 15,
-      "GA": 14,
-      "GD": 1,
-      "PTS": 13
-     },
-     "extra": {
-      "note": {
        "text": "Conference League qualifying",
        "color": "#B2BFD0"
       }
      }
     },
     {
-     "participantId": "soccer.lorient",
+     "participantId": "soccer.marseille",
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 7,
+      "GP": 8,
+      "W": 4,
+      "D": 0,
+      "L": 4,
+      "GF": 18,
+      "GA": 13,
+      "GD": 5,
+      "PTS": 12
+     }
+    },
+    {
+     "participantId": "soccer.lorient",
+     "participantType": "team",
+     "rank": 9,
+     "stats": {
+      "GP": 8,
       "W": 3,
-      "D": 2,
+      "D": 3,
       "L": 2,
       "GF": 7,
       "GA": 6,
       "GD": 1,
-      "PTS": 11
+      "PTS": 12
      }
     },
     {
      "participantId": "soccer.nice",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
       "GP": 8,
       "W": 3,
@@ -191,24 +206,39 @@
      }
     },
     {
-     "participantId": "soccer.marseille",
+     "participantId": "soccer.toulouse",
      "participantType": "team",
-     "rank": 10,
+     "rank": 11,
      "stats": {
-      "GP": 7,
+      "GP": 8,
+      "W": 2,
+      "D": 4,
+      "L": 2,
+      "GF": 12,
+      "GA": 11,
+      "GD": 1,
+      "PTS": 10
+     }
+    },
+    {
+     "participantId": "soccer.aj-auxerre",
+     "participantType": "team",
+     "rank": 12,
+     "stats": {
+      "GP": 8,
       "W": 3,
-      "D": 0,
+      "D": 1,
       "L": 4,
-      "GF": 14,
-      "GA": 10,
-      "GD": 4,
-      "PTS": 9
+      "GF": 12,
+      "GA": 18,
+      "GD": -6,
+      "PTS": 10
      }
     },
     {
      "participantId": "soccer.brest",
      "participantType": "team",
-     "rank": 11,
+     "rank": 13,
      "stats": {
       "GP": 8,
       "W": 2,
@@ -221,78 +251,48 @@
      }
     },
     {
-     "participantId": "soccer.toulouse",
-     "participantType": "team",
-     "rank": 12,
-     "stats": {
-      "GP": 7,
-      "W": 2,
-      "D": 3,
-      "L": 2,
-      "GF": 12,
-      "GA": 11,
-      "GD": 1,
-      "PTS": 9
-     }
-    },
-    {
-     "participantId": "soccer.aj-auxerre",
-     "participantType": "team",
-     "rank": 13,
-     "stats": {
-      "GP": 7,
-      "W": 3,
-      "D": 0,
-      "L": 4,
-      "GF": 11,
-      "GA": 17,
-      "GD": -6,
-      "PTS": 9
-     }
-    },
-    {
-     "participantId": "soccer.strasbourg",
+     "participantId": "soccer.angers",
      "participantType": "team",
      "rank": 14,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 2,
-      "D": 1,
-      "L": 4,
-      "GF": 12,
-      "GA": 15,
-      "GD": -3,
-      "PTS": 7
-     }
-    },
-    {
-     "participantId": "soccer.angers",
-     "participantType": "team",
-     "rank": 15,
-     "stats": {
-      "GP": 7,
-      "W": 2,
-      "D": 1,
+      "D": 2,
       "L": 4,
       "GF": 9,
       "GA": 15,
       "GD": -6,
-      "PTS": 7
+      "PTS": 8
      }
     },
     {
      "participantId": "soccer.le-mans",
      "participantType": "team",
+     "rank": 15,
+     "stats": {
+      "GP": 8,
+      "W": 1,
+      "D": 4,
+      "L": 3,
+      "GF": 11,
+      "GA": 16,
+      "GD": -5,
+      "PTS": 7
+     }
+    },
+    {
+     "participantId": "soccer.strasbourg",
+     "participantType": "team",
      "rank": 16,
      "stats": {
-      "GP": 7,
-      "W": 1,
-      "D": 3,
-      "L": 3,
-      "GF": 10,
-      "GA": 15,
-      "GD": -5,
-      "PTS": 6
+      "GP": 8,
+      "W": 2,
+      "D": 1,
+      "L": 5,
+      "GF": 12,
+      "GA": 18,
+      "GD": -6,
+      "PTS": 7
      },
      "extra": {
       "note": {
@@ -306,14 +306,14 @@
      "participantType": "team",
      "rank": 17,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 1,
-      "D": 1,
+      "D": 2,
       "L": 5,
       "GF": 5,
       "GA": 16,
       "GD": -11,
-      "PTS": 4
+      "PTS": 5
      },
      "extra": {
       "note": {
@@ -327,13 +327,13 @@
      "participantType": "team",
      "rank": 18,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 0,
       "D": 2,
-      "L": 5,
-      "GF": 5,
-      "GA": 11,
-      "GD": -6,
+      "L": 6,
+      "GF": 8,
+      "GA": 15,
+      "GD": -7,
       "PTS": 2
      },
      "extra": {

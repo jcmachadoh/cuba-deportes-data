@@ -2,13 +2,22 @@
  "schemaVersion": 1,
  "type": "season-teams",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-10-25T16:20:15Z",
+ "updatedAt": "2026-10-25T19:09:32Z",
  "sources": [
   "espn"
  ],
  "competitionId": "soccer.fra-1",
  "season": "2026-27",
  "teams": [
+  {
+   "id": "soccer.stade-rennais",
+   "name": {
+    "full": "Stade Rennais",
+    "short": "Rennes",
+    "abbrev": "REN"
+   },
+   "country": "FR"
+  },
   {
    "id": "soccer.lille",
    "name": {
@@ -64,11 +73,11 @@
    "country": "FR"
   },
   {
-   "id": "soccer.stade-rennais",
+   "id": "soccer.marseille",
    "name": {
-    "full": "Stade Rennais",
-    "short": "Rennes",
-    "abbrev": "REN"
+    "full": "Marseille",
+    "short": "Marseille",
+    "abbrev": "OLM"
    },
    "country": "FR"
   },
@@ -91,24 +100,6 @@
    "country": "FR"
   },
   {
-   "id": "soccer.marseille",
-   "name": {
-    "full": "Marseille",
-    "short": "Marseille",
-    "abbrev": "OLM"
-   },
-   "country": "FR"
-  },
-  {
-   "id": "soccer.brest",
-   "name": {
-    "full": "Brest",
-    "short": "Brest",
-    "abbrev": "BRE"
-   },
-   "country": "FR"
-  },
-  {
    "id": "soccer.toulouse",
    "name": {
     "full": "Toulouse",
@@ -127,11 +118,11 @@
    "country": "FR"
   },
   {
-   "id": "soccer.strasbourg",
+   "id": "soccer.brest",
    "name": {
-    "full": "Strasbourg",
-    "short": "Strasbourg",
-    "abbrev": "STR"
+    "full": "Brest",
+    "short": "Brest",
+    "abbrev": "BRE"
    },
    "country": "FR"
   },
@@ -150,6 +141,15 @@
     "full": "Le Mans",
     "short": "Le Mans",
     "abbrev": "MNS"
+   },
+   "country": "FR"
+  },
+  {
+   "id": "soccer.strasbourg",
+   "name": {
+    "full": "Strasbourg",
+    "short": "Strasbourg",
+    "abbrev": "STR"
    },
    "country": "FR"
   },
