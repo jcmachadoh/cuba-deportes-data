@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.col-1:2026",
- "updatedAt": "2026-10-25T22:36:24Z",
+ "updatedAt": "2026-10-26T04:49:01Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,24 @@
    "name": "Clausura",
    "rows": [
     {
-     "participantId": "soccer.america-de-cali",
+     "participantId": "soccer.atletico-nacional",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 15,
+      "W": 10,
+      "D": 2,
+      "L": 3,
+      "GF": 30,
+      "GA": 13,
+      "GD": 17,
+      "PTS": 32
+     }
+    },
+    {
+     "participantId": "soccer.america-de-cali",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 15,
       "W": 9,
@@ -31,7 +46,7 @@
     {
      "participantId": "soccer.deportivo-cali",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 16,
       "W": 8,
@@ -41,21 +56,6 @@
       "GA": 10,
       "GD": 14,
       "PTS": 30
-     }
-    },
-    {
-     "participantId": "soccer.atletico-nacional",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 14,
-      "W": 9,
-      "D": 2,
-      "L": 3,
-      "GF": 28,
-      "GA": 12,
-      "GD": 16,
-      "PTS": 29
      }
     },
     {
@@ -108,13 +108,13 @@
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 14,
+      "GP": 15,
       "W": 7,
       "D": 2,
-      "L": 5,
-      "GF": 21,
-      "GA": 19,
-      "GD": 2,
+      "L": 6,
+      "GF": 22,
+      "GA": 21,
+      "GD": 1,
       "PTS": 23
      }
     },
@@ -153,13 +153,13 @@
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 15,
+      "GP": 16,
       "W": 5,
       "D": 5,
-      "L": 5,
+      "L": 6,
       "GF": 18,
-      "GA": 18,
-      "GD": 0,
+      "GA": 19,
+      "GD": -1,
       "PTS": 20
      }
     },
@@ -179,24 +179,39 @@
      }
     },
     {
-     "participantId": "soccer.internacional-de-bogota",
+     "participantId": "soccer.alianza-fc",
      "participantType": "team",
      "rank": 12,
      "stats": {
       "GP": 15,
+      "W": 5,
+      "D": 3,
+      "L": 7,
+      "GF": 16,
+      "GA": 26,
+      "GD": -10,
+      "PTS": 18
+     }
+    },
+    {
+     "participantId": "soccer.internacional-de-bogota",
+     "participantType": "team",
+     "rank": 13,
+     "stats": {
+      "GP": 16,
       "W": 3,
       "D": 8,
-      "L": 4,
+      "L": 5,
       "GF": 18,
-      "GA": 21,
-      "GD": -3,
+      "GA": 22,
+      "GD": -4,
       "PTS": 17
      }
     },
     {
      "participantId": "soccer.llaneros-fc",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 15,
       "W": 5,
@@ -211,7 +226,7 @@
     {
      "participantId": "soccer.atletico-junior",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 15,
       "W": 3,
@@ -220,21 +235,6 @@
       "GF": 20,
       "GA": 23,
       "GD": -3,
-      "PTS": 15
-     }
-    },
-    {
-     "participantId": "soccer.alianza-fc",
-     "participantType": "team",
-     "rank": 15,
-     "stats": {
-      "GP": 14,
-      "W": 4,
-      "D": 3,
-      "L": 7,
-      "GF": 15,
-      "GA": 26,
-      "GD": -11,
       "PTS": 15
      }
     },
@@ -284,9 +284,24 @@
      }
     },
     {
-     "participantId": "soccer.jaguares-de-cordoba",
+     "participantId": "soccer.deportivo-pasto",
      "participantType": "team",
      "rank": 19,
+     "stats": {
+      "GP": 15,
+      "W": 3,
+      "D": 3,
+      "L": 9,
+      "GF": 10,
+      "GA": 22,
+      "GD": -12,
+      "PTS": 12
+     }
+    },
+    {
+     "participantId": "soccer.jaguares-de-cordoba",
+     "participantType": "team",
+     "rank": 20,
      "stats": {
       "GP": 14,
       "W": 2,
@@ -296,21 +311,6 @@
       "GA": 28,
       "GD": -12,
       "PTS": 10
-     }
-    },
-    {
-     "participantId": "soccer.deportivo-pasto",
-     "participantType": "team",
-     "rank": 20,
-     "stats": {
-      "GP": 14,
-      "W": 2,
-      "D": 3,
-      "L": 9,
-      "GF": 9,
-      "GA": 22,
-      "GD": -13,
-      "PTS": 9
      }
     }
    ]
