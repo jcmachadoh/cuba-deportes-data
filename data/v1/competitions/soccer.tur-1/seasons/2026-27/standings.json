@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.tur-1:2026-27",
- "updatedAt": "2026-10-25T19:09:35Z",
+ "updatedAt": "2026-10-26T20:00:00Z",
  "sources": [
   "espn"
  ],
@@ -35,9 +35,30 @@
      }
     },
     {
-     "participantId": "soccer.galatasaray",
+     "participantId": "soccer.trabzonspor",
      "participantType": "team",
      "rank": 2,
+     "stats": {
+      "GP": 9,
+      "W": 6,
+      "D": 1,
+      "L": 2,
+      "GF": 22,
+      "GA": 8,
+      "GD": 14,
+      "PTS": 19
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.galatasaray",
+     "participantType": "team",
+     "rank": 3,
      "stats": {
       "GP": 8,
       "W": 6,
@@ -50,45 +71,24 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.fenerbahce",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 8,
-      "W": 5,
-      "D": 1,
-      "L": 2,
-      "GF": 22,
-      "GA": 6,
-      "GD": 16,
-      "PTS": 16
-     },
-     "extra": {
-      "note": {
        "text": "Europa League qualifying",
        "color": "#B2BFD0"
       }
      }
     },
     {
-     "participantId": "soccer.trabzonspor",
+     "participantId": "soccer.besiktas",
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 8,
-      "W": 5,
-      "D": 1,
-      "L": 2,
+      "GP": 9,
+      "W": 6,
+      "D": 0,
+      "L": 3,
       "GF": 18,
-      "GA": 5,
-      "GD": 13,
-      "PTS": 16
+      "GA": 10,
+      "GD": 8,
+      "PTS": 18
      },
      "extra": {
       "note": {
@@ -98,9 +98,24 @@
      }
     },
     {
-     "participantId": "soccer.kasimpasa",
+     "participantId": "soccer.fenerbahce",
      "participantType": "team",
      "rank": 5,
+     "stats": {
+      "GP": 8,
+      "W": 5,
+      "D": 1,
+      "L": 2,
+      "GF": 22,
+      "GA": 6,
+      "GD": 16,
+      "PTS": 16
+     }
+    },
+    {
+     "participantId": "soccer.kasimpasa",
+     "participantType": "team",
+     "rank": 6,
      "stats": {
       "GP": 9,
       "W": 4,
@@ -110,21 +125,6 @@
       "GA": 9,
       "GD": 4,
       "PTS": 16
-     }
-    },
-    {
-     "participantId": "soccer.besiktas",
-     "participantType": "team",
-     "rank": 6,
-     "stats": {
-      "GP": 8,
-      "W": 5,
-      "D": 0,
-      "L": 3,
-      "GF": 16,
-      "GA": 10,
-      "GD": 6,
-      "PTS": 15
      }
     },
     {
@@ -207,13 +207,13 @@
      "participantType": "team",
      "rank": 12,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 3,
       "D": 2,
-      "L": 3,
+      "L": 4,
       "GF": 12,
-      "GA": 12,
-      "GD": 0,
+      "GA": 14,
+      "GD": -2,
       "PTS": 11
      }
     },
@@ -222,13 +222,13 @@
      "participantType": "team",
      "rank": 13,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 3,
       "D": 1,
-      "L": 4,
-      "GF": 8,
-      "GA": 11,
-      "GD": -3,
+      "L": 5,
+      "GF": 11,
+      "GA": 15,
+      "GD": -4,
       "PTS": 10
      }
     },
