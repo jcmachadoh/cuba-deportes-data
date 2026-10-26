@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "f2",
- "updatedAt": "2026-10-24T18:51:45Z",
+ "updatedAt": "2026-10-26T15:52:03Z",
  "persons": {
   "p.adonis-rosa.1994": {
    "id": "p.adonis-rosa.1994",
@@ -1110,6 +1110,25 @@
    ],
    "extra": {
     "federation": "ROU"
+   }
+  },
+  "p.hongchi-peng": {
+   "id": "p.hongchi-peng",
+   "name": {
+    "full": "Hongchi Peng"
+   },
+   "nationalities": [
+    "CN"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "8609047"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "CHN"
    }
   },
   "p.husain-ayyad": {
@@ -2469,11 +2488,13 @@
     "fide": "8603006"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "CHN"
-   }
+   },
+   "title": "GM"
   },
   "p.weverson.2000": {
    "id": "p.weverson.2000",

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "0d",
- "updatedAt": "2026-10-25T16:42:32Z",
+ "updatedAt": "2026-10-26T15:52:03Z",
  "persons": {
   "p.adama-traore.1996": {
    "id": "p.adama-traore.1996",
@@ -1905,15 +1905,16 @@
     "first": "Paulo",
     "last": "Lima"
    },
-   "birthDate": "1998-06-05",
+   "birthDate": "1992-01-20",
    "nationalities": [
-    "PT"
+    "PT",
+    "UY"
    ],
    "isCuban": false,
    "gender": "M",
    "body": {
-    "heightCm": 185.4,
-    "weightKg": 82.1
+    "heightCm": 182.9,
+    "weightKg": 73.0
    },
    "externalIds": {
     "espn": "80854"
@@ -2319,6 +2320,25 @@
     "mlb-statsapi"
    ]
   },
+  "p.xing-hong": {
+   "id": "p.xing-hong",
+   "name": {
+    "full": "Xing Hong"
+   },
+   "nationalities": [
+    "CN"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "8606129"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "CHN"
+   }
+  },
   "p.yannick-engelhardt.2001": {
    "id": "p.yannick-engelhardt.2001",
    "name": {
@@ -2401,11 +2421,13 @@
     "fide": "8614300"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "CHN"
-   }
+   },
+   "title": "IM"
   }
  }
 }

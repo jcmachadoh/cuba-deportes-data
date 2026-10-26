@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "38",
- "updatedAt": "2026-10-26T13:26:08Z",
+ "updatedAt": "2026-10-26T15:52:03Z",
  "persons": {
   "p.adam-bagi.2006": {
    "id": "p.adam-bagi.2006",
@@ -416,7 +416,25 @@
    },
    "sources": [
     "ufc.com"
-   ]
+   ],
+   "birthPlace": {
+    "city": "Stockton",
+    "country": "US"
+   },
+   "body": {
+    "heightCm": 174.0,
+    "weightKg": 60.8
+   },
+   "extra": {
+    "record": {
+     "W": 8,
+     "L": 4,
+     "D": 0
+    },
+    "reach_cm": 172.7,
+    "status": "Active",
+    "division": "Women's Bantamweight Division"
+   }
   },
   "p.christian-balunan": {
    "id": "p.christian-balunan",
@@ -1862,6 +1880,22 @@
     "espn"
    ]
   },
+  "p.nirash-raffaello-perera": {
+   "id": "p.nirash-raffaello-perera",
+   "name": {
+    "full": "Nirash Raffaello Perera",
+    "first": "Nirash Raffaello",
+    "last": "Perera"
+   },
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "5326344"
+   },
+   "sources": [
+    "espn"
+   ]
+  },
   "p.obed-vargas.2005": {
    "id": "p.obed-vargas.2005",
    "name": {
@@ -2172,6 +2206,25 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.runyi-zhou": {
+   "id": "p.runyi-zhou",
+   "name": {
+    "full": "Runyi Zhou"
+   },
+   "nationalities": [
+    "CN"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "8623325"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "CHN"
+   }
   },
   "p.saled-avila-garcia.2013": {
    "id": "p.saled-avila-garcia.2013",
@@ -2528,6 +2581,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.xiao-zhang": {
+   "id": "p.xiao-zhang",
+   "name": {
+    "full": "Xiao Zhang"
+   },
+   "nationalities": [
+    "CN"
+   ],
+   "isCuban": false,
+   "title": "WIM",
+   "externalIds": {
+    "fide": "8610894"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "CHN"
+   }
   },
   "p.yimy-gomez.1999": {
    "id": "p.yimy-gomez.1999",
