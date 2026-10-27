@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.bra-1:2026",
- "updatedAt": "2026-10-25T04:43:20Z",
+ "updatedAt": "2026-10-27T05:12:06Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,24 @@
    "name": "2026",
    "rows": [
     {
-     "participantId": "soccer.palmeiras",
+     "participantId": "soccer.flamengo",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 32,
+      "W": 21,
+      "D": 7,
+      "L": 4,
+      "GF": 64,
+      "GA": 27,
+      "GD": 37,
+      "PTS": 70
+     }
+    },
+    {
+     "participantId": "soccer.palmeiras",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 32,
       "W": 20,
@@ -26,21 +41,6 @@
       "GA": 22,
       "GD": 34,
       "PTS": 69
-     }
-    },
-    {
-     "participantId": "soccer.flamengo",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 31,
-      "W": 20,
-      "D": 7,
-      "L": 4,
-      "GF": 61,
-      "GA": 25,
-      "GD": 36,
-      "PTS": 67
      }
     },
     {
@@ -93,13 +93,13 @@
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 14,
       "D": 8,
-      "L": 9,
-      "GF": 42,
-      "GA": 35,
-      "GD": 7,
+      "L": 10,
+      "GF": 44,
+      "GA": 38,
+      "GD": 6,
       "PTS": 50
      }
     },
@@ -183,13 +183,13 @@
      "participantType": "team",
      "rank": 12,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 10,
       "D": 9,
-      "L": 12,
+      "L": 13,
       "GF": 38,
-      "GA": 49,
-      "GD": -11,
+      "GA": 50,
+      "GD": -12,
       "PTS": 39
      }
     },
@@ -254,9 +254,24 @@
      }
     },
     {
-     "participantId": "soccer.corinthians",
+     "participantId": "soccer.gremio",
      "participantType": "team",
      "rank": 17,
+     "stats": {
+      "GP": 32,
+      "W": 8,
+      "D": 10,
+      "L": 14,
+      "GF": 35,
+      "GA": 44,
+      "GD": -9,
+      "PTS": 34
+     }
+    },
+    {
+     "participantId": "soccer.corinthians",
+     "participantType": "team",
+     "rank": 18,
      "stats": {
       "GP": 32,
       "W": 8,
@@ -266,21 +281,6 @@
       "GA": 42,
       "GD": -8,
       "PTS": 33
-     }
-    },
-    {
-     "participantId": "soccer.gremio",
-     "participantType": "team",
-     "rank": 18,
-     "stats": {
-      "GP": 31,
-      "W": 7,
-      "D": 10,
-      "L": 14,
-      "GF": 34,
-      "GA": 44,
-      "GD": -10,
-      "PTS": 31
      }
     },
     {
