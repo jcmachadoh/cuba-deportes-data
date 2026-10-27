@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ita-1:2026-27",
- "updatedAt": "2026-10-25T22:36:16Z",
+ "updatedAt": "2026-10-27T22:16:11Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,30 @@
    "name": "2026-2027 Italian Serie A",
    "rows": [
     {
-     "participantId": "soccer.internazionale",
+     "participantId": "soccer.lazio",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 9,
+      "W": 8,
+      "D": 1,
+      "L": 0,
+      "GF": 22,
+      "GA": 7,
+      "GD": 15,
+      "PTS": 25
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.internazionale",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 8,
       "W": 7,
@@ -35,60 +56,18 @@
      }
     },
     {
-     "participantId": "soccer.lazio",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 8,
-      "W": 7,
-      "D": 1,
-      "L": 0,
-      "GF": 16,
-      "GA": 5,
-      "GD": 11,
-      "PTS": 22
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
      "participantId": "soccer.as-roma",
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 8,
-      "W": 5,
+      "GP": 9,
+      "W": 6,
       "D": 3,
       "L": 0,
-      "GF": 19,
-      "GA": 6,
-      "GD": 13,
-      "PTS": 18
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.ac-milan",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 8,
-      "W": 5,
-      "D": 3,
-      "L": 0,
-      "GF": 16,
-      "GA": 7,
-      "GD": 9,
-      "PTS": 18
+      "GF": 23,
+      "GA": 8,
+      "GD": 15,
+      "PTS": 21
      },
      "extra": {
       "note": {
@@ -100,16 +79,37 @@
     {
      "participantId": "soccer.como",
      "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 9,
+      "W": 6,
+      "D": 2,
+      "L": 1,
+      "GF": 17,
+      "GA": 8,
+      "GD": 9,
+      "PTS": 20
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.ac-milan",
+     "participantType": "team",
      "rank": 5,
      "stats": {
       "GP": 8,
       "W": 5,
-      "D": 2,
-      "L": 1,
-      "GF": 14,
+      "D": 3,
+      "L": 0,
+      "GF": 16,
       "GA": 7,
-      "GD": 7,
-      "PTS": 17
+      "GD": 9,
+      "PTS": 18
      },
      "extra": {
       "note": {
@@ -165,13 +165,13 @@
      "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 4,
       "D": 1,
-      "L": 3,
-      "GF": 13,
-      "GA": 11,
-      "GD": 2,
+      "L": 4,
+      "GF": 14,
+      "GA": 14,
+      "GD": 0,
       "PTS": 13
      }
     },
@@ -180,13 +180,13 @@
      "participantType": "team",
      "rank": 9,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 4,
       "D": 1,
-      "L": 3,
-      "GF": 6,
-      "GA": 9,
-      "GD": -3,
+      "L": 4,
+      "GF": 8,
+      "GA": 13,
+      "GD": -5,
       "PTS": 13
      }
     },
@@ -255,13 +255,13 @@
      "participantType": "team",
      "rank": 14,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 2,
       "D": 2,
-      "L": 4,
-      "GF": 12,
-      "GA": 16,
-      "GD": -4,
+      "L": 5,
+      "GF": 14,
+      "GA": 22,
+      "GD": -8,
       "PTS": 8
      }
     },
