@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:inCygpgU",
- "updatedAt": "2026-10-26T20:01:01Z",
+ "updatedAt": "2026-10-27T00:18:20Z",
  "sources": [
   "lichess"
  ],
@@ -31,7 +31,7 @@
    {
     "name": "Round 2",
     "startsAt": 1793028600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 3",
@@ -349,10 +349,35 @@
   },
   {
    "rank": 12,
-   "participantId": "p.alan-b-merry",
+   "participantId": "p.jonah-b-willow",
    "participantType": "person",
    "stats": {
     "RANK": 12,
+    "PTS": 1.5,
+    "ELO": 2426,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.jonah-b-willow",
+    "name": {
+     "full": "Jonah B Willow"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2360
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.alan-b-merry",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
     "PTS": 1.5,
     "ELO": 2401,
     "GP": 2
@@ -373,11 +398,11 @@
    }
   },
   {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.jude-shearsby",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 14,
     "PTS": 1.5,
     "ELO": 2287,
     "GP": 2
@@ -398,11 +423,11 @@
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
    "participantId": "p.graeme-n-buckley",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 15,
     "PTS": 1.5,
     "ELO": 2276,
     "GP": 2
@@ -423,11 +448,35 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 16,
+   "participantId": "p.owen-crawford",
+   "participantType": "person",
+   "stats": {
+    "RANK": 16,
+    "PTS": 1.5,
+    "ELO": 2230,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.owen-crawford",
+    "name": {
+     "full": "Owen Crawford"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2425
+   }
+  },
+  {
+   "rank": 17,
    "participantId": "p.qixiang-han",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 17,
     "PTS": 1.5,
     "ELO": 2226,
     "GP": 2
@@ -448,11 +497,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 18,
    "participantId": "p.peter-finn",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 18,
     "PTS": 1.5,
     "ELO": 2212,
     "GP": 2
@@ -473,11 +522,11 @@
    }
   },
   {
-   "rank": 17,
+   "rank": 19,
    "participantId": "p.alexandr-pereslavtsev",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 19,
     "PTS": 1.5,
     "ELO": 2186,
     "GP": 2
@@ -497,11 +546,11 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 20,
    "participantId": "p.martin-p-burrows",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 20,
     "PTS": 1.5,
     "ELO": 2138,
     "GP": 2
@@ -521,11 +570,11 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 21,
    "participantId": "p.dylan-wastney",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 21,
     "PTS": 1.5,
     "ELO": 2004,
     "GP": 2
@@ -545,36 +594,11 @@
    }
   },
   {
-   "rank": 20,
-   "participantId": "p.jonah-b-willow",
-   "participantType": "person",
-   "stats": {
-    "RANK": 20,
-    "PTS": 1.0,
-    "ELO": 2426,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.jonah-b-willow",
-    "name": {
-     "full": "Jonah B Willow"
-    },
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2905
-   }
-  },
-  {
-   "rank": 21,
+   "rank": 22,
    "participantId": "p.jacob-connor-boswell",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 22,
     "PTS": 1.0,
     "ELO": 2297,
     "GP": 2
@@ -594,11 +618,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 23,
    "participantId": "p.adithya-vaidyanathan",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 23,
     "PTS": 1.0,
     "ELO": 2240,
     "GP": 2
@@ -616,30 +640,6 @@
    },
    "extra": {
     "performance": 2267
-   }
-  },
-  {
-   "rank": 23,
-   "participantId": "p.owen-crawford",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23,
-    "PTS": 1.0,
-    "ELO": 2230,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.owen-crawford",
-    "name": {
-     "full": "Owen Crawford"
-    },
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2839
    }
   },
   {

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.tur-1:2026-27",
- "updatedAt": "2026-10-26T20:00:00Z",
+ "updatedAt": "2026-10-26T23:55:52Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,30 @@
    "name": "2026/2027 Turkish Super Lig",
    "rows": [
     {
-     "participantId": "soccer.amed-sfk",
+     "participantId": "soccer.galatasaray",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 9,
+      "W": 7,
+      "D": 1,
+      "L": 1,
+      "GF": 19,
+      "GA": 12,
+      "GD": 7,
+      "PTS": 22
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.amed-sfk",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 9,
       "W": 6,
@@ -29,15 +50,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
       }
      }
     },
     {
      "participantId": "soccer.trabzonspor",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 9,
       "W": 6,
@@ -46,27 +67,6 @@
       "GF": 22,
       "GA": 8,
       "GD": 14,
-      "PTS": 19
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.galatasaray",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 8,
-      "W": 6,
-      "D": 1,
-      "L": 1,
-      "GF": 17,
-      "GA": 11,
-      "GD": 6,
       "PTS": 19
      },
      "extra": {
@@ -102,13 +102,13 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 5,
       "D": 1,
-      "L": 2,
-      "GF": 22,
-      "GA": 6,
-      "GD": 16,
+      "L": 3,
+      "GF": 23,
+      "GA": 8,
+      "GD": 15,
       "PTS": 16
      }
     },
