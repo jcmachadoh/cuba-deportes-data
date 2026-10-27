@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:G5JF01hD",
- "updatedAt": "2026-10-27T15:14:09Z",
+ "updatedAt": "2026-10-27T18:25:51Z",
  "sources": [
   "lichess"
  ],
@@ -23,47 +23,47 @@
   "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=1uV_srafU9c9.webp&w=800&sig=a62499729c2a0a86313ed920195bd4484976be91",
   "rounds": [
    {
-    "name": "Ronda 1",
+    "name": "Round 1",
     "startsAt": 1793009700000,
     "finished": true
    },
    {
-    "name": "Ronda 2",
+    "name": "Round 2",
     "startsAt": 1793096100000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Ronda 3",
+    "name": "Round 3",
     "startsAt": 1793182500000,
     "finished": null
    },
    {
-    "name": "Ronda 4",
+    "name": "Round 4",
     "startsAt": 1793268900000,
     "finished": null
    },
    {
-    "name": "Ronda 5",
+    "name": "Round 5",
     "startsAt": 1793355300000,
     "finished": null
    },
    {
-    "name": "Ronda 6",
+    "name": "Round 6",
     "startsAt": 1793441700000,
     "finished": null
    },
    {
-    "name": "Ronda 7",
+    "name": "Round 7",
     "startsAt": 1793528100000,
     "finished": null
    },
    {
-    "name": "Ronda 8",
+    "name": "Round 8",
     "startsAt": 1793614500000,
     "finished": null
    },
    {
-    "name": "Ronda 9",
+    "name": "Round 9",
     "startsAt": 1793686500000,
     "finished": null
    }
@@ -72,10 +72,36 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.daniil-dubov.1996",
+   "participantId": "p.edgar-mamedov.2010",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 2.0,
+    "ELO": 2474,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.edgar-mamedov.2010",
+    "name": {
+     "full": "Edgar Mamedov"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "KZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 3382
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.daniil-dubov.1996",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
     "PTS": 1.5,
     "ELO": 2654,
     "GP": 2
@@ -97,11 +123,11 @@
    }
   },
   {
-   "rank": 2,
+   "rank": 3,
    "participantId": "p.denis-lazavik.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 3,
     "PTS": 1.5,
     "ELO": 2636,
     "GP": 2
@@ -123,11 +149,11 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.shamsiddin-vokhidov.2002",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 4,
     "PTS": 1.5,
     "ELO": 2649,
     "GP": 2
@@ -149,11 +175,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 5,
    "participantId": "p.denis-makhnev",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 5,
     "PTS": 1.5,
     "ELO": 2581,
     "GP": 2
@@ -171,32 +197,6 @@
    },
    "extra": {
     "performance": 2686
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.edgar-mamedov.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 1.0,
-    "ELO": 2474,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.edgar-mamedov.2010",
-    "name": {
-     "full": "Edgar Mamedov"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "KZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3326
    }
   },
   {
@@ -232,7 +232,7 @@
     "RANK": 7,
     "PTS": 0.5,
     "ELO": 2638,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.aram-hakobyan.2001",
@@ -247,7 +247,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2649
+    "performance": 2368
    }
   },
   {
