@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:o6sVDB4M",
- "updatedAt": "2026-10-28T17:00:43Z",
+ "updatedAt": "2026-10-28T22:56:48Z",
  "sources": [
   "lichess"
  ],
@@ -24,47 +24,47 @@
   "image": "https://image.lichess1.org/display?fmt=webp&h=400&op=thumbnail&path=VUU9mQo87DWC.webp&w=800&sig=24fb206214865dfe2d4f071816dcbfa6ca85b2e8",
   "rounds": [
    {
-    "name": "الجولة 1",
+    "name": "Round 1",
     "startsAt": 1793120400000,
     "finished": true
    },
    {
-    "name": "الجولة 2",
+    "name": "Round 2",
     "startsAt": 1793125224881,
     "finished": true
    },
    {
-    "name": "الجولة 3",
+    "name": "Round 3",
     "startsAt": 1793130311772,
     "finished": true
    },
    {
-    "name": "الجولة 4",
+    "name": "Round 4",
     "startsAt": 1793206800000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "الجولة 5",
-    "startsAt": null,
-    "finished": null
+    "name": "Round 5",
+    "startsAt": 1793211602834,
+    "finished": true
    },
    {
-    "name": "الجولة 6",
-    "startsAt": null,
-    "finished": null
+    "name": "Round 6",
+    "startsAt": 1793216448486,
+    "finished": true
    },
    {
-    "name": "الجولة 7",
+    "name": "Round 7",
     "startsAt": 1793293200000,
     "finished": null
    },
    {
-    "name": "الجولة 8",
+    "name": "Round 8",
     "startsAt": null,
     "finished": null
    },
    {
-    "name": "الجولة 9",
+    "name": "Round 9",
     "startsAt": null,
     "finished": null
    }
@@ -73,91 +73,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.hikaru-nakamura.1987",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 4.0,
-    "ELO": 2738,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.hikaru-nakamura.1987",
-    "name": {
-     "full": "Hikaru Nakamura"
-    },
-    "birthDate": "1987",
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2844
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.javokhir-sindarov.2005",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 3.5,
-    "ELO": 2747,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.javokhir-sindarov.2005",
-    "name": {
-     "full": "Javokhir Sindarov"
-    },
-    "birthDate": "2005",
-    "nationalities": [
-     "UZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2773
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.fabiano-caruana.1992",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 2.5,
-    "ELO": 2682,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.fabiano-caruana.1992",
-    "name": {
-     "full": "Fabiano Caruana"
-    },
-    "birthDate": "1992",
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2681
-   }
-  },
-  {
-   "rank": 4,
    "participantId": "p.praggnanandhaa-r.2005",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 2.0,
+    "RANK": 1,
+    "PTS": 11.0,
     "ELO": 2730,
-    "GP": 6
+    "GP": 12
    },
    "person": {
     "id": "p.praggnanandhaa-r.2005",
@@ -172,7 +94,85 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2597
+    "performance": 2751
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.javokhir-sindarov.2005",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 8.5,
+    "ELO": 2747,
+    "GP": 12
+   },
+   "person": {
+    "id": "p.javokhir-sindarov.2005",
+    "name": {
+     "full": "Javokhir Sindarov"
+    },
+    "birthDate": "2005",
+    "nationalities": [
+     "UZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2716
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.fabiano-caruana.1992",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 8.5,
+    "ELO": 2682,
+    "GP": 12
+   },
+   "person": {
+    "id": "p.fabiano-caruana.1992",
+    "name": {
+     "full": "Fabiano Caruana"
+    },
+    "birthDate": "1992",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2709
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.hikaru-nakamura.1987",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 8.0,
+    "ELO": 2738,
+    "GP": 12
+   },
+   "person": {
+    "id": "p.hikaru-nakamura.1987",
+    "name": {
+     "full": "Hikaru Nakamura"
+    },
+    "birthDate": "1987",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2719
    }
   }
  ]
