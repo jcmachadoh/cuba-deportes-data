@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:o6sVDB4M",
- "updatedAt": "2026-10-29T13:21:50Z",
+ "updatedAt": "2026-10-29T20:00:33Z",
  "sources": [
   "lichess"
  ],
@@ -56,16 +56,16 @@
    {
     "name": "Round 7",
     "startsAt": 1793293200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 8",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1793297829647,
+    "finished": true
    },
    {
     "name": "Round 9",
-    "startsAt": null,
+    "startsAt": 1793302494379,
     "finished": null
    }
   ]
@@ -73,39 +73,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.praggnanandhaa-r.2005",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 11.0,
-    "ELO": 2730,
-    "GP": 12
-   },
-   "person": {
-    "id": "p.praggnanandhaa-r.2005",
-    "name": {
-     "full": "Praggnanandhaa R"
-    },
-    "birthDate": "2005",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2751
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.javokhir-sindarov.2005",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
-    "PTS": 8.5,
+    "RANK": 1,
+    "PTS": 19.5,
     "ELO": 2747,
-    "GP": 12
+    "GP": 17
    },
    "person": {
     "id": "p.javokhir-sindarov.2005",
@@ -120,7 +94,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2716
+    "performance": 2780
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.praggnanandhaa-r.2005",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 18.0,
+    "ELO": 2730,
+    "GP": 16
+   },
+   "person": {
+    "id": "p.praggnanandhaa-r.2005",
+    "name": {
+     "full": "Praggnanandhaa R"
+    },
+    "birthDate": "2005",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2770
    }
   },
   {
@@ -129,9 +129,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 3,
-    "PTS": 8.5,
+    "PTS": 12.5,
     "ELO": 2682,
-    "GP": 12
+    "GP": 16
    },
    "person": {
     "id": "p.fabiano-caruana.1992",
@@ -146,7 +146,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2709
+    "performance": 2696
    }
   },
   {
@@ -155,9 +155,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 4,
-    "PTS": 8.0,
+    "PTS": 11.0,
     "ELO": 2738,
-    "GP": 12
+    "GP": 17
    },
    "person": {
     "id": "p.hikaru-nakamura.1987",
@@ -172,7 +172,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2719
+    "performance": 2653
    }
   }
  ]
