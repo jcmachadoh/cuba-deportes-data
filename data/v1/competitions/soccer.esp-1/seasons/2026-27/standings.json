@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.esp-1:2026-27",
- "updatedAt": "2026-10-26T23:55:48Z",
+ "updatedAt": "2026-10-30T23:45:32Z",
  "sources": [
   "espn"
  ],
@@ -195,13 +195,13 @@
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 3,
       "D": 3,
-      "L": 4,
+      "L": 5,
       "GF": 15,
-      "GA": 14,
-      "GD": 1,
+      "GA": 15,
+      "GD": 0,
       "PTS": 12
      },
      "extra": {
@@ -227,9 +227,24 @@
      }
     },
     {
-     "participantId": "soccer.osasuna",
+     "participantId": "soccer.espanyol",
      "participantType": "team",
      "rank": 12,
+     "stats": {
+      "GP": 11,
+      "W": 3,
+      "D": 2,
+      "L": 6,
+      "GF": 13,
+      "GA": 14,
+      "GD": -1,
+      "PTS": 11
+     }
+    },
+    {
+     "participantId": "soccer.osasuna",
+     "participantType": "team",
+     "rank": 13,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -244,7 +259,7 @@
     {
      "participantId": "soccer.racing-santander",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -259,7 +274,7 @@
     {
      "participantId": "soccer.levante",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 10,
       "W": 2,
@@ -274,7 +289,7 @@
     {
      "participantId": "soccer.elche",
      "participantType": "team",
-     "rank": 15,
+     "rank": 16,
      "stats": {
       "GP": 10,
       "W": 2,
@@ -289,7 +304,7 @@
     {
      "participantId": "soccer.rayo-vallecano",
      "participantType": "team",
-     "rank": 16,
+     "rank": 17,
      "stats": {
       "GP": 9,
       "W": 2,
@@ -304,7 +319,7 @@
     {
      "participantId": "soccer.getafe",
      "participantType": "team",
-     "rank": 17,
+     "rank": 18,
      "stats": {
       "GP": 10,
       "W": 2,
@@ -314,21 +329,6 @@
       "GA": 15,
       "GD": -10,
       "PTS": 9
-     }
-    },
-    {
-     "participantId": "soccer.espanyol",
-     "participantType": "team",
-     "rank": 18,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 2,
-      "L": 6,
-      "GF": 12,
-      "GA": 14,
-      "GD": -2,
-      "PTS": 8
      },
      "extra": {
       "note": {

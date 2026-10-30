@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ger-1:2026-27",
- "updatedAt": "2026-10-25T19:09:32Z",
+ "updatedAt": "2026-10-30T23:45:34Z",
  "sources": [
   "espn"
  ],
@@ -98,9 +98,30 @@
      }
     },
     {
-     "participantId": "soccer.rb-leipzig",
+     "participantId": "soccer.sv-elversberg",
      "participantType": "team",
      "rank": 5,
+     "stats": {
+      "GP": 8,
+      "W": 4,
+      "D": 1,
+      "L": 3,
+      "GF": 16,
+      "GA": 16,
+      "GD": 0,
+      "PTS": 13
+     },
+     "extra": {
+      "note": {
+       "text": "Europa League",
+       "color": "#B2BFD0"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.rb-leipzig",
+     "participantType": "team",
+     "rank": 6,
      "stats": {
       "GP": 7,
       "W": 4,
@@ -121,7 +142,7 @@
     {
      "participantId": "soccer.werder-bremen",
      "participantType": "team",
-     "rank": 6,
+     "rank": 7,
      "stats": {
       "GP": 7,
       "W": 3,
@@ -134,7 +155,7 @@
      },
      "extra": {
       "note": {
-       "text": "Europa League",
+       "text": "Conference League qualifying",
        "color": "#B2BFD0"
       }
      }
@@ -142,36 +163,15 @@
     {
      "participantId": "soccer.mainz",
      "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 7,
-      "W": 3,
-      "D": 1,
-      "L": 3,
-      "GF": 16,
-      "GA": 13,
-      "GD": 3,
-      "PTS": 10
-     },
-     "extra": {
-      "note": {
-       "text": "Conference League qualifying",
-       "color": "#B2BFD0"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.sv-elversberg",
-     "participantType": "team",
      "rank": 8,
      "stats": {
-      "GP": 7,
+      "GP": 8,
       "W": 3,
       "D": 1,
-      "L": 3,
-      "GF": 12,
-      "GA": 15,
-      "GD": -3,
+      "L": 4,
+      "GF": 17,
+      "GA": 17,
+      "GD": 0,
       "PTS": 10
      }
     },
