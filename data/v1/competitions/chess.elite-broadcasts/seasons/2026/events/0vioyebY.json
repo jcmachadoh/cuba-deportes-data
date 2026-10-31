@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:0vioyebY",
- "updatedAt": "2026-10-31T18:56:18Z",
+ "updatedAt": "2026-10-31T23:24:40Z",
  "sources": [
   "lichess"
  ],
@@ -24,47 +24,47 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=cg0CsyDFz0u0.webp&w=800&sig=1aec989ee2b7df43fe6638c32bf68c158872f72f",
   "rounds": [
    {
-    "name": "Ronda 1",
+    "name": "Round 1",
     "startsAt": 1793379600000,
     "finished": true
    },
    {
-    "name": "Ronda 2",
+    "name": "Round 2",
     "startsAt": 1793444400000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Ronda 3",
+    "name": "Round 3",
     "startsAt": 1793523600000,
     "finished": null
    },
    {
-    "name": "Ronda 4",
+    "name": "Round 4",
     "startsAt": 1801846800000,
     "finished": null
    },
    {
-    "name": "Ronda 5",
+    "name": "Round 5",
     "startsAt": 1801911600000,
     "finished": null
    },
    {
-    "name": "Ronda 6",
+    "name": "Round 6",
     "startsAt": 1801990800000,
     "finished": null
    },
    {
-    "name": "Ronda 7",
+    "name": "Round 7",
     "startsAt": 1804266000000,
     "finished": null
    },
    {
-    "name": "Ronda 8",
+    "name": "Round 8",
     "startsAt": 1804330800000,
     "finished": null
    },
    {
-    "name": "Ronda 9",
+    "name": "Round 9",
     "startsAt": 1804410000000,
     "finished": null
    }
@@ -99,10 +99,36 @@
   },
   {
    "rank": 2,
-   "participantId": "p.benjamin-arvola-notkevich",
+   "participantId": "p.semen-mitusov",
    "participantType": "person",
    "stats": {
     "RANK": 2,
+    "PTS": 2.0,
+    "ELO": 2464,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.semen-mitusov",
+    "name": {
+     "full": "Semen Mitusov"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "OSS",
+    "performance": 3124
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.benjamin-arvola-notkevich",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
     "PTS": 2.0,
     "ELO": 2447,
     "GP": 2
@@ -124,11 +150,11 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.nicolai-maxime-ostensen",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 4,
     "PTS": 2.0,
     "ELO": 2418,
     "GP": 2
@@ -150,11 +176,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 5,
    "participantId": "p.alparslan-isik",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 5,
     "PTS": 2.0,
     "ELO": 2412,
     "GP": 2
@@ -176,11 +202,11 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 6,
    "participantId": "p.mads-vestby-ellingsen",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 6,
     "PTS": 2.0,
     "ELO": 2390,
     "GP": 2
@@ -202,11 +228,11 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 7,
    "participantId": "p.sondre-melaa",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 7,
     "PTS": 2.0,
     "ELO": 2317,
     "GP": 2
@@ -228,11 +254,11 @@
    }
   },
   {
-   "rank": 7,
+   "rank": 8,
    "participantId": "p.jon-ludvig-hammer",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 8,
     "PTS": 1.5,
     "ELO": 2573,
     "GP": 2
@@ -254,11 +280,11 @@
    }
   },
   {
-   "rank": 8,
+   "rank": 9,
    "participantId": "p.konstantin-tarlev",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
+    "RANK": 9,
     "PTS": 1.5,
     "ELO": 2537,
     "GP": 2
@@ -280,11 +306,11 @@
    }
   },
   {
-   "rank": 9,
+   "rank": 10,
    "participantId": "p.lars-oskar-hauge",
    "participantType": "person",
    "stats": {
-    "RANK": 9,
+    "RANK": 10,
     "PTS": 1.5,
     "ELO": 2485,
     "GP": 2
@@ -306,11 +332,11 @@
    }
   },
   {
-   "rank": 10,
+   "rank": 11,
    "participantId": "p.erik-blomqvist",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 11,
     "PTS": 1.5,
     "ELO": 2481,
     "GP": 2
@@ -332,11 +358,11 @@
    }
   },
   {
-   "rank": 11,
+   "rank": 12,
    "participantId": "p.evsuld-myagmarsuren",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 12,
     "PTS": 1.5,
     "ELO": 2330,
     "GP": 2
@@ -358,11 +384,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 13,
    "participantId": "p.felix-wiger-nordas",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 13,
     "PTS": 1.5,
     "ELO": 2152,
     "GP": 2
@@ -383,11 +409,11 @@
    }
   },
   {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.torbjorn-valvag",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 14,
     "PTS": 1.5,
     "ELO": 2128,
     "GP": 2
@@ -408,11 +434,11 @@
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
    "participantId": "p.valentina-verbin",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 15,
     "PTS": 1.5,
     "ELO": 2101,
     "GP": 2
@@ -434,11 +460,11 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 16,
    "participantId": "p.elham-amar",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 16,
     "PTS": 1.0,
     "ELO": 2567,
     "GP": 1
@@ -460,11 +486,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 17,
    "participantId": "p.toms-kantans",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 17,
     "PTS": 1.0,
     "ELO": 2556,
     "GP": 2
@@ -486,11 +512,11 @@
    }
   },
   {
-   "rank": 17,
+   "rank": 18,
    "participantId": "p.frode-olav-olsen-urkedal",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 18,
     "PTS": 1.0,
     "ELO": 2554,
     "GP": 2
@@ -512,11 +538,11 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 19,
    "participantId": "p.emin-ohanyan.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 19,
     "PTS": 1.0,
     "ELO": 2520,
     "GP": 2
@@ -536,32 +562,6 @@
    "extra": {
     "team": "SK 1911",
     "performance": 2273
-   }
-  },
-  {
-   "rank": 19,
-   "participantId": "p.semen-mitusov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 19,
-    "PTS": 1.0,
-    "ELO": 2464,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.semen-mitusov",
-    "name": {
-     "full": "Semen Mitusov"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "OSS",
-    "performance": 3063
    }
   },
   {
@@ -676,7 +676,7 @@
     "RANK": 24,
     "PTS": 1.0,
     "ELO": 2386,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.rune-djurhuus",
@@ -691,7 +691,7 @@
    },
    "extra": {
     "team": "Nordstrand",
-    "performance": 2968
+    "performance": 2316
    }
   },
   {

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "97",
- "updatedAt": "2026-10-31T14:46:17Z",
+ "updatedAt": "2026-10-31T23:23:55Z",
  "persons": {
   "p.adam-nagy.1995": {
    "id": "p.adam-nagy.1995",
@@ -228,17 +228,21 @@
    ],
    "isCuban": true,
    "cubanEvidence": [
-    "chess-results.nationality"
+    "chess-results.nationality",
+    "fide.nationality"
    ],
    "externalIds": {
     "fide": "3505839"
    },
    "sources": [
-    "chess-results"
+    "chess-results",
+    "fide"
    ],
    "extra": {
     "federation": "CUB"
-   }
+   },
+   "birthDate": "1967",
+   "gender": "M"
   },
   "p.brad-goldberg": {
    "id": "p.brad-goldberg",

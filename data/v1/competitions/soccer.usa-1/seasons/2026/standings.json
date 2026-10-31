@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.usa-1:2026",
- "updatedAt": "2026-10-29T05:46:48Z",
+ "updatedAt": "2026-10-31T23:23:25Z",
  "sources": [
   "espn"
  ],
@@ -77,9 +77,30 @@
      }
     },
     {
-     "participantId": "soccer.chicago-fire-fc",
+     "participantId": "soccer.charlotte-fc",
      "participantType": "team",
      "rank": 4,
+     "stats": {
+      "GP": 33,
+      "W": 15,
+      "D": 8,
+      "L": 10,
+      "GF": 63,
+      "GA": 48,
+      "GD": 15,
+      "PTS": 53
+     },
+     "extra": {
+      "note": {
+       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.chicago-fire-fc",
+     "participantType": "team",
+     "rank": 5,
      "stats": {
       "GP": 32,
       "W": 15,
@@ -98,60 +119,18 @@
      }
     },
     {
-     "participantId": "soccer.charlotte-fc",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 32,
-      "W": 14,
-      "D": 8,
-      "L": 10,
-      "GF": 59,
-      "GA": 48,
-      "GD": 11,
-      "PTS": 50
-     },
-     "extra": {
-      "note": {
-       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
      "participantId": "soccer.philadelphia-union",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 13,
       "D": 8,
-      "L": 11,
+      "L": 12,
       "GF": 62,
-      "GA": 50,
-      "GD": 12,
+      "GA": 51,
+      "GD": 11,
       "PTS": 47
-     },
-     "extra": {
-      "note": {
-       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.orlando-city-sc",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 32,
-      "W": 12,
-      "D": 7,
-      "L": 13,
-      "GF": 62,
-      "GA": 74,
-      "GD": -12,
-      "PTS": 43
      },
      "extra": {
       "note": {
@@ -163,16 +142,37 @@
     {
      "participantId": "soccer.fc-cincinnati",
      "participantType": "team",
-     "rank": 8,
+     "rank": 7,
      "stats": {
-      "GP": 32,
-      "W": 11,
+      "GP": 33,
+      "W": 12,
       "D": 10,
       "L": 11,
-      "GF": 66,
+      "GF": 67,
       "GA": 73,
-      "GD": -7,
-      "PTS": 43
+      "GD": -6,
+      "PTS": 46
+     },
+     "extra": {
+      "note": {
+       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.columbus-crew",
+     "participantType": "team",
+     "rank": 8,
+     "stats": {
+      "GP": 33,
+      "W": 13,
+      "D": 5,
+      "L": 15,
+      "GF": 55,
+      "GA": 49,
+      "GD": 6,
+      "PTS": 44
      },
      "extra": {
       "note": {
@@ -182,18 +182,18 @@
      }
     },
     {
-     "participantId": "soccer.columbus-crew",
+     "participantId": "soccer.orlando-city-sc",
      "participantType": "team",
      "rank": 9,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 12,
-      "D": 5,
-      "L": 15,
-      "GF": 52,
-      "GA": 49,
-      "GD": 3,
-      "PTS": 41
+      "D": 7,
+      "L": 14,
+      "GF": 62,
+      "GA": 78,
+      "GD": -16,
+      "PTS": 43
      },
      "extra": {
       "note": {
@@ -218,9 +218,24 @@
      }
     },
     {
-     "participantId": "soccer.toronto-fc",
+     "participantId": "soccer.new-york-city-fc",
      "participantType": "team",
      "rank": 11,
+     "stats": {
+      "GP": 33,
+      "W": 9,
+      "D": 12,
+      "L": 12,
+      "GF": 48,
+      "GA": 45,
+      "GD": 3,
+      "PTS": 39
+     }
+    },
+    {
+     "participantId": "soccer.toronto-fc",
+     "participantType": "team",
+     "rank": 12,
      "stats": {
       "GP": 32,
       "W": 9,
@@ -233,32 +248,17 @@
      }
     },
     {
-     "participantId": "soccer.new-york-city-fc",
-     "participantType": "team",
-     "rank": 12,
-     "stats": {
-      "GP": 32,
-      "W": 9,
-      "D": 11,
-      "L": 12,
-      "GF": 47,
-      "GA": 44,
-      "GD": 3,
-      "PTS": 38
-     }
-    },
-    {
      "participantId": "soccer.d-c-united",
      "participantType": "team",
      "rank": 13,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 7,
       "D": 12,
-      "L": 13,
+      "L": 14,
       "GF": 39,
-      "GA": 57,
-      "GD": -18,
+      "GA": 60,
+      "GD": -21,
       "PTS": 33
      }
     },
@@ -282,14 +282,14 @@
      "participantType": "team",
      "rank": 15,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 6,
-      "D": 7,
+      "D": 8,
       "L": 19,
-      "GF": 36,
-      "GA": 66,
+      "GF": 37,
+      "GA": 67,
       "GD": -30,
-      "PTS": 25
+      "PTS": 26
      }
     }
    ]
@@ -324,14 +324,35 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 15,
-      "D": 9,
+      "D": 10,
       "L": 8,
-      "GF": 58,
-      "GA": 49,
+      "GF": 59,
+      "GA": 50,
       "GD": 9,
-      "PTS": 54
+      "PTS": 55
+     },
+     "extra": {
+      "note": {
+       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.san-jose-earthquakes",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 33,
+      "W": 14,
+      "D": 10,
+      "L": 9,
+      "GF": 56,
+      "GA": 48,
+      "GD": 8,
+      "PTS": 52
      },
      "extra": {
       "note": {
@@ -343,15 +364,15 @@
     {
      "participantId": "soccer.st-louis-city-sc",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 14,
       "D": 9,
-      "L": 9,
+      "L": 10,
       "GF": 58,
-      "GA": 47,
-      "GD": 11,
+      "GA": 48,
+      "GD": 10,
       "PTS": 51
      },
      "extra": {
@@ -364,7 +385,7 @@
     {
      "participantId": "soccer.houston-dynamo-fc",
      "participantType": "team",
-     "rank": 4,
+     "rank": 5,
      "stats": {
       "GP": 32,
       "W": 14,
@@ -374,27 +395,6 @@
       "GA": 39,
       "GD": 3,
       "PTS": 51
-     },
-     "extra": {
-      "note": {
-       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.san-jose-earthquakes",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 32,
-      "W": 13,
-      "D": 10,
-      "L": 9,
-      "GF": 54,
-      "GA": 47,
-      "GD": 7,
-      "PTS": 49
      },
      "extra": {
       "note": {
@@ -425,9 +425,30 @@
      }
     },
     {
-     "participantId": "soccer.colorado-rapids",
+     "participantId": "soccer.la-galaxy",
      "participantType": "team",
      "rank": 7,
+     "stats": {
+      "GP": 33,
+      "W": 11,
+      "D": 11,
+      "L": 11,
+      "GF": 49,
+      "GA": 55,
+      "GD": -6,
+      "PTS": 44
+     },
+     "extra": {
+      "note": {
+       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.colorado-rapids",
+     "participantType": "team",
+     "rank": 8,
      "stats": {
       "GP": 32,
       "W": 12,
@@ -440,15 +461,15 @@
      },
      "extra": {
       "note": {
-       "text": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series",
-       "color": "#B5E7CE"
+       "text": "Qualifies for MLS Cup Playoffs - Wild Card Matches",
+       "color": "#B2BFD0"
       }
      }
     },
     {
      "participantId": "soccer.seattle-sounders-fc",
      "participantType": "team",
-     "rank": 8,
+     "rank": 9,
      "stats": {
       "GP": 32,
       "W": 11,
@@ -469,37 +490,16 @@
     {
      "participantId": "soccer.real-salt-lake",
      "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 32,
-      "W": 12,
-      "D": 6,
-      "L": 14,
-      "GF": 50,
-      "GA": 49,
-      "GD": 1,
-      "PTS": 42
-     },
-     "extra": {
-      "note": {
-       "text": "Qualifies for MLS Cup Playoffs - Wild Card Matches",
-       "color": "#B2BFD0"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.la-galaxy",
-     "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 32,
-      "W": 10,
-      "D": 11,
-      "L": 11,
-      "GF": 45,
-      "GA": 54,
-      "GD": -9,
-      "PTS": 41
+      "GP": 33,
+      "W": 12,
+      "D": 6,
+      "L": 15,
+      "GF": 51,
+      "GA": 51,
+      "GD": 0,
+      "PTS": 42
      }
     },
     {
@@ -518,9 +518,24 @@
      }
     },
     {
-     "participantId": "soccer.minnesota-united-fc",
+     "participantId": "soccer.san-diego-fc",
      "participantType": "team",
      "rank": 12,
+     "stats": {
+      "GP": 33,
+      "W": 9,
+      "D": 11,
+      "L": 13,
+      "GF": 57,
+      "GA": 62,
+      "GD": -5,
+      "PTS": 38
+     }
+    },
+    {
+     "participantId": "soccer.minnesota-united-fc",
+     "participantType": "team",
+     "rank": 13,
      "stats": {
       "GP": 32,
       "W": 9,
@@ -533,32 +548,17 @@
      }
     },
     {
-     "participantId": "soccer.san-diego-fc",
-     "participantType": "team",
-     "rank": 13,
-     "stats": {
-      "GP": 32,
-      "W": 8,
-      "D": 11,
-      "L": 13,
-      "GF": 56,
-      "GA": 62,
-      "GD": -6,
-      "PTS": 35
-     }
-    },
-    {
      "participantId": "soccer.austin-fc",
      "participantType": "team",
      "rank": 14,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 8,
       "D": 10,
-      "L": 14,
-      "GF": 41,
-      "GA": 59,
-      "GD": -18,
+      "L": 15,
+      "GF": 42,
+      "GA": 63,
+      "GD": -21,
       "PTS": 34
      }
     },
@@ -567,14 +567,14 @@
      "participantType": "team",
      "rank": 15,
      "stats": {
-      "GP": 32,
+      "GP": 33,
       "W": 6,
-      "D": 4,
+      "D": 5,
       "L": 22,
-      "GF": 38,
-      "GA": 80,
+      "GF": 39,
+      "GA": 81,
       "GD": -42,
-      "PTS": 22
+      "PTS": 23
      }
     }
    ]

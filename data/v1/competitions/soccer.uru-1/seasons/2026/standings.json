@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.uru-1:2026",
- "updatedAt": "2026-10-31T18:33:52Z",
+ "updatedAt": "2026-10-31T23:23:30Z",
  "sources": [
   "espn"
  ],
@@ -59,9 +59,27 @@
      }
     },
     {
-     "participantId": "soccer.deportivo-maldonado",
+     "participantId": "soccer.penarol",
      "participantType": "team",
      "rank": 4,
+     "stats": {
+      "GP": 13,
+      "W": 6,
+      "D": 5,
+      "L": 2,
+      "GF": 17,
+      "GA": 9,
+      "GD": 8,
+      "PTS": 22
+     },
+     "extra": {
+      "deductions": 1.0
+     }
+    },
+    {
+     "participantId": "soccer.deportivo-maldonado",
+     "participantType": "team",
+     "rank": 5,
      "stats": {
       "GP": 12,
       "W": 6,
@@ -71,24 +89,6 @@
       "GA": 10,
       "GD": 8,
       "PTS": 21
-     }
-    },
-    {
-     "participantId": "soccer.penarol",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 12,
-      "W": 6,
-      "D": 4,
-      "L": 2,
-      "GF": 16,
-      "GA": 8,
-      "GD": 8,
-      "PTS": 21
-     },
-     "extra": {
-      "deductions": 1.0
      }
     },
     {
@@ -152,9 +152,24 @@
      }
     },
     {
-     "participantId": "soccer.boston-river",
+     "participantId": "soccer.montevideo-wanderers",
      "participantType": "team",
      "rank": 10,
+     "stats": {
+      "GP": 13,
+      "W": 4,
+      "D": 4,
+      "L": 5,
+      "GF": 14,
+      "GA": 19,
+      "GD": -5,
+      "PTS": 16
+     }
+    },
+    {
+     "participantId": "soccer.boston-river",
+     "participantType": "team",
+     "rank": 11,
      "stats": {
       "GP": 12,
       "W": 4,
@@ -163,21 +178,6 @@
       "GF": 14,
       "GA": 15,
       "GD": -1,
-      "PTS": 15
-     }
-    },
-    {
-     "participantId": "soccer.montevideo-wanderers",
-     "participantType": "team",
-     "rank": 11,
-     "stats": {
-      "GP": 12,
-      "W": 4,
-      "D": 3,
-      "L": 5,
-      "GF": 13,
-      "GA": 18,
-      "GD": -5,
       "PTS": 15
      }
     },

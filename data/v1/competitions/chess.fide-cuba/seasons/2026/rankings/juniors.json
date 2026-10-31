@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "chess.fide-cuba:2026:juniors",
- "updatedAt": "2026-10-30T23:46:07Z",
+ "updatedAt": "2026-10-31T23:23:54Z",
  "sources": [
   "fide"
  ],
@@ -10,13 +10,13 @@
  "season": "2026",
  "rankingId": "juniors",
  "name": "Ranking FIDE CUB · Juvenil (sub-20)",
- "asOf": "2026-10-30",
+ "asOf": "2026-10-31",
  "championId": null,
  "extra": {
   "federation": "CUB",
-  "totalPlayers": 2756,
-  "activePlayers": 556,
-  "fileDate": "2026-10-30",
+  "totalPlayers": 2759,
+  "activePlayers": 570,
+  "fileDate": "2026-10-31",
   "url": "https://ratings.fide.com/download/standard_rating_list_xml.zip"
  },
  "entries": [
@@ -47,7 +47,7 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "ELO": 2363
+    "ELO": 2367
    },
    "person": {
     "id": "p.daniel-hidalgo-diaz.2008",
@@ -60,6 +60,9 @@
     ],
     "isCuban": true,
     "title": "IM"
+   },
+   "extra": {
+    "games": 13
    }
   },
   {
@@ -165,29 +168,29 @@
     ],
     "isCuban": true,
     "title": "IM"
-   },
-   "extra": {
-    "games": 9
    }
   },
   {
    "rank": 8,
-   "participantId": "p.dariel-morales-lezcano.2006",
+   "participantId": "p.edrwis-anthuan-espinosa-forti.2010",
    "participantType": "person",
    "stats": {
     "RANK": 8,
-    "ELO": 2268
+    "ELO": 2273
    },
    "person": {
-    "id": "p.dariel-morales-lezcano.2006",
+    "id": "p.edrwis-anthuan-espinosa-forti.2010",
     "name": {
-     "full": "Dariel Morales Lezcano"
+     "full": "Edrwis Anthuan Espinosa Forti"
     },
-    "birthDate": "2006",
+    "birthDate": "2010",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 10
    }
   },
   {
@@ -196,7 +199,7 @@
    "participantType": "person",
    "stats": {
     "RANK": 9,
-    "ELO": 2263
+    "ELO": 2273
    },
    "person": {
     "id": "p.ronniel-abraham-ramirez-cabreja.2007",
@@ -209,14 +212,40 @@
     ],
     "isCuban": true,
     "title": "FM"
+   },
+   "extra": {
+    "games": 10
    }
   },
   {
    "rank": 10,
-   "participantId": "p.david-alejan-calzadilla-gonzalez.2009",
+   "participantId": "p.dariel-morales-lezcano.2006",
    "participantType": "person",
    "stats": {
     "RANK": 10,
+    "ELO": 2266
+   },
+   "person": {
+    "id": "p.dariel-morales-lezcano.2006",
+    "name": {
+     "full": "Dariel Morales Lezcano"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 10
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.david-alejan-calzadilla-gonzalez.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11,
     "ELO": 2258
    },
    "person": {
@@ -225,26 +254,6 @@
      "full": "David Alejan Calzadilla Gonzalez"
     },
     "birthDate": "2009",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 11,
-   "participantId": "p.edrwis-anthuan-espinosa-forti.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "ELO": 2239
-   },
-   "person": {
-    "id": "p.edrwis-anthuan-espinosa-forti.2010",
-    "name": {
-     "full": "Edrwis Anthuan Espinosa Forti"
-    },
-    "birthDate": "2010",
     "nationalities": [
      "CU"
     ],
@@ -290,17 +299,38 @@
     ],
     "isCuban": true,
     "title": "IM"
-   },
-   "extra": {
-    "games": 5
    }
   },
   {
    "rank": 14,
-   "participantId": "p.hector-luis-fuentes-de-feria.2006",
+   "participantId": "p.osiel-alberto-alonso-orta.2011",
    "participantType": "person",
    "stats": {
     "RANK": 14,
+    "ELO": 2216
+   },
+   "person": {
+    "id": "p.osiel-alberto-alonso-orta.2011",
+    "name": {
+     "full": "Osiel Alberto Alonso Orta"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true,
+    "title": "FM"
+   },
+   "extra": {
+    "games": 10
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.hector-luis-fuentes-de-feria.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
     "ELO": 2210
    },
    "person": {
@@ -314,17 +344,14 @@
     ],
     "isCuban": true,
     "title": "CM"
-   },
-   "extra": {
-    "games": 7
    }
   },
   {
-   "rank": 15,
+   "rank": 16,
    "participantId": "p.yadel-alejandro-acosta-guerrero.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 16,
     "ELO": 2205
    },
    "person": {
@@ -337,27 +364,6 @@
      "CU"
     ],
     "isCuban": true
-   }
-  },
-  {
-   "rank": 16,
-   "participantId": "p.osiel-alberto-alonso-orta.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 16,
-    "ELO": 2188
-   },
-   "person": {
-    "id": "p.osiel-alberto-alonso-orta.2011",
-    "name": {
-     "full": "Osiel Alberto Alonso Orta"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true,
-    "title": "FM"
    }
   },
   {
@@ -387,7 +393,7 @@
    "participantType": "person",
    "stats": {
     "RANK": 18,
-    "ELO": 2158
+    "ELO": 2157
    },
    "person": {
     "id": "p.jose-angel-rodriguez-hernandez.2007",
@@ -401,21 +407,21 @@
     "isCuban": true
    },
    "extra": {
-    "games": 1
+    "games": 4
    }
   },
   {
    "rank": 19,
-   "participantId": "p.cesar-raul-gonzalez-xique.2008",
+   "participantId": "p.diego-torres-ymas.2008",
    "participantType": "person",
    "stats": {
     "RANK": 19,
-    "ELO": 2155
+    "ELO": 2156
    },
    "person": {
-    "id": "p.cesar-raul-gonzalez-xique.2008",
+    "id": "p.diego-torres-ymas.2008",
     "name": {
-     "full": "Cesar Raul Gonzalez Xique"
+     "full": "Diego Torres Ymas"
     },
     "birthDate": "2008",
     "nationalities": [
@@ -424,7 +430,7 @@
     "isCuban": true
    },
    "extra": {
-    "games": 7
+    "games": 9
    }
   },
   {
@@ -490,30 +496,10 @@
   },
   {
    "rank": 23,
-   "participantId": "p.alex-herrera-pedroso.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23,
-    "ELO": 2126
-   },
-   "person": {
-    "id": "p.alex-herrera-pedroso.2010",
-    "name": {
-     "full": "Alex Herrera Pedroso"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 24,
    "participantId": "p.cristian-de-jesus-tenst-fong.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 23,
     "ELO": 2118
    },
    "person": {
@@ -529,11 +515,11 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 24,
    "participantId": "p.yurislandy-hernandez-elias.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 24,
     "ELO": 2115
    },
    "person": {
@@ -549,31 +535,11 @@
    }
   },
   {
-   "rank": 26,
-   "participantId": "p.diego-torres-ymas.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 26,
-    "ELO": 2113
-   },
-   "person": {
-    "id": "p.diego-torres-ymas.2008",
-    "name": {
-     "full": "Diego Torres Ymas"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 27,
+   "rank": 25,
    "participantId": "p.carlos-ernesto-piedra-toboso.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 25,
     "ELO": 2104
    },
    "person": {
@@ -586,17 +552,38 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 16
    }
   },
   {
-   "rank": 28,
+   "rank": 26,
+   "participantId": "p.haden-zuaznabal-duarte.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "ELO": 2103
+   },
+   "person": {
+    "id": "p.haden-zuaznabal-duarte.2009",
+    "name": {
+     "full": "Haden Zuaznabal Duarte"
+    },
+    "birthDate": "2009",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true,
+    "title": "WIM"
+   },
+   "extra": {
+    "games": 9
+   }
+  },
+  {
+   "rank": 27,
    "participantId": "p.alejandro-lorenzo-licourt.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 27,
     "ELO": 2091
    },
    "person": {
@@ -612,34 +599,11 @@
    }
   },
   {
-   "rank": 29,
-   "participantId": "p.diego-jimenez-leyva.2012",
-   "participantType": "person",
-   "stats": {
-    "RANK": 29,
-    "ELO": 2087
-   },
-   "person": {
-    "id": "p.diego-jimenez-leyva.2012",
-    "name": {
-     "full": "Diego Jimenez Leyva"
-    },
-    "birthDate": "2012",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   },
-   "extra": {
-    "games": 9
-   }
-  },
-  {
-   "rank": 30,
+   "rank": 28,
    "participantId": "p.lorena-beatriz-montejo-bello.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
+    "RANK": 28,
     "ELO": 2087
    },
    "person": {
@@ -656,31 +620,11 @@
    }
   },
   {
-   "rank": 31,
-   "participantId": "p.marlon-de-jesus-blanco-fuentes.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 31,
-    "ELO": 2083
-   },
-   "person": {
-    "id": "p.marlon-de-jesus-blanco-fuentes.2008",
-    "name": {
-     "full": "Marlon De Jesus Blanco Fuentes"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 32,
+   "rank": 29,
    "participantId": "p.esteban-david-ofarrill-cabrera.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 29,
     "ELO": 2079
    },
    "person": {
@@ -693,9 +637,75 @@
      "CU"
     ],
     "isCuban": true
+   }
+  },
+  {
+   "rank": 30,
+   "participantId": "p.alex-herrera-pedroso.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 30,
+    "ELO": 2075
+   },
+   "person": {
+    "id": "p.alex-herrera-pedroso.2010",
+    "name": {
+     "full": "Alex Herrera Pedroso"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
    },
    "extra": {
-    "games": 8
+    "games": 11
+   }
+  },
+  {
+   "rank": 31,
+   "participantId": "p.diego-jimenez-leyva.2012",
+   "participantType": "person",
+   "stats": {
+    "RANK": 31,
+    "ELO": 2067
+   },
+   "person": {
+    "id": "p.diego-jimenez-leyva.2012",
+    "name": {
+     "full": "Diego Jimenez Leyva"
+    },
+    "birthDate": "2012",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 3
+   }
+  },
+  {
+   "rank": 32,
+   "participantId": "p.cesar-raul-gonzalez-xique.2008",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32,
+    "ELO": 2065
+   },
+   "person": {
+    "id": "p.cesar-raul-gonzalez-xique.2008",
+    "name": {
+     "full": "Cesar Raul Gonzalez Xique"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 9
    }
   },
   {
@@ -736,17 +746,38 @@
      "CU"
     ],
     "isCuban": true
+   }
+  },
+  {
+   "rank": 35,
+   "participantId": "p.erick-angelo-ravelo-lobaina.2012",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35,
+    "ELO": 2050
+   },
+   "person": {
+    "id": "p.erick-angelo-ravelo-lobaina.2012",
+    "name": {
+     "full": "Erick Angelo Ravelo Lobaina"
+    },
+    "birthDate": "2012",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true,
+    "title": "CM"
    },
    "extra": {
     "games": 9
    }
   },
   {
-   "rank": 35,
+   "rank": 36,
    "participantId": "p.lauren-sofia-santana-ovalle.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 36,
     "ELO": 2050
    },
    "person": {
@@ -762,45 +793,26 @@
    }
   },
   {
-   "rank": 36,
-   "participantId": "p.erick-angelo-ravelo-lobaina.2012",
-   "participantType": "person",
-   "stats": {
-    "RANK": 36,
-    "ELO": 2048
-   },
-   "person": {
-    "id": "p.erick-angelo-ravelo-lobaina.2012",
-    "name": {
-     "full": "Erick Angelo Ravelo Lobaina"
-    },
-    "birthDate": "2012",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true,
-    "title": "CM"
-   }
-  },
-  {
    "rank": 37,
-   "participantId": "p.haden-zuaznabal-duarte.2009",
+   "participantId": "p.wilber-dariel-ondar-hernandez.2009",
    "participantType": "person",
    "stats": {
     "RANK": 37,
-    "ELO": 2046
+    "ELO": 2049
    },
    "person": {
-    "id": "p.haden-zuaznabal-duarte.2009",
+    "id": "p.wilber-dariel-ondar-hernandez.2009",
     "name": {
-     "full": "Haden Zuaznabal Duarte"
+     "full": "Wilber Dariel Ondar Hernandez"
     },
     "birthDate": "2009",
     "nationalities": [
      "CU"
     ],
-    "isCuban": true,
-    "title": "WIM"
+    "isCuban": true
+   },
+   "extra": {
+    "games": 9
    }
   },
   {
@@ -881,9 +893,6 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 15
    }
   },
   {
@@ -964,9 +973,6 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 6
    }
   },
   {
@@ -1071,10 +1077,33 @@
   },
   {
    "rank": 51,
-   "participantId": "p.carlos-daniel-sanchez-terrero.2009",
+   "participantId": "p.marlon-de-jesus-blanco-fuentes.2008",
    "participantType": "person",
    "stats": {
     "RANK": 51,
+    "ELO": 2012
+   },
+   "person": {
+    "id": "p.marlon-de-jesus-blanco-fuentes.2008",
+    "name": {
+     "full": "Marlon De Jesus Blanco Fuentes"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 52,
+   "participantId": "p.carlos-daniel-sanchez-terrero.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 52,
     "ELO": 2005
    },
    "person": {
@@ -1090,11 +1119,11 @@
    }
   },
   {
-   "rank": 52,
+   "rank": 53,
    "participantId": "p.leandro-alvarez-alburquerque.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 52,
+    "RANK": 53,
     "ELO": 2002
    },
    "person": {
@@ -1110,11 +1139,11 @@
    }
   },
   {
-   "rank": 53,
+   "rank": 54,
    "participantId": "p.cristofer-rafael-cuesta-cedeno.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 53,
+    "RANK": 54,
     "ELO": 1999
    },
    "person": {
@@ -1130,12 +1159,12 @@
    }
   },
   {
-   "rank": 54,
+   "rank": 55,
    "participantId": "p.liennys-ferrer-naranjo.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 54,
-    "ELO": 1994
+    "RANK": 55,
+    "ELO": 1982
    },
    "person": {
     "id": "p.liennys-ferrer-naranjo.2010",
@@ -1148,14 +1177,17 @@
     ],
     "isCuban": true,
     "title": "WFM"
+   },
+   "extra": {
+    "games": 11
    }
   },
   {
-   "rank": 55,
+   "rank": 56,
    "participantId": "p.mauricio-e-rodriguez-velazquez.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 55,
+    "RANK": 56,
     "ELO": 1976
    },
    "person": {
@@ -1171,11 +1203,11 @@
    }
   },
   {
-   "rank": 56,
+   "rank": 57,
    "participantId": "p.sheila-suarez-castillo.2007",
    "participantType": "person",
    "stats": {
-    "RANK": 56,
+    "RANK": 57,
     "ELO": 1974
    },
    "person": {
@@ -1191,11 +1223,11 @@
    }
   },
   {
-   "rank": 57,
+   "rank": 58,
    "participantId": "p.anjaly-daniela-galan-palacio.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 57,
+    "RANK": 58,
     "ELO": 1969
    },
    "person": {
@@ -1211,11 +1243,11 @@
    }
   },
   {
-   "rank": 58,
+   "rank": 59,
    "participantId": "p.diego-fonseca-gonzalez.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 58,
+    "RANK": 59,
     "ELO": 1962
    },
    "person": {
@@ -1231,11 +1263,11 @@
    }
   },
   {
-   "rank": 59,
+   "rank": 60,
    "participantId": "p.luis-jacques-cruz-perez.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 59,
+    "RANK": 60,
     "ELO": 1961
    },
    "person": {
@@ -1251,11 +1283,11 @@
    }
   },
   {
-   "rank": 60,
+   "rank": 61,
    "participantId": "p.reymond-david-azahares-serrano.2007",
    "participantType": "person",
    "stats": {
-    "RANK": 60,
+    "RANK": 61,
     "ELO": 1957
    },
    "person": {
@@ -1264,26 +1296,6 @@
      "full": "Reymond David Azahares Serrano"
     },
     "birthDate": "2007",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 61,
-   "participantId": "p.wilber-dariel-ondar-hernandez.2009",
-   "participantType": "person",
-   "stats": {
-    "RANK": 61,
-    "ELO": 1957
-   },
-   "person": {
-    "id": "p.wilber-dariel-ondar-hernandez.2009",
-    "name": {
-     "full": "Wilber Dariel Ondar Hernandez"
-    },
-    "birthDate": "2009",
     "nationalities": [
      "CU"
     ],
@@ -1308,9 +1320,6 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 8
    }
   },
   {
@@ -1335,22 +1344,25 @@
   },
   {
    "rank": 64,
-   "participantId": "p.christian-daniel-gonzalez-fajardo.2010",
+   "participantId": "p.eli-abraham-pizarro-collazo.2007",
    "participantType": "person",
    "stats": {
     "RANK": 64,
-    "ELO": 1947
+    "ELO": 1949
    },
    "person": {
-    "id": "p.christian-daniel-gonzalez-fajardo.2010",
+    "id": "p.eli-abraham-pizarro-collazo.2007",
     "name": {
-     "full": "Christian Daniel Gonzalez Fajardo"
+     "full": "Eli Abraham Pizarro Collazo"
     },
-    "birthDate": "2010",
+    "birthDate": "2007",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 9
    }
   },
   {
@@ -1391,37 +1403,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 8
    }
   },
   {
    "rank": 67,
-   "participantId": "p.eli-abraham-pizarro-collazo.2007",
-   "participantType": "person",
-   "stats": {
-    "RANK": 67,
-    "ELO": 1940
-   },
-   "person": {
-    "id": "p.eli-abraham-pizarro-collazo.2007",
-    "name": {
-     "full": "Eli Abraham Pizarro Collazo"
-    },
-    "birthDate": "2007",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 68,
    "participantId": "p.amy-ashley-cepero-lopez.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 68,
+    "RANK": 67,
     "ELO": 1939
    },
    "person": {
@@ -1438,11 +1427,11 @@
    }
   },
   {
-   "rank": 69,
+   "rank": 68,
    "participantId": "p.marcos-antonio-guach-rodriguez.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 69,
+    "RANK": 68,
     "ELO": 1935
    },
    "person": {
@@ -1458,31 +1447,34 @@
    }
   },
   {
-   "rank": 70,
-   "participantId": "p.isabela-luis-alvarez.2008",
+   "rank": 69,
+   "participantId": "p.adam-rodriguez-leon.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 70,
-    "ELO": 1934
+    "RANK": 69,
+    "ELO": 1935
    },
    "person": {
-    "id": "p.isabela-luis-alvarez.2008",
+    "id": "p.adam-rodriguez-leon.2012",
     "name": {
-     "full": "Isabela Luis Alvarez"
+     "full": "Adam Rodriguez Leon"
     },
-    "birthDate": "2008",
+    "birthDate": "2012",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 8
    }
   },
   {
-   "rank": 71,
+   "rank": 70,
    "participantId": "p.adonis-ortiz-aguilera.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 71,
+    "RANK": 70,
     "ELO": 1930
    },
    "person": {
@@ -1495,6 +1487,29 @@
      "CU"
     ],
     "isCuban": true
+   }
+  },
+  {
+   "rank": 71,
+   "participantId": "p.fabio-olivera-ruiz.2014",
+   "participantType": "person",
+   "stats": {
+    "RANK": 71,
+    "ELO": 1929
+   },
+   "person": {
+    "id": "p.fabio-olivera-ruiz.2014",
+    "name": {
+     "full": "Fabio Olivera Ruiz"
+    },
+    "birthDate": "2014",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 9
    }
   },
   {
@@ -1519,30 +1534,79 @@
   },
   {
    "rank": 73,
-   "participantId": "p.fabio-olivera-ruiz.2014",
+   "participantId": "p.alejandro-sanchez-rodriguez.2009",
    "participantType": "person",
    "stats": {
     "RANK": 73,
-    "ELO": 1906
+    "ELO": 1919
    },
    "person": {
-    "id": "p.fabio-olivera-ruiz.2014",
+    "id": "p.alejandro-sanchez-rodriguez.2009",
     "name": {
-     "full": "Fabio Olivera Ruiz"
+     "full": "Alejandro Sanchez Rodriguez"
     },
-    "birthDate": "2014",
+    "birthDate": "2009",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 7
    }
   },
   {
    "rank": 74,
-   "participantId": "p.cesar-ernesto-linares-fernandez.2013",
+   "participantId": "p.amelia-laurencio-perez.2010",
    "participantType": "person",
    "stats": {
     "RANK": 74,
+    "ELO": 1910
+   },
+   "person": {
+    "id": "p.amelia-laurencio-perez.2010",
+    "name": {
+     "full": "Amelia Laurencio Perez"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 9
+   }
+  },
+  {
+   "rank": 75,
+   "participantId": "p.jenifer-lazara-valdes-rosell.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 75,
+    "ELO": 1909
+   },
+   "person": {
+    "id": "p.jenifer-lazara-valdes-rosell.2009",
+    "name": {
+     "full": "Jenifer Lazara Valdes Rosell"
+    },
+    "birthDate": "2009",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 10
+   }
+  },
+  {
+   "rank": 76,
+   "participantId": "p.cesar-ernesto-linares-fernandez.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 76,
     "ELO": 1904
    },
    "person": {
@@ -1558,11 +1622,11 @@
    }
   },
   {
-   "rank": 75,
+   "rank": 77,
    "participantId": "p.aliett-valdes-boza.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 75,
+    "RANK": 77,
     "ELO": 1898
    },
    "person": {
@@ -1579,11 +1643,57 @@
    }
   },
   {
-   "rank": 76,
+   "rank": 78,
+   "participantId": "p.jorge-enrique-vazquez-delgado.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 78,
+    "ELO": 1897
+   },
+   "person": {
+    "id": "p.jorge-enrique-vazquez-delgado.2013",
+    "name": {
+     "full": "Jorge Enrique Vazquez Delgado"
+    },
+    "birthDate": "2013",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 5
+   }
+  },
+  {
+   "rank": 79,
+   "participantId": "p.christian-daniel-gonzalez-fajardo.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 79,
+    "ELO": 1894
+   },
+   "person": {
+    "id": "p.christian-daniel-gonzalez-fajardo.2010",
+    "name": {
+     "full": "Christian Daniel Gonzalez Fajardo"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 9
+   }
+  },
+  {
+   "rank": 80,
    "participantId": "p.daziel-pernas-cejas.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 76,
+    "RANK": 80,
     "ELO": 1894
    },
    "person": {
@@ -1599,11 +1709,11 @@
    }
   },
   {
-   "rank": 77,
+   "rank": 81,
    "participantId": "p.karen-torres-silvera.2007",
    "participantType": "person",
    "stats": {
-    "RANK": 77,
+    "RANK": 81,
     "ELO": 1893
    },
    "person": {
@@ -1619,32 +1729,11 @@
    }
   },
   {
-   "rank": 78,
-   "participantId": "p.samira-castro-marrero.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 78,
-    "ELO": 1891
-   },
-   "person": {
-    "id": "p.samira-castro-marrero.2010",
-    "name": {
-     "full": "Samira Castro Marrero"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true,
-    "title": "WFM"
-   }
-  },
-  {
-   "rank": 79,
+   "rank": 82,
    "participantId": "p.diego-miguel-vega-reyes.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 79,
+    "RANK": 82,
     "ELO": 1888
    },
    "person": {
@@ -1660,31 +1749,57 @@
    }
   },
   {
-   "rank": 80,
-   "participantId": "p.alejandro-sanchez-rodriguez.2009",
+   "rank": 83,
+   "participantId": "p.isabela-luis-alvarez.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 80,
-    "ELO": 1883
+    "RANK": 83,
+    "ELO": 1886
    },
    "person": {
-    "id": "p.alejandro-sanchez-rodriguez.2009",
+    "id": "p.isabela-luis-alvarez.2008",
     "name": {
-     "full": "Alejandro Sanchez Rodriguez"
+     "full": "Isabela Luis Alvarez"
     },
-    "birthDate": "2009",
+    "birthDate": "2008",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 6
    }
   },
   {
-   "rank": 81,
+   "rank": 84,
+   "participantId": "p.harold-david-rios-canete.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 84,
+    "ELO": 1882
+   },
+   "person": {
+    "id": "p.harold-david-rios-canete.2013",
+    "name": {
+     "full": "Harold David Rios Canete"
+    },
+    "birthDate": "2013",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 85,
    "participantId": "p.brayan-tapanes-barroso.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 81,
+    "RANK": 85,
     "ELO": 1882
    },
    "person": {
@@ -1700,11 +1815,11 @@
    }
   },
   {
-   "rank": 82,
+   "rank": 86,
    "participantId": "p.cristian-fernandez-correa.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 82,
+    "RANK": 86,
     "ELO": 1880
    },
    "person": {
@@ -1717,17 +1832,38 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 8
    }
   },
   {
-   "rank": 83,
+   "rank": 87,
+   "participantId": "p.samira-castro-marrero.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 87,
+    "ELO": 1879
+   },
+   "person": {
+    "id": "p.samira-castro-marrero.2010",
+    "name": {
+     "full": "Samira Castro Marrero"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true,
+    "title": "WFM"
+   },
+   "extra": {
+    "games": 10
+   }
+  },
+  {
+   "rank": 88,
    "participantId": "p.marcos-antonio-martinez-borrego.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 83,
+    "RANK": 88,
     "ELO": 1879
    },
    "person": {
@@ -1743,34 +1879,11 @@
    }
   },
   {
-   "rank": 84,
-   "participantId": "p.jorge-enrique-vazquez-delgado.2013",
-   "participantType": "person",
-   "stats": {
-    "RANK": 84,
-    "ELO": 1879
-   },
-   "person": {
-    "id": "p.jorge-enrique-vazquez-delgado.2013",
-    "name": {
-     "full": "Jorge Enrique Vazquez Delgado"
-    },
-    "birthDate": "2013",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   },
-   "extra": {
-    "games": 6
-   }
-  },
-  {
-   "rank": 85,
+   "rank": 89,
    "participantId": "p.victor-manuel-hernandez-portillo.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 85,
+    "RANK": 89,
     "ELO": 1875
    },
    "person": {
@@ -1786,11 +1899,11 @@
    }
   },
   {
-   "rank": 86,
+   "rank": 90,
    "participantId": "p.dairenis-guerrero-almaguer.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 86,
+    "RANK": 90,
     "ELO": 1874
    },
    "person": {
@@ -1806,11 +1919,11 @@
    }
   },
   {
-   "rank": 87,
+   "rank": 91,
    "participantId": "p.adaina-leonard-izahin.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 87,
+    "RANK": 91,
     "ELO": 1869
    },
    "person": {
@@ -1826,11 +1939,11 @@
    }
   },
   {
-   "rank": 88,
+   "rank": 92,
    "participantId": "p.yoander-cruz-mulet.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 88,
+    "RANK": 92,
     "ELO": 1868
    },
    "person": {
@@ -1846,51 +1959,11 @@
    }
   },
   {
-   "rank": 89,
-   "participantId": "p.jenifer-lazara-valdes-rosell.2009",
-   "participantType": "person",
-   "stats": {
-    "RANK": 89,
-    "ELO": 1865
-   },
-   "person": {
-    "id": "p.jenifer-lazara-valdes-rosell.2009",
-    "name": {
-     "full": "Jenifer Lazara Valdes Rosell"
-    },
-    "birthDate": "2009",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 90,
-   "participantId": "p.leandro-perez-saladrigas.2014",
-   "participantType": "person",
-   "stats": {
-    "RANK": 90,
-    "ELO": 1851
-   },
-   "person": {
-    "id": "p.leandro-perez-saladrigas.2014",
-    "name": {
-     "full": "Leandro Perez Saladrigas"
-    },
-    "birthDate": "2014",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 91,
+   "rank": 93,
    "participantId": "p.hector-manu-figueroa-del-rosario.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 91,
+    "RANK": 93,
     "ELO": 1845
    },
    "person": {
@@ -1906,11 +1979,11 @@
    }
   },
   {
-   "rank": 92,
+   "rank": 94,
    "participantId": "p.ronald-jorge-romeo.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 92,
+    "RANK": 94,
     "ELO": 1838
    },
    "person": {
@@ -1926,31 +1999,34 @@
    }
   },
   {
-   "rank": 93,
-   "participantId": "p.raikol-rodriguez-lastres.2009",
+   "rank": 95,
+   "participantId": "p.leandro-perez-saladrigas.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 93,
-    "ELO": 1837
+    "RANK": 95,
+    "ELO": 1836
    },
    "person": {
-    "id": "p.raikol-rodriguez-lastres.2009",
+    "id": "p.leandro-perez-saladrigas.2014",
     "name": {
-     "full": "Raikol Rodriguez Lastres"
+     "full": "Leandro Perez Saladrigas"
     },
-    "birthDate": "2009",
+    "birthDate": "2014",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 8
    }
   },
   {
-   "rank": 94,
+   "rank": 96,
    "participantId": "p.fidel-ern-santiesteban-campuzano.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 94,
+    "RANK": 96,
     "ELO": 1836
    },
    "person": {
@@ -1966,32 +2042,12 @@
    }
   },
   {
-   "rank": 95,
-   "participantId": "p.adam-rodriguez-leon.2012",
-   "participantType": "person",
-   "stats": {
-    "RANK": 95,
-    "ELO": 1835
-   },
-   "person": {
-    "id": "p.adam-rodriguez-leon.2012",
-    "name": {
-     "full": "Adam Rodriguez Leon"
-    },
-    "birthDate": "2012",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 96,
+   "rank": 97,
    "participantId": "p.dachelis-maria-caballero-fernandez.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 96,
-    "ELO": 1833
+    "RANK": 97,
+    "ELO": 1835
    },
    "person": {
     "id": "p.dachelis-maria-caballero-fernandez.2011",
@@ -2003,14 +2059,40 @@
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 8
    }
   },
   {
-   "rank": 97,
+   "rank": 98,
+   "participantId": "p.kevin-david-tano-gonzalez.2012",
+   "participantType": "person",
+   "stats": {
+    "RANK": 98,
+    "ELO": 1830
+   },
+   "person": {
+    "id": "p.kevin-david-tano-gonzalez.2012",
+    "name": {
+     "full": "Kevin David Tano Gonzalez"
+    },
+    "birthDate": "2012",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 5
+   }
+  },
+  {
+   "rank": 99,
    "participantId": "p.dennis-diaz-ricardo.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 97,
+    "RANK": 99,
     "ELO": 1818
    },
    "person": {
@@ -2026,11 +2108,11 @@
    }
   },
   {
-   "rank": 98,
+   "rank": 100,
    "participantId": "p.naile-pupo-guerra.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 98,
+    "RANK": 100,
     "ELO": 1817
    },
    "person": {
@@ -2046,11 +2128,11 @@
    }
   },
   {
-   "rank": 99,
+   "rank": 101,
    "participantId": "p.rosa-alis-nieves-maza.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 99,
+    "RANK": 101,
     "ELO": 1811
    },
    "person": {
@@ -2066,11 +2148,11 @@
    }
   },
   {
-   "rank": 100,
+   "rank": 102,
    "participantId": "p.claudia-aguilera-enciso.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 100,
+    "RANK": 102,
     "ELO": 1808
    },
    "person": {
@@ -2086,11 +2168,11 @@
    }
   },
   {
-   "rank": 101,
+   "rank": 103,
    "participantId": "p.marcel-fuentes-alonso.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 101,
+    "RANK": 103,
     "ELO": 1802
    },
    "person": {
@@ -2106,11 +2188,11 @@
    }
   },
   {
-   "rank": 102,
+   "rank": 104,
    "participantId": "p.marcos-darel-abreu-vento.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 102,
+    "RANK": 104,
     "ELO": 1801
    },
    "person": {
@@ -2126,11 +2208,11 @@
    }
   },
   {
-   "rank": 103,
+   "rank": 105,
    "participantId": "p.nestor-alpizar-gonzalez.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 103,
+    "RANK": 105,
     "ELO": 1800
    },
    "person": {
@@ -2146,11 +2228,11 @@
    }
   },
   {
-   "rank": 104,
+   "rank": 106,
    "participantId": "p.darel-bermudez-alfonso.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 104,
+    "RANK": 106,
     "ELO": 1800
    },
    "person": {
@@ -2166,11 +2248,11 @@
    }
   },
   {
-   "rank": 105,
+   "rank": 107,
    "participantId": "p.ruben-dario-cordoves-leon.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 105,
+    "RANK": 107,
     "ELO": 1800
    },
    "person": {
@@ -2186,57 +2268,17 @@
    }
   },
   {
-   "rank": 106,
-   "participantId": "p.amelia-laurencio-perez.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 106,
-    "ELO": 1789
-   },
-   "person": {
-    "id": "p.amelia-laurencio-perez.2010",
-    "name": {
-     "full": "Amelia Laurencio Perez"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 107,
+   "rank": 108,
    "participantId": "p.cynthia-dubra-ulacia.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 107,
+    "RANK": 108,
     "ELO": 1787
    },
    "person": {
     "id": "p.cynthia-dubra-ulacia.2013",
     "name": {
      "full": "Cynthia Dubra Ulacia"
-    },
-    "birthDate": "2013",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 108,
-   "participantId": "p.harold-david-rios-canete.2013",
-   "participantType": "person",
-   "stats": {
-    "RANK": 108,
-    "ELO": 1785
-   },
-   "person": {
-    "id": "p.harold-david-rios-canete.2013",
-    "name": {
-     "full": "Harold David Rios Canete"
     },
     "birthDate": "2013",
     "nationalities": [
@@ -2287,10 +2329,56 @@
   },
   {
    "rank": 111,
-   "participantId": "p.daniel-enriquez-aguado.2007",
+   "participantId": "p.raikol-rodriguez-lastres.2009",
    "participantType": "person",
    "stats": {
     "RANK": 111,
+    "ELO": 1783
+   },
+   "person": {
+    "id": "p.raikol-rodriguez-lastres.2009",
+    "name": {
+     "full": "Raikol Rodriguez Lastres"
+    },
+    "birthDate": "2009",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 7
+   }
+  },
+  {
+   "rank": 112,
+   "participantId": "p.adriel-rodriguez-garcia.2014",
+   "participantType": "person",
+   "stats": {
+    "RANK": 112,
+    "ELO": 1779
+   },
+   "person": {
+    "id": "p.adriel-rodriguez-garcia.2014",
+    "name": {
+     "full": "Adriel Rodriguez Garcia"
+    },
+    "birthDate": "2014",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 113,
+   "participantId": "p.daniel-enriquez-aguado.2007",
+   "participantType": "person",
+   "stats": {
+    "RANK": 113,
     "ELO": 1774
    },
    "person": {
@@ -2306,11 +2394,11 @@
    }
   },
   {
-   "rank": 112,
+   "rank": 114,
    "participantId": "p.abel-naranjo-cruz.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 112,
+    "RANK": 114,
     "ELO": 1774
    },
    "person": {
@@ -2326,11 +2414,11 @@
    }
   },
   {
-   "rank": 113,
+   "rank": 115,
    "participantId": "p.sadiel-ernesto-perez-garcia.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 113,
+    "RANK": 115,
     "ELO": 1774
    },
    "person": {
@@ -2343,17 +2431,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 5
    }
   },
   {
-   "rank": 114,
+   "rank": 116,
    "participantId": "p.rubi-nahomis-hector-delgado.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 114,
+    "RANK": 116,
     "ELO": 1770
    },
    "person": {
@@ -2369,11 +2454,11 @@
    }
   },
   {
-   "rank": 115,
+   "rank": 117,
    "participantId": "p.jeobel-martinez-tartabull.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 115,
+    "RANK": 117,
     "ELO": 1770
    },
    "person": {
@@ -2389,11 +2474,11 @@
    }
   },
   {
-   "rank": 116,
+   "rank": 118,
    "participantId": "p.thalia-rajadel-rebollido.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 116,
+    "RANK": 118,
     "ELO": 1766
    },
    "person": {
@@ -2409,11 +2494,11 @@
    }
   },
   {
-   "rank": 117,
+   "rank": 119,
    "participantId": "p.brayan-daniel-morales-leyva.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 117,
+    "RANK": 119,
     "ELO": 1765
    },
    "person": {
@@ -2429,11 +2514,11 @@
    }
   },
   {
-   "rank": 118,
+   "rank": 120,
    "participantId": "p.lian-lopez-diaz.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 118,
+    "RANK": 120,
     "ELO": 1761
    },
    "person": {
@@ -2449,11 +2534,11 @@
    }
   },
   {
-   "rank": 119,
+   "rank": 121,
    "participantId": "p.breison-minael-gonzalez-cueto.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 119,
+    "RANK": 121,
     "ELO": 1756
    },
    "person": {
@@ -2469,11 +2554,11 @@
    }
   },
   {
-   "rank": 120,
+   "rank": 122,
    "participantId": "p.bryan-perez-rodriguez.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 120,
+    "RANK": 122,
     "ELO": 1755
    },
    "person": {
@@ -2489,11 +2574,11 @@
    }
   },
   {
-   "rank": 121,
+   "rank": 123,
    "participantId": "p.maikol-garcia-gonzalez.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 121,
+    "RANK": 123,
     "ELO": 1751
    },
    "person": {
@@ -2509,31 +2594,11 @@
    }
   },
   {
-   "rank": 122,
-   "participantId": "p.kevin-david-tano-gonzalez.2012",
-   "participantType": "person",
-   "stats": {
-    "RANK": 122,
-    "ELO": 1748
-   },
-   "person": {
-    "id": "p.kevin-david-tano-gonzalez.2012",
-    "name": {
-     "full": "Kevin David Tano Gonzalez"
-    },
-    "birthDate": "2012",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 123,
+   "rank": 124,
    "participantId": "p.luis-daniel-curiel-verdecia.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 123,
+    "RANK": 124,
     "ELO": 1743
    },
    "person": {
@@ -2549,11 +2614,11 @@
    }
   },
   {
-   "rank": 124,
+   "rank": 125,
    "participantId": "p.eliosmel-ortega-falcon.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 124,
+    "RANK": 125,
     "ELO": 1736
    },
    "person": {
@@ -2562,26 +2627,6 @@
      "full": "Eliosmel Ortega Falcon"
     },
     "birthDate": "2011",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 125,
-   "participantId": "p.adriel-rodriguez-garcia.2014",
-   "participantType": "person",
-   "stats": {
-    "RANK": 125,
-    "ELO": 1726
-   },
-   "person": {
-    "id": "p.adriel-rodriguez-garcia.2014",
-    "name": {
-     "full": "Adriel Rodriguez Garcia"
-    },
-    "birthDate": "2014",
     "nationalities": [
      "CU"
     ],
@@ -2630,10 +2675,33 @@
   },
   {
    "rank": 128,
-   "participantId": "p.enmanuel-gonzalez-gomez.2013",
+   "participantId": "p.diana-castillo-perera.2014",
    "participantType": "person",
    "stats": {
     "RANK": 128,
+    "ELO": 1716
+   },
+   "person": {
+    "id": "p.diana-castillo-perera.2014",
+    "name": {
+     "full": "Diana Castillo Perera"
+    },
+    "birthDate": "2014",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 129,
+   "participantId": "p.enmanuel-gonzalez-gomez.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 129,
     "ELO": 1713
    },
    "person": {
@@ -2649,11 +2717,11 @@
    }
   },
   {
-   "rank": 129,
+   "rank": 130,
    "participantId": "p.lorena-millan-fuentesilla.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 129,
+    "RANK": 130,
     "ELO": 1705
    },
    "person": {
@@ -2669,11 +2737,11 @@
    }
   },
   {
-   "rank": 130,
+   "rank": 131,
    "participantId": "p.amanda-barrios-perez.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 130,
+    "RANK": 131,
     "ELO": 1704
    },
    "person": {
@@ -2689,11 +2757,11 @@
    }
   },
   {
-   "rank": 131,
+   "rank": 132,
    "participantId": "p.derek-palau-tapia.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 131,
+    "RANK": 132,
     "ELO": 1704
    },
    "person": {
@@ -2709,11 +2777,34 @@
    }
   },
   {
-   "rank": 132,
+   "rank": 133,
+   "participantId": "p.eros-gutierrez-marcillan.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 133,
+    "ELO": 1701
+   },
+   "person": {
+    "id": "p.eros-gutierrez-marcillan.2009",
+    "name": {
+     "full": "Eros Gutierrez Marcillan"
+    },
+    "birthDate": "2009",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 134,
    "participantId": "p.barbaro-damian-infante-perez.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 132,
+    "RANK": 134,
     "ELO": 1701
    },
    "person": {
@@ -2729,11 +2820,11 @@
    }
   },
   {
-   "rank": 133,
+   "rank": 135,
    "participantId": "p.luis-miguel-barrios-garcia.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 133,
+    "RANK": 135,
     "ELO": 1696
    },
    "person": {
@@ -2749,11 +2840,11 @@
    }
   },
   {
-   "rank": 134,
+   "rank": 136,
    "participantId": "p.diago-alejandro-garlobo-sanchez.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 134,
+    "RANK": 136,
     "ELO": 1694
    },
    "person": {
@@ -2769,31 +2860,11 @@
    }
   },
   {
-   "rank": 135,
-   "participantId": "p.eros-gutierrez-marcillan.2009",
-   "participantType": "person",
-   "stats": {
-    "RANK": 135,
-    "ELO": 1691
-   },
-   "person": {
-    "id": "p.eros-gutierrez-marcillan.2009",
-    "name": {
-     "full": "Eros Gutierrez Marcillan"
-    },
-    "birthDate": "2009",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 136,
+   "rank": 137,
    "participantId": "p.adriel-lazo-de-la-vega-aja.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 136,
+    "RANK": 137,
     "ELO": 1690
    },
    "person": {
@@ -2809,11 +2880,11 @@
    }
   },
   {
-   "rank": 137,
+   "rank": 138,
    "participantId": "p.abraham-stanley-martinez-forgas.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 137,
+    "RANK": 138,
     "ELO": 1690
    },
    "person": {
@@ -2829,11 +2900,11 @@
    }
   },
   {
-   "rank": 138,
+   "rank": 139,
    "participantId": "p.natalia-vilarino-perez.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 138,
+    "RANK": 139,
     "ELO": 1688
    },
    "person": {
@@ -2849,11 +2920,11 @@
    }
   },
   {
-   "rank": 139,
+   "rank": 140,
    "participantId": "p.jonathan-perez-ocana.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 139,
+    "RANK": 140,
     "ELO": 1683
    },
    "person": {
@@ -2869,11 +2940,11 @@
    }
   },
   {
-   "rank": 140,
+   "rank": 141,
    "participantId": "p.daniela-days-barreras-morejon.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 140,
+    "RANK": 141,
     "ELO": 1681
    },
    "person": {
@@ -2889,11 +2960,34 @@
    }
   },
   {
-   "rank": 141,
+   "rank": 142,
+   "participantId": "p.georbel-moreno-de-zayas.2015",
+   "participantType": "person",
+   "stats": {
+    "RANK": 142,
+    "ELO": 1680
+   },
+   "person": {
+    "id": "p.georbel-moreno-de-zayas.2015",
+    "name": {
+     "full": "Georbel Moreno De Zayas"
+    },
+    "birthDate": "2015",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 143,
    "participantId": "p.abraham-perez-cueto.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 141,
+    "RANK": 143,
     "ELO": 1679
    },
    "person": {
@@ -2909,11 +3003,11 @@
    }
   },
   {
-   "rank": 142,
+   "rank": 144,
    "participantId": "p.chaday-nunez-alonso.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 142,
+    "RANK": 144,
     "ELO": 1677
    },
    "person": {
@@ -2929,11 +3023,11 @@
    }
   },
   {
-   "rank": 143,
+   "rank": 145,
    "participantId": "p.lianet-fernand-aguilera-martinez.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 143,
+    "RANK": 145,
     "ELO": 1675
    },
    "person": {
@@ -2949,11 +3043,34 @@
    }
   },
   {
-   "rank": 144,
+   "rank": 146,
+   "participantId": "p.leonardo-david-santana-aguiar.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 146,
+    "ELO": 1674
+   },
+   "person": {
+    "id": "p.leonardo-david-santana-aguiar.2013",
+    "name": {
+     "full": "Leonardo David Santana Aguiar"
+    },
+    "birthDate": "2013",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 7
+   }
+  },
+  {
+   "rank": 147,
    "participantId": "p.juan-oliver-selles-mosquera.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 144,
+    "RANK": 147,
     "ELO": 1674
    },
    "person": {
@@ -2969,11 +3086,11 @@
    }
   },
   {
-   "rank": 145,
+   "rank": 148,
    "participantId": "p.andres-alejandro-ravelo-la-rosa.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 145,
+    "RANK": 148,
     "ELO": 1669
    },
    "person": {
@@ -2989,11 +3106,11 @@
    }
   },
   {
-   "rank": 146,
+   "rank": 149,
    "participantId": "p.ebhelyn-yairis-batista-perez.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 146,
+    "RANK": 149,
     "ELO": 1665
    },
    "person": {
@@ -3009,11 +3126,11 @@
    }
   },
   {
-   "rank": 147,
+   "rank": 150,
    "participantId": "p.liz-angelica-correa-jimenez.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 147,
+    "RANK": 150,
     "ELO": 1665
    },
    "person": {
@@ -3026,17 +3143,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 7
    }
   },
   {
-   "rank": 148,
+   "rank": 151,
    "participantId": "p.david-manuel-ricardo-perez.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 148,
+    "RANK": 151,
     "ELO": 1664
    },
    "person": {
@@ -3052,11 +3166,11 @@
    }
   },
   {
-   "rank": 149,
+   "rank": 152,
    "participantId": "p.ashly-maria-armengol-venegas.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 149,
+    "RANK": 152,
     "ELO": 1662
    },
    "person": {
@@ -3073,11 +3187,11 @@
    }
   },
   {
-   "rank": 150,
+   "rank": 153,
    "participantId": "p.andres-abel-alba-abstengo.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 150,
+    "RANK": 153,
     "ELO": 1661
    },
    "person": {
@@ -3093,31 +3207,11 @@
    }
   },
   {
-   "rank": 151,
-   "participantId": "p.georbel-moreno-de-zayas.2015",
-   "participantType": "person",
-   "stats": {
-    "RANK": 151,
-    "ELO": 1657
-   },
-   "person": {
-    "id": "p.georbel-moreno-de-zayas.2015",
-    "name": {
-     "full": "Georbel Moreno De Zayas"
-    },
-    "birthDate": "2015",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 152,
+   "rank": 154,
    "participantId": "p.evelitce-salazar-infante.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 152,
+    "RANK": 154,
     "ELO": 1656
    },
    "person": {
@@ -3133,31 +3227,11 @@
    }
   },
   {
-   "rank": 153,
-   "participantId": "p.leonardo-david-santana-aguiar.2013",
-   "participantType": "person",
-   "stats": {
-    "RANK": 153,
-    "ELO": 1656
-   },
-   "person": {
-    "id": "p.leonardo-david-santana-aguiar.2013",
-    "name": {
-     "full": "Leonardo David Santana Aguiar"
-    },
-    "birthDate": "2013",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 154,
+   "rank": 155,
    "participantId": "p.luisa-maria-serrano-lopez.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 154,
+    "RANK": 155,
     "ELO": 1654
    },
    "person": {
@@ -3173,11 +3247,11 @@
    }
   },
   {
-   "rank": 155,
+   "rank": 156,
    "participantId": "p.cesar-feria-cespedes.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 155,
+    "RANK": 156,
     "ELO": 1647
    },
    "person": {
@@ -3193,11 +3267,11 @@
    }
   },
   {
-   "rank": 156,
+   "rank": 157,
    "participantId": "p.claudia-hernandez-cachon.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 156,
+    "RANK": 157,
     "ELO": 1647
    },
    "person": {
@@ -3213,11 +3287,11 @@
    }
   },
   {
-   "rank": 157,
+   "rank": 158,
    "participantId": "p.rocio-fernandez-correa.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 157,
+    "RANK": 158,
     "ELO": 1645
    },
    "person": {
@@ -3230,17 +3304,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 6
    }
   },
   {
-   "rank": 158,
+   "rank": 159,
    "participantId": "p.leandro-mojena-martinez.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 158,
+    "RANK": 159,
     "ELO": 1642
    },
    "person": {
@@ -3256,11 +3327,11 @@
    }
   },
   {
-   "rank": 159,
+   "rank": 160,
    "participantId": "p.arturo-rodriguez-perez.2017",
    "participantType": "person",
    "stats": {
-    "RANK": 159,
+    "RANK": 160,
     "ELO": 1642
    },
    "person": {
@@ -3276,11 +3347,11 @@
    }
   },
   {
-   "rank": 160,
+   "rank": 161,
    "participantId": "p.fabio-osiel-quintero-concepcion.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 160,
+    "RANK": 161,
     "ELO": 1641
    },
    "person": {
@@ -3293,17 +3364,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 7
    }
   },
   {
-   "rank": 161,
+   "rank": 162,
    "participantId": "p.driana-paola-vela-guerra.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 161,
+    "RANK": 162,
     "ELO": 1636
    },
    "person": {
@@ -3319,11 +3387,11 @@
    }
   },
   {
-   "rank": 162,
+   "rank": 163,
    "participantId": "p.maria-claudia-ricote-corrales.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 162,
+    "RANK": 163,
     "ELO": 1635
    },
    "person": {
@@ -3339,11 +3407,11 @@
    }
   },
   {
-   "rank": 163,
+   "rank": 164,
    "participantId": "p.richard-hernandez-ledo.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 163,
+    "RANK": 164,
     "ELO": 1633
    },
    "person": {
@@ -3359,11 +3427,57 @@
    }
   },
   {
-   "rank": 164,
+   "rank": 165,
+   "participantId": "p.adyel-peraza-martinez.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 165,
+    "ELO": 1630
+   },
+   "person": {
+    "id": "p.adyel-peraza-martinez.2010",
+    "name": {
+     "full": "Adyel Peraza Martinez"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 6
+   }
+  },
+  {
+   "rank": 166,
+   "participantId": "p.olivia-rodriguez-domingo.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 166,
+    "ELO": 1630
+   },
+   "person": {
+    "id": "p.olivia-rodriguez-domingo.2010",
+    "name": {
+     "full": "Olivia Rodriguez Domingo"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 167,
    "participantId": "p.bryan-leonardo-pacheco-torres.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 164,
+    "RANK": 167,
     "ELO": 1626
    },
    "person": {
@@ -3379,11 +3493,11 @@
    }
   },
   {
-   "rank": 165,
+   "rank": 168,
    "participantId": "p.thiago-luis-chavez.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 165,
+    "RANK": 168,
     "ELO": 1624
    },
    "person": {
@@ -3399,11 +3513,11 @@
    }
   },
   {
-   "rank": 166,
+   "rank": 169,
    "participantId": "p.frank-oscar-fernandez-perez.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 166,
+    "RANK": 169,
     "ELO": 1621
    },
    "person": {
@@ -3419,11 +3533,11 @@
    }
   },
   {
-   "rank": 167,
+   "rank": 170,
    "participantId": "p.helen-carmenaty-torres.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 167,
+    "RANK": 170,
     "ELO": 1620
    },
    "person": {
@@ -3439,11 +3553,11 @@
    }
   },
   {
-   "rank": 168,
+   "rank": 171,
    "participantId": "p.thiago-puentes-perez.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 168,
+    "RANK": 171,
     "ELO": 1620
    },
    "person": {
@@ -3459,31 +3573,11 @@
    }
   },
   {
-   "rank": 169,
-   "participantId": "p.evelin-maria-rodriguez-ramirez.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 169,
-    "ELO": 1620
-   },
-   "person": {
-    "id": "p.evelin-maria-rodriguez-ramirez.2011",
-    "name": {
-     "full": "Evelin Maria Rodriguez Ramirez"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 170,
+   "rank": 172,
    "participantId": "p.julia-elena-gomez-hernandez.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 170,
+    "RANK": 172,
     "ELO": 1618
    },
    "person": {
@@ -3499,11 +3593,11 @@
    }
   },
   {
-   "rank": 171,
+   "rank": 173,
    "participantId": "p.leandro-alonso-pozo.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 171,
+    "RANK": 173,
     "ELO": 1617
    },
    "person": {
@@ -3519,11 +3613,11 @@
    }
   },
   {
-   "rank": 172,
+   "rank": 174,
    "participantId": "p.mariam-torres-garcia.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 172,
+    "RANK": 174,
     "ELO": 1616
    },
    "person": {
@@ -3539,11 +3633,11 @@
    }
   },
   {
-   "rank": 173,
+   "rank": 175,
    "participantId": "p.mateo-pantoja-arzola.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 173,
+    "RANK": 175,
     "ELO": 1613
    },
    "person": {
@@ -3559,11 +3653,11 @@
    }
   },
   {
-   "rank": 174,
+   "rank": 176,
    "participantId": "p.liang-david-gonzalez-llerena.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 174,
+    "RANK": 176,
     "ELO": 1612
    },
    "person": {
@@ -3579,11 +3673,11 @@
    }
   },
   {
-   "rank": 175,
+   "rank": 177,
    "participantId": "p.sofia-aguila-pedre.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 175,
+    "RANK": 177,
     "ELO": 1609
    },
    "person": {
@@ -3599,11 +3693,11 @@
    }
   },
   {
-   "rank": 176,
+   "rank": 178,
    "participantId": "p.thiago-llanes-madruga.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 176,
+    "RANK": 178,
     "ELO": 1607
    },
    "person": {
@@ -3619,11 +3713,11 @@
    }
   },
   {
-   "rank": 177,
+   "rank": 179,
    "participantId": "p.raul-ernesto-nunez-gonzalez.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 177,
+    "RANK": 179,
     "ELO": 1606
    },
    "person": {
@@ -3632,46 +3726,6 @@
      "full": "Raul Ernesto Nunez Gonzalez"
     },
     "birthDate": "2012",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 178,
-   "participantId": "p.alejandra-del-risco-aldana.2014",
-   "participantType": "person",
-   "stats": {
-    "RANK": 178,
-    "ELO": 1602
-   },
-   "person": {
-    "id": "p.alejandra-del-risco-aldana.2014",
-    "name": {
-     "full": "Alejandra Del Risco Aldana"
-    },
-    "birthDate": "2014",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 179,
-   "participantId": "p.antonio-jesus-romero-fernandez.2016",
-   "participantType": "person",
-   "stats": {
-    "RANK": 179,
-    "ELO": 1600
-   },
-   "person": {
-    "id": "p.antonio-jesus-romero-fernandez.2016",
-    "name": {
-     "full": "Antonio Jesus Romero Fernandez"
-    },
-    "birthDate": "2016",
     "nationalities": [
      "CU"
     ],
@@ -3720,22 +3774,25 @@
   },
   {
    "rank": 182,
-   "participantId": "p.olivia-rodriguez-domingo.2010",
+   "participantId": "p.alejandra-del-risco-aldana.2014",
    "participantType": "person",
    "stats": {
     "RANK": 182,
-    "ELO": 1593
+    "ELO": 1595
    },
    "person": {
-    "id": "p.olivia-rodriguez-domingo.2010",
+    "id": "p.alejandra-del-risco-aldana.2014",
     "name": {
-     "full": "Olivia Rodriguez Domingo"
+     "full": "Alejandra Del Risco Aldana"
     },
-    "birthDate": "2010",
+    "birthDate": "2014",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 8
    }
   },
   {
@@ -3776,9 +3833,6 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 7
    }
   },
   {
@@ -4103,10 +4157,33 @@
   },
   {
    "rank": 201,
-   "participantId": "p.yailen-payrol-aguila.2014",
+   "participantId": "p.ryan-molina-toledo.2016",
    "participantType": "person",
    "stats": {
     "RANK": 201,
+    "ELO": 1553
+   },
+   "person": {
+    "id": "p.ryan-molina-toledo.2016",
+    "name": {
+     "full": "Ryan Molina Toledo"
+    },
+    "birthDate": "2016",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 1
+   }
+  },
+  {
+   "rank": 202,
+   "participantId": "p.yailen-payrol-aguila.2014",
+   "participantType": "person",
+   "stats": {
+    "RANK": 202,
     "ELO": 1549
    },
    "person": {
@@ -4119,17 +4196,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 6
    }
   },
   {
-   "rank": 202,
+   "rank": 203,
    "participantId": "p.marcos-daniel-rodriguez-perez.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 202,
+    "RANK": 203,
     "ELO": 1549
    },
    "person": {
@@ -4145,11 +4219,11 @@
    }
   },
   {
-   "rank": 203,
+   "rank": 204,
    "participantId": "p.anthony-stephan-rodriguez-desdin.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 203,
+    "RANK": 204,
     "ELO": 1545
    },
    "person": {
@@ -4165,11 +4239,11 @@
    }
   },
   {
-   "rank": 204,
+   "rank": 205,
    "participantId": "p.saled-avila-garcia.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 204,
+    "RANK": 205,
     "ELO": 1543
    },
    "person": {
@@ -4185,11 +4259,11 @@
    }
   },
   {
-   "rank": 205,
+   "rank": 206,
    "participantId": "p.danilo-rodriguez-perez.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 205,
+    "RANK": 206,
     "ELO": 1542
    },
    "person": {
@@ -4205,11 +4279,11 @@
    }
   },
   {
-   "rank": 206,
+   "rank": 207,
    "participantId": "p.christopher-perez-rodriguez.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 206,
+    "RANK": 207,
     "ELO": 1536
    },
    "person": {
@@ -4225,11 +4299,11 @@
    }
   },
   {
-   "rank": 207,
+   "rank": 208,
    "participantId": "p.ana-lia-calero-martinez.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 207,
+    "RANK": 208,
     "ELO": 1535
    },
    "person": {
@@ -4245,11 +4319,11 @@
    }
   },
   {
-   "rank": 208,
+   "rank": 209,
    "participantId": "p.frank-marcos-villa-jorge.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 208,
+    "RANK": 209,
     "ELO": 1535
    },
    "person": {
@@ -4265,11 +4339,11 @@
    }
   },
   {
-   "rank": 209,
+   "rank": 210,
    "participantId": "p.camila-de-la-caridad-veitia-catala.2017",
    "participantType": "person",
    "stats": {
-    "RANK": 209,
+    "RANK": 210,
     "ELO": 1531
    },
    "person": {
@@ -4285,11 +4359,11 @@
    }
   },
   {
-   "rank": 210,
+   "rank": 211,
    "participantId": "p.hector-luis-perez-figueroa.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 210,
+    "RANK": 211,
     "ELO": 1528
    },
    "person": {
@@ -4305,11 +4379,11 @@
    }
   },
   {
-   "rank": 211,
+   "rank": 212,
    "participantId": "p.aaron-yauset-roman-garcia.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 211,
+    "RANK": 212,
     "ELO": 1527
    },
    "person": {
@@ -4322,17 +4396,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 7
    }
   },
   {
-   "rank": 212,
+   "rank": 213,
    "participantId": "p.mia-elizabel-sedano-rodriguez.2017",
    "participantType": "person",
    "stats": {
-    "RANK": 212,
+    "RANK": 213,
     "ELO": 1527
    },
    "person": {
@@ -4345,17 +4416,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 11
    }
   },
   {
-   "rank": 213,
+   "rank": 214,
    "participantId": "p.naiyades-zamora-miranda.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 213,
+    "RANK": 214,
     "ELO": 1525
    },
    "person": {
@@ -4371,11 +4439,11 @@
    }
   },
   {
-   "rank": 214,
+   "rank": 215,
    "participantId": "p.daniel-david-gomez-herrera.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 214,
+    "RANK": 215,
     "ELO": 1523
    },
    "person": {
@@ -4391,11 +4459,11 @@
    }
   },
   {
-   "rank": 215,
+   "rank": 216,
    "participantId": "p.oslaidi-bell-vigueuax.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 215,
+    "RANK": 216,
     "ELO": 1522
    },
    "person": {
@@ -4411,12 +4479,198 @@
    }
   },
   {
-   "rank": 216,
+   "rank": 217,
+   "participantId": "p.evelin-maria-rodriguez-ramirez.2011",
+   "participantType": "person",
+   "stats": {
+    "RANK": 217,
+    "ELO": 1522
+   },
+   "person": {
+    "id": "p.evelin-maria-rodriguez-ramirez.2011",
+    "name": {
+     "full": "Evelin Maria Rodriguez Ramirez"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 218,
+   "participantId": "p.daniel-enrique-rodriguez-matos.2012",
+   "participantType": "person",
+   "stats": {
+    "RANK": 218,
+    "ELO": 1521
+   },
+   "person": {
+    "id": "p.daniel-enrique-rodriguez-matos.2012",
+    "name": {
+     "full": "Daniel Enrique Rodriguez Matos"
+    },
+    "birthDate": "2012",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   }
+  },
+  {
+   "rank": 219,
+   "participantId": "p.cristian-jese-navarro-garcia.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 219,
+    "ELO": 1518
+   },
+   "person": {
+    "id": "p.cristian-jese-navarro-garcia.2013",
+    "name": {
+     "full": "Cristian Jese Navarro Garcia"
+    },
+    "birthDate": "2013",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   }
+  },
+  {
+   "rank": 220,
+   "participantId": "p.marlon-lauzurique-blanco.2014",
+   "participantType": "person",
+   "stats": {
+    "RANK": 220,
+    "ELO": 1516
+   },
+   "person": {
+    "id": "p.marlon-lauzurique-blanco.2014",
+    "name": {
+     "full": "Marlon Lauzurique Blanco"
+    },
+    "birthDate": "2014",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   }
+  },
+  {
+   "rank": 221,
+   "participantId": "p.laura-thalia-grimont-ojeda.2015",
+   "participantType": "person",
+   "stats": {
+    "RANK": 221,
+    "ELO": 1513
+   },
+   "person": {
+    "id": "p.laura-thalia-grimont-ojeda.2015",
+    "name": {
+     "full": "Laura Thalia Grimont Ojeda"
+    },
+    "birthDate": "2015",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   }
+  },
+  {
+   "rank": 222,
+   "participantId": "p.antonio-jesus-romero-fernandez.2016",
+   "participantType": "person",
+   "stats": {
+    "RANK": 222,
+    "ELO": 1513
+   },
+   "person": {
+    "id": "p.antonio-jesus-romero-fernandez.2016",
+    "name": {
+     "full": "Antonio Jesus Romero Fernandez"
+    },
+    "birthDate": "2016",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 5
+   }
+  },
+  {
+   "rank": 223,
+   "participantId": "p.thiago-martinez-torres.2014",
+   "participantType": "person",
+   "stats": {
+    "RANK": 223,
+    "ELO": 1512
+   },
+   "person": {
+    "id": "p.thiago-martinez-torres.2014",
+    "name": {
+     "full": "Thiago Martinez Torres"
+    },
+    "birthDate": "2014",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   }
+  },
+  {
+   "rank": 224,
+   "participantId": "p.abraham-artur-hechavarria-tamayo.2016",
+   "participantType": "person",
+   "stats": {
+    "RANK": 224,
+    "ELO": 1511
+   },
+   "person": {
+    "id": "p.abraham-artur-hechavarria-tamayo.2016",
+    "name": {
+     "full": "Abraham Artur Hechavarria Tamayo"
+    },
+    "birthDate": "2016",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   }
+  },
+  {
+   "rank": 225,
+   "participantId": "p.fernanda-fernandez-vila.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 225,
+    "ELO": 1510
+   },
+   "person": {
+    "id": "p.fernanda-fernandez-vila.2013",
+    "name": {
+     "full": "Fernanda Fernandez Vila"
+    },
+    "birthDate": "2013",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   }
+  },
+  {
+   "rank": 226,
    "participantId": "p.alejandro-liste-rondon.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 216,
-    "ELO": 1521
+    "RANK": 226,
+    "ELO": 1510
    },
    "person": {
     "id": "p.alejandro-liste-rondon.2014",
@@ -4434,151 +4688,11 @@
    }
   },
   {
-   "rank": 217,
-   "participantId": "p.daniel-enrique-rodriguez-matos.2012",
-   "participantType": "person",
-   "stats": {
-    "RANK": 217,
-    "ELO": 1521
-   },
-   "person": {
-    "id": "p.daniel-enrique-rodriguez-matos.2012",
-    "name": {
-     "full": "Daniel Enrique Rodriguez Matos"
-    },
-    "birthDate": "2012",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 218,
-   "participantId": "p.cristian-jese-navarro-garcia.2013",
-   "participantType": "person",
-   "stats": {
-    "RANK": 218,
-    "ELO": 1518
-   },
-   "person": {
-    "id": "p.cristian-jese-navarro-garcia.2013",
-    "name": {
-     "full": "Cristian Jese Navarro Garcia"
-    },
-    "birthDate": "2013",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 219,
-   "participantId": "p.marlon-lauzurique-blanco.2014",
-   "participantType": "person",
-   "stats": {
-    "RANK": 219,
-    "ELO": 1516
-   },
-   "person": {
-    "id": "p.marlon-lauzurique-blanco.2014",
-    "name": {
-     "full": "Marlon Lauzurique Blanco"
-    },
-    "birthDate": "2014",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 220,
-   "participantId": "p.laura-thalia-grimont-ojeda.2015",
-   "participantType": "person",
-   "stats": {
-    "RANK": 220,
-    "ELO": 1513
-   },
-   "person": {
-    "id": "p.laura-thalia-grimont-ojeda.2015",
-    "name": {
-     "full": "Laura Thalia Grimont Ojeda"
-    },
-    "birthDate": "2015",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 221,
-   "participantId": "p.thiago-martinez-torres.2014",
-   "participantType": "person",
-   "stats": {
-    "RANK": 221,
-    "ELO": 1512
-   },
-   "person": {
-    "id": "p.thiago-martinez-torres.2014",
-    "name": {
-     "full": "Thiago Martinez Torres"
-    },
-    "birthDate": "2014",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 222,
-   "participantId": "p.abraham-artur-hechavarria-tamayo.2016",
-   "participantType": "person",
-   "stats": {
-    "RANK": 222,
-    "ELO": 1511
-   },
-   "person": {
-    "id": "p.abraham-artur-hechavarria-tamayo.2016",
-    "name": {
-     "full": "Abraham Artur Hechavarria Tamayo"
-    },
-    "birthDate": "2016",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 223,
-   "participantId": "p.fernanda-fernandez-vila.2013",
-   "participantType": "person",
-   "stats": {
-    "RANK": 223,
-    "ELO": 1510
-   },
-   "person": {
-    "id": "p.fernanda-fernandez-vila.2013",
-    "name": {
-     "full": "Fernanda Fernandez Vila"
-    },
-    "birthDate": "2013",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 224,
+   "rank": 227,
    "participantId": "p.maria-karla-catala-delgado.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 224,
+    "RANK": 227,
     "ELO": 1509
    },
    "person": {
@@ -4594,11 +4708,34 @@
    }
   },
   {
-   "rank": 225,
+   "rank": 228,
+   "participantId": "p.nataly-davila-rodriguez.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 228,
+    "ELO": 1506
+   },
+   "person": {
+    "id": "p.nataly-davila-rodriguez.2013",
+    "name": {
+     "full": "Nataly Davila Rodriguez"
+    },
+    "birthDate": "2013",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 229,
    "participantId": "p.wendy-estefany-ramirez-olivera.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 225,
+    "RANK": 229,
     "ELO": 1502
    },
    "person": {
@@ -4614,11 +4751,11 @@
    }
   },
   {
-   "rank": 226,
+   "rank": 230,
    "participantId": "p.leslie-marian-fajardo-serrano.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 226,
+    "RANK": 230,
     "ELO": 1499
    },
    "person": {
@@ -4634,11 +4771,11 @@
    }
   },
   {
-   "rank": 227,
+   "rank": 231,
    "participantId": "p.laura-isabela-horsford-perez.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 227,
+    "RANK": 231,
     "ELO": 1498
    },
    "person": {
@@ -4654,11 +4791,11 @@
    }
   },
   {
-   "rank": 228,
+   "rank": 232,
    "participantId": "p.samuel-gonzalez-gomez.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 228,
+    "RANK": 232,
     "ELO": 1496
    },
    "person": {
@@ -4674,11 +4811,11 @@
    }
   },
   {
-   "rank": 229,
+   "rank": 233,
    "participantId": "p.xiomara-alfaro-brito.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 229,
+    "RANK": 233,
     "ELO": 1491
    },
    "person": {
@@ -4694,11 +4831,11 @@
    }
   },
   {
-   "rank": 230,
+   "rank": 234,
    "participantId": "p.danilo-eduardo-rodriguez-matos.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 230,
+    "RANK": 234,
     "ELO": 1485
    },
    "person": {
@@ -4714,11 +4851,11 @@
    }
   },
   {
-   "rank": 231,
+   "rank": 235,
    "participantId": "p.carlos-alons-basulto-de-la-torre.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 231,
+    "RANK": 235,
     "ELO": 1484
    },
    "person": {
@@ -4734,11 +4871,11 @@
    }
   },
   {
-   "rank": 232,
+   "rank": 236,
    "participantId": "p.enier-david-figueroa-del-rosario.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 232,
+    "RANK": 236,
     "ELO": 1483
    },
    "person": {
@@ -4754,11 +4891,11 @@
    }
   },
   {
-   "rank": 233,
+   "rank": 237,
    "participantId": "p.liz-amanda-rodriguez-gonzalez.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 233,
+    "RANK": 237,
     "ELO": 1483
    },
    "person": {
@@ -4774,11 +4911,11 @@
    }
   },
   {
-   "rank": 234,
+   "rank": 238,
    "participantId": "p.marcelo-gomez-herrera.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 234,
+    "RANK": 238,
     "ELO": 1480
    },
    "person": {
@@ -4794,11 +4931,11 @@
    }
   },
   {
-   "rank": 235,
+   "rank": 239,
    "participantId": "p.amelia-barbara-hernandez-rodriguez.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 235,
+    "RANK": 239,
     "ELO": 1474
    },
    "person": {
@@ -4814,11 +4951,11 @@
    }
   },
   {
-   "rank": 236,
+   "rank": 240,
    "participantId": "p.roxany-lopez-gutierre.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 236,
+    "RANK": 240,
     "ELO": 1474
    },
    "person": {
@@ -4834,11 +4971,11 @@
    }
   },
   {
-   "rank": 237,
+   "rank": 241,
    "participantId": "p.luis-eduardo-becerra-reyes.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 237,
+    "RANK": 241,
     "ELO": 1473
    },
    "person": {
@@ -4854,11 +4991,11 @@
    }
   },
   {
-   "rank": 238,
+   "rank": 242,
    "participantId": "p.stefan-jose-delgado-diaz.2017",
    "participantType": "person",
    "stats": {
-    "RANK": 238,
+    "RANK": 242,
     "ELO": 1463
    },
    "person": {
@@ -4871,17 +5008,14 @@
      "CU"
     ],
     "isCuban": true
-   },
-   "extra": {
-    "games": 12
    }
   },
   {
-   "rank": 239,
+   "rank": 243,
    "participantId": "p.mariam-marichal-espinosa.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 239,
+    "RANK": 243,
     "ELO": 1455
    },
    "person": {
@@ -4897,11 +5031,11 @@
    }
   },
   {
-   "rank": 240,
+   "rank": 244,
    "participantId": "p.paola-martinez-silva.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 240,
+    "RANK": 244,
     "ELO": 1455
    },
    "person": {
@@ -4917,11 +5051,11 @@
    }
   },
   {
-   "rank": 241,
+   "rank": 245,
    "participantId": "p.sean-fernandez-mesa.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 241,
+    "RANK": 245,
     "ELO": 1453
    },
    "person": {
@@ -4937,11 +5071,11 @@
    }
   },
   {
-   "rank": 242,
+   "rank": 246,
    "participantId": "p.brian-lazaro-de-juan-matienzo.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 242,
+    "RANK": 246,
     "ELO": 1452
    },
    "person": {
@@ -4957,12 +5091,12 @@
    }
   },
   {
-   "rank": 243,
+   "rank": 247,
    "participantId": "p.fabian-piloto-morales.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 243,
-    "ELO": 1450
+    "RANK": 247,
+    "ELO": 1449
    },
    "person": {
     "id": "p.fabian-piloto-morales.2013",
@@ -4974,14 +5108,40 @@
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 8
    }
   },
   {
-   "rank": 244,
+   "rank": 248,
+   "participantId": "p.thiago-tejas-fuentes.2015",
+   "participantType": "person",
+   "stats": {
+    "RANK": 248,
+    "ELO": 1449
+   },
+   "person": {
+    "id": "p.thiago-tejas-fuentes.2015",
+    "name": {
+     "full": "Thiago Tejas Fuentes"
+    },
+    "birthDate": "2015",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 8
+   }
+  },
+  {
+   "rank": 249,
    "participantId": "p.thais-guardado-otero.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 244,
+    "RANK": 249,
     "ELO": 1446
    },
    "person": {
@@ -4994,14 +5154,17 @@
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 1
    }
   },
   {
-   "rank": 245,
+   "rank": 250,
    "participantId": "p.elina-medina-alvarez.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 245,
+    "RANK": 250,
     "ELO": 1442
    },
    "person": {
@@ -5017,11 +5180,34 @@
    }
   },
   {
-   "rank": 246,
+   "rank": 251,
+   "participantId": "p.samuel-perez-alvarez.2015",
+   "participantType": "person",
+   "stats": {
+    "RANK": 251,
+    "ELO": 1441
+   },
+   "person": {
+    "id": "p.samuel-perez-alvarez.2015",
+    "name": {
+     "full": "Samuel Perez Alvarez"
+    },
+    "birthDate": "2015",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 5
+   }
+  },
+  {
+   "rank": 252,
    "participantId": "p.adrialys-rodriguez-garcia.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 246,
+    "RANK": 252,
     "ELO": 1440
    },
    "person": {
@@ -5037,11 +5223,11 @@
    }
   },
   {
-   "rank": 247,
+   "rank": 253,
    "participantId": "p.xavier-zadig-hernandez-abreu.2016",
    "participantType": "person",
    "stats": {
-    "RANK": 247,
+    "RANK": 253,
     "ELO": 1436
    },
    "person": {
@@ -5057,31 +5243,11 @@
    }
   },
   {
-   "rank": 248,
-   "participantId": "p.thiago-tejas-fuentes.2015",
-   "participantType": "person",
-   "stats": {
-    "RANK": 248,
-    "ELO": 1431
-   },
-   "person": {
-    "id": "p.thiago-tejas-fuentes.2015",
-    "name": {
-     "full": "Thiago Tejas Fuentes"
-    },
-    "birthDate": "2015",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 249,
+   "rank": 254,
    "participantId": "p.linett-felisa-fundora-baez.2014",
    "participantType": "person",
    "stats": {
-    "RANK": 249,
+    "RANK": 254,
     "ELO": 1430
    },
    "person": {
@@ -5097,11 +5263,34 @@
    }
   },
   {
-   "rank": 250,
+   "rank": 255,
+   "participantId": "p.isabella-soto-martin.2014",
+   "participantType": "person",
+   "stats": {
+    "RANK": 255,
+    "ELO": 1430
+   },
+   "person": {
+    "id": "p.isabella-soto-martin.2014",
+    "name": {
+     "full": "Isabella Soto Martin"
+    },
+    "birthDate": "2014",
+    "nationalities": [
+     "CU"
+    ],
+    "isCuban": true
+   },
+   "extra": {
+    "games": 2
+   }
+  },
+  {
+   "rank": 256,
    "participantId": "p.erika-stephan-lopez-valdes.2012",
    "participantType": "person",
    "stats": {
-    "RANK": 250,
+    "RANK": 256,
     "ELO": 1429
    },
    "person": {
@@ -5117,11 +5306,11 @@
    }
   },
   {
-   "rank": 251,
+   "rank": 257,
    "participantId": "p.miguel-gabriel-diaz-zamora.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 251,
+    "RANK": 257,
     "ELO": 1427
    },
    "person": {
@@ -5137,34 +5326,11 @@
    }
   },
   {
-   "rank": 252,
-   "participantId": "p.vanessa-rodriguez-rodriguez.2015",
-   "participantType": "person",
-   "stats": {
-    "RANK": 252,
-    "ELO": 1426
-   },
-   "person": {
-    "id": "p.vanessa-rodriguez-rodriguez.2015",
-    "name": {
-     "full": "Vanessa Rodriguez Rodriguez"
-    },
-    "birthDate": "2015",
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   },
-   "extra": {
-    "games": 1
-   }
-  },
-  {
-   "rank": 253,
+   "rank": 258,
    "participantId": "p.ashley-nicole-arias-diaz.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 253,
+    "RANK": 258,
     "ELO": 1417
    },
    "person": {
@@ -5180,11 +5346,11 @@
    }
   },
   {
-   "rank": 254,
+   "rank": 259,
    "participantId": "p.alisbel-de-la-c-hilarion-cardoso.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 254,
+    "RANK": 259,
     "ELO": 1417
    },
    "person": {
@@ -5200,11 +5366,11 @@
    }
   },
   {
-   "rank": 255,
+   "rank": 260,
    "participantId": "p.diego-alejandro-menendez-fajardo.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 255,
+    "RANK": 260,
     "ELO": 1413
    },
    "person": {
@@ -5220,31 +5386,34 @@
    }
   },
   {
-   "rank": 256,
-   "participantId": "p.samuel-perez-alvarez.2015",
+   "rank": 261,
+   "participantId": "p.vanessa-rodriguez-rodriguez.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 256,
-    "ELO": 1411
+    "RANK": 261,
+    "ELO": 1410
    },
    "person": {
-    "id": "p.samuel-perez-alvarez.2015",
+    "id": "p.vanessa-rodriguez-rodriguez.2015",
     "name": {
-     "full": "Samuel Perez Alvarez"
+     "full": "Vanessa Rodriguez Rodriguez"
     },
     "birthDate": "2015",
     "nationalities": [
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "games": 4
    }
   },
   {
-   "rank": 257,
+   "rank": 262,
    "participantId": "p.karolin-mendoza-garcia.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 257,
+    "RANK": 262,
     "ELO": 1406
    },
    "person": {
