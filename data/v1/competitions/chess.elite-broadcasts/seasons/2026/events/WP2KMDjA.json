@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:WP2KMDjA",
- "updatedAt": "2026-10-31T14:50:04Z",
+ "updatedAt": "2026-10-31T18:56:18Z",
  "sources": [
   "lichess"
  ],
@@ -25,7 +25,7 @@
    {
     "name": "Round 1",
     "startsAt": 1793438100000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 2",
@@ -109,10 +109,36 @@
   },
   {
    "rank": 2,
-   "participantId": "p.sergei-movsesian",
+   "participantId": "p.nils-grandelius",
    "participantType": "person",
    "stats": {
     "RANK": 2,
+    "PTS": 1.0,
+    "ELO": 2603,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.nils-grandelius",
+    "name": {
+     "full": "Nils Grandelius"
+    },
+    "nationalities": [
+     "SE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "1. Novoborský ŠK",
+    "performance": 3307
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.sergei-movsesian",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
     "PTS": 1.0,
     "ELO": 2594,
     "GP": 1
@@ -134,11 +160,11 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.daniil-yuffa",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 4,
     "PTS": 1.0,
     "ELO": 2584,
     "GP": 1
@@ -160,11 +186,90 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "participantId": "p.luca-jr-moroni",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 1.0,
+    "ELO": 2552,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.luca-jr-moroni",
+    "name": {
+     "full": "Luca Jr Moroni"
+    },
+    "nationalities": [
+     "IT"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 3335
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.mateusz-bartel",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 1.0,
+    "ELO": 2549,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.mateusz-bartel",
+    "name": {
+     "full": "Mateusz Bartel"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "1. Novoborský ŠK",
+    "performance": 3190
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.yahli-sokolovsky.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 1.0,
+    "ELO": 2542,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.yahli-sokolovsky.2006",
+    "name": {
+     "full": "Yahli Sokolovsky"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "IL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 3256
+   }
+  },
+  {
+   "rank": 8,
    "participantId": "p.jergus-pechac",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 8,
     "PTS": 1.0,
     "ELO": 2539,
     "GP": 1
@@ -186,11 +291,91 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 9,
+   "participantId": "p.patryk-cieslak.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 1.0,
+    "ELO": 2513,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.patryk-cieslak.2010",
+    "name": {
+     "full": "Patryk Cieslak"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 3063
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.jakub-seemann.2008",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 1.0,
+    "ELO": 2512,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jakub-seemann.2008",
+    "name": {
+     "full": "Jakub Seemann"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 3176
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.tadeas-kriebel",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11,
+    "PTS": 1.0,
+    "ELO": 2508,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.tadeas-kriebel",
+    "name": {
+     "full": "Tadeas Kriebel"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "1. Novoborský ŠK",
+    "performance": 3133
+   }
+  },
+  {
+   "rank": 12,
    "participantId": "p.vlastimil-babula",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 12,
     "PTS": 1.0,
     "ELO": 2489,
     "GP": 2
@@ -212,11 +397,38 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 13,
+   "participantId": "p.jachym-nemec.2008",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
+    "PTS": 1.0,
+    "ELO": 2478,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jachym-nemec.2008",
+    "name": {
+     "full": "Jachym Nemec"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Sigil Fund Pardubice",
+    "performance": 3139
+   }
+  },
+  {
+   "rank": 14,
    "participantId": "p.lukas-dotzer.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 14,
     "PTS": 1.0,
     "ELO": 2474,
     "GP": 1
@@ -239,11 +451,11 @@
    }
   },
   {
-   "rank": 7,
+   "rank": 15,
    "participantId": "p.jiri-rydl",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 15,
     "PTS": 1.0,
     "ELO": 2414,
     "GP": 1
@@ -265,11 +477,37 @@
    }
   },
   {
-   "rank": 8,
+   "rank": 16,
+   "participantId": "p.piotr-piesik",
+   "participantType": "person",
+   "stats": {
+    "RANK": 16,
+    "PTS": 1.0,
+    "ELO": 2413,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.piotr-piesik",
+    "name": {
+     "full": "Piotr Piesik"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 3217
+   }
+  },
+  {
+   "rank": 17,
    "participantId": "p.jakub-kusa",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
+    "RANK": 17,
     "PTS": 1.0,
     "ELO": 2412,
     "GP": 1
@@ -291,11 +529,88 @@
    }
   },
   {
-   "rank": 9,
+   "rank": 18,
+   "participantId": "p.petr-gnojek",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
+    "PTS": 1.0,
+    "ELO": 2405,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.petr-gnojek",
+    "name": {
+     "full": "Petr Gnojek"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 3187
+   }
+  },
+  {
+   "rank": 19,
+   "participantId": "p.amin-cheraghi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19,
+    "PTS": 1.0,
+    "ELO": 2395,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.amin-cheraghi",
+    "name": {
+     "full": "Amin Cheraghi"
+    },
+    "nationalities": [
+     "IR"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 3022
+   }
+  },
+  {
+   "rank": 20,
+   "participantId": "p.vojtech-straka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 20,
+    "PTS": 1.0,
+    "ELO": 2394,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.vojtech-straka",
+    "name": {
+     "full": "Vojtech Straka"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 2979
+   }
+  },
+  {
+   "rank": 21,
    "participantId": "p.bayarjavkhlan-delgerdalai",
    "participantType": "person",
    "stats": {
-    "RANK": 9,
+    "RANK": 21,
     "PTS": 1.0,
     "ELO": 2383,
     "GP": 1
@@ -317,11 +632,63 @@
    }
   },
   {
-   "rank": 10,
+   "rank": 22,
+   "participantId": "p.jachym-smolik",
+   "participantType": "person",
+   "stats": {
+    "RANK": 22,
+    "PTS": 1.0,
+    "ELO": 2379,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jachym-smolik",
+    "name": {
+     "full": "Jachym Smolik"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 3186
+   }
+  },
+  {
+   "rank": 23,
+   "participantId": "p.ondrej-svanda",
+   "participantType": "person",
+   "stats": {
+    "RANK": 23,
+    "PTS": 1.0,
+    "ELO": 2379,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.ondrej-svanda",
+    "name": {
+     "full": "Ondrej Svanda"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 3053
+   }
+  },
+  {
+   "rank": 24,
    "participantId": "p.jan-rubes",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 24,
     "PTS": 1.0,
     "ELO": 2376,
     "GP": 1
@@ -343,11 +710,37 @@
    }
   },
   {
-   "rank": 11,
+   "rank": 25,
+   "participantId": "p.jiri-vitak",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25,
+    "PTS": 1.0,
+    "ELO": 2327,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jiri-vitak",
+    "name": {
+     "full": "Jiri Vitak"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 3127
+   }
+  },
+  {
+   "rank": 26,
    "participantId": "p.jakub-vojta",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 26,
     "PTS": 1.0,
     "ELO": 2318,
     "GP": 1
@@ -369,11 +762,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 27,
    "participantId": "p.epameinondas-kourousis",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 27,
     "PTS": 1.0,
     "ELO": 2317,
     "GP": 1
@@ -395,11 +788,37 @@
    }
   },
   {
-   "rank": 13,
+   "rank": 28,
+   "participantId": "p.flawian-krawczyk",
+   "participantType": "person",
+   "stats": {
+    "RANK": 28,
+    "PTS": 1.0,
+    "ELO": 2306,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.flawian-krawczyk",
+    "name": {
+     "full": "Flawian Krawczyk"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 3197
+   }
+  },
+  {
+   "rank": 29,
    "participantId": "p.pavel-stehno",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 29,
     "PTS": 1.0,
     "ELO": 2292,
     "GP": 1
@@ -420,11 +839,11 @@
    }
   },
   {
-   "rank": 14,
+   "rank": 30,
    "participantId": "p.petr-hollan",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 30,
     "PTS": 1.0,
     "ELO": 2263,
     "GP": 1
@@ -446,11 +865,36 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 31,
+   "participantId": "p.marek-kawulok",
+   "participantType": "person",
+   "stats": {
+    "RANK": 31,
+    "PTS": 1.0,
+    "ELO": 2230,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.marek-kawulok",
+    "name": {
+     "full": "Marek Kawulok"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 2917
+   }
+  },
+  {
+   "rank": 32,
    "participantId": "p.pavel-eljanov.1983",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 32,
     "PTS": 0.5,
     "ELO": 2664,
     "GP": 1
@@ -473,11 +917,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 33,
    "participantId": "p.kirill-alekseenko.1997",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 33,
     "PTS": 0.5,
     "ELO": 2640,
     "GP": 1
@@ -500,11 +944,11 @@
    }
   },
   {
-   "rank": 17,
+   "rank": 34,
    "participantId": "p.ruslan-ponomariov.1983",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 34,
     "PTS": 0.5,
     "ELO": 2632,
     "GP": 1
@@ -527,11 +971,90 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 35,
+   "participantId": "p.vasyl-ivanchuk.1969",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35,
+    "PTS": 0.5,
+    "ELO": 2628,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.vasyl-ivanchuk.1969",
+    "name": {
+     "full": "Vasyl Ivanchuk"
+    },
+    "birthDate": "1969",
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 2572
+   }
+  },
+  {
+   "rank": 36,
+   "participantId": "p.thai-dai-van-nguyen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 36,
+    "PTS": 0.5,
+    "ELO": 2623,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.thai-dai-van-nguyen",
+    "name": {
+     "full": "Thai Dai Van Nguyen"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "1. Novoborský ŠK",
+    "performance": 2487
+   }
+  },
+  {
+   "rank": 37,
+   "participantId": "p.anton-korobov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 37,
+    "PTS": 0.5,
+    "ELO": 2620,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.anton-korobov",
+    "name": {
+     "full": "Anton Korobov"
+    },
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 2587
+   }
+  },
+  {
+   "rank": 38,
    "participantId": "p.szymon-gumularz",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 38,
     "PTS": 0.5,
     "ELO": 2609,
     "GP": 1
@@ -553,11 +1076,116 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 39,
+   "participantId": "p.david-navara",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 0.5,
+    "ELO": 2607,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.david-navara",
+    "name": {
+     "full": "David Navara"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "1. Novoborský ŠK",
+    "performance": 2571
+   }
+  },
+  {
+   "rank": 40,
+   "participantId": "p.vaclav-finek.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 40,
+    "PTS": 0.5,
+    "ELO": 2587,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.vaclav-finek.2010",
+    "name": {
+     "full": "Vaclav Finek"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 2620
+   }
+  },
+  {
+   "rank": 41,
+   "participantId": "p.yuriy-kuzubov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 41,
+    "PTS": 0.5,
+    "ELO": 2572,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.yuriy-kuzubov",
+    "name": {
+     "full": "Yuriy Kuzubov"
+    },
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 2628
+   }
+  },
+  {
+   "rank": 42,
+   "participantId": "p.pawel-teclaf",
+   "participantType": "person",
+   "stats": {
+    "RANK": 42,
+    "PTS": 0.5,
+    "ELO": 2571,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.pawel-teclaf",
+    "name": {
+     "full": "Pawel Teclaf"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba A",
+    "performance": 2607
+   }
+  },
+  {
+   "rank": 43,
    "participantId": "p.felix-blohberger",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 43,
     "PTS": 0.5,
     "ELO": 2549,
     "GP": 1
@@ -579,11 +1207,11 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 44,
    "participantId": "p.peter-michalik",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 44,
     "PTS": 0.5,
     "ELO": 2543,
     "GP": 1
@@ -605,11 +1233,11 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 45,
    "participantId": "p.jan-vykouk",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 45,
     "PTS": 0.5,
     "ELO": 2531,
     "GP": 1
@@ -631,11 +1259,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 46,
    "participantId": "p.stepan-zilka",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 46,
     "PTS": 0.5,
     "ELO": 2526,
     "GP": 1
@@ -657,11 +1285,11 @@
    }
   },
   {
-   "rank": 23,
+   "rank": 47,
    "participantId": "p.zbynek-hracek",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 47,
     "PTS": 0.5,
     "ELO": 2525,
     "GP": 1
@@ -683,11 +1311,11 @@
    }
   },
   {
-   "rank": 24,
+   "rank": 48,
    "participantId": "p.jakub-kosakowski",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 48,
     "PTS": 0.5,
     "ELO": 2518,
     "GP": 1
@@ -709,11 +1337,37 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 49,
+   "participantId": "p.jan-krejci",
+   "participantType": "person",
+   "stats": {
+    "RANK": 49,
+    "PTS": 0.5,
+    "ELO": 2503,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jan-krejci",
+    "name": {
+     "full": "Jan Krejci"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Moravská Slavia Brno",
+    "performance": 2470
+   }
+  },
+  {
+   "rank": 50,
    "participantId": "p.jan-bernasek",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 50,
     "PTS": 0.5,
     "ELO": 2501,
     "GP": 1
@@ -735,11 +1389,63 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 51,
+   "participantId": "p.grzegorz-nasuta",
+   "participantType": "person",
+   "stats": {
+    "RANK": 51,
+    "PTS": 0.5,
+    "ELO": 2487,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.grzegorz-nasuta",
+    "name": {
+     "full": "Grzegorz Nasuta"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba A",
+    "performance": 2623
+   }
+  },
+  {
+   "rank": 52,
+   "participantId": "p.juraj-druska",
+   "participantType": "person",
+   "stats": {
+    "RANK": 52,
+    "PTS": 0.5,
+    "ELO": 2470,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.juraj-druska",
+    "name": {
+     "full": "Juraj Druska"
+    },
+    "nationalities": [
+     "SK"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠŠ Vávra a Černoušek Unichess",
+    "performance": 2503
+   }
+  },
+  {
+   "rank": 53,
    "participantId": "p.jiri-stocek",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 53,
     "PTS": 0.5,
     "ELO": 2465,
     "GP": 1
@@ -761,11 +1467,63 @@
    }
   },
   {
-   "rank": 27,
+   "rank": 54,
+   "participantId": "p.stepan-hrbek",
+   "participantType": "person",
+   "stats": {
+    "RANK": 54,
+    "PTS": 0.5,
+    "ELO": 2458,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.stepan-hrbek",
+    "name": {
+     "full": "Stepan Hrbek"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "1. Novoborský ŠK",
+    "performance": 2387
+   }
+  },
+  {
+   "rank": 55,
+   "participantId": "p.tadeas-balacek",
+   "participantType": "person",
+   "stats": {
+    "RANK": 55,
+    "PTS": 0.5,
+    "ELO": 2428,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.tadeas-balacek",
+    "name": {
+     "full": "Tadeas Balacek"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "1. Novoborský ŠK",
+    "performance": 2092
+   }
+  },
+  {
+   "rank": 56,
    "participantId": "p.jakub-pulpan",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 56,
     "PTS": 0.5,
     "ELO": 2406,
     "GP": 1
@@ -787,11 +1545,11 @@
    }
   },
   {
-   "rank": 28,
+   "rank": 57,
    "participantId": "p.taron-shagbazyan",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 57,
     "PTS": 0.5,
     "ELO": 2401,
     "GP": 1
@@ -813,11 +1571,11 @@
    }
   },
   {
-   "rank": 29,
+   "rank": 58,
    "participantId": "p.robert-cvek",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
+    "RANK": 58,
     "PTS": 0.5,
     "ELO": 2389,
     "GP": 1
@@ -839,11 +1597,37 @@
    }
   },
   {
-   "rank": 30,
+   "rank": 59,
+   "participantId": "p.jiri-bouska",
+   "participantType": "person",
+   "stats": {
+    "RANK": 59,
+    "PTS": 0.5,
+    "ELO": 2387,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jiri-bouska",
+    "name": {
+     "full": "Jiri Bouska"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba A",
+    "performance": 2458
+   }
+  },
+  {
+   "rank": 60,
    "participantId": "p.leon-volosin",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
+    "RANK": 60,
     "PTS": 0.5,
     "ELO": 2350,
     "GP": 1
@@ -865,11 +1649,11 @@
    }
   },
   {
-   "rank": 31,
+   "rank": 61,
    "participantId": "p.bruno-topencik",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 61,
     "PTS": 0.5,
     "ELO": 2326,
     "GP": 1
@@ -891,11 +1675,11 @@
    }
   },
   {
-   "rank": 32,
+   "rank": 62,
    "participantId": "p.jakub-roubalik",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 62,
     "PTS": 0.5,
     "ELO": 2304,
     "GP": 1
@@ -917,11 +1701,89 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 63,
+   "participantId": "p.martin-hollan",
+   "participantType": "person",
+   "stats": {
+    "RANK": 63,
+    "PTS": 0.5,
+    "ELO": 2297,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.martin-hollan",
+    "name": {
+     "full": "Martin Hollan"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 2232
+   }
+  },
+  {
+   "rank": 64,
+   "participantId": "p.jiri-adamek",
+   "participantType": "person",
+   "stats": {
+    "RANK": 64,
+    "PTS": 0.5,
+    "ELO": 2232,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jiri-adamek",
+    "name": {
+     "full": "Jiri Adamek"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 2297
+   }
+  },
+  {
+   "rank": 65,
+   "participantId": "p.ladislav-dobrovolsky",
+   "participantType": "person",
+   "stats": {
+    "RANK": 65,
+    "PTS": 0.5,
+    "ELO": 2092,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.ladislav-dobrovolsky",
+    "name": {
+     "full": "Ladislav Dobrovolsky"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba A",
+    "performance": 2428
+   }
+  },
+  {
+   "rank": 66,
    "participantId": "p.ivan-saric",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 66,
     "PTS": 0.0,
     "ELO": 2621,
     "GP": 1
@@ -944,11 +1806,89 @@
    }
   },
   {
-   "rank": 34,
+   "rank": 67,
+   "participantId": "p.tomas-laurusas",
+   "participantType": "person",
+   "stats": {
+    "RANK": 67,
+    "PTS": 0.0,
+    "ELO": 2535,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.tomas-laurusas",
+    "name": {
+     "full": "Tomas Laurusas"
+    },
+    "nationalities": [
+     "LT"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 1752
+   }
+  },
+  {
+   "rank": 68,
+   "participantId": "p.robert-kempinski",
+   "participantType": "person",
+   "stats": {
+    "RANK": 68,
+    "PTS": 0.0,
+    "ELO": 2507,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.robert-kempinski",
+    "name": {
+     "full": "Robert Kempinski"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba A",
+    "performance": 1803
+   }
+  },
+  {
+   "rank": 69,
+   "participantId": "p.richard-stalmach",
+   "participantType": "person",
+   "stats": {
+    "RANK": 69,
+    "PTS": 0.0,
+    "ELO": 2456,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.richard-stalmach",
+    "name": {
+     "full": "Richard Stalmach"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 1742
+   }
+  },
+  {
+   "rank": 70,
    "participantId": "p.laszlo-gonda",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 70,
     "PTS": 0.0,
     "ELO": 2453,
     "GP": 1
@@ -970,11 +1910,11 @@
    }
   },
   {
-   "rank": 35,
+   "rank": 71,
    "participantId": "p.tomas-polak",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 71,
     "PTS": 0.0,
     "ELO": 2439,
     "GP": 1
@@ -996,11 +1936,11 @@
    }
   },
   {
-   "rank": 36,
+   "rank": 72,
    "participantId": "p.lukas-cernousek",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 72,
     "PTS": 0.0,
     "ELO": 2438,
     "GP": 1
@@ -1022,11 +1962,37 @@
    }
   },
   {
-   "rank": 37,
+   "rank": 73,
+   "participantId": "p.lukas-vlasak",
+   "participantType": "person",
+   "stats": {
+    "RANK": 73,
+    "PTS": 0.0,
+    "ELO": 2417,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.lukas-vlasak",
+    "name": {
+     "full": "Lukas Vlasak"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 1613
+   }
+  },
+  {
+   "rank": 74,
    "participantId": "p.valentyn-prokofiev",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 74,
     "PTS": 0.0,
     "ELO": 2405,
     "GP": 1
@@ -1048,11 +2014,141 @@
    }
   },
   {
-   "rank": 38,
+   "rank": 75,
+   "participantId": "p.stanislav-cifka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 75,
+    "PTS": 0.0,
+    "ELO": 2397,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.stanislav-cifka",
+    "name": {
+     "full": "Stanislav Cifka"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "Stelar OAZA Praha",
+    "performance": 1506
+   }
+  },
+  {
+   "rank": 76,
+   "participantId": "p.petr-haba",
+   "participantType": "person",
+   "stats": {
+    "RANK": 76,
+    "PTS": 0.0,
+    "ELO": 2390,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.petr-haba",
+    "name": {
+     "full": "Petr Haba"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba A",
+    "performance": 1749
+   }
+  },
+  {
+   "rank": 77,
+   "participantId": "p.pavel-simacek",
+   "participantType": "person",
+   "stats": {
+    "RANK": 77,
+    "PTS": 0.0,
+    "ELO": 2387,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.pavel-simacek",
+    "name": {
+     "full": "Pavel Simacek"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK ZIKUDA Turnov",
+    "performance": 1605
+   }
+  },
+  {
+   "rank": 78,
+   "participantId": "p.vojtech-zwardon",
+   "participantType": "person",
+   "stats": {
+    "RANK": 78,
+    "PTS": 0.0,
+    "ELO": 2386,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.vojtech-zwardon",
+    "name": {
+     "full": "Vojtech Zwardon"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 1579
+   }
+  },
+  {
+   "rank": 79,
+   "participantId": "p.bartlomiej-niedbala",
+   "participantType": "person",
+   "stats": {
+    "RANK": 79,
+    "PTS": 0.0,
+    "ELO": 2376,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.bartlomiej-niedbala",
+    "name": {
+     "full": "Bartlomiej Niedbala"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 1712
+   }
+  },
+  {
+   "rank": 80,
    "participantId": "p.tomas-kraus",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 80,
     "PTS": 0.0,
     "ELO": 2356,
     "GP": 1
@@ -1074,11 +2170,11 @@
    }
   },
   {
-   "rank": 39,
+   "rank": 81,
    "participantId": "p.svatopluk-svoboda",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 81,
     "PTS": 0.0,
     "ELO": 2347,
     "GP": 1
@@ -1100,11 +2196,63 @@
    }
   },
   {
-   "rank": 40,
+   "rank": 82,
+   "participantId": "p.jakub-stinka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 82,
+    "PTS": 0.0,
+    "ELO": 2339,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jakub-stinka",
+    "name": {
+     "full": "Jakub Stinka"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "Český lev Kolešovice",
+    "performance": 1678
+   }
+  },
+  {
+   "rank": 83,
+   "participantId": "p.petr-velicka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 83,
+    "PTS": 0.0,
+    "ELO": 2333,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.petr-velicka",
+    "name": {
+     "full": "Petr Velicka"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba A",
+    "performance": 1708
+   }
+  },
+  {
+   "rank": 84,
    "participantId": "p.petr-virostko",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 84,
     "PTS": 0.0,
     "ELO": 2330,
     "GP": 1
@@ -1126,11 +2274,37 @@
    }
   },
   {
-   "rank": 41,
+   "rank": 85,
+   "participantId": "p.marek-mica",
+   "participantType": "person",
+   "stats": {
+    "RANK": 85,
+    "PTS": 0.0,
+    "ELO": 2327,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.marek-mica",
+    "name": {
+     "full": "Marek Mica"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "BŠŠ Frýdek-Místek",
+    "performance": 1527
+   }
+  },
+  {
+   "rank": 86,
    "participantId": "p.petr-walek",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 86,
     "PTS": 0.0,
     "ELO": 2316,
     "GP": 1
@@ -1152,11 +2326,11 @@
    }
   },
   {
-   "rank": 42,
+   "rank": 87,
    "participantId": "p.matous-eret",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 87,
     "PTS": 0.0,
     "ELO": 2308,
     "GP": 1
@@ -1178,11 +2352,11 @@
    }
   },
   {
-   "rank": 43,
+   "rank": 88,
    "participantId": "p.tomas-ludvik",
    "participantType": "person",
    "stats": {
-    "RANK": 43,
+    "RANK": 88,
     "PTS": 0.0,
     "ELO": 2281,
     "GP": 1
@@ -1204,11 +2378,63 @@
    }
   },
   {
-   "rank": 44,
+   "rank": 89,
+   "participantId": "p.michal-jares",
+   "participantType": "person",
+   "stats": {
+    "RANK": 89,
+    "PTS": 0.0,
+    "ELO": 2263,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.michal-jares",
+    "name": {
+     "full": "Michal Jares"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 1713
+   }
+  },
+  {
+   "rank": 90,
+   "participantId": "p.jan-malik",
+   "participantType": "person",
+   "stats": {
+    "RANK": 90,
+    "PTS": 0.0,
+    "ELO": 2253,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jan-malik",
+    "name": {
+     "full": "Jan Malik"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 1579
+   }
+  },
+  {
+   "rank": 91,
    "participantId": "p.tomas-studnicka",
    "participantType": "person",
    "stats": {
-    "RANK": 44,
+    "RANK": 91,
     "PTS": 0.0,
     "ELO": 2248,
     "GP": 1
@@ -1230,11 +2456,88 @@
    }
   },
   {
-   "rank": 45,
+   "rank": 92,
+   "participantId": "p.radomir-caletka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 92,
+    "PTS": 0.0,
+    "ELO": 2222,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.radomir-caletka",
+    "name": {
+     "full": "Radomir Caletka"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 1595
+   }
+  },
+  {
+   "rank": 93,
+   "participantId": "p.simon-sotek",
+   "participantType": "person",
+   "stats": {
+    "RANK": 93,
+    "PTS": 0.0,
+    "ELO": 2179,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.simon-sotek",
+    "name": {
+     "full": "Simon Sotek"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 1594
+   }
+  },
+  {
+   "rank": 94,
+   "participantId": "p.libor-vesely",
+   "participantType": "person",
+   "stats": {
+    "RANK": 94,
+    "PTS": 0.0,
+    "ELO": 2117,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.libor-vesely",
+    "name": {
+     "full": "Libor Vesely"
+    },
+    "nationalities": [
+     "CZ"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "ŠK Slavoj Poruba B",
+    "performance": 1430
+   }
+  },
+  {
+   "rank": 95,
    "participantId": "p.marek-pokrupa",
    "participantType": "person",
    "stats": {
-    "RANK": 45,
+    "RANK": 95,
     "PTS": 0.0,
     "ELO": 2086,
     "GP": 1
@@ -1252,1209 +2555,6 @@
    "extra": {
     "team": "Český lev Kolešovice",
     "performance": 1492
-   }
-  },
-  {
-   "rank": 46,
-   "participantId": "p.vasyl-ivanchuk.1969",
-   "participantType": "person",
-   "stats": {
-    "RANK": 46,
-    "ELO": 2628,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.vasyl-ivanchuk.1969",
-    "name": {
-     "full": "Vasyl Ivanchuk"
-    },
-    "birthDate": "1969",
-    "nationalities": [
-     "UA"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 47,
-   "participantId": "p.thai-dai-van-nguyen",
-   "participantType": "person",
-   "stats": {
-    "RANK": 47,
-    "ELO": 2623,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.thai-dai-van-nguyen",
-    "name": {
-     "full": "Thai Dai Van Nguyen"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "1. Novoborský ŠK"
-   }
-  },
-  {
-   "rank": 48,
-   "participantId": "p.anton-korobov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 48,
-    "ELO": 2620,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.anton-korobov",
-    "name": {
-     "full": "Anton Korobov"
-    },
-    "nationalities": [
-     "UA"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 49,
-   "participantId": "p.david-navara",
-   "participantType": "person",
-   "stats": {
-    "RANK": 49,
-    "ELO": 2607,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.david-navara",
-    "name": {
-     "full": "David Navara"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "1. Novoborský ŠK"
-   }
-  },
-  {
-   "rank": 50,
-   "participantId": "p.nils-grandelius",
-   "participantType": "person",
-   "stats": {
-    "RANK": 50,
-    "ELO": 2603,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.nils-grandelius",
-    "name": {
-     "full": "Nils Grandelius"
-    },
-    "nationalities": [
-     "SE"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "1. Novoborský ŠK"
-   }
-  },
-  {
-   "rank": 51,
-   "participantId": "p.vaclav-finek.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 51,
-    "ELO": 2587,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.vaclav-finek.2010",
-    "name": {
-     "full": "Vaclav Finek"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 52,
-   "participantId": "p.yuriy-kuzubov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 52,
-    "ELO": 2572,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.yuriy-kuzubov",
-    "name": {
-     "full": "Yuriy Kuzubov"
-    },
-    "nationalities": [
-     "UA"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 53,
-   "participantId": "p.pawel-teclaf",
-   "participantType": "person",
-   "stats": {
-    "RANK": 53,
-    "ELO": 2571,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.pawel-teclaf",
-    "name": {
-     "full": "Pawel Teclaf"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba A"
-   }
-  },
-  {
-   "rank": 54,
-   "participantId": "p.luca-jr-moroni",
-   "participantType": "person",
-   "stats": {
-    "RANK": 54,
-    "ELO": 2552,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.luca-jr-moroni",
-    "name": {
-     "full": "Luca Jr Moroni"
-    },
-    "nationalities": [
-     "IT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 55,
-   "participantId": "p.mateusz-bartel",
-   "participantType": "person",
-   "stats": {
-    "RANK": 55,
-    "ELO": 2549,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.mateusz-bartel",
-    "name": {
-     "full": "Mateusz Bartel"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "1. Novoborský ŠK"
-   }
-  },
-  {
-   "rank": 56,
-   "participantId": "p.yahli-sokolovsky.2006",
-   "participantType": "person",
-   "stats": {
-    "RANK": 56,
-    "ELO": 2542,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.yahli-sokolovsky.2006",
-    "name": {
-     "full": "Yahli Sokolovsky"
-    },
-    "birthDate": "2006",
-    "nationalities": [
-     "IL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 57,
-   "participantId": "p.tomas-laurusas",
-   "participantType": "person",
-   "stats": {
-    "RANK": 57,
-    "ELO": 2535,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.tomas-laurusas",
-    "name": {
-     "full": "Tomas Laurusas"
-    },
-    "nationalities": [
-     "LT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 58,
-   "participantId": "p.patryk-cieslak.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 58,
-    "ELO": 2513,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.patryk-cieslak.2010",
-    "name": {
-     "full": "Patryk Cieslak"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 59,
-   "participantId": "p.jakub-seemann.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 59,
-    "ELO": 2512,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jakub-seemann.2008",
-    "name": {
-     "full": "Jakub Seemann"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 60,
-   "participantId": "p.tadeas-kriebel",
-   "participantType": "person",
-   "stats": {
-    "RANK": 60,
-    "ELO": 2508,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.tadeas-kriebel",
-    "name": {
-     "full": "Tadeas Kriebel"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "1. Novoborský ŠK"
-   }
-  },
-  {
-   "rank": 61,
-   "participantId": "p.robert-kempinski",
-   "participantType": "person",
-   "stats": {
-    "RANK": 61,
-    "ELO": 2507,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.robert-kempinski",
-    "name": {
-     "full": "Robert Kempinski"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba A"
-   }
-  },
-  {
-   "rank": 62,
-   "participantId": "p.jan-krejci",
-   "participantType": "person",
-   "stats": {
-    "RANK": 62,
-    "ELO": 2503,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jan-krejci",
-    "name": {
-     "full": "Jan Krejci"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Moravská Slavia Brno"
-   }
-  },
-  {
-   "rank": 63,
-   "participantId": "p.grzegorz-nasuta",
-   "participantType": "person",
-   "stats": {
-    "RANK": 63,
-    "ELO": 2487,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.grzegorz-nasuta",
-    "name": {
-     "full": "Grzegorz Nasuta"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba A"
-   }
-  },
-  {
-   "rank": 64,
-   "participantId": "p.jachym-nemec.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 64,
-    "ELO": 2478,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jachym-nemec.2008",
-    "name": {
-     "full": "Jachym Nemec"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Sigil Fund Pardubice"
-   }
-  },
-  {
-   "rank": 65,
-   "participantId": "p.juraj-druska",
-   "participantType": "person",
-   "stats": {
-    "RANK": 65,
-    "ELO": 2470,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.juraj-druska",
-    "name": {
-     "full": "Juraj Druska"
-    },
-    "nationalities": [
-     "SK"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠŠ Vávra a Černoušek Unichess"
-   }
-  },
-  {
-   "rank": 66,
-   "participantId": "p.stepan-hrbek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 66,
-    "ELO": 2458,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.stepan-hrbek",
-    "name": {
-     "full": "Stepan Hrbek"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "1. Novoborský ŠK"
-   }
-  },
-  {
-   "rank": 67,
-   "participantId": "p.richard-stalmach",
-   "participantType": "person",
-   "stats": {
-    "RANK": 67,
-    "ELO": 2456,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.richard-stalmach",
-    "name": {
-     "full": "Richard Stalmach"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 68,
-   "participantId": "p.tadeas-balacek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 68,
-    "ELO": 2428,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.tadeas-balacek",
-    "name": {
-     "full": "Tadeas Balacek"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "1. Novoborský ŠK"
-   }
-  },
-  {
-   "rank": 69,
-   "participantId": "p.lukas-vlasak",
-   "participantType": "person",
-   "stats": {
-    "RANK": 69,
-    "ELO": 2417,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.lukas-vlasak",
-    "name": {
-     "full": "Lukas Vlasak"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 70,
-   "participantId": "p.piotr-piesik",
-   "participantType": "person",
-   "stats": {
-    "RANK": 70,
-    "ELO": 2413,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.piotr-piesik",
-    "name": {
-     "full": "Piotr Piesik"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 71,
-   "participantId": "p.petr-gnojek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 71,
-    "ELO": 2405,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.petr-gnojek",
-    "name": {
-     "full": "Petr Gnojek"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 72,
-   "participantId": "p.stanislav-cifka",
-   "participantType": "person",
-   "stats": {
-    "RANK": 72,
-    "ELO": 2397,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.stanislav-cifka",
-    "name": {
-     "full": "Stanislav Cifka"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 73,
-   "participantId": "p.amin-cheraghi",
-   "participantType": "person",
-   "stats": {
-    "RANK": 73,
-    "ELO": 2395,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.amin-cheraghi",
-    "name": {
-     "full": "Amin Cheraghi"
-    },
-    "nationalities": [
-     "IR"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 74,
-   "participantId": "p.vojtech-straka",
-   "participantType": "person",
-   "stats": {
-    "RANK": 74,
-    "ELO": 2394,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.vojtech-straka",
-    "name": {
-     "full": "Vojtech Straka"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 75,
-   "participantId": "p.petr-haba",
-   "participantType": "person",
-   "stats": {
-    "RANK": 75,
-    "ELO": 2390,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.petr-haba",
-    "name": {
-     "full": "Petr Haba"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba A"
-   }
-  },
-  {
-   "rank": 76,
-   "participantId": "p.jiri-bouska",
-   "participantType": "person",
-   "stats": {
-    "RANK": 76,
-    "ELO": 2387,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jiri-bouska",
-    "name": {
-     "full": "Jiri Bouska"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba A"
-   }
-  },
-  {
-   "rank": 77,
-   "participantId": "p.pavel-simacek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 77,
-    "ELO": 2387,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.pavel-simacek",
-    "name": {
-     "full": "Pavel Simacek"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 78,
-   "participantId": "p.vojtech-zwardon",
-   "participantType": "person",
-   "stats": {
-    "RANK": 78,
-    "ELO": 2386,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.vojtech-zwardon",
-    "name": {
-     "full": "Vojtech Zwardon"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 79,
-   "participantId": "p.jachym-smolik",
-   "participantType": "person",
-   "stats": {
-    "RANK": 79,
-    "ELO": 2379,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jachym-smolik",
-    "name": {
-     "full": "Jachym Smolik"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 80,
-   "participantId": "p.ondrej-svanda",
-   "participantType": "person",
-   "stats": {
-    "RANK": 80,
-    "ELO": 2379,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.ondrej-svanda",
-    "name": {
-     "full": "Ondrej Svanda"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 81,
-   "participantId": "p.bartlomiej-niedbala",
-   "participantType": "person",
-   "stats": {
-    "RANK": 81,
-    "ELO": 2376,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.bartlomiej-niedbala",
-    "name": {
-     "full": "Bartlomiej Niedbala"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 82,
-   "participantId": "p.jakub-stinka",
-   "participantType": "person",
-   "stats": {
-    "RANK": 82,
-    "ELO": 2339,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jakub-stinka",
-    "name": {
-     "full": "Jakub Stinka"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "Český lev Kolešovice"
-   }
-  },
-  {
-   "rank": 83,
-   "participantId": "p.petr-velicka",
-   "participantType": "person",
-   "stats": {
-    "RANK": 83,
-    "ELO": 2333,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.petr-velicka",
-    "name": {
-     "full": "Petr Velicka"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba A"
-   }
-  },
-  {
-   "rank": 84,
-   "participantId": "p.marek-mica",
-   "participantType": "person",
-   "stats": {
-    "RANK": 84,
-    "ELO": 2327,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.marek-mica",
-    "name": {
-     "full": "Marek Mica"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "BŠŠ Frýdek-Místek"
-   }
-  },
-  {
-   "rank": 85,
-   "participantId": "p.jiri-vitak",
-   "participantType": "person",
-   "stats": {
-    "RANK": 85,
-    "ELO": 2327,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jiri-vitak",
-    "name": {
-     "full": "Jiri Vitak"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ŠK ZIKUDA Turnov"
-   }
-  },
-  {
-   "rank": 86,
-   "participantId": "p.flawian-krawczyk",
-   "participantType": "person",
-   "stats": {
-    "RANK": 86,
-    "ELO": 2306,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.flawian-krawczyk",
-    "name": {
-     "full": "Flawian Krawczyk"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 87,
-   "participantId": "p.martin-hollan",
-   "participantType": "person",
-   "stats": {
-    "RANK": 87,
-    "ELO": 2297,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.martin-hollan",
-    "name": {
-     "full": "Martin Hollan"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 88,
-   "participantId": "p.michal-jares",
-   "participantType": "person",
-   "stats": {
-    "RANK": 88,
-    "ELO": 2263,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.michal-jares",
-    "name": {
-     "full": "Michal Jares"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 89,
-   "participantId": "p.jan-malik",
-   "participantType": "person",
-   "stats": {
-    "RANK": 89,
-    "ELO": 2253,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jan-malik",
-    "name": {
-     "full": "Jan Malik"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 90,
-   "participantId": "p.jiri-adamek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 90,
-    "ELO": 2232,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.jiri-adamek",
-    "name": {
-     "full": "Jiri Adamek"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 91,
-   "participantId": "p.marek-kawulok",
-   "participantType": "person",
-   "stats": {
-    "RANK": 91,
-    "ELO": 2230,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.marek-kawulok",
-    "name": {
-     "full": "Marek Kawulok"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Stelar OAZA Praha"
-   }
-  },
-  {
-   "rank": 92,
-   "participantId": "p.radomir-caletka",
-   "participantType": "person",
-   "stats": {
-    "RANK": 92,
-    "ELO": 2222,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.radomir-caletka",
-    "name": {
-     "full": "Radomir Caletka"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 93,
-   "participantId": "p.simon-sotek",
-   "participantType": "person",
-   "stats": {
-    "RANK": 93,
-    "ELO": 2179,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.simon-sotek",
-    "name": {
-     "full": "Simon Sotek"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 94,
-   "participantId": "p.libor-vesely",
-   "participantType": "person",
-   "stats": {
-    "RANK": 94,
-    "ELO": 2117,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.libor-vesely",
-    "name": {
-     "full": "Libor Vesely"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba B"
-   }
-  },
-  {
-   "rank": 95,
-   "participantId": "p.ladislav-dobrovolsky",
-   "participantType": "person",
-   "stats": {
-    "RANK": 95,
-    "ELO": 2092,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.ladislav-dobrovolsky",
-    "name": {
-     "full": "Ladislav Dobrovolsky"
-    },
-    "nationalities": [
-     "CZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "ŠK Slavoj Poruba A"
    }
   }
  ]

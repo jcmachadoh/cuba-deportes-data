@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:G5JF01hD",
- "updatedAt": "2026-10-31T14:50:04Z",
+ "updatedAt": "2026-10-31T18:56:18Z",
  "sources": [
   "lichess"
  ],
@@ -23,47 +23,47 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=1uV_srafU9c9.webp&w=800&sig=a62499729c2a0a86313ed920195bd4484976be91",
   "rounds": [
    {
-    "name": "Ronda 1",
+    "name": "Round 1",
     "startsAt": 1793009700000,
     "finished": true
    },
    {
-    "name": "Ronda 2",
+    "name": "Round 2",
     "startsAt": 1793096100000,
     "finished": true
    },
    {
-    "name": "Ronda 3",
+    "name": "Round 3",
     "startsAt": 1793182500000,
     "finished": true
    },
    {
-    "name": "Ronda 4",
+    "name": "Round 4",
     "startsAt": 1793268900000,
     "finished": true
    },
    {
-    "name": "Ronda 5",
+    "name": "Round 5",
     "startsAt": 1793355300000,
     "finished": true
    },
    {
-    "name": "Ronda 6",
+    "name": "Round 6",
     "startsAt": 1793441700000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Ronda 7",
+    "name": "Round 7",
     "startsAt": 1793528100000,
     "finished": null
    },
    {
-    "name": "Ronda 8",
+    "name": "Round 8",
     "startsAt": 1793614500000,
     "finished": null
    },
    {
-    "name": "Ronda 9",
+    "name": "Round 9",
     "startsAt": 1793686500000,
     "finished": null
    }
@@ -102,9 +102,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 3.5,
+    "PTS": 4.0,
     "ELO": 2636,
-    "GP": 5
+    "GP": 6
    },
    "person": {
     "id": "p.denis-lazavik.2006",
@@ -119,44 +119,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2727
+    "performance": 2703
    }
   },
   {
    "rank": 3,
-   "participantId": "p.edgar-mamedov.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 3.5,
-    "ELO": 2474,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.edgar-mamedov.2010",
-    "name": {
-     "full": "Edgar Mamedov"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "KZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2772
-   }
-  },
-  {
-   "rank": 4,
    "participantId": "p.shamsiddin-vokhidov.2002",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 3.0,
+    "RANK": 3,
+    "PTS": 4.0,
     "ELO": 2649,
-    "GP": 5
+    "GP": 6
    },
    "person": {
     "id": "p.shamsiddin-vokhidov.2002",
@@ -171,15 +145,66 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2680
+    "performance": 2710
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.edgar-mamedov.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 3.5,
+    "ELO": 2474,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.edgar-mamedov.2010",
+    "name": {
+     "full": "Edgar Mamedov"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "KZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2684
    }
   },
   {
    "rank": 5,
-   "participantId": "p.mahammad-muradli.2003",
+   "participantId": "p.denis-makhnev",
    "participantType": "person",
    "stats": {
     "RANK": 5,
+    "PTS": 3.5,
+    "ELO": 2581,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.denis-makhnev",
+    "name": {
+     "full": "Denis Makhnev"
+    },
+    "nationalities": [
+     "KZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2653
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.mahammad-muradli.2003",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
     "PTS": 3.0,
     "ELO": 2662,
     "GP": 6
@@ -198,31 +223,6 @@
    },
    "extra": {
     "performance": 2554
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.denis-makhnev",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 3.0,
-    "ELO": 2581,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.denis-makhnev",
-    "name": {
-     "full": "Denis Makhnev"
-    },
-    "nationalities": [
-     "KZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2660
    }
   },
   {

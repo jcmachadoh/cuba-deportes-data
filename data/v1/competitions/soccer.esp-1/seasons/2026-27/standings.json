@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.esp-1:2026-27",
- "updatedAt": "2026-10-30T23:45:32Z",
+ "updatedAt": "2026-10-31T18:33:41Z",
  "sources": [
   "espn"
  ],
@@ -14,18 +14,18 @@
    "name": "2026-27 LALIGA",
    "rows": [
     {
-     "participantId": "soccer.barcelona",
+     "participantId": "soccer.atletico-madrid",
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 9,
-      "D": 0,
+      "D": 1,
       "L": 1,
-      "GF": 40,
-      "GA": 11,
-      "GD": 29,
-      "PTS": 27
+      "GF": 22,
+      "GA": 8,
+      "GD": 14,
+      "PTS": 28
      },
      "extra": {
       "note": {
@@ -35,18 +35,18 @@
      }
     },
     {
-     "participantId": "soccer.atletico-madrid",
+     "participantId": "soccer.barcelona",
      "participantType": "team",
      "rank": 2,
      "stats": {
       "GP": 10,
-      "W": 8,
-      "D": 1,
+      "W": 9,
+      "D": 0,
       "L": 1,
-      "GF": 20,
-      "GA": 8,
-      "GD": 12,
-      "PTS": 25
+      "GF": 40,
+      "GA": 11,
+      "GD": 29,
+      "PTS": 27
      },
      "extra": {
       "note": {
@@ -176,24 +176,9 @@
      }
     },
     {
-     "participantId": "soccer.celta-vigo",
-     "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 6,
-      "L": 2,
-      "GF": 10,
-      "GA": 7,
-      "GD": 3,
-      "PTS": 12
-     }
-    },
-    {
      "participantId": "soccer.villarreal",
      "participantType": "team",
-     "rank": 10,
+     "rank": 9,
      "stats": {
       "GP": 11,
       "W": 3,
@@ -201,6 +186,21 @@
       "L": 5,
       "GF": 15,
       "GA": 15,
+      "GD": 0,
+      "PTS": 12
+     }
+    },
+    {
+     "participantId": "soccer.celta-vigo",
+     "participantType": "team",
+     "rank": 10,
+     "stats": {
+      "GP": 11,
+      "W": 2,
+      "D": 6,
+      "L": 3,
+      "GF": 10,
+      "GA": 10,
       "GD": 0,
       "PTS": 12
      },
@@ -212,9 +212,24 @@
      }
     },
     {
-     "participantId": "soccer.deportivo",
+     "participantId": "soccer.rayo-vallecano",
      "participantType": "team",
      "rank": 11,
+     "stats": {
+      "GP": 10,
+      "W": 3,
+      "D": 3,
+      "L": 4,
+      "GF": 15,
+      "GA": 20,
+      "GD": -5,
+      "PTS": 12
+     }
+    },
+    {
+     "participantId": "soccer.deportivo",
+     "participantType": "team",
+     "rank": 12,
      "stats": {
       "GP": 10,
       "W": 2,
@@ -229,7 +244,7 @@
     {
      "participantId": "soccer.espanyol",
      "participantType": "team",
-     "rank": 12,
+     "rank": 13,
      "stats": {
       "GP": 11,
       "W": 3,
@@ -244,7 +259,7 @@
     {
      "participantId": "soccer.osasuna",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -259,7 +274,7 @@
     {
      "participantId": "soccer.racing-santander",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -269,21 +284,6 @@
       "GA": 26,
       "GD": -11,
       "PTS": 11
-     }
-    },
-    {
-     "participantId": "soccer.levante",
-     "participantType": "team",
-     "rank": 15,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 4,
-      "L": 4,
-      "GF": 16,
-      "GA": 19,
-      "GD": -3,
-      "PTS": 10
      }
     },
     {
@@ -302,18 +302,18 @@
      }
     },
     {
-     "participantId": "soccer.rayo-vallecano",
+     "participantId": "soccer.levante",
      "participantType": "team",
      "rank": 17,
      "stats": {
-      "GP": 9,
+      "GP": 11,
       "W": 2,
-      "D": 3,
-      "L": 4,
-      "GF": 12,
-      "GA": 20,
-      "GD": -8,
-      "PTS": 9
+      "D": 4,
+      "L": 5,
+      "GF": 16,
+      "GA": 21,
+      "GD": -5,
+      "PTS": 10
      }
     },
     {
