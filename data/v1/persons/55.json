@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "55",
- "updatedAt": "2026-10-21T14:18:52Z",
+ "updatedAt": "2026-10-31T14:48:50Z",
  "persons": {
   "p.aaron-judge.1992": {
    "id": "p.aaron-judge.1992",
@@ -1800,6 +1800,27 @@
     "espn"
    ]
   },
+  "p.lavinia-valcu.2009": {
+   "id": "p.lavinia-valcu.2009",
+   "name": {
+    "full": "Lavinia Valcu"
+   },
+   "birthDate": "2009",
+   "nationalities": [
+    "SE"
+   ],
+   "isCuban": false,
+   "gender": "F",
+   "externalIds": {
+    "fide": "1752197"
+   },
+   "sources": [
+    "fide"
+   ],
+   "extra": {
+    "federation": "SWE"
+   }
+  },
   "p.lawrence-ofori.1998": {
    "id": "p.lawrence-ofori.1998",
    "name": {
@@ -2066,6 +2087,34 @@
    "isCuban": false,
    "externalIds": {
     "mlb": "114545"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.nicolo-pinazzi.1999": {
+   "id": "p.nicolo-pinazzi.1999",
+   "name": {
+    "full": "Nicolo Pinazzi",
+    "first": "Nicolo",
+    "last": "Pinazzi"
+   },
+   "birthDate": "1999-10-25",
+   "birthPlace": {
+    "city": "Milan",
+    "country": "IT"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 188.0,
+    "weightKg": 88.5
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "L"
+   },
+   "externalIds": {
+    "mlb": "695950"
    },
    "sources": [
     "mlb-statsapi"

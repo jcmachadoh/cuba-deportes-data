@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.estrellas-orientales:2026-27",
- "updatedAt": "2026-10-29T15:32:35Z",
+ "updatedAt": "2026-10-31T14:44:18Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.estrellas-orientales",
  "competitionId": "baseball.lidom",
  "season": "2026-27",
- "count": 64,
+ "count": 63,
  "groups": [
   {
    "code": "P",
@@ -554,23 +554,6 @@
      }
     },
     {
-     "personId": "p.junior-william.2000",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.junior-william.2000",
-      "name": {
-       "full": "Junior William",
-       "first": "Junior",
-       "last": "William"
-      },
-      "birthDate": "2000-03-06",
-      "isCuban": false,
-      "birthCountry": "DO"
-     }
-    },
-    {
      "personId": "p.yeuris-jimenez.2001",
      "position": "P",
      "role": "player",
@@ -595,6 +578,27 @@
     "es": "Receptores"
    },
    "players": [
+    {
+     "personId": "p.edgar-quero.2003",
+     "number": "26",
+     "position": "C",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.edgar-quero.2003",
+      "name": {
+       "full": "Edgar Quero",
+       "first": "Edgar",
+       "last": "Quero"
+      },
+      "birthDate": "2003-04-06",
+      "nationalities": [
+       "CU"
+      ],
+      "isCuban": true,
+      "birthCountry": "CU"
+     }
+    },
     {
      "personId": "p.wilin-rosario.1989",
      "number": "49",
@@ -682,26 +686,6 @@
       "birthDate": "1996-02-17",
       "isCuban": false,
       "birthCountry": "DO"
-     }
-    },
-    {
-     "personId": "p.edgar-quero.2003",
-     "position": "C",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.edgar-quero.2003",
-      "name": {
-       "full": "Edgar Quero",
-       "first": "Edgar",
-       "last": "Quero"
-      },
-      "birthDate": "2003-04-06",
-      "nationalities": [
-       "CU"
-      ],
-      "isCuban": true,
-      "birthCountry": "CU"
      }
     }
    ]
