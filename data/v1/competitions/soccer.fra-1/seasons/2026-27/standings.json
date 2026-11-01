@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-10-31T23:23:21Z",
+ "updatedAt": "2026-11-01T18:56:45Z",
  "sources": [
   "espn"
  ],
@@ -56,9 +56,51 @@
      }
     },
     {
-     "participantId": "soccer.stade-rennais",
+     "participantId": "soccer.lyon",
      "participantType": "team",
      "rank": 3,
+     "stats": {
+      "GP": 9,
+      "W": 5,
+      "D": 2,
+      "L": 2,
+      "GF": 15,
+      "GA": 7,
+      "GD": 8,
+      "PTS": 17
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.paris-fc",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 9,
+      "W": 5,
+      "D": 2,
+      "L": 2,
+      "GF": 16,
+      "GA": 10,
+      "GD": 6,
+      "PTS": 17
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.stade-rennais",
+     "participantType": "team",
+     "rank": 5,
      "stats": {
       "GP": 9,
       "W": 5,
@@ -71,66 +113,24 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.as-monaco",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 8,
-      "W": 4,
-      "D": 3,
-      "L": 1,
-      "GF": 11,
-      "GA": 7,
-      "GD": 4,
-      "PTS": 15
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.lyon",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 8,
-      "W": 4,
-      "D": 2,
-      "L": 2,
-      "GF": 13,
-      "GA": 7,
-      "GD": 6,
-      "PTS": 14
-     },
-     "extra": {
-      "note": {
        "text": "Europa League",
        "color": "#B2BFD0"
       }
      }
     },
     {
-     "participantId": "soccer.paris-fc",
+     "participantId": "soccer.as-monaco",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 4,
-      "D": 2,
+      "D": 3,
       "L": 2,
-      "GF": 13,
-      "GA": 9,
-      "GD": 4,
-      "PTS": 14
+      "GF": 12,
+      "GA": 10,
+      "GD": 2,
+      "PTS": 15
      },
      "extra": {
       "note": {
@@ -221,24 +221,39 @@
      }
     },
     {
-     "participantId": "soccer.aj-auxerre",
+     "participantId": "soccer.strasbourg",
      "participantType": "team",
      "rank": 12,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 3,
       "D": 1,
-      "L": 4,
-      "GF": 12,
-      "GA": 18,
-      "GD": -6,
+      "L": 5,
+      "GF": 17,
+      "GA": 19,
+      "GD": -2,
+      "PTS": 10
+     }
+    },
+    {
+     "participantId": "soccer.aj-auxerre",
+     "participantType": "team",
+     "rank": 13,
+     "stats": {
+      "GP": 9,
+      "W": 3,
+      "D": 1,
+      "L": 5,
+      "GF": 13,
+      "GA": 23,
+      "GD": -10,
       "PTS": 10
      }
     },
     {
      "participantId": "soccer.brest",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 8,
       "W": 2,
@@ -253,22 +268,22 @@
     {
      "participantId": "soccer.angers",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 2,
       "D": 2,
-      "L": 4,
+      "L": 5,
       "GF": 9,
-      "GA": 15,
-      "GD": -6,
+      "GA": 17,
+      "GD": -8,
       "PTS": 8
      }
     },
     {
      "participantId": "soccer.troyes",
      "participantType": "team",
-     "rank": 15,
+     "rank": 16,
      "stats": {
       "GP": 9,
       "W": 2,
@@ -278,21 +293,6 @@
       "GA": 16,
       "GD": -9,
       "PTS": 8
-     }
-    },
-    {
-     "participantId": "soccer.strasbourg",
-     "participantType": "team",
-     "rank": 16,
-     "stats": {
-      "GP": 8,
-      "W": 2,
-      "D": 1,
-      "L": 5,
-      "GF": 12,
-      "GA": 18,
-      "GD": -6,
-      "PTS": 7
      },
      "extra": {
       "note": {
