@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:G5JF01hD",
- "updatedAt": "2026-11-01T13:45:50Z",
+ "updatedAt": "2026-11-01T15:44:08Z",
  "sources": [
   "lichess"
  ],
@@ -55,7 +55,7 @@
    {
     "name": "Round 7",
     "startsAt": 1793528100000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 8",
@@ -72,10 +72,62 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.shamsiddin-vokhidov.2002",
+   "participantId": "p.denis-lazavik.2006",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 5.0,
+    "ELO": 2636,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.denis-lazavik.2006",
+    "name": {
+     "full": "Denis Lazavik"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "BY"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2719
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.daniil-dubov.1996",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 5.0,
+    "ELO": 2654,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.daniil-dubov.1996",
+    "name": {
+     "full": "Daniil Dubov"
+    },
+    "birthDate": "1996",
+    "nationalities": [
+     "RU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2697
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.shamsiddin-vokhidov.2002",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
     "PTS": 4.5,
     "ELO": 2649,
     "GP": 7
@@ -94,58 +146,6 @@
    },
    "extra": {
     "performance": 2687
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.daniil-dubov.1996",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 4.5,
-    "ELO": 2654,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.daniil-dubov.1996",
-    "name": {
-     "full": "Daniil Dubov"
-    },
-    "birthDate": "1996",
-    "nationalities": [
-     "RU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2734
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.denis-lazavik.2006",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 4.0,
-    "ELO": 2636,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.denis-lazavik.2006",
-    "name": {
-     "full": "Denis Lazavik"
-    },
-    "birthDate": "2006",
-    "nationalities": [
-     "BY"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2703
    }
   },
   {
@@ -175,13 +175,38 @@
   },
   {
    "rank": 5,
-   "participantId": "p.edgar-mamedov.2010",
+   "participantId": "p.mark-smirnov",
    "participantType": "person",
    "stats": {
     "RANK": 5,
+    "PTS": 4.0,
+    "ELO": 2451,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.mark-smirnov",
+    "name": {
+     "full": "Mark Smirnov"
+    },
+    "nationalities": [
+     "KZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2626
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.edgar-mamedov.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
     "PTS": 3.5,
     "ELO": 2474,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.edgar-mamedov.2010",
@@ -196,69 +221,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2684
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.mahammad-muradli.2003",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 3.0,
-    "ELO": 2662,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.mahammad-muradli.2003",
-    "name": {
-     "full": "Mahammad Muradli"
-    },
-    "birthDate": "2003",
-    "nationalities": [
-     "AZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2554
+    "performance": 2602
    }
   },
   {
    "rank": 7,
-   "participantId": "p.mark-smirnov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 3.0,
-    "ELO": 2451,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.mark-smirnov",
-    "name": {
-     "full": "Mark Smirnov"
-    },
-    "nationalities": [
-     "KZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2593
-   }
-  },
-  {
-   "rank": 8,
    "participantId": "p.aram-hakobyan.2001",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
-    "PTS": 2.5,
+    "RANK": 7,
+    "PTS": 3.5,
     "ELO": 2638,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.aram-hakobyan.2001",
@@ -273,7 +247,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2466
+    "performance": 2543
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.mahammad-muradli.2003",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 3.0,
+    "ELO": 2662,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.mahammad-muradli.2003",
+    "name": {
+     "full": "Mahammad Muradli"
+    },
+    "birthDate": "2003",
+    "nationalities": [
+     "AZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2516
    }
   },
   {
@@ -282,9 +282,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 9,
-    "PTS": 1.5,
+    "PTS": 2.0,
     "ELO": 2526,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.sauat-nurgaliyev.2010",
@@ -299,7 +299,7 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2351
+    "performance": 2402
    }
   },
   {
@@ -310,7 +310,7 @@
     "RANK": 10,
     "PTS": 0.5,
     "ELO": 2460,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.alua-nurman.2007",
@@ -325,7 +325,7 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2184
+    "performance": 2170
    }
   }
  ]

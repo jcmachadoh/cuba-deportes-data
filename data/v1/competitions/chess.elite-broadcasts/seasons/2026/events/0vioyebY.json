@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:0vioyebY",
- "updatedAt": "2026-11-01T13:45:50Z",
+ "updatedAt": "2026-11-01T15:44:08Z",
  "sources": [
   "lichess"
  ],
@@ -24,47 +24,47 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=cg0CsyDFz0u0.webp&w=800&sig=1aec989ee2b7df43fe6638c32bf68c158872f72f",
   "rounds": [
    {
-    "name": "Ronda 1",
+    "name": "Round 1",
     "startsAt": 1793379600000,
     "finished": true
    },
    {
-    "name": "Ronda 2",
+    "name": "Round 2",
     "startsAt": 1793444400000,
     "finished": true
    },
    {
-    "name": "Ronda 3",
+    "name": "Round 3",
     "startsAt": 1793523600000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Ronda 4",
+    "name": "Round 4",
     "startsAt": 1801846800000,
     "finished": null
    },
    {
-    "name": "Ronda 5",
+    "name": "Round 5",
     "startsAt": 1801911600000,
     "finished": null
    },
    {
-    "name": "Ronda 6",
+    "name": "Round 6",
     "startsAt": 1801990800000,
     "finished": null
    },
    {
-    "name": "Ronda 7",
+    "name": "Round 7",
     "startsAt": 1804266000000,
     "finished": null
    },
    {
-    "name": "Ronda 8",
+    "name": "Round 8",
     "startsAt": 1804330800000,
     "finished": null
    },
    {
-    "name": "Ronda 9",
+    "name": "Round 9",
     "startsAt": 1804410000000,
     "finished": null
    }
@@ -229,10 +229,36 @@
   },
   {
    "rank": 7,
-   "participantId": "p.semen-mitusov",
+   "participantId": "p.lars-oskar-hauge",
    "participantType": "person",
    "stats": {
     "RANK": 7,
+    "PTS": 2.5,
+    "ELO": 2485,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.lars-oskar-hauge",
+    "name": {
+     "full": "Lars Oskar Hauge"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "OSS",
+    "performance": 2628
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.semen-mitusov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
     "PTS": 2.5,
     "ELO": 2464,
     "GP": 3
@@ -254,11 +280,11 @@
    }
   },
   {
-   "rank": 8,
+   "rank": 9,
    "participantId": "p.evsuld-myagmarsuren",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
+    "RANK": 9,
     "PTS": 2.5,
     "ELO": 2330,
     "GP": 3
@@ -280,11 +306,11 @@
    }
   },
   {
-   "rank": 9,
+   "rank": 10,
    "participantId": "p.felix-wiger-nordas",
    "participantType": "person",
    "stats": {
-    "RANK": 9,
+    "RANK": 10,
     "PTS": 2.5,
     "ELO": 2152,
     "GP": 3
@@ -305,11 +331,11 @@
    }
   },
   {
-   "rank": 10,
+   "rank": 11,
    "participantId": "p.toms-kantans",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 11,
     "PTS": 2.0,
     "ELO": 2556,
     "GP": 3
@@ -331,11 +357,11 @@
    }
   },
   {
-   "rank": 11,
+   "rank": 12,
    "participantId": "p.frode-olav-olsen-urkedal",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 12,
     "PTS": 2.0,
     "ELO": 2554,
     "GP": 3
@@ -357,11 +383,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 13,
    "participantId": "p.erik-blomqvist",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 13,
     "PTS": 2.0,
     "ELO": 2481,
     "GP": 3
@@ -383,11 +409,11 @@
    }
   },
   {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.espen-lie",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 14,
     "PTS": 2.0,
     "ELO": 2454,
     "GP": 3
@@ -409,11 +435,11 @@
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
    "participantId": "p.benjamin-arvola-notkevich",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 15,
     "PTS": 2.0,
     "ELO": 2447,
     "GP": 3
@@ -435,11 +461,11 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 16,
    "participantId": "p.havard-haug",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 16,
     "PTS": 2.0,
     "ELO": 2444,
     "GP": 3
@@ -461,11 +487,37 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 17,
+   "participantId": "p.eivind-grunt-kreken",
+   "participantType": "person",
+   "stats": {
+    "RANK": 17,
+    "PTS": 2.0,
+    "ELO": 2347,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.eivind-grunt-kreken",
+    "name": {
+     "full": "Eivind Grunt Kreken"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "Nordstrand",
+    "performance": 2382
+   }
+  },
+  {
+   "rank": 18,
    "participantId": "p.peder-marcus-aamodt",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 18,
     "PTS": 2.0,
     "ELO": 2168,
     "GP": 3
@@ -486,11 +538,36 @@
    }
   },
   {
-   "rank": 17,
+   "rank": 19,
+   "participantId": "p.torbjorn-valvag",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19,
+    "PTS": 2.0,
+    "ELO": 2128,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.torbjorn-valvag",
+    "name": {
+     "full": "Torbjorn Valvag"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Tromsø",
+    "performance": 2454
+   }
+  },
+  {
+   "rank": 20,
    "participantId": "p.fredrik-valstad-elsness",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 20,
     "PTS": 2.0,
     "ELO": 2075,
     "GP": 2
@@ -512,11 +589,11 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 21,
    "participantId": "p.jon-ludvig-hammer",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 21,
     "PTS": 1.5,
     "ELO": 2573,
     "GP": 3
@@ -538,11 +615,11 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 22,
    "participantId": "p.aksel-bu-kvaloy.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 22,
     "PTS": 1.5,
     "ELO": 2515,
     "GP": 3
@@ -565,19 +642,71 @@
    }
   },
   {
-   "rank": 20,
-   "participantId": "p.lars-oskar-hauge",
+   "rank": 23,
+   "participantId": "p.linus-johansson",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 23,
     "PTS": 1.5,
-    "ELO": 2485,
+    "ELO": 2421,
     "GP": 2
    },
    "person": {
-    "id": "p.lars-oskar-hauge",
+    "id": "p.linus-johansson",
     "name": {
-     "full": "Lars Oskar Hauge"
+     "full": "Linus Johansson"
+    },
+    "nationalities": [
+     "SE"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Offerspill",
+    "performance": 2533
+   }
+  },
+  {
+   "rank": 24,
+   "participantId": "p.frode-elsness",
+   "participantType": "person",
+   "stats": {
+    "RANK": 24,
+    "PTS": 1.5,
+    "ELO": 2405,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.frode-elsness",
+    "name": {
+     "full": "Frode Elsness"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Nordstrand",
+    "performance": 2488
+   }
+  },
+  {
+   "rank": 25,
+   "participantId": "p.rune-djurhuus",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25,
+    "PTS": 1.5,
+    "ELO": 2386,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.rune-djurhuus",
+    "name": {
+     "full": "Rune Djurhuus"
     },
     "nationalities": [
      "NO"
@@ -586,16 +715,42 @@
     "title": "GM"
    },
    "extra": {
-    "team": "OSS",
-    "performance": 2542
+    "team": "Nordstrand",
+    "performance": 2351
    }
   },
   {
-   "rank": 21,
+   "rank": 26,
+   "participantId": "p.john-paul-wallace",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "PTS": 1.5,
+    "ELO": 2360,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.john-paul-wallace",
+    "name": {
+     "full": "John Paul Wallace"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "SK 1911",
+    "performance": 2253
+   }
+  },
+  {
+   "rank": 27,
    "participantId": "p.andreas-garberg-tryggestad",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 27,
     "PTS": 1.5,
     "ELO": 2299,
     "GP": 2
@@ -617,11 +772,63 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 28,
+   "participantId": "p.eivind-olav-risting",
+   "participantType": "person",
+   "stats": {
+    "RANK": 28,
+    "PTS": 1.5,
+    "ELO": 2256,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.eivind-olav-risting",
+    "name": {
+     "full": "Eivind Olav Risting"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "SK 1911",
+    "performance": 2161
+   }
+  },
+  {
+   "rank": 29,
+   "participantId": "p.teodor-tenfjord-engelsen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29,
+    "PTS": 1.5,
+    "ELO": 2235,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.teodor-tenfjord-engelsen",
+    "name": {
+     "full": "Teodor Tenfjord Engelsen"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "team": "Bergens",
+    "performance": 2340
+   }
+  },
+  {
+   "rank": 30,
    "participantId": "p.jens-hjorth-kjolberg",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 30,
     "PTS": 1.5,
     "ELO": 2152,
     "GP": 2
@@ -643,36 +850,11 @@
    }
   },
   {
-   "rank": 23,
-   "participantId": "p.torbjorn-valvag",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23,
-    "PTS": 1.5,
-    "ELO": 2128,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.torbjorn-valvag",
-    "name": {
-     "full": "Torbjorn Valvag"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Tromsø",
-    "performance": 2559
-   }
-  },
-  {
-   "rank": 24,
+   "rank": 31,
    "participantId": "p.valentina-verbin",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 31,
     "PTS": 1.5,
     "ELO": 2101,
     "GP": 3
@@ -694,11 +876,11 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 32,
    "participantId": "p.monika-machlik",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 32,
     "PTS": 1.5,
     "ELO": 2088,
     "GP": 2
@@ -719,11 +901,36 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 33,
+   "participantId": "p.aleksander-omtvedt",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33,
+    "PTS": 1.5,
+    "ELO": 1963,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.aleksander-omtvedt",
+    "name": {
+     "full": "Aleksander Omtvedt"
+    },
+    "nationalities": [
+     "NO"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Stavanger",
+    "performance": 2360
+   }
+  },
+  {
+   "rank": 34,
    "participantId": "p.elham-amar",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 34,
     "PTS": 1.0,
     "ELO": 2567,
     "GP": 1
@@ -745,11 +952,11 @@
    }
   },
   {
-   "rank": 27,
+   "rank": 35,
    "participantId": "p.emin-ohanyan.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 35,
     "PTS": 1.0,
     "ELO": 2520,
     "GP": 2
@@ -772,45 +979,19 @@
    }
   },
   {
-   "rank": 28,
-   "participantId": "p.linus-johansson",
+   "rank": 36,
+   "participantId": "p.geir-sune-tallaksen-ostmoe",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 36,
     "PTS": 1.0,
-    "ELO": 2421,
-    "GP": 1
+    "ELO": 2488,
+    "GP": 3
    },
    "person": {
-    "id": "p.linus-johansson",
+    "id": "p.geir-sune-tallaksen-ostmoe",
     "name": {
-     "full": "Linus Johansson"
-    },
-    "nationalities": [
-     "SE"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Offerspill",
-    "performance": 3094
-   }
-  },
-  {
-   "rank": 29,
-   "participantId": "p.frode-elsness",
-   "participantType": "person",
-   "stats": {
-    "RANK": 29,
-    "PTS": 1.0,
-    "ELO": 2405,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.frode-elsness",
-    "name": {
-     "full": "Frode Elsness"
+     "full": "Geir Sune Tallaksen Ostmoe"
     },
     "nationalities": [
      "NO"
@@ -819,50 +1000,24 @@
     "title": "IM"
    },
    "extra": {
-    "team": "Nordstrand",
-    "performance": 2511
+    "team": "Porsgrunn Superkraft",
+    "performance": 2299
    }
   },
   {
-   "rank": 30,
-   "participantId": "p.rune-djurhuus",
+   "rank": 37,
+   "participantId": "p.benjamin-haldorsen",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
+    "RANK": 37,
     "PTS": 1.0,
-    "ELO": 2386,
+    "ELO": 2443,
     "GP": 2
    },
    "person": {
-    "id": "p.rune-djurhuus",
+    "id": "p.benjamin-haldorsen",
     "name": {
-     "full": "Rune Djurhuus"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Nordstrand",
-    "performance": 2316
-   }
-  },
-  {
-   "rank": 31,
-   "participantId": "p.john-paul-wallace",
-   "participantType": "person",
-   "stats": {
-    "RANK": 31,
-    "PTS": 1.0,
-    "ELO": 2360,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.john-paul-wallace",
-    "name": {
-     "full": "John Paul Wallace"
+     "full": "Benjamin Haldorsen"
     },
     "nationalities": [
      "NO"
@@ -871,42 +1026,16 @@
     "title": "IM"
    },
    "extra": {
-    "team": "SK 1911",
-    "performance": 2248
+    "team": "Offerspill",
+    "performance": 2361
    }
   },
   {
-   "rank": 32,
-   "participantId": "p.eivind-grunt-kreken",
-   "participantType": "person",
-   "stats": {
-    "RANK": 32,
-    "PTS": 1.0,
-    "ELO": 2347,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.eivind-grunt-kreken",
-    "name": {
-     "full": "Eivind Grunt Kreken"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "Nordstrand",
-    "performance": 2275
-   }
-  },
-  {
-   "rank": 33,
+   "rank": 38,
    "participantId": "p.oystein-boyum-fossum",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 38,
     "PTS": 1.0,
     "ELO": 2310,
     "GP": 2
@@ -928,11 +1057,11 @@
    }
   },
   {
-   "rank": 34,
+   "rank": 39,
    "participantId": "p.martin-holten-fiskaaen",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 39,
     "PTS": 1.0,
     "ELO": 2305,
     "GP": 2
@@ -954,11 +1083,11 @@
    }
   },
   {
-   "rank": 35,
+   "rank": 40,
    "participantId": "p.eirik-gullaksen",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 40,
     "PTS": 1.0,
     "ELO": 2278,
     "GP": 3
@@ -980,19 +1109,19 @@
    }
   },
   {
-   "rank": 36,
-   "participantId": "p.eivind-olav-risting",
+   "rank": 41,
+   "participantId": "p.sivert-schanche-torfoss",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 41,
     "PTS": 1.0,
-    "ELO": 2256,
-    "GP": 2
+    "ELO": 2262,
+    "GP": 3
    },
    "person": {
-    "id": "p.eivind-olav-risting",
+    "id": "p.sivert-schanche-torfoss",
     "name": {
-     "full": "Eivind Olav Risting"
+     "full": "Sivert Schanche Torfoss"
     },
     "nationalities": [
      "NO"
@@ -1001,16 +1130,16 @@
     "title": "FM"
    },
    "extra": {
-    "team": "SK 1911",
-    "performance": 2178
+    "team": "Tromsø",
+    "performance": 2203
    }
   },
   {
-   "rank": 37,
+   "rank": 42,
    "participantId": "p.knut-h-storland",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 42,
     "PTS": 1.0,
     "ELO": 2219,
     "GP": 3
@@ -1032,11 +1161,11 @@
    }
   },
   {
-   "rank": 38,
+   "rank": 43,
    "participantId": "p.david-mindestrommen-simonsen",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 43,
     "PTS": 1.0,
     "ELO": 2189,
     "GP": 3
@@ -1058,11 +1187,11 @@
    }
   },
   {
-   "rank": 39,
+   "rank": 44,
    "participantId": "p.ask-amundsen",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 44,
     "PTS": 1.0,
     "ELO": 2176,
     "GP": 2
@@ -1084,11 +1213,11 @@
    }
   },
   {
-   "rank": 40,
+   "rank": 45,
    "participantId": "p.abyl-kizatbay",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 45,
     "PTS": 1.0,
     "ELO": 2164,
     "GP": 3
@@ -1110,11 +1239,11 @@
    }
   },
   {
-   "rank": 41,
+   "rank": 46,
    "participantId": "p.pal-royset",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 46,
     "PTS": 1.0,
     "ELO": 2110,
     "GP": 2
@@ -1136,11 +1265,11 @@
    }
   },
   {
-   "rank": 42,
+   "rank": 47,
    "participantId": "p.gudmund-stenersen",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 47,
     "PTS": 1.0,
     "ELO": 2106,
     "GP": 3
@@ -1161,11 +1290,11 @@
    }
   },
   {
-   "rank": 43,
+   "rank": 48,
    "participantId": "p.lars-tormod-haugen",
    "participantType": "person",
    "stats": {
-    "RANK": 43,
+    "RANK": 48,
     "PTS": 1.0,
     "ELO": 2069,
     "GP": 1
@@ -1186,62 +1315,11 @@
    }
   },
   {
-   "rank": 44,
-   "participantId": "p.aleksander-omtvedt",
-   "participantType": "person",
-   "stats": {
-    "RANK": 44,
-    "PTS": 1.0,
-    "ELO": 1963,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.aleksander-omtvedt",
-    "name": {
-     "full": "Aleksander Omtvedt"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Stavanger",
-    "performance": 2906
-   }
-  },
-  {
-   "rank": 45,
-   "participantId": "p.benjamin-haldorsen",
-   "participantType": "person",
-   "stats": {
-    "RANK": 45,
-    "PTS": 0.5,
-    "ELO": 2443,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.benjamin-haldorsen",
-    "name": {
-     "full": "Benjamin Haldorsen"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Offerspill",
-    "performance": 2317
-   }
-  },
-  {
-   "rank": 46,
+   "rank": 49,
    "participantId": "p.joachim-birger-nilsen",
    "participantType": "person",
    "stats": {
-    "RANK": 46,
+    "RANK": 49,
     "PTS": 0.5,
     "ELO": 2385,
     "GP": 2
@@ -1263,14 +1341,14 @@
    }
   },
   {
-   "rank": 47,
+   "rank": 50,
    "participantId": "p.anders-hobber",
    "participantType": "person",
    "stats": {
-    "RANK": 47,
+    "RANK": 50,
     "PTS": 0.5,
     "ELO": 2347,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.anders-hobber",
@@ -1285,15 +1363,15 @@
    },
    "extra": {
     "team": "Vålerenga",
-    "performance": 2189
+    "performance": 2019
    }
   },
   {
-   "rank": 48,
+   "rank": 51,
    "participantId": "p.sergey-eliseev",
    "participantType": "person",
    "stats": {
-    "RANK": 48,
+    "RANK": 51,
     "PTS": 0.5,
     "ELO": 2317,
     "GP": 3
@@ -1315,11 +1393,11 @@
    }
   },
   {
-   "rank": 49,
+   "rank": 52,
    "participantId": "p.ivar-bern",
    "participantType": "person",
    "stats": {
-    "RANK": 49,
+    "RANK": 52,
     "PTS": 0.5,
     "ELO": 2303,
     "GP": 3
@@ -1341,11 +1419,11 @@
    }
   },
   {
-   "rank": 50,
+   "rank": 53,
    "participantId": "p.trond-gabrielsen",
    "participantType": "person",
    "stats": {
-    "RANK": 50,
+    "RANK": 53,
     "PTS": 0.5,
     "ELO": 2297,
     "GP": 1
@@ -1367,11 +1445,11 @@
    }
   },
   {
-   "rank": 51,
+   "rank": 54,
    "participantId": "p.isak-sjoberg",
    "participantType": "person",
    "stats": {
-    "RANK": 51,
+    "RANK": 54,
     "PTS": 0.5,
     "ELO": 2295,
     "GP": 2
@@ -1393,11 +1471,11 @@
    }
   },
   {
-   "rank": 52,
+   "rank": 55,
    "participantId": "p.mathias-lind-schouten",
    "participantType": "person",
    "stats": {
-    "RANK": 52,
+    "RANK": 55,
     "PTS": 0.5,
     "ELO": 2291,
     "GP": 3
@@ -1419,11 +1497,11 @@
    }
   },
   {
-   "rank": 53,
+   "rank": 56,
    "participantId": "p.shadi-sian",
    "participantType": "person",
    "stats": {
-    "RANK": 53,
+    "RANK": 56,
     "PTS": 0.5,
     "ELO": 2263,
     "GP": 3
@@ -1445,37 +1523,11 @@
    }
   },
   {
-   "rank": 54,
-   "participantId": "p.sivert-schanche-torfoss",
-   "participantType": "person",
-   "stats": {
-    "RANK": 54,
-    "PTS": 0.5,
-    "ELO": 2262,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.sivert-schanche-torfoss",
-    "name": {
-     "full": "Sivert Schanche Torfoss"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "Tromsø",
-    "performance": 2119
-   }
-  },
-  {
-   "rank": 55,
+   "rank": 57,
    "participantId": "p.odd-martin-guttulsrud",
    "participantType": "person",
    "stats": {
-    "RANK": 55,
+    "RANK": 57,
     "PTS": 0.5,
     "ELO": 2245,
     "GP": 1
@@ -1497,11 +1549,11 @@
    }
   },
   {
-   "rank": 56,
+   "rank": 58,
    "participantId": "p.yngve-fossheim",
    "participantType": "person",
    "stats": {
-    "RANK": 56,
+    "RANK": 58,
     "PTS": 0.5,
     "ELO": 2242,
     "GP": 3
@@ -1522,40 +1574,40 @@
    }
   },
   {
-   "rank": 57,
-   "participantId": "p.teodor-tenfjord-engelsen",
+   "rank": 59,
+   "participantId": "p.louis-khoo-thwe",
    "participantType": "person",
    "stats": {
-    "RANK": 57,
+    "RANK": 59,
     "PTS": 0.5,
-    "ELO": 2235,
-    "GP": 2
+    "ELO": 2228,
+    "GP": 1
    },
    "person": {
-    "id": "p.teodor-tenfjord-engelsen",
+    "id": "p.louis-khoo-thwe",
     "name": {
-     "full": "Teodor Tenfjord Engelsen"
+     "full": "Louis Khoo-Thwe"
     },
     "nationalities": [
      "NO"
     ],
     "isCuban": false,
-    "title": "CM"
+    "title": "FM"
    },
    "extra": {
-    "team": "Bergens",
-    "performance": 2144
+    "team": "OSS",
+    "performance": 1963
    }
   },
   {
-   "rank": 58,
+   "rank": 60,
    "participantId": "p.jon-kristian-haarr",
    "participantType": "person",
    "stats": {
-    "RANK": 58,
+    "RANK": 60,
     "PTS": 0.5,
     "ELO": 2222,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.jon-kristian-haarr",
@@ -1570,15 +1622,15 @@
    },
    "extra": {
     "team": "Offerspill",
-    "performance": 2107
+    "performance": 2042
    }
   },
   {
-   "rank": 59,
+   "rank": 61,
    "participantId": "p.trygve-dahl",
    "participantType": "person",
    "stats": {
-    "RANK": 59,
+    "RANK": 61,
     "PTS": 0.5,
     "ELO": 2210,
     "GP": 3
@@ -1600,11 +1652,11 @@
    }
   },
   {
-   "rank": 60,
+   "rank": 62,
    "participantId": "p.anders-gjerdrum-hagen",
    "participantType": "person",
    "stats": {
-    "RANK": 60,
+    "RANK": 62,
     "PTS": 0.5,
     "ELO": 2143,
     "GP": 1
@@ -1626,11 +1678,11 @@
    }
   },
   {
-   "rank": 61,
+   "rank": 63,
    "participantId": "p.havard-eriksen-bech",
    "participantType": "person",
    "stats": {
-    "RANK": 61,
+    "RANK": 63,
     "PTS": 0.5,
     "ELO": 2108,
     "GP": 2
@@ -1651,11 +1703,11 @@
    }
   },
   {
-   "rank": 62,
+   "rank": 64,
    "participantId": "p.fredrik-aunan-lindsoe",
    "participantType": "person",
    "stats": {
-    "RANK": 62,
+    "RANK": 64,
     "PTS": 0.5,
     "ELO": 2041,
     "GP": 1
@@ -1676,11 +1728,11 @@
    }
   },
   {
-   "rank": 63,
+   "rank": 65,
    "participantId": "p.arne-danielsen",
    "participantType": "person",
    "stats": {
-    "RANK": 63,
+    "RANK": 65,
     "PTS": 0.5,
     "ELO": 2023,
     "GP": 1
@@ -1701,19 +1753,19 @@
    }
   },
   {
-   "rank": 64,
-   "participantId": "p.geir-sune-tallaksen-ostmoe",
+   "rank": 66,
+   "participantId": "p.lasse-ostebo-lovik",
    "participantType": "person",
    "stats": {
-    "RANK": 64,
+    "RANK": 66,
     "PTS": 0.0,
-    "ELO": 2488,
-    "GP": 2
+    "ELO": 2366,
+    "GP": 1
    },
    "person": {
-    "id": "p.geir-sune-tallaksen-ostmoe",
+    "id": "p.lasse-ostebo-lovik",
     "name": {
-     "full": "Geir Sune Tallaksen Ostmoe"
+     "full": "Lasse Ostebo Lovik"
     },
     "nationalities": [
      "NO"
@@ -1722,19 +1774,19 @@
     "title": "IM"
    },
    "extra": {
-    "team": "Porsgrunn Superkraft",
-    "performance": 1667
+    "team": "Stavanger",
+    "performance": 1685
    }
   },
   {
-   "rank": 65,
+   "rank": 67,
    "participantId": "p.martin-oksendal",
    "participantType": "person",
    "stats": {
-    "RANK": 65,
+    "RANK": 67,
     "PTS": 0.0,
     "ELO": 2338,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.martin-oksendal",
@@ -1749,15 +1801,15 @@
    },
    "extra": {
     "team": "Hell",
-    "performance": 1730
+    "performance": 1716
    }
   },
   {
-   "rank": 66,
+   "rank": 68,
    "participantId": "p.alexander-oye-stromberg",
    "participantType": "person",
    "stats": {
-    "RANK": 66,
+    "RANK": 68,
     "PTS": 0.0,
     "ELO": 2294,
     "GP": 3
@@ -1779,11 +1831,11 @@
    }
   },
   {
-   "rank": 67,
+   "rank": 69,
    "participantId": "p.andreas-g-r-moen",
    "participantType": "person",
    "stats": {
-    "RANK": 67,
+    "RANK": 69,
     "PTS": 0.0,
     "ELO": 2273,
     "GP": 1
@@ -1805,11 +1857,11 @@
    }
   },
   {
-   "rank": 68,
+   "rank": 70,
    "participantId": "p.sondre-merkesvik",
    "participantType": "person",
    "stats": {
-    "RANK": 68,
+    "RANK": 70,
     "PTS": 0.0,
     "ELO": 2193,
     "GP": 2
@@ -1831,11 +1883,11 @@
    }
   },
   {
-   "rank": 69,
+   "rank": 71,
    "participantId": "p.linus-sandstad",
    "participantType": "person",
    "stats": {
-    "RANK": 69,
+    "RANK": 71,
     "PTS": 0.0,
     "ELO": 2048,
     "GP": 3
@@ -1856,11 +1908,11 @@
    }
   },
   {
-   "rank": 70,
+   "rank": 72,
    "participantId": "p.torgeir-kjoita",
    "participantType": "person",
    "stats": {
-    "RANK": 70,
+    "RANK": 72,
     "PTS": 0.0,
     "ELO": 2035,
     "GP": 1
@@ -1882,11 +1934,11 @@
    }
   },
   {
-   "rank": 71,
+   "rank": 73,
    "participantId": "p.eirik-aarnes",
    "participantType": "person",
    "stats": {
-    "RANK": 71,
+    "RANK": 73,
     "PTS": 0.0,
     "ELO": 1966,
     "GP": 2
@@ -1907,11 +1959,11 @@
    }
   },
   {
-   "rank": 72,
+   "rank": 74,
    "participantId": "p.jerlow-lytomt-jacobsen",
    "participantType": "person",
    "stats": {
-    "RANK": 72,
+    "RANK": 74,
     "PTS": 0.0,
     "ELO": 1580,
     "GP": 1
@@ -1929,54 +1981,6 @@
    "extra": {
     "team": "Stavanger",
     "performance": 1352
-   }
-  },
-  {
-   "rank": 73,
-   "participantId": "p.lasse-ostebo-lovik",
-   "participantType": "person",
-   "stats": {
-    "RANK": 73,
-    "ELO": 2366,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.lasse-ostebo-lovik",
-    "name": {
-     "full": "Lasse Ostebo Lovik"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Stavanger"
-   }
-  },
-  {
-   "rank": 74,
-   "participantId": "p.louis-khoo-thwe",
-   "participantType": "person",
-   "stats": {
-    "RANK": 74,
-    "ELO": 2228,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.louis-khoo-thwe",
-    "name": {
-     "full": "Louis Khoo-Thwe"
-    },
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "OSS"
    }
   }
  ]
