@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-11-01T18:56:45Z",
+ "updatedAt": "2026-11-01T23:35:55Z",
  "sources": [
   "espn"
  ],
@@ -119,9 +119,30 @@
      }
     },
     {
-     "participantId": "soccer.as-monaco",
+     "participantId": "soccer.marseille",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 9,
+      "W": 5,
+      "D": 0,
+      "L": 4,
+      "GF": 20,
+      "GA": 13,
+      "GD": 7,
+      "PTS": 15
+     },
+     "extra": {
+      "note": {
+       "text": "Europa League",
+       "color": "#B2BFD0"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.as-monaco",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 9,
       "W": 4,
@@ -134,7 +155,7 @@
      },
      "extra": {
       "note": {
-       "text": "Europa League",
+       "text": "Conference League qualifying",
        "color": "#B2BFD0"
       }
      }
@@ -142,7 +163,7 @@
     {
      "participantId": "soccer.nice",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
       "GP": 9,
       "W": 4,
@@ -152,18 +173,12 @@
       "GA": 12,
       "GD": 1,
       "PTS": 14
-     },
-     "extra": {
-      "note": {
-       "text": "Conference League qualifying",
-       "color": "#B2BFD0"
-      }
      }
     },
     {
      "participantId": "soccer.lens",
      "participantType": "team",
-     "rank": 8,
+     "rank": 9,
      "stats": {
       "GP": 9,
       "W": 4,
@@ -173,21 +188,6 @@
       "GA": 13,
       "GD": 3,
       "PTS": 13
-     }
-    },
-    {
-     "participantId": "soccer.marseille",
-     "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 8,
-      "W": 4,
-      "D": 0,
-      "L": 4,
-      "GF": 18,
-      "GA": 13,
-      "GD": 5,
-      "PTS": 12
      }
     },
     {
@@ -210,13 +210,13 @@
      "participantType": "team",
      "rank": 11,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 2,
       "D": 4,
-      "L": 2,
+      "L": 3,
       "GF": 12,
-      "GA": 11,
-      "GD": 1,
+      "GA": 13,
+      "GD": -1,
       "PTS": 10
      }
     },
