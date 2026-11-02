@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "1c",
- "updatedAt": "2026-11-02T15:51:28Z",
+ "updatedAt": "2026-11-02T18:52:06Z",
  "persons": {
   "p.aaron-bobadilla.2007": {
    "id": "p.aaron-bobadilla.2007",
@@ -131,6 +131,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.alfonsin-rosario.2004": {
+   "id": "p.alfonsin-rosario.2004",
+   "name": {
+    "full": "Alfonsin Rosario",
+    "first": "Alfonsin",
+    "last": "Rosario"
+   },
+   "birthDate": "2004-06-21",
+   "birthPlace": {
+    "city": "Lexington",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 182.9,
+    "weightKg": 100.7
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "806210"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.andrija-maksimovic.2007": {
@@ -1798,6 +1826,22 @@
    },
    "externalIds": {
     "espn": "195711"
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  "p.nikita-melnyk": {
+   "id": "p.nikita-melnyk",
+   "name": {
+    "full": "Nikita Melnyk",
+    "first": "Nikita",
+    "last": "Melnyk"
+   },
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "5327645"
    },
    "sources": [
     "espn"
