@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.per-1:2026",
- "updatedAt": "2026-11-01T23:36:04Z",
+ "updatedAt": "2026-11-02T23:30:33Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,39 @@
    "name": "2026 Clausura",
    "rows": [
     {
-     "participantId": "soccer.universitario",
+     "participantId": "soccer.sporting-cristal",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 15,
+      "W": 10,
+      "D": 1,
+      "L": 4,
+      "GF": 34,
+      "GA": 17,
+      "GD": 17,
+      "PTS": 31
+     }
+    },
+    {
+     "participantId": "soccer.sport-huancayo",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 15,
+      "W": 10,
+      "D": 1,
+      "L": 4,
+      "GF": 25,
+      "GA": 17,
+      "GD": 8,
+      "PTS": 31
+     }
+    },
+    {
+     "participantId": "soccer.universitario",
+     "participantType": "team",
+     "rank": 3,
      "stats": {
       "GP": 14,
       "W": 9,
@@ -29,14 +59,14 @@
      }
     },
     {
-     "participantId": "soccer.sporting-cristal",
+     "participantId": "soccer.deportivo-garcilaso",
      "participantType": "team",
-     "rank": 2,
+     "rank": 4,
      "stats": {
-      "GP": 14,
+      "GP": 15,
       "W": 9,
       "D": 1,
-      "L": 4,
+      "L": 5,
       "GF": 29,
       "GA": 17,
       "GD": 12,
@@ -44,24 +74,9 @@
      }
     },
     {
-     "participantId": "soccer.sport-huancayo",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 14,
-      "W": 9,
-      "D": 1,
-      "L": 4,
-      "GF": 23,
-      "GA": 17,
-      "GD": 6,
-      "PTS": 28
-     }
-    },
-    {
      "participantId": "soccer.alianza-atletico",
      "participantType": "team",
-     "rank": 4,
+     "rank": 5,
      "stats": {
       "GP": 15,
       "W": 9,
@@ -76,31 +91,16 @@
     {
      "participantId": "soccer.melgar",
      "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 14,
-      "W": 7,
-      "D": 5,
-      "L": 2,
-      "GF": 25,
-      "GA": 15,
-      "GD": 10,
-      "PTS": 26
-     }
-    },
-    {
-     "participantId": "soccer.deportivo-garcilaso",
-     "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 14,
-      "W": 8,
-      "D": 1,
-      "L": 5,
-      "GF": 26,
-      "GA": 15,
-      "GD": 11,
-      "PTS": 25
+      "GP": 15,
+      "W": 7,
+      "D": 5,
+      "L": 3,
+      "GF": 25,
+      "GA": 17,
+      "GD": 8,
+      "PTS": 26
      }
     },
     {
@@ -224,24 +224,9 @@
      }
     },
     {
-     "participantId": "soccer.fc-cajamarca",
-     "participantType": "team",
-     "rank": 15,
-     "stats": {
-      "GP": 14,
-      "W": 3,
-      "D": 2,
-      "L": 9,
-      "GF": 21,
-      "GA": 32,
-      "GD": -11,
-      "PTS": 11
-     }
-    },
-    {
      "participantId": "soccer.deportivo-moquegua",
      "participantType": "team",
-     "rank": 16,
+     "rank": 15,
      "stats": {
       "GP": 15,
       "W": 2,
@@ -250,6 +235,21 @@
       "GF": 8,
       "GA": 22,
       "GD": -14,
+      "PTS": 11
+     }
+    },
+    {
+     "participantId": "soccer.fc-cajamarca",
+     "participantType": "team",
+     "rank": 16,
+     "stats": {
+      "GP": 15,
+      "W": 3,
+      "D": 2,
+      "L": 10,
+      "GF": 21,
+      "GA": 37,
+      "GD": -16,
       "PTS": 11
      }
     },
@@ -273,13 +273,13 @@
      "participantType": "team",
      "rank": 18,
      "stats": {
-      "GP": 14,
+      "GP": 15,
       "W": 1,
       "D": 2,
-      "L": 11,
-      "GF": 15,
-      "GA": 29,
-      "GD": -14,
+      "L": 12,
+      "GF": 17,
+      "GA": 32,
+      "GD": -15,
       "PTS": 0
      },
      "extra": {

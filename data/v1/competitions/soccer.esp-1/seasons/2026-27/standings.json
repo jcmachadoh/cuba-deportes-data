@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.esp-1:2026-27",
- "updatedAt": "2026-11-01T23:35:53Z",
+ "updatedAt": "2026-11-02T23:30:23Z",
  "sources": [
   "espn"
  ],
@@ -161,9 +161,24 @@
      }
     },
     {
-     "participantId": "soccer.villarreal",
+     "participantId": "soccer.deportivo",
      "participantType": "team",
      "rank": 8,
+     "stats": {
+      "GP": 11,
+      "W": 3,
+      "D": 5,
+      "L": 3,
+      "GF": 15,
+      "GA": 14,
+      "GD": 1,
+      "PTS": 14
+     }
+    },
+    {
+     "participantId": "soccer.villarreal",
+     "participantType": "team",
+     "rank": 9,
      "stats": {
       "GP": 11,
       "W": 3,
@@ -178,7 +193,7 @@
     {
      "participantId": "soccer.celta-vigo",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
       "GP": 11,
       "W": 2,
@@ -187,21 +202,6 @@
       "GF": 10,
       "GA": 10,
       "GD": 0,
-      "PTS": 12
-     }
-    },
-    {
-     "participantId": "soccer.alaves",
-     "participantType": "team",
-     "rank": 10,
-     "stats": {
-      "GP": 11,
-      "W": 3,
-      "D": 3,
-      "L": 5,
-      "GF": 15,
-      "GA": 17,
-      "GD": -2,
       "PTS": 12
      },
      "extra": {
@@ -212,9 +212,24 @@
      }
     },
     {
-     "participantId": "soccer.rayo-vallecano",
+     "participantId": "soccer.alaves",
      "participantType": "team",
      "rank": 11,
+     "stats": {
+      "GP": 11,
+      "W": 3,
+      "D": 3,
+      "L": 5,
+      "GF": 15,
+      "GA": 17,
+      "GD": -2,
+      "PTS": 12
+     }
+    },
+    {
+     "participantId": "soccer.rayo-vallecano",
+     "participantType": "team",
+     "rank": 12,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -229,7 +244,7 @@
     {
      "participantId": "soccer.getafe",
      "participantType": "team",
-     "rank": 12,
+     "rank": 13,
      "stats": {
       "GP": 11,
       "W": 3,
@@ -239,21 +254,6 @@
       "GA": 16,
       "GD": -8,
       "PTS": 12
-     }
-    },
-    {
-     "participantId": "soccer.deportivo",
-     "participantType": "team",
-     "rank": 13,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 5,
-      "L": 3,
-      "GF": 13,
-      "GA": 13,
-      "GD": 0,
-      "PTS": 11
      }
     },
     {
@@ -276,13 +276,13 @@
      "participantType": "team",
      "rank": 15,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 3,
       "D": 2,
-      "L": 5,
-      "GF": 10,
-      "GA": 20,
-      "GD": -10,
+      "L": 6,
+      "GF": 11,
+      "GA": 22,
+      "GD": -11,
       "PTS": 11
      }
     },
