@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.mex-1:2026-27",
- "updatedAt": "2026-11-01T06:03:40Z",
+ "updatedAt": "2026-11-02T06:00:46Z",
  "sources": [
   "espn"
  ],
@@ -44,9 +44,24 @@
      }
     },
     {
-     "participantId": "soccer.atlas",
+     "participantId": "soccer.cruz-azul",
      "participantType": "team",
      "rank": 3,
+     "stats": {
+      "GP": 15,
+      "W": 9,
+      "D": 2,
+      "L": 4,
+      "GF": 34,
+      "GA": 24,
+      "GD": 10,
+      "PTS": 29
+     }
+    },
+    {
+     "participantId": "soccer.atlas",
+     "participantType": "team",
+     "rank": 4,
      "stats": {
       "GP": 15,
       "W": 8,
@@ -56,21 +71,6 @@
       "GA": 26,
       "GD": 0,
       "PTS": 27
-     }
-    },
-    {
-     "participantId": "soccer.cruz-azul",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 14,
-      "W": 8,
-      "D": 2,
-      "L": 4,
-      "GF": 32,
-      "GA": 23,
-      "GD": 9,
-      "PTS": 26
      }
     },
     {
@@ -108,20 +108,35 @@
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 14,
+      "GP": 15,
       "W": 6,
       "D": 4,
-      "L": 4,
+      "L": 5,
+      "GF": 22,
+      "GA": 20,
+      "GD": 2,
+      "PTS": 22
+     }
+    },
+    {
+     "participantId": "soccer.santos",
+     "participantType": "team",
+     "rank": 8,
+     "stats": {
+      "GP": 15,
+      "W": 7,
+      "D": 1,
+      "L": 7,
       "GF": 21,
-      "GA": 18,
-      "GD": 3,
+      "GA": 20,
+      "GD": 1,
       "PTS": 22
      }
     },
     {
      "participantId": "soccer.monterrey",
      "participantType": "team",
-     "rank": 8,
+     "rank": 9,
      "stats": {
       "GP": 14,
       "W": 6,
@@ -136,7 +151,7 @@
     {
      "participantId": "soccer.pumas-unam",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
       "GP": 15,
       "W": 5,
@@ -151,7 +166,7 @@
     {
      "participantId": "soccer.queretaro",
      "participantType": "team",
-     "rank": 10,
+     "rank": 11,
      "stats": {
       "GP": 14,
       "W": 6,
@@ -166,7 +181,7 @@
     {
      "participantId": "soccer.pachuca",
      "participantType": "team",
-     "rank": 11,
+     "rank": 12,
      "stats": {
       "GP": 15,
       "W": 5,
@@ -175,21 +190,6 @@
       "GF": 25,
       "GA": 19,
       "GD": 6,
-      "PTS": 19
-     }
-    },
-    {
-     "participantId": "soccer.santos",
-     "participantType": "team",
-     "rank": 12,
-     "stats": {
-      "GP": 14,
-      "W": 6,
-      "D": 1,
-      "L": 7,
-      "GF": 20,
-      "GA": 20,
-      "GD": 0,
       "PTS": 19
      }
     },
@@ -258,13 +258,13 @@
      "participantType": "team",
      "rank": 17,
      "stats": {
-      "GP": 14,
+      "GP": 15,
       "W": 2,
       "D": 4,
-      "L": 8,
+      "L": 9,
       "GF": 16,
-      "GA": 27,
-      "GD": -11,
+      "GA": 28,
+      "GD": -12,
       "PTS": 10
      }
     },
