@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:4hzvh9Z3",
- "updatedAt": "2026-11-03T07:09:15Z",
+ "updatedAt": "2026-11-03T16:37:45Z",
  "sources": [
   "lichess"
  ],
@@ -35,17 +35,17 @@
    {
     "name": "Round of 16 | Game 3",
     "startsAt": 1793691600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round of 16 | Game 4",
     "startsAt": 1793696400000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round of 16 | Tiebreaks",
-    "startsAt": 1793700000000,
-    "finished": null
+    "startsAt": 1793701200000,
+    "finished": true
    },
    {
     "name": "Quarterfinals | Game 1",
@@ -127,13 +127,39 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.hao-wang.1989",
+   "participantId": "p.tong-qd-xiao.2008",
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 2.0,
+    "PTS": 3.5,
+    "ELO": 2476,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.tong-qd-xiao.2008",
+    "name": {
+     "full": "Tong(QD) Xiao"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2475
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.hao-wang.1989",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 3.0,
     "ELO": 2628,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.hao-wang.1989",
@@ -152,92 +178,14 @@
    }
   },
   {
-   "rank": 2,
-   "participantId": "p.shanglei-lu.1995",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 2.0,
-    "ELO": 2586,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.shanglei-lu.1995",
-    "name": {
-     "full": "Shanglei Lu"
-    },
-    "birthDate": "1995",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3272
-   }
-  },
-  {
    "rank": 3,
-   "participantId": "p.liren-ding.1992",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 1.5,
-    "ELO": 2689,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.liren-ding.1992",
-    "name": {
-     "full": "Liren Ding"
-    },
-    "birthDate": "1992",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2518
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.yangyi-yu.1994",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 1.5,
-    "ELO": 2679,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.yangyi-yu.1994",
-    "name": {
-     "full": "Yangyi Yu"
-    },
-    "birthDate": "1994",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2621
-   }
-  },
-  {
-   "rank": 5,
    "participantId": "p.xiangzhi-bu.1985",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 1.5,
+    "RANK": 3,
+    "PTS": 3.0,
     "ELO": 2593,
-    "GP": 2
+    "GP": 4
    },
    "person": {
     "id": "p.xiangzhi-bu.1985",
@@ -256,65 +204,66 @@
    }
   },
   {
+   "rank": 4,
+   "participantId": "p.liren-ding.1992",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 2.5,
+    "ELO": 2689,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.liren-ding.1992",
+    "name": {
+     "full": "Liren Ding"
+    },
+    "birthDate": "1992",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2598
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.yangyi-yu.1994",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 2.5,
+    "ELO": 2679,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.yangyi-yu.1994",
+    "name": {
+     "full": "Yangyi Yu"
+    },
+    "birthDate": "1994",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2701
+   }
+  },
+  {
    "rank": 6,
-   "participantId": "p.jinshi-bai",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 1.5,
-    "ELO": 2557,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.jinshi-bai",
-    "name": {
-     "full": "Jinshi Bai"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2309
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.tong-qd-xiao.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 1.5,
-    "ELO": 2476,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.tong-qd-xiao.2008",
-    "name": {
-     "full": "Tong(QD) Xiao"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2668
-   }
-  },
-  {
-   "rank": 8,
    "participantId": "p.xiangyu-xu.1999",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
-    "PTS": 1.0,
+    "RANK": 6,
+    "PTS": 2.5,
     "ELO": 2594,
-    "GP": 2
+    "GP": 4
    },
    "person": {
     "id": "p.xiangyu-xu.1999",
@@ -329,18 +278,94 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2409
+    "performance": 2504
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.shanglei-lu.1995",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 2.5,
+    "ELO": 2586,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.shanglei-lu.1995",
+    "name": {
+     "full": "Shanglei Lu"
+    },
+    "birthDate": "1995",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2745
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.jinshi-bai",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 2.5,
+    "ELO": 2557,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.jinshi-bai",
+    "name": {
+     "full": "Jinshi Bai"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2389
    }
   },
   {
    "rank": 9,
-   "participantId": "p.xiangrui-kong.2009",
+   "participantId": "p.chongsheng-zeng",
    "participantType": "person",
    "stats": {
     "RANK": 9,
-    "PTS": 1.0,
+    "PTS": 2.5,
+    "ELO": 2475,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.chongsheng-zeng",
+    "name": {
+     "full": "Chongsheng Zeng"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2476
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.xiangrui-kong.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 1.5,
     "ELO": 2409,
-    "GP": 2
+    "GP": 4
    },
    "person": {
     "id": "p.xiangrui-kong.2009",
@@ -355,32 +380,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2594
-   }
-  },
-  {
-   "rank": 10,
-   "participantId": "p.chongsheng-zeng",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10,
-    "PTS": 0.5,
-    "ELO": 2475,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.chongsheng-zeng",
-    "name": {
-     "full": "Chongsheng Zeng"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2283
+    "performance": 2507
    }
   },
   {
@@ -389,9 +389,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 11,
-    "PTS": 0.5,
+    "PTS": 1.0,
     "ELO": 2433,
-    "GP": 2
+    "GP": 4
    },
    "person": {
     "id": "p.renjie-huang",
@@ -409,13 +409,38 @@
   },
   {
    "rank": 12,
-   "participantId": "p.haochen-jiang.2011",
+   "participantId": "p.di-li",
    "participantType": "person",
    "stats": {
     "RANK": 12,
     "PTS": 0.5,
+    "ELO": 2472,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.di-li",
+    "name": {
+     "full": "Di Li"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2313
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.haochen-jiang.2011",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
+    "PTS": 0.5,
     "ELO": 2428,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.haochen-jiang.2011",
@@ -430,18 +455,18 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2486
+    "performance": 2406
    }
   },
   {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.yuxin-song.2005",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 14,
     "PTS": 0.5,
     "ELO": 2325,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.yuxin-song.2005",
@@ -456,18 +481,18 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2496
+    "performance": 2416
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
    "participantId": "p.mingren-hong",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 15,
     "PTS": 0.5,
     "ELO": 2116,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.mingren-hong",
@@ -481,32 +506,7 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2364
-   }
-  },
-  {
-   "rank": 15,
-   "participantId": "p.di-li",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15,
-    "PTS": 0.0,
-    "ELO": 2472,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.di-li",
-    "name": {
-     "full": "Di Li"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 1786
+    "performance": 2284
    }
   },
   {
@@ -517,7 +517,7 @@
     "RANK": 16,
     "PTS": 0.0,
     "ELO": 2338,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.hongfu-dong",

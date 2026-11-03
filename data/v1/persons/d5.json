@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "d5",
- "updatedAt": "2026-11-02T06:23:18Z",
+ "updatedAt": "2026-11-03T16:37:45Z",
  "persons": {
   "p.adam-yudelman": {
    "id": "p.adam-yudelman",
@@ -293,6 +293,25 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.artem-palchenkov": {
+   "id": "p.artem-palchenkov",
+   "name": {
+    "full": "Artem Palchenkov"
+   },
+   "nationalities": [
+    "DE"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "533091811"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "GER"
+   }
   },
   "p.arthur-chaves.2001": {
    "id": "p.arthur-chaves.2001",
@@ -1254,6 +1273,25 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.guido-guggenberger": {
+   "id": "p.guido-guggenberger",
+   "name": {
+    "full": "Guido Guggenberger"
+   },
+   "nationalities": [
+    "DE"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "4688260"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "GER"
+   }
   },
   "p.gustavo-dulanto.1995": {
    "id": "p.gustavo-dulanto.1995",
@@ -2392,6 +2430,26 @@
     "mlb-statsapi"
    ]
   },
+  "p.philipp-mester": {
+   "id": "p.philipp-mester",
+   "name": {
+    "full": "Philipp Mester"
+   },
+   "nationalities": [
+    "DE"
+   ],
+   "isCuban": false,
+   "title": "FM",
+   "externalIds": {
+    "fide": "34624902"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "GER"
+   }
+  },
   "p.qun-ma": {
    "id": "p.qun-ma",
    "name": {
@@ -2582,11 +2640,13 @@
     "fide": "35061887"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "IND"
-   }
+   },
+   "title": "IM"
   },
   "p.sean-doolittle": {
    "id": "p.sean-doolittle",
