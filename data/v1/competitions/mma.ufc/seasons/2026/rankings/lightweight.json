@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:lightweight",
- "updatedAt": "2026-11-03T06:46:41Z",
+ "updatedAt": "2026-11-03T21:48:30Z",
  "sources": [
   "ufc.com"
  ],
@@ -230,26 +230,10 @@
   },
   {
    "rank": 13,
-   "participantId": "p.dan-hooker",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13
-   },
-   "person": {
-    "id": "p.dan-hooker",
-    "name": {
-     "full": "Dan Hooker"
-    },
-    "isCuban": false,
-    "birthCountry": "NZ"
-   }
-  },
-  {
-   "rank": 14,
    "participantId": "p.tom-nolan",
    "participantType": "person",
    "stats": {
-    "RANK": 14
+    "RANK": 13
    },
    "person": {
     "id": "p.tom-nolan",
@@ -258,21 +242,44 @@
     },
     "isCuban": false,
     "birthCountry": "AU"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 14,
+   "participantId": "p.dan-hooker",
+   "participantType": "person",
+   "stats": {
+    "RANK": 14
+   },
+   "person": {
+    "id": "p.dan-hooker",
+    "name": {
+     "full": "Dan Hooker"
+    },
+    "isCuban": false,
+    "birthCountry": "NZ"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
    "rank": 15,
-   "participantId": "p.grant-dawson",
+   "participantId": "p.beneil-dariush",
    "participantType": "person",
    "stats": {
     "RANK": 15
    },
    "person": {
-    "id": "p.grant-dawson",
+    "id": "p.beneil-dariush",
     "name": {
-     "full": "Grant Dawson"
+     "full": "Beneil Dariush"
     },
-    "isCuban": false
+    "isCuban": false,
+    "birthCountry": "IR"
    }
   }
  ]
