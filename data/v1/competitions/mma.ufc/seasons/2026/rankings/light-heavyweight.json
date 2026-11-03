@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:light-heavyweight",
- "updatedAt": "2026-11-02T06:00:55Z",
+ "updatedAt": "2026-11-03T06:46:41Z",
  "sources": [
   "ufc.com"
  ],
@@ -10,7 +10,7 @@
  "season": "2026",
  "rankingId": "light-heavyweight",
  "name": "Light Heavyweight",
- "asOf": "2026-11-02",
+ "asOf": "2026-11-03",
  "championId": "p.carlos-ulberg",
  "extra": {
   "poundForPound": false,
@@ -134,26 +134,10 @@
   },
   {
    "rank": 7,
-   "participantId": "p.azamat-murzakanov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7
-   },
-   "person": {
-    "id": "p.azamat-murzakanov",
-    "name": {
-     "full": "Azamat Murzakanov"
-    },
-    "isCuban": false,
-    "birthCountry": "RU"
-   }
-  },
-  {
-   "rank": 8,
    "participantId": "p.dominick-reyes",
    "participantType": "person",
    "stats": {
-    "RANK": 8
+    "RANK": 7
    },
    "person": {
     "id": "p.dominick-reyes",
@@ -162,6 +146,28 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.bogdan-guskov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8
+   },
+   "person": {
+    "id": "p.bogdan-guskov",
+    "name": {
+     "full": "Bogdan Guskov"
+    },
+    "isCuban": false,
+    "birthCountry": "UZ"
+   },
+   "extra": {
+    "trend": 2
    }
   },
   {
@@ -182,18 +188,21 @@
   },
   {
    "rank": 10,
-   "participantId": "p.bogdan-guskov",
+   "participantId": "p.azamat-murzakanov",
    "participantType": "person",
    "stats": {
     "RANK": 10
    },
    "person": {
-    "id": "p.bogdan-guskov",
+    "id": "p.azamat-murzakanov",
     "name": {
-     "full": "Bogdan Guskov"
+     "full": "Azamat Murzakanov"
     },
     "isCuban": false,
-    "birthCountry": "UZ"
+    "birthCountry": "RU"
+   },
+   "extra": {
+    "trend": -3
    }
   },
   {
@@ -214,10 +223,25 @@
   },
   {
    "rank": 12,
-   "participantId": "p.alonzo-menifield",
+   "participantId": "p.abdul-rakhman-yakhyaev",
    "participantType": "person",
    "stats": {
     "RANK": 12
+   },
+   "person": {
+    "id": "p.abdul-rakhman-yakhyaev",
+    "name": {
+     "full": "Abdul Rakhman Yakhyaev"
+    },
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.alonzo-menifield",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13
    },
    "person": {
     "id": "p.alonzo-menifield",
@@ -226,22 +250,9 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 13,
-   "participantId": "p.muhammad-saidov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13
    },
-   "person": {
-    "id": "p.muhammad-saidov",
-    "name": {
-     "full": "Muhammad Saidov"
-    },
-    "isCuban": false,
-    "birthCountry": "RU"
+   "extra": {
+    "trend": -1
    }
   },
   {

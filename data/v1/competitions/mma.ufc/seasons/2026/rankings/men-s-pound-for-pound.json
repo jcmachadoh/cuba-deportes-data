@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:men-s-pound-for-pound",
- "updatedAt": "2026-11-02T06:00:55Z",
+ "updatedAt": "2026-11-03T06:46:41Z",
  "sources": [
   "ufc.com"
  ],
@@ -10,7 +10,7 @@
  "season": "2026",
  "rankingId": "men-s-pound-for-pound",
  "name": "Men's Pound-for-Pound Top Rank",
- "asOf": "2026-11-02",
+ "asOf": "2026-11-03",
  "championId": null,
  "extra": {
   "poundForPound": true,
@@ -51,26 +51,10 @@
   },
   {
    "rank": 3,
-   "participantId": "p.justin-gaethje",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3
-   },
-   "person": {
-    "id": "p.justin-gaethje",
-    "name": {
-     "full": "Justin Gaethje"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 4,
    "participantId": "p.petr-yan",
    "participantType": "person",
    "stats": {
-    "RANK": 4
+    "RANK": 3
    },
    "person": {
     "id": "p.petr-yan",
@@ -79,6 +63,28 @@
     },
     "isCuban": false,
     "birthCountry": "RU"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.justin-gaethje",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4
+   },
+   "person": {
+    "id": "p.justin-gaethje",
+    "name": {
+     "full": "Justin Gaethje"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
@@ -194,11 +200,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 11,
    "participantId": "p.khamzat-chimaev",
    "participantType": "person",
    "stats": {
-    "RANK": 12
+    "RANK": 11
    },
    "person": {
     "id": "p.khamzat-chimaev",
@@ -206,6 +212,9 @@
      "full": "Khamzat Chimaev"
     },
     "isCuban": false
+   },
+   "extra": {
+    "trend": 1
    }
   },
   {
