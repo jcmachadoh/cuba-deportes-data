@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:35Aq1k7x",
- "updatedAt": "2026-11-03T16:37:45Z",
+ "updatedAt": "2026-11-04T12:10:41Z",
  "sources": [
   "lichess"
  ],
@@ -20,6 +20,7 @@
   "timeControl": "standard",
   "tc": "90 min / 40 moves + 30 min + 30 sec / move",
   "tier": 4,
+  "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=SnKLr0U1auXQ.webp&w=800&sig=fd5936e0851fd51e917809fb780dd970dfe319bd",
   "rounds": [
    {
     "name": "Round 1",
@@ -71,39 +72,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.leon-luke-mendonca.2006",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 4.5,
-    "ELO": 2629,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.leon-luke-mendonca.2006",
-    "name": {
-     "full": "Leon Luke Mendonca"
-    },
-    "birthDate": "2006",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2886
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.pranesh-m.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
-    "PTS": 4.0,
+    "RANK": 1,
+    "PTS": 5.0,
     "ELO": 2674,
-    "GP": 5
+    "GP": 6
    },
    "person": {
     "id": "p.pranesh-m.2006",
@@ -118,15 +93,118 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2715
+    "performance": 2772
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.leon-luke-mendonca.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 4.5,
+    "ELO": 2629,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.leon-luke-mendonca.2006",
+    "name": {
+     "full": "Leon Luke Mendonca"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2739
    }
   },
   {
    "rank": 3,
-   "participantId": "p.murali-karthikeyan.1999",
+   "participantId": "p.aronyak-ghosh",
    "participantType": "person",
    "stats": {
     "RANK": 3,
+    "PTS": 4.5,
+    "ELO": 2546,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.aronyak-ghosh",
+    "name": {
+     "full": "Aronyak Ghosh"
+    },
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2496
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.ilamparthi-a-r.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 4.5,
+    "ELO": 2523,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.ilamparthi-a-r.2009",
+    "name": {
+     "full": "Ilamparthi A R"
+    },
+    "birthDate": "2009",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2604
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.chithambaram-vr-aravindh.1999",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 4.0,
+    "ELO": 2677,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.chithambaram-vr-aravindh.1999",
+    "name": {
+     "full": "Chithambaram VR. Aravindh"
+    },
+    "birthDate": "1999",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2638
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.murali-karthikeyan.1999",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
     "PTS": 4.0,
     "ELO": 2647,
     "GP": 5
@@ -148,11 +226,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 7,
    "participantId": "p.narayanan-s-l",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 7,
     "PTS": 4.0,
     "ELO": 2557,
     "GP": 5
@@ -173,21 +251,46 @@
    }
   },
   {
-   "rank": 5,
-   "participantId": "p.chithambaram-vr-aravindh.1999",
+   "rank": 8,
+   "participantId": "p.nikita-afanasiev",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 3.5,
-    "ELO": 2677,
-    "GP": 5
+    "RANK": 8,
+    "PTS": 4.0,
+    "ELO": 2543,
+    "GP": 6
    },
    "person": {
-    "id": "p.chithambaram-vr-aravindh.1999",
+    "id": "p.nikita-afanasiev",
     "name": {
-     "full": "Chithambaram VR. Aravindh"
+     "full": "Nikita Afanasiev"
     },
-    "birthDate": "1999",
+    "nationalities": [
+     "RU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2514
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.mayank-chakraborty.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 4.0,
+    "ELO": 2511,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.mayank-chakraborty.2009",
+    "name": {
+     "full": "Mayank Chakraborty"
+    },
+    "birthDate": "2009",
     "nationalities": [
      "IN"
     ],
@@ -195,15 +298,15 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2661
+    "performance": 2576
    }
   },
   {
-   "rank": 6,
+   "rank": 10,
    "participantId": "p.samvel-ter-sahakyan",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 10,
     "PTS": 3.5,
     "ELO": 2613,
     "GP": 5
@@ -224,11 +327,11 @@
    }
   },
   {
-   "rank": 7,
+   "rank": 11,
    "participantId": "p.pa-iniyan",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 11,
     "PTS": 3.5,
     "ELO": 2581,
     "GP": 5
@@ -249,61 +352,11 @@
    }
   },
   {
-   "rank": 8,
-   "participantId": "p.aronyak-ghosh",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 3.5,
-    "ELO": 2546,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.aronyak-ghosh",
-    "name": {
-     "full": "Aronyak Ghosh"
-    },
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2427
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.nikita-afanasiev",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 3.5,
-    "ELO": 2543,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.nikita-afanasiev",
-    "name": {
-     "full": "Nikita Afanasiev"
-    },
-    "nationalities": [
-     "RU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2533
-   }
-  },
-  {
-   "rank": 10,
+   "rank": 12,
    "participantId": "p.harshavardhan-g-b",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 12,
     "PTS": 3.5,
     "ELO": 2529,
     "GP": 5
@@ -324,37 +377,37 @@
    }
   },
   {
-   "rank": 11,
-   "participantId": "p.ilamparthi-a-r.2009",
+   "rank": 13,
+   "participantId": "p.ethan-vaz.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 13,
     "PTS": 3.5,
-    "ELO": 2523,
-    "GP": 5
+    "ELO": 2525,
+    "GP": 6
    },
    "person": {
-    "id": "p.ilamparthi-a-r.2009",
+    "id": "p.ethan-vaz.2011",
     "name": {
-     "full": "Ilamparthi A R"
+     "full": "Ethan Vaz"
     },
-    "birthDate": "2009",
+    "birthDate": "2011",
     "nationalities": [
      "IN"
     ],
     "isCuban": false,
-    "title": "GM"
+    "title": "IM"
    },
    "extra": {
-    "performance": 2556
+    "performance": 2423
    }
   },
   {
-   "rank": 12,
+   "rank": 14,
    "participantId": "p.vitaliy-bernadskiy",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 14,
     "PTS": 3.5,
     "ELO": 2517,
     "GP": 5
@@ -375,37 +428,11 @@
    }
   },
   {
-   "rank": 13,
-   "participantId": "p.mayank-chakraborty.2009",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13,
-    "PTS": 3.5,
-    "ELO": 2511,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.mayank-chakraborty.2009",
-    "name": {
-     "full": "Mayank Chakraborty"
-    },
-    "birthDate": "2009",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2556
-   }
-  },
-  {
-   "rank": 14,
+   "rank": 15,
    "participantId": "p.b-adhiban",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 15,
     "PTS": 3.0,
     "ELO": 2574,
     "GP": 5
@@ -426,11 +453,11 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 16,
    "participantId": "p.surya-shekhar-ganguly",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 16,
     "PTS": 3.0,
     "ELO": 2562,
     "GP": 5
@@ -451,11 +478,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 17,
    "participantId": "p.vignesh-n-r",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 17,
     "PTS": 3.0,
     "ELO": 2513,
     "GP": 5
@@ -476,11 +503,11 @@
    }
   },
   {
-   "rank": 17,
+   "rank": 18,
    "participantId": "p.s-aswath.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 18,
     "PTS": 2.5,
     "ELO": 2540,
     "GP": 5
@@ -499,32 +526,6 @@
    },
    "extra": {
     "performance": 2440
-   }
-  },
-  {
-   "rank": 18,
-   "participantId": "p.ethan-vaz.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 18,
-    "PTS": 2.5,
-    "ELO": 2525,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.ethan-vaz.2011",
-    "name": {
-     "full": "Ethan Vaz"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2373
    }
   },
   {
@@ -554,10 +555,35 @@
   },
   {
    "rank": 20,
-   "participantId": "p.karthik-venkataraman",
+   "participantId": "p.aleksej-aleksandrov",
    "participantType": "person",
    "stats": {
     "RANK": 20,
+    "PTS": 2.5,
+    "ELO": 2435,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.aleksej-aleksandrov",
+    "name": {
+     "full": "Aleksej Aleksandrov"
+    },
+    "nationalities": [
+     "BY"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2611
+   }
+  },
+  {
+   "rank": 21,
+   "participantId": "p.karthik-venkataraman",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21,
     "PTS": 2.0,
     "ELO": 2556,
     "GP": 4
@@ -578,11 +604,11 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 22,
    "participantId": "p.dimitris-alexakis",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 22,
     "PTS": 2.0,
     "ELO": 2536,
     "GP": 5
@@ -603,11 +629,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 23,
    "participantId": "p.alisher-suleymenov",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 23,
     "PTS": 2.0,
     "ELO": 2502,
     "GP": 3
@@ -625,31 +651,6 @@
    },
    "extra": {
     "performance": 2540
-   }
-  },
-  {
-   "rank": 23,
-   "participantId": "p.aleksej-aleksandrov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23,
-    "PTS": 2.0,
-    "ELO": 2435,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.aleksej-aleksandrov",
-    "name": {
-     "full": "Aleksej Aleksandrov"
-    },
-    "nationalities": [
-     "BY"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2638
    }
   },
   {
@@ -835,7 +836,7 @@
     "RANK": 31,
     "PTS": 1.0,
     "ELO": 2416,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.mihail-nikitenko",
@@ -849,7 +850,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2575
+    "performance": 2429
    }
   },
   {
@@ -860,7 +861,7 @@
     "RANK": 32,
     "PTS": 1.0,
     "ELO": 2393,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.raahul-v-s",
@@ -874,7 +875,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2411
+    "performance": 2346
    }
   },
   {
@@ -1236,7 +1237,7 @@
     "RANK": 47,
     "PTS": 0.5,
     "ELO": 2337,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.vandan-alankar-sawai",
@@ -1250,7 +1251,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2321
+    "performance": 2240
    }
   },
   {
@@ -1705,6 +1706,27 @@
    },
    "extra": {
     "performance": 1698
+   }
+  },
+  {
+   "rank": 66,
+   "participantId": "p.ayush-sharma",
+   "participantType": "person",
+   "stats": {
+    "RANK": 66,
+    "ELO": 2440,
+    "GP": 0
+   },
+   "person": {
+    "id": "p.ayush-sharma",
+    "name": {
+     "full": "Ayush Sharma"
+    },
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "IM"
    }
   }
  ]

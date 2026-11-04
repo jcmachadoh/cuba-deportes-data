@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:4hzvh9Z3",
- "updatedAt": "2026-11-03T16:37:45Z",
+ "updatedAt": "2026-11-04T12:10:41Z",
  "sources": [
   "lichess"
  ],
@@ -50,27 +50,27 @@
    {
     "name": "Quarterfinals | Game 1",
     "startsAt": 1793768400000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Quarterfinals | Game 2",
     "startsAt": 1793773200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Quarterfinals | Game 3",
     "startsAt": 1793778000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Quarterfinals | Game 4",
     "startsAt": 1793782800000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Quarterfinals | Tiebreaks",
-    "startsAt": 1793786400000,
-    "finished": null
+    "startsAt": 1793787600000,
+    "finished": true
    },
    {
     "name": "Semifinals | Game 1",
@@ -119,7 +119,7 @@
    },
    {
     "name": "Finals | Tiebreaks",
-    "startsAt": 1793959200000,
+    "startsAt": 1793960400000,
     "finished": null
    }
   ]
@@ -131,9 +131,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 3.5,
+    "PTS": 7.0,
     "ELO": 2476,
-    "GP": 6
+    "GP": 12
    },
    "person": {
     "id": "p.tong-qd-xiao.2008",
@@ -148,70 +148,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2475
+    "performance": 2582
    }
   },
   {
    "rank": 2,
-   "participantId": "p.hao-wang.1989",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 3.0,
-    "ELO": 2628,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.hao-wang.1989",
-    "name": {
-     "full": "Hao Wang"
-    },
-    "birthDate": "1989",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3138
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.xiangzhi-bu.1985",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 3.0,
-    "ELO": 2593,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.xiangzhi-bu.1985",
-    "name": {
-     "full": "Xiangzhi Bu"
-    },
-    "birthDate": "1985",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2626
-   }
-  },
-  {
-   "rank": 4,
    "participantId": "p.liren-ding.1992",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 2.5,
+    "RANK": 2,
+    "PTS": 5.0,
     "ELO": 2689,
-    "GP": 3
+    "GP": 9
    },
    "person": {
     "id": "p.liren-ding.1992",
@@ -226,18 +174,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2598
+    "performance": 2513
    }
   },
   {
-   "rank": 5,
+   "rank": 3,
    "participantId": "p.yangyi-yu.1994",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 2.5,
+    "RANK": 3,
+    "PTS": 5.0,
     "ELO": 2679,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.yangyi-yu.1994",
@@ -252,18 +200,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2701
+    "performance": 2659
    }
   },
   {
-   "rank": 6,
+   "rank": 4,
    "participantId": "p.xiangyu-xu.1999",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
-    "PTS": 2.5,
+    "RANK": 4,
+    "PTS": 5.0,
     "ELO": 2594,
-    "GP": 4
+    "GP": 8
    },
    "person": {
     "id": "p.xiangyu-xu.1999",
@@ -278,18 +226,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2504
+    "performance": 2613
    }
   },
   {
-   "rank": 7,
+   "rank": 5,
    "participantId": "p.shanglei-lu.1995",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
-    "PTS": 2.5,
+    "RANK": 5,
+    "PTS": 5.0,
     "ELO": 2586,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.shanglei-lu.1995",
@@ -304,7 +252,59 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2745
+    "performance": 2699
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.hao-wang.1989",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 4.5,
+    "ELO": 2628,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.hao-wang.1989",
+    "name": {
+     "full": "Hao Wang"
+    },
+    "birthDate": "1989",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2586
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.xiangzhi-bu.1985",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 4.5,
+    "ELO": 2593,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.xiangzhi-bu.1985",
+    "name": {
+     "full": "Xiangzhi Bu"
+    },
+    "birthDate": "1985",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2552
    }
   },
   {
@@ -313,9 +313,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 8,
-    "PTS": 2.5,
+    "PTS": 4.0,
     "ELO": 2557,
-    "GP": 3
+    "GP": 7
    },
    "person": {
     "id": "p.jinshi-bai",
@@ -329,7 +329,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2389
+    "performance": 2487
    }
   },
   {
