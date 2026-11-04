@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "d0",
- "updatedAt": "2026-11-03T22:10:51Z",
+ "updatedAt": "2026-11-04T16:51:08Z",
  "persons": {
   "p.abraham-stanley-martinez-forgas.2013": {
    "id": "p.abraham-stanley-martinez-forgas.2013",
@@ -1535,6 +1535,34 @@
     "espn"
    ]
   },
+  "p.jose-olivares.2003": {
+   "id": "p.jose-olivares.2003",
+   "name": {
+    "full": "Jose Olivares",
+    "first": "Jose",
+    "last": "Olivares"
+   },
+   "birthDate": "2003-01-18",
+   "birthPlace": {
+    "city": "Altagracia de Orituco",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 185.4,
+    "weightKg": 90.3
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "699276"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
   "p.joseph-paintsil.1998": {
    "id": "p.joseph-paintsil.1998",
    "name": {
@@ -1625,7 +1653,8 @@
     "fide": "5101018"
    },
    "sources": [
-    "chess-results"
+    "chess-results",
+    "lichess"
    ],
    "extra": {
     "federation": "MEX"

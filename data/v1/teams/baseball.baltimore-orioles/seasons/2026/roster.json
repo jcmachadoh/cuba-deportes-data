@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.baltimore-orioles:2026",
- "updatedAt": "2026-11-01T15:27:39Z",
+ "updatedAt": "2026-11-04T16:34:26Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.baltimore-orioles",
  "competitionId": "baseball.mlb",
  "season": "2026",
- "count": 50,
+ "count": 49,
  "groups": [
   {
    "code": "P",
@@ -22,7 +22,7 @@
      "number": "21",
      "position": "P",
      "role": "player",
-     "status": "Injured 60-Day",
+     "status": "Active",
      "person": {
       "id": "p.ryan-helsley.1994",
       "name": {
@@ -94,7 +94,7 @@
      "number": "38",
      "position": "P",
      "role": "player",
-     "status": "Injured 60-Day",
+     "status": "Active",
      "person": {
       "id": "p.kyle-bradish.1996",
       "name": {
@@ -324,23 +324,54 @@
      }
     },
     {
-     "personId": "p.yosver-zulueta.1998",
+     "personId": "p.chase-hampton.2001",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.yosver-zulueta.1998",
+      "id": "p.chase-hampton.2001",
       "name": {
-       "full": "Yosver Zulueta",
-       "first": "Yosver",
-       "last": "Zulueta"
+       "full": "Chase Hampton",
+       "first": "Chase",
+       "last": "Hampton"
       },
-      "birthDate": "1998-01-23",
-      "nationalities": [
-       "CU"
-      ],
-      "isCuban": true,
-      "birthCountry": "CU"
+      "birthDate": "2001-08-07",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
+    {
+     "personId": "p.josh-white.2000",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.josh-white.2000",
+      "name": {
+       "full": "Josh White",
+       "first": "Josh",
+       "last": "White"
+      },
+      "birthDate": "2000-11-24",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
+    {
+     "personId": "p.philip-abner.2002",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.philip-abner.2002",
+      "name": {
+       "full": "Philip Abner",
+       "first": "Philip",
+       "last": "Abner"
+      },
+      "birthDate": "2002-05-05",
+      "isCuban": false,
+      "birthCountry": "US"
      }
     }
    ]
@@ -388,21 +419,20 @@
      }
     },
     {
-     "personId": "p.yohel-pozo.1997",
-     "number": "79",
+     "personId": "p.zach-morgan.2000",
      "position": "C",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.yohel-pozo.1997",
+      "id": "p.zach-morgan.2000",
       "name": {
-       "full": "Yohel Pozo",
-       "first": "Yohel",
-       "last": "Pozo"
+       "full": "Zach Morgan",
+       "first": "Zach",
+       "last": "Morgan"
       },
-      "birthDate": "1997-06-14",
+      "birthDate": "2000-03-30",
       "isCuban": false,
-      "birthCountry": "VE"
+      "birthCountry": "US"
      }
     }
    ]
@@ -432,24 +462,6 @@
      }
     },
     {
-     "personId": "p.ryan-mountcastle.1997",
-     "number": "6",
-     "position": "1B",
-     "role": "player",
-     "status": "Injured 60-Day",
-     "person": {
-      "id": "p.ryan-mountcastle.1997",
-      "name": {
-       "full": "Ryan Mountcastle",
-       "first": "Ryan",
-       "last": "Mountcastle"
-      },
-      "birthDate": "1997-02-18",
-      "isCuban": false,
-      "birthCountry": "US"
-     }
-    },
-    {
      "personId": "p.jackson-holliday.2003",
      "number": "7",
      "position": "2B",
@@ -472,7 +484,7 @@
      "number": "11",
      "position": "3B",
      "role": "player",
-     "status": "Injured 60-Day",
+     "status": "Active",
      "person": {
       "id": "p.jordan-westburg.1999",
       "name": {
@@ -588,7 +600,7 @@
      "number": "9",
      "position": "RF",
      "role": "player",
-     "status": "Injured 60-Day",
+     "status": "Active",
      "person": {
       "id": "p.tyler-o-neill.1995",
       "name": {
@@ -615,24 +627,6 @@
        "last": "Beavers"
       },
       "birthDate": "2001-08-11",
-      "isCuban": false,
-      "birthCountry": "US"
-     }
-    },
-    {
-     "personId": "p.heston-kjerstad.1999",
-     "number": "13",
-     "position": "LF",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.heston-kjerstad.1999",
-      "name": {
-       "full": "Heston Kjerstad",
-       "first": "Heston",
-       "last": "Kjerstad"
-      },
-      "birthDate": "1999-02-12",
       "isCuban": false,
       "birthCountry": "US"
      }
@@ -671,24 +665,6 @@
       "birthDate": "1999-11-30",
       "isCuban": false,
       "birthCountry": "US"
-     }
-    },
-    {
-     "personId": "p.leody-taveras.1998",
-     "number": "30",
-     "position": "CF",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.leody-taveras.1998",
-      "name": {
-       "full": "Leody Taveras",
-       "first": "Leody",
-       "last": "Taveras"
-      },
-      "birthDate": "1998-09-08",
-      "isCuban": false,
-      "birthCountry": "DO"
      }
     },
     {

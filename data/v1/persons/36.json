@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "36",
- "updatedAt": "2026-11-01T15:31:02Z",
+ "updatedAt": "2026-11-04T16:37:48Z",
  "persons": {
   "p.aimar-angulo.2009": {
    "id": "p.aimar-angulo.2009",
@@ -115,6 +115,34 @@
    },
    "externalIds": {
     "mlb": "669085"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.alexander-alberto.2001": {
+   "id": "p.alexander-alberto.2001",
+   "name": {
+    "full": "Alexander Alberto",
+    "first": "Alexander",
+    "last": "Alberto"
+   },
+   "birthDate": "2001-11-02",
+   "birthPlace": {
+    "city": "Santo Domingo",
+    "country": "DO"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 203.2,
+    "weightKg": 92.1
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "693739"
    },
    "sources": [
     "mlb-statsapi"
@@ -1829,6 +1857,7 @@
    "birthDate": "2006-01-14",
    "nationalities": [
     "AR",
+    "ES",
     "GB",
     "SC",
     "XK"

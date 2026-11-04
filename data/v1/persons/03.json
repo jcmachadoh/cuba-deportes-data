@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "03",
- "updatedAt": "2026-11-02T15:51:28Z",
+ "updatedAt": "2026-11-04T16:51:08Z",
  "persons": {
   "p.agustin-falcon.2005": {
    "id": "p.agustin-falcon.2005",
@@ -211,6 +211,22 @@
    },
    "sources": [
     "mlb-statsapi"
+   ]
+  },
+  "p.arthur-bar": {
+   "id": "p.arthur-bar",
+   "name": {
+    "full": "Arthur Bar",
+    "first": "Arthur",
+    "last": "Bar"
+   },
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "5328183"
+   },
+   "sources": [
+    "espn"
    ]
   },
   "p.borys-paliwoda": {
@@ -2606,6 +2622,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.yonathan-uritsky": {
+   "id": "p.yonathan-uritsky",
+   "name": {
+    "full": "Yonathan Uritsky"
+   },
+   "nationalities": [
+    "IL"
+   ],
+   "isCuban": false,
+   "title": "FM",
+   "externalIds": {
+    "fide": "2825651"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "ISR"
+   }
   },
   "p.youssef-maziz.1998": {
    "id": "p.youssef-maziz.1998",
