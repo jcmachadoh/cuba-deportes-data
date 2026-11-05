@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "4b",
- "updatedAt": "2026-11-04T16:38:12Z",
+ "updatedAt": "2026-11-05T16:49:45Z",
  "persons": {
   "p.adam-melhuse": {
    "id": "p.adam-melhuse",
@@ -145,6 +145,33 @@
    "gender": "F",
    "sources": [
     "wbcboxing"
+   ]
+  },
+  "p.anthony-borrero.2000": {
+   "id": "p.anthony-borrero.2000",
+   "name": {
+    "full": "Anthony Borrero",
+    "first": "Anthony",
+    "last": "Borrero"
+   },
+   "birthDate": "2000-01-29",
+   "birthPlace": {
+    "country": "PR"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 172.7,
+    "weightKg": 79.4
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "845171"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.arar-andales": {

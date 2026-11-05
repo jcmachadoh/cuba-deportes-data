@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "fe",
- "updatedAt": "2026-11-03T16:37:45Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.a-j-hinch": {
    "id": "p.a-j-hinch",
@@ -601,6 +601,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.claudio-coppola": {
+   "id": "p.claudio-coppola",
+   "name": {
+    "full": "Claudio Coppola"
+   },
+   "nationalities": [
+    "UY"
+   ],
+   "isCuban": false,
+   "title": "IM",
+   "externalIds": {
+    "fide": "3001717"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "URU"
+   }
   },
   "p.claudio-spinelli.1997": {
    "id": "p.claudio-spinelli.1997",
@@ -1567,6 +1587,25 @@
    "sources": [
     "mlb-statsapi"
    ]
+  },
+  "p.juan-cayetano": {
+   "id": "p.juan-cayetano",
+   "name": {
+    "full": "Juan Cayetano"
+   },
+   "nationalities": [
+    "UY"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "3010228"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "URU"
+   }
   },
   "p.juan-cossio.1999": {
    "id": "p.juan-cossio.1999",
@@ -2668,11 +2707,13 @@
     "fide": "33419531"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "IND"
-   }
+   },
+   "title": "WFM"
   },
   "p.shungo-fukunaga.1994": {
    "id": "p.shungo-fukunaga.1994",

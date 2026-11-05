@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "d4",
- "updatedAt": "2026-11-02T15:51:28Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.adam-duvall.1988": {
    "id": "p.adam-duvall.1988",
@@ -851,6 +851,34 @@
     "espn"
    ]
   },
+  "p.jack-hartman.1998": {
+   "id": "p.jack-hartman.1998",
+   "name": {
+    "full": "Jack Hartman",
+    "first": "Jack",
+    "last": "Hartman"
+   },
+   "birthDate": "1998-07-13",
+   "birthPlace": {
+    "city": "Peachtree City",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 190.5,
+    "weightKg": 93.0
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "689713"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
   "p.jake-miednik.1996": {
    "id": "p.jake-miednik.1996",
    "name": {
@@ -1539,6 +1567,25 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.nebil-kawas-garcia": {
+   "id": "p.nebil-kawas-garcia",
+   "name": {
+    "full": "Nebil Kawas Garcia"
+   },
+   "nationalities": [
+    "CL"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "3420337"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "CHI"
+   }
   },
   "p.nenad-ristic": {
    "id": "p.nenad-ristic",

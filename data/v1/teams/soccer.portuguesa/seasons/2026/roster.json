@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "soccer.portuguesa:2026",
- "updatedAt": "2026-10-27T15:01:58Z",
+ "updatedAt": "2026-11-05T16:53:52Z",
  "sources": [
   "espn"
  ],
  "teamId": "soccer.portuguesa",
  "competitionId": "soccer.ven-1",
  "season": "2026",
- "count": 39,
+ "count": 40,
  "groups": [
   {
    "code": "G",
@@ -17,6 +17,26 @@
     "es": "Porteros"
    },
    "players": [
+    {
+     "personId": "p.samuel-rodriguez.2001",
+     "number": "1",
+     "position": "G",
+     "role": "player",
+     "person": {
+      "id": "p.samuel-rodriguez.2001",
+      "name": {
+       "full": "Samuel Rodriguez",
+       "first": "Samuel",
+       "last": "Rodriguez"
+      },
+      "birthDate": "2003-05-05",
+      "nationalities": [
+       "ES",
+       "VE"
+      ],
+      "isCuban": false
+     }
+    },
     {
      "personId": "p.juan-reyes.1995",
      "number": "22",
@@ -35,6 +55,20 @@
       ],
       "isCuban": false
      }
+    },
+    {
+     "personId": "p.enyerberth-jesus-mendoza-fernandez",
+     "position": "G",
+     "role": "player",
+     "person": {
+      "id": "p.enyerberth-jesus-mendoza-fernandez",
+      "name": {
+       "full": "Enyerberth Jesús Mendoza Fernández",
+       "first": "Enyerberth Jesús",
+       "last": "Mendoza Fernández"
+      },
+      "isCuban": false
+     }
     }
    ]
   },
@@ -44,26 +78,6 @@
     "es": "Defensas"
    },
    "players": [
-    {
-     "personId": "p.samuel-rodriguez.2001",
-     "number": "1",
-     "position": "D",
-     "role": "player",
-     "person": {
-      "id": "p.samuel-rodriguez.2001",
-      "name": {
-       "full": "Samuel Rodríguez",
-       "first": "Samuel",
-       "last": "Rodríguez"
-      },
-      "birthDate": "2001-04-29",
-      "nationalities": [
-       "ES",
-       "VE"
-      ],
-      "isCuban": false
-     }
-    },
     {
      "personId": "p.guillermo-benitez.1999",
      "number": "2",
@@ -223,6 +237,34 @@
       ],
       "isCuban": false,
       "birthCountry": "VE"
+     }
+    },
+    {
+     "personId": "p.ricardo-javier-villanueva-gamboa",
+     "position": "D",
+     "role": "player",
+     "person": {
+      "id": "p.ricardo-javier-villanueva-gamboa",
+      "name": {
+       "full": "Ricardo Javier Villanueva Gamboa",
+       "first": "Ricardo Javier",
+       "last": "Villanueva Gamboa"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.santiago-moncada-cortez",
+     "position": "D",
+     "role": "player",
+     "person": {
+      "id": "p.santiago-moncada-cortez",
+      "name": {
+       "full": "Santiago Moncada Cortez",
+       "first": "Santiago",
+       "last": "Moncada Cortez"
+      },
+      "isCuban": false
      }
     }
    ]
@@ -467,6 +509,48 @@
      }
     },
     {
+     "personId": "p.brandon-alexander-ruiz-pena",
+     "position": "M",
+     "role": "player",
+     "person": {
+      "id": "p.brandon-alexander-ruiz-pena",
+      "name": {
+       "full": "Brandon Alexander Ruiz Peña",
+       "first": "Brandon Alexander",
+       "last": "Ruiz Peña"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.jose-camilo-suarez-aranguren",
+     "position": "M",
+     "role": "player",
+     "person": {
+      "id": "p.jose-camilo-suarez-aranguren",
+      "name": {
+       "full": "José Camilo Suárez Aranguren",
+       "first": "José Camilo",
+       "last": "Suárez Aranguren"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.luis-alberto-duran-vasquez",
+     "position": "M",
+     "role": "player",
+     "person": {
+      "id": "p.luis-alberto-duran-vasquez",
+      "name": {
+       "full": "Luis Alberto Durán Vásquez",
+       "first": "Luis Alberto",
+       "last": "Durán Vásquez"
+      },
+      "isCuban": false
+     }
+    },
+    {
      "personId": "p.luis-arturo-bonilla-sequera",
      "position": "M",
      "role": "player",
@@ -630,82 +714,10 @@
       },
       "isCuban": false
      }
-    }
-   ]
-  },
-  {
-   "code": "OTHER",
-   "name": {
-    "es": "OTHER"
-   },
-   "players": [
-    {
-     "personId": "p.brandon-alexander-ruiz-pena",
-     "role": "player",
-     "person": {
-      "id": "p.brandon-alexander-ruiz-pena",
-      "name": {
-       "full": "Brandon Alexander Ruiz Peña",
-       "first": "Brandon Alexander",
-       "last": "Ruiz Peña"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.enyerberth-jesus-mendoza-fernandez",
-     "role": "player",
-     "person": {
-      "id": "p.enyerberth-jesus-mendoza-fernandez",
-      "name": {
-       "full": "Enyerberth Jesús Mendoza Fernández",
-       "first": "Enyerberth Jesús",
-       "last": "Mendoza Fernández"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.jose-camilo-suarez-aranguren",
-     "role": "player",
-     "person": {
-      "id": "p.jose-camilo-suarez-aranguren",
-      "name": {
-       "full": "José Camilo Suárez Aranguren",
-       "first": "José Camilo",
-       "last": "Suárez Aranguren"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.luis-alberto-duran-vasquez",
-     "role": "player",
-     "person": {
-      "id": "p.luis-alberto-duran-vasquez",
-      "name": {
-       "full": "Luis Alberto Durán Vásquez",
-       "first": "Luis Alberto",
-       "last": "Durán Vásquez"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.santiago-moncada-cortez",
-     "role": "player",
-     "person": {
-      "id": "p.santiago-moncada-cortez",
-      "name": {
-       "full": "Santiago Moncada Cortez",
-       "first": "Santiago",
-       "last": "Moncada Cortez"
-      },
-      "isCuban": false
-     }
     },
     {
      "personId": "p.wilson-xavier-morales-sequera",
+     "position": "F",
      "role": "player",
      "person": {
       "id": "p.wilson-xavier-morales-sequera",

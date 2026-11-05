@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "5a",
- "updatedAt": "2026-11-04T16:51:08Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.aaron-alejandro-fuentes-alfonzo": {
    "id": "p.aaron-alejandro-fuentes-alfonzo",
@@ -1184,6 +1184,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.jackson-ross.2000": {
+   "id": "p.jackson-ross.2000",
+   "name": {
+    "full": "Jackson Ross",
+    "first": "Jackson",
+    "last": "Ross"
+   },
+   "birthDate": "2000-04-05",
+   "birthPlace": {
+    "city": "Winter Haven",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 188.0,
+    "weightKg": 95.3
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "824605"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.jacob-connor-boswell": {
@@ -2828,6 +2856,25 @@
    "sources": [
     "mlb-statsapi"
    ]
+  },
+  "p.ziyixuan-gong": {
+   "id": "p.ziyixuan-gong",
+   "name": {
+    "full": "Ziyixuan Gong"
+   },
+   "nationalities": [
+    "CN"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "8674124"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "CHN"
+   }
   }
  }
 }

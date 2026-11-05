@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "d7",
- "updatedAt": "2026-11-02T18:54:00Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.aaron-bates": {
    "id": "p.aaron-bates",
@@ -987,6 +987,25 @@
    "sources": [
     "mlb-statsapi"
    ]
+  },
+  "p.hui-qi-koh": {
+   "id": "p.hui-qi-koh",
+   "name": {
+    "full": "Hui Qi Koh"
+   },
+   "nationalities": [
+    "MY"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "35828323"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "MAS"
+   }
   },
   "p.ilhami-goktug-ozen": {
    "id": "p.ilhami-goktug-ozen",
@@ -2407,6 +2426,34 @@
    },
    "sources": [
     "npb"
+   ]
+  },
+  "p.zach-veen.2001": {
+   "id": "p.zach-veen.2001",
+   "name": {
+    "full": "Zach Veen",
+    "first": "Zach",
+    "last": "Veen"
+   },
+   "birthDate": "2001-04-18",
+   "birthPlace": {
+    "city": "Eastvale",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 182.9,
+    "weightKg": 81.6
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "L"
+   },
+   "externalIds": {
+    "mlb": "805731"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   }
  }

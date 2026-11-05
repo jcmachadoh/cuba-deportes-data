@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "11",
- "updatedAt": "2026-11-03T16:37:45Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.abdoul-kone.2005": {
    "id": "p.abdoul-kone.2005",
@@ -534,6 +534,34 @@
    "gender": "M",
    "sources": [
     "wbcboxing"
+   ]
+  },
+  "p.carson-demartini.2002": {
+   "id": "p.carson-demartini.2002",
+   "name": {
+    "full": "Carson DeMartini",
+    "first": "Carson",
+    "last": "DeMartini"
+   },
+   "birthDate": "2002-12-27",
+   "birthPlace": {
+    "city": "Virginia Beach",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 180.3,
+    "weightKg": 89.4
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "701831"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.cassiano-kiala.2009": {
@@ -1340,6 +1368,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.jose-cubas": {
+   "id": "p.jose-cubas",
+   "name": {
+    "full": "Jose Cubas"
+   },
+   "nationalities": [
+    "PY"
+   ],
+   "isCuban": false,
+   "title": "GM",
+   "externalIds": {
+    "fide": "3700267"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "PAR"
+   }
   },
   "p.juan-felipe-aguirre.1996": {
    "id": "p.juan-felipe-aguirre.1996",

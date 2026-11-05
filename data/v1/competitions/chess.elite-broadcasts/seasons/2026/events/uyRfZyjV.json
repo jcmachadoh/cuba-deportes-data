@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:uyRfZyjV",
- "updatedAt": "2026-11-04T20:36:20Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "sources": [
   "lichess"
  ],
@@ -24,47 +24,47 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=-20959MqDx-y.webp&w=800&sig=0bc2d9894ee02871d3a23011b05c8838c025e7d5",
   "rounds": [
    {
-    "name": "Round 1",
+    "name": "Ronda 1",
     "startsAt": 1793711700000,
     "finished": true
    },
    {
-    "name": "Round 2",
+    "name": "Ronda 2",
     "startsAt": 1793798100000,
     "finished": true
    },
    {
-    "name": "Round 3",
+    "name": "Ronda 3",
     "startsAt": 1793884500000,
     "finished": null
    },
    {
-    "name": "Round 4",
+    "name": "Ronda 4",
     "startsAt": 1793970900000,
     "finished": null
    },
    {
-    "name": "Round 5",
+    "name": "Ronda 5",
     "startsAt": 1794057300000,
     "finished": null
    },
    {
-    "name": "Round 6",
+    "name": "Ronda 6",
     "startsAt": 1794230100000,
     "finished": null
    },
    {
-    "name": "Round 7",
+    "name": "Ronda 7",
     "startsAt": 1794316500000,
     "finished": null
    },
    {
-    "name": "Round 8",
+    "name": "Ronda 8",
     "startsAt": 1794402900000,
     "finished": null
    },
    {
-    "name": "Round 9",
+    "name": "Ronda 9",
     "startsAt": 1794485700000,
     "finished": null
    }
@@ -77,9 +77,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 2.0,
+    "PTS": 2.5,
     "ELO": 2507,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.marius-deuer.2008",
@@ -94,43 +94,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 3096
+    "performance": 2589
    }
   },
   {
    "rank": 2,
-   "participantId": "p.tunar-davudov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 2.0,
-    "ELO": 2430,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.tunar-davudov",
-    "name": {
-     "full": "Tunar Davudov"
-    },
-    "nationalities": [
-     "AZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 3078
-   }
-  },
-  {
-   "rank": 3,
    "participantId": "p.pawel-sowinski",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 1.5,
+    "RANK": 2,
+    "PTS": 2.5,
     "ELO": 2473,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.pawel-sowinski",
@@ -144,7 +119,32 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2481
+    "performance": 2570
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.tunar-davudov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 2.5,
+    "ELO": 2430,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.tunar-davudov",
+    "name": {
+     "full": "Tunar Davudov"
+    },
+    "nationalities": [
+     "AZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2574
    }
   },
   {
@@ -153,9 +153,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 4,
-    "PTS": 1.5,
+    "PTS": 2.5,
     "ELO": 2418,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.vahe-a-sukiasyan",
@@ -169,7 +169,7 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2466
+    "performance": 2559
    }
   },
   {
@@ -199,10 +199,60 @@
   },
   {
    "rank": 6,
-   "participantId": "p.yaroslav-shevchenko",
+   "participantId": "p.matthias-mattenberger",
    "participantType": "person",
    "stats": {
     "RANK": 6,
+    "PTS": 1.0,
+    "ELO": 2398,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.matthias-mattenberger",
+    "name": {
+     "full": "Matthias Mattenberger"
+    },
+    "nationalities": [
+     "CH"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2303
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.vitus-bondo-medhus",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 1.0,
+    "ELO": 2396,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.vitus-bondo-medhus",
+    "name": {
+     "full": "Vitus Bondo Medhus"
+    },
+    "nationalities": [
+     "DK"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 3107
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.yaroslav-shevchenko",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
     "PTS": 1.0,
     "ELO": 2391,
     "GP": 1
@@ -223,11 +273,61 @@
    }
   },
   {
-   "rank": 7,
+   "rank": 9,
+   "participantId": "p.zanas-nainys",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 1.0,
+    "ELO": 2332,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.zanas-nainys",
+    "name": {
+     "full": "Zanas Nainys"
+    },
+    "nationalities": [
+     "LT"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 3164
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.kamil-warchol",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 1.0,
+    "ELO": 2308,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.kamil-warchol",
+    "name": {
+     "full": "Kamil Warchol"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2435
+   }
+  },
+  {
+   "rank": 11,
    "participantId": "p.martin-holten-fiskaaen",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 11,
     "PTS": 1.0,
     "ELO": 2305,
     "GP": 1
@@ -248,11 +348,11 @@
    }
   },
   {
-   "rank": 8,
+   "rank": 12,
    "participantId": "p.vidar-seiger",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
+    "RANK": 12,
     "PTS": 1.0,
     "ELO": 2260,
     "GP": 1
@@ -273,11 +373,11 @@
    }
   },
   {
-   "rank": 9,
+   "rank": 13,
    "participantId": "p.mikhail-gusev",
    "participantType": "person",
    "stats": {
-    "RANK": 9,
+    "RANK": 13,
     "PTS": 1.0,
     "ELO": 2251,
     "GP": 1
@@ -298,11 +398,11 @@
    }
   },
   {
-   "rank": 10,
+   "rank": 14,
    "participantId": "p.philipp-mester",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 14,
     "PTS": 1.0,
     "ELO": 2247,
     "GP": 1
@@ -323,11 +423,11 @@
    }
   },
   {
-   "rank": 11,
+   "rank": 15,
    "participantId": "p.dawid-jasiulewicz",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 15,
     "PTS": 1.0,
     "ELO": 2243,
     "GP": 1
@@ -348,11 +448,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 16,
    "participantId": "p.lorenzo-perea-fruet",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 16,
     "PTS": 0.5,
     "ELO": 2416,
     "GP": 1
@@ -373,36 +473,36 @@
    }
   },
   {
-   "rank": 13,
-   "participantId": "p.matthias-mattenberger",
+   "rank": 17,
+   "participantId": "p.adam-zielonka",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 17,
     "PTS": 0.5,
-    "ELO": 2398,
+    "ELO": 2406,
     "GP": 1
    },
    "person": {
-    "id": "p.matthias-mattenberger",
+    "id": "p.adam-zielonka",
     "name": {
-     "full": "Matthias Mattenberger"
+     "full": "Adam Zielonka"
     },
     "nationalities": [
-     "CH"
+     "PL"
     ],
     "isCuban": false,
-    "title": "FM"
+    "title": "IM"
    },
    "extra": {
-    "performance": 2298
+    "performance": 2308
    }
   },
   {
-   "rank": 14,
+   "rank": 18,
    "participantId": "p.yonathan-uritsky",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 18,
     "PTS": 0.5,
     "ELO": 2374,
     "GP": 1
@@ -423,11 +523,11 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 19,
    "participantId": "p.jan-zienkiewicz",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 19,
     "PTS": 0.5,
     "ELO": 2367,
     "GP": 1
@@ -448,11 +548,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 20,
    "participantId": "p.rudolf-pashikyan",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 20,
     "PTS": 0.5,
     "ELO": 2364,
     "GP": 1
@@ -473,19 +573,69 @@
    }
   },
   {
-   "rank": 17,
-   "participantId": "p.kamil-warchol",
+   "rank": 21,
+   "participantId": "p.deniz-dirikolu",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 21,
+    "PTS": 0.5,
+    "ELO": 2355,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.deniz-dirikolu",
+    "name": {
+     "full": "Deniz Dirikolu"
+    },
+    "nationalities": [
+     "TR"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2507
+   }
+  },
+  {
+   "rank": 22,
+   "participantId": "p.ergit-ramaj",
+   "participantType": "person",
+   "stats": {
+    "RANK": 22,
+    "PTS": 0.5,
+    "ELO": 2349,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.ergit-ramaj",
+    "name": {
+     "full": "Ergit Ramaj"
+    },
+    "nationalities": [
+     "AL"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2430
+   }
+  },
+  {
+   "rank": 23,
+   "participantId": "p.blazej-grot",
+   "participantType": "person",
+   "stats": {
+    "RANK": 23,
     "PTS": 0.5,
     "ELO": 2308,
     "GP": 1
    },
    "person": {
-    "id": "p.kamil-warchol",
+    "id": "p.blazej-grot",
     "name": {
-     "full": "Kamil Warchol"
+     "full": "Blazej Grot"
     },
     "nationalities": [
      "PL"
@@ -494,18 +644,18 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2473
+    "performance": 2406
    }
   },
   {
-   "rank": 18,
+   "rank": 24,
    "participantId": "p.dimitrios-papaioannou",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 24,
     "PTS": 0.5,
     "ELO": 2307,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.dimitrios-papaioannou",
@@ -519,15 +669,15 @@
     "title": "CM"
    },
    "extra": {
-    "performance": 2418
+    "performance": 2214
    }
   },
   {
-   "rank": 19,
+   "rank": 25,
    "participantId": "p.lorenzo-fava",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 25,
     "PTS": 0.5,
     "ELO": 2306,
     "GP": 1
@@ -548,11 +698,11 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 26,
    "participantId": "p.marco-ferrante",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 26,
     "PTS": 0.5,
     "ELO": 2298,
     "GP": 1
@@ -573,11 +723,11 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 27,
    "participantId": "p.jakub-liskiewicz",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 27,
     "PTS": 0.5,
     "ELO": 2291,
     "GP": 1
@@ -598,11 +748,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 28,
    "participantId": "p.robert-gabriel-sava",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 28,
     "PTS": 0.5,
     "ELO": 2284,
     "GP": 1
@@ -623,11 +773,11 @@
    }
   },
   {
-   "rank": 23,
+   "rank": 29,
    "participantId": "p.zdenek-davidek",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 29,
     "PTS": 0.5,
     "ELO": 2238,
     "GP": 1
@@ -647,11 +797,11 @@
    }
   },
   {
-   "rank": 24,
+   "rank": 30,
    "participantId": "p.can-durak",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 30,
     "PTS": 0.0,
     "ELO": 2446,
     "GP": 1
@@ -672,11 +822,11 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 31,
    "participantId": "p.vladimir-alexandru-cnejev",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 31,
     "PTS": 0.0,
     "ELO": 2433,
     "GP": 1
@@ -697,11 +847,11 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 32,
    "participantId": "p.feliks-tulchynskyi",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 32,
     "PTS": 0.0,
     "ELO": 2429,
     "GP": 1
@@ -722,11 +872,11 @@
    }
   },
   {
-   "rank": 27,
+   "rank": 33,
    "participantId": "p.vache-hovakimyan",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 33,
     "PTS": 0.0,
     "ELO": 2426,
     "GP": 1
@@ -747,11 +897,61 @@
    }
   },
   {
-   "rank": 28,
+   "rank": 34,
+   "participantId": "p.vince-gergo-turcsanyi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 34,
+    "PTS": 0.0,
+    "ELO": 2364,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.vince-gergo-turcsanyi",
+    "name": {
+     "full": "Vince Gergo Turcsanyi"
+    },
+    "nationalities": [
+     "HU"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 1532
+   }
+  },
+  {
+   "rank": 35,
+   "participantId": "p.lionel-gut",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35,
+    "PTS": 0.0,
+    "ELO": 2317,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.lionel-gut",
+    "name": {
+     "full": "Lionel Gut"
+    },
+    "nationalities": [
+     "CH"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 1673
+   }
+  },
+  {
+   "rank": 36,
    "participantId": "p.jernej-kozlovic",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 36,
     "PTS": 0.0,
     "ELO": 2315,
     "GP": 1
@@ -772,11 +972,36 @@
    }
   },
   {
-   "rank": 29,
+   "rank": 37,
+   "participantId": "p.nikolozi-shamatava",
+   "participantType": "person",
+   "stats": {
+    "RANK": 37,
+    "PTS": 0.0,
+    "ELO": 2314,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.nikolozi-shamatava",
+    "name": {
+     "full": "Nikolozi Shamatava"
+    },
+    "nationalities": [
+     "GE"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 1618
+   }
+  },
+  {
+   "rank": 38,
    "participantId": "p.sasha-matei-craciun",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
+    "RANK": 38,
     "PTS": 0.0,
     "ELO": 2307,
     "GP": 1
@@ -797,11 +1022,11 @@
    }
   },
   {
-   "rank": 30,
+   "rank": 39,
    "participantId": "p.matviy-faryma",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
+    "RANK": 39,
     "PTS": 0.0,
     "ELO": 2293,
     "GP": 1
@@ -822,11 +1047,11 @@
    }
   },
   {
-   "rank": 31,
+   "rank": 40,
    "participantId": "p.christos-tsarsitalidis",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 40,
     "PTS": 0.0,
     "ELO": 2278,
     "GP": 1
@@ -846,11 +1071,11 @@
    }
   },
   {
-   "rank": 32,
+   "rank": 41,
    "participantId": "p.bartosz-bartodziej",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 41,
     "PTS": 0.0,
     "ELO": 2268,
     "GP": 1
@@ -871,11 +1096,11 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 42,
    "participantId": "p.vittorio-fargetta",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 42,
     "PTS": 0.0,
     "ELO": 2249,
     "GP": 1
@@ -895,11 +1120,11 @@
    }
   },
   {
-   "rank": 34,
+   "rank": 43,
    "participantId": "p.michael-burns",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 43,
     "PTS": 0.0,
     "ELO": 2239,
     "GP": 1
@@ -920,11 +1145,11 @@
    }
   },
   {
-   "rank": 35,
+   "rank": 44,
    "participantId": "p.adi-menahem",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 44,
     "PTS": 0.0,
     "ELO": 2233,
     "GP": 1
@@ -942,6 +1167,27 @@
    },
    "extra": {
     "performance": 1613
+   }
+  },
+  {
+   "rank": 45,
+   "participantId": "p.kobe-vandenhole",
+   "participantType": "person",
+   "stats": {
+    "RANK": 45,
+    "ELO": 2393,
+    "GP": 0
+   },
+   "person": {
+    "id": "p.kobe-vandenhole",
+    "name": {
+     "full": "Kobe Vandenhole"
+    },
+    "nationalities": [
+     "BE"
+    ],
+    "isCuban": false,
+    "title": "FM"
    }
   }
  ]

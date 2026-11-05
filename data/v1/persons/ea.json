@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "ea",
- "updatedAt": "2026-11-04T16:38:04Z",
+ "updatedAt": "2026-11-05T16:49:45Z",
  "persons": {
   "p.adrian-alejandro.2004": {
    "id": "p.adrian-alejandro.2004",
@@ -507,6 +507,19 @@
    },
    "externalIds": {
     "mlb": "800079"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.d-j-engle": {
+   "id": "p.d-j-engle",
+   "name": {
+    "full": "D.J. Engle"
+   },
+   "isCuban": false,
+   "externalIds": {
+    "mlb": "800534"
    },
    "sources": [
     "mlb-statsapi"
@@ -1540,6 +1553,37 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.lisbel-diaz.2005": {
+   "id": "p.lisbel-diaz.2005",
+   "name": {
+    "full": "Lisbel Diaz",
+    "first": "Lisbel",
+    "last": "Diaz"
+   },
+   "birthDate": "2005-07-19",
+   "birthPlace": {
+    "city": "Pinar Del Rio",
+    "country": "CU"
+   },
+   "isCuban": true,
+   "cubanEvidence": [
+    "mlb-statsapi.birthCountry"
+   ],
+   "body": {
+    "heightCm": 188.0,
+    "weightKg": 92.5
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "815464"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.logi-tomasson.2000": {

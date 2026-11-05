@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "24",
- "updatedAt": "2026-11-04T16:38:12Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.ademir.1995": {
    "id": "p.ademir.1995",
@@ -1056,6 +1056,34 @@
     "federation": "CUB"
    }
   },
+  "p.jose-ortiz.2005": {
+   "id": "p.jose-ortiz.2005",
+   "name": {
+    "full": "Jose Ortiz",
+    "first": "Jose",
+    "last": "Ortiz"
+   },
+   "birthDate": "2005-02-13",
+   "birthPlace": {
+    "city": "Guayama",
+    "country": "PR"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 175.3,
+    "weightKg": 87.1
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "806176"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
   "p.jovany-lopez.1991": {
    "id": "p.jovany-lopez.1991",
    "name": {
@@ -1342,6 +1370,25 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.lu-siew-joelle-yeo": {
+   "id": "p.lu-siew-joelle-yeo",
+   "name": {
+    "full": "Lu Siew Joelle Yeo"
+   },
+   "nationalities": [
+    "MY"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "35879408"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "MAS"
+   }
   },
   "p.lucas-maronnier.2000": {
    "id": "p.lucas-maronnier.2000",
@@ -2114,7 +2161,7 @@
     "first": "Sebastián",
     "last": "Valencia"
    },
-   "birthDate": "2000-02-13",
+   "birthDate": "1996-07-03",
    "nationalities": [
     "CL",
     "CO"

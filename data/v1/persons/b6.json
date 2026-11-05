@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "b6",
- "updatedAt": "2026-11-03T16:37:45Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.aaron-carnero.1999": {
    "id": "p.aaron-carnero.1999",
@@ -2060,6 +2060,25 @@
     "federation": "CZE"
    }
   },
+  "p.rafael-salguero": {
+   "id": "p.rafael-salguero",
+   "name": {
+    "full": "Rafael Salguero"
+   },
+   "nationalities": [
+    "UY"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "3003876"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "URU"
+   }
+  },
   "p.randy-delgado.2002": {
    "id": "p.randy-delgado.2002",
    "name": {
@@ -2596,6 +2615,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.tyler-santana.1998": {
+   "id": "p.tyler-santana.1998",
+   "name": {
+    "full": "Tyler Santana",
+    "first": "Tyler",
+    "last": "Santana"
+   },
+   "birthDate": "1998-05-13",
+   "birthPlace": {
+    "city": "Miami",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 185.4,
+    "weightKg": 93.0
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "687825"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.tyler-tolbert.1998": {

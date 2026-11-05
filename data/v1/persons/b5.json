@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "b5",
- "updatedAt": "2026-11-03T07:09:15Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.alejandro-organista.2000": {
    "id": "p.alejandro-organista.2000",
@@ -1802,6 +1802,26 @@
     "espn"
    ]
   },
+  "p.maria-jose-campos": {
+   "id": "p.maria-jose-campos",
+   "name": {
+    "full": "Maria Jose Campos"
+   },
+   "nationalities": [
+    "AR"
+   ],
+   "isCuban": false,
+   "title": "WIM",
+   "externalIds": {
+    "fide": "146803"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "ARG"
+   }
+  },
   "p.mario-dorgeles.2004": {
    "id": "p.mario-dorgeles.2004",
    "name": {
@@ -2635,6 +2655,34 @@
    "isCuban": false,
    "externalIds": {
     "mlb": "477446"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.tanner-burns.1998": {
+   "id": "p.tanner-burns.1998",
+   "name": {
+    "full": "Tanner Burns",
+    "first": "Tanner",
+    "last": "Burns"
+   },
+   "birthDate": "1998-12-28",
+   "birthPlace": {
+    "city": "Decatur",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 182.9,
+    "weightKg": 95.3
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "669142"
    },
    "sources": [
     "mlb-statsapi"

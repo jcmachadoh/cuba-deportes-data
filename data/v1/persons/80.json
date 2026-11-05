@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "80",
- "updatedAt": "2026-11-04T16:37:48Z",
+ "updatedAt": "2026-11-05T17:06:16Z",
  "persons": {
   "p.adrian-sporle.1995": {
    "id": "p.adrian-sporle.1995",
@@ -202,6 +202,26 @@
    ],
    "extra": {
     "federation": "ROU"
+   }
+  },
+  "p.andres-eloy-perez-candelas": {
+   "id": "p.andres-eloy-perez-candelas",
+   "name": {
+    "full": "Andres Eloy Perez Candelas"
+   },
+   "nationalities": [
+    "VE"
+   ],
+   "isCuban": false,
+   "title": "FM",
+   "externalIds": {
+    "fide": "3905209"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "VEN"
    }
   },
   "p.andres-shmalbach.2007": {
@@ -1173,7 +1193,8 @@
     "fide": "169013"
    },
    "sources": [
-    "chess-results"
+    "chess-results",
+    "lichess"
    ],
    "extra": {
     "federation": "ARG"
