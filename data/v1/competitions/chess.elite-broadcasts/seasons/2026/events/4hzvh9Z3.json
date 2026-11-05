@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:4hzvh9Z3",
- "updatedAt": "2026-11-04T12:10:41Z",
+ "updatedAt": "2026-11-05T09:31:13Z",
  "sources": [
   "lichess"
  ],
@@ -75,22 +75,22 @@
    {
     "name": "Semifinals | Game 1",
     "startsAt": 1793854800000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Semifinals | Game 2",
     "startsAt": 1793859600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Semifinals | Game 3",
     "startsAt": 1793864400000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Semifinals | Game 4",
     "startsAt": 1793869200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Semifinals | Tiebreaks",
@@ -131,9 +131,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 7.0,
+    "PTS": 9.0,
     "ELO": 2476,
-    "GP": 12
+    "GP": 16
    },
    "person": {
     "id": "p.tong-qd-xiao.2008",
@@ -148,15 +148,67 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2582
+    "performance": 2583
    }
   },
   {
    "rank": 2,
-   "participantId": "p.liren-ding.1992",
+   "participantId": "p.yangyi-yu.1994",
    "participantType": "person",
    "stats": {
     "RANK": 2,
+    "PTS": 8.0,
+    "ELO": 2679,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.yangyi-yu.1994",
+    "name": {
+     "full": "Yangyi Yu"
+    },
+    "birthDate": "1994",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2769
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.shanglei-lu.1995",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 7.0,
+    "ELO": 2586,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.shanglei-lu.1995",
+    "name": {
+     "full": "Shanglei Lu"
+    },
+    "birthDate": "1995",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2619
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.liren-ding.1992",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
     "PTS": 5.0,
     "ELO": 2689,
     "GP": 9
@@ -178,40 +230,14 @@
    }
   },
   {
-   "rank": 3,
-   "participantId": "p.yangyi-yu.1994",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 5.0,
-    "ELO": 2679,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.yangyi-yu.1994",
-    "name": {
-     "full": "Yangyi Yu"
-    },
-    "birthDate": "1994",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2659
-   }
-  },
-  {
-   "rank": 4,
+   "rank": 5,
    "participantId": "p.xiangyu-xu.1999",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 5,
     "PTS": 5.0,
     "ELO": 2594,
-    "GP": 8
+    "GP": 11
    },
    "person": {
     "id": "p.xiangyu-xu.1999",
@@ -226,33 +252,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2613
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.shanglei-lu.1995",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 5.0,
-    "ELO": 2586,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.shanglei-lu.1995",
-    "name": {
-     "full": "Shanglei Lu"
-    },
-    "birthDate": "1995",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2699
+    "performance": 2526
    }
   },
   {
