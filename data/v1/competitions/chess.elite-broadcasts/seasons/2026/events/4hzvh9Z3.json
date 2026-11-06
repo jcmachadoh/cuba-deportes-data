@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:4hzvh9Z3",
- "updatedAt": "2026-11-05T17:06:16Z",
+ "updatedAt": "2026-11-06T07:05:50Z",
  "sources": [
   "lichess"
  ],
@@ -100,12 +100,12 @@
    {
     "name": "Finals | Game 1",
     "startsAt": 1793941200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finals | Game 2",
     "startsAt": 1793946000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finals | Game 3",
@@ -131,9 +131,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 10.5,
+    "PTS": 12.0,
     "ELO": 2476,
-    "GP": 18
+    "GP": 20
    },
    "person": {
     "id": "p.tong-qd-xiao.2008",
@@ -148,44 +148,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2583
+    "performance": 2626
    }
   },
   {
    "rank": 2,
-   "participantId": "p.yangyi-yu.1994",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 8.0,
-    "ELO": 2679,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.yangyi-yu.1994",
-    "name": {
-     "full": "Yangyi Yu"
-    },
-    "birthDate": "1994",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2769
-   }
-  },
-  {
-   "rank": 3,
    "participantId": "p.shanglei-lu.1995",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 7.5,
+    "RANK": 2,
+    "PTS": 9.0,
     "ELO": 2586,
-    "GP": 13
+    "GP": 15
    },
    "person": {
     "id": "p.shanglei-lu.1995",
@@ -200,15 +174,67 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2619
+    "performance": 2639
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.yangyi-yu.1994",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 8.5,
+    "ELO": 2679,
+    "GP": 12
+   },
+   "person": {
+    "id": "p.yangyi-yu.1994",
+    "name": {
+     "full": "Yangyi Yu"
+    },
+    "birthDate": "1994",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2678
    }
   },
   {
    "rank": 4,
-   "participantId": "p.liren-ding.1992",
+   "participantId": "p.xiangyu-xu.1999",
    "participantType": "person",
    "stats": {
     "RANK": 4,
+    "PTS": 5.5,
+    "ELO": 2594,
+    "GP": 13
+   },
+   "person": {
+    "id": "p.xiangyu-xu.1999",
+    "name": {
+     "full": "Xiangyu Xu"
+    },
+    "birthDate": "1999",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2508
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.liren-ding.1992",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
     "PTS": 5.0,
     "ELO": 2689,
     "GP": 9
@@ -227,32 +253,6 @@
    },
    "extra": {
     "performance": 2513
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.xiangyu-xu.1999",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 5.0,
-    "ELO": 2594,
-    "GP": 11
-   },
-   "person": {
-    "id": "p.xiangyu-xu.1999",
-    "name": {
-     "full": "Xiangyu Xu"
-    },
-    "birthDate": "1999",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2526
    }
   },
   {
