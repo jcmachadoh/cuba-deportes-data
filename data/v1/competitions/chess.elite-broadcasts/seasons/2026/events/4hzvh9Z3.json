@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:4hzvh9Z3",
- "updatedAt": "2026-11-06T07:05:50Z",
+ "updatedAt": "2026-11-06T16:18:34Z",
  "sources": [
   "lichess"
  ],
@@ -110,17 +110,17 @@
    {
     "name": "Finals | Game 3",
     "startsAt": 1793950800000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finals | Game 4",
     "startsAt": 1793955600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Finals | Tiebreaks",
-    "startsAt": 1793960400000,
-    "finished": null
+    "startsAt": 1793959800000,
+    "finished": true
    }
   ]
  },
@@ -131,9 +131,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 12.0,
+    "PTS": 13.5,
     "ELO": 2476,
-    "GP": 20
+    "GP": 25
    },
    "person": {
     "id": "p.tong-qd-xiao.2008",
@@ -148,44 +148,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2626
+    "performance": 2607
    }
   },
   {
    "rank": 2,
-   "participantId": "p.shanglei-lu.1995",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 9.0,
-    "ELO": 2586,
-    "GP": 15
-   },
-   "person": {
-    "id": "p.shanglei-lu.1995",
-    "name": {
-     "full": "Shanglei Lu"
-    },
-    "birthDate": "1995",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2639
-   }
-  },
-  {
-   "rank": 3,
    "participantId": "p.yangyi-yu.1994",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 8.5,
+    "RANK": 2,
+    "PTS": 12.0,
     "ELO": 2679,
-    "GP": 12
+    "GP": 17
    },
    "person": {
     "id": "p.yangyi-yu.1994",
@@ -200,7 +174,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2678
+    "performance": 2672
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.shanglei-lu.1995",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 11.5,
+    "ELO": 2586,
+    "GP": 19
+   },
+   "person": {
+    "id": "p.shanglei-lu.1995",
+    "name": {
+     "full": "Shanglei Lu"
+    },
+    "birthDate": "1995",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2609
    }
   },
   {
@@ -209,9 +209,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 4,
-    "PTS": 5.5,
+    "PTS": 7.0,
     "ELO": 2594,
-    "GP": 13
+    "GP": 17
    },
    "person": {
     "id": "p.xiangyu-xu.1999",
@@ -226,7 +226,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2508
+    "performance": 2547
    }
   },
   {
