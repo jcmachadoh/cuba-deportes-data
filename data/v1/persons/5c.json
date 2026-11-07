@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "5c",
- "updatedAt": "2026-11-02T18:52:57Z",
+ "updatedAt": "2026-11-07T15:13:15Z",
  "persons": {
   "p.abdon-jora-colque": {
    "id": "p.abdon-jora-colque",
@@ -431,6 +431,19 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.chris-pieters": {
+   "id": "p.chris-pieters",
+   "name": {
+    "full": "Chris Pieters"
+   },
+   "isCuban": false,
+   "externalIds": {
+    "mlb": "622362"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.clay-holstad.2000": {
@@ -1365,6 +1378,25 @@
    ],
    "extra": {
     "federation": "GER"
+   }
+  },
+  "p.julius-schwartz": {
+   "id": "p.julius-schwartz",
+   "name": {
+    "full": "Julius Schwartz"
+   },
+   "nationalities": [
+    "GB"
+   ],
+   "isCuban": false,
+   "externalIds": {
+    "fide": "2402831"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "SCO"
    }
   },
   "p.juninho-capixaba.1997": {
