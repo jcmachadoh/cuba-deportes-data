@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ita-1:2026-27",
- "updatedAt": "2026-11-07T16:26:15Z",
+ "updatedAt": "2026-11-07T21:49:57Z",
  "sources": [
   "espn"
  ],
@@ -35,18 +35,18 @@
      }
     },
     {
-     "participantId": "soccer.internazionale",
+     "participantId": "soccer.as-roma",
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 8,
-      "D": 1,
-      "L": 1,
-      "GF": 26,
-      "GA": 13,
-      "GD": 13,
-      "PTS": 25
+      "D": 3,
+      "L": 0,
+      "GF": 31,
+      "GA": 10,
+      "GD": 21,
+      "PTS": 27
      },
      "extra": {
       "note": {
@@ -56,18 +56,18 @@
      }
     },
     {
-     "participantId": "soccer.as-roma",
+     "participantId": "soccer.internazionale",
      "participantType": "team",
      "rank": 3,
      "stats": {
       "GP": 10,
-      "W": 7,
-      "D": 3,
-      "L": 0,
-      "GF": 28,
-      "GA": 10,
-      "GD": 18,
-      "PTS": 24
+      "W": 8,
+      "D": 1,
+      "L": 1,
+      "GF": 26,
+      "GA": 13,
+      "GD": 13,
+      "PTS": 25
      },
      "extra": {
       "note": {
@@ -161,9 +161,24 @@
      }
     },
     {
-     "participantId": "soccer.cagliari",
+     "participantId": "soccer.bologna",
      "participantType": "team",
      "rank": 8,
+     "stats": {
+      "GP": 11,
+      "W": 5,
+      "D": 2,
+      "L": 4,
+      "GF": 16,
+      "GA": 14,
+      "GD": 2,
+      "PTS": 17
+     }
+    },
+    {
+     "participantId": "soccer.cagliari",
+     "participantType": "team",
+     "rank": 9,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -178,7 +193,7 @@
     {
      "participantId": "soccer.napoli",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
       "GP": 10,
       "W": 4,
@@ -187,21 +202,6 @@
       "GF": 17,
       "GA": 13,
       "GD": 4,
-      "PTS": 14
-     }
-    },
-    {
-     "participantId": "soccer.bologna",
-     "participantType": "team",
-     "rank": 10,
-     "stats": {
-      "GP": 10,
-      "W": 4,
-      "D": 2,
-      "L": 4,
-      "GF": 14,
-      "GA": 13,
-      "GD": 1,
       "PTS": 14
      }
     },
@@ -266,24 +266,9 @@
      }
     },
     {
-     "participantId": "soccer.parma",
-     "participantType": "team",
-     "rank": 15,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 2,
-      "L": 6,
-      "GF": 8,
-      "GA": 15,
-      "GD": -7,
-      "PTS": 8
-     }
-    },
-    {
      "participantId": "soccer.fiorentina",
      "participantType": "team",
-     "rank": 16,
+     "rank": 15,
      "stats": {
       "GP": 10,
       "W": 2,
@@ -296,17 +281,32 @@
      }
     },
     {
+     "participantId": "soccer.parma",
+     "participantType": "team",
+     "rank": 16,
+     "stats": {
+      "GP": 11,
+      "W": 2,
+      "D": 2,
+      "L": 7,
+      "GF": 9,
+      "GA": 17,
+      "GD": -8,
+      "PTS": 8
+     }
+    },
+    {
      "participantId": "soccer.sassuolo",
      "participantType": "team",
      "rank": 17,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 2,
       "D": 2,
-      "L": 6,
+      "L": 7,
       "GF": 16,
-      "GA": 26,
-      "GD": -10,
+      "GA": 29,
+      "GD": -13,
       "PTS": 8
      }
     },

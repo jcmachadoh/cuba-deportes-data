@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ger-1:2026-27",
- "updatedAt": "2026-11-07T16:26:16Z",
+ "updatedAt": "2026-11-07T21:49:57Z",
  "sources": [
   "espn"
  ],
@@ -18,35 +18,14 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 8,
-      "W": 5,
-      "D": 3,
-      "L": 0,
-      "GF": 27,
-      "GA": 8,
-      "GD": 19,
-      "PTS": 18
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.rb-leipzig",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
       "GP": 9,
       "W": 6,
-      "D": 0,
-      "L": 3,
-      "GF": 27,
-      "GA": 13,
-      "GD": 14,
-      "PTS": 18
+      "D": 3,
+      "L": 0,
+      "GF": 29,
+      "GA": 9,
+      "GD": 20,
+      "PTS": 21
      },
      "extra": {
       "note": {
@@ -58,15 +37,36 @@
     {
      "participantId": "soccer.borussia-dortmund",
      "participantType": "team",
-     "rank": 3,
+     "rank": 2,
      "stats": {
-      "GP": 8,
-      "W": 5,
+      "GP": 9,
+      "W": 6,
       "D": 3,
       "L": 0,
-      "GF": 14,
-      "GA": 6,
-      "GD": 8,
+      "GF": 16,
+      "GA": 7,
+      "GD": 9,
+      "PTS": 21
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.rb-leipzig",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 9,
+      "W": 6,
+      "D": 0,
+      "L": 3,
+      "GF": 27,
+      "GA": 13,
+      "GD": 14,
       "PTS": 18
      },
      "extra": {
@@ -102,13 +102,13 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 4,
       "D": 3,
-      "L": 1,
+      "L": 2,
       "GF": 17,
-      "GA": 14,
-      "GD": 3,
+      "GA": 15,
+      "GD": 2,
       "PTS": 15
      },
      "extra": {
@@ -144,13 +144,13 @@
      "participantType": "team",
      "rank": 7,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 4,
       "D": 1,
-      "L": 3,
-      "GF": 16,
-      "GA": 16,
-      "GD": 0,
+      "L": 4,
+      "GF": 17,
+      "GA": 18,
+      "GD": -1,
       "PTS": 13
      },
      "extra": {
@@ -161,9 +161,24 @@
      }
     },
     {
-     "participantId": "soccer.eintracht-frankfurt",
+     "participantId": "soccer.vfb-stuttgart",
      "participantType": "team",
      "rank": 8,
+     "stats": {
+      "GP": 9,
+      "W": 4,
+      "D": 0,
+      "L": 5,
+      "GF": 15,
+      "GA": 15,
+      "GD": 0,
+      "PTS": 12
+     }
+    },
+    {
+     "participantId": "soccer.eintracht-frankfurt",
+     "participantType": "team",
+     "rank": 9,
      "stats": {
       "GP": 9,
       "W": 3,
@@ -178,7 +193,7 @@
     {
      "participantId": "soccer.hamburg-sv",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
       "GP": 9,
       "W": 4,
@@ -193,22 +208,22 @@
     {
      "participantId": "soccer.mainz",
      "participantType": "team",
-     "rank": 10,
+     "rank": 11,
      "stats": {
-      "GP": 8,
+      "GP": 9,
       "W": 3,
       "D": 1,
-      "L": 4,
-      "GF": 17,
-      "GA": 17,
-      "GD": 0,
+      "L": 5,
+      "GF": 18,
+      "GA": 19,
+      "GD": -1,
       "PTS": 10
      }
     },
     {
      "participantId": "soccer.sc-paderborn-07",
      "participantType": "team",
-     "rank": 11,
+     "rank": 12,
      "stats": {
       "GP": 9,
       "W": 2,
@@ -223,7 +238,7 @@
     {
      "participantId": "soccer.fc-augsburg",
      "participantType": "team",
-     "rank": 12,
+     "rank": 13,
      "stats": {
       "GP": 9,
       "W": 2,
@@ -232,21 +247,6 @@
       "GF": 20,
       "GA": 20,
       "GD": 0,
-      "PTS": 9
-     }
-    },
-    {
-     "participantId": "soccer.vfb-stuttgart",
-     "participantType": "team",
-     "rank": 13,
-     "stats": {
-      "GP": 8,
-      "W": 3,
-      "D": 0,
-      "L": 5,
-      "GF": 14,
-      "GA": 15,
-      "GD": -1,
       "PTS": 9
      }
     },

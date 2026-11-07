@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-11-07T01:56:07Z",
+ "updatedAt": "2026-11-07T21:49:58Z",
  "sources": [
   "espn"
  ],
@@ -35,9 +35,30 @@
      }
     },
     {
-     "participantId": "soccer.lille",
+     "participantId": "soccer.paris-fc",
      "participantType": "team",
      "rank": 2,
+     "stats": {
+      "GP": 10,
+      "W": 6,
+      "D": 2,
+      "L": 2,
+      "GF": 17,
+      "GA": 10,
+      "GD": 7,
+      "PTS": 20
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.lille",
+     "participantType": "team",
+     "rank": 3,
      "stats": {
       "GP": 9,
       "W": 5,
@@ -58,7 +79,7 @@
     {
      "participantId": "soccer.lyon",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 9,
       "W": 5,
@@ -67,27 +88,6 @@
       "GF": 15,
       "GA": 7,
       "GD": 8,
-      "PTS": 17
-     },
-     "extra": {
-      "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.paris-fc",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 9,
-      "W": 5,
-      "D": 2,
-      "L": 2,
-      "GF": 16,
-      "GA": 10,
-      "GD": 6,
       "PTS": 17
      },
      "extra": {
@@ -255,13 +255,13 @@
      "participantType": "team",
      "rank": 14,
      "stats": {
-      "GP": 9,
+      "GP": 10,
       "W": 3,
       "D": 1,
-      "L": 5,
+      "L": 6,
       "GF": 13,
-      "GA": 23,
-      "GD": -10,
+      "GA": 24,
+      "GD": -11,
       "PTS": 10
      }
     },
