@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lbprc:2026-27",
- "updatedAt": "2026-11-06T06:42:15Z",
+ "updatedAt": "2026-11-07T08:46:43Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,18 +18,18 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 2,
-      "W": 2,
+      "GP": 3,
+      "W": 3,
       "L": 0,
       "PCT": 1.0,
-      "GB": -1.0,
-      "STRK": "W2",
-      "L10": "2-0",
-      "HOME": "1-0",
+      "GB": -2.0,
+      "STRK": "W3",
+      "L10": "3-0",
+      "HOME": "2-0",
       "AWAY": "1-0",
-      "RS": 11,
-      "RA": 3,
-      "RD": 8
+      "RS": 21,
+      "RA": 8,
+      "RD": 13
      },
      "extra": {
       "leagueRank": "1"
@@ -40,25 +40,25 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 1,
+      "GP": 2,
       "W": 1,
-      "L": 0,
-      "PCT": 1.0,
+      "L": 1,
+      "PCT": 0.5,
       "GB": -0.5,
-      "STRK": "W1",
-      "L10": "1-0",
+      "STRK": "L1",
+      "L10": "1-1",
       "HOME": "1-0",
-      "AWAY": "0-0",
-      "RS": 4,
-      "RA": 1,
-      "RD": 3
+      "AWAY": "0-1",
+      "RS": 9,
+      "RA": 11,
+      "RD": -2
      },
      "extra": {
       "leagueRank": "2"
      }
     },
     {
-     "participantId": "baseball.cangrejeros-de-santurce",
+     "participantId": "baseball.criollos-de-caguas",
      "participantType": "team",
      "rank": 3,
      "stats": {
@@ -66,78 +66,77 @@
       "W": 1,
       "L": 1,
       "PCT": 0.5,
-      "STRK": "L1",
+      "GB": -0.5,
+      "STRK": "W1",
       "L10": "1-1",
       "HOME": "1-0",
       "AWAY": "0-1",
-      "RS": 4,
-      "RA": 6,
-      "RD": -2
+      "RS": 22,
+      "RA": 11,
+      "RD": 11
      },
      "extra": {
       "leagueRank": "3"
      }
     },
     {
-     "participantId": "baseball.leones-de-ponce",
+     "participantId": "baseball.indios-de-mayaguez",
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 2,
+      "GP": 3,
       "W": 1,
-      "L": 1,
-      "PCT": 0.5,
+      "L": 2,
+      "PCT": 0.333,
       "STRK": "W1",
-      "L10": "1-1",
-      "HOME": "1-0",
-      "AWAY": "0-1",
-      "RS": 6,
-      "RA": 4,
-      "RD": 2
+      "L10": "1-2",
+      "HOME": "0-1",
+      "AWAY": "1-1",
+      "RS": 11,
+      "RA": 18,
+      "RD": -7
      },
      "extra": {
       "leagueRank": "4"
      }
     },
     {
-     "participantId": "baseball.criollos-de-caguas",
+     "participantId": "baseball.leones-de-ponce",
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 1,
-      "W": 0,
-      "L": 1,
-      "PCT": 0.0,
-      "GB": 0.5,
+      "GP": 3,
+      "W": 1,
+      "L": 2,
+      "PCT": 0.333,
       "STRK": "L1",
-      "L10": "0-1",
-      "HOME": "0-0",
-      "AWAY": "0-1",
-      "RS": 1,
-      "RA": 4,
-      "RD": -3
+      "L10": "1-2",
+      "HOME": "1-0",
+      "AWAY": "0-2",
+      "RS": 13,
+      "RA": 25,
+      "RD": -12
      },
      "extra": {
       "leagueRank": "5"
      }
     },
     {
-     "participantId": "baseball.indios-de-mayaguez",
+     "participantId": "baseball.cangrejeros-de-santurce",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 2,
-      "W": 0,
+      "GP": 3,
+      "W": 1,
       "L": 2,
-      "PCT": 0.0,
-      "GB": 1.0,
+      "PCT": 0.333,
       "STRK": "L2",
-      "L10": "0-2",
-      "HOME": "0-1",
+      "L10": "1-2",
+      "HOME": "1-1",
       "AWAY": "0-1",
-      "RS": 3,
-      "RA": 11,
-      "RD": -8
+      "RS": 11,
+      "RA": 14,
+      "RD": -3
      },
      "extra": {
       "leagueRank": "6"

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.col-1:2026",
- "updatedAt": "2026-11-07T01:56:14Z",
+ "updatedAt": "2026-11-07T08:47:44Z",
  "sources": [
   "espn"
  ],
@@ -74,9 +74,24 @@
      }
     },
     {
-     "participantId": "soccer.independiente-santa-fe",
+     "participantId": "soccer.independiente-medellin",
      "participantType": "team",
      "rank": 5,
+     "stats": {
+      "GP": 18,
+      "W": 9,
+      "D": 2,
+      "L": 7,
+      "GF": 28,
+      "GA": 25,
+      "GD": 3,
+      "PTS": 29
+     }
+    },
+    {
+     "participantId": "soccer.independiente-santa-fe",
+     "participantType": "team",
+     "rank": 6,
      "stats": {
       "GP": 17,
       "W": 8,
@@ -91,7 +106,7 @@
     {
      "participantId": "soccer.millonarios",
      "participantType": "team",
-     "rank": 6,
+     "rank": 7,
      "stats": {
       "GP": 17,
       "W": 6,
@@ -101,21 +116,6 @@
       "GA": 14,
       "GD": 10,
       "PTS": 27
-     }
-    },
-    {
-     "participantId": "soccer.independiente-medellin",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 17,
-      "W": 8,
-      "D": 2,
-      "L": 7,
-      "GF": 25,
-      "GA": 25,
-      "GD": 0,
-      "PTS": 26
      }
     },
     {
@@ -303,13 +303,13 @@
      "participantType": "team",
      "rank": 20,
      "stats": {
-      "GP": 17,
+      "GP": 18,
       "W": 1,
       "D": 9,
-      "L": 7,
+      "L": 8,
       "GF": 17,
-      "GA": 25,
-      "GD": -8,
+      "GA": 28,
+      "GD": -11,
       "PTS": 12
      }
     }
