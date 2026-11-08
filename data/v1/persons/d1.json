@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "d1",
- "updatedAt": "2026-11-07T15:09:21Z",
+ "updatedAt": "2026-11-08T15:38:12Z",
  "persons": {
   "p.abraham-almonte.1989": {
    "id": "p.abraham-almonte.1989",
@@ -305,6 +305,26 @@
    "gender": "M",
    "externalIds": {
     "espn": "312908"
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  "p.bautista-pieroni.2008": {
+   "id": "p.bautista-pieroni.2008",
+   "name": {
+    "full": "Bautista Pieroni",
+    "first": "Bautista",
+    "last": "Pieroni"
+   },
+   "birthDate": "2008-07-23",
+   "nationalities": [
+    "AR"
+   ],
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "421860"
    },
    "sources": [
     "espn"
@@ -671,6 +691,35 @@
    },
    "sources": [
     "mlb-statsapi"
+   ]
+  },
+  "p.diosvel-ernesto-napoles-rengifo.1997": {
+   "id": "p.diosvel-ernesto-napoles-rengifo.1997",
+   "name": {
+    "full": "Diosvel Ernesto Nápoles Rengifo"
+   },
+   "birthDate": "1997-01-13",
+   "nationalities": [
+    "CU"
+   ],
+   "isCuban": true,
+   "cubanEvidence": [
+    "beisbolcubano.nationality"
+   ],
+   "gender": "M",
+   "body": {
+    "heightCm": 194.0,
+    "weightKg": 85.0
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "snb": "5547"
+   },
+   "sources": [
+    "beisbolcubano"
    ]
   },
   "p.dylan-pare-lemonnier-francophone": {

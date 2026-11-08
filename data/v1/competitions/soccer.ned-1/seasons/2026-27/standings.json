@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ned-1:2026-27",
- "updatedAt": "2026-11-08T01:27:24Z",
+ "updatedAt": "2026-11-08T15:37:31Z",
  "sources": [
   "espn"
  ],
@@ -18,13 +18,13 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 7,
       "D": 4,
-      "L": 0,
-      "GF": 33,
-      "GA": 12,
-      "GD": 21,
+      "L": 1,
+      "GF": 36,
+      "GA": 17,
+      "GD": 19,
       "PTS": 25
      },
      "extra": {
@@ -39,14 +39,14 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 7,
-      "D": 3,
+      "D": 4,
       "L": 1,
-      "GF": 30,
-      "GA": 13,
+      "GF": 32,
+      "GA": 15,
       "GD": 17,
-      "PTS": 24
+      "PTS": 25
      },
      "extra": {
       "note": {
@@ -56,9 +56,30 @@
      }
     },
     {
-     "participantId": "soccer.psv-eindhoven",
+     "participantId": "soccer.fc-twente",
      "participantType": "team",
      "rank": 3,
+     "stats": {
+      "GP": 12,
+      "W": 7,
+      "D": 3,
+      "L": 2,
+      "GF": 30,
+      "GA": 12,
+      "GD": 18,
+      "PTS": 24
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.psv-eindhoven",
+     "participantType": "team",
+     "rank": 4,
      "stats": {
       "GP": 11,
       "W": 7,
@@ -71,45 +92,24 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.fc-twente",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 11,
-      "W": 7,
-      "D": 2,
-      "L": 2,
-      "GF": 28,
-      "GA": 10,
-      "GD": 18,
-      "PTS": 23
-     },
-     "extra": {
-      "note": {
        "text": "Europa League qualifying",
        "color": "#B2BFD0"
       }
      }
     },
     {
-     "participantId": "soccer.az-alkmaar",
+     "participantId": "soccer.heerenveen",
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 6,
-      "D": 2,
+      "D": 3,
       "L": 3,
-      "GF": 20,
-      "GA": 13,
-      "GD": 7,
-      "PTS": 20
+      "GF": 24,
+      "GA": 16,
+      "GD": 8,
+      "PTS": 21
      },
      "extra": {
       "note": {
@@ -119,9 +119,24 @@
      }
     },
     {
-     "participantId": "soccer.fortuna-sittard",
+     "participantId": "soccer.az-alkmaar",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 11,
+      "W": 6,
+      "D": 2,
+      "L": 3,
+      "GF": 20,
+      "GA": 13,
+      "GD": 7,
+      "PTS": 20
+     }
+    },
+    {
+     "participantId": "soccer.fortuna-sittard",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 12,
       "W": 5,
@@ -131,21 +146,6 @@
       "GA": 20,
       "GD": 0,
       "PTS": 20
-     }
-    },
-    {
-     "participantId": "soccer.heerenveen",
-     "participantType": "team",
-     "rank": 7,
-     "stats": {
-      "GP": 11,
-      "W": 5,
-      "D": 3,
-      "L": 3,
-      "GF": 19,
-      "GA": 13,
-      "GD": 6,
-      "PTS": 18
      },
      "extra": {
       "note": {

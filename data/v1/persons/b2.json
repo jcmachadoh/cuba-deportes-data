@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "b2",
- "updatedAt": "2026-11-05T17:06:16Z",
+ "updatedAt": "2026-11-08T15:35:05Z",
  "persons": {
   "p.albert-millgramm.2004": {
    "id": "p.albert-millgramm.2004",
@@ -1438,6 +1438,31 @@
     "espn"
    ]
   },
+  "p.jose-ernesto-perez-naranjo.2006": {
+   "id": "p.jose-ernesto-perez-naranjo.2006",
+   "name": {
+    "full": "José Ernesto Pérez Naranjo"
+   },
+   "birthDate": "2006-05-04",
+   "nationalities": [
+    "CU"
+   ],
+   "isCuban": true,
+   "cubanEvidence": [
+    "beisbolcubano.nationality"
+   ],
+   "gender": "M",
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "snb": "10116"
+   },
+   "sources": [
+    "beisbolcubano"
+   ]
+  },
   "p.juan-enrique-rodriguez-cruz.1979": {
    "id": "p.juan-enrique-rodriguez-cruz.1979",
    "name": {
@@ -2359,6 +2384,34 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.tadeo-sanchez.2007": {
+   "id": "p.tadeo-sanchez.2007",
+   "name": {
+    "full": "Tadeo Sanchez",
+    "first": "Tadeo",
+    "last": "Sanchez"
+   },
+   "birthDate": "2007-10-28",
+   "birthPlace": {
+    "city": "Ciudad Obregon",
+    "country": "MX"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 182.9,
+    "weightKg": 71.7
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "842582"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.takero-kitano": {
