@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lbprc:2026-27",
- "updatedAt": "2026-11-07T08:46:43Z",
+ "updatedAt": "2026-11-08T01:26:29Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,18 +18,18 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 3,
-      "W": 3,
+      "GP": 4,
+      "W": 4,
       "L": 0,
       "PCT": 1.0,
-      "GB": -2.0,
-      "STRK": "W3",
-      "L10": "3-0",
+      "GB": -2.5,
+      "STRK": "W4",
+      "L10": "4-0",
       "HOME": "2-0",
-      "AWAY": "1-0",
-      "RS": 21,
-      "RA": 8,
-      "RD": 13
+      "AWAY": "2-0",
+      "RS": 26,
+      "RA": 12,
+      "RD": 14
      },
      "extra": {
       "leagueRank": "1"
@@ -101,30 +101,9 @@
      }
     },
     {
-     "participantId": "baseball.leones-de-ponce",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 3,
-      "W": 1,
-      "L": 2,
-      "PCT": 0.333,
-      "STRK": "L1",
-      "L10": "1-2",
-      "HOME": "1-0",
-      "AWAY": "0-2",
-      "RS": 13,
-      "RA": 25,
-      "RD": -12
-     },
-     "extra": {
-      "leagueRank": "5"
-     }
-    },
-    {
      "participantId": "baseball.cangrejeros-de-santurce",
      "participantType": "team",
-     "rank": 6,
+     "rank": 5,
      "stats": {
       "GP": 3,
       "W": 1,
@@ -137,6 +116,28 @@
       "RS": 11,
       "RA": 14,
       "RD": -3
+     },
+     "extra": {
+      "leagueRank": "5"
+     }
+    },
+    {
+     "participantId": "baseball.leones-de-ponce",
+     "participantType": "team",
+     "rank": 6,
+     "stats": {
+      "GP": 4,
+      "W": 1,
+      "L": 3,
+      "PCT": 0.25,
+      "GB": 0.5,
+      "STRK": "L2",
+      "L10": "1-3",
+      "HOME": "1-1",
+      "AWAY": "0-2",
+      "RS": 17,
+      "RA": 30,
+      "RD": -13
      },
      "extra": {
       "leagueRank": "6"
