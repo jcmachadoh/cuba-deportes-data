@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ned-1:2026-27",
- "updatedAt": "2026-11-08T15:37:31Z",
+ "updatedAt": "2026-11-08T22:05:54Z",
  "sources": [
   "espn"
  ],
@@ -14,9 +14,30 @@
    "name": "2026-2027 Dutch Eredivisie",
    "rows": [
     {
-     "participantId": "soccer.feyenoord-rotterdam",
+     "participantId": "soccer.psv-eindhoven",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 12,
+      "W": 8,
+      "D": 2,
+      "L": 2,
+      "GF": 40,
+      "GA": 15,
+      "GD": 25,
+      "PTS": 26
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.feyenoord-rotterdam",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 12,
       "W": 7,
@@ -37,7 +58,7 @@
     {
      "participantId": "soccer.ajax-amsterdam",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 12,
       "W": 7,
@@ -50,15 +71,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
       }
      }
     },
     {
      "participantId": "soccer.fc-twente",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 12,
       "W": 7,
@@ -71,45 +92,24 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.psv-eindhoven",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 11,
-      "W": 7,
-      "D": 2,
-      "L": 2,
-      "GF": 35,
-      "GA": 13,
-      "GD": 22,
-      "PTS": 23
-     },
-     "extra": {
-      "note": {
        "text": "Europa League qualifying",
        "color": "#B2BFD0"
       }
      }
     },
     {
-     "participantId": "soccer.heerenveen",
+     "participantId": "soccer.az-alkmaar",
      "participantType": "team",
      "rank": 5,
      "stats": {
       "GP": 12,
-      "W": 6,
-      "D": 3,
+      "W": 7,
+      "D": 2,
       "L": 3,
       "GF": 24,
       "GA": 16,
       "GD": 8,
-      "PTS": 21
+      "PTS": 23
      },
      "extra": {
       "note": {
@@ -119,18 +119,18 @@
      }
     },
     {
-     "participantId": "soccer.az-alkmaar",
+     "participantId": "soccer.heerenveen",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 6,
-      "D": 2,
+      "D": 3,
       "L": 3,
-      "GF": 20,
-      "GA": 13,
-      "GD": 7,
-      "PTS": 20
+      "GF": 24,
+      "GA": 16,
+      "GD": 8,
+      "PTS": 21
      }
     },
     {
@@ -174,13 +174,13 @@
      "participantType": "team",
      "rank": 9,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 4,
       "D": 3,
-      "L": 4,
-      "GF": 26,
-      "GA": 24,
-      "GD": 2,
+      "L": 5,
+      "GF": 29,
+      "GA": 28,
+      "GD": 1,
       "PTS": 15
      }
     },
@@ -189,29 +189,29 @@
      "participantType": "team",
      "rank": 10,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 4,
       "D": 3,
-      "L": 4,
-      "GF": 23,
-      "GA": 22,
-      "GD": 1,
+      "L": 5,
+      "GF": 25,
+      "GA": 27,
+      "GD": -2,
       "PTS": 15
      }
     },
     {
-     "participantId": "soccer.fc-utrecht",
+     "participantId": "soccer.nec-nijmegen",
      "participantType": "team",
      "rank": 11,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 3,
-      "D": 3,
-      "L": 5,
-      "GF": 19,
-      "GA": 31,
-      "GD": -12,
-      "PTS": 12
+      "D": 5,
+      "L": 4,
+      "GF": 20,
+      "GA": 21,
+      "GD": -1,
+      "PTS": 14
      }
     },
     {
@@ -245,18 +245,18 @@
      }
     },
     {
-     "participantId": "soccer.nec-nijmegen",
+     "participantId": "soccer.fc-utrecht",
      "participantType": "team",
      "rank": 14,
      "stats": {
-      "GP": 11,
-      "W": 2,
-      "D": 5,
-      "L": 4,
-      "GF": 17,
-      "GA": 19,
-      "GD": -2,
-      "PTS": 11
+      "GP": 12,
+      "W": 3,
+      "D": 3,
+      "L": 6,
+      "GF": 21,
+      "GA": 34,
+      "GD": -13,
+      "PTS": 12
      }
     },
     {
