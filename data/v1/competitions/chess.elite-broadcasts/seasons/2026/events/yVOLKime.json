@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:yVOLKime",
- "updatedAt": "2026-11-09T19:27:55Z",
+ "updatedAt": "2026-11-09T21:07:04Z",
  "sources": [
   "lichess"
  ],
@@ -51,7 +51,7 @@
    {
     "name": "Round 6",
     "startsAt": 1794233700000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 7",
@@ -83,10 +83,35 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.pavel-kotsur",
+   "participantId": "p.kiril-georgiev",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 5.5,
+    "ELO": 2512,
+    "GP": 6
+   },
+   "person": {
+    "id": "p.kiril-georgiev",
+    "name": {
+     "full": "Kiril Georgiev"
+    },
+    "nationalities": [
+     "BG"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2691
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.pavel-kotsur",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
     "PTS": 5.5,
     "ELO": 2484,
     "GP": 6
@@ -104,31 +129,6 @@
    },
    "extra": {
     "performance": 2685
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.kiril-georgiev",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 4.5,
-    "ELO": 2512,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.kiril-georgiev",
-    "name": {
-     "full": "Kiril Georgiev"
-    },
-    "nationalities": [
-     "BG"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2638
    }
   },
   {
@@ -314,7 +314,7 @@
     "RANK": 10,
     "PTS": 4.0,
     "ELO": 2381,
-    "GP": 5
+    "GP": 6
    },
    "person": {
     "id": "p.mikheil-kekelidze",
@@ -328,7 +328,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2467
+    "performance": 2400
    }
   },
   {
