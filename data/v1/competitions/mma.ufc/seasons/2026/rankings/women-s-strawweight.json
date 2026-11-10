@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:women-s-strawweight",
- "updatedAt": "2026-11-10T04:07:38Z",
+ "updatedAt": "2026-11-10T20:50:21Z",
  "sources": [
   "ufc.com"
  ],
@@ -118,26 +118,10 @@
   },
   {
    "rank": 6,
-   "participantId": "p.yan-xiaonan",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6
-   },
-   "person": {
-    "id": "p.yan-xiaonan",
-    "name": {
-     "full": "Yan Xiaonan"
-    },
-    "isCuban": false,
-    "birthCountry": "CN"
-   }
-  },
-  {
-   "rank": 7,
    "participantId": "p.fatima-kline",
    "participantType": "person",
    "stats": {
-    "RANK": 7
+    "RANK": 6
    },
    "person": {
     "id": "p.fatima-kline",
@@ -146,6 +130,28 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.yan-xiaonan",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7
+   },
+   "person": {
+    "id": "p.yan-xiaonan",
+    "name": {
+     "full": "Yan Xiaonan"
+    },
+    "isCuban": false,
+    "birthCountry": "CN"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
@@ -194,17 +200,33 @@
     },
     "isCuban": false,
     "birthCountry": "BR"
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.amanda-lemos",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11
+   },
+   "person": {
+    "id": "p.amanda-lemos",
+    "name": {
+     "full": "Amanda Lemos"
+    },
+    "isCuban": false,
+    "birthCountry": "BR"
    },
    "extra": {
     "trend": 1
    }
   },
   {
-   "rank": 11,
+   "rank": 12,
    "participantId": "p.jessica-andrade",
    "participantType": "person",
    "stats": {
-    "RANK": 11
+    "RANK": 12
    },
    "person": {
     "id": "p.jessica-andrade",
@@ -216,22 +238,6 @@
    },
    "extra": {
     "trend": -1
-   }
-  },
-  {
-   "rank": 12,
-   "participantId": "p.amanda-lemos",
-   "participantType": "person",
-   "stats": {
-    "RANK": 12
-   },
-   "person": {
-    "id": "p.amanda-lemos",
-    "name": {
-     "full": "Amanda Lemos"
-    },
-    "isCuban": false,
-    "birthCountry": "BR"
    }
   },
   {
@@ -252,10 +258,25 @@
   },
   {
    "rank": 14,
-   "participantId": "p.angela-hill",
+   "participantId": "p.piera-rodriguez",
    "participantType": "person",
    "stats": {
     "RANK": 14
+   },
+   "person": {
+    "id": "p.piera-rodriguez",
+    "name": {
+     "full": "Piera Rodriguez"
+    },
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.angela-hill",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15
    },
    "person": {
     "id": "p.angela-hill",
@@ -264,22 +285,9 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 15,
-   "participantId": "p.mizuki",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15
    },
-   "person": {
-    "id": "p.mizuki",
-    "name": {
-     "full": "Mizuki"
-    },
-    "isCuban": false,
-    "birthCountry": "JP"
+   "extra": {
+    "trend": -1
    }
   }
  ]

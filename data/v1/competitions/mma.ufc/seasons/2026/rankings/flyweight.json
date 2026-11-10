@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:flyweight",
- "updatedAt": "2026-11-10T04:07:38Z",
+ "updatedAt": "2026-11-10T20:50:21Z",
  "sources": [
   "ufc.com"
  ],
@@ -214,6 +214,25 @@
   },
   {
    "rank": 12,
+   "participantId": "p.sumudaerji",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12
+   },
+   "person": {
+    "id": "p.sumudaerji",
+    "name": {
+     "full": "Sumudaerji"
+    },
+    "isCuban": false,
+    "birthCountry": "CN"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 12,
    "participantId": "p.steve-erceg",
    "participantType": "person",
    "stats": {
@@ -229,27 +248,26 @@
    }
   },
   {
-   "rank": 13,
-   "participantId": "p.sumudaerji",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13
-   },
-   "person": {
-    "id": "p.sumudaerji",
-    "name": {
-     "full": "Sumudaerji"
-    },
-    "isCuban": false,
-    "birthCountry": "CN"
-   }
-  },
-  {
    "rank": 14,
-   "participantId": "p.tagir-ulanbekov",
+   "participantId": "p.charles-johnson",
    "participantType": "person",
    "stats": {
     "RANK": 14
+   },
+   "person": {
+    "id": "p.charles-johnson",
+    "name": {
+     "full": "Charles Johnson"
+    },
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.tagir-ulanbekov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15
    },
    "person": {
     "id": "p.tagir-ulanbekov",
@@ -258,22 +276,9 @@
     },
     "isCuban": false,
     "birthCountry": "RU"
-   }
-  },
-  {
-   "rank": 15,
-   "participantId": "p.alex-perez",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15
    },
-   "person": {
-    "id": "p.alex-perez",
-    "name": {
-     "full": "Alex Perez"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
+   "extra": {
+    "trend": -1
    }
   }
  ]

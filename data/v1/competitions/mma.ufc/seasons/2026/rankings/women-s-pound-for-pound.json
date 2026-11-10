@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:women-s-pound-for-pound",
- "updatedAt": "2026-11-10T04:07:38Z",
+ "updatedAt": "2026-11-10T20:50:21Z",
  "sources": [
   "ufc.com"
  ],
@@ -227,26 +227,10 @@
   },
   {
    "rank": 14,
-   "participantId": "p.raquel-pennington",
-   "participantType": "person",
-   "stats": {
-    "RANK": 14
-   },
-   "person": {
-    "id": "p.raquel-pennington",
-    "name": {
-     "full": "Raquel Pennington"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 15,
    "participantId": "p.denise-gomes",
    "participantType": "person",
    "stats": {
-    "RANK": 15
+    "RANK": 14
    },
    "person": {
     "id": "p.denise-gomes",
@@ -255,6 +239,28 @@
     },
     "isCuban": false,
     "birthCountry": "BR"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.raquel-pennington",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15
+   },
+   "person": {
+    "id": "p.raquel-pennington",
+    "name": {
+     "full": "Raquel Pennington"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
    }
   }
  ]

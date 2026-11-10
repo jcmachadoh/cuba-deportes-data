@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:light-heavyweight",
- "updatedAt": "2026-11-10T04:07:38Z",
+ "updatedAt": "2026-11-10T20:50:21Z",
  "sources": [
   "ufc.com"
  ],
@@ -166,26 +166,10 @@
   },
   {
    "rank": 9,
-   "participantId": "p.jan-b-achowicz",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9
-   },
-   "person": {
-    "id": "p.jan-b-achowicz",
-    "name": {
-     "full": "Jan Błachowicz"
-    },
-    "isCuban": false,
-    "birthCountry": "PL"
-   }
-  },
-  {
-   "rank": 10,
    "participantId": "p.azamat-murzakanov",
    "participantType": "person",
    "stats": {
-    "RANK": 10
+    "RANK": 9
    },
    "person": {
     "id": "p.azamat-murzakanov",
@@ -194,14 +178,17 @@
     },
     "isCuban": false,
     "birthCountry": "RU"
+   },
+   "extra": {
+    "trend": 1
    }
   },
   {
-   "rank": 11,
+   "rank": 10,
    "participantId": "p.robert-whittaker",
    "participantType": "person",
    "stats": {
-    "RANK": 11
+    "RANK": 10
    },
    "person": {
     "id": "p.robert-whittaker",
@@ -210,6 +197,28 @@
     },
     "isCuban": false,
     "birthCountry": "AU"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.jan-b-achowicz",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11
+   },
+   "person": {
+    "id": "p.jan-b-achowicz",
+    "name": {
+     "full": "Jan Błachowicz"
+    },
+    "isCuban": false,
+    "birthCountry": "PL"
+   },
+   "extra": {
+    "trend": -2
    }
   },
   {
