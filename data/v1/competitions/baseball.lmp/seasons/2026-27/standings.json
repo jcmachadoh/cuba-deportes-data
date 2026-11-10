@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lmp:2026-27",
- "updatedAt": "2026-11-09T09:49:04Z",
+ "updatedAt": "2026-11-10T12:38:34Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -58,9 +58,31 @@
      }
     },
     {
-     "participantId": "baseball.yaquis-de-obregon",
+     "participantId": "baseball.naranjeros-de-hermosillo",
      "participantType": "team",
      "rank": 3,
+     "stats": {
+      "GP": 23,
+      "W": 13,
+      "L": 10,
+      "PCT": 0.565,
+      "GB": -2.0,
+      "STRK": "W2",
+      "L10": "5-5",
+      "HOME": "6-4",
+      "AWAY": "7-6",
+      "RS": 127,
+      "RA": 95,
+      "RD": 32
+     },
+     "extra": {
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.yaquis-de-obregon",
+     "participantType": "team",
+     "rank": 4,
      "stats": {
       "GP": 23,
       "W": 13,
@@ -74,28 +96,6 @@
       "RS": 111,
       "RA": 87,
       "RD": 24
-     },
-     "extra": {
-      "leagueRank": "3"
-     }
-    },
-    {
-     "participantId": "baseball.naranjeros-de-hermosillo",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 22,
-      "W": 12,
-      "L": 10,
-      "PCT": 0.545,
-      "GB": -1.5,
-      "STRK": "W1",
-      "L10": "4-6",
-      "HOME": "6-4",
-      "AWAY": "6-6",
-      "RS": 118,
-      "RA": 93,
-      "RD": 25
      },
      "extra": {
       "leagueRank": "4"
@@ -166,31 +166,9 @@
      }
     },
     {
-     "participantId": "baseball.caneros-de-los-mochis",
-     "participantType": "team",
-     "rank": 8,
-     "stats": {
-      "GP": 22,
-      "W": 9,
-      "L": 13,
-      "PCT": 0.409,
-      "GB": 1.5,
-      "STRK": "L1",
-      "L10": "5-5",
-      "HOME": "4-5",
-      "AWAY": "5-8",
-      "RS": 106,
-      "RA": 108,
-      "RD": -2
-     },
-     "extra": {
-      "leagueRank": "8"
-     }
-    },
-    {
      "participantId": "baseball.jaguares-de-nayarit",
      "participantType": "team",
-     "rank": 9,
+     "rank": 8,
      "stats": {
       "GP": 23,
       "W": 9,
@@ -204,6 +182,28 @@
       "RS": 107,
       "RA": 145,
       "RD": -38
+     },
+     "extra": {
+      "leagueRank": "8"
+     }
+    },
+    {
+     "participantId": "baseball.caneros-de-los-mochis",
+     "participantType": "team",
+     "rank": 9,
+     "stats": {
+      "GP": 23,
+      "W": 9,
+      "L": 14,
+      "PCT": 0.391,
+      "GB": 2.0,
+      "STRK": "L2",
+      "L10": "5-5",
+      "HOME": "4-6",
+      "AWAY": "5-8",
+      "RS": 108,
+      "RA": 117,
+      "RD": -9
      },
      "extra": {
       "leagueRank": "9"
