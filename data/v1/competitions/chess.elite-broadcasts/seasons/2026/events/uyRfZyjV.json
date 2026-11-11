@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:uyRfZyjV",
- "updatedAt": "2026-11-11T16:52:44Z",
+ "updatedAt": "2026-11-11T18:17:33Z",
  "sources": [
   "lichess"
  ],
@@ -61,7 +61,7 @@
    {
     "name": "Round 8",
     "startsAt": 1794402900000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 9",
@@ -73,10 +73,35 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.pawel-sowinski",
+   "participantId": "p.vahe-a-sukiasyan",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 7.0,
+    "ELO": 2418,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.vahe-a-sukiasyan",
+    "name": {
+     "full": "Vahe A. Sukiasyan"
+    },
+    "nationalities": [
+     "AM"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2683
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.pawel-sowinski",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
     "PTS": 6.0,
     "ELO": 2473,
     "GP": 8
@@ -97,14 +122,14 @@
    }
   },
   {
-   "rank": 2,
+   "rank": 3,
    "participantId": "p.tunar-davudov",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 3,
     "PTS": 6.0,
     "ELO": 2430,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.tunar-davudov",
@@ -118,32 +143,7 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2630
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.vahe-a-sukiasyan",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 6.0,
-    "ELO": 2418,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.vahe-a-sukiasyan",
-    "name": {
-     "full": "Vahe A. Sukiasyan"
-    },
-    "nationalities": [
-     "AM"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2644
+    "performance": 2526
    }
   },
   {
@@ -178,9 +178,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 5,
-    "PTS": 3.5,
+    "PTS": 4.5,
     "ELO": 2446,
-    "GP": 5
+    "GP": 6
    },
    "person": {
     "id": "p.can-durak",
@@ -194,18 +194,43 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2490
+    "performance": 2539
    }
   },
   {
    "rank": 6,
-   "participantId": "p.yaroslav-shevchenko",
+   "participantId": "p.dawid-jasiulewicz",
    "participantType": "person",
    "stats": {
     "RANK": 6,
-    "PTS": 3.5,
-    "ELO": 2391,
+    "PTS": 4.5,
+    "ELO": 2243,
     "GP": 6
+   },
+   "person": {
+    "id": "p.dawid-jasiulewicz",
+    "name": {
+     "full": "Dawid Jasiulewicz"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2600
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.yaroslav-shevchenko",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 4.0,
+    "ELO": 2391,
+    "GP": 7
    },
    "person": {
     "id": "p.yaroslav-shevchenko",
@@ -223,39 +248,14 @@
    }
   },
   {
-   "rank": 7,
-   "participantId": "p.dawid-jasiulewicz",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 3.5,
-    "ELO": 2243,
-    "GP": 5
-   },
-   "person": {
-    "id": "p.dawid-jasiulewicz",
-    "name": {
-     "full": "Dawid Jasiulewicz"
-    },
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2559
-   }
-  },
-  {
    "rank": 8,
    "participantId": "p.vache-hovakimyan",
    "participantType": "person",
    "stats": {
     "RANK": 8,
-    "PTS": 2.5,
+    "PTS": 3.0,
     "ELO": 2426,
-    "GP": 5
+    "GP": 6
    },
    "person": {
     "id": "p.vache-hovakimyan",
@@ -269,15 +269,65 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2349
+    "performance": 2356
    }
   },
   {
    "rank": 9,
-   "participantId": "p.roy-vagman",
+   "participantId": "p.feliks-tulchynskyi",
    "participantType": "person",
    "stats": {
     "RANK": 9,
+    "PTS": 2.5,
+    "ELO": 2429,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.feliks-tulchynskyi",
+    "name": {
+     "full": "Feliks Tulchynskyi"
+    },
+    "nationalities": [
+     "IL"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2311
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.vitus-bondo-medhus",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 2.5,
+    "ELO": 2396,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.vitus-bondo-medhus",
+    "name": {
+     "full": "Vitus Bondo Medhus"
+    },
+    "nationalities": [
+     "DK"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2415
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.roy-vagman",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11,
     "PTS": 2.5,
     "ELO": 2355,
     "GP": 4
@@ -298,11 +348,11 @@
    }
   },
   {
-   "rank": 10,
+   "rank": 12,
    "participantId": "p.rustam-rustamov",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
+    "RANK": 12,
     "PTS": 2.0,
     "ELO": 2413,
     "GP": 5
@@ -323,39 +373,14 @@
    }
   },
   {
-   "rank": 11,
-   "participantId": "p.vitus-bondo-medhus",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "PTS": 2.0,
-    "ELO": 2396,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.vitus-bondo-medhus",
-    "name": {
-     "full": "Vitus Bondo Medhus"
-    },
-    "nationalities": [
-     "DK"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2429
-   }
-  },
-  {
-   "rank": 12,
+   "rank": 13,
    "participantId": "p.antoni-radzimski",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 13,
     "PTS": 2.0,
     "ELO": 2392,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.antoni-radzimski",
@@ -369,18 +394,18 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2500
+    "performance": 2342
    }
   },
   {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.farid-orujov",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 14,
     "PTS": 2.0,
     "ELO": 2369,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.farid-orujov",
@@ -394,15 +419,40 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 3153
+    "performance": 2509
    }
   },
   {
-   "rank": 14,
+   "rank": 15,
+   "participantId": "p.jan-zienkiewicz",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
+    "PTS": 2.0,
+    "ELO": 2367,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.jan-zienkiewicz",
+    "name": {
+     "full": "Jan Zienkiewicz"
+    },
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2474
+   }
+  },
+  {
+   "rank": 16,
    "participantId": "p.mikhail-gusev",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 16,
     "PTS": 2.0,
     "ELO": 2251,
     "GP": 3
@@ -423,36 +473,11 @@
    }
   },
   {
-   "rank": 15,
-   "participantId": "p.feliks-tulchynskyi",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15,
-    "PTS": 1.5,
-    "ELO": 2429,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.feliks-tulchynskyi",
-    "name": {
-     "full": "Feliks Tulchynskyi"
-    },
-    "nationalities": [
-     "IL"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2200
-   }
-  },
-  {
-   "rank": 16,
+   "rank": 17,
    "participantId": "p.philipp-leon-klaska",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 17,
     "PTS": 1.5,
     "ELO": 2379,
     "GP": 2
@@ -470,31 +495,6 @@
    },
    "extra": {
     "performance": 2499
-   }
-  },
-  {
-   "rank": 17,
-   "participantId": "p.jan-zienkiewicz",
-   "participantType": "person",
-   "stats": {
-    "RANK": 17,
-    "PTS": 1.5,
-    "ELO": 2367,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.jan-zienkiewicz",
-    "name": {
-     "full": "Jan Zienkiewicz"
-    },
-    "nationalities": [
-     "FR"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2518
    }
   },
   {
@@ -605,7 +605,7 @@
     "RANK": 22,
     "PTS": 1.0,
     "ELO": 2406,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.adam-zielonka",
@@ -619,7 +619,7 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2307
+    "performance": 2223
    }
   },
   {

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:VVoR4udb",
- "updatedAt": "2026-11-11T16:52:44Z",
+ "updatedAt": "2026-11-11T18:17:33Z",
  "sources": [
   "lichess"
  ],
@@ -24,52 +24,52 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=O1ja5I4Zyey6.webp&w=800&sig=ce3e640f4c70340b43dfb0134a7067ae46cae878",
   "rounds": [
    {
-    "name": "Ronda 1",
+    "name": "Round 1",
     "startsAt": 1794409200000,
     "finished": true
    },
    {
-    "name": "Ronda 2",
+    "name": "Round 2",
     "startsAt": 1794414600000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Ronda 3",
+    "name": "Round 3",
     "startsAt": 1794420000000,
     "finished": null
    },
    {
-    "name": "Ronda 4",
+    "name": "Round 4",
     "startsAt": 1794495600000,
     "finished": null
    },
    {
-    "name": "Ronda 5",
+    "name": "Round 5",
     "startsAt": 1794501000000,
     "finished": null
    },
    {
-    "name": "Ronda 6",
+    "name": "Round 6",
     "startsAt": 1794506400000,
     "finished": null
    },
    {
-    "name": "Ronda 7",
+    "name": "Round 7",
     "startsAt": 1794585600000,
     "finished": null
    },
    {
-    "name": "Ronda 8",
+    "name": "Round 8",
     "startsAt": 1794591000000,
     "finished": null
    },
    {
-    "name": "Ronda 9",
+    "name": "Round 9",
     "startsAt": 1794672000000,
     "finished": null
    },
    {
-    "name": "Ronda 10",
+    "name": "Round 10",
     "startsAt": 1794677400000,
     "finished": null
    }
@@ -82,9 +82,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 1.0,
+    "PTS": 2.0,
     "ELO": 2638,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.francisco-vallejo-pons",
@@ -98,44 +98,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2943
+    "performance": 3178
    }
   },
   {
    "rank": 2,
-   "participantId": "p.jose-eduardo-martinez-alcantara.1999",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 1.0,
-    "ELO": 2614,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.jose-eduardo-martinez-alcantara.1999",
-    "name": {
-     "full": "Jose Eduardo Martinez Alcantara"
-    },
-    "birthDate": "1999",
-    "nationalities": [
-     "MX"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3059
-   }
-  },
-  {
-   "rank": 3,
    "participantId": "p.loek-van-wely.1972",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 0.5,
+    "RANK": 2,
+    "PTS": 1.5,
     "ELO": 2556,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.loek-van-wely.1972",
@@ -150,7 +124,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2403
+    "performance": 2524
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.jose-eduardo-martinez-alcantara.1999",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 1.0,
+    "ELO": 2614,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.jose-eduardo-martinez-alcantara.1999",
+    "name": {
+     "full": "Jose Eduardo Martinez Alcantara"
+    },
+    "birthDate": "1999",
+    "nationalities": [
+     "MX"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2448
    }
   },
   {
@@ -159,9 +159,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 4,
-    "PTS": 0.5,
+    "PTS": 1.0,
     "ELO": 2403,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.elisabeth-paehtz.1985",
@@ -176,44 +176,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2556
+    "performance": 2349
    }
   },
   {
    "rank": 5,
-   "participantId": "p.bodhana-sivanandan.2015",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 0.0,
-    "ELO": 2259,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.bodhana-sivanandan.2015",
-    "name": {
-     "full": "Bodhana Sivanandan"
-    },
-    "birthDate": "2015",
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 1814
-   }
-  },
-  {
-   "rank": 6,
    "participantId": "p.anastasiia-hnatyshyn.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
-    "PTS": 0.0,
+    "RANK": 5,
+    "PTS": 0.5,
     "ELO": 2143,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.anastasiia-hnatyshyn.2010",
@@ -228,7 +202,33 @@
     "title": "WFM"
    },
    "extra": {
-    "performance": 1838
+    "performance": 2327
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.bodhana-sivanandan.2015",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 0.0,
+    "ELO": 2259,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.bodhana-sivanandan.2015",
+    "name": {
+     "full": "Bodhana Sivanandan"
+    },
+    "birthDate": "2015",
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 1785
    }
   }
  ]
