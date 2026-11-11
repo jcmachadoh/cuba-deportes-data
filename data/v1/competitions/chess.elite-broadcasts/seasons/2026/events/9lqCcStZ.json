@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:9lqCcStZ",
- "updatedAt": "2026-11-11T09:26:13Z",
+ "updatedAt": "2026-11-11T16:52:44Z",
  "sources": [
   "lichess"
  ],
@@ -26,7 +26,7 @@
    {
     "name": "Round 1",
     "startsAt": 1794405600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 2",
@@ -78,34 +78,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.nodirbek-abdusattorov.2004",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "ELO": 2772,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.nodirbek-abdusattorov.2004",
-    "name": {
-     "full": "Nodirbek Abdusattorov"
-    },
-    "birthDate": "2004",
-    "nationalities": [
-     "UZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.alireza-firouzja.2003",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 1,
+    "PTS": 3.0,
     "ELO": 2757,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.alireza-firouzja.2003",
@@ -118,38 +97,20 @@
     ],
     "isCuban": false,
     "title": "GM"
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.jan-krzysztof-duda.1998",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "ELO": 2741,
-    "GP": 0
    },
-   "person": {
-    "id": "p.jan-krzysztof-duda.1998",
-    "name": {
-     "full": "Jan-Krzysztof Duda"
-    },
-    "birthDate": "1998",
-    "nationalities": [
-     "PL"
-    ],
-    "isCuban": false,
-    "title": "GM"
+   "extra": {
+    "performance": 3572
    }
   },
   {
-   "rank": 4,
+   "rank": 2,
    "participantId": "p.levon-aronian.1982",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 2,
+    "PTS": 3.0,
     "ELO": 2719,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.levon-aronian.1982",
@@ -162,16 +123,97 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 3515
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.jan-krzysztof-duda.1998",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 1.0,
+    "ELO": 2741,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.jan-krzysztof-duda.1998",
+    "name": {
+     "full": "Jan-Krzysztof Duda"
+    },
+    "birthDate": "1998",
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2609
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.andrew-hong",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 1.0,
+    "ELO": 2609,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.andrew-hong",
+    "name": {
+     "full": "Andrew Hong"
+    },
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2741
    }
   },
   {
    "rank": 5,
-   "participantId": "p.jorden-van-foreest.1999",
+   "participantId": "p.nodirbek-abdusattorov.2004",
    "participantType": "person",
    "stats": {
     "RANK": 5,
+    "PTS": 0.0,
+    "ELO": 2772,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.nodirbek-abdusattorov.2004",
+    "name": {
+     "full": "Nodirbek Abdusattorov"
+    },
+    "birthDate": "2004",
+    "nationalities": [
+     "UZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 1957
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.jorden-van-foreest.1999",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 0.0,
     "ELO": 2715,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.jorden-van-foreest.1999",
@@ -184,27 +226,9 @@
     ],
     "isCuban": false,
     "title": "GM"
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.andrew-hong",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "ELO": 2609,
-    "GP": 0
    },
-   "person": {
-    "id": "p.andrew-hong",
-    "name": {
-     "full": "Andrew Hong"
-    },
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "GM"
+   "extra": {
+    "performance": 1919
    }
   }
  ]
