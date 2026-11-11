@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:xMYJnmR6",
- "updatedAt": "2026-11-11T02:19:24Z",
+ "updatedAt": "2026-11-11T09:26:13Z",
  "sources": [
   "lichess"
  ],
@@ -24,47 +24,47 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=MxhV-G6TpmhC.webp&w=800&sig=4eb84c51b48cdeb8f0964afe6f1ccfc9921d249a",
   "rounds": [
    {
-    "name": "Ronda 1",
+    "name": "Round 1",
     "startsAt": 1793866500000,
     "finished": true
    },
    {
-    "name": "Ronda 2",
+    "name": "Round 2",
     "startsAt": 1793927700000,
     "finished": true
    },
    {
-    "name": "Ronda 3",
+    "name": "Round 3",
     "startsAt": 1793952900000,
     "finished": true
    },
    {
-    "name": "Ronda 4",
+    "name": "Round 4",
     "startsAt": 1794017700000,
     "finished": true
    },
    {
-    "name": "Ronda 5",
+    "name": "Round 5",
     "startsAt": 1794190500000,
     "finished": true
    },
    {
-    "name": "Ronda 6",
+    "name": "Round 6",
     "startsAt": 1794212100000,
     "finished": true
    },
    {
-    "name": "Ronda 7",
+    "name": "Round 7",
     "startsAt": 1794298500000,
     "finished": true
    },
    {
-    "name": "Ronda 8",
+    "name": "Round 8",
     "startsAt": 1794384900000,
     "finished": null
    },
    {
-    "name": "Ronda 9",
+    "name": "Round 9",
     "startsAt": 1794449700000,
     "finished": null
    }
@@ -98,10 +98,35 @@
   },
   {
    "rank": 2,
-   "participantId": "p.genivan-genkeswaran",
+   "participantId": "p.ree-herng-shen",
    "participantType": "person",
    "stats": {
     "RANK": 2,
+    "PTS": 5.0,
+    "ELO": 1976,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.ree-herng-shen",
+    "name": {
+     "full": "Ree Herng Shen"
+    },
+    "nationalities": [
+     "MY"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "performance": 2302
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.genivan-genkeswaran",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
     "PTS": 4.5,
     "ELO": 2162,
     "GP": 6
@@ -122,11 +147,11 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.amir-tulegenov",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 4,
     "PTS": 4.5,
     "ELO": 2110,
     "GP": 6
@@ -146,11 +171,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 5,
    "participantId": "p.arman-ghevondyan",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 5,
     "PTS": 4.0,
     "ELO": 2218,
     "GP": 6
@@ -171,11 +196,11 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 6,
    "participantId": "p.tran-pham-quang-minh",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 6,
     "PTS": 4.0,
     "ELO": 2135,
     "GP": 6
@@ -196,11 +221,11 @@
    }
   },
   {
-   "rank": 6,
+   "rank": 7,
    "participantId": "p.avazbek-ishbaev",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
+    "RANK": 7,
     "PTS": 4.0,
     "ELO": 2106,
     "GP": 6
@@ -220,11 +245,11 @@
    }
   },
   {
-   "rank": 7,
+   "rank": 8,
    "participantId": "p.balgan-bayarmandakh",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
+    "RANK": 8,
     "PTS": 4.0,
     "ELO": 2087,
     "GP": 5
@@ -242,31 +267,6 @@
    },
    "extra": {
     "performance": 2362
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.ree-herng-shen",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 4.0,
-    "ELO": 1976,
-    "GP": 6
-   },
-   "person": {
-    "id": "p.ree-herng-shen",
-    "name": {
-     "full": "Ree Herng Shen"
-    },
-    "nationalities": [
-     "MY"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "performance": 2302
    }
   },
   {
@@ -1246,7 +1246,7 @@
     "RANK": 49,
     "PTS": 0.0,
     "ELO": 2077,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.bakdaulet-saidulla",
