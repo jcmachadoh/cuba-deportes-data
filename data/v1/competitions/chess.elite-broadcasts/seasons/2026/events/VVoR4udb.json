@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:VVoR4udb",
- "updatedAt": "2026-11-12T01:05:35Z",
+ "updatedAt": "2026-11-12T17:20:11Z",
  "sources": [
   "lichess"
  ],
@@ -41,7 +41,7 @@
    {
     "name": "Round 4",
     "startsAt": 1794495600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 5",
@@ -82,9 +82,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 3.0,
+    "PTS": 4.0,
     "ELO": 2638,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.francisco-vallejo-pons",
@@ -98,7 +98,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 3237
+    "performance": 3229
    }
   },
   {
@@ -107,9 +107,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 2.0,
+    "PTS": 3.0,
     "ELO": 2614,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.jose-eduardo-martinez-alcantara.1999",
@@ -124,7 +124,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2471
+    "performance": 2592
    }
   },
   {
@@ -135,7 +135,7 @@
     "RANK": 3,
     "PTS": 1.5,
     "ELO": 2556,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.loek-van-wely.1972",
@@ -150,44 +150,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2433
+    "performance": 2391
    }
   },
   {
    "rank": 4,
-   "participantId": "p.elisabeth-paehtz.1985",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 1.0,
-    "ELO": 2403,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.elisabeth-paehtz.1985",
-    "name": {
-     "full": "Elisabeth Paehtz"
-    },
-    "birthDate": "1985",
-    "nationalities": [
-     "DE"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2194
-   }
-  },
-  {
-   "rank": 5,
    "participantId": "p.bodhana-sivanandan.2015",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 1.0,
+    "RANK": 4,
+    "PTS": 1.5,
     "ELO": 2259,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.bodhana-sivanandan.2015",
@@ -202,7 +176,33 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2399
+    "performance": 2342
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.elisabeth-paehtz.1985",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 1.0,
+    "ELO": 2403,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.elisabeth-paehtz.1985",
+    "name": {
+     "full": "Elisabeth Paehtz"
+    },
+    "birthDate": "1985",
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2206
    }
   },
   {
@@ -211,9 +211,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 6,
-    "PTS": 0.5,
+    "PTS": 1.0,
     "ELO": 2143,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.anastasiia-hnatyshyn.2010",
@@ -228,7 +228,7 @@
     "title": "WFM"
    },
    "extra": {
-    "performance": 2278
+    "performance": 2285
    }
   }
  ]
