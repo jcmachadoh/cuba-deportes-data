@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "28",
- "updatedAt": "2026-11-07T15:07:29Z",
+ "updatedAt": "2026-11-12T18:42:21Z",
  "persons": {
   "p.aitor-paredes.2000": {
    "id": "p.aitor-paredes.2000",
@@ -1844,6 +1844,7 @@
    "cubanEvidence": [
     "chess-results.nationality",
     "fide.nationality",
+    "lichess.nationality",
     "wikidata.P19",
     "wikidata.P27"
    ],
@@ -1855,7 +1856,8 @@
    },
    "sources": [
     "chess-results",
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "CUB"
@@ -2172,6 +2174,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.olga-birkholz": {
+   "id": "p.olga-birkholz",
+   "name": {
+    "full": "Olga Birkholz"
+   },
+   "nationalities": [
+    "DE"
+   ],
+   "isCuban": false,
+   "title": "WFM",
+   "externalIds": {
+    "fide": "4640721"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "GER"
+   }
   },
   "p.oscar-naranjo-gonzalez": {
    "id": "p.oscar-naranjo-gonzalez",

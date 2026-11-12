@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:VVoR4udb",
- "updatedAt": "2026-11-12T17:20:11Z",
+ "updatedAt": "2026-11-12T18:42:21Z",
  "sources": [
   "lichess"
  ],
@@ -46,7 +46,7 @@
    {
     "name": "Round 5",
     "startsAt": 1794501000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 6",
@@ -82,9 +82,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 4.0,
+    "PTS": 5.0,
     "ELO": 2638,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.francisco-vallejo-pons",
@@ -98,7 +98,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 3229
+    "performance": 3195
    }
   },
   {
@@ -109,7 +109,7 @@
     "RANK": 2,
     "PTS": 3.0,
     "ELO": 2614,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.jose-eduardo-martinez-alcantara.1999",
@@ -124,7 +124,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2592
+    "performance": 2471
    }
   },
   {
@@ -133,9 +133,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 3,
-    "PTS": 1.5,
+    "PTS": 2.5,
     "ELO": 2556,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.loek-van-wely.1972",
@@ -150,44 +150,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2391
+    "performance": 2411
    }
   },
   {
    "rank": 4,
-   "participantId": "p.bodhana-sivanandan.2015",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 1.5,
-    "ELO": 2259,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.bodhana-sivanandan.2015",
-    "name": {
-     "full": "Bodhana Sivanandan"
-    },
-    "birthDate": "2015",
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2342
-   }
-  },
-  {
-   "rank": 5,
    "participantId": "p.elisabeth-paehtz.1985",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 1.0,
+    "RANK": 4,
+    "PTS": 2.0,
     "ELO": 2403,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.elisabeth-paehtz.1985",
@@ -202,7 +176,33 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2206
+    "performance": 2370
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.bodhana-sivanandan.2015",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 1.5,
+    "ELO": 2259,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.bodhana-sivanandan.2015",
+    "name": {
+     "full": "Bodhana Sivanandan"
+    },
+    "birthDate": "2015",
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2321
    }
   },
   {
@@ -213,7 +213,7 @@
     "RANK": 6,
     "PTS": 1.0,
     "ELO": 2143,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.anastasiia-hnatyshyn.2010",
@@ -228,7 +228,7 @@
     "title": "WFM"
    },
    "extra": {
-    "performance": 2285
+    "performance": 2254
    }
   }
  ]
