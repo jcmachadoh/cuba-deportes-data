@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "boxing.wbc:2026:male-flyweight",
- "updatedAt": "2026-10-03T18:12:56Z",
+ "updatedAt": "2026-11-14T15:05:59Z",
  "sources": [
   "wbcboxing"
  ],
@@ -10,8 +10,8 @@
  "season": "2026",
  "rankingId": "male-flyweight",
  "name": "Masculino · Flyweight",
- "asOf": "2026-09-03",
- "championId": "p.ricardo-sandoval",
+ "asOf": "2026-11-11",
+ "championId": "p.sergio-alfonso-mendoza-cordova",
  "extra": {
   "gender": "M",
   "division": "flyweight",
@@ -24,22 +24,29 @@
  "entries": [
   {
    "rank": 0,
-   "participantId": "p.ricardo-sandoval",
+   "participantId": "p.sergio-alfonso-mendoza-cordova",
    "participantType": "person",
    "stats": {
-    "RANK": 0
+    "RANK": 0,
+    "W": 28,
+    "L": 1,
+    "D": 0,
+    "KO": 24
    },
    "person": {
-    "id": "p.ricardo-sandoval",
+    "id": "p.sergio-alfonso-mendoza-cordova",
     "name": {
-     "full": "Ricardo Sandoval"
+     "full": "Sergio Alfonso Mendoza Cordova"
     },
-    "birthDate": "1999-01-15",
+    "birthDate": "2000-03-28",
+    "nationalities": [
+     "MX"
+    ],
     "isCuban": false
    },
    "extra": {
     "champion": true,
-    "since": "2025-07-30"
+    "since": "2026-10-10"
    }
   },
   {
@@ -83,10 +90,47 @@
   },
   {
    "rank": 3,
-   "participantId": "p.joselito-velazquez",
+   "participantId": "p.yoali-mosqueda",
    "participantType": "person",
    "stats": {
     "RANK": 3
+   },
+   "person": {
+    "id": "p.yoali-mosqueda",
+    "name": {
+     "full": "Yoali Mosqueda"
+    },
+    "nationalities": [
+     "MX"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.ricardo-sandoval",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4
+   },
+   "person": {
+    "id": "p.ricardo-sandoval",
+    "name": {
+     "full": "Ricardo Sandoval"
+    },
+    "birthDate": "1999-01-15",
+    "nationalities": [
+     "MX"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.joselito-velazquez",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5
    },
    "person": {
     "id": "p.joselito-velazquez",
@@ -103,11 +147,11 @@
    }
   },
   {
-   "rank": 4,
+   "rank": 6,
    "participantId": "p.angelino-cordova",
    "participantType": "person",
    "stats": {
-    "RANK": 4
+    "RANK": 6
    },
    "person": {
     "id": "p.angelino-cordova",
@@ -121,11 +165,11 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 7,
    "participantId": "p.kyosuke-takami",
    "participantType": "person",
    "stats": {
-    "RANK": 5
+    "RANK": 7
    },
    "person": {
     "id": "p.kyosuke-takami",
@@ -134,42 +178,6 @@
     },
     "nationalities": [
      "JP"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.yoali-mosqueda",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6
-   },
-   "person": {
-    "id": "p.yoali-mosqueda",
-    "name": {
-     "full": "Yoali Mosqueda"
-    },
-    "nationalities": [
-     "MX"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.miel-fajardo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7
-   },
-   "person": {
-    "id": "p.miel-fajardo",
-    "name": {
-     "full": "Miel Fajardo"
-    },
-    "nationalities": [
-     "PH"
     ],
     "isCuban": false
    }
@@ -190,9 +198,6 @@
      "ZW"
     ],
     "isCuban": false
-   },
-   "extra": {
-    "title": "WBC Africa"
    }
   },
   {
@@ -215,28 +220,10 @@
   },
   {
    "rank": 10,
-   "participantId": "p.yankiel-rivera",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10
-   },
-   "person": {
-    "id": "p.yankiel-rivera",
-    "name": {
-     "full": "Yankiel Rivera"
-    },
-    "nationalities": [
-     "PR"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 11,
    "participantId": "p.arvin-paciones",
    "participantType": "person",
    "stats": {
-    "RANK": 11
+    "RANK": 10
    },
    "person": {
     "id": "p.arvin-paciones",
@@ -250,11 +237,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 11,
    "participantId": "p.andy-dominguez",
    "participantType": "person",
    "stats": {
-    "RANK": 12
+    "RANK": 11
    },
    "person": {
     "id": "p.andy-dominguez",
@@ -268,11 +255,11 @@
    }
   },
   {
-   "rank": 13,
+   "rank": 12,
    "participantId": "p.jesse-espinas",
    "participantType": "person",
    "stats": {
-    "RANK": 13
+    "RANK": 12
    },
    "person": {
     "id": "p.jesse-espinas",
@@ -281,6 +268,24 @@
     },
     "nationalities": [
      "PH"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.rene-calixto-bibiano",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13
+   },
+   "person": {
+    "id": "p.rene-calixto-bibiano",
+    "name": {
+     "full": "Rene Calixto Bibiano"
+    },
+    "nationalities": [
+     "MX"
     ],
     "isCuban": false
    }
@@ -301,19 +306,22 @@
      "CU"
     ],
     "isCuban": true
+   },
+   "extra": {
+    "title": "*CBP/P"
    }
   },
   {
    "rank": 15,
-   "participantId": "p.sho-nogami",
+   "participantId": "p.shogo-tanaka",
    "participantType": "person",
    "stats": {
     "RANK": 15
    },
    "person": {
-    "id": "p.sho-nogami",
+    "id": "p.shogo-tanaka",
     "name": {
-     "full": "Sho Nogami"
+     "full": "Shogo Tanaka"
     },
     "nationalities": [
      "JP"
@@ -321,7 +329,7 @@
     "isCuban": false
    },
    "extra": {
-    "title": "OPBF"
+    "title": "OPBF *CBP/P"
    }
   },
   {
@@ -362,10 +370,28 @@
   },
   {
    "rank": 18,
-   "participantId": "p.albert-francisco",
+   "participantId": "p.taku-kuwahara",
    "participantType": "person",
    "stats": {
     "RANK": 18
+   },
+   "person": {
+    "id": "p.taku-kuwahara",
+    "name": {
+     "full": "Taku Kuwahara"
+    },
+    "nationalities": [
+     "JP"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 19,
+   "participantId": "p.albert-francisco",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19
    },
    "person": {
     "id": "p.albert-francisco",
@@ -379,47 +405,11 @@
    }
   },
   {
-   "rank": 19,
-   "participantId": "p.rene-calixto-bibiano",
-   "participantType": "person",
-   "stats": {
-    "RANK": 19
-   },
-   "person": {
-    "id": "p.rene-calixto-bibiano",
-    "name": {
-     "full": "Rene Calixto Bibiano"
-    },
-    "nationalities": [
-     "MX"
-    ],
-    "isCuban": false
-   }
-  },
-  {
    "rank": 20,
-   "participantId": "p.nkosingiphile-sibisi",
-   "participantType": "person",
-   "stats": {
-    "RANK": 20
-   },
-   "person": {
-    "id": "p.nkosingiphile-sibisi",
-    "name": {
-     "full": "Nkosingiphile Sibisi"
-    },
-    "nationalities": [
-     "ZA"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 21,
    "participantId": "p.kosuke-tomioka",
    "participantType": "person",
    "stats": {
-    "RANK": 21
+    "RANK": 20
    },
    "person": {
     "id": "p.kosuke-tomioka",
@@ -433,11 +423,47 @@
    }
   },
   {
+   "rank": 21,
+   "participantId": "p.nkosingiphile-sibisi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21
+   },
+   "person": {
+    "id": "p.nkosingiphile-sibisi",
+    "name": {
+     "full": "Nkosingiphile Sibisi"
+    },
+    "nationalities": [
+     "ZA"
+    ],
+    "isCuban": false
+   }
+  },
+  {
    "rank": 22,
-   "participantId": "p.conner-kelsall",
+   "participantId": "p.fillemon-nghutenanye",
    "participantType": "person",
    "stats": {
     "RANK": 22
+   },
+   "person": {
+    "id": "p.fillemon-nghutenanye",
+    "name": {
+     "full": "Fillemon Nghutenanye"
+    },
+    "nationalities": [
+     "NA"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 23,
+   "participantId": "p.conner-kelsall",
+   "participantType": "person",
+   "stats": {
+    "RANK": 23
    },
    "person": {
     "id": "p.conner-kelsall",
@@ -454,47 +480,50 @@
    }
   },
   {
-   "rank": 23,
-   "participantId": "p.yuberjen-martinez",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23
-   },
-   "person": {
-    "id": "p.yuberjen-martinez",
-    "name": {
-     "full": "Yuberjen Martinez"
-    },
-    "nationalities": [
-     "CO"
-    ],
-    "isCuban": false
-   }
-  },
-  {
    "rank": 24,
-   "participantId": "p.fillemon-nghutenanye",
+   "participantId": "p.hamza-uddin",
    "participantType": "person",
    "stats": {
     "RANK": 24
    },
    "person": {
-    "id": "p.fillemon-nghutenanye",
+    "id": "p.hamza-uddin",
     "name": {
-     "full": "Fillemon Nghutenanye"
+     "full": "Hamza Uddin"
     },
     "nationalities": [
-     "NA"
+     "GB"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "title": "BBBofC/COMM"
+   }
+  },
+  {
+   "rank": 25,
+   "participantId": "p.sho-nogami",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25
+   },
+   "person": {
+    "id": "p.sho-nogami",
+    "name": {
+     "full": "Sho Nogami"
+    },
+    "nationalities": [
+     "JP"
     ],
     "isCuban": false
    }
   },
   {
-   "rank": 25,
+   "rank": 26,
    "participantId": "p.mchanja-yohana",
    "participantType": "person",
    "stats": {
-    "RANK": 25
+    "RANK": 26
    },
    "person": {
     "id": "p.mchanja-yohana",
@@ -505,43 +534,22 @@
      "TZ"
     ],
     "isCuban": false
-   },
-   "extra": {
-    "title": "INTL SILVER"
-   }
-  },
-  {
-   "rank": 26,
-   "participantId": "p.taku-kuwahara",
-   "participantType": "person",
-   "stats": {
-    "RANK": 26
-   },
-   "person": {
-    "id": "p.taku-kuwahara",
-    "name": {
-     "full": "Taku Kuwahara"
-    },
-    "nationalities": [
-     "JP"
-    ],
-    "isCuban": false
    }
   },
   {
    "rank": 27,
-   "participantId": "p.shogo-tanaka",
+   "participantId": "p.joel-contreras",
    "participantType": "person",
    "stats": {
     "RANK": 27
    },
    "person": {
-    "id": "p.shogo-tanaka",
+    "id": "p.joel-contreras",
     "name": {
-     "full": "Shogo Tanaka"
+     "full": "Joel Contreras"
     },
     "nationalities": [
-     "JP"
+     "AR"
     ],
     "isCuban": false
    }
@@ -584,28 +592,10 @@
   },
   {
    "rank": 30,
-   "participantId": "p.jose-luis-russell",
-   "participantType": "person",
-   "stats": {
-    "RANK": 30
-   },
-   "person": {
-    "id": "p.jose-luis-russell",
-    "name": {
-     "full": "Jose Luis Russell"
-    },
-    "nationalities": [
-     "MX"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 31,
    "participantId": "p.ryo-mandokoro",
    "participantType": "person",
    "stats": {
-    "RANK": 31
+    "RANK": 30
    },
    "person": {
     "id": "p.ryo-mandokoro",
@@ -619,68 +609,11 @@
    }
   },
   {
-   "rank": 32,
-   "participantId": "p.sean-bruce",
-   "participantType": "person",
-   "stats": {
-    "RANK": 32
-   },
-   "person": {
-    "id": "p.sean-bruce",
-    "name": {
-     "full": "Sean Bruce"
-    },
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "title": "BBBofC"
-   }
-  },
-  {
-   "rank": 33,
-   "participantId": "p.joel-contreras",
-   "participantType": "person",
-   "stats": {
-    "RANK": 33
-   },
-   "person": {
-    "id": "p.joel-contreras",
-    "name": {
-     "full": "Joel Contreras"
-    },
-    "nationalities": [
-     "AR"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 34,
-   "participantId": "p.josuke-nagata",
-   "participantType": "person",
-   "stats": {
-    "RANK": 34
-   },
-   "person": {
-    "id": "p.josuke-nagata",
-    "name": {
-     "full": "Josuke Nagata"
-    },
-    "nationalities": [
-     "JP"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 35,
+   "rank": 31,
    "participantId": "p.leonard-pores-iii",
    "participantType": "person",
    "stats": {
-    "RANK": 35
+    "RANK": 31
    },
    "person": {
     "id": "p.leonard-pores-iii",
@@ -694,16 +627,88 @@
    }
   },
   {
-   "rank": 36,
+   "rank": 32,
+   "participantId": "p.jose-luis-russell",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32
+   },
+   "person": {
+    "id": "p.jose-luis-russell",
+    "name": {
+     "full": "Jose Luis Russell"
+    },
+    "nationalities": [
+     "MX"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 33,
+   "participantId": "p.shuri-oka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33
+   },
+   "person": {
+    "id": "p.shuri-oka",
+    "name": {
+     "full": "Shuri Oka"
+    },
+    "nationalities": [
+     "JP"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 34,
    "participantId": "p.nathaniel-dorona",
    "participantType": "person",
    "stats": {
-    "RANK": 36
+    "RANK": 34
    },
    "person": {
     "id": "p.nathaniel-dorona",
     "name": {
      "full": "Nathaniel Dorona"
+    },
+    "nationalities": [
+     "PH"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 35,
+   "participantId": "p.pedro-delgado",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35
+   },
+   "person": {
+    "id": "p.pedro-delgado",
+    "name": {
+     "full": "Pedro Delgado"
+    },
+    "nationalities": [
+     "MX"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 36,
+   "participantId": "p.dave-apolarinario",
+   "participantType": "person",
+   "stats": {
+    "RANK": 36
+   },
+   "person": {
+    "id": "p.dave-apolarinario",
+    "name": {
+     "full": "Dave Apolarinario"
     },
     "nationalities": [
      "PH"
@@ -731,10 +736,28 @@
   },
   {
    "rank": 38,
-   "participantId": "p.ramon-quiroga",
+   "participantId": "p.geremy-vera",
    "participantType": "person",
    "stats": {
     "RANK": 38
+   },
+   "person": {
+    "id": "p.geremy-vera",
+    "name": {
+     "full": "Geremy Vera"
+    },
+    "nationalities": [
+     "VE"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 39,
+   "participantId": "p.ramon-quiroga",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39
    },
    "person": {
     "id": "p.ramon-quiroga",
@@ -748,11 +771,11 @@
    }
   },
   {
-   "rank": 39,
+   "rank": 40,
    "participantId": "p.perlito-exclamada-jr",
    "participantType": "person",
    "stats": {
-    "RANK": 39
+    "RANK": 40
    },
    "person": {
     "id": "p.perlito-exclamada-jr",
@@ -761,24 +784,6 @@
     },
     "nationalities": [
      "PH"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 40,
-   "participantId": "p.mikie-tallon",
-   "participantType": "person",
-   "stats": {
-    "RANK": 40
-   },
-   "person": {
-    "id": "p.mikie-tallon",
-    "name": {
-     "full": "Mikie Tallon"
-    },
-    "nationalities": [
-     "GB"
     ],
     "isCuban": false
    }

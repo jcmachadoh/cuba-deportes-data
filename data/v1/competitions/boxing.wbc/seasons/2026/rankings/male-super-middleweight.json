@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "boxing.wbc:2026:male-super-middleweight",
- "updatedAt": "2026-10-03T18:12:56Z",
+ "updatedAt": "2026-11-14T15:05:59Z",
  "sources": [
   "wbcboxing"
  ],
@@ -10,15 +10,14 @@
  "season": "2026",
  "rankingId": "male-super-middleweight",
  "name": "Masculino · Super Middleweight",
- "asOf": "2026-09-03",
- "championId": "p.christian-mbilli",
+ "asOf": "2026-11-11",
+ "championId": "p.saul-alvarez",
  "extra": {
   "gender": "M",
   "division": "super-middleweight",
   "otherTitles": {
    "Silver": "Diego Pacheco (United States)",
    "International": "Luka Plantic (Croatia)",
-   "WBO": "Hamzah Sheeraz (Great Britain)",
    "IBF": "Osleys Iglesias (Cuba)"
   },
   "url": "https://wbcboxing.com/en/ratings/male/super-middleweight/"
@@ -26,66 +25,33 @@
  "entries": [
   {
    "rank": 0,
-   "participantId": "p.christian-mbilli",
-   "participantType": "person",
-   "stats": {
-    "RANK": 0
-   },
-   "person": {
-    "id": "p.christian-mbilli",
-    "name": {
-     "full": "Christian Mbilli"
-    },
-    "birthDate": "1995-04-26",
-    "isCuban": false
-   },
-   "extra": {
-    "champion": true,
-    "since": "2026-01-27"
-   }
-  },
-  {
-   "rank": 1,
    "participantId": "p.saul-alvarez",
    "participantType": "person",
    "stats": {
-    "RANK": 1
+    "RANK": 0
    },
    "person": {
     "id": "p.saul-alvarez",
     "name": {
      "full": "Saul Alvarez"
     },
+    "birthDate": "1990-07-18",
     "nationalities": [
      "MX"
     ],
     "isCuban": false
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.jacob-bank",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2
    },
-   "person": {
-    "id": "p.jacob-bank",
-    "name": {
-     "full": "Jacob Bank"
-    },
-    "nationalities": [
-     "DK"
-    ],
-    "isCuban": false
+   "extra": {
+    "champion": true,
+    "since": "2026-10-31"
    }
   },
   {
-   "rank": 3,
+   "rank": 1,
    "participantId": "p.diego-pacheco",
    "participantType": "person",
    "stats": {
-    "RANK": 3
+    "RANK": 1
    },
    "person": {
     "id": "p.diego-pacheco",
@@ -99,6 +65,43 @@
    },
    "extra": {
     "title": "SILVER"
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.hamzah-sheeraz",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2
+   },
+   "person": {
+    "id": "p.hamzah-sheeraz",
+    "name": {
+     "full": "Hamzah Sheeraz"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.christian-mbilli",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3
+   },
+   "person": {
+    "id": "p.christian-mbilli",
+    "name": {
+     "full": "Christian Mbilli"
+    },
+    "birthDate": "1995-04-26",
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false
    }
   },
   {
@@ -121,46 +124,31 @@
   },
   {
    "rank": 5,
-   "participantId": "p.bektemir-melikuziev",
+   "participantId": "p.luka-plantic",
    "participantType": "person",
    "stats": {
     "RANK": 5
    },
    "person": {
-    "id": "p.bektemir-melikuziev",
+    "id": "p.luka-plantic",
     "name": {
-     "full": "Bektemir Melikuziev"
+     "full": "Luka Plantic"
     },
     "nationalities": [
-     "UZ"
+     "HR"
     ],
     "isCuban": false
+   },
+   "extra": {
+    "title": "INTL"
    }
   },
   {
    "rank": 6,
-   "participantId": "p.jermall-charlo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6
-   },
-   "person": {
-    "id": "p.jermall-charlo",
-    "name": {
-     "full": "Jermall Charlo"
-    },
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 7,
    "participantId": "p.wilkens-mathieu",
    "participantType": "person",
    "stats": {
-    "RANK": 7
+    "RANK": 6
    },
    "person": {
     "id": "p.wilkens-mathieu",
@@ -174,6 +162,24 @@
    },
    "extra": {
     "title": "NABF"
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.bektemir-melikuziev",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7
+   },
+   "person": {
+    "id": "p.bektemir-melikuziev",
+    "name": {
+     "full": "Bektemir Melikuziev"
+    },
+    "nationalities": [
+     "UZ"
+    ],
+    "isCuban": false
    }
   },
   {
@@ -199,70 +205,10 @@
   },
   {
    "rank": 9,
-   "participantId": "p.jose-armando-resendiz",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9
-   },
-   "person": {
-    "id": "p.jose-armando-resendiz",
-    "name": {
-     "full": "Jose Armando Resendiz"
-    },
-    "nationalities": [
-     "MX"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "title": "*CBP/P"
-   }
-  },
-  {
-   "rank": 10,
-   "participantId": "p.edgar-berlanga",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10
-   },
-   "person": {
-    "id": "p.edgar-berlanga",
-    "name": {
-     "full": "Edgar Berlanga"
-    },
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 11,
-   "participantId": "p.luka-plantic",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11
-   },
-   "person": {
-    "id": "p.luka-plantic",
-    "name": {
-     "full": "Luka Plantic"
-    },
-    "nationalities": [
-     "HR"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "title": "INTL"
-   }
-  },
-  {
-   "rank": 12,
    "participantId": "p.bek-nurmaganbet",
    "participantType": "person",
    "stats": {
-    "RANK": 12
+    "RANK": 9
    },
    "person": {
     "id": "p.bek-nurmaganbet",
@@ -273,17 +219,32 @@
      "KZ"
     ],
     "isCuban": false
-   },
-   "extra": {
-    "title": "*CBP/P"
    }
   },
   {
-   "rank": 13,
+   "rank": 10,
+   "participantId": "p.jose-armando-resendiz",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10
+   },
+   "person": {
+    "id": "p.jose-armando-resendiz",
+    "name": {
+     "full": "Jose Armando Resendiz"
+    },
+    "nationalities": [
+     "MX"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 11,
    "participantId": "p.daniel-blancas",
    "participantType": "person",
    "stats": {
-    "RANK": 13
+    "RANK": 11
    },
    "person": {
     "id": "p.daniel-blancas",
@@ -296,7 +257,47 @@
     "isCuban": false
    },
    "extra": {
-    "title": "USWBC *CBP/P"
+    "title": "USWBC"
+   }
+  },
+  {
+   "rank": 12,
+   "participantId": "p.moreno-fendero",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12
+   },
+   "person": {
+    "id": "p.moreno-fendero",
+    "name": {
+     "full": "Moreno Fendero"
+    },
+    "nationalities": [
+     "CA",
+     "FR"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "title": "CONT AMERICAS *CBP/P"
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.edgar-berlanga",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13
+   },
+   "person": {
+    "id": "p.edgar-berlanga",
+    "name": {
+     "full": "Edgar Berlanga"
+    },
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false
    }
   },
   {
@@ -320,10 +321,49 @@
   },
   {
    "rank": 15,
-   "participantId": "p.troy-williamson",
+   "participantId": "p.jose-luis-navarro-jr",
    "participantType": "person",
    "stats": {
     "RANK": 15
+   },
+   "person": {
+    "id": "p.jose-luis-navarro-jr",
+    "name": {
+     "full": "Jose Luis Navarro Jr."
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "title": "EBU *CBP/P"
+   }
+  },
+  {
+   "rank": 16,
+   "participantId": "p.vladimir-shiskin",
+   "participantType": "person",
+   "stats": {
+    "RANK": 16
+   },
+   "person": {
+    "id": "p.vladimir-shiskin",
+    "name": {
+     "full": "Vladimir Shiskin"
+    },
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 17,
+   "participantId": "p.troy-williamson",
+   "participantType": "person",
+   "stats": {
+    "RANK": 17
    },
    "person": {
     "id": "p.troy-williamson",
@@ -337,11 +377,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 18,
    "participantId": "p.darius-fulghum",
    "participantType": "person",
    "stats": {
-    "RANK": 16
+    "RANK": 18
    },
    "person": {
     "id": "p.darius-fulghum",
@@ -352,46 +392,6 @@
      "US"
     ],
     "isCuban": false
-   }
-  },
-  {
-   "rank": 17,
-   "participantId": "p.jose-luis-navarro-jr",
-   "participantType": "person",
-   "stats": {
-    "RANK": 17
-   },
-   "person": {
-    "id": "p.jose-luis-navarro-jr",
-    "name": {
-     "full": "Jose Luis Navarro Jr."
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 18,
-   "participantId": "p.moreno-fendero",
-   "participantType": "person",
-   "stats": {
-    "RANK": 18
-   },
-   "person": {
-    "id": "p.moreno-fendero",
-    "name": {
-     "full": "Moreno Fendero"
-    },
-    "nationalities": [
-     "CA",
-     "FR"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "title": "CONT AMERICAS"
    }
   },
   {
@@ -417,28 +417,10 @@
   },
   {
    "rank": 20,
-   "participantId": "p.malik-zinad",
-   "participantType": "person",
-   "stats": {
-    "RANK": 20
-   },
-   "person": {
-    "id": "p.malik-zinad",
-    "name": {
-     "full": "Malik Zinad"
-    },
-    "nationalities": [
-     "LY"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 21,
    "participantId": "p.immanuwel-aleem",
    "participantType": "person",
    "stats": {
-    "RANK": 21
+    "RANK": 20
    },
    "person": {
     "id": "p.immanuwel-aleem",
@@ -452,29 +434,11 @@
    }
   },
   {
-   "rank": 22,
-   "participantId": "p.raiko-santana",
-   "participantType": "person",
-   "stats": {
-    "RANK": 22
-   },
-   "person": {
-    "id": "p.raiko-santana",
-    "name": {
-     "full": "Raiko Santana"
-    },
-    "nationalities": [
-     "CU"
-    ],
-    "isCuban": true
-   }
-  },
-  {
-   "rank": 23,
+   "rank": 21,
    "participantId": "p.simon-zachenhuber",
    "participantType": "person",
    "stats": {
-    "RANK": 23
+    "RANK": 21
    },
    "person": {
     "id": "p.simon-zachenhuber",
@@ -488,11 +452,11 @@
    }
   },
   {
-   "rank": 24,
+   "rank": 22,
    "participantId": "p.paulinus-ndjolonimu",
    "participantType": "person",
    "stats": {
-    "RANK": 24
+    "RANK": 22
    },
    "person": {
     "id": "p.paulinus-ndjolonimu",
@@ -506,11 +470,11 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 23,
    "participantId": "p.steven-butler",
    "participantType": "person",
    "stats": {
-    "RANK": 25
+    "RANK": 23
    },
    "person": {
     "id": "p.steven-butler",
@@ -524,11 +488,29 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 24,
+   "participantId": "p.rafal-wolczecki",
+   "participantType": "person",
+   "stats": {
+    "RANK": 24
+   },
+   "person": {
+    "id": "p.rafal-wolczecki",
+    "name": {
+     "full": "Rafal Wolczecki"
+    },
+    "nationalities": [
+     "PL"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 25,
    "participantId": "p.kevin-newman-ii",
    "participantType": "person",
    "stats": {
-    "RANK": 26
+    "RANK": 25
    },
    "person": {
     "id": "p.kevin-newman-ii",
@@ -542,11 +524,11 @@
    }
   },
   {
-   "rank": 27,
+   "rank": 26,
    "participantId": "p.marco-romero-2",
    "participantType": "person",
    "stats": {
-    "RANK": 27
+    "RANK": 26
    },
    "person": {
     "id": "p.marco-romero-2",
@@ -560,11 +542,11 @@
    }
   },
   {
-   "rank": 28,
+   "rank": 27,
    "participantId": "p.nurislom-ismoilov",
    "participantType": "person",
    "stats": {
-    "RANK": 28
+    "RANK": 27
    },
    "person": {
     "id": "p.nurislom-ismoilov",
@@ -581,11 +563,11 @@
    }
   },
   {
-   "rank": 29,
+   "rank": 28,
    "participantId": "p.pierre-hubert-dibombe",
    "participantType": "person",
    "stats": {
-    "RANK": 29
+    "RANK": 28
    },
    "person": {
     "id": "p.pierre-hubert-dibombe",
@@ -599,21 +581,43 @@
    }
   },
   {
+   "rank": 29,
+   "participantId": "p.lazaro-lorenzana",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29
+   },
+   "person": {
+    "id": "p.lazaro-lorenzana",
+    "name": {
+     "full": "Lazaro Lorenzana"
+    },
+    "nationalities": [
+     "MX",
+     "US"
+    ],
+    "isCuban": false
+   }
+  },
+  {
    "rank": 30,
-   "participantId": "p.rafal-wolczecki",
+   "participantId": "p.doek-no-yun",
    "participantType": "person",
    "stats": {
     "RANK": 30
    },
    "person": {
-    "id": "p.rafal-wolczecki",
+    "id": "p.doek-no-yun",
     "name": {
-     "full": "Rafal Wolczecki"
+     "full": "Doek No Yun"
     },
     "nationalities": [
-     "PL"
+     "KR"
     ],
     "isCuban": false
+   },
+   "extra": {
+    "title": "OPBF"
    }
   },
   {
@@ -636,67 +640,10 @@
   },
   {
    "rank": 32,
-   "participantId": "p.shakeel-phinn",
-   "participantType": "person",
-   "stats": {
-    "RANK": 32
-   },
-   "person": {
-    "id": "p.shakeel-phinn",
-    "name": {
-     "full": "Shakeel Phinn"
-    },
-    "nationalities": [
-     "CA"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 33,
-   "participantId": "p.yuito-morikawi",
-   "participantType": "person",
-   "stats": {
-    "RANK": 33
-   },
-   "person": {
-    "id": "p.yuito-morikawi",
-    "name": {
-     "full": "Yuito Morikawi"
-    },
-    "nationalities": [
-     "JP"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "title": "OPBF"
-   }
-  },
-  {
-   "rank": 34,
-   "participantId": "p.abel-mina",
-   "participantType": "person",
-   "stats": {
-    "RANK": 34
-   },
-   "person": {
-    "id": "p.abel-mina",
-    "name": {
-     "full": "Abel Mina"
-    },
-    "nationalities": [
-     "EC"
-    ],
-    "isCuban": false
-   }
-  },
-  {
-   "rank": 35,
    "participantId": "p.da-velle-smith",
    "participantType": "person",
    "stats": {
-    "RANK": 35
+    "RANK": 32
    },
    "person": {
     "id": "p.da-velle-smith",
@@ -710,58 +657,112 @@
    }
   },
   {
+   "rank": 33,
+   "participantId": "p.abel-mina",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33
+   },
+   "person": {
+    "id": "p.abel-mina",
+    "name": {
+     "full": "Abel Mina"
+    },
+    "nationalities": [
+     "EC"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "title": "CONT. LATINO"
+   }
+  },
+  {
+   "rank": 34,
+   "participantId": "p.damian-biacho",
+   "participantType": "person",
+   "stats": {
+    "RANK": 34
+   },
+   "person": {
+    "id": "p.damian-biacho",
+    "name": {
+     "full": "Damian Biacho"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 35,
+   "participantId": "p.shakeel-phinn",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35
+   },
+   "person": {
+    "id": "p.shakeel-phinn",
+    "name": {
+     "full": "Shakeel Phinn"
+    },
+    "nationalities": [
+     "CA"
+    ],
+    "isCuban": false
+   }
+  },
+  {
    "rank": 36,
-   "participantId": "p.junior-younan",
+   "participantId": "p.taylor-bevan",
    "participantType": "person",
    "stats": {
     "RANK": 36
    },
    "person": {
-    "id": "p.junior-younan",
+    "id": "p.taylor-bevan",
     "name": {
-     "full": "Junior Younan"
+     "full": "Taylor Bevan"
     },
     "nationalities": [
-     "US"
+     "GB"
     ],
     "isCuban": false
    }
   },
   {
    "rank": 37,
-   "participantId": "p.harpreet-singh",
+   "participantId": "p.ivan-zucco",
    "participantType": "person",
    "stats": {
     "RANK": 37
    },
    "person": {
-    "id": "p.harpreet-singh",
+    "id": "p.ivan-zucco",
     "name": {
-     "full": "Harpreet Singh"
+     "full": "Ivan Zucco"
     },
     "nationalities": [
-     "IN"
+     "IT"
     ],
     "isCuban": false
-   },
-   "extra": {
-    "title": "ABCO"
    }
   },
   {
    "rank": 38,
-   "participantId": "p.andreii-dascalu",
+   "participantId": "p.artur-reiss",
    "participantType": "person",
    "stats": {
     "RANK": 38
    },
    "person": {
-    "id": "p.andreii-dascalu",
+    "id": "p.artur-reiss",
     "name": {
-     "full": "Andreii Dascalu"
+     "full": "Artur Reiss"
     },
     "nationalities": [
-     "RO"
+     "US"
     ],
     "isCuban": false
    },
@@ -771,38 +772,38 @@
   },
   {
    "rank": 39,
-   "participantId": "p.keithland-king",
+   "participantId": "p.julio-porras",
    "participantType": "person",
    "stats": {
     "RANK": 39
    },
    "person": {
-    "id": "p.keithland-king",
+    "id": "p.julio-porras",
     "name": {
-     "full": "Keithland King"
+     "full": "Julio Porras"
     },
+    "nationalities": [
+     "MX"
+    ],
     "isCuban": false
-   },
-   "extra": {
-    "countryText": "🇻🇨 Saint Vincent & The Grenadines"
    }
   },
   {
    "rank": 40,
-   "participantId": "p.ian-green",
+   "participantId": "p.emilliano-roja",
    "participantType": "person",
    "stats": {
     "RANK": 40
    },
    "person": {
-    "id": "p.ian-green",
+    "id": "p.emilliano-roja",
     "name": {
-     "full": "Ian Green"
+     "full": "Emilliano Roja"
     },
-    "nationalities": [
-     "US"
-    ],
     "isCuban": false
+   },
+   "extra": {
+    "countryText": "Mexcio"
    }
   }
  ]

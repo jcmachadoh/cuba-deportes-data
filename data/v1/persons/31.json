@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "31",
- "updatedAt": "2026-11-09T19:08:46Z",
+ "updatedAt": "2026-11-14T15:05:59Z",
  "persons": {
   "p.aboulaye-camara": {
    "id": "p.aboulaye-camara",
@@ -853,6 +853,20 @@
    },
    "sources": [
     "espn"
+   ]
+  },
+  "p.james-dickens": {
+   "id": "p.james-dickens",
+   "name": {
+    "full": "James Dickens"
+   },
+   "nationalities": [
+    "GB"
+   ],
+   "isCuban": false,
+   "gender": "M",
+   "sources": [
+    "wbcboxing"
    ]
   },
   "p.james-rodriguez.1991": {
@@ -2366,6 +2380,23 @@
    "extra": {
     "federation": "ARM"
    }
+  },
+  "p.victor-abreu": {
+   "id": "p.victor-abreu",
+   "name": {
+    "full": "Victor Abreu"
+   },
+   "nationalities": [
+    "CU"
+   ],
+   "isCuban": true,
+   "cubanEvidence": [
+    "wbcboxing.nationality"
+   ],
+   "gender": "M",
+   "sources": [
+    "wbcboxing"
+   ]
   },
   "p.victorio-ramis.1994": {
    "id": "p.victorio-ramis.1994",
