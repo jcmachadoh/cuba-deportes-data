@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.aguilas-de-mexicali:2026-27",
- "updatedAt": "2026-11-11T16:36:09Z",
+ "updatedAt": "2026-11-15T15:53:23Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.aguilas-de-mexicali",
  "competitionId": "baseball.lmp",
  "season": "2026-27",
- "count": 42,
+ "count": 44,
  "groups": [
   {
    "code": "P",
@@ -18,19 +18,19 @@
    },
    "players": [
     {
-     "personId": "p.yamil-castillo.1999",
-     "number": "6",
+     "personId": "p.alain-pena.2003",
+     "number": "18",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.yamil-castillo.1999",
+      "id": "p.alain-pena.2003",
       "name": {
-       "full": "Yamil Castillo",
-       "first": "Yamil",
-       "last": "Castillo"
+       "full": "Alain Pena",
+       "first": "Alain",
+       "last": "Pena"
       },
-      "birthDate": "1999-08-18",
+      "birthDate": "2003-04-10",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -211,24 +211,6 @@
        "last": "Robles"
       },
       "birthDate": "1997-11-06",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
-    },
-    {
-     "personId": "p.sergio-garcia-repper.2004",
-     "number": "64",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.sergio-garcia-repper.2004",
-      "name": {
-       "full": "Sergio Garcia-Repper",
-       "first": "Sergio",
-       "last": "Garcia-Repper"
-      },
-      "birthDate": "2004-04-15",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -448,24 +430,6 @@
      }
     },
     {
-     "personId": "p.phillip-evans.1992",
-     "number": "25",
-     "position": "3B",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.phillip-evans.1992",
-      "name": {
-       "full": "Phillip Evans",
-       "first": "Phillip",
-       "last": "Evans"
-      },
-      "birthDate": "1992-09-10",
-      "isCuban": false,
-      "birthCountry": "US"
-     }
-    },
-    {
      "personId": "p.luis-santos.2000",
      "number": "50",
      "position": "2B",
@@ -598,6 +562,24 @@
       "isCuban": false,
       "birthCountry": "JP"
      }
+    },
+    {
+     "personId": "p.kai-murphy.2000",
+     "number": "29",
+     "position": "LF",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.kai-murphy.2000",
+      "name": {
+       "full": "Kai Murphy",
+       "first": "Kai",
+       "last": "Murphy"
+      },
+      "birthDate": "2000-08-26",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
     }
    ]
   },
@@ -638,6 +620,19 @@
      "number": "16",
      "role": "staff",
      "roleName": "Bench Coach",
+     "person": {
+      "id": "p.ramon-valdez",
+      "name": {
+       "full": "Ramon Valdez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.ramon-valdez",
+     "number": "16",
+     "role": "staff",
+     "roleName": "Interim Manager",
      "person": {
       "id": "p.ramon-valdez",
       "name": {
@@ -750,6 +745,30 @@
       "id": "p.miguel-duarte",
       "name": {
        "full": "Miguel Duarte"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.gil-velazquez",
+     "role": "staff",
+     "roleName": "Manager",
+     "person": {
+      "id": "p.gil-velazquez",
+      "name": {
+       "full": "Gil Velazquez"
+      },
+      "isCuban": false
+     }
+    },
+    {
+     "personId": "p.ramon-valdez",
+     "role": "staff",
+     "roleName": "Bench Coach",
+     "person": {
+      "id": "p.ramon-valdez",
+      "name": {
+       "full": "Ramon Valdez"
       },
       "isCuban": false
      }
