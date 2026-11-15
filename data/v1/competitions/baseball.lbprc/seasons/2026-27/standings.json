@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lbprc:2026-27",
- "updatedAt": "2026-11-14T06:20:08Z",
+ "updatedAt": "2026-11-15T01:54:55Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,18 +18,18 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 6,
-      "W": 5,
+      "GP": 7,
+      "W": 6,
       "L": 1,
-      "PCT": 0.833,
-      "GB": -2.0,
-      "STRK": "W5",
-      "L10": "5-1",
-      "HOME": "4-0",
+      "PCT": 0.857,
+      "GB": -3.0,
+      "STRK": "W6",
+      "L10": "6-1",
+      "HOME": "5-0",
       "AWAY": "1-1",
-      "RS": 50,
-      "RA": 20,
-      "RD": 30
+      "RS": 54,
+      "RA": 23,
+      "RD": 31
      },
      "extra": {
       "leagueRank": "1"
@@ -44,7 +44,7 @@
       "W": 5,
       "L": 3,
       "PCT": 0.625,
-      "GB": -1.0,
+      "GB": -1.5,
       "STRK": "W1",
       "L10": "5-3",
       "HOME": "2-1",
@@ -58,7 +58,7 @@
      }
     },
     {
-     "participantId": "baseball.cangrejeros-de-santurce",
+     "participantId": "baseball.leones-de-ponce",
      "participantType": "team",
      "rank": 3,
      "stats": {
@@ -66,27 +66,7 @@
       "W": 4,
       "L": 4,
       "PCT": 0.5,
-      "STRK": "L2",
-      "L10": "4-4",
-      "HOME": "2-3",
-      "AWAY": "2-1",
-      "RS": 48,
-      "RA": 50,
-      "RD": -2
-     },
-     "extra": {
-      "leagueRank": "3"
-     }
-    },
-    {
-     "participantId": "baseball.leones-de-ponce",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 8,
-      "W": 4,
-      "L": 4,
-      "PCT": 0.5,
+      "GB": -0.5,
       "STRK": "W2",
       "L10": "4-4",
       "HOME": "2-2",
@@ -94,6 +74,27 @@
       "RS": 48,
       "RA": 42,
       "RD": 6
+     },
+     "extra": {
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.cangrejeros-de-santurce",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 9,
+      "W": 4,
+      "L": 5,
+      "PCT": 0.444,
+      "STRK": "L3",
+      "L10": "4-5",
+      "HOME": "2-3",
+      "AWAY": "2-2",
+      "RS": 51,
+      "RA": 54,
+      "RD": -3
      },
      "extra": {
       "leagueRank": "4"
@@ -108,7 +109,7 @@
       "W": 2,
       "L": 4,
       "PCT": 0.333,
-      "GB": 1.0,
+      "GB": 0.5,
       "STRK": "L1",
       "L10": "2-4",
       "HOME": "1-2",
@@ -130,7 +131,7 @@
       "W": 2,
       "L": 6,
       "PCT": 0.25,
-      "GB": 2.0,
+      "GB": 1.5,
       "STRK": "L2",
       "L10": "2-6",
       "HOME": "0-3",
