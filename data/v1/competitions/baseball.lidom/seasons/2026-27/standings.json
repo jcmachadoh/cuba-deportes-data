@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lidom:2026-27",
- "updatedAt": "2026-11-15T09:23:34Z",
+ "updatedAt": "2026-11-16T06:26:01Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -18,18 +18,18 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 23,
-      "W": 15,
+      "GP": 24,
+      "W": 16,
       "L": 8,
-      "PCT": 0.652,
+      "PCT": 0.667,
       "GB": -4.5,
-      "STRK": "L1",
+      "STRK": "W1",
       "L10": "6-4",
       "HOME": "7-5",
-      "AWAY": "8-3",
-      "RS": 130,
-      "RA": 107,
-      "RD": 23
+      "AWAY": "9-3",
+      "RS": 134,
+      "RA": 109,
+      "RD": 25
      },
      "extra": {
       "leagueRank": "1"
@@ -40,25 +40,25 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 23,
+      "GP": 24,
       "W": 14,
-      "L": 9,
-      "PCT": 0.609,
-      "GB": -3.5,
-      "STRK": "W1",
+      "L": 10,
+      "PCT": 0.583,
+      "GB": -2.5,
+      "STRK": "L1",
       "L10": "5-5",
-      "HOME": "6-5",
+      "HOME": "6-6",
       "AWAY": "8-4",
-      "RS": 122,
-      "RA": 96,
-      "RD": 26
+      "RS": 124,
+      "RA": 100,
+      "RD": 24
      },
      "extra": {
       "leagueRank": "2"
      }
     },
     {
-     "participantId": "baseball.gigantes-del-cibao",
+     "participantId": "baseball.estrellas-orientales",
      "participantType": "team",
      "rank": 3,
      "stats": {
@@ -66,7 +66,27 @@
       "W": 11,
       "L": 12,
       "PCT": 0.478,
-      "GB": -0.5,
+      "STRK": "W2",
+      "L10": "5-5",
+      "HOME": "5-7",
+      "AWAY": "6-5",
+      "RS": 123,
+      "RA": 122,
+      "RD": 1
+     },
+     "extra": {
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.gigantes-del-cibao",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 23,
+      "W": 11,
+      "L": 12,
+      "PCT": 0.478,
       "STRK": "L1",
       "L10": "4-6",
       "HOME": "7-5",
@@ -74,27 +94,6 @@
       "RS": 125,
       "RA": 146,
       "RD": -21
-     },
-     "extra": {
-      "leagueRank": "3"
-     }
-    },
-    {
-     "participantId": "baseball.estrellas-orientales",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 22,
-      "W": 10,
-      "L": 12,
-      "PCT": 0.455,
-      "STRK": "W1",
-      "L10": "5-5",
-      "HOME": "5-7",
-      "AWAY": "5-5",
-      "RS": 117,
-      "RA": 117,
-      "RD": 0
      },
      "extra": {
       "leagueRank": "4"
@@ -109,7 +108,7 @@
       "W": 9,
       "L": 13,
       "PCT": 0.409,
-      "GB": 1.0,
+      "GB": 1.5,
       "STRK": "W1",
       "L10": "6-4",
       "HOME": "5-5",
@@ -127,18 +126,18 @@
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 23,
+      "GP": 24,
       "W": 9,
-      "L": 14,
-      "PCT": 0.391,
-      "GB": 1.5,
-      "STRK": "L1",
+      "L": 15,
+      "PCT": 0.375,
+      "GB": 2.5,
+      "STRK": "L2",
       "L10": "4-6",
-      "HOME": "4-7",
+      "HOME": "4-8",
       "AWAY": "5-7",
-      "RS": 113,
-      "RA": 139,
-      "RD": -26
+      "RS": 118,
+      "RA": 145,
+      "RD": -27
      },
      "extra": {
       "leagueRank": "6"
