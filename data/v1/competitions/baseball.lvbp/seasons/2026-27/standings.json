@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lvbp:2026-27",
- "updatedAt": "2026-11-16T06:26:02Z",
+ "updatedAt": "2026-11-17T02:55:18Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -35,9 +35,30 @@
      }
     },
     {
-     "participantId": "baseball.tigres-de-aragua",
+     "participantId": "baseball.leones-del-caracas",
      "participantType": "team",
      "rank": 2,
+     "stats": {
+      "GP": 28,
+      "W": 17,
+      "L": 11,
+      "PCT": 0.607,
+      "STRK": "W2",
+      "L10": "9-1",
+      "HOME": "10-6",
+      "AWAY": "7-5",
+      "RS": 189,
+      "RA": 147,
+      "RD": 42
+     },
+     "extra": {
+      "leagueRank": "2"
+     }
+    },
+    {
+     "participantId": "baseball.tigres-de-aragua",
+     "participantType": "team",
+     "rank": 3,
      "stats": {
       "GP": 28,
       "W": 17,
@@ -52,27 +73,6 @@
       "RD": 25
      },
      "extra": {
-      "leagueRank": "2"
-     }
-    },
-    {
-     "participantId": "baseball.leones-del-caracas",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 27,
-      "W": 16,
-      "L": 11,
-      "PCT": 0.593,
-      "STRK": "W1",
-      "L10": "9-1",
-      "HOME": "9-6",
-      "AWAY": "7-5",
-      "RS": 183,
-      "RA": 142,
-      "RD": 41
-     },
-     "extra": {
       "leagueRank": "3"
      }
     },
@@ -81,17 +81,17 @@
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 25,
+      "GP": 26,
       "W": 13,
-      "L": 12,
-      "PCT": 0.52,
-      "STRK": "W1",
+      "L": 13,
+      "PCT": 0.5,
+      "STRK": "L1",
       "L10": "2-8",
       "HOME": "7-4",
-      "AWAY": "6-8",
-      "RS": 153,
-      "RA": 154,
-      "RD": -1
+      "AWAY": "6-9",
+      "RS": 158,
+      "RA": 160,
+      "RD": -2
      },
      "extra": {
       "leagueRank": "4"
