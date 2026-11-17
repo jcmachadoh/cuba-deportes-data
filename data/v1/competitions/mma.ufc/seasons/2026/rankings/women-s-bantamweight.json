@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:women-s-bantamweight",
- "updatedAt": "2026-11-17T13:25:28Z",
+ "updatedAt": "2026-11-17T22:23:25Z",
  "sources": [
   "ufc.com"
  ],
@@ -38,10 +38,44 @@
   },
   {
    "rank": 1,
-   "participantId": "p.joselyne-edwards",
+   "participantId": "p.amanda-nunes",
    "participantType": "person",
    "stats": {
     "RANK": 1
+   },
+   "person": {
+    "id": "p.amanda-nunes",
+    "name": {
+     "full": "Amanda Nunes"
+    },
+    "isCuban": false
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.julianna-pena",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2
+   },
+   "person": {
+    "id": "p.julianna-pena",
+    "name": {
+     "full": "Julianna Peña"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.joselyne-edwards",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2
    },
    "person": {
     "id": "p.joselyne-edwards",
@@ -52,31 +86,15 @@
     "birthCountry": "PA"
    },
    "extra": {
-    "trend": 1
+    "trend": -1
    }
   },
   {
-   "rank": 1,
-   "participantId": "p.julianna-pena",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1
-   },
-   "person": {
-    "id": "p.julianna-pena",
-    "name": {
-     "full": "Julianna Peña"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.ailin-perez",
    "participantType": "person",
    "stats": {
-    "RANK": 3
+    "RANK": 4
    },
    "person": {
     "id": "p.ailin-perez",
@@ -85,22 +103,9 @@
     },
     "isCuban": false,
     "birthCountry": "AR"
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.norma-dumont",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4
    },
-   "person": {
-    "id": "p.norma-dumont",
-    "name": {
-     "full": "Norma Dumont"
-    },
-    "isCuban": false,
-    "birthCountry": "BR"
+   "extra": {
+    "trend": -1
    }
   },
   {
@@ -133,9 +138,6 @@
     },
     "isCuban": false,
     "birthCountry": "RU"
-   },
-   "extra": {
-    "trend": 1
    }
   },
   {
@@ -152,17 +154,33 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   },
-   "extra": {
-    "trend": -2
    }
   },
   {
    "rank": 8,
-   "participantId": "p.jacqueline-cavalcanti",
+   "participantId": "p.bia-mesquita",
    "participantType": "person",
    "stats": {
     "RANK": 8
+   },
+   "person": {
+    "id": "p.bia-mesquita",
+    "name": {
+     "full": "Bia Mesquita"
+    },
+    "isCuban": false,
+    "birthCountry": "BR"
+   },
+   "extra": {
+    "trend": 3
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.jacqueline-cavalcanti",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9
    },
    "person": {
     "id": "p.jacqueline-cavalcanti",
@@ -171,14 +189,17 @@
     },
     "isCuban": false,
     "birthCountry": "BR"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
-   "rank": 9,
+   "rank": 10,
    "participantId": "p.karol-rosa",
    "participantType": "person",
    "stats": {
-    "RANK": 9
+    "RANK": 10
    },
    "person": {
     "id": "p.karol-rosa",
@@ -189,15 +210,34 @@
     "birthCountry": "BR"
    },
    "extra": {
+    "trend": -1
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.michelle-montague",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11
+   },
+   "person": {
+    "id": "p.michelle-montague",
+    "name": {
+     "full": "Michelle Montague"
+    },
+    "isCuban": false,
+    "birthCountry": "NZ"
+   },
+   "extra": {
     "trend": 1
    }
   },
   {
-   "rank": 10,
+   "rank": 12,
    "participantId": "p.macy-chiasson",
    "participantType": "person",
    "stats": {
-    "RANK": 10
+    "RANK": 12
    },
    "person": {
     "id": "p.macy-chiasson",
@@ -208,39 +248,7 @@
     "birthCountry": "US"
    },
    "extra": {
-    "trend": -1
-   }
-  },
-  {
-   "rank": 11,
-   "participantId": "p.bia-mesquita",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11
-   },
-   "person": {
-    "id": "p.bia-mesquita",
-    "name": {
-     "full": "Bia Mesquita"
-    },
-    "isCuban": false,
-    "birthCountry": "BR"
-   }
-  },
-  {
-   "rank": 12,
-   "participantId": "p.michelle-montague",
-   "participantType": "person",
-   "stats": {
-    "RANK": 12
-   },
-   "person": {
-    "id": "p.michelle-montague",
-    "name": {
-     "full": "Michelle Montague"
-    },
-    "isCuban": false,
-    "birthCountry": "NZ"
+    "trend": -2
    }
   },
   {
@@ -273,9 +281,6 @@
     },
     "isCuban": false,
     "birthCountry": "BR"
-   },
-   "extra": {
-    "trend": 1
    }
   },
   {
@@ -292,9 +297,6 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   },
-   "extra": {
-    "trend": -1
    }
   }
  ]
