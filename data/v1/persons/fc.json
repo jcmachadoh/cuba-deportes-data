@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "fc",
- "updatedAt": "2026-11-06T07:05:50Z",
+ "updatedAt": "2026-11-17T18:11:23Z",
  "persons": {
   "p.aaron-shortridge.1997": {
    "id": "p.aaron-shortridge.1997",
@@ -1061,6 +1061,26 @@
     "federation": "CHA"
    }
   },
+  "p.javohir-bozorov": {
+   "id": "p.javohir-bozorov",
+   "name": {
+    "full": "Javohir Bozorov"
+   },
+   "nationalities": [
+    "UZ"
+   ],
+   "isCuban": false,
+   "title": "FM",
+   "externalIds": {
+    "fide": "14216957"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "UZB"
+   }
+  },
   "p.jesus-quintero.2001": {
    "id": "p.jesus-quintero.2001",
    "name": {
@@ -1891,6 +1911,34 @@
    "isCuban": false,
    "sources": [
     "legavolley"
+   ]
+  },
+  "p.quinton-martinez.1999": {
+   "id": "p.quinton-martinez.1999",
+   "name": {
+    "full": "Quinton Martinez",
+    "first": "Quinton",
+    "last": "Martinez"
+   },
+   "birthDate": "1999-01-23",
+   "birthPlace": {
+    "city": "Orlando",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 193.0,
+    "weightKg": 86.2
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "L"
+   },
+   "externalIds": {
+    "mlb": "689703"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.rafael-navarro.2000": {

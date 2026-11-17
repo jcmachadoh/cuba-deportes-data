@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.kansas-city-royals:2026",
- "updatedAt": "2026-10-31T14:44:14Z",
+ "updatedAt": "2026-11-17T17:52:33Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -458,6 +458,24 @@
    },
    "players": [
     {
+     "personId": "p.salvador-perez.1990",
+     "number": "13",
+     "position": "C",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.salvador-perez.1990",
+      "name": {
+       "full": "Salvador Perez",
+       "first": "Salvador",
+       "last": "Perez"
+      },
+      "birthDate": "1990-05-10",
+      "isCuban": false,
+      "birthCountry": "VE"
+     }
+    },
+    {
      "personId": "p.carter-jensen.2003",
      "number": "22",
      "position": "C",
@@ -687,32 +705,6 @@
       "birthDate": "1997-03-03",
       "isCuban": false,
       "birthCountry": "US"
-     }
-    }
-   ]
-  },
-  {
-   "code": "DH",
-   "name": {
-    "es": "Bateadores designados"
-   },
-   "players": [
-    {
-     "personId": "p.salvador-perez.1990",
-     "number": "13",
-     "position": "DH",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.salvador-perez.1990",
-      "name": {
-       "full": "Salvador Perez",
-       "first": "Salvador",
-       "last": "Perez"
-      },
-      "birthDate": "1990-05-10",
-      "isCuban": false,
-      "birthCountry": "VE"
      }
     }
    ]

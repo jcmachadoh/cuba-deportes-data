@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "c0",
- "updatedAt": "2026-11-16T06:50:36Z",
+ "updatedAt": "2026-11-17T18:11:23Z",
  "persons": {
   "p.adalberto-carrasquilla.1998": {
    "id": "p.adalberto-carrasquilla.1998",
@@ -528,11 +528,13 @@
     "fide": "36767522"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "IRI"
-   }
+   },
+   "title": "WFM"
   },
   "p.drew-millas.1998": {
    "id": "p.drew-millas.1998",
@@ -2253,6 +2255,26 @@
    "sources": [
     "espn"
    ]
+  },
+  "p.ticia-gara": {
+   "id": "p.ticia-gara",
+   "name": {
+    "full": "Ticia Gara"
+   },
+   "nationalities": [
+    "IL"
+   ],
+   "isCuban": false,
+   "title": "WGM",
+   "externalIds": {
+    "fide": "717444"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "ISR"
+   }
   },
   "p.torgeir-kjoita": {
    "id": "p.torgeir-kjoita",
