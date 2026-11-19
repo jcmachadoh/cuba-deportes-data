@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "83",
- "updatedAt": "2026-11-15T09:48:02Z",
+ "updatedAt": "2026-11-19T17:42:25Z",
  "persons": {
   "p.aaron-spano": {
    "id": "p.aaron-spano",
@@ -39,7 +39,10 @@
    },
    "sources": [
     "espn"
-   ]
+   ],
+   "birthPlace": {
+    "country": "UY"
+   }
   },
   "p.adyel-peraza-martinez.2010": {
    "id": "p.adyel-peraza-martinez.2010",
@@ -543,6 +546,34 @@
    "extra": {
     "federation": "CUB"
    }
+  },
+  "p.druw-jones.2003": {
+   "id": "p.druw-jones.2003",
+   "name": {
+    "full": "Druw Jones",
+    "first": "Druw",
+    "last": "Jones"
+   },
+   "birthDate": "2003-11-28",
+   "birthPlace": {
+    "city": "Atlanta",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 188.0,
+    "weightKg": 81.6
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "702258"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
   },
   "p.edwin-soto.2007": {
    "id": "p.edwin-soto.2007",
@@ -2607,7 +2638,7 @@
     "first": "Victor",
     "last": "Andersson"
    },
-   "birthDate": "1995-06-24",
+   "birthDate": "2004-10-22",
    "nationalities": [
     "SE"
    ],

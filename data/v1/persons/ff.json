@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "ff",
- "updatedAt": "2026-11-17T18:11:23Z",
+ "updatedAt": "2026-11-19T17:38:46Z",
  "persons": {
   "p.aaron-paez.2005": {
    "id": "p.aaron-paez.2005",
@@ -2056,6 +2056,34 @@
     "espn"
    ]
   },
+  "p.matthew-wood.2001": {
+   "id": "p.matthew-wood.2001",
+   "name": {
+    "full": "Matthew Wood",
+    "first": "Matthew",
+    "last": "Wood"
+   },
+   "birthDate": "2001-03-02",
+   "birthPlace": {
+    "city": "Naperville",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 177.8,
+    "weightKg": 86.6
+   },
+   "hand": {
+    "bats": "L",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "687783"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
   "p.mauricio.2001": {
    "id": "p.mauricio.2001",
    "name": {
@@ -2480,6 +2508,37 @@
    "extra": {
     "federation": "IND"
    }
+  },
+  "p.roberto-campos.2003": {
+   "id": "p.roberto-campos.2003",
+   "name": {
+    "full": "Roberto Campos",
+    "first": "Roberto",
+    "last": "Campos"
+   },
+   "birthDate": "2003-06-14",
+   "birthPlace": {
+    "city": "Havana",
+    "country": "CU"
+   },
+   "isCuban": true,
+   "cubanEvidence": [
+    "mlb-statsapi.birthCountry"
+   ],
+   "body": {
+    "heightCm": 190.5,
+    "weightKg": 90.7
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "691449"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
   },
   "p.ross-doohan.1998": {
    "id": "p.ross-doohan.1998",

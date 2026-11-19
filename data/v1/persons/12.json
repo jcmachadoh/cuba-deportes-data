@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "12",
- "updatedAt": "2026-11-17T18:11:23Z",
+ "updatedAt": "2026-11-19T17:38:42Z",
  "persons": {
   "p.adam-cimber.1990": {
    "id": "p.adam-cimber.1990",
@@ -2692,6 +2692,34 @@
    },
    "sources": [
     "npb"
+   ]
+  },
+  "p.tahnaj-thomas.1999": {
+   "id": "p.tahnaj-thomas.1999",
+   "name": {
+    "full": "Tahnaj Thomas",
+    "first": "Tahnaj",
+    "last": "Thomas"
+   },
+   "birthDate": "1999-06-16",
+   "birthPlace": {
+    "city": "Freeport",
+    "country": "BS"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 193.0,
+    "weightKg": 98.4
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "673231"
+   },
+   "sources": [
+    "mlb-statsapi"
    ]
   },
   "p.tarik-haddir": {

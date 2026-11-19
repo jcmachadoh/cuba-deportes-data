@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "1c",
- "updatedAt": "2026-11-18T17:38:56Z",
+ "updatedAt": "2026-11-19T17:42:55Z",
  "persons": {
   "p.aaron-bobadilla.2007": {
    "id": "p.aaron-bobadilla.2007",
@@ -352,6 +352,34 @@
    },
    "externalIds": {
     "mlb": "842334"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.brandon-white.1999": {
+   "id": "p.brandon-white.1999",
+   "name": {
+    "full": "Brandon White",
+    "first": "Brandon",
+    "last": "White"
+   },
+   "birthDate": "1999-11-26",
+   "birthPlace": {
+    "city": "Olympia",
+    "country": "US"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 203.2,
+    "weightKg": 104.3
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "681449"
    },
    "sources": [
     "mlb-statsapi"
@@ -926,6 +954,22 @@
    },
    "externalIds": {
     "espn": "408595"
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  "p.freddy-yanez": {
+   "id": "p.freddy-yanez",
+   "name": {
+    "full": "Freddy Yanez",
+    "first": "Freddy",
+    "last": "Yanez"
+   },
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "5333866"
    },
    "sources": [
     "espn"

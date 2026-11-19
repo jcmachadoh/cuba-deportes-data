@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.aguilas-de-mexicali:2026-27",
- "updatedAt": "2026-11-15T15:53:23Z",
+ "updatedAt": "2026-11-19T17:38:42Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -17,6 +17,24 @@
     "es": "Lanzadores"
    },
    "players": [
+    {
+     "personId": "p.yamil-castillo.1999",
+     "number": "6",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.yamil-castillo.1999",
+      "name": {
+       "full": "Yamil Castillo",
+       "first": "Yamil",
+       "last": "Castillo"
+      },
+      "birthDate": "1999-08-18",
+      "isCuban": false,
+      "birthCountry": "MX"
+     }
+    },
     {
      "personId": "p.alain-pena.2003",
      "number": "18",
@@ -49,24 +67,6 @@
        "last": "Elenes"
       },
       "birthDate": "1992-07-10",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
-    },
-    {
-     "personId": "p.angel-lopez.2002",
-     "number": "32",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.angel-lopez.2002",
-      "name": {
-       "full": "Angel Lopez",
-       "first": "Angel",
-       "last": "Lopez"
-      },
-      "birthDate": "2002-09-16",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -296,19 +296,19 @@
    },
    "players": [
     {
-     "personId": "p.alejandro-flores.1995",
-     "number": "5",
+     "personId": "p.brandon-jaime.2004",
+     "number": "8",
      "position": "C",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.alejandro-flores.1995",
+      "id": "p.brandon-jaime.2004",
       "name": {
-       "full": "Alejandro Flores",
-       "first": "Alejandro",
-       "last": "Flores"
+       "full": "Brandon Jaime",
+       "first": "Brandon",
+       "last": "Jaime"
       },
-      "birthDate": "1995-12-27",
+      "birthDate": "2004-12-11",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -616,6 +616,19 @@
      }
     },
     {
+     "personId": "p.gil-velazquez",
+     "number": "15",
+     "role": "staff",
+     "roleName": "Manager",
+     "person": {
+      "id": "p.gil-velazquez",
+      "name": {
+       "full": "Gil Velazquez"
+      },
+      "isCuban": false
+     }
+    },
+    {
      "personId": "p.ramon-valdez",
      "number": "16",
      "role": "staff",
@@ -745,18 +758,6 @@
       "id": "p.miguel-duarte",
       "name": {
        "full": "Miguel Duarte"
-      },
-      "isCuban": false
-     }
-    },
-    {
-     "personId": "p.gil-velazquez",
-     "role": "staff",
-     "roleName": "Manager",
-     "person": {
-      "id": "p.gil-velazquez",
-      "name": {
-       "full": "Gil Velazquez"
       },
       "isCuban": false
      }
