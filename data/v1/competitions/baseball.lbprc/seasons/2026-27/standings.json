@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lbprc:2026-27",
- "updatedAt": "2026-11-19T10:19:32Z",
+ "updatedAt": "2026-11-20T03:13:28Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -36,31 +36,9 @@
      }
     },
     {
-     "participantId": "baseball.cangrejeros-de-santurce",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 12,
-      "W": 7,
-      "L": 5,
-      "PCT": 0.583,
-      "GB": -0.5,
-      "STRK": "W3",
-      "L10": "6-4",
-      "HOME": "4-3",
-      "AWAY": "3-2",
-      "RS": 67,
-      "RA": 59,
-      "RD": 8
-     },
-     "extra": {
-      "leagueRank": "2"
-     }
-    },
-    {
      "participantId": "baseball.leones-de-ponce",
      "participantType": "team",
-     "rank": 3,
+     "rank": 2,
      "stats": {
       "GP": 12,
       "W": 7,
@@ -76,13 +54,13 @@
       "RD": 27
      },
      "extra": {
-      "leagueRank": "3"
+      "leagueRank": "2"
      }
     },
     {
      "participantId": "baseball.gigantes-de-carolina",
      "participantType": "team",
-     "rank": 4,
+     "rank": 3,
      "stats": {
       "GP": 11,
       "W": 6,
@@ -97,6 +75,27 @@
       "RD": 10
      },
      "extra": {
+      "leagueRank": "3"
+     }
+    },
+    {
+     "participantId": "baseball.cangrejeros-de-santurce",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 13,
+      "W": 7,
+      "L": 6,
+      "PCT": 0.538,
+      "STRK": "L1",
+      "L10": "6-4",
+      "HOME": "4-4",
+      "AWAY": "3-2",
+      "RS": 69,
+      "RA": 64,
+      "RD": 5
+     },
+     "extra": {
       "leagueRank": "4"
      }
     },
@@ -105,18 +104,18 @@
      "participantType": "team",
      "rank": 5,
      "stats": {
-      "GP": 11,
-      "W": 4,
+      "GP": 12,
+      "W": 5,
       "L": 7,
-      "PCT": 0.364,
-      "GB": 2.0,
-      "STRK": "L1",
-      "L10": "4-6",
+      "PCT": 0.417,
+      "GB": 1.5,
+      "STRK": "W1",
+      "L10": "5-5",
       "HOME": "0-3",
-      "AWAY": "4-4",
-      "RS": 42,
-      "RA": 74,
-      "RD": -32
+      "AWAY": "5-4",
+      "RS": 47,
+      "RA": 76,
+      "RD": -29
      },
      "extra": {
       "leagueRank": "5"
