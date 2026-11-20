@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:6PTzCQFL",
- "updatedAt": "2026-11-19T20:59:20Z",
+ "updatedAt": "2026-11-20T17:33:48Z",
  "sources": [
   "lichess"
  ],
@@ -60,27 +60,27 @@
    {
     "name": "Game 8 | Blitz",
     "startsAt": 1795183200000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Game 9 | Blitz",
     "startsAt": 1795184100000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Game 10 | Blitz",
     "startsAt": 1795185000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Game 11 | Blitz",
     "startsAt": 1795185900000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Game 12 | Rapid",
     "startsAt": 1795187700000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Game 13 | Rapid",
@@ -106,9 +106,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 16.0,
+    "PTS": 28.0,
     "ELO": 2819,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.nodirbek-abdusattorov.2004",
@@ -132,9 +132,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 15.0,
+    "PTS": 24.0,
     "ELO": 2537,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.andrew-hong",
@@ -153,39 +153,13 @@
   },
   {
    "rank": 3,
-   "participantId": "p.haik-m-martirosyan.2000",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 14.5,
-    "ELO": 2686,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.haik-m-martirosyan.2000",
-    "name": {
-     "full": "Haik M. Martirosyan"
-    },
-    "birthDate": "2000",
-    "nationalities": [
-     "AM"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3546
-   }
-  },
-  {
-   "rank": 4,
    "participantId": "p.vincent-keymer.2004",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 14.5,
+    "RANK": 3,
+    "PTS": 20.5,
     "ELO": 2628,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.vincent-keymer.2004",
@@ -204,14 +178,14 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 4,
    "participantId": "p.ian-nepomniachtchi.1990",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 14.0,
+    "RANK": 4,
+    "PTS": 20.0,
     "ELO": 2765,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.ian-nepomniachtchi.1990",
@@ -230,14 +204,40 @@
    }
   },
   {
+   "rank": 5,
+   "participantId": "p.praggnanandhaa-r.2005",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 19.0,
+    "ELO": 2712,
+    "GP": 13
+   },
+   "person": {
+    "id": "p.praggnanandhaa-r.2005",
+    "name": {
+     "full": "Praggnanandhaa R"
+    },
+    "birthDate": "2005",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2644
+   }
+  },
+  {
    "rank": 6,
    "participantId": "p.hans-moke-niemann.2003",
    "participantType": "person",
    "stats": {
     "RANK": 6,
-    "PTS": 13.5,
+    "PTS": 18.5,
     "ELO": 2711,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.hans-moke-niemann.2003",
@@ -261,9 +261,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 7,
-    "PTS": 12.5,
+    "PTS": 17.5,
     "ELO": 2745,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.wesley-so.1993",
@@ -283,65 +283,13 @@
   },
   {
    "rank": 8,
-   "participantId": "p.praggnanandhaa-r.2005",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 12.0,
-    "ELO": 2712,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.praggnanandhaa-r.2005",
-    "name": {
-     "full": "Praggnanandhaa R"
-    },
-    "birthDate": "2005",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2644
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.magnus-carlsen.1990",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 11.0,
-    "ELO": 2860,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.magnus-carlsen.1990",
-    "name": {
-     "full": "Magnus Carlsen"
-    },
-    "birthDate": "1990",
-    "nationalities": [
-     "NO"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 3453
-   }
-  },
-  {
-   "rank": 10,
    "participantId": "p.fabiano-caruana.1992",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
-    "PTS": 11.0,
+    "RANK": 8,
+    "PTS": 17.5,
     "ELO": 2738,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.fabiano-caruana.1992",
@@ -360,63 +308,14 @@
    }
   },
   {
-   "rank": 11,
-   "participantId": "p.anish-giri.1994",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "PTS": 11.0,
-    "ELO": 2636,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.anish-giri.1994",
-    "name": {
-     "full": "Anish Giri"
-    },
-    "birthDate": "1994",
-    "nationalities": [
-     "NL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2757
-   }
-  },
-  {
-   "rank": 12,
-   "participantId": "p.richard-rapport.1996",
-   "participantType": "person",
-   "stats": {
-    "RANK": 12,
-    "PTS": 11.0,
-    "ELO": 2616,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.richard-rapport.1996",
-    "name": {
-     "full": "Richard Rapport"
-    },
-    "birthDate": "1996",
-    "nationalities": [
-     "HU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   }
-  },
-  {
-   "rank": 13,
+   "rank": 9,
    "participantId": "p.alireza-firouzja.2003",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
-    "PTS": 9.0,
+    "RANK": 9,
+    "PTS": 17.0,
     "ELO": 2797,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.alireza-firouzja.2003",
@@ -435,40 +334,37 @@
    }
   },
   {
-   "rank": 14,
-   "participantId": "p.maxime-vachier-lagrave.1990",
+   "rank": 10,
+   "participantId": "p.jorden-van-foreest.1999",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
-    "PTS": 9.0,
-    "ELO": 2734,
-    "GP": 7
+    "RANK": 10,
+    "PTS": 17.0,
+    "ELO": 2659,
+    "GP": 13
    },
    "person": {
-    "id": "p.maxime-vachier-lagrave.1990",
+    "id": "p.jorden-van-foreest.1999",
     "name": {
-     "full": "Maxime Vachier-Lagrave"
+     "full": "Jorden Van Foreest"
     },
-    "birthDate": "1990",
+    "birthDate": "1999",
     "nationalities": [
-     "FR"
+     "NL"
     ],
     "isCuban": false,
     "title": "GM"
-   },
-   "extra": {
-    "performance": 2783
    }
   },
   {
-   "rank": 15,
+   "rank": 11,
    "participantId": "p.vladislav-artemiev.1998",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
-    "PTS": 9.0,
+    "RANK": 11,
+    "PTS": 16.5,
     "ELO": 2712,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.vladislav-artemiev.1998",
@@ -487,63 +383,141 @@
    }
   },
   {
-   "rank": 16,
-   "participantId": "p.jorden-van-foreest.1999",
+   "rank": 12,
+   "participantId": "p.magnus-carlsen.1990",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
-    "PTS": 9.0,
-    "ELO": 2659,
-    "GP": 7
+    "RANK": 12,
+    "PTS": 15.5,
+    "ELO": 2860,
+    "GP": 13
    },
    "person": {
-    "id": "p.jorden-van-foreest.1999",
+    "id": "p.magnus-carlsen.1990",
     "name": {
-     "full": "Jorden Van Foreest"
+     "full": "Magnus Carlsen"
     },
-    "birthDate": "1999",
+    "birthDate": "1990",
     "nationalities": [
-     "NL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   }
-  },
-  {
-   "rank": 17,
-   "participantId": "p.abhimanyu-mishra.2009",
-   "participantType": "person",
-   "stats": {
-    "RANK": 17,
-    "PTS": 8.0,
-    "ELO": 2541,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.abhimanyu-mishra.2009",
-    "name": {
-     "full": "Abhimanyu Mishra"
-    },
-    "birthDate": "2009",
-    "nationalities": [
-     "US"
+     "NO"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "performance": 2763
+    "performance": 3453
    }
   },
   {
-   "rank": 18,
+   "rank": 13,
+   "participantId": "p.haik-m-martirosyan.2000",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
+    "PTS": 15.5,
+    "ELO": 2686,
+    "GP": 12
+   },
+   "person": {
+    "id": "p.haik-m-martirosyan.2000",
+    "name": {
+     "full": "Haik M. Martirosyan"
+    },
+    "birthDate": "2000",
+    "nationalities": [
+     "AM"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 3546
+   }
+  },
+  {
+   "rank": 14,
+   "participantId": "p.anish-giri.1994",
+   "participantType": "person",
+   "stats": {
+    "RANK": 14,
+    "PTS": 15.0,
+    "ELO": 2636,
+    "GP": 13
+   },
+   "person": {
+    "id": "p.anish-giri.1994",
+    "name": {
+     "full": "Anish Giri"
+    },
+    "birthDate": "1994",
+    "nationalities": [
+     "NL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2757
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.richard-rapport.1996",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
+    "PTS": 15.0,
+    "ELO": 2616,
+    "GP": 13
+   },
+   "person": {
+    "id": "p.richard-rapport.1996",
+    "name": {
+     "full": "Richard Rapport"
+    },
+    "birthDate": "1996",
+    "nationalities": [
+     "HU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   }
+  },
+  {
+   "rank": 16,
+   "participantId": "p.maxime-vachier-lagrave.1990",
+   "participantType": "person",
+   "stats": {
+    "RANK": 16,
+    "PTS": 14.5,
+    "ELO": 2734,
+    "GP": 13
+   },
+   "person": {
+    "id": "p.maxime-vachier-lagrave.1990",
+    "name": {
+     "full": "Maxime Vachier-Lagrave"
+    },
+    "birthDate": "1990",
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2783
+   }
+  },
+  {
+   "rank": 17,
    "participantId": "p.levon-aronian.1982",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
-    "PTS": 7.5,
+    "RANK": 17,
+    "PTS": 14.5,
     "ELO": 2714,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.levon-aronian.1982",
@@ -562,14 +536,14 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 18,
    "participantId": "p.jan-krzysztof-duda.1998",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
-    "PTS": 6.5,
+    "RANK": 18,
+    "PTS": 13.5,
     "ELO": 2704,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.jan-krzysztof-duda.1998",
@@ -588,40 +562,40 @@
    }
   },
   {
-   "rank": 20,
-   "participantId": "p.quang-liem-le.1991",
+   "rank": 19,
+   "participantId": "p.abhimanyu-mishra.2009",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
-    "PTS": 6.0,
-    "ELO": 2675,
-    "GP": 7
+    "RANK": 19,
+    "PTS": 13.0,
+    "ELO": 2541,
+    "GP": 13
    },
    "person": {
-    "id": "p.quang-liem-le.1991",
+    "id": "p.abhimanyu-mishra.2009",
     "name": {
-     "full": "Quang Liem Le"
+     "full": "Abhimanyu Mishra"
     },
-    "birthDate": "1991",
+    "birthDate": "2009",
     "nationalities": [
-     "VN"
+     "US"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "performance": 1919
+    "performance": 2763
    }
   },
   {
-   "rank": 21,
+   "rank": 20,
    "participantId": "p.erigaisi-arjun.2003",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
-    "PTS": 5.5,
+    "RANK": 20,
+    "PTS": 12.5,
     "ELO": 2766,
-    "GP": 7
+    "GP": 12
    },
    "person": {
     "id": "p.erigaisi-arjun.2003",
@@ -640,14 +614,40 @@
    }
   },
   {
+   "rank": 21,
+   "participantId": "p.quang-liem-le.1991",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21,
+    "PTS": 12.0,
+    "ELO": 2675,
+    "GP": 13
+   },
+   "person": {
+    "id": "p.quang-liem-le.1991",
+    "name": {
+     "full": "Quang Liem Le"
+    },
+    "birthDate": "1991",
+    "nationalities": [
+     "VN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 1919
+   }
+  },
+  {
    "rank": 22,
    "participantId": "p.shakhriyar-mamedyarov.1985",
    "participantType": "person",
    "stats": {
     "RANK": 22,
-    "PTS": 5.5,
+    "PTS": 11.5,
     "ELO": 2612,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.shakhriyar-mamedyarov.1985",
@@ -671,9 +671,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 23,
-    "PTS": 5.0,
+    "PTS": 8.0,
     "ELO": 2424,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.bibisara-assaubayeva.2004",
@@ -699,7 +699,7 @@
     "RANK": 24,
     "PTS": 4.0,
     "ELO": 2345,
-    "GP": 7
+    "GP": 13
    },
    "person": {
     "id": "p.rameshbabu-vaishali.2001",

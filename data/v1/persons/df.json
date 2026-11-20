@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "df",
- "updatedAt": "2026-11-19T17:38:42Z",
+ "updatedAt": "2026-11-20T17:33:49Z",
  "persons": {
   "p.aboubacar-akarintkitt": {
    "id": "p.aboubacar-akarintkitt",
@@ -87,6 +87,26 @@
    "sources": [
     "mlb-statsapi"
    ]
+  },
+  "p.alex-garrido-outon": {
+   "id": "p.alex-garrido-outon",
+   "name": {
+    "full": "Alex Garrido Outon"
+   },
+   "nationalities": [
+    "ES"
+   ],
+   "isCuban": false,
+   "title": "IM",
+   "externalIds": {
+    "fide": "24516279"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "ESP"
+   }
   },
   "p.alexis-doldan.1997": {
    "id": "p.alexis-doldan.1997",
@@ -2445,11 +2465,13 @@
     "fide": "4264312"
    },
    "sources": [
-    "fide"
+    "fide",
+    "lichess"
    ],
    "extra": {
     "federation": "GRE"
-   }
+   },
+   "title": "IM"
   },
   "p.taiga-imanaga": {
    "id": "p.taiga-imanaga",
