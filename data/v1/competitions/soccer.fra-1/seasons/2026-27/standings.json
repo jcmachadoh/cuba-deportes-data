@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-11-08T22:05:53Z",
+ "updatedAt": "2026-11-20T21:50:01Z",
  "sources": [
   "espn"
  ],
@@ -236,9 +236,24 @@
      }
     },
     {
-     "participantId": "soccer.strasbourg",
+     "participantId": "soccer.troyes",
      "participantType": "team",
      "rank": 13,
+     "stats": {
+      "GP": 11,
+      "W": 3,
+      "D": 2,
+      "L": 6,
+      "GF": 10,
+      "GA": 18,
+      "GD": -8,
+      "PTS": 11
+     }
+    },
+    {
+     "participantId": "soccer.strasbourg",
+     "participantType": "team",
+     "rank": 14,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -253,7 +268,7 @@
     {
      "participantId": "soccer.aj-auxerre",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -268,7 +283,7 @@
     {
      "participantId": "soccer.le-mans",
      "participantType": "team",
-     "rank": 15,
+     "rank": 16,
      "stats": {
       "GP": 10,
       "W": 1,
@@ -277,21 +292,6 @@
       "GF": 12,
       "GA": 19,
       "GD": -7,
-      "PTS": 8
-     }
-    },
-    {
-     "participantId": "soccer.angers",
-     "participantType": "team",
-     "rank": 16,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 2,
-      "L": 6,
-      "GF": 9,
-      "GA": 19,
-      "GD": -10,
       "PTS": 8
      },
      "extra": {
@@ -302,7 +302,7 @@
      }
     },
     {
-     "participantId": "soccer.troyes",
+     "participantId": "soccer.angers",
      "participantType": "team",
      "rank": 17,
      "stats": {
@@ -310,8 +310,8 @@
       "W": 2,
       "D": 2,
       "L": 6,
-      "GF": 7,
-      "GA": 17,
+      "GF": 9,
+      "GA": 19,
       "GD": -10,
       "PTS": 8
      },
@@ -327,13 +327,13 @@
      "participantType": "team",
      "rank": 18,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 0,
       "D": 2,
-      "L": 8,
-      "GF": 9,
-      "GA": 22,
-      "GD": -13,
+      "L": 9,
+      "GF": 10,
+      "GA": 25,
+      "GD": -15,
       "PTS": 2
      },
      "extra": {
