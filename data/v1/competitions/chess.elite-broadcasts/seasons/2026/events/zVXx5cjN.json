@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:zVXx5cjN",
- "updatedAt": "2026-11-21T13:03:01Z",
+ "updatedAt": "2026-11-21T20:55:34Z",
  "sources": [
   "lichess"
  ],
@@ -23,37 +23,37 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=RWTHlnLp-uav.webp&w=800&sig=b487cc0ea6a16ac187a326e55493fc564f2a54ae",
   "rounds": [
    {
-    "name": "Round 1",
+    "name": "Ronda 1",
     "startsAt": 1795186800000,
     "finished": true
    },
    {
-    "name": "Round 2",
+    "name": "Ronda 2",
     "startsAt": 1795273200000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Round 3",
+    "name": "Ronda 3",
     "startsAt": 1795359600000,
     "finished": null
    },
    {
-    "name": "Round 4",
+    "name": "Ronda 4",
     "startsAt": 1795446000000,
     "finished": null
    },
    {
-    "name": "Round 5",
+    "name": "Ronda 5",
     "startsAt": 1795532400000,
     "finished": null
    },
    {
-    "name": "Round 6",
+    "name": "Ronda 6",
     "startsAt": 1795618800000,
     "finished": null
    },
    {
-    "name": "Round 7",
+    "name": "Ronda 7",
     "startsAt": 1795705200000,
     "finished": null
    }
@@ -62,67 +62,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.nodirbek-yakubboev.2002",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 1.0,
-    "ELO": 2701,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.nodirbek-yakubboev.2002",
-    "name": {
-     "full": "Nodirbek Yakubboev"
-    },
-    "birthDate": "2002",
-    "nationalities": [
-     "UZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "OROMANA CEN SOLUTIONS",
-    "performance": 3473
-   }
-  },
-  {
-   "rank": 2,
-   "participantId": "p.pavel-eljanov.1983",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 1.0,
-    "ELO": 2665,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.pavel-eljanov.1983",
-    "name": {
-     "full": "Pavel Eljanov"
-    },
-    "birthDate": "1983",
-    "nationalities": [
-     "UA"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. JAIME CASAS DE MONZON",
-    "performance": 3332
-   }
-  },
-  {
-   "rank": 3,
    "participantId": "p.ediz-gurel.2008",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 1.0,
+    "RANK": 1,
+    "PTS": 2.0,
     "ELO": 2649,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.ediz-gurel.2008",
@@ -138,45 +84,18 @@
    },
    "extra": {
     "team": "MYINVESTOR CASABLANCA",
-    "performance": 3380
+    "performance": 3408
    }
   },
   {
-   "rank": 4,
-   "participantId": "p.pranav-anand.2006",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 1.0,
-    "ELO": 2607,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.pranav-anand.2006",
-    "name": {
-     "full": "Pranav Anand"
-    },
-    "birthDate": "2006",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "MYINVESTOR CASABLANCA",
-    "performance": 3400
-   }
-  },
-  {
-   "rank": 5,
+   "rank": 2,
    "participantId": "p.alexei-shirov",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
-    "PTS": 1.0,
+    "RANK": 2,
+    "PTS": 2.0,
     "ELO": 2597,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.alexei-shirov",
@@ -191,124 +110,18 @@
    },
    "extra": {
     "team": "C.A. JAIME CASAS DE MONZON",
-    "performance": 3252
+    "performance": 3356
    }
   },
   {
-   "rank": 6,
-   "participantId": "p.alan-pichot",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 1.0,
-    "ELO": 2560,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.alan-pichot",
-    "name": {
-     "full": "Alan Pichot"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "OROMANA CEN SOLUTIONS",
-    "performance": 3231
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.sandro-mareco",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 1.0,
-    "ELO": 2542,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.sandro-mareco",
-    "name": {
-     "full": "Sandro Mareco"
-    },
-    "nationalities": [
-     "AR"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "FILANTROPOS EQUIGOMA",
-    "performance": 3387
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.nana-dzagnidze.1987",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 1.0,
-    "ELO": 2467,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.nana-dzagnidze.1987",
-    "name": {
-     "full": "Nana Dzagnidze"
-    },
-    "birthDate": "1987",
-    "nationalities": [
-     "GE"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. SILLA BOSCH SERINSYS",
-    "performance": 3092
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.nino-batsiashvili.1987",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 1.0,
-    "ELO": 2463,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.nino-batsiashvili.1987",
-    "name": {
-     "full": "Nino Batsiashvili"
-    },
-    "birthDate": "1987",
-    "nationalities": [
-     "GE"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "DUOBENIAJAN COSTA CALIDA",
-    "performance": 3214
-   }
-  },
-  {
-   "rank": 10,
+   "rank": 3,
    "participantId": "p.javier-habans-aguerrea",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
-    "PTS": 1.0,
+    "RANK": 3,
+    "PTS": 2.0,
     "ELO": 2456,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.javier-habans-aguerrea",
@@ -323,71 +136,18 @@
    },
    "extra": {
     "team": "MYINVESTOR CASABLANCA",
-    "performance": 3244
+    "performance": 3304
    }
   },
   {
-   "rank": 11,
-   "participantId": "p.paolo-ladron-de-guevara-pinto",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "PTS": 1.0,
-    "ELO": 2411,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.paolo-ladron-de-guevara-pinto",
-    "name": {
-     "full": "Paolo Ladron De Guevara Pinto"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "FCC MEDIO AMBIENTE BENALMADENA",
-    "performance": 3376
-   }
-  },
-  {
-   "rank": 12,
-   "participantId": "p.ulviyya-fataliyeva.1996",
-   "participantType": "person",
-   "stats": {
-    "RANK": 12,
-    "PTS": 1.0,
-    "ELO": 2389,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.ulviyya-fataliyeva.1996",
-    "name": {
-     "full": "Ulviyya Fataliyeva"
-    },
-    "birthDate": "1996",
-    "nationalities": [
-     "AZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "C.A. JAIME CASAS DE MONZON",
-    "performance": 3179
-   }
-  },
-  {
-   "rank": 13,
+   "rank": 4,
    "participantId": "p.parham-maghsoodloo.2000",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
-    "PTS": 0.5,
+    "RANK": 4,
+    "PTS": 1.5,
     "ELO": 2705,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.parham-maghsoodloo.2000",
@@ -403,99 +163,45 @@
    },
    "extra": {
     "team": "OROMANA CEN SOLUTIONS",
-    "performance": 2661
+    "performance": 2856
    }
   },
   {
-   "rank": 14,
-   "participantId": "p.aydin-suleymanli.2005",
+   "rank": 5,
+   "participantId": "p.nodirbek-yakubboev.2002",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
-    "PTS": 0.5,
-    "ELO": 2692,
-    "GP": 1
+    "RANK": 5,
+    "PTS": 1.5,
+    "ELO": 2701,
+    "GP": 2
    },
    "person": {
-    "id": "p.aydin-suleymanli.2005",
+    "id": "p.nodirbek-yakubboev.2002",
     "name": {
-     "full": "Aydin Suleymanli"
+     "full": "Nodirbek Yakubboev"
     },
-    "birthDate": "2005",
+    "birthDate": "2002",
     "nationalities": [
-     "AZ"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. JAIME CASAS DE MONZON",
-    "performance": 2658
-   }
-  },
-  {
-   "rank": 15,
-   "participantId": "p.v-pranav.2006",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15,
-    "PTS": 0.5,
-    "ELO": 2679,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.v-pranav.2006",
-    "name": {
-     "full": "V Pranav"
-    },
-    "birthDate": "2006",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "FCC MEDIO AMBIENTE BENALMADENA",
-    "performance": 2637
-   }
-  },
-  {
-   "rank": 16,
-   "participantId": "p.david-anton-guijarro.1995",
-   "participantType": "person",
-   "stats": {
-    "RANK": 16,
-    "PTS": 0.5,
-    "ELO": 2661,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.david-anton-guijarro.1995",
-    "name": {
-     "full": "David Anton Guijarro"
-    },
-    "birthDate": "1995",
-    "nationalities": [
-     "ES"
+     "UZ"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
     "team": "OROMANA CEN SOLUTIONS",
-    "performance": 2534
+    "performance": 2875
    }
   },
   {
-   "rank": 17,
+   "rank": 6,
    "participantId": "p.bogdan-daniel-deac.2001",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
-    "PTS": 0.5,
+    "RANK": 6,
+    "PTS": 1.5,
     "ELO": 2661,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.bogdan-daniel-deac.2001",
@@ -511,18 +217,18 @@
    },
    "extra": {
     "team": "DUOBENIAJAN COSTA CALIDA",
-    "performance": 2705
+    "performance": 2845
    }
   },
   {
-   "rank": 18,
+   "rank": 7,
    "participantId": "p.murali-karthikeyan.1999",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
-    "PTS": 0.5,
+    "RANK": 7,
+    "PTS": 1.5,
     "ELO": 2658,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.murali-karthikeyan.1999",
@@ -538,103 +244,23 @@
    },
    "extra": {
     "team": "MAGIC EXTREMADURA",
-    "performance": 2692
+    "performance": 2878
    }
   },
   {
-   "rank": 19,
-   "participantId": "p.kirill-alekseenko.1997",
+   "rank": 8,
+   "participantId": "p.pranav-anand.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
-    "PTS": 0.5,
-    "ELO": 2637,
-    "GP": 1
+    "RANK": 8,
+    "PTS": 1.5,
+    "ELO": 2607,
+    "GP": 2
    },
    "person": {
-    "id": "p.kirill-alekseenko.1997",
+    "id": "p.pranav-anand.2006",
     "name": {
-     "full": "Kirill Alekseenko"
-    },
-    "birthDate": "1997",
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. SILLA BOSCH SERINSYS",
-    "performance": 2679
-   }
-  },
-  {
-   "rank": 20,
-   "participantId": "p.jaime-santos-latasa.1996",
-   "participantType": "person",
-   "stats": {
-    "RANK": 20,
-    "PTS": 0.5,
-    "ELO": 2626,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.jaime-santos-latasa.1996",
-    "name": {
-     "full": "Jaime Santos Latasa"
-    },
-    "birthDate": "1996",
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. SILLA BOSCH SERINSYS",
-    "performance": 2617
-   }
-  },
-  {
-   "rank": 21,
-   "participantId": "p.benjamin-gledura",
-   "participantType": "person",
-   "stats": {
-    "RANK": 21,
-    "PTS": 0.5,
-    "ELO": 2622,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.benjamin-gledura",
-    "name": {
-     "full": "Benjamin Gledura"
-    },
-    "nationalities": [
-     "HU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "OROMANA CEN SOLUTIONS",
-    "performance": 2467
-   }
-  },
-  {
-   "rank": 22,
-   "participantId": "p.leon-luke-mendonca.2006",
-   "participantType": "person",
-   "stats": {
-    "RANK": 22,
-    "PTS": 0.5,
-    "ELO": 2617,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.leon-luke-mendonca.2006",
-    "name": {
-     "full": "Leon Luke Mendonca"
+     "full": "Pranav Anand"
     },
     "birthDate": "2006",
     "nationalities": [
@@ -644,19 +270,19 @@
     "title": "GM"
    },
    "extra": {
-    "team": "FCC MEDIO AMBIENTE BENALMADENA",
-    "performance": 2626
+    "team": "MYINVESTOR CASABLANCA",
+    "performance": 2806
    }
   },
   {
-   "rank": 23,
+   "rank": 9,
    "participantId": "p.jan-malek.2007",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
-    "PTS": 0.5,
+    "RANK": 9,
+    "PTS": 1.5,
     "ELO": 2598,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.jan-malek.2007",
@@ -672,44 +298,18 @@
    },
    "extra": {
     "team": "FCC MEDIO AMBIENTE BENALMADENA",
-    "performance": 2596
+    "performance": 2717
    }
   },
   {
-   "rank": 24,
-   "participantId": "p.nils-grandelius",
-   "participantType": "person",
-   "stats": {
-    "RANK": 24,
-    "PTS": 0.5,
-    "ELO": 2596,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.nils-grandelius",
-    "name": {
-     "full": "Nils Grandelius"
-    },
-    "nationalities": [
-     "SE"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. SILLA BOSCH SERINSYS",
-    "performance": 2598
-   }
-  },
-  {
-   "rank": 25,
+   "rank": 10,
    "participantId": "p.cristobal-henriquez-villagra",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
-    "PTS": 0.5,
+    "RANK": 10,
+    "PTS": 1.5,
     "ELO": 2570,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.cristobal-henriquez-villagra",
@@ -724,23 +324,23 @@
    },
    "extra": {
     "team": "FILANTROPOS EQUIGOMA",
-    "performance": 2554
+    "performance": 2737
    }
   },
   {
-   "rank": 26,
-   "participantId": "p.alvar-alonso-rosell",
+   "rank": 11,
+   "participantId": "p.alan-pichot",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
-    "PTS": 0.5,
-    "ELO": 2564,
-    "GP": 1
+    "RANK": 11,
+    "PTS": 1.5,
+    "ELO": 2560,
+    "GP": 2
    },
    "person": {
-    "id": "p.alvar-alonso-rosell",
+    "id": "p.alan-pichot",
     "name": {
-     "full": "Alvar Alonso Rosell"
+     "full": "Alan Pichot"
     },
     "nationalities": [
      "ES"
@@ -749,98 +349,19 @@
     "title": "GM"
    },
    "extra": {
-    "team": "C.A. SILLA BOSCH SERINSYS",
-    "performance": 2416
+    "team": "OROMANA CEN SOLUTIONS",
+    "performance": 2627
    }
   },
   {
-   "rank": 27,
-   "participantId": "p.faustino-oro.2013",
-   "participantType": "person",
-   "stats": {
-    "RANK": 27,
-    "PTS": 0.5,
-    "ELO": 2554,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.faustino-oro.2013",
-    "name": {
-     "full": "Faustino Oro"
-    },
-    "birthDate": "2013",
-    "nationalities": [
-     "AR"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "MYINVESTOR CASABLANCA",
-    "performance": 2570
-   }
-  },
-  {
-   "rank": 28,
-   "participantId": "p.jose-carlos-ibarra-jerez",
-   "participantType": "person",
-   "stats": {
-    "RANK": 28,
-    "PTS": 0.5,
-    "ELO": 2534,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.jose-carlos-ibarra-jerez",
-    "name": {
-     "full": "Jose Carlos Ibarra Jerez"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "DUOBENIAJAN COSTA CALIDA",
-    "performance": 2661
-   }
-  },
-  {
-   "rank": 29,
-   "participantId": "p.daniel-forcen-esteban",
-   "participantType": "person",
-   "stats": {
-    "RANK": 29,
-    "PTS": 0.5,
-    "ELO": 2525,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.daniel-forcen-esteban",
-    "name": {
-     "full": "Daniel Forcen Esteban"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. JAIME CASAS DE MONZON",
-    "performance": 2417
-   }
-  },
-  {
-   "rank": 30,
+   "rank": 12,
    "participantId": "p.jose-fernando-cuenca-jimenez",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
-    "PTS": 0.5,
+    "RANK": 12,
+    "PTS": 1.5,
     "ELO": 2467,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.jose-fernando-cuenca-jimenez",
@@ -855,44 +376,18 @@
    },
    "extra": {
     "team": "DUOBENIAJAN COSTA CALIDA",
-    "performance": 2622
+    "performance": 2775
    }
   },
   {
-   "rank": 31,
-   "participantId": "p.diego-vergara-anton",
-   "participantType": "person",
-   "stats": {
-    "RANK": 31,
-    "PTS": 0.5,
-    "ELO": 2437,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.diego-vergara-anton",
-    "name": {
-     "full": "Diego Vergara Anton"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "C.A. JAIME CASAS DE MONZON",
-    "performance": 2412
-   }
-  },
-  {
-   "rank": 32,
+   "rank": 13,
    "participantId": "p.bruno-andre-leite-martins",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
-    "PTS": 0.5,
+    "RANK": 13,
+    "PTS": 1.5,
     "ELO": 2417,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.bruno-andre-leite-martins",
@@ -907,18 +402,18 @@
    },
    "extra": {
     "team": "MAGIC EXTREMADURA",
-    "performance": 2525
+    "performance": 2661
    }
   },
   {
-   "rank": 33,
+   "rank": 14,
    "participantId": "p.lorenzo-perea-fruet",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
-    "PTS": 0.5,
+    "RANK": 14,
+    "PTS": 1.5,
     "ELO": 2416,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.lorenzo-perea-fruet",
@@ -933,44 +428,18 @@
    },
    "extra": {
     "team": "FCC MEDIO AMBIENTE BENALMADENA",
-    "performance": 2564
+    "performance": 2681
    }
   },
   {
-   "rank": 34,
-   "participantId": "p.alex-garrido-outon",
-   "participantType": "person",
-   "stats": {
-    "RANK": 34,
-    "PTS": 0.5,
-    "ELO": 2412,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.alex-garrido-outon",
-    "name": {
-     "full": "Alex Garrido Outon"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "MAGIC EXTREMADURA",
-    "performance": 2437
-   }
-  },
-  {
-   "rank": 35,
+   "rank": 15,
    "participantId": "p.sabrina-vega-gutierrez.1987",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
-    "PTS": 0.5,
+    "RANK": 15,
+    "PTS": 1.5,
     "ELO": 2340,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.sabrina-vega-gutierrez.1987",
@@ -986,18 +455,18 @@
    },
    "extra": {
     "team": "MYINVESTOR CASABLANCA",
-    "performance": 2325
+    "performance": 2589
    }
   },
   {
-   "rank": 36,
+   "rank": 16,
    "participantId": "p.marta-garcia-martin",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
-    "PTS": 0.5,
+    "RANK": 16,
+    "PTS": 1.5,
     "ELO": 2325,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.marta-garcia-martin",
@@ -1012,18 +481,758 @@
    },
    "extra": {
     "team": "FILANTROPOS EQUIGOMA",
-    "performance": 2340
+    "performance": 2594
+   }
+  },
+  {
+   "rank": 17,
+   "participantId": "p.aydin-suleymanli.2005",
+   "participantType": "person",
+   "stats": {
+    "RANK": 17,
+    "PTS": 1.0,
+    "ELO": 2692,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.aydin-suleymanli.2005",
+    "name": {
+     "full": "Aydin Suleymanli"
+    },
+    "birthDate": "2005",
+    "nationalities": [
+     "AZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. JAIME CASAS DE MONZON",
+    "performance": 2679
+   }
+  },
+  {
+   "rank": 18,
+   "participantId": "p.pavel-eljanov.1983",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
+    "PTS": 1.0,
+    "ELO": 2665,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.pavel-eljanov.1983",
+    "name": {
+     "full": "Pavel Eljanov"
+    },
+    "birthDate": "1983",
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. JAIME CASAS DE MONZON",
+    "performance": 2618
+   }
+  },
+  {
+   "rank": 19,
+   "participantId": "p.francisco-vallejo-pons",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19,
+    "PTS": 1.0,
+    "ELO": 2644,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.francisco-vallejo-pons",
+    "name": {
+     "full": "Francisco Vallejo Pons"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "MYINVESTOR CASABLANCA",
+    "performance": 3396
+   }
+  },
+  {
+   "rank": 20,
+   "participantId": "p.jaime-santos-latasa.1996",
+   "participantType": "person",
+   "stats": {
+    "RANK": 20,
+    "PTS": 1.0,
+    "ELO": 2626,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.jaime-santos-latasa.1996",
+    "name": {
+     "full": "Jaime Santos Latasa"
+    },
+    "birthDate": "1996",
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. SILLA BOSCH SERINSYS",
+    "performance": 2612
+   }
+  },
+  {
+   "rank": 21,
+   "participantId": "p.benjamin-gledura",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21,
+    "PTS": 1.0,
+    "ELO": 2622,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.benjamin-gledura",
+    "name": {
+     "full": "Benjamin Gledura"
+    },
+    "nationalities": [
+     "HU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "OROMANA CEN SOLUTIONS",
+    "performance": 2496
+   }
+  },
+  {
+   "rank": 22,
+   "participantId": "p.leon-luke-mendonca.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 22,
+    "PTS": 1.0,
+    "ELO": 2617,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.leon-luke-mendonca.2006",
+    "name": {
+     "full": "Leon Luke Mendonca"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "FCC MEDIO AMBIENTE BENALMADENA",
+    "performance": 2579
+   }
+  },
+  {
+   "rank": 23,
+   "participantId": "p.eduardo-iturrizaga-bonelli",
+   "participantType": "person",
+   "stats": {
+    "RANK": 23,
+    "PTS": 1.0,
+    "ELO": 2580,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.eduardo-iturrizaga-bonelli",
+    "name": {
+     "full": "Eduardo Iturrizaga Bonelli"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "FILANTROPOS EQUIGOMA",
+    "performance": 2661
+   }
+  },
+  {
+   "rank": 24,
+   "participantId": "p.faustino-oro.2013",
+   "participantType": "person",
+   "stats": {
+    "RANK": 24,
+    "PTS": 1.0,
+    "ELO": 2554,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.faustino-oro.2013",
+    "name": {
+     "full": "Faustino Oro"
+    },
+    "birthDate": "2013",
+    "nationalities": [
+     "AR"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "MYINVESTOR CASABLANCA",
+    "performance": 2573
+   }
+  },
+  {
+   "rank": 25,
+   "participantId": "p.sandro-mareco",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25,
+    "PTS": 1.0,
+    "ELO": 2542,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.sandro-mareco",
+    "name": {
+     "full": "Sandro Mareco"
+    },
+    "nationalities": [
+     "AR"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "FILANTROPOS EQUIGOMA",
+    "performance": 2527
+   }
+  },
+  {
+   "rank": 26,
+   "participantId": "p.daniel-forcen-esteban",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "PTS": 1.0,
+    "ELO": 2525,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.daniel-forcen-esteban",
+    "name": {
+     "full": "Daniel Forcen Esteban"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. JAIME CASAS DE MONZON",
+    "performance": 2519
+   }
+  },
+  {
+   "rank": 27,
+   "participantId": "p.nana-dzagnidze.1987",
+   "participantType": "person",
+   "stats": {
+    "RANK": 27,
+    "PTS": 1.0,
+    "ELO": 2467,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.nana-dzagnidze.1987",
+    "name": {
+     "full": "Nana Dzagnidze"
+    },
+    "birthDate": "1987",
+    "nationalities": [
+     "GE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. SILLA BOSCH SERINSYS",
+    "performance": 2316
+   }
+  },
+  {
+   "rank": 28,
+   "participantId": "p.nino-batsiashvili.1987",
+   "participantType": "person",
+   "stats": {
+    "RANK": 28,
+    "PTS": 1.0,
+    "ELO": 2463,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.nino-batsiashvili.1987",
+    "name": {
+     "full": "Nino Batsiashvili"
+    },
+    "birthDate": "1987",
+    "nationalities": [
+     "GE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "DUOBENIAJAN COSTA CALIDA",
+    "performance": 2369
+   }
+  },
+  {
+   "rank": 29,
+   "participantId": "p.diego-vergara-anton",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29,
+    "PTS": 1.0,
+    "ELO": 2437,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.diego-vergara-anton",
+    "name": {
+     "full": "Diego Vergara Anton"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "C.A. JAIME CASAS DE MONZON",
+    "performance": 2486
+   }
+  },
+  {
+   "rank": 30,
+   "participantId": "p.marcos-camacho-collados",
+   "participantType": "person",
+   "stats": {
+    "RANK": 30,
+    "PTS": 1.0,
+    "ELO": 2431,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.marcos-camacho-collados",
+    "name": {
+     "full": "Marcos Camacho Collados"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "DUOBENIAJAN COSTA CALIDA",
+    "performance": 2502
+   }
+  },
+  {
+   "rank": 31,
+   "participantId": "p.sarasadat-khademalsharieh.1997",
+   "participantType": "person",
+   "stats": {
+    "RANK": 31,
+    "PTS": 1.0,
+    "ELO": 2414,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.sarasadat-khademalsharieh.1997",
+    "name": {
+     "full": "Sarasadat Khademalsharieh"
+    },
+    "birthDate": "1997",
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "OROMANA CEN SOLUTIONS",
+    "performance": 2426
+   }
+  },
+  {
+   "rank": 32,
+   "participantId": "p.paolo-ladron-de-guevara-pinto",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32,
+    "PTS": 1.0,
+    "ELO": 2411,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.paolo-ladron-de-guevara-pinto",
+    "name": {
+     "full": "Paolo Ladron De Guevara Pinto"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "FCC MEDIO AMBIENTE BENALMADENA",
+    "performance": 2496
+   }
+  },
+  {
+   "rank": 33,
+   "participantId": "p.ulviyya-fataliyeva.1996",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33,
+    "PTS": 1.0,
+    "ELO": 2389,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.ulviyya-fataliyeva.1996",
+    "name": {
+     "full": "Ulviyya Fataliyeva"
+    },
+    "birthDate": "1996",
+    "nationalities": [
+     "AZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "C.A. JAIME CASAS DE MONZON",
+    "performance": 2396
+   }
+  },
+  {
+   "rank": 34,
+   "participantId": "p.v-pranav.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 34,
+    "PTS": 0.5,
+    "ELO": 2679,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.v-pranav.2006",
+    "name": {
+     "full": "V Pranav"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "FCC MEDIO AMBIENTE BENALMADENA",
+    "performance": 2454
+   }
+  },
+  {
+   "rank": 35,
+   "participantId": "p.david-anton-guijarro.1995",
+   "participantType": "person",
+   "stats": {
+    "RANK": 35,
+    "PTS": 0.5,
+    "ELO": 2661,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.david-anton-guijarro.1995",
+    "name": {
+     "full": "David Anton Guijarro"
+    },
+    "birthDate": "1995",
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "OROMANA CEN SOLUTIONS",
+    "performance": 2372
+   }
+  },
+  {
+   "rank": 36,
+   "participantId": "p.kirill-alekseenko.1997",
+   "participantType": "person",
+   "stats": {
+    "RANK": 36,
+    "PTS": 0.5,
+    "ELO": 2637,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.kirill-alekseenko.1997",
+    "name": {
+     "full": "Kirill Alekseenko"
+    },
+    "birthDate": "1997",
+    "nationalities": [
+     "AT"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. SILLA BOSCH SERINSYS",
+    "performance": 2471
    }
   },
   {
    "rank": 37,
-   "participantId": "p.pranesh-m.2006",
+   "participantId": "p.nils-grandelius",
    "participantType": "person",
    "stats": {
     "RANK": 37,
+    "PTS": 0.5,
+    "ELO": 2596,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.nils-grandelius",
+    "name": {
+     "full": "Nils Grandelius"
+    },
+    "nationalities": [
+     "SE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. SILLA BOSCH SERINSYS",
+    "performance": 2428
+   }
+  },
+  {
+   "rank": 38,
+   "participantId": "p.daniil-yuffa",
+   "participantType": "person",
+   "stats": {
+    "RANK": 38,
+    "PTS": 0.5,
+    "ELO": 2576,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.daniil-yuffa",
+    "name": {
+     "full": "Daniil Yuffa"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. SILLA BOSCH SERINSYS",
+    "performance": 2289
+   }
+  },
+  {
+   "rank": 39,
+   "participantId": "p.alvar-alonso-rosell",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 0.5,
+    "ELO": 2564,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.alvar-alonso-rosell",
+    "name": {
+     "full": "Alvar Alonso Rosell"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "C.A. SILLA BOSCH SERINSYS",
+    "performance": 2243
+   }
+  },
+  {
+   "rank": 40,
+   "participantId": "p.jose-carlos-ibarra-jerez",
+   "participantType": "person",
+   "stats": {
+    "RANK": 40,
+    "PTS": 0.5,
+    "ELO": 2534,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.jose-carlos-ibarra-jerez",
+    "name": {
+     "full": "Jose Carlos Ibarra Jerez"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "DUOBENIAJAN COSTA CALIDA",
+    "performance": 2422
+   }
+  },
+  {
+   "rank": 41,
+   "participantId": "p.manuel-perez-candelario",
+   "participantType": "person",
+   "stats": {
+    "RANK": 41,
+    "PTS": 0.5,
+    "ELO": 2532,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.manuel-perez-candelario",
+    "name": {
+     "full": "Manuel Perez Candelario"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "MAGIC EXTREMADURA",
+    "performance": 2448
+   }
+  },
+  {
+   "rank": 42,
+   "participantId": "p.alex-garrido-outon",
+   "participantType": "person",
+   "stats": {
+    "RANK": 42,
+    "PTS": 0.5,
+    "ELO": 2412,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.alex-garrido-outon",
+    "name": {
+     "full": "Alex Garrido Outon"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "MAGIC EXTREMADURA",
+    "performance": 2233
+   }
+  },
+  {
+   "rank": 43,
+   "participantId": "p.emilio-moreno-tejera",
+   "participantType": "person",
+   "stats": {
+    "RANK": 43,
+    "PTS": 0.5,
+    "ELO": 2379,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.emilio-moreno-tejera",
+    "name": {
+     "full": "Emilio Moreno Tejera"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "MAGIC EXTREMADURA",
+    "performance": 2147
+   }
+  },
+  {
+   "rank": 44,
+   "participantId": "p.ann-matnadze-bujiashvili",
+   "participantType": "person",
+   "stats": {
+    "RANK": 44,
+    "PTS": 0.5,
+    "ELO": 2292,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.ann-matnadze-bujiashvili",
+    "name": {
+     "full": "Ann Matnadze Bujiashvili"
+    },
+    "nationalities": [
+     "ES"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "FCC MEDIO AMBIENTE BENALMADENA",
+    "performance": 2230
+   }
+  },
+  {
+   "rank": 45,
+   "participantId": "p.pranesh-m.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 45,
     "PTS": 0.0,
     "ELO": 2673,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.pranesh-m.2006",
@@ -1039,18 +1248,18 @@
    },
    "extra": {
     "team": "DUOBENIAJAN COSTA CALIDA",
-    "performance": 1901
+    "performance": 1840
    }
   },
   {
-   "rank": 38,
+   "rank": 46,
    "participantId": "p.miguel-santos-ruiz",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 46,
     "PTS": 0.0,
     "ELO": 2600,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.miguel-santos-ruiz",
@@ -1065,15 +1274,15 @@
    },
    "extra": {
     "team": "FILANTROPOS EQUIGOMA",
-    "performance": 1807
+    "performance": 1834
    }
   },
   {
-   "rank": 39,
+   "rank": 47,
    "participantId": "p.miguel-illescas-cordoba",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 47,
     "PTS": 0.0,
     "ELO": 2587,
     "GP": 1
@@ -1095,92 +1304,14 @@
    }
   },
   {
-   "rank": 40,
-   "participantId": "p.eduardo-iturrizaga-bonelli",
-   "participantType": "person",
-   "stats": {
-    "RANK": 40,
-    "PTS": 0.0,
-    "ELO": 2580,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.eduardo-iturrizaga-bonelli",
-    "name": {
-     "full": "Eduardo Iturrizaga Bonelli"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "FILANTROPOS EQUIGOMA",
-    "performance": 1849
-   }
-  },
-  {
-   "rank": 41,
-   "participantId": "p.daniil-yuffa",
-   "participantType": "person",
-   "stats": {
-    "RANK": 41,
-    "PTS": 0.0,
-    "ELO": 2576,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.daniil-yuffa",
-    "name": {
-     "full": "Daniil Yuffa"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "C.A. SILLA BOSCH SERINSYS",
-    "performance": 1611
-   }
-  },
-  {
-   "rank": 42,
-   "participantId": "p.manuel-perez-candelario",
-   "participantType": "person",
-   "stats": {
-    "RANK": 42,
-    "PTS": 0.0,
-    "ELO": 2532,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.manuel-perez-candelario",
-    "name": {
-     "full": "Manuel Perez Candelario"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "MAGIC EXTREMADURA",
-    "performance": 1865
-   }
-  },
-  {
-   "rank": 43,
+   "rank": 48,
    "participantId": "p.stavroula-tsolakidou.2000",
    "participantType": "person",
    "stats": {
-    "RANK": 43,
+    "RANK": 48,
     "PTS": 0.0,
     "ELO": 2452,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.stavroula-tsolakidou.2000",
@@ -1200,14 +1331,14 @@
    }
   },
   {
-   "rank": 44,
+   "rank": 49,
    "participantId": "p.pablo-almagro-llamas",
    "participantType": "person",
    "stats": {
-    "RANK": 44,
+    "RANK": 49,
     "PTS": 0.0,
     "ELO": 2444,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.pablo-almagro-llamas",
@@ -1222,136 +1353,7 @@
    },
    "extra": {
     "team": "FILANTROPOS EQUIGOMA",
-    "performance": 1656
-   }
-  },
-  {
-   "rank": 45,
-   "participantId": "p.marcos-camacho-collados",
-   "participantType": "person",
-   "stats": {
-    "RANK": 45,
-    "PTS": 0.0,
-    "ELO": 2431,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.marcos-camacho-collados",
-    "name": {
-     "full": "Marcos Camacho Collados"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "DUOBENIAJAN COSTA CALIDA",
-    "performance": 1760
-   }
-  },
-  {
-   "rank": 46,
-   "participantId": "p.sarasadat-khademalsharieh.1997",
-   "participantType": "person",
-   "stats": {
-    "RANK": 46,
-    "PTS": 0.0,
-    "ELO": 2414,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.sarasadat-khademalsharieh.1997",
-    "name": {
-     "full": "Sarasadat Khademalsharieh"
-    },
-    "birthDate": "1997",
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "OROMANA CEN SOLUTIONS",
-    "performance": 1663
-   }
-  },
-  {
-   "rank": 47,
-   "participantId": "p.emilio-moreno-tejera",
-   "participantType": "person",
-   "stats": {
-    "RANK": 47,
-    "PTS": 0.0,
-    "ELO": 2379,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.emilio-moreno-tejera",
-    "name": {
-     "full": "Emilio Moreno Tejera"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "MAGIC EXTREMADURA",
-    "performance": 1589
-   }
-  },
-  {
-   "rank": 48,
-   "participantId": "p.ann-matnadze-bujiashvili",
-   "participantType": "person",
-   "stats": {
-    "RANK": 48,
-    "PTS": 0.0,
-    "ELO": 2292,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.ann-matnadze-bujiashvili",
-    "name": {
-     "full": "Ann Matnadze Bujiashvili"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "FCC MEDIO AMBIENTE BENALMADENA",
-    "performance": 1667
-   }
-  },
-  {
-   "rank": 49,
-   "participantId": "p.francisco-vallejo-pons",
-   "participantType": "person",
-   "stats": {
-    "RANK": 49,
-    "ELO": 2644,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.francisco-vallejo-pons",
-    "name": {
-     "full": "Francisco Vallejo Pons"
-    },
-    "nationalities": [
-     "ES"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "MYINVESTOR CASABLANCA"
+    "performance": 1643
    }
   }
  ]

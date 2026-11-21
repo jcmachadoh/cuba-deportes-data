@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.eng-1:2026-27",
- "updatedAt": "2026-11-21T16:25:02Z",
+ "updatedAt": "2026-11-21T20:31:47Z",
  "sources": [
   "espn"
  ],
@@ -18,14 +18,14 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 9,
-      "D": 0,
+      "D": 1,
       "L": 1,
-      "GF": 15,
-      "GA": 5,
+      "GF": 17,
+      "GA": 7,
       "GD": 10,
-      "PTS": 27
+      "PTS": 28
      },
      "extra": {
       "note": {
@@ -77,9 +77,30 @@
      }
     },
     {
-     "participantId": "soccer.liverpool",
+     "participantId": "soccer.afc-bournemouth",
      "participantType": "team",
      "rank": 4,
+     "stats": {
+      "GP": 11,
+      "W": 5,
+      "D": 3,
+      "L": 3,
+      "GF": 18,
+      "GA": 14,
+      "GD": 4,
+      "PTS": 18
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.liverpool",
+     "participantType": "team",
+     "rank": 5,
      "stats": {
       "GP": 10,
       "W": 5,
@@ -92,36 +113,30 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.chelsea",
-     "participantType": "team",
-     "rank": 5,
-     "stats": {
-      "GP": 10,
-      "W": 5,
-      "D": 1,
-      "L": 4,
-      "GF": 19,
-      "GA": 16,
-      "GD": 3,
-      "PTS": 16
-     },
-     "extra": {
-      "note": {
        "text": "Europa League",
        "color": "##B5E7CE"
       }
      }
     },
     {
-     "participantId": "soccer.everton",
+     "participantId": "soccer.leeds-united",
      "participantType": "team",
      "rank": 6,
+     "stats": {
+      "GP": 11,
+      "W": 4,
+      "D": 5,
+      "L": 2,
+      "GF": 14,
+      "GA": 9,
+      "GD": 5,
+      "PTS": 17
+     }
+    },
+    {
+     "participantId": "soccer.everton",
+     "participantType": "team",
+     "rank": 7,
      "stats": {
       "GP": 10,
       "W": 4,
@@ -134,24 +149,39 @@
      }
     },
     {
-     "participantId": "soccer.afc-bournemouth",
+     "participantId": "soccer.chelsea",
      "participantType": "team",
-     "rank": 7,
+     "rank": 8,
      "stats": {
-      "GP": 10,
+      "GP": 11,
+      "W": 5,
+      "D": 1,
+      "L": 5,
+      "GF": 20,
+      "GA": 20,
+      "GD": 0,
+      "PTS": 16
+     }
+    },
+    {
+     "participantId": "soccer.tottenham-hotspur",
+     "participantType": "team",
+     "rank": 9,
+     "stats": {
+      "GP": 11,
       "W": 4,
       "D": 3,
-      "L": 3,
-      "GF": 16,
-      "GA": 14,
-      "GD": 2,
+      "L": 4,
+      "GF": 12,
+      "GA": 11,
+      "GD": 1,
       "PTS": 15
      }
     },
     {
      "participantId": "soccer.brentford",
      "participantType": "team",
-     "rank": 8,
+     "rank": 10,
      "stats": {
       "GP": 10,
       "W": 3,
@@ -164,48 +194,18 @@
      }
     },
     {
-     "participantId": "soccer.leeds-united",
-     "participantType": "team",
-     "rank": 9,
-     "stats": {
-      "GP": 10,
-      "W": 3,
-      "D": 5,
-      "L": 2,
-      "GF": 10,
-      "GA": 8,
-      "GD": 2,
-      "PTS": 14
-     }
-    },
-    {
      "participantId": "soccer.aston-villa",
      "participantType": "team",
-     "rank": 10,
+     "rank": 11,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 3,
-      "D": 4,
+      "D": 5,
       "L": 3,
       "GF": 14,
       "GA": 17,
       "GD": -3,
-      "PTS": 13
-     }
-    },
-    {
-     "participantId": "soccer.tottenham-hotspur",
-     "participantType": "team",
-     "rank": 11,
-     "stats": {
-      "GP": 10,
-      "W": 3,
-      "D": 3,
-      "L": 4,
-      "GF": 10,
-      "GA": 11,
-      "GD": -1,
-      "PTS": 12
+      "PTS": 14
      }
     },
     {
@@ -213,20 +213,35 @@
      "participantType": "team",
      "rank": 12,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 3,
-      "D": 3,
+      "D": 4,
       "L": 4,
-      "GF": 13,
-      "GA": 16,
+      "GF": 15,
+      "GA": 18,
       "GD": -3,
+      "PTS": 13
+     }
+    },
+    {
+     "participantId": "soccer.coventry-city",
+     "participantType": "team",
+     "rank": 13,
+     "stats": {
+      "GP": 11,
+      "W": 4,
+      "D": 0,
+      "L": 7,
+      "GF": 13,
+      "GA": 21,
+      "GD": -8,
       "PTS": 12
      }
     },
     {
      "participantId": "soccer.hull-city",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 10,
       "W": 2,
@@ -241,7 +256,7 @@
     {
      "participantId": "soccer.fulham",
      "participantType": "team",
-     "rank": 14,
+     "rank": 15,
      "stats": {
       "GP": 11,
       "W": 2,
@@ -256,52 +271,58 @@
     {
      "participantId": "soccer.ipswich-town",
      "participantType": "team",
-     "rank": 15,
+     "rank": 16,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 3,
       "D": 2,
-      "L": 5,
+      "L": 6,
       "GF": 15,
-      "GA": 20,
-      "GD": -5,
+      "GA": 22,
+      "GD": -7,
       "PTS": 11
      }
     },
     {
      "participantId": "soccer.nottingham-forest",
      "participantType": "team",
-     "rank": 16,
+     "rank": 17,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 2,
       "D": 3,
-      "L": 5,
+      "L": 6,
       "GF": 9,
-      "GA": 13,
-      "GD": -4,
+      "GA": 15,
+      "GD": -6,
       "PTS": 9
      }
     },
     {
-     "participantId": "soccer.coventry-city",
+     "participantId": "soccer.sunderland",
      "participantType": "team",
-     "rank": 17,
+     "rank": 18,
      "stats": {
-      "GP": 10,
-      "W": 3,
-      "D": 0,
-      "L": 7,
-      "GF": 10,
-      "GA": 19,
+      "GP": 11,
+      "W": 2,
+      "D": 3,
+      "L": 6,
+      "GF": 8,
+      "GA": 17,
       "GD": -9,
       "PTS": 9
+     },
+     "extra": {
+      "note": {
+       "text": "Relegation",
+       "color": "#FF7F84"
+      }
      }
     },
     {
      "participantId": "soccer.manchester-united",
      "participantType": "team",
-     "rank": 18,
+     "rank": 19,
      "stats": {
       "GP": 10,
       "W": 1,
@@ -320,38 +341,17 @@
      }
     },
     {
-     "participantId": "soccer.sunderland",
-     "participantType": "team",
-     "rank": 19,
-     "stats": {
-      "GP": 10,
-      "W": 2,
-      "D": 2,
-      "L": 6,
-      "GF": 8,
-      "GA": 17,
-      "GD": -9,
-      "PTS": 8
-     },
-     "extra": {
-      "note": {
-       "text": "Relegation",
-       "color": "#FF7F84"
-      }
-     }
-    },
-    {
      "participantId": "soccer.crystal-palace",
      "participantType": "team",
      "rank": 20,
      "stats": {
-      "GP": 10,
+      "GP": 11,
       "W": 2,
       "D": 1,
-      "L": 7,
-      "GF": 10,
-      "GA": 24,
-      "GD": -14,
+      "L": 8,
+      "GF": 12,
+      "GA": 27,
+      "GD": -15,
       "PTS": 7
      },
      "extra": {
