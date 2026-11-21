@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.col-1:2026",
- "updatedAt": "2026-11-17T17:56:07Z",
+ "updatedAt": "2026-11-21T03:13:15Z",
  "sources": [
   "espn"
  ],
@@ -14,39 +14,24 @@
    "name": "Semifinals - Group A",
    "rows": [
     {
-     "participantId": "soccer.atletico-nacional",
+     "participantId": "soccer.independiente-medellin",
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 0,
-      "W": 0,
+      "GP": 1,
+      "W": 1,
       "D": 0,
       "L": 0,
-      "GF": 0,
+      "GF": 1,
       "GA": 0,
-      "GD": 0,
-      "PTS": 0
+      "GD": 1,
+      "PTS": 3
      }
     },
     {
-     "participantId": "soccer.independiente-santa-fe",
+     "participantId": "soccer.atletico-nacional",
      "participantType": "team",
      "rank": 2,
-     "stats": {
-      "GP": 0,
-      "W": 0,
-      "D": 0,
-      "L": 0,
-      "GF": 0,
-      "GA": 0,
-      "GD": 0,
-      "PTS": 0
-     }
-    },
-    {
-     "participantId": "soccer.independiente-medellin",
-     "participantType": "team",
-     "rank": 3,
      "stats": {
       "GP": 0,
       "W": 0,
@@ -61,7 +46,7 @@
     {
      "participantId": "soccer.once-caldas",
      "participantType": "team",
-     "rank": 4,
+     "rank": 3,
      "stats": {
       "GP": 0,
       "W": 0,
@@ -70,6 +55,21 @@
       "GF": 0,
       "GA": 0,
       "GD": 0,
+      "PTS": 0
+     }
+    },
+    {
+     "participantId": "soccer.independiente-santa-fe",
+     "participantType": "team",
+     "rank": 4,
+     "stats": {
+      "GP": 1,
+      "W": 0,
+      "D": 0,
+      "L": 1,
+      "GF": 0,
+      "GA": 1,
+      "GD": -1,
       "PTS": 0
      }
     }
@@ -84,33 +84,33 @@
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 0,
+      "GP": 1,
       "W": 0,
-      "D": 0,
+      "D": 1,
       "L": 0,
-      "GF": 0,
-      "GA": 0,
+      "GF": 2,
+      "GA": 2,
       "GD": 0,
-      "PTS": 0
-     }
-    },
-    {
-     "participantId": "soccer.deportivo-cali",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 0,
-      "W": 0,
-      "D": 0,
-      "L": 0,
-      "GF": 0,
-      "GA": 0,
-      "GD": 0,
-      "PTS": 0
+      "PTS": 1
      }
     },
     {
      "participantId": "soccer.atletico-bucaramanga",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 1,
+      "W": 0,
+      "D": 1,
+      "L": 0,
+      "GF": 2,
+      "GA": 2,
+      "GD": 0,
+      "PTS": 1
+     }
+    },
+    {
+     "participantId": "soccer.deportivo-cali",
      "participantType": "team",
      "rank": 3,
      "stats": {
