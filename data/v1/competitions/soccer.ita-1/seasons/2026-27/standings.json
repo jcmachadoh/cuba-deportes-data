@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ita-1:2026-27",
- "updatedAt": "2026-11-21T20:31:48Z",
+ "updatedAt": "2026-11-22T02:14:25Z",
  "sources": [
   "espn"
  ],
@@ -161,9 +161,24 @@
      }
     },
     {
-     "participantId": "soccer.bologna",
+     "participantId": "soccer.napoli",
      "participantType": "team",
      "rank": 8,
+     "stats": {
+      "GP": 12,
+      "W": 5,
+      "D": 3,
+      "L": 4,
+      "GF": 19,
+      "GA": 14,
+      "GD": 5,
+      "PTS": 18
+     }
+    },
+    {
+     "participantId": "soccer.bologna",
+     "participantType": "team",
+     "rank": 9,
      "stats": {
       "GP": 11,
       "W": 5,
@@ -178,7 +193,7 @@
     {
      "participantId": "soccer.cagliari",
      "participantType": "team",
-     "rank": 9,
+     "rank": 10,
      "stats": {
       "GP": 12,
       "W": 5,
@@ -191,22 +206,7 @@
      }
     },
     {
-     "participantId": "soccer.napoli",
-     "participantType": "team",
-     "rank": 10,
-     "stats": {
-      "GP": 11,
-      "W": 4,
-      "D": 3,
-      "L": 4,
-      "GF": 18,
-      "GA": 14,
-      "GD": 4,
-      "PTS": 15
-     }
-    },
-    {
-     "participantId": "soccer.torino",
+     "participantId": "soccer.atalanta",
      "participantType": "team",
      "rank": 11,
      "stats": {
@@ -214,23 +214,23 @@
       "W": 4,
       "D": 2,
       "L": 5,
-      "GF": 15,
-      "GA": 17,
-      "GD": -2,
+      "GF": 17,
+      "GA": 20,
+      "GD": -3,
       "PTS": 14
      }
     },
     {
-     "participantId": "soccer.atalanta",
+     "participantId": "soccer.torino",
      "participantType": "team",
      "rank": 12,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 4,
       "D": 2,
-      "L": 5,
-      "GF": 17,
-      "GA": 20,
+      "L": 6,
+      "GF": 15,
+      "GA": 18,
       "GD": -3,
       "PTS": 14
      }
