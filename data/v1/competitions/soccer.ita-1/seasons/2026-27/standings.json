@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.ita-1:2026-27",
- "updatedAt": "2026-11-22T02:14:25Z",
+ "updatedAt": "2026-11-22T16:40:26Z",
  "sources": [
   "espn"
  ],
@@ -119,18 +119,18 @@
      }
     },
     {
-     "participantId": "soccer.frosinone",
+     "participantId": "soccer.juventus",
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 6,
-      "D": 2,
+      "D": 3,
       "L": 3,
-      "GF": 24,
-      "GA": 15,
-      "GD": 9,
-      "PTS": 20
+      "GF": 19,
+      "GA": 12,
+      "GD": 7,
+      "PTS": 21
      },
      "extra": {
       "note": {
@@ -140,18 +140,18 @@
      }
     },
     {
-     "participantId": "soccer.juventus",
+     "participantId": "soccer.frosinone",
      "participantType": "team",
      "rank": 7,
      "stats": {
       "GP": 11,
-      "W": 5,
-      "D": 3,
+      "W": 6,
+      "D": 2,
       "L": 3,
-      "GF": 15,
-      "GA": 12,
-      "GD": 3,
-      "PTS": 18
+      "GF": 24,
+      "GA": 15,
+      "GD": 9,
+      "PTS": 20
      },
      "extra": {
       "note": {
@@ -180,20 +180,35 @@
      "participantType": "team",
      "rank": 9,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 5,
-      "D": 2,
+      "D": 3,
       "L": 4,
-      "GF": 16,
-      "GA": 14,
+      "GF": 17,
+      "GA": 15,
       "GD": 2,
-      "PTS": 17
+      "PTS": 18
+     }
+    },
+    {
+     "participantId": "soccer.genoa",
+     "participantType": "team",
+     "rank": 10,
+     "stats": {
+      "GP": 12,
+      "W": 5,
+      "D": 1,
+      "L": 6,
+      "GF": 13,
+      "GA": 16,
+      "GD": -3,
+      "PTS": 16
      }
     },
     {
      "participantId": "soccer.cagliari",
      "participantType": "team",
-     "rank": 10,
+     "rank": 11,
      "stats": {
       "GP": 12,
       "W": 5,
@@ -208,7 +223,7 @@
     {
      "participantId": "soccer.atalanta",
      "participantType": "team",
-     "rank": 11,
+     "rank": 12,
      "stats": {
       "GP": 11,
       "W": 4,
@@ -223,7 +238,7 @@
     {
      "participantId": "soccer.torino",
      "participantType": "team",
-     "rank": 12,
+     "rank": 13,
      "stats": {
       "GP": 12,
       "W": 4,
@@ -233,21 +248,6 @@
       "GA": 18,
       "GD": -3,
       "PTS": 14
-     }
-    },
-    {
-     "participantId": "soccer.genoa",
-     "participantType": "team",
-     "rank": 13,
-     "stats": {
-      "GP": 11,
-      "W": 4,
-      "D": 1,
-      "L": 6,
-      "GF": 11,
-      "GA": 16,
-      "GD": -5,
-      "PTS": 13
      }
     },
     {
@@ -281,24 +281,9 @@
      }
     },
     {
-     "participantId": "soccer.sassuolo",
-     "participantType": "team",
-     "rank": 16,
-     "stats": {
-      "GP": 11,
-      "W": 2,
-      "D": 2,
-      "L": 7,
-      "GF": 16,
-      "GA": 29,
-      "GD": -13,
-      "PTS": 8
-     }
-    },
-    {
      "participantId": "soccer.parma",
      "participantType": "team",
-     "rank": 17,
+     "rank": 16,
      "stats": {
       "GP": 12,
       "W": 2,
@@ -307,6 +292,21 @@
       "GF": 10,
       "GA": 22,
       "GD": -12,
+      "PTS": 8
+     }
+    },
+    {
+     "participantId": "soccer.sassuolo",
+     "participantType": "team",
+     "rank": 17,
+     "stats": {
+      "GP": 12,
+      "W": 2,
+      "D": 2,
+      "L": 8,
+      "GF": 16,
+      "GA": 31,
+      "GD": -15,
       "PTS": 8
      }
     },
@@ -332,16 +332,16 @@
      }
     },
     {
-     "participantId": "soccer.venezia",
+     "participantId": "soccer.udinese",
      "participantType": "team",
      "rank": 19,
      "stats": {
-      "GP": 11,
-      "W": 2,
-      "D": 0,
-      "L": 9,
-      "GF": 8,
-      "GA": 21,
+      "GP": 12,
+      "W": 1,
+      "D": 3,
+      "L": 8,
+      "GF": 13,
+      "GA": 26,
       "GD": -13,
       "PTS": 6
      },
@@ -353,18 +353,18 @@
      }
     },
     {
-     "participantId": "soccer.udinese",
+     "participantId": "soccer.venezia",
      "participantType": "team",
      "rank": 20,
      "stats": {
-      "GP": 11,
-      "W": 1,
-      "D": 2,
-      "L": 8,
-      "GF": 12,
+      "GP": 12,
+      "W": 2,
+      "D": 0,
+      "L": 10,
+      "GF": 8,
       "GA": 25,
-      "GD": -13,
-      "PTS": 5
+      "GD": -17,
+      "PTS": 6
      },
      "extra": {
       "note": {
