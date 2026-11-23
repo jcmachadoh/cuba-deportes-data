@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:qfkdt8mn",
- "updatedAt": "2026-11-21T16:41:21Z",
+ "updatedAt": "2026-11-23T00:00:53Z",
  "sources": [
   "lichess"
  ],
@@ -95,5 +95,50 @@
    }
   ]
  },
- "standings": []
+ "standings": [
+  {
+   "rank": 1,
+   "participantId": "p.javokhir-sindarov.2005",
+   "participantType": "person",
+   "stats": {
+    "RANK": 1,
+    "ELO": 2782,
+    "GP": 0
+   },
+   "person": {
+    "id": "p.javokhir-sindarov.2005",
+    "name": {
+     "full": "Javokhir Sindarov"
+    },
+    "birthDate": "2005",
+    "nationalities": [
+     "UZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.gukesh-d.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "ELO": 2710,
+    "GP": 0
+   },
+   "person": {
+    "id": "p.gukesh-d.2006",
+    "name": {
+     "full": "Gukesh D"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   }
+  }
+ ]
 }
