@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.mex-1:2026-27",
- "updatedAt": "2026-11-22T09:48:09Z",
+ "updatedAt": "2026-11-23T07:36:32Z",
  "sources": [
   "espn"
  ],
@@ -14,17 +14,38 @@
    "name": "2026 Torneo Apertura",
    "rows": [
     {
-     "participantId": "soccer.cruz-azul",
+     "participantId": "soccer.guadalajara",
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 16,
+      "GP": 17,
+      "W": 9,
+      "D": 6,
+      "L": 2,
+      "GF": 27,
+      "GA": 15,
+      "GD": 12,
+      "PTS": 33
+     },
+     "extra": {
+      "note": {
+       "text": "Qualifies for playoffs",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.cruz-azul",
+     "participantType": "team",
+     "rank": 2,
+     "stats": {
+      "GP": 17,
       "W": 10,
       "D": 2,
-      "L": 4,
+      "L": 5,
       "GF": 37,
-      "GA": 26,
-      "GD": 11,
+      "GA": 27,
+      "GD": 10,
       "PTS": 32
      },
      "extra": {
@@ -37,7 +58,7 @@
     {
      "participantId": "soccer.america",
      "participantType": "team",
-     "rank": 2,
+     "rank": 3,
      "stats": {
       "GP": 17,
       "W": 8,
@@ -46,27 +67,6 @@
       "GF": 38,
       "GA": 24,
       "GD": 14,
-      "PTS": 30
-     },
-     "extra": {
-      "note": {
-       "text": "Qualifies for playoffs",
-       "color": "#81D6AC"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.guadalajara",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 16,
-      "W": 8,
-      "D": 6,
-      "L": 2,
-      "GF": 26,
-      "GA": 15,
-      "GD": 11,
       "PTS": 30
      },
      "extra": {
@@ -227,9 +227,24 @@
      }
     },
     {
-     "participantId": "soccer.puebla",
+     "participantId": "soccer.queretaro",
      "participantType": "team",
      "rank": 12,
+     "stats": {
+      "GP": 17,
+      "W": 6,
+      "D": 3,
+      "L": 8,
+      "GF": 20,
+      "GA": 26,
+      "GD": -6,
+      "PTS": 21
+     }
+    },
+    {
+     "participantId": "soccer.puebla",
+     "participantType": "team",
+     "rank": 13,
      "stats": {
       "GP": 17,
       "W": 5,
@@ -244,7 +259,7 @@
     {
      "participantId": "soccer.atletico-de-san-luis",
      "participantType": "team",
-     "rank": 13,
+     "rank": 14,
      "stats": {
       "GP": 17,
       "W": 5,
@@ -253,21 +268,6 @@
       "GF": 20,
       "GA": 25,
       "GD": -5,
-      "PTS": 20
-     }
-    },
-    {
-     "participantId": "soccer.queretaro",
-     "participantType": "team",
-     "rank": 14,
-     "stats": {
-      "GP": 16,
-      "W": 6,
-      "D": 2,
-      "L": 8,
-      "GF": 18,
-      "GA": 24,
-      "GD": -6,
       "PTS": 20
      }
     },
@@ -287,9 +287,24 @@
      }
     },
     {
-     "participantId": "soccer.atlante",
+     "participantId": "soccer.necaxa",
      "participantType": "team",
      "rank": 16,
+     "stats": {
+      "GP": 17,
+      "W": 3,
+      "D": 5,
+      "L": 9,
+      "GF": 19,
+      "GA": 30,
+      "GD": -11,
+      "PTS": 14
+     }
+    },
+    {
+     "participantId": "soccer.atlante",
+     "participantType": "team",
+     "rank": 17,
      "stats": {
       "GP": 17,
       "W": 3,
@@ -299,21 +314,6 @@
       "GA": 27,
       "GD": -11,
       "PTS": 14
-     }
-    },
-    {
-     "participantId": "soccer.necaxa",
-     "participantType": "team",
-     "rank": 17,
-     "stats": {
-      "GP": 16,
-      "W": 3,
-      "D": 4,
-      "L": 9,
-      "GF": 17,
-      "GA": 28,
-      "GD": -11,
-      "PTS": 13
      }
     },
     {
