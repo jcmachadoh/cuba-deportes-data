@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:mzv5Mt2S",
- "updatedAt": "2026-11-22T16:56:41Z",
+ "updatedAt": "2026-11-23T20:37:25Z",
  "sources": [
   "lichess"
  ],
@@ -31,7 +31,7 @@
    {
     "name": "Round 2",
     "startsAt": 1795432500000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 3",
@@ -63,38 +63,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.marc-llari",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 1.0,
-    "ELO": 2358,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.marc-llari",
-    "name": {
-     "full": "Marc Llari"
-    },
-    "nationalities": [
-     "FR"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2812
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.oleksii-nakonechnyi",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
-    "PTS": 1.0,
+    "RANK": 1,
+    "PTS": 2.0,
     "ELO": 2343,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.oleksii-nakonechnyi",
@@ -108,18 +83,18 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2855
+    "performance": 3006
    }
   },
   {
-   "rank": 3,
+   "rank": 2,
    "participantId": "p.alexandre-ghonghadze",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 1.0,
+    "RANK": 2,
+    "PTS": 2.0,
     "ELO": 2084,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.alexandre-ghonghadze",
@@ -132,93 +107,43 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 3081
+    "performance": 3092
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.marc-llari",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 1.0,
+    "ELO": 2358,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.marc-llari",
+    "name": {
+     "full": "Marc Llari"
+    },
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2177
    }
   },
   {
    "rank": 4,
-   "participantId": "p.ramazan-tulegen",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 0.5,
-    "ELO": 2303,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.ramazan-tulegen",
-    "name": {
-     "full": "Ramazan Tulegen"
-    },
-    "nationalities": [
-     "KZ"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2073
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.srihas-maddipati",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 0.5,
-    "ELO": 2073,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.srihas-maddipati",
-    "name": {
-     "full": "Srihas Maddipati"
-    },
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2303
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.ali-poyraz-uzdemir",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 0.0,
-    "ELO": 2281,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.ali-poyraz-uzdemir",
-    "name": {
-     "full": "Ali Poyraz Uzdemir"
-    },
-    "nationalities": [
-     "TR"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 1284
-   }
-  },
-  {
-   "rank": 7,
    "participantId": "p.thehas-rithmitha-kiringoda",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
-    "PTS": 0.0,
+    "RANK": 4,
+    "PTS": 1.0,
     "ELO": 2055,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.thehas-rithmitha-kiringoda",
@@ -229,18 +154,18 @@
     "title": "CM"
    },
    "extra": {
-    "performance": 1543
+    "performance": 2208
    }
   },
   {
-   "rank": 8,
+   "rank": 5,
    "participantId": "p.muli-faraja-mumo",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
-    "PTS": 0.0,
+    "RANK": 5,
+    "PTS": 1.0,
     "ELO": 2012,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.muli-faraja-mumo",
@@ -254,7 +179,82 @@
     "title": "CM"
    },
    "extra": {
-    "performance": 1558
+    "performance": 2319
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.ramazan-tulegen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 0.5,
+    "ELO": 2303,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.ramazan-tulegen",
+    "name": {
+     "full": "Ramazan Tulegen"
+    },
+    "nationalities": [
+     "KZ"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 1885
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.srihas-maddipati",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 0.5,
+    "ELO": 2073,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.srihas-maddipati",
+    "name": {
+     "full": "Srihas Maddipati"
+    },
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 1986
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.ali-poyraz-uzdemir",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 0.0,
+    "ELO": 2281,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.ali-poyraz-uzdemir",
+    "name": {
+     "full": "Ali Poyraz Uzdemir"
+    },
+    "nationalities": [
+     "TR"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 1248
    }
   }
  ]
