@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "36",
- "updatedAt": "2026-11-19T17:38:27Z",
+ "updatedAt": "2026-11-24T19:46:38Z",
  "persons": {
   "p.aimar-angulo.2009": {
    "id": "p.aimar-angulo.2009",
@@ -413,6 +413,34 @@
    },
    "externalIds": {
     "mlb": "683689"
+   },
+   "sources": [
+    "mlb-statsapi"
+   ]
+  },
+  "p.carlos-virahonda.2005": {
+   "id": "p.carlos-virahonda.2005",
+   "name": {
+    "full": "Carlos Virahonda",
+    "first": "Carlos",
+    "last": "Virahonda"
+   },
+   "birthDate": "2005-12-13",
+   "birthPlace": {
+    "city": "Caucagua",
+    "country": "VE"
+   },
+   "isCuban": false,
+   "body": {
+    "heightCm": 177.8,
+    "weightKg": 90.7
+   },
+   "hand": {
+    "bats": "R",
+    "throws": "R"
+   },
+   "externalIds": {
+    "mlb": "808024"
    },
    "sources": [
     "mlb-statsapi"
@@ -1320,6 +1348,22 @@
    },
    "externalIds": {
     "espn": "329485"
+   },
+   "sources": [
+    "espn"
+   ]
+  },
+  "p.junior-roly-duran-lopez": {
+   "id": "p.junior-roly-duran-lopez",
+   "name": {
+    "full": "Junior Roly Duran Lopez",
+    "first": "Junior Roly",
+    "last": "Duran Lopez"
+   },
+   "isCuban": false,
+   "gender": "M",
+   "externalIds": {
+    "espn": "5334310"
    },
    "sources": [
     "espn"

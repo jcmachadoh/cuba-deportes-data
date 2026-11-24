@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.kansas-city-royals:2026",
- "updatedAt": "2026-11-21T16:23:06Z",
+ "updatedAt": "2026-11-24T19:42:24Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.kansas-city-royals",
  "competitionId": "baseball.mlb",
  "season": "2026",
- "count": 53,
+ "count": 54,
  "groups": [
   {
    "code": "P",
@@ -17,6 +17,24 @@
     "es": "Lanzadores"
    },
    "players": [
+    {
+     "personId": "p.logan-evans.2001",
+     "number": "26",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.logan-evans.2001",
+      "name": {
+       "full": "Logan Evans",
+       "first": "Logan",
+       "last": "Evans"
+      },
+      "birthDate": "2001-06-05",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
     {
      "personId": "p.stephen-kolek.1997",
      "number": "32",
@@ -141,6 +159,24 @@
       "birthDate": "2001-07-30",
       "isCuban": false,
       "birthCountry": "DO"
+     }
+    },
+    {
+     "personId": "p.bryce-miller.1998",
+     "number": "50",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.bryce-miller.1998",
+      "name": {
+       "full": "Bryce Miller",
+       "first": "Bryce",
+       "last": "Miller"
+      },
+      "birthDate": "1998-08-23",
+      "isCuban": false,
+      "birthCountry": "US"
      }
     },
     {
@@ -413,18 +449,18 @@
      }
     },
     {
-     "personId": "p.bryce-miller.1998",
+     "personId": "p.caleb-thielbar.1987",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.bryce-miller.1998",
+      "id": "p.caleb-thielbar.1987",
       "name": {
-       "full": "Bryce Miller",
-       "first": "Bryce",
-       "last": "Miller"
+       "full": "Caleb Thielbar",
+       "first": "Caleb",
+       "last": "Thielbar"
       },
-      "birthDate": "1998-08-23",
+      "birthDate": "1987-01-31",
       "isCuban": false,
       "birthCountry": "US"
      }
@@ -444,23 +480,6 @@
       "birthDate": "2000-03-03",
       "isCuban": false,
       "birthCountry": "DO"
-     }
-    },
-    {
-     "personId": "p.logan-evans.2001",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.logan-evans.2001",
-      "name": {
-       "full": "Logan Evans",
-       "first": "Logan",
-       "last": "Evans"
-      },
-      "birthDate": "2001-06-05",
-      "isCuban": false,
-      "birthCountry": "US"
      }
     },
     {
