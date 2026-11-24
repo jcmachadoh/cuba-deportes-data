@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lbprc:2026-27",
- "updatedAt": "2026-11-23T07:35:34Z",
+ "updatedAt": "2026-11-24T04:47:01Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -14,9 +14,31 @@
    "name": "Liga de Béisbol Profesional Roberto Clemente (Puerto Rico)",
    "rows": [
     {
-     "participantId": "baseball.leones-de-ponce",
+     "participantId": "baseball.criollos-de-caguas",
      "participantType": "team",
      "rank": 1,
+     "stats": {
+      "GP": 14,
+      "W": 9,
+      "L": 5,
+      "PCT": 0.643,
+      "GB": -3.0,
+      "STRK": "W2",
+      "L10": "6-4",
+      "HOME": "6-1",
+      "AWAY": "3-4",
+      "RS": 79,
+      "RA": 57,
+      "RD": 22
+     },
+     "extra": {
+      "leagueRank": "1"
+     }
+    },
+    {
+     "participantId": "baseball.leones-de-ponce",
+     "participantType": "team",
+     "rank": 2,
      "stats": {
       "GP": 14,
       "W": 9,
@@ -30,28 +52,6 @@
       "RS": 98,
       "RA": 59,
       "RD": 39
-     },
-     "extra": {
-      "leagueRank": "1"
-     }
-    },
-    {
-     "participantId": "baseball.criollos-de-caguas",
-     "participantType": "team",
-     "rank": 2,
-     "stats": {
-      "GP": 13,
-      "W": 8,
-      "L": 5,
-      "PCT": 0.615,
-      "GB": -2.5,
-      "STRK": "W1",
-      "L10": "6-4",
-      "HOME": "6-1",
-      "AWAY": "2-4",
-      "RS": 72,
-      "RA": 51,
-      "RD": 21
      },
      "extra": {
       "leagueRank": "2"
@@ -126,18 +126,18 @@
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 13,
+      "GP": 14,
       "W": 4,
-      "L": 9,
-      "PCT": 0.308,
-      "GB": 1.5,
-      "STRK": "W1",
+      "L": 10,
+      "PCT": 0.286,
+      "GB": 2.0,
+      "STRK": "L1",
       "L10": "3-7",
-      "HOME": "2-4",
+      "HOME": "2-5",
       "AWAY": "2-5",
-      "RS": 49,
-      "RA": 88,
-      "RD": -39
+      "RS": 55,
+      "RA": 95,
+      "RD": -40
      },
      "extra": {
       "leagueRank": "6"
