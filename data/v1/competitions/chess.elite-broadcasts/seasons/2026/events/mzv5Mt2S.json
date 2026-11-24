@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:mzv5Mt2S",
- "updatedAt": "2026-11-23T20:37:25Z",
+ "updatedAt": "2026-11-24T18:07:53Z",
  "sources": [
   "lichess"
  ],
@@ -36,7 +36,7 @@
    {
     "name": "Round 3",
     "startsAt": 1795518900000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 4",
@@ -67,9 +67,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 2.0,
+    "PTS": 2.5,
     "ELO": 2343,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.oleksii-nakonechnyi",
@@ -83,7 +83,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 3006
+    "performance": 2504
    }
   },
   {
@@ -92,9 +92,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 2.0,
+    "PTS": 2.5,
     "ELO": 2084,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.alexandre-ghonghadze",
@@ -107,7 +107,7 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 3092
+    "performance": 2492
    }
   },
   {
@@ -116,9 +116,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 3,
-    "PTS": 1.0,
+    "PTS": 2.0,
     "ELO": 2358,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.marc-llari",
@@ -132,65 +132,18 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2177
+    "performance": 2261
    }
   },
   {
    "rank": 4,
-   "participantId": "p.thehas-rithmitha-kiringoda",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 1.0,
-    "ELO": 2055,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.thehas-rithmitha-kiringoda",
-    "name": {
-     "full": "Thehas Rithmitha Kiringoda"
-    },
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "performance": 2208
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.muli-faraja-mumo",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 1.0,
-    "ELO": 2012,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.muli-faraja-mumo",
-    "name": {
-     "full": "Muli Faraja Mumo"
-    },
-    "nationalities": [
-     "KE"
-    ],
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "performance": 2319
-   }
-  },
-  {
-   "rank": 6,
    "participantId": "p.ramazan-tulegen",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
-    "PTS": 0.5,
+    "RANK": 4,
+    "PTS": 1.5,
     "ELO": 2303,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.ramazan-tulegen",
@@ -204,18 +157,18 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 1885
+    "performance": 2056
    }
   },
   {
-   "rank": 7,
+   "rank": 5,
    "participantId": "p.srihas-maddipati",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
-    "PTS": 0.5,
+    "RANK": 5,
+    "PTS": 1.0,
     "ELO": 2073,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.srihas-maddipati",
@@ -229,7 +182,54 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 1986
+    "performance": 2022
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.thehas-rithmitha-kiringoda",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 1.0,
+    "ELO": 2055,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.thehas-rithmitha-kiringoda",
+    "name": {
+     "full": "Thehas Rithmitha Kiringoda"
+    },
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "performance": 2133
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.muli-faraja-mumo",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 1.0,
+    "ELO": 2012,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.muli-faraja-mumo",
+    "name": {
+     "full": "Muli Faraja Mumo"
+    },
+    "nationalities": [
+     "KE"
+    ],
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "performance": 2189
    }
   },
   {
@@ -238,9 +238,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 8,
-    "PTS": 0.0,
+    "PTS": 0.5,
     "ELO": 2281,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.ali-poyraz-uzdemir",
@@ -254,7 +254,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 1248
+    "performance": 1873
    }
   }
  ]

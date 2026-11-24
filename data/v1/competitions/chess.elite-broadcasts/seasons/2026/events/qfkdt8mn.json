@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:qfkdt8mn",
- "updatedAt": "2026-11-23T00:00:53Z",
+ "updatedAt": "2026-11-24T18:07:53Z",
  "sources": [
   "lichess"
  ],
@@ -21,12 +21,12 @@
   "tc": "120 min / 40 moves + 30 min / rest + 30 sec / move starting 41",
   "website": "https://worldchampionship.fide.com/",
   "tier": 5,
-  "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=l8Q7G0nSOaPd.webp&w=800&sig=0f0e6de6ad747cabe47e48b0f18eb43b46ffdc95",
+  "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=wWyTgO4wWJRR.webp&w=800&sig=5cce9d6cae22a523107dec9d706f38f851aa6ec9",
   "rounds": [
    {
     "name": "Game 1",
     "startsAt": 1795528800000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Game 2",
@@ -102,8 +102,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 0.5,
     "ELO": 2782,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.javokhir-sindarov.2005",
@@ -116,6 +117,9 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 2710
    }
   },
   {
@@ -124,8 +128,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
+    "PTS": 0.5,
     "ELO": 2710,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.gukesh-d.2006",
@@ -138,6 +143,9 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 2782
    }
   }
  ]

@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:TemMv6c8",
- "updatedAt": "2026-11-23T20:37:25Z",
+ "updatedAt": "2026-11-24T18:07:53Z",
  "sources": [
   "lichess"
  ],
@@ -29,12 +29,12 @@
    {
     "name": "Round 1 | Game 2",
     "startsAt": 1795500900000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 1 | Tiebreaks",
-    "startsAt": null,
-    "finished": null
+    "startsAt": 1795524300000,
+    "finished": true
    },
    {
     "name": "Round 2 | Game 1",
@@ -96,10 +96,482 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.chao-b-li",
+   "participantId": "p.xue-bai",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 3.5,
+    "ELO": 2179,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.xue-bai",
+    "name": {
+     "full": "Xue Bai"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng",
+    "performance": 2337
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.shixu-b-wang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 3.0,
+    "ELO": 2470,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.shixu-b-wang",
+    "name": {
+     "full": "Shixu B Wang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Tianjin",
+    "performance": 2657
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.volodar-murzin.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 2.0,
+    "ELO": 2663,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.volodar-murzin.2006",
+    "name": {
+     "full": "Volodar Murzin"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "XX"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng",
+    "performance": 2619
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.yue-wang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 2.0,
+    "ELO": 2619,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.yue-wang",
+    "name": {
+     "full": "Yue Wang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Tianjin",
+    "performance": 2663
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.qingnan-liu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 2.0,
+    "ELO": 2529,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.qingnan-liu",
+    "name": {
+     "full": "Qingnan Liu"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Shandong Foreign Languages",
+    "performance": 3361
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.changren-dai",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 2.0,
+    "ELO": 2500,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.changren-dai",
+    "name": {
+     "full": "Changren Dai"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Tianjin",
+    "performance": 2490
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.yunguo-wan",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 2.0,
+    "ELO": 2490,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.yunguo-wan",
+    "name": {
+     "full": "Yunguo Wan"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng",
+    "performance": 2500
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.yanbin-wang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 2.0,
+    "ELO": 2412,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.yanbin-wang",
+    "name": {
+     "full": "Yanbin Wang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Shandong Foreign Languages",
+    "performance": 3160
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.yixin-ding.1991",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 2.0,
+    "ELO": 2398,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.yixin-ding.1991",
+    "name": {
+     "full": "Yixin Ding"
+    },
+    "birthDate": "1991",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "WGM"
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng",
+    "performance": 2376
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.yiyi-xiao.1996",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 2.0,
+    "ELO": 2376,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.yiyi-xiao.1996",
+    "name": {
+     "full": "Yiyi Xiao"
+    },
+    "birthDate": "1996",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "WGM"
+   },
+   "extra": {
+    "team": "Tianjin",
+    "performance": 2398
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.tianyu-jiang.2010",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11,
+    "PTS": 2.0,
+    "ELO": 2300,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.tianyu-jiang.2010",
+    "name": {
+     "full": "Tianyu Jiang"
+    },
+    "birthDate": "2010",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Beijing",
+    "performance": 2726
+   }
+  },
+  {
+   "rank": 12,
+   "participantId": "p.qinxuanyi-wang.2011",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12,
+    "PTS": 2.0,
+    "ELO": 2274,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.qinxuanyi-wang.2011",
+    "name": {
+     "full": "Qinxuanyi Wang"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "WIM"
+   },
+   "extra": {
+    "team": "Hangzhou Zhiyun School",
+    "performance": 2964
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.yu-a-wang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
+    "PTS": 2.0,
+    "ELO": 2158,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.yu-a-wang",
+    "name": {
+     "full": "Yu A. Wang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Beijing",
+    "performance": 2684
+   }
+  },
+  {
+   "rank": 14,
+   "participantId": "p.yangyi-yu.1994",
+   "participantType": "person",
+   "stats": {
+    "RANK": 14,
+    "PTS": 1.5,
+    "ELO": 2705,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.yangyi-yu.1994",
+    "name": {
+     "full": "Yangyi Yu"
+    },
+    "birthDate": "1994",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Beijing",
+    "performance": 2511
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.arkadij-naiditsch",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
+    "PTS": 1.5,
+    "ELO": 2572,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.arkadij-naiditsch",
+    "name": {
+     "full": "Arkadij Naiditsch"
+    },
+    "nationalities": [
+     "BG"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Chongqing Jiulongpo",
+    "performance": 2777
+   }
+  },
+  {
+   "rank": 16,
+   "participantId": "p.kaifan-xie",
+   "participantType": "person",
+   "stats": {
+    "RANK": 16,
+    "PTS": 1.5,
+    "ELO": 2452,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.kaifan-xie",
+    "name": {
+     "full": "Kaifan Xie"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Hangzhou Zhiyun School",
+    "performance": 2694
+   }
+  },
+  {
+   "rank": 17,
+   "participantId": "p.di-zhang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 17,
+    "PTS": 1.5,
+    "ELO": 2447,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.di-zhang",
+    "name": {
+     "full": "Di Zhang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Beijing",
+    "performance": 2318
+   }
+  },
+  {
+   "rank": 18,
+   "participantId": "p.muziyan-gao.2011",
+   "participantType": "person",
+   "stats": {
+    "RANK": 18,
+    "PTS": 1.5,
+    "ELO": 2252,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.muziyan-gao.2011",
+    "name": {
+     "full": "Muziyan Gao"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "WIM"
+   },
+   "extra": {
+    "team": "Jiangsu",
+    "performance": 2632
+   }
+  },
+  {
+   "rank": 19,
+   "participantId": "p.chao-b-li",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19,
     "PTS": 1.0,
     "ELO": 2615,
     "GP": 1
@@ -121,361 +593,20 @@
    }
   },
   {
-   "rank": 2,
-   "participantId": "p.arkadij-naiditsch",
+   "rank": 20,
+   "participantId": "p.deshun-xiu",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 20,
     "PTS": 1.0,
-    "ELO": 2572,
+    "ELO": 2509,
     "GP": 1
    },
    "person": {
-    "id": "p.arkadij-naiditsch",
+    "id": "p.deshun-xiu",
     "name": {
-     "full": "Arkadij Naiditsch"
+     "full": "Deshun Xiu"
     },
-    "nationalities": [
-     "BG"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Chongqing Jiulongpo",
-    "performance": 3384
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.qingnan-liu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 1.0,
-    "ELO": 2529,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.qingnan-liu",
-    "name": {
-     "full": "Qingnan Liu"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Shandong Foreign Languages",
-    "performance": 3361
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.shixu-b-wang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 1.0,
-    "ELO": 2470,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.shixu-b-wang",
-    "name": {
-     "full": "Shixu B Wang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Tianjin",
-    "performance": 3264
-   }
-  },
-  {
-   "rank": 5,
-   "participantId": "p.kaifan-xie",
-   "participantType": "person",
-   "stats": {
-    "RANK": 5,
-    "PTS": 1.0,
-    "ELO": 2452,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.kaifan-xie",
-    "name": {
-     "full": "Kaifan Xie"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Hangzhou Zhiyun School",
-    "performance": 3301
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.di-zhang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 1.0,
-    "ELO": 2447,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.di-zhang",
-    "name": {
-     "full": "Di Zhang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Beijing",
-    "performance": 2925
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.yanbin-wang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 1.0,
-    "ELO": 2412,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yanbin-wang",
-    "name": {
-     "full": "Yanbin Wang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Shandong Foreign Languages",
-    "performance": 3207
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.yixin-ding.1991",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 1.0,
-    "ELO": 2398,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yixin-ding.1991",
-    "name": {
-     "full": "Yixin Ding"
-    },
-    "birthDate": "1991",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "WGM"
-   },
-   "extra": {
-    "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 3176
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.jennifer-yu.2002",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 1.0,
-    "ELO": 2343,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.jennifer-yu.2002",
-    "name": {
-     "full": "Jennifer Yu"
-    },
-    "birthDate": "2002",
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "WGM"
-   },
-   "extra": {
-    "team": "Shandong Foreign Languages",
-    "performance": 3012
-   }
-  },
-  {
-   "rank": 10,
-   "participantId": "p.tianyu-jiang.2010",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10,
-    "PTS": 1.0,
-    "ELO": 2300,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.tianyu-jiang.2010",
-    "name": {
-     "full": "Tianyu Jiang"
-    },
-    "birthDate": "2010",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Beijing",
-    "performance": 2726
-   }
-  },
-  {
-   "rank": 11,
-   "participantId": "p.qinxuanyi-wang.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11,
-    "PTS": 1.0,
-    "ELO": 2274,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.qinxuanyi-wang.2011",
-    "name": {
-     "full": "Qinxuanyi Wang"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "WIM"
-   },
-   "extra": {
-    "team": "Hangzhou Zhiyun School",
-    "performance": 2964
-   }
-  },
-  {
-   "rank": 12,
-   "participantId": "p.muziyan-gao.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 12,
-    "PTS": 1.0,
-    "ELO": 2252,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.muziyan-gao.2011",
-    "name": {
-     "full": "Muziyan Gao"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "WIM"
-   },
-   "extra": {
-    "team": "Jiangsu",
-    "performance": 3239
-   }
-  },
-  {
-   "rank": 13,
-   "participantId": "p.xue-bai",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13,
-    "PTS": 1.0,
-    "ELO": 2179,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.xue-bai",
-    "name": {
-     "full": "Xue Bai"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2944
-   }
-  },
-  {
-   "rank": 14,
-   "participantId": "p.yu-a-wang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 14,
-    "PTS": 1.0,
-    "ELO": 2158,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yu-a-wang",
-    "name": {
-     "full": "Yu A. Wang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Beijing",
-    "performance": 2684
-   }
-  },
-  {
-   "rank": 15,
-   "participantId": "p.yangyi-yu.1994",
-   "participantType": "person",
-   "stats": {
-    "RANK": 15,
-    "PTS": 0.5,
-    "ELO": 2705,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yangyi-yu.1994",
-    "name": {
-     "full": "Yangyi Yu"
-    },
-    "birthDate": "1994",
     "nationalities": [
      "CN"
     ],
@@ -484,71 +615,18 @@
    },
    "extra": {
     "team": "Beijing",
-    "performance": 2318
+    "performance": 3072
    }
   },
   {
-   "rank": 16,
-   "participantId": "p.volodar-murzin.2006",
-   "participantType": "person",
-   "stats": {
-    "RANK": 16,
-    "PTS": 0.5,
-    "ELO": 2663,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.volodar-murzin.2006",
-    "name": {
-     "full": "Volodar Murzin"
-    },
-    "birthDate": "2006",
-    "nationalities": [
-     "XX"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2619
-   }
-  },
-  {
-   "rank": 17,
-   "participantId": "p.yue-wang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 17,
-    "PTS": 0.5,
-    "ELO": 2619,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yue-wang",
-    "name": {
-     "full": "Yue Wang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Tianjin",
-    "performance": 2663
-   }
-  },
-  {
-   "rank": 18,
+   "rank": 21,
    "participantId": "p.renjie-huang",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
-    "PTS": 0.5,
+    "RANK": 21,
+    "PTS": 1.0,
     "ELO": 2508,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.renjie-huang",
@@ -566,66 +644,14 @@
    }
   },
   {
-   "rank": 19,
-   "participantId": "p.changren-dai",
-   "participantType": "person",
-   "stats": {
-    "RANK": 19,
-    "PTS": 0.5,
-    "ELO": 2500,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.changren-dai",
-    "name": {
-     "full": "Changren Dai"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Tianjin",
-    "performance": 2490
-   }
-  },
-  {
-   "rank": 20,
-   "participantId": "p.yunguo-wan",
-   "participantType": "person",
-   "stats": {
-    "RANK": 20,
-    "PTS": 0.5,
-    "ELO": 2490,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.yunguo-wan",
-    "name": {
-     "full": "Yunguo Wan"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2500
-   }
-  },
-  {
-   "rank": 21,
+   "rank": 22,
    "participantId": "p.qi-b-chen",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
-    "PTS": 0.5,
+    "RANK": 22,
+    "PTS": 1.0,
     "ELO": 2437,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.qi-b-chen",
@@ -644,14 +670,14 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 23,
    "participantId": "p.bella-khotenashvili.1988",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
-    "PTS": 0.5,
+    "RANK": 23,
+    "PTS": 1.0,
     "ELO": 2437,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.bella-khotenashvili.1988",
@@ -671,39 +697,14 @@
    }
   },
   {
-   "rank": 23,
-   "participantId": "p.hongfu-dong",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23,
-    "PTS": 0.5,
-    "ELO": 2434,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.hongfu-dong",
-    "name": {
-     "full": "Hongfu Dong"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Chongqing Jiulongpo",
-    "performance": 2238
-   }
-  },
-  {
    "rank": 24,
    "participantId": "p.lela-javakhishvili.1984",
    "participantType": "person",
    "stats": {
     "RANK": 24,
-    "PTS": 0.5,
+    "PTS": 1.0,
     "ELO": 2394,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.lela-javakhishvili.1984",
@@ -724,13 +725,246 @@
   },
   {
    "rank": 25,
-   "participantId": "p.guohao-li",
+   "participantId": "p.xinyang-nie",
    "participantType": "person",
    "stats": {
     "RANK": 25,
+    "PTS": 1.0,
+    "ELO": 2367,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.xinyang-nie",
+    "name": {
+     "full": "Xinyang Nie"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Chongqing Jiulongpo",
+    "performance": 3155
+   }
+  },
+  {
+   "rank": 26,
+   "participantId": "p.jennifer-yu.2002",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "PTS": 1.0,
+    "ELO": 2343,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.jennifer-yu.2002",
+    "name": {
+     "full": "Jennifer Yu"
+    },
+    "birthDate": "2002",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "WGM"
+   },
+   "extra": {
+    "team": "Shandong Foreign Languages",
+    "performance": 2212
+   }
+  },
+  {
+   "rank": 27,
+   "participantId": "p.xiao-zhang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 27,
+    "PTS": 1.0,
+    "ELO": 2212,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.xiao-zhang",
+    "name": {
+     "full": "Xiao Zhang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "WIM"
+   },
+   "extra": {
+    "team": "Jiangsu",
+    "performance": 2343
+   }
+  },
+  {
+   "rank": 28,
+   "participantId": "p.evgeniy-najer",
+   "participantType": "person",
+   "stats": {
+    "RANK": 28,
+    "PTS": 0.5,
+    "ELO": 2584,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.evgeniy-najer",
+    "name": {
+     "full": "Evgeniy Najer"
+    },
+    "nationalities": [
+     "XX"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Hangzhou Zhiyun School",
+    "performance": 2379
+   }
+  },
+  {
+   "rank": 29,
+   "participantId": "p.xiongjian-peng",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29,
+    "PTS": 0.5,
+    "ELO": 2501,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.xiongjian-peng",
+    "name": {
+     "full": "Xiongjian Peng"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Chongqing Jiulongpo",
+    "performance": 2259
+   }
+  },
+  {
+   "rank": 30,
+   "participantId": "p.tao-pang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 30,
+    "PTS": 0.5,
+    "ELO": 2464,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.tao-pang",
+    "name": {
+     "full": "Tao Pang"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng",
+    "performance": 2277
+   }
+  },
+  {
+   "rank": 31,
+   "participantId": "p.xue-zhao.1985",
+   "participantType": "person",
+   "stats": {
+    "RANK": 31,
+    "PTS": 0.5,
+    "ELO": 2439,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.xue-zhao.1985",
+    "name": {
+     "full": "Xue Zhao"
+    },
+    "birthDate": "1985",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Shandong Foreign Languages",
+    "performance": 2059
+   }
+  },
+  {
+   "rank": 32,
+   "participantId": "p.hongfu-dong",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32,
+    "PTS": 0.5,
+    "ELO": 2434,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.hongfu-dong",
+    "name": {
+     "full": "Hongfu Dong"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Chongqing Jiulongpo",
+    "performance": 2238
+   }
+  },
+  {
+   "rank": 33,
+   "participantId": "p.yuan-chen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33,
+    "PTS": 0.5,
+    "ELO": 2357,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.yuan-chen",
+    "name": {
+     "full": "Yuan Chen"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng"
+   }
+  },
+  {
+   "rank": 34,
+   "participantId": "p.guohao-li",
+   "participantType": "person",
+   "stats": {
+    "RANK": 34,
     "PTS": 0.5,
     "ELO": 2318,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.guohao-li",
@@ -745,15 +979,15 @@
    },
    "extra": {
     "team": "Jiangxi Feimi",
-    "performance": 2705
+    "performance": 2512
    }
   },
   {
-   "rank": 26,
+   "rank": 35,
    "participantId": "p.liu-jiang",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 35,
     "PTS": 0.5,
     "ELO": 2238,
     "GP": 1
@@ -774,40 +1008,64 @@
    }
   },
   {
-   "rank": 27,
-   "participantId": "p.evgeniy-najer",
+   "rank": 36,
+   "participantId": "p.shumeng-zhou",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
-    "PTS": 0.0,
-    "ELO": 2584,
-    "GP": 1
+    "RANK": 36,
+    "PTS": 0.5,
+    "ELO": 2144,
+    "GP": 4
    },
    "person": {
-    "id": "p.evgeniy-najer",
+    "id": "p.shumeng-zhou",
     "name": {
-     "full": "Evgeniy Najer"
+     "full": "Shumeng Zhou"
     },
     "nationalities": [
-     "XX"
+     "CN"
     ],
-    "isCuban": false,
-    "title": "GM"
+    "isCuban": false
    },
    "extra": {
-    "team": "Hangzhou Zhiyun School",
-    "performance": 1772
+    "team": "Tianjin",
+    "performance": 1986
    }
   },
   {
-   "rank": 28,
+   "rank": 37,
+   "participantId": "p.lvheng-chen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 37,
+    "PTS": 0.5,
+    "ELO": 2125,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.lvheng-chen",
+    "name": {
+     "full": "lvheng Chen"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Jiangxi Feimi",
+    "performance": 2254
+   }
+  },
+  {
+   "rank": 38,
    "participantId": "p.chongsheng-zeng",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 38,
     "PTS": 0.0,
     "ELO": 2561,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.chongsheng-zeng",
@@ -826,90 +1084,11 @@
    }
   },
   {
-   "rank": 29,
-   "participantId": "p.xiongjian-peng",
-   "participantType": "person",
-   "stats": {
-    "RANK": 29,
-    "PTS": 0.0,
-    "ELO": 2501,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.xiongjian-peng",
-    "name": {
-     "full": "Xiongjian Peng"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Chongqing Jiulongpo",
-    "performance": 1652
-   }
-  },
-  {
-   "rank": 30,
-   "participantId": "p.tao-pang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 30,
-    "PTS": 0.0,
-    "ELO": 2464,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.tao-pang",
-    "name": {
-     "full": "Tao Pang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 1670
-   }
-  },
-  {
-   "rank": 31,
-   "participantId": "p.xue-zhao.1985",
-   "participantType": "person",
-   "stats": {
-    "RANK": 31,
-    "PTS": 0.0,
-    "ELO": 2439,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.xue-zhao.1985",
-    "name": {
-     "full": "Xue Zhao"
-    },
-    "birthDate": "1985",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Shandong Foreign Languages",
-    "performance": 1452
-   }
-  },
-  {
-   "rank": 32,
+   "rank": 39,
    "participantId": "p.zilong-yang",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 39,
     "PTS": 0.0,
     "ELO": 2407,
     "GP": 1
@@ -931,41 +1110,66 @@
    }
   },
   {
-   "rank": 33,
-   "participantId": "p.yiyi-xiao.1996",
+   "rank": 40,
+   "participantId": "p.mingren-hong",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 40,
     "PTS": 0.0,
-    "ELO": 2376,
+    "ELO": 2355,
     "GP": 1
    },
    "person": {
-    "id": "p.yiyi-xiao.1996",
+    "id": "p.mingren-hong",
     "name": {
-     "full": "Yiyi Xiao"
+     "full": "Mingren Hong"
     },
-    "birthDate": "1996",
     "nationalities": [
      "CN"
     ],
     "isCuban": false,
-    "title": "WGM"
+    "title": "IM"
    },
    "extra": {
-    "team": "Tianjin",
-    "performance": 1598
+    "team": "Hangzhou Zhiyun School",
+    "performance": 1567
    }
   },
   {
-   "rank": 34,
+   "rank": 41,
+   "participantId": "p.hongsen-chen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 41,
+    "PTS": 0.0,
+    "ELO": 2314,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.hongsen-chen",
+    "name": {
+     "full": "Hongsen Chen"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Jiangsu",
+    "performance": 1612
+   }
+  },
+  {
+   "rank": 42,
    "participantId": "p.chao-sun",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 42,
     "PTS": 0.0,
     "ELO": 2272,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.chao-sun",
@@ -980,44 +1184,18 @@
    },
    "extra": {
     "team": "Jiangxi Feimi",
-    "performance": 1815
+    "performance": 1762
    }
   },
   {
-   "rank": 35,
-   "participantId": "p.xiao-zhang",
-   "participantType": "person",
-   "stats": {
-    "RANK": 35,
-    "PTS": 0.0,
-    "ELO": 2212,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.xiao-zhang",
-    "name": {
-     "full": "Xiao Zhang"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "WIM"
-   },
-   "extra": {
-    "team": "Jiangsu",
-    "performance": 1543
-   }
-  },
-  {
-   "rank": 36,
+   "rank": 43,
    "participantId": "p.yijing-yang",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 43,
     "PTS": 0.0,
     "ELO": 2164,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.yijing-yang",
@@ -1036,64 +1214,14 @@
    }
   },
   {
-   "rank": 37,
-   "participantId": "p.shumeng-zhou",
-   "participantType": "person",
-   "stats": {
-    "RANK": 37,
-    "PTS": 0.0,
-    "ELO": 2144,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.shumeng-zhou",
-    "name": {
-     "full": "Shumeng Zhou"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Tianjin",
-    "performance": 1379
-   }
-  },
-  {
-   "rank": 38,
-   "participantId": "p.lvheng-chen",
-   "participantType": "person",
-   "stats": {
-    "RANK": 38,
-    "PTS": 0.0,
-    "ELO": 2125,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.lvheng-chen",
-    "name": {
-     "full": "lvheng Chen"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Jiangxi Feimi",
-    "performance": 1647
-   }
-  },
-  {
-   "rank": 39,
+   "rank": 44,
    "participantId": "p.zile-zhu",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 44,
     "PTS": 0.0,
     "ELO": 1926,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.zile-zhu",
@@ -1111,14 +1239,14 @@
    }
   },
   {
-   "rank": 40,
+   "rank": 45,
    "participantId": "p.jihan-sun",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 45,
     "PTS": 0.0,
     "ELO": 1884,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.jihan-sun",
