@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:mzv5Mt2S",
- "updatedAt": "2026-11-25T14:45:28Z",
+ "updatedAt": "2026-11-25T19:09:19Z",
  "sources": [
   "lichess"
  ],
@@ -24,37 +24,37 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=a5h55oCpoNen.webp&w=800&sig=ae6611a6a321ea3c097495e493b11af172bb1809",
   "rounds": [
    {
-    "name": "Round 1",
+    "name": "Ronda 1",
     "startsAt": 1795346100000,
     "finished": true
    },
    {
-    "name": "Round 2",
+    "name": "Ronda 2",
     "startsAt": 1795432500000,
     "finished": true
    },
    {
-    "name": "Round 3",
+    "name": "Ronda 3",
     "startsAt": 1795518900000,
     "finished": true
    },
    {
-    "name": "Round 4",
+    "name": "Ronda 4",
     "startsAt": 1795605300000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Round 5",
+    "name": "Ronda 5",
     "startsAt": 1795691700000,
     "finished": null
    },
    {
-    "name": "Round 6",
+    "name": "Ronda 6",
     "startsAt": 1795778100000,
     "finished": null
    },
    {
-    "name": "Round 7",
+    "name": "Ronda 7",
     "startsAt": 1795850100000,
     "finished": null
    }
@@ -63,10 +63,35 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.oleksii-nakonechnyi",
+   "participantId": "p.marc-llari",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 3.0,
+    "ELO": 2358,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.marc-llari",
+    "name": {
+     "full": "Marc Llari"
+    },
+    "nationalities": [
+     "FR"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "performance": 2365
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.oleksii-nakonechnyi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
     "PTS": 2.5,
     "ELO": 2343,
     "GP": 4
@@ -87,11 +112,11 @@
    }
   },
   {
-   "rank": 2,
+   "rank": 3,
    "participantId": "p.ramazan-tulegen",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 3,
     "PTS": 2.5,
     "ELO": 2303,
     "GP": 4
@@ -112,11 +137,11 @@
    }
   },
   {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.alexandre-ghonghadze",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 4,
     "PTS": 2.5,
     "ELO": 2084,
     "GP": 4
@@ -133,31 +158,6 @@
    },
    "extra": {
     "performance": 2273
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.marc-llari",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 2.0,
-    "ELO": 2358,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.marc-llari",
-    "name": {
-     "full": "Marc Llari"
-    },
-    "nationalities": [
-     "FR"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "performance": 2261
    }
   },
   {
@@ -240,7 +240,7 @@
     "RANK": 8,
     "PTS": 0.5,
     "ELO": 2281,
-    "GP": 3
+    "GP": 4
    },
    "person": {
     "id": "p.ali-poyraz-uzdemir",
@@ -254,7 +254,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 1873
+    "performance": 1877
    }
   }
  ]
