@@ -2,22 +2,13 @@
  "schemaVersion": 1,
  "type": "season-teams",
  "id": "soccer.uefa-champions:2026-27",
- "updatedAt": "2026-11-24T19:45:10Z",
+ "updatedAt": "2026-11-25T02:27:24Z",
  "sources": [
   "espn"
  ],
  "competitionId": "soccer.uefa-champions",
  "season": "2026-27",
  "teams": [
-  {
-   "id": "soccer.paris-saint-germain",
-   "name": {
-    "full": "Paris Saint-Germain",
-    "short": "PSG",
-    "abbrev": "PSG"
-   },
-   "country": null
-  },
   {
    "id": "soccer.real-madrid",
    "name": {
@@ -28,11 +19,11 @@
    "country": null
   },
   {
-   "id": "soccer.arsenal",
+   "id": "soccer.paris-saint-germain",
    "name": {
-    "full": "Arsenal",
-    "short": "Arsenal",
-    "abbrev": "ARS"
+    "full": "Paris Saint-Germain",
+    "short": "PSG",
+    "abbrev": "PSG"
    },
    "country": null
   },
@@ -46,11 +37,20 @@
    "country": null
   },
   {
-   "id": "soccer.barcelona",
+   "id": "soccer.real-betis",
    "name": {
-    "full": "Barcelona",
-    "short": "Barcelona",
-    "abbrev": "BAR"
+    "full": "Real Betis",
+    "short": "Betis",
+    "abbrev": "BET"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.arsenal",
+   "name": {
+    "full": "Arsenal",
+    "short": "Arsenal",
+    "abbrev": "ARS"
    },
    "country": null
   },
@@ -60,6 +60,24 @@
     "full": "Manchester City",
     "short": "Man City",
     "abbrev": "MNC"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.borussia-dortmund",
+   "name": {
+    "full": "Borussia Dortmund",
+    "short": "Dortmund",
+    "abbrev": "DOR"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.barcelona",
+   "name": {
+    "full": "Barcelona",
+    "short": "Barcelona",
+    "abbrev": "BAR"
    },
    "country": null
   },
@@ -96,24 +114,6 @@
     "full": "Sporting CP",
     "short": "Sporting",
     "abbrev": "SCP"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.real-betis",
-   "name": {
-    "full": "Real Betis",
-    "short": "Betis",
-    "abbrev": "BET"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.borussia-dortmund",
-   "name": {
-    "full": "Borussia Dortmund",
-    "short": "Dortmund",
-    "abbrev": "DOR"
    },
    "country": null
   },
@@ -181,6 +181,24 @@
    "country": null
   },
   {
+   "id": "soccer.fc-porto",
+   "name": {
+    "full": "FC Porto",
+    "short": "FC Porto",
+    "abbrev": "FCP"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.rb-leipzig",
+   "name": {
+    "full": "RB Leipzig",
+    "short": "RB Leipzig",
+    "abbrev": "RBL"
+   },
+   "country": null
+  },
+  {
    "id": "soccer.fenerbahce",
    "name": {
     "full": "Fenerbahce",
@@ -226,29 +244,20 @@
    "country": null
   },
   {
-   "id": "soccer.psv-eindhoven",
-   "name": {
-    "full": "PSV Eindhoven",
-    "short": "PSV",
-    "abbrev": "PSV"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.fc-porto",
-   "name": {
-    "full": "FC Porto",
-    "short": "FC Porto",
-    "abbrev": "FCP"
-   },
-   "country": null
-  },
-  {
    "id": "soccer.napoli",
    "name": {
     "full": "Napoli",
     "short": "Napoli",
     "abbrev": "NAP"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.psv-eindhoven",
+   "name": {
+    "full": "PSV Eindhoven",
+    "short": "PSV",
+    "abbrev": "PSV"
    },
    "country": null
   },
@@ -262,29 +271,20 @@
    "country": null
   },
   {
-   "id": "soccer.aek-athens",
-   "name": {
-    "full": "AEK Athens",
-    "short": "AEK Athens",
-    "abbrev": "AEK"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.rb-leipzig",
-   "name": {
-    "full": "RB Leipzig",
-    "short": "RB Leipzig",
-    "abbrev": "RBL"
-   },
-   "country": null
-  },
-  {
    "id": "soccer.sabah-fk",
    "name": {
     "full": "Sabah FK",
     "short": "Sabah",
     "abbrev": "SAB"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.aek-athens",
+   "name": {
+    "full": "AEK Athens",
+    "short": "AEK Athens",
+    "abbrev": "AEK"
    },
    "country": null
   },

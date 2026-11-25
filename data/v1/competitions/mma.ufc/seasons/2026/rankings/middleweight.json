@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:middleweight",
- "updatedAt": "2026-11-24T04:48:12Z",
+ "updatedAt": "2026-11-25T02:27:37Z",
  "sources": [
   "ufc.com"
  ],
@@ -10,7 +10,7 @@
  "season": "2026",
  "rankingId": "middleweight",
  "name": "Middleweight",
- "asOf": "2026-11-24",
+ "asOf": "2026-11-25",
  "championId": "p.sean-strickland",
  "extra": {
   "poundForPound": false,
@@ -197,42 +197,10 @@
   },
   {
    "rank": 11,
-   "participantId": "p.abus-magomedov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11
-   },
-   "person": {
-    "id": "p.abus-magomedov",
-    "name": {
-     "full": "Abus Magomedov"
-    },
-    "isCuban": false,
-    "birthCountry": "RU"
-   }
-  },
-  {
-   "rank": 12,
-   "participantId": "p.jared-cannonier",
-   "participantType": "person",
-   "stats": {
-    "RANK": 12
-   },
-   "person": {
-    "id": "p.jared-cannonier",
-    "name": {
-     "full": "Jared Cannonier"
-    },
-    "isCuban": false,
-    "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 13,
    "participantId": "p.ikram-aliskerov",
    "participantType": "person",
    "stats": {
-    "RANK": 13
+    "RANK": 11
    },
    "person": {
     "id": "p.ikram-aliskerov",
@@ -241,14 +209,36 @@
     },
     "isCuban": false,
     "birthCountry": "RU"
+   },
+   "extra": {
+    "trend": 2
    }
   },
   {
-   "rank": 14,
+   "rank": 12,
+   "participantId": "p.abus-magomedov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12
+   },
+   "person": {
+    "id": "p.abus-magomedov",
+    "name": {
+     "full": "Abus Magomedov"
+    },
+    "isCuban": false,
+    "birthCountry": "RU"
+   },
+   "extra": {
+    "trend": -1
+   }
+  },
+  {
+   "rank": 13,
    "participantId": "p.bo-nickal",
    "participantType": "person",
    "stats": {
-    "RANK": 14
+    "RANK": 13
    },
    "person": {
     "id": "p.bo-nickal",
@@ -257,14 +247,17 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": 1
    }
   },
   {
-   "rank": 15,
+   "rank": 14,
    "participantId": "p.shara-magomedov",
    "participantType": "person",
    "stats": {
-    "RANK": 15
+    "RANK": 14
    },
    "person": {
     "id": "p.shara-magomedov",
@@ -273,6 +266,28 @@
     },
     "isCuban": false,
     "birthCountry": "RU"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.jared-cannonier",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15
+   },
+   "person": {
+    "id": "p.jared-cannonier",
+    "name": {
+     "full": "Jared Cannonier"
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -3
    }
   }
  ]

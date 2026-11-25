@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:women-s-pound-for-pound",
- "updatedAt": "2026-11-24T04:48:12Z",
+ "updatedAt": "2026-11-25T02:27:37Z",
  "sources": [
   "ufc.com"
  ],
@@ -10,7 +10,7 @@
  "season": "2026",
  "rankingId": "women-s-pound-for-pound",
  "name": "Women's Pound-for-Pound Top Rank",
- "asOf": "2026-11-24",
+ "asOf": "2026-11-25",
  "championId": null,
  "extra": {
   "poundForPound": true,
@@ -31,9 +31,6 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   },
-   "extra": {
-    "trend": 1
    }
   },
   {
@@ -50,9 +47,6 @@
     },
     "isCuban": false,
     "birthCountry": "KG"
-   },
-   "extra": {
-    "trend": -1
    }
   },
   {
@@ -121,10 +115,28 @@
   },
   {
    "rank": 7,
-   "participantId": "p.manon-fiorot",
+   "participantId": "p.amanda-nunes",
    "participantType": "person",
    "stats": {
     "RANK": 7
+   },
+   "person": {
+    "id": "p.amanda-nunes",
+    "name": {
+     "full": "Amanda Nunes"
+    },
+    "isCuban": false
+   },
+   "extra": {
+    "trend": 3
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.manon-fiorot",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8
    },
    "person": {
     "id": "p.manon-fiorot",
@@ -133,14 +145,17 @@
     },
     "isCuban": false,
     "birthCountry": "FR"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
-   "rank": 8,
+   "rank": 9,
    "participantId": "p.tatiana-suarez",
    "participantType": "person",
    "stats": {
-    "RANK": 8
+    "RANK": 9
    },
    "person": {
     "id": "p.tatiana-suarez",
@@ -149,14 +164,17 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
-   "rank": 9,
+   "rank": 10,
    "participantId": "p.jasmine-jasudavicius",
    "participantType": "person",
    "stats": {
-    "RANK": 9
+    "RANK": 10
    },
    "person": {
     "id": "p.jasmine-jasudavicius",
@@ -165,21 +183,9 @@
     },
     "isCuban": false,
     "birthCountry": "CA"
-   }
-  },
-  {
-   "rank": 10,
-   "participantId": "p.amanda-nunes",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10
    },
-   "person": {
-    "id": "p.amanda-nunes",
-    "name": {
-     "full": "Amanda Nunes"
-    },
-    "isCuban": false
+   "extra": {
+    "trend": -1
    }
   },
   {
@@ -196,9 +202,6 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   },
-   "extra": {
-    "trend": -1
    }
   },
   {
@@ -215,36 +218,14 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   },
-   "extra": {
-    "trend": -1
    }
   },
   {
    "rank": 13,
-   "participantId": "p.virna-jandiroba",
-   "participantType": "person",
-   "stats": {
-    "RANK": 13
-   },
-   "person": {
-    "id": "p.virna-jandiroba",
-    "name": {
-     "full": "Virna Jandiroba"
-    },
-    "isCuban": false,
-    "birthCountry": "BR"
-   },
-   "extra": {
-    "trend": -1
-   }
-  },
-  {
-   "rank": 14,
    "participantId": "p.rose-namajunas",
    "participantType": "person",
    "stats": {
-    "RANK": 14
+    "RANK": 13
    },
    "person": {
     "id": "p.rose-namajunas",
@@ -255,15 +236,15 @@
     "birthCountry": "US"
    },
    "extra": {
-    "trend": -1
+    "trend": 1
    }
   },
   {
-   "rank": 15,
+   "rank": 14,
    "participantId": "p.denise-gomes",
    "participantType": "person",
    "stats": {
-    "RANK": 15
+    "RANK": 14
    },
    "person": {
     "id": "p.denise-gomes",
@@ -274,7 +255,23 @@
     "birthCountry": "BR"
    },
    "extra": {
-    "trend": -1
+    "trend": 1
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.joselyne-edwards",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15
+   },
+   "person": {
+    "id": "p.joselyne-edwards",
+    "name": {
+     "full": "Joselyne Edwards"
+    },
+    "isCuban": false,
+    "birthCountry": "PA"
    }
   }
  ]

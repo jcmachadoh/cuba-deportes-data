@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:welterweight",
- "updatedAt": "2026-11-24T04:48:12Z",
+ "updatedAt": "2026-11-25T02:27:37Z",
  "sources": [
   "ufc.com"
  ],
@@ -10,7 +10,7 @@
  "season": "2026",
  "rankingId": "welterweight",
  "name": "Welterweight",
- "asOf": "2026-11-24",
+ "asOf": "2026-11-25",
  "championId": "p.islam-makhachev",
  "extra": {
   "poundForPound": false,
@@ -198,29 +198,10 @@
   },
   {
    "rank": 11,
-   "participantId": "p.yaroslav-amosov",
-   "participantType": "person",
-   "stats": {
-    "RANK": 11
-   },
-   "person": {
-    "id": "p.yaroslav-amosov",
-    "name": {
-     "full": "Yaroslav Amosov"
-    },
-    "isCuban": false,
-    "birthCountry": "UA"
-   },
-   "extra": {
-    "trend": 1
-   }
-  },
-  {
-   "rank": 12,
    "participantId": "p.uros-medic",
    "participantType": "person",
    "stats": {
-    "RANK": 12
+    "RANK": 11
    },
    "person": {
     "id": "p.uros-medic",
@@ -229,6 +210,25 @@
     },
     "isCuban": false,
     "birthCountry": "RS"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 12,
+   "participantId": "p.yaroslav-amosov",
+   "participantType": "person",
+   "stats": {
+    "RANK": 12
+   },
+   "person": {
+    "id": "p.yaroslav-amosov",
+    "name": {
+     "full": "Yaroslav Amosov"
+    },
+    "isCuban": false,
+    "birthCountry": "UA"
    },
    "extra": {
     "trend": -1
@@ -264,9 +264,6 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   },
-   "extra": {
-    "trend": 1
    }
   },
   {
@@ -283,9 +280,6 @@
     },
     "isCuban": false,
     "birthCountry": "US"
-   },
-   "extra": {
-    "trend": -1
    }
   }
  ]

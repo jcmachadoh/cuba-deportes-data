@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "ranking",
  "id": "mma.ufc:2026:light-heavyweight",
- "updatedAt": "2026-11-24T04:48:12Z",
+ "updatedAt": "2026-11-25T02:27:37Z",
  "sources": [
   "ufc.com"
  ],
@@ -10,7 +10,7 @@
  "season": "2026",
  "rankingId": "light-heavyweight",
  "name": "Light Heavyweight",
- "asOf": "2026-11-24",
+ "asOf": "2026-11-25",
  "championId": "p.carlos-ulberg",
  "extra": {
   "poundForPound": false,
@@ -54,58 +54,10 @@
   },
   {
    "rank": 2,
-   "participantId": "p.jiri-prochazka",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2
-   },
-   "person": {
-    "id": "p.jiri-prochazka",
-    "name": {
-     "full": "Jiří Procházka"
-    },
-    "isCuban": false,
-    "birthCountry": "CZ"
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.alex-pereira",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3
-   },
-   "person": {
-    "id": "p.alex-pereira",
-    "name": {
-     "full": "Alex Pereira"
-    },
-    "isCuban": false,
-    "birthCountry": "BR"
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.khalil-rountree-jr",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4
-   },
-   "person": {
-    "id": "p.khalil-rountree-jr",
-    "name": {
-     "full": "Khalil Rountree Jr."
-    },
-    "isCuban": false,
-    "birthCountry": "US"
-   }
-  },
-  {
-   "rank": 5,
    "participantId": "p.navajo-stirling",
    "participantType": "person",
    "stats": {
-    "RANK": 5
+    "RANK": 2
    },
    "person": {
     "id": "p.navajo-stirling",
@@ -114,30 +66,74 @@
     },
     "isCuban": false,
     "birthCountry": "NZ"
+   },
+   "extra": {
+    "trend": 3
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.jiri-prochazka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3
+   },
+   "person": {
+    "id": "p.jiri-prochazka",
+    "name": {
+     "full": "Jiří Procházka"
+    },
+    "isCuban": false,
+    "birthCountry": "CZ"
+   },
+   "extra": {
+    "trend": -1
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.alex-pereira",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4
+   },
+   "person": {
+    "id": "p.alex-pereira",
+    "name": {
+     "full": "Alex Pereira"
+    },
+    "isCuban": false,
+    "birthCountry": "BR"
+   },
+   "extra": {
+    "trend": -1
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.khalil-rountree-jr",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5
+   },
+   "person": {
+    "id": "p.khalil-rountree-jr",
+    "name": {
+     "full": "Khalil Rountree Jr."
+    },
+    "isCuban": false,
+    "birthCountry": "US"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
    "rank": 6,
-   "participantId": "p.paulo-costa",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6
-   },
-   "person": {
-    "id": "p.paulo-costa",
-    "name": {
-     "full": "Paulo Costa"
-    },
-    "isCuban": false,
-    "birthCountry": "BR"
-   }
-  },
-  {
-   "rank": 7,
    "participantId": "p.dominick-reyes",
    "participantType": "person",
    "stats": {
-    "RANK": 7
+    "RANK": 6
    },
    "person": {
     "id": "p.dominick-reyes",
@@ -146,6 +142,28 @@
     },
     "isCuban": false,
     "birthCountry": "US"
+   },
+   "extra": {
+    "trend": 1
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.paulo-costa",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7
+   },
+   "person": {
+    "id": "p.paulo-costa",
+    "name": {
+     "full": "Paulo Costa"
+    },
+    "isCuban": false,
+    "birthCountry": "BR"
+   },
+   "extra": {
+    "trend": -1
    }
   },
   {
