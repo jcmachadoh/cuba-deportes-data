@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lvbp:2026-27",
- "updatedAt": "2026-11-24T04:47:00Z",
+ "updatedAt": "2026-11-25T14:20:17Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -35,9 +35,30 @@
      }
     },
     {
-     "participantId": "baseball.caribes-de-anzoategui",
+     "participantId": "baseball.leones-del-caracas",
      "participantType": "team",
      "rank": 2,
+     "stats": {
+      "GP": 32,
+      "W": 18,
+      "L": 14,
+      "PCT": 0.563,
+      "STRK": "W1",
+      "L10": "6-4",
+      "HOME": "10-7",
+      "AWAY": "8-7",
+      "RS": 213,
+      "RA": 168,
+      "RD": 45
+     },
+     "extra": {
+      "leagueRank": "2"
+     }
+    },
+    {
+     "participantId": "baseball.caribes-de-anzoategui",
+     "participantType": "team",
+     "rank": 3,
      "stats": {
       "GP": 31,
       "W": 17,
@@ -52,27 +73,6 @@
       "RD": 16
      },
      "extra": {
-      "leagueRank": "2"
-     }
-    },
-    {
-     "participantId": "baseball.leones-del-caracas",
-     "participantType": "team",
-     "rank": 3,
-     "stats": {
-      "GP": 31,
-      "W": 17,
-      "L": 14,
-      "PCT": 0.548,
-      "STRK": "L3",
-      "L10": "6-4",
-      "HOME": "10-7",
-      "AWAY": "7-7",
-      "RS": 203,
-      "RA": 166,
-      "RD": 37
-     },
-     "extra": {
       "leagueRank": "3"
      }
     },
@@ -81,17 +81,17 @@
      "participantType": "team",
      "rank": 4,
      "stats": {
-      "GP": 31,
+      "GP": 32,
       "W": 17,
-      "L": 14,
-      "PCT": 0.548,
-      "STRK": "W4",
-      "L10": "9-1",
-      "HOME": "9-8",
+      "L": 15,
+      "PCT": 0.531,
+      "STRK": "L1",
+      "L10": "8-2",
+      "HOME": "9-9",
       "AWAY": "8-6",
-      "RS": 199,
-      "RA": 195,
-      "RD": 4
+      "RS": 201,
+      "RA": 205,
+      "RD": -4
      },
      "extra": {
       "leagueRank": "4"

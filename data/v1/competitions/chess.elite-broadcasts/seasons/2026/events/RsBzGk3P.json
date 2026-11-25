@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:RsBzGk3P",
- "updatedAt": "2026-11-25T02:51:36Z",
+ "updatedAt": "2026-11-25T14:45:28Z",
  "sources": [
   "lichess"
  ],
@@ -61,7 +61,7 @@
    {
     "name": "Round 8",
     "startsAt": 1795611600000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 9",
@@ -87,9 +87,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 6.5,
+    "PTS": 7.5,
     "ELO": 2740,
-    "GP": 7
+    "GP": 9
    },
    "person": {
     "id": "p.erigaisi-arjun.2003",
@@ -104,70 +104,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2987
+    "performance": 2846
    }
   },
   {
    "rank": 2,
-   "participantId": "p.ian-nepomniachtchi.1990",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 4.5,
-    "ELO": 2748,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.ian-nepomniachtchi.1990",
-    "name": {
-     "full": "Ian Nepomniachtchi"
-    },
-    "birthDate": "1990",
-    "nationalities": [
-     "RU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2731
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.wesley-so.1993",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 4.5,
-    "ELO": 2704,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.wesley-so.1993",
-    "name": {
-     "full": "Wesley So"
-    },
-    "birthDate": "1993",
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2751
-   }
-  },
-  {
-   "rank": 4,
    "participantId": "p.hans-moke-niemann.2003",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 4.5,
+    "RANK": 2,
+    "PTS": 6.5,
     "ELO": 2675,
-    "GP": 7
+    "GP": 9
    },
    "person": {
     "id": "p.hans-moke-niemann.2003",
@@ -182,7 +130,59 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2716
+    "performance": 2775
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.ian-nepomniachtchi.1990",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 5.5,
+    "ELO": 2748,
+    "GP": 9
+   },
+   "person": {
+    "id": "p.ian-nepomniachtchi.1990",
+    "name": {
+     "full": "Ian Nepomniachtchi"
+    },
+    "birthDate": "1990",
+    "nationalities": [
+     "RU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2698
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.wesley-so.1993",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 5.0,
+    "ELO": 2704,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.wesley-so.1993",
+    "name": {
+     "full": "Wesley So"
+    },
+    "birthDate": "1993",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2741
    }
   },
   {
@@ -191,9 +191,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 5,
-    "PTS": 4.0,
+    "PTS": 5.0,
     "ELO": 2650,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.alexey-sarana.2000",
@@ -208,43 +208,18 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2690
+    "performance": 2710
    }
   },
   {
    "rank": 6,
-   "participantId": "p.maxim-rodshtein",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 3.0,
-    "ELO": 2536,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.maxim-rodshtein",
-    "name": {
-     "full": "Maxim Rodshtein"
-    },
-    "nationalities": [
-     "IL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2536
-   }
-  },
-  {
-   "rank": 7,
    "participantId": "p.daniil-dubov.1996",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
-    "PTS": 3.0,
+    "RANK": 6,
+    "PTS": 5.0,
     "ELO": 2668,
-    "GP": 7
+    "GP": 9
    },
    "person": {
     "id": "p.daniil-dubov.1996",
@@ -259,69 +234,43 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2575
+    "performance": 2630
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.maxim-rodshtein",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 4.0,
+    "ELO": 2536,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.maxim-rodshtein",
+    "name": {
+     "full": "Maxim Rodshtein"
+    },
+    "nationalities": [
+     "IL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2606
    }
   },
   {
    "rank": 8,
-   "participantId": "p.yahli-sokolovsky.2006",
+   "participantId": "p.quang-liem-le.1991",
    "participantType": "person",
    "stats": {
     "RANK": 8,
     "PTS": 3.0,
-    "ELO": 2441,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.yahli-sokolovsky.2006",
-    "name": {
-     "full": "Yahli Sokolovsky"
-    },
-    "birthDate": "2006",
-    "nationalities": [
-     "IL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2528
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.avital-boruchovsky",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 2.5,
-    "ELO": 2439,
-    "GP": 7
-   },
-   "person": {
-    "id": "p.avital-boruchovsky",
-    "name": {
-     "full": "Avital Boruchovsky"
-    },
-    "nationalities": [
-     "IL"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2481
-   }
-  },
-  {
-   "rank": 10,
-   "participantId": "p.quang-liem-le.1991",
-   "participantType": "person",
-   "stats": {
-    "RANK": 10,
-    "PTS": 2.5,
     "ELO": 2626,
-    "GP": 7
+    "GP": 9
    },
    "person": {
     "id": "p.quang-liem-le.1991",
@@ -336,7 +285,58 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2493
+    "performance": 2499
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.yahli-sokolovsky.2006",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 3.0,
+    "ELO": 2441,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.yahli-sokolovsky.2006",
+    "name": {
+     "full": "Yahli Sokolovsky"
+    },
+    "birthDate": "2006",
+    "nationalities": [
+     "IL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2500
+   }
+  },
+  {
+   "rank": 10,
+   "participantId": "p.avital-boruchovsky",
+   "participantType": "person",
+   "stats": {
+    "RANK": 10,
+    "PTS": 2.5,
+    "ELO": 2439,
+    "GP": 9
+   },
+   "person": {
+    "id": "p.avital-boruchovsky",
+    "name": {
+     "full": "Avital Boruchovsky"
+    },
+    "nationalities": [
+     "IL"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2437
    }
   },
   {
@@ -347,7 +347,7 @@
     "RANK": 11,
     "PTS": 2.0,
     "ELO": 2465,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.ilia-smirin",
@@ -361,7 +361,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2411
+    "performance": 2388
    }
   },
   {
@@ -372,7 +372,7 @@
     "RANK": 12,
     "PTS": 2.0,
     "ELO": 2529,
-    "GP": 7
+    "GP": 8
    },
    "person": {
     "id": "p.evgeny-postny",
@@ -386,7 +386,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2423
+    "performance": 2408
    }
   }
  ]
