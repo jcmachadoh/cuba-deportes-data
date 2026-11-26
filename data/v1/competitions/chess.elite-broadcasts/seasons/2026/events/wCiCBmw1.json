@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:wCiCBmw1",
- "updatedAt": "2026-11-26T18:55:58Z",
+ "updatedAt": "2026-11-26T22:00:40Z",
  "sources": [
   "lichess"
  ],
@@ -24,47 +24,47 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=byza11WT2Dfm.webp&w=800&sig=6dbb62d4c6ec36a17dea727119ca87a76898bee4",
   "rounds": [
    {
-    "name": "Ronda 1",
+    "name": "Round 1",
     "startsAt": 1795622400000,
     "finished": true
    },
    {
-    "name": "Ronda 2",
+    "name": "Round 2",
     "startsAt": 1795708800000,
-    "finished": null
+    "finished": true
    },
    {
-    "name": "Ronda 3",
+    "name": "Round 3",
     "startsAt": 1795795200000,
     "finished": null
    },
    {
-    "name": "Ronda 4",
+    "name": "Round 4",
     "startsAt": 1795881600000,
     "finished": null
    },
    {
-    "name": "Ronda 5",
+    "name": "Round 5",
     "startsAt": 1795968000000,
     "finished": null
    },
    {
-    "name": "Ronda 6",
+    "name": "Round 6",
     "startsAt": 1796140800000,
     "finished": null
    },
    {
-    "name": "Ronda 7",
+    "name": "Round 7",
     "startsAt": 1796227200000,
     "finished": null
    },
    {
-    "name": "Ronda 8",
+    "name": "Round 8",
     "startsAt": 1796313600000,
     "finished": null
    },
    {
-    "name": "Ronda 9",
+    "name": "Round 9",
     "startsAt": 1796400000000,
     "finished": null
    }
@@ -73,10 +73,36 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.levon-aronian.1982",
+   "participantId": "p.nodirbek-abdusattorov.2004",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 1.5,
+    "ELO": 2772,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.nodirbek-abdusattorov.2004",
+    "name": {
+     "full": "Nodirbek Abdusattorov"
+    },
+    "birthDate": "2004",
+    "nationalities": [
+     "UZ"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2760
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.levon-aronian.1982",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
     "PTS": 1.5,
     "ELO": 2719,
     "GP": 2
@@ -98,11 +124,11 @@
    }
   },
   {
-   "rank": 2,
+   "rank": 3,
    "participantId": "p.andy-woodward.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
+    "RANK": 3,
     "PTS": 1.5,
     "ELO": 2635,
     "GP": 2
@@ -124,37 +150,37 @@
    }
   },
   {
-   "rank": 3,
-   "participantId": "p.nodirbek-abdusattorov.2004",
+   "rank": 4,
+   "participantId": "p.gawain-c-b-maroroa-jones.1987",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
-    "PTS": 1.0,
-    "ELO": 2772,
-    "GP": 1
+    "RANK": 4,
+    "PTS": 1.5,
+    "ELO": 2630,
+    "GP": 2
    },
    "person": {
-    "id": "p.nodirbek-abdusattorov.2004",
+    "id": "p.gawain-c-b-maroroa-jones.1987",
     "name": {
-     "full": "Nodirbek Abdusattorov"
+     "full": "Gawain C B Maroroa Jones"
     },
-    "birthDate": "2004",
+    "birthDate": "1987",
     "nationalities": [
-     "UZ"
+     "GB"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "performance": 3337
+    "performance": 2809
    }
   },
   {
-   "rank": 4,
+   "rank": 5,
    "participantId": "p.nihal-sarin.2004",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
+    "RANK": 5,
     "PTS": 1.0,
     "ELO": 2720,
     "GP": 2
@@ -176,14 +202,64 @@
    }
   },
   {
-   "rank": 5,
+   "rank": 6,
+   "participantId": "p.luke-j-mcshane",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 1.0,
+    "ELO": 2606,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.luke-j-mcshane",
+    "name": {
+     "full": "Luke J McShane"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2664
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.michael-adams",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 1.0,
+    "ELO": 2597,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.michael-adams",
+    "name": {
+     "full": "Michael Adams"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2701
+   }
+  },
+  {
+   "rank": 8,
    "participantId": "p.vasyl-ivanchuk.1969",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 8,
     "PTS": 0.5,
     "ELO": 2635,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.vasyl-ivanchuk.1969",
@@ -198,83 +274,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2720
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.gawain-c-b-maroroa-jones.1987",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 0.5,
-    "ELO": 2630,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.gawain-c-b-maroroa-jones.1987",
-    "name": {
-     "full": "Gawain C B Maroroa Jones"
-    },
-    "birthDate": "1987",
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2597
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.luke-j-mcshane",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 0.5,
-    "ELO": 2606,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.luke-j-mcshane",
-    "name": {
-     "full": "Luke J McShane"
-    },
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2719
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.michael-adams",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "PTS": 0.5,
-    "ELO": 2597,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.michael-adams",
-    "name": {
-     "full": "Michael Adams"
-    },
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "performance": 2630
+    "performance": 2482
    }
   },
   {
@@ -283,9 +283,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 9,
-    "PTS": 0.0,
+    "PTS": 0.5,
     "ELO": 2610,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.ihor-samunenkov.2009",
@@ -300,7 +300,7 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 1835
+    "performance": 2427
    }
   },
   {

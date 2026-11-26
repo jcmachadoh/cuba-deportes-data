@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:IjDgZVUR",
- "updatedAt": "2026-11-26T18:55:58Z",
+ "updatedAt": "2026-11-26T22:00:40Z",
  "sources": [
   "lichess"
  ],
@@ -31,7 +31,7 @@
    {
     "name": "Round 2",
     "startsAt": 1795698000000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 3",
@@ -1774,10 +1774,35 @@
   },
   {
    "rank": 66,
-   "participantId": "p.ludwig-deglmann",
+   "participantId": "p.moriz-binder",
    "participantType": "person",
    "stats": {
     "RANK": 66,
+    "PTS": 0.5,
+    "ELO": 2212,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.moriz-binder",
+    "name": {
+     "full": "Moriz Binder"
+    },
+    "nationalities": [
+     "AT"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Schachklub Schwaz",
+    "performance": 2134
+   }
+  },
+  {
+   "rank": 67,
+   "participantId": "p.ludwig-deglmann",
+   "participantType": "person",
+   "stats": {
+    "RANK": 67,
     "PTS": 0.5,
     "ELO": 2197,
     "GP": 2
@@ -1799,11 +1824,11 @@
    }
   },
   {
-   "rank": 67,
+   "rank": 68,
    "participantId": "p.georg-fuchs",
    "participantType": "person",
    "stats": {
-    "RANK": 67,
+    "RANK": 68,
     "PTS": 0.5,
     "ELO": 2144,
     "GP": 2
@@ -1825,11 +1850,37 @@
    }
   },
   {
-   "rank": 68,
+   "rank": 69,
+   "participantId": "p.herbert-benda",
+   "participantType": "person",
+   "stats": {
+    "RANK": 69,
+    "PTS": 0.5,
+    "ELO": 2135,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.herbert-benda",
+    "name": {
+     "full": "Herbert Benda"
+    },
+    "nationalities": [
+     "AT"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "SV Gamlitz",
+    "performance": 2212
+   }
+  },
+  {
+   "rank": 70,
    "participantId": "p.werner-wandl",
    "participantType": "person",
    "stats": {
-    "RANK": 68,
+    "RANK": 70,
     "PTS": 0.5,
     "ELO": 1923,
     "GP": 1
@@ -1850,11 +1901,11 @@
    }
   },
   {
-   "rank": 69,
+   "rank": 71,
    "participantId": "p.jens-hirneise",
    "participantType": "person",
    "stats": {
-    "RANK": 69,
+    "RANK": 71,
     "PTS": 0.0,
     "ELO": 2350,
     "GP": 2
@@ -1876,11 +1927,11 @@
    }
   },
   {
-   "rank": 70,
+   "rank": 72,
    "participantId": "p.sandor-videki",
    "participantType": "person",
    "stats": {
-    "RANK": 70,
+    "RANK": 72,
     "PTS": 0.0,
     "ELO": 2322,
     "GP": 2
@@ -1902,11 +1953,11 @@
    }
   },
   {
-   "rank": 71,
+   "rank": 73,
    "participantId": "p.fabian-platzgummer",
    "participantType": "person",
    "stats": {
-    "RANK": 71,
+    "RANK": 73,
     "PTS": 0.0,
     "ELO": 2255,
     "GP": 1
@@ -1928,11 +1979,11 @@
    }
   },
   {
-   "rank": 72,
+   "rank": 74,
    "participantId": "p.hannes-ganaus",
    "participantType": "person",
    "stats": {
-    "RANK": 72,
+    "RANK": 74,
     "PTS": 0.0,
     "ELO": 2237,
     "GP": 2
@@ -1954,36 +2005,11 @@
    }
   },
   {
-   "rank": 73,
-   "participantId": "p.moriz-binder",
-   "participantType": "person",
-   "stats": {
-    "RANK": 73,
-    "PTS": 0.0,
-    "ELO": 2212,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.moriz-binder",
-    "name": {
-     "full": "Moriz Binder"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Schachklub Schwaz",
-    "performance": 1719
-   }
-  },
-  {
-   "rank": 74,
+   "rank": 75,
    "participantId": "p.gerald-hechl",
    "participantType": "person",
    "stats": {
-    "RANK": 74,
+    "RANK": 75,
     "PTS": 0.0,
     "ELO": 2141,
     "GP": 1
@@ -2005,11 +2031,11 @@
    }
   },
   {
-   "rank": 75,
+   "rank": 76,
    "participantId": "p.marcus-hudec",
    "participantType": "person",
    "stats": {
-    "RANK": 75,
+    "RANK": 76,
     "PTS": 0.0,
     "ELO": 1927,
     "GP": 2
@@ -2027,30 +2053,6 @@
    "extra": {
     "team": "Data Technology Pressbaum / Eichgraben",
     "performance": 1498
-   }
-  },
-  {
-   "rank": 76,
-   "participantId": "p.herbert-benda",
-   "participantType": "person",
-   "stats": {
-    "RANK": 76,
-    "ELO": 2135,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.herbert-benda",
-    "name": {
-     "full": "Herbert Benda"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "SV Gamlitz"
    }
   }
  ]
