@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "season-teams",
  "id": "soccer.uefa-champions:2026-27",
- "updatedAt": "2026-11-25T02:27:24Z",
+ "updatedAt": "2026-11-26T00:20:15Z",
  "sources": [
   "espn"
  ],
@@ -37,6 +37,24 @@
    "country": null
   },
   {
+   "id": "soccer.barcelona",
+   "name": {
+    "full": "Barcelona",
+    "short": "Barcelona",
+    "abbrev": "BAR"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.liverpool",
+   "name": {
+    "full": "Liverpool",
+    "short": "Liverpool",
+    "abbrev": "LIV"
+   },
+   "country": null
+  },
+  {
    "id": "soccer.real-betis",
    "name": {
     "full": "Real Betis",
@@ -64,20 +82,20 @@
    "country": null
   },
   {
+   "id": "soccer.sporting-cp",
+   "name": {
+    "full": "Sporting CP",
+    "short": "Sporting",
+    "abbrev": "SCP"
+   },
+   "country": null
+  },
+  {
    "id": "soccer.borussia-dortmund",
    "name": {
     "full": "Borussia Dortmund",
     "short": "Dortmund",
     "abbrev": "DOR"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.barcelona",
-   "name": {
-    "full": "Barcelona",
-    "short": "Barcelona",
-    "abbrev": "BAR"
    },
    "country": null
   },
@@ -91,11 +109,11 @@
    "country": null
   },
   {
-   "id": "soccer.liverpool",
+   "id": "soccer.internazionale",
    "name": {
-    "full": "Liverpool",
-    "short": "Liverpool",
-    "abbrev": "LIV"
+    "full": "Internazionale",
+    "short": "Inter Milan",
+    "abbrev": "INT"
    },
    "country": null
   },
@@ -105,15 +123,6 @@
     "full": "Club Brugge",
     "short": "Club Brugge",
     "abbrev": "BRU"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.sporting-cp",
-   "name": {
-    "full": "Sporting CP",
-    "short": "Sporting",
-    "abbrev": "SCP"
    },
    "country": null
   },
@@ -136,11 +145,38 @@
    "country": null
   },
   {
+   "id": "soccer.fenerbahce",
+   "name": {
+    "full": "Fenerbahce",
+    "short": "Fenerbahce",
+    "abbrev": "FEN"
+   },
+   "country": null
+  },
+  {
    "id": "soccer.vfb-stuttgart",
    "name": {
     "full": "VfB Stuttgart",
     "short": "Stuttgart",
     "abbrev": "VFB"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.atletico-madrid",
+   "name": {
+    "full": "Atlético Madrid",
+    "short": "Atlético",
+    "abbrev": "ATM"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.manchester-united",
+   "name": {
+    "full": "Manchester United",
+    "short": "Man Utd",
+    "abbrev": "MAN"
    },
    "country": null
   },
@@ -154,29 +190,11 @@
    "country": null
   },
   {
-   "id": "soccer.internazionale",
-   "name": {
-    "full": "Internazionale",
-    "short": "Inter Milan",
-    "abbrev": "INT"
-   },
-   "country": null
-  },
-  {
    "id": "soccer.lask-linz",
    "name": {
     "full": "LASK Linz",
     "short": "LASK Linz",
     "abbrev": "LAS"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.manchester-united",
-   "name": {
-    "full": "Manchester United",
-    "short": "Man Utd",
-    "abbrev": "MAN"
    },
    "country": null
   },
@@ -199,11 +217,11 @@
    "country": null
   },
   {
-   "id": "soccer.fenerbahce",
+   "id": "soccer.villarreal",
    "name": {
-    "full": "Fenerbahce",
-    "short": "Fenerbahce",
-    "abbrev": "FEN"
+    "full": "Villarreal",
+    "short": "Villarreal",
+    "abbrev": "VIL"
    },
    "country": null
   },
@@ -235,15 +253,6 @@
    "country": null
   },
   {
-   "id": "soccer.atletico-madrid",
-   "name": {
-    "full": "Atlético Madrid",
-    "short": "Atlético",
-    "abbrev": "ATM"
-   },
-   "country": null
-  },
-  {
    "id": "soccer.napoli",
    "name": {
     "full": "Napoli",
@@ -253,29 +262,20 @@
    "country": null
   },
   {
+   "id": "soccer.lille",
+   "name": {
+    "full": "Lille",
+    "short": "Lille",
+    "abbrev": "LILL"
+   },
+   "country": null
+  },
+  {
    "id": "soccer.psv-eindhoven",
    "name": {
     "full": "PSV Eindhoven",
     "short": "PSV",
     "abbrev": "PSV"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.villarreal",
-   "name": {
-    "full": "Villarreal",
-    "short": "Villarreal",
-    "abbrev": "VIL"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.sabah-fk",
-   "name": {
-    "full": "Sabah FK",
-    "short": "Sabah",
-    "abbrev": "SAB"
    },
    "country": null
   },
@@ -298,6 +298,15 @@
    "country": null
   },
   {
+   "id": "soccer.sabah-fk",
+   "name": {
+    "full": "Sabah FK",
+    "short": "Sabah",
+    "abbrev": "SAB"
+   },
+   "country": null
+  },
+  {
    "id": "soccer.lens",
    "name": {
     "full": "Lens",
@@ -312,15 +321,6 @@
     "full": "Slavia Prague",
     "short": "Slavia Prague",
     "abbrev": "SLP"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.lille",
-   "name": {
-    "full": "Lille",
-    "short": "Lille",
-    "abbrev": "LILL"
    },
    "country": null
   },

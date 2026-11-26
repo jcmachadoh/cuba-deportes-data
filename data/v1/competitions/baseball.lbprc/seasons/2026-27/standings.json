@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "baseball.lbprc:2026-27",
- "updatedAt": "2026-11-25T14:20:18Z",
+ "updatedAt": "2026-11-26T00:19:19Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -14,22 +14,22 @@
    "name": "Liga de Béisbol Profesional Roberto Clemente (Puerto Rico)",
    "rows": [
     {
-     "participantId": "baseball.criollos-de-caguas",
+     "participantId": "baseball.leones-de-ponce",
      "participantType": "team",
      "rank": 1,
      "stats": {
-      "GP": 15,
-      "W": 9,
+      "GP": 16,
+      "W": 10,
       "L": 6,
-      "PCT": 0.6,
-      "GB": -2.0,
-      "STRK": "L1",
-      "L10": "5-5",
-      "HOME": "6-2",
-      "AWAY": "3-4",
-      "RS": 81,
-      "RA": 65,
-      "RD": 16
+      "PCT": 0.625,
+      "GB": -2.5,
+      "STRK": "W1",
+      "L10": "8-2",
+      "HOME": "6-3",
+      "AWAY": "4-3",
+      "RS": 107,
+      "RA": 70,
+      "RD": 37
      },
      "extra": {
       "leagueRank": "1"
@@ -58,52 +58,31 @@
      }
     },
     {
-     "participantId": "baseball.leones-de-ponce",
+     "participantId": "baseball.criollos-de-caguas",
      "participantType": "team",
      "rank": 3,
      "stats": {
-      "GP": 15,
+      "GP": 16,
       "W": 9,
-      "L": 6,
-      "PCT": 0.6,
-      "GB": -2.0,
-      "STRK": "L1",
-      "L10": "7-3",
+      "L": 7,
+      "PCT": 0.563,
+      "GB": -1.5,
+      "STRK": "L2",
+      "L10": "4-6",
       "HOME": "6-3",
-      "AWAY": "3-3",
-      "RS": 100,
-      "RA": 67,
-      "RD": 33
+      "AWAY": "3-4",
+      "RS": 85,
+      "RA": 70,
+      "RD": 15
      },
      "extra": {
       "leagueRank": "3"
      }
     },
     {
-     "participantId": "baseball.cangrejeros-de-santurce",
-     "participantType": "team",
-     "rank": 4,
-     "stats": {
-      "GP": 17,
-      "W": 8,
-      "L": 9,
-      "PCT": 0.471,
-      "STRK": "W1",
-      "L10": "4-6",
-      "HOME": "4-6",
-      "AWAY": "4-3",
-      "RS": 87,
-      "RA": 93,
-      "RD": -6
-     },
-     "extra": {
-      "leagueRank": "4"
-     }
-    },
-    {
      "participantId": "baseball.indios-de-mayaguez",
      "participantType": "team",
-     "rank": 5,
+     "rank": 4,
      "stats": {
       "GP": 15,
       "W": 7,
@@ -118,6 +97,28 @@
       "RD": -30
      },
      "extra": {
+      "leagueRank": "4"
+     }
+    },
+    {
+     "participantId": "baseball.cangrejeros-de-santurce",
+     "participantType": "team",
+     "rank": 5,
+     "stats": {
+      "GP": 18,
+      "W": 8,
+      "L": 10,
+      "PCT": 0.444,
+      "GB": 0.5,
+      "STRK": "L1",
+      "L10": "4-6",
+      "HOME": "4-7",
+      "AWAY": "4-3",
+      "RS": 90,
+      "RA": 100,
+      "RD": -10
+     },
+     "extra": {
       "leagueRank": "5"
      }
     },
@@ -126,18 +127,18 @@
      "participantType": "team",
      "rank": 6,
      "stats": {
-      "GP": 15,
-      "W": 4,
+      "GP": 16,
+      "W": 5,
       "L": 11,
-      "PCT": 0.267,
-      "GB": 3.0,
-      "STRK": "L2",
-      "L10": "2-8",
+      "PCT": 0.313,
+      "GB": 2.5,
+      "STRK": "W1",
+      "L10": "3-7",
       "HOME": "2-6",
-      "AWAY": "2-5",
-      "RS": 61,
-      "RA": 102,
-      "RD": -41
+      "AWAY": "3-5",
+      "RS": 66,
+      "RA": 106,
+      "RD": -40
      },
      "extra": {
       "leagueRank": "6"

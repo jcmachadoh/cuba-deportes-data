@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:wCiCBmw1",
- "updatedAt": "2026-11-25T19:09:19Z",
+ "updatedAt": "2026-11-26T00:44:27Z",
  "sources": [
   "lichess"
  ],
@@ -26,7 +26,7 @@
    {
     "name": "Round 1",
     "startsAt": 1795622400000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 2",
@@ -77,8 +77,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 1.0,
     "ELO": 2772,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.nodirbek-abdusattorov.2004",
@@ -91,82 +92,20 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 3337
    }
   },
   {
    "rank": 2,
-   "participantId": "p.nihal-sarin.2004",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "ELO": 2720,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.nihal-sarin.2004",
-    "name": {
-     "full": "Nihal Sarin"
-    },
-    "birthDate": "2004",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   }
-  },
-  {
-   "rank": 3,
-   "participantId": "p.levon-aronian.1982",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "ELO": 2719,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.levon-aronian.1982",
-    "name": {
-     "full": "Levon Aronian"
-    },
-    "birthDate": "1982",
-    "nationalities": [
-     "US"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.vasyl-ivanchuk.1969",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "ELO": 2635,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.vasyl-ivanchuk.1969",
-    "name": {
-     "full": "Vasyl Ivanchuk"
-    },
-    "birthDate": "1969",
-    "nationalities": [
-     "UA"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   }
-  },
-  {
-   "rank": 5,
    "participantId": "p.andy-woodward.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 2,
+    "PTS": 1.0,
     "ELO": 2635,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.andy-woodward.2010",
@@ -179,6 +118,87 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 3410
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.nihal-sarin.2004",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 0.5,
+    "ELO": 2720,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.nihal-sarin.2004",
+    "name": {
+     "full": "Nihal Sarin"
+    },
+    "birthDate": "2004",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2635
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.levon-aronian.1982",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 0.5,
+    "ELO": 2719,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.levon-aronian.1982",
+    "name": {
+     "full": "Levon Aronian"
+    },
+    "birthDate": "1982",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2606
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.vasyl-ivanchuk.1969",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 0.5,
+    "ELO": 2635,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.vasyl-ivanchuk.1969",
+    "name": {
+     "full": "Vasyl Ivanchuk"
+    },
+    "birthDate": "1969",
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2720
    }
   },
   {
@@ -187,8 +207,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 6,
+    "PTS": 0.5,
     "ELO": 2630,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.gawain-c-b-maroroa-jones.1987",
@@ -201,16 +222,70 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 2597
    }
   },
   {
    "rank": 7,
-   "participantId": "p.ihor-samunenkov.2009",
+   "participantId": "p.luke-j-mcshane",
    "participantType": "person",
    "stats": {
     "RANK": 7,
+    "PTS": 0.5,
+    "ELO": 2606,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.luke-j-mcshane",
+    "name": {
+     "full": "Luke J McShane"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2719
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.michael-adams",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 0.5,
+    "ELO": 2597,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.michael-adams",
+    "name": {
+     "full": "Michael Adams"
+    },
+    "nationalities": [
+     "GB"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2630
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.ihor-samunenkov.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 0.0,
     "ELO": 2610,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.ihor-samunenkov.2009",
@@ -223,48 +298,9 @@
     ],
     "isCuban": false,
     "title": "GM"
-   }
-  },
-  {
-   "rank": 8,
-   "participantId": "p.luke-j-mcshane",
-   "participantType": "person",
-   "stats": {
-    "RANK": 8,
-    "ELO": 2606,
-    "GP": 0
    },
-   "person": {
-    "id": "p.luke-j-mcshane",
-    "name": {
-     "full": "Luke J McShane"
-    },
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   }
-  },
-  {
-   "rank": 9,
-   "participantId": "p.michael-adams",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "ELO": 2597,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.michael-adams",
-    "name": {
-     "full": "Michael Adams"
-    },
-    "nationalities": [
-     "GB"
-    ],
-    "isCuban": false,
-    "title": "GM"
+   "extra": {
+    "performance": 1835
    }
   },
   {
@@ -273,8 +309,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 10,
+    "PTS": 0.0,
     "ELO": 2537,
-    "GP": 0
+    "GP": 1
    },
    "person": {
     "id": "p.shreyas-royal.2009",
@@ -287,6 +324,9 @@
     ],
     "isCuban": false,
     "title": "GM"
+   },
+   "extra": {
+    "performance": 1972
    }
   }
  ]
