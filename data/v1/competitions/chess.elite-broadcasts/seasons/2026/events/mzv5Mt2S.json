@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:mzv5Mt2S",
- "updatedAt": "2026-11-26T00:44:27Z",
+ "updatedAt": "2026-11-26T18:55:58Z",
  "sources": [
   "lichess"
  ],
@@ -46,7 +46,7 @@
    {
     "name": "Round 5",
     "startsAt": 1795691700000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Round 6",
@@ -67,9 +67,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 1,
-    "PTS": 3.0,
+    "PTS": 4.0,
     "ELO": 2358,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.marc-llari",
@@ -83,7 +83,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2365
+    "performance": 2438
    }
   },
   {
@@ -92,9 +92,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 2.5,
+    "PTS": 3.5,
     "ELO": 2343,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.oleksii-nakonechnyi",
@@ -108,18 +108,64 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2344
+    "performance": 2363
    }
   },
   {
    "rank": 3,
-   "participantId": "p.ramazan-tulegen",
+   "participantId": "p.alexandre-ghonghadze",
    "participantType": "person",
    "stats": {
     "RANK": 3,
+    "PTS": 3.5,
+    "ELO": 2084,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.alexandre-ghonghadze",
+    "name": {
+     "full": "Alexandre Ghonghadze"
+    },
+    "nationalities": [
+     "GE"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2293
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.thehas-rithmitha-kiringoda",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 3.0,
+    "ELO": 2055,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.thehas-rithmitha-kiringoda",
+    "name": {
+     "full": "Thehas Rithmitha Kiringoda"
+    },
+    "isCuban": false,
+    "title": "CM"
+   },
+   "extra": {
+    "performance": 2299
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.ramazan-tulegen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
     "PTS": 2.5,
     "ELO": 2303,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.ramazan-tulegen",
@@ -133,42 +179,18 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2223
+    "performance": 2174
    }
   },
   {
-   "rank": 4,
-   "participantId": "p.alexandre-ghonghadze",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 2.5,
-    "ELO": 2084,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.alexandre-ghonghadze",
-    "name": {
-     "full": "Alexandre Ghonghadze"
-    },
-    "nationalities": [
-     "GE"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2273
-   }
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "participantId": "p.srihas-maddipati",
    "participantType": "person",
    "stats": {
-    "RANK": 5,
+    "RANK": 6,
     "PTS": 2.0,
     "ELO": 2073,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.srihas-maddipati",
@@ -182,29 +204,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 2113
-   }
-  },
-  {
-   "rank": 6,
-   "participantId": "p.thehas-rithmitha-kiringoda",
-   "participantType": "person",
-   "stats": {
-    "RANK": 6,
-    "PTS": 2.0,
-    "ELO": 2055,
-    "GP": 4
-   },
-   "person": {
-    "id": "p.thehas-rithmitha-kiringoda",
-    "name": {
-     "full": "Thehas Rithmitha Kiringoda"
-    },
-    "isCuban": false,
-    "title": "CM"
-   },
-   "extra": {
-    "performance": 2214
+    "performance": 2087
    }
   },
   {
@@ -215,7 +215,7 @@
     "RANK": 7,
     "PTS": 1.0,
     "ELO": 2012,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.muli-faraja-mumo",
@@ -229,7 +229,7 @@
     "title": "CM"
    },
    "extra": {
-    "performance": 2060
+    "performance": 1979
    }
   },
   {
@@ -240,7 +240,7 @@
     "RANK": 8,
     "PTS": 0.5,
     "ELO": 2281,
-    "GP": 4
+    "GP": 5
    },
    "person": {
     "id": "p.ali-poyraz-uzdemir",
@@ -254,7 +254,7 @@
     "title": "FM"
    },
    "extra": {
-    "performance": 1877
+    "performance": 1804
    }
   }
  ]
