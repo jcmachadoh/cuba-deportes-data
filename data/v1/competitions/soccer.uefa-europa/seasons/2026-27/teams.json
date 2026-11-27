@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "season-teams",
  "id": "soccer.uefa-europa:2026-27",
- "updatedAt": "2026-11-26T21:36:39Z",
+ "updatedAt": "2026-11-27T04:15:17Z",
  "sources": [
   "espn"
  ],
@@ -19,11 +19,11 @@
    "country": null
   },
   {
-   "id": "soccer.bayer-leverkusen",
+   "id": "soccer.juventus",
    "name": {
-    "full": "Bayer Leverkusen",
-    "short": "Leverkusen",
-    "abbrev": "B04"
+    "full": "Juventus",
+    "short": "Juventus",
+    "abbrev": "JUV"
    },
    "country": null
   },
@@ -33,6 +33,15 @@
     "full": "Ferencvaros",
     "short": "Ferencvaros",
     "abbrev": "FER"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.bayer-leverkusen",
+   "name": {
+    "full": "Bayer Leverkusen",
+    "short": "Leverkusen",
+    "abbrev": "B04"
    },
    "country": null
   },
@@ -55,47 +64,11 @@
    "country": null
   },
   {
-   "id": "soccer.juventus",
-   "name": {
-    "full": "Juventus",
-    "short": "Juventus",
-    "abbrev": "JUV"
-   },
-   "country": null
-  },
-  {
    "id": "soccer.besiktas",
    "name": {
     "full": "Besiktas",
     "short": "Besiktas",
     "abbrev": "BES"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.olympiacos",
-   "name": {
-    "full": "Olympiacos",
-    "short": "Olympiacos",
-    "abbrev": "OLY"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.levski-sofia",
-   "name": {
-    "full": "Levski Sofia",
-    "short": "Levski Sofia",
-    "abbrev": "LEV"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.sunderland",
-   "name": {
-    "full": "Sunderland",
-    "short": "Sunderland",
-    "abbrev": "SUN"
    },
    "country": null
   },
@@ -109,29 +82,11 @@
    "country": null
   },
   {
-   "id": "soccer.lyon",
+   "id": "soccer.olympiacos",
    "name": {
-    "full": "Lyon",
-    "short": "Lyon",
-    "abbrev": "LYON"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.dinamo-zagreb",
-   "name": {
-    "full": "Dinamo Zagreb",
-    "short": "Dinamo Zagreb",
-    "abbrev": "DZG"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.rb-salzburg",
-   "name": {
-    "full": "RB Salzburg",
-    "short": "RB Salzburg",
-    "abbrev": "SLZ"
+    "full": "Olympiacos",
+    "short": "Olympiacos",
+    "abbrev": "OLY"
    },
    "country": null
   },
@@ -154,20 +109,65 @@
    "country": null
   },
   {
-   "id": "soccer.ofi-crete",
+   "id": "soccer.crystal-palace",
    "name": {
-    "full": "OFI Crete",
-    "short": "OFI Crete",
-    "abbrev": "OFI"
+    "full": "Crystal Palace",
+    "short": "C Palace",
+    "abbrev": "CRY"
    },
    "country": null
   },
   {
-   "id": "soccer.stade-rennais",
+   "id": "soccer.sunderland",
    "name": {
-    "full": "Stade Rennais",
-    "short": "Rennes",
-    "abbrev": "REN"
+    "full": "Sunderland",
+    "short": "Sunderland",
+    "abbrev": "SUN"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.lyon",
+   "name": {
+    "full": "Lyon",
+    "short": "Lyon",
+    "abbrev": "LYON"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.tsg-hoffenheim",
+   "name": {
+    "full": "TSG Hoffenheim",
+    "short": "Hoffenheim",
+    "abbrev": "TSG"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.levski-sofia",
+   "name": {
+    "full": "Levski Sofia",
+    "short": "Levski Sofia",
+    "abbrev": "LEV"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.dinamo-zagreb",
+   "name": {
+    "full": "Dinamo Zagreb",
+    "short": "Dinamo Zagreb",
+    "abbrev": "DZG"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.rb-salzburg",
+   "name": {
+    "full": "RB Salzburg",
+    "short": "RB Salzburg",
+    "abbrev": "SLZ"
    },
    "country": null
   },
@@ -190,11 +190,20 @@
    "country": null
   },
   {
-   "id": "soccer.omonia-nicosia",
+   "id": "soccer.ofi-crete",
    "name": {
-    "full": "Omonia Nicosia",
-    "short": "Omonia",
-    "abbrev": "OMON"
+    "full": "OFI Crete",
+    "short": "OFI Crete",
+    "abbrev": "OFI"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.stade-rennais",
+   "name": {
+    "full": "Stade Rennais",
+    "short": "Rennes",
+    "abbrev": "REN"
    },
    "country": null
   },
@@ -217,47 +226,29 @@
    "country": null
   },
   {
+   "id": "soccer.celtic",
+   "name": {
+    "full": "Celtic",
+    "short": "Celtic",
+    "abbrev": "CEL"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.omonia-nicosia",
+   "name": {
+    "full": "Omonia Nicosia",
+    "short": "Omonia",
+    "abbrev": "OMON"
+   },
+   "country": null
+  },
+  {
    "id": "soccer.real-sociedad",
    "name": {
     "full": "Real Sociedad",
     "short": "Real Sociedad",
     "abbrev": "RSO"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.crystal-palace",
-   "name": {
-    "full": "Crystal Palace",
-    "short": "C Palace",
-    "abbrev": "CRY"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.sparta-prague",
-   "name": {
-    "full": "Sparta Prague",
-    "short": "Sparta",
-    "abbrev": "SPP"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.tsg-hoffenheim",
-   "name": {
-    "full": "TSG Hoffenheim",
-    "short": "Hoffenheim",
-    "abbrev": "TSG"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.sk-sturm-graz",
-   "name": {
-    "full": "SK Sturm Graz",
-    "short": "Sturm Graz",
-    "abbrev": "STG"
    },
    "country": null
   },
@@ -271,11 +262,11 @@
    "country": null
   },
   {
-   "id": "soccer.celta-vigo",
+   "id": "soccer.sparta-prague",
    "name": {
-    "full": "Celta Vigo",
-    "short": "Celta Vigo",
-    "abbrev": "CEL"
+    "full": "Sparta Prague",
+    "short": "Sparta",
+    "abbrev": "SPP"
    },
    "country": null
   },
@@ -289,11 +280,29 @@
    "country": null
   },
   {
-   "id": "soccer.celtic",
+   "id": "soccer.sk-sturm-graz",
    "name": {
-    "full": "Celtic",
-    "short": "Celtic",
+    "full": "SK Sturm Graz",
+    "short": "Sturm Graz",
+    "abbrev": "STG"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.celta-vigo",
+   "name": {
+    "full": "Celta Vigo",
+    "short": "Celta Vigo",
     "abbrev": "CEL"
+   },
+   "country": null
+  },
+  {
+   "id": "soccer.lillestrom",
+   "name": {
+    "full": "Lillestrom",
+    "short": "Lillestrom",
+    "abbrev": "LSK"
    },
    "country": null
   },
@@ -312,15 +321,6 @@
     "full": "Hapoel Be'er",
     "short": "Hapoel Be'er",
     "abbrev": "HBE"
-   },
-   "country": null
-  },
-  {
-   "id": "soccer.lillestrom",
-   "name": {
-    "full": "Lillestrom",
-    "short": "Lillestrom",
-    "abbrev": "LSK"
    },
    "country": null
   },
