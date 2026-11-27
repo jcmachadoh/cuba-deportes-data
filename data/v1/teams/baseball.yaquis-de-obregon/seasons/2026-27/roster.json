@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.yaquis-de-obregon:2026-27",
- "updatedAt": "2026-11-25T18:50:41Z",
+ "updatedAt": "2026-11-27T18:27:24Z",
  "sources": [
   "mlb-statsapi"
  ],
@@ -49,6 +49,24 @@
        "last": "Ponce de Leon"
       },
       "birthDate": "1992-01-16",
+      "isCuban": false,
+      "birthCountry": "US"
+     }
+    },
+    {
+     "personId": "p.connor-sadzeck.1991",
+     "number": "26",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.connor-sadzeck.1991",
+      "name": {
+       "full": "Connor Sadzeck",
+       "first": "Connor",
+       "last": "Sadzeck"
+      },
+      "birthDate": "1991-10-01",
       "isCuban": false,
       "birthCountry": "US"
      }
@@ -255,21 +273,24 @@
      }
     },
     {
-     "personId": "p.jesus-broca.2003",
-     "number": "60",
+     "personId": "p.ronald-bolanos.1996",
+     "number": "80",
      "position": "P",
      "role": "player",
      "status": "Active",
      "person": {
-      "id": "p.jesus-broca.2003",
+      "id": "p.ronald-bolanos.1996",
       "name": {
-       "full": "Jesús Broca",
-       "first": "Jesús",
-       "last": "Broca"
+       "full": "Ronald Bolaños",
+       "first": "Ronald",
+       "last": "Bolaños"
       },
-      "birthDate": "2003-10-16",
-      "isCuban": false,
-      "birthCountry": "MX"
+      "birthDate": "1996-08-23",
+      "nationalities": [
+       "CU"
+      ],
+      "isCuban": true,
+      "birthCountry": "CU"
      }
     },
     {
@@ -448,24 +469,6 @@
       "birthDate": "1995-03-03",
       "isCuban": false,
       "birthCountry": "MX"
-     }
-    },
-    {
-     "personId": "p.tomoya-inoue.2003-2",
-     "number": "41",
-     "position": "3B",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.tomoya-inoue.2003-2",
-      "name": {
-       "full": "Tomoya Inoue",
-       "first": "Tomoya",
-       "last": "Inoue"
-      },
-      "birthDate": "2003-01-28",
-      "isCuban": false,
-      "birthCountry": "JP"
      }
     },
     {

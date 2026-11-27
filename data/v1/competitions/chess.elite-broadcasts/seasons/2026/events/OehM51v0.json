@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:OehM51v0",
- "updatedAt": "2026-11-26T22:00:40Z",
+ "updatedAt": "2026-11-27T18:34:58Z",
  "sources": [
   "lichess"
  ],
@@ -20,7 +20,258 @@
   "timeControl": "blitz",
   "website": "https://wr-chess.com/events/grand-final-stuttgart-2026",
   "tier": 4,
-  "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=JsNqb5QwcDIo.webp&w=800&sig=d7d54637f4584df57a70cdfe4d7367c294fc9574"
+  "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=JsNqb5QwcDIo.webp&w=800&sig=d7d54637f4584df57a70cdfe4d7367c294fc9574",
+  "rounds": [
+   {
+    "name": "Quarterfinals | Game 1",
+    "startsAt": 1795428000000,
+    "finished": true
+   },
+   {
+    "name": "Quarterfinals | Game 2",
+    "startsAt": 1795431890274,
+    "finished": true
+   },
+   {
+    "name": "Quarterfinals | Armageddon",
+    "startsAt": 1795435981547,
+    "finished": true
+   },
+   {
+    "name": "Semifinals | Game 1",
+    "startsAt": 1795437820106,
+    "finished": true
+   },
+   {
+    "name": "Semifinals | Game 2",
+    "startsAt": 1795441447358,
+    "finished": true
+   },
+   {
+    "name": "Semifinals | Armageddon",
+    "startsAt": 1795444851862,
+    "finished": true
+   },
+   {
+    "name": "Finals | Game 1",
+    "startsAt": 1795446000000,
+    "finished": true
+   },
+   {
+    "name": "Finals | Game 2",
+    "startsAt": 1795449905568,
+    "finished": true
+   }
+  ]
  },
- "standings": []
+ "standings": [
+  {
+   "rank": 1,
+   "participantId": "p.carissa-yip.2003",
+   "participantType": "person",
+   "stats": {
+    "RANK": 1,
+    "PTS": 5.0,
+    "ELO": 2300,
+    "GP": 7
+   },
+   "person": {
+    "id": "p.carissa-yip.2003",
+    "name": {
+     "full": "Carissa Yip"
+    },
+    "birthDate": "2003",
+    "nationalities": [
+     "US"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2545
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.kateryna-lagno.1989",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 4.5,
+    "ELO": 2422,
+    "GP": 8
+   },
+   "person": {
+    "id": "p.kateryna-lagno.1989",
+    "name": {
+     "full": "Kateryna Lagno"
+    },
+    "birthDate": "1989",
+    "nationalities": [
+     "RU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2305
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.mariya-muzychuk.1992",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 2.5,
+    "ELO": 2372,
+    "GP": 5
+   },
+   "person": {
+    "id": "p.mariya-muzychuk.1992",
+    "name": {
+     "full": "Mariya Muzychuk"
+    },
+    "birthDate": "1992",
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2478
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.anna-muzychuk.1990",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 2.0,
+    "ELO": 2430,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.anna-muzychuk.1990",
+    "name": {
+     "full": "Anna Muzychuk"
+    },
+    "birthDate": "1990",
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2315
+   }
+  },
+  {
+   "rank": 5,
+   "participantId": "p.leya-garifullina.2004",
+   "participantType": "person",
+   "stats": {
+    "RANK": 5,
+    "PTS": 1.0,
+    "ELO": 2414,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.leya-garifullina.2004",
+    "name": {
+     "full": "Leya Garifullina"
+    },
+    "birthDate": "2004",
+    "nationalities": [
+     "XX"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2422
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.jiner-zhu.2002",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 1.0,
+    "ELO": 2410,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.jiner-zhu.2002",
+    "name": {
+     "full": "Jiner Zhu"
+    },
+    "birthDate": "2002",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2300
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.rameshbabu-vaishali.2001",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 0.5,
+    "ELO": 2345,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.rameshbabu-vaishali.2001",
+    "name": {
+     "full": "Rameshbabu Vaishali"
+    },
+    "birthDate": "2001",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "performance": 2179
+   }
+  },
+  {
+   "rank": 8,
+   "participantId": "p.mai-narva.1999",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 0.5,
+    "ELO": 2331,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.mai-narva.1999",
+    "name": {
+     "full": "Mai Narva"
+    },
+    "birthDate": "1999",
+    "nationalities": [
+     "EE"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2237
+   }
+  }
+ ]
 }

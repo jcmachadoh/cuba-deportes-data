@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:IjDgZVUR",
- "updatedAt": "2026-11-27T14:16:59Z",
+ "updatedAt": "2026-11-27T18:34:58Z",
  "sources": [
   "lichess"
  ],
@@ -24,57 +24,57 @@
   "image": "https://image.lichess.org/display?fmt=webp&h=400&op=thumbnail&path=7yApvMe9I2V1.webp&w=800&sig=b48e41203002365e7252f1dc0e44f2c070305f6e",
   "rounds": [
    {
-    "name": "Round 1",
+    "name": "Ronda 1",
     "startsAt": 1795611600000,
     "finished": true
    },
    {
-    "name": "Round 2",
+    "name": "Ronda 2",
     "startsAt": 1795698000000,
     "finished": true
    },
    {
-    "name": "Round 3",
+    "name": "Ronda 3",
     "startsAt": 1795784400000,
     "finished": null
    },
    {
-    "name": "Round 4",
+    "name": "Ronda 4",
     "startsAt": 1795870800000,
     "finished": null
    },
    {
-    "name": "Round 5",
+    "name": "Ronda 5",
     "startsAt": 1795942800000,
     "finished": null
    },
    {
-    "name": "Round 6",
+    "name": "Ronda 6",
     "startsAt": 1804683600000,
     "finished": null
    },
    {
-    "name": "Round 7",
+    "name": "Ronda 7",
     "startsAt": 1804770000000,
     "finished": null
    },
    {
-    "name": "Round 8",
+    "name": "Ronda 8",
     "startsAt": 1804842000000,
     "finished": null
    },
    {
-    "name": "Round 9",
+    "name": "Ronda 9",
     "startsAt": 1804863600000,
     "finished": null
    },
    {
-    "name": "Round 10",
+    "name": "Ronda 10",
     "startsAt": 1804942800000,
     "finished": null
    },
    {
-    "name": "Round 11",
+    "name": "Ronda 11",
     "startsAt": 1805014800000,
     "finished": null
    }
@@ -83,39 +83,13 @@
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.jergus-pechac",
-   "participantType": "person",
-   "stats": {
-    "RANK": 1,
-    "PTS": 2.0,
-    "ELO": 2543,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.jergus-pechac",
-    "name": {
-     "full": "Jergus Pechac"
-    },
-    "nationalities": [
-     "SK"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "SK Austria Wien",
-    "performance": 3144
-   }
-  },
-  {
-   "rank": 2,
    "participantId": "p.denis-kadric",
    "participantType": "person",
    "stats": {
-    "RANK": 2,
-    "PTS": 2.0,
+    "RANK": 1,
+    "PTS": 3.0,
     "ELO": 2535,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.denis-kadric",
@@ -134,40 +108,14 @@
    }
   },
   {
-   "rank": 3,
-   "participantId": "p.raja-rithvik-r",
-   "participantType": "person",
-   "stats": {
-    "RANK": 3,
-    "PTS": 2.0,
-    "ELO": 2519,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.raja-rithvik-r",
-    "name": {
-     "full": "Raja Rithvik R"
-    },
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Pinggau-Friedberg",
-    "performance": 3098
-   }
-  },
-  {
-   "rank": 4,
+   "rank": 2,
    "participantId": "p.maximilian-berchtenbreiter",
    "participantType": "person",
    "stats": {
-    "RANK": 4,
-    "PTS": 2.0,
+    "RANK": 2,
+    "PTS": 3.0,
     "ELO": 2451,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.maximilian-berchtenbreiter",
@@ -182,44 +130,200 @@
    },
    "extra": {
     "team": "Schach ohne Grenzen",
-    "performance": 3238
+    "performance": 3157
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.rainer-buhmann",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
+    "PTS": 2.5,
+    "ELO": 2546,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.rainer-buhmann",
+    "name": {
+     "full": "Rainer Buhmann"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "SK Austria Wien",
+    "performance": 2664
+   }
+  },
+  {
+   "rank": 4,
+   "participantId": "p.jergus-pechac",
+   "participantType": "person",
+   "stats": {
+    "RANK": 4,
+    "PTS": 2.5,
+    "ELO": 2543,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.jergus-pechac",
+    "name": {
+     "full": "Jergus Pechac"
+    },
+    "nationalities": [
+     "SK"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "SK Austria Wien",
+    "performance": 2611
    }
   },
   {
    "rank": 5,
-   "participantId": "p.peter-lizak",
+   "participantId": "p.raja-rithvik-r",
    "participantType": "person",
    "stats": {
     "RANK": 5,
-    "PTS": 2.0,
-    "ELO": 2388,
-    "GP": 2
+    "PTS": 2.5,
+    "ELO": 2519,
+    "GP": 3
    },
    "person": {
-    "id": "p.peter-lizak",
+    "id": "p.raja-rithvik-r",
     "name": {
-     "full": "Peter Lizak"
+     "full": "Raja Rithvik R"
     },
     "nationalities": [
-     "HU"
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Pinggau-Friedberg",
+    "performance": 2588
+   }
+  },
+  {
+   "rank": 6,
+   "participantId": "p.valentin-baidetskyi",
+   "participantType": "person",
+   "stats": {
+    "RANK": 6,
+    "PTS": 2.5,
+    "ELO": 2484,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.valentin-baidetskyi",
+    "name": {
+     "full": "Valentin Baidetskyi"
+    },
+    "nationalities": [
+     "AT"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Mayrhofen Zell/Zillertal",
+    "performance": 2638
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.jakob-leon-pajeken",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
+    "PTS": 2.5,
+    "ELO": 2484,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.jakob-leon-pajeken",
+    "name": {
+     "full": "Jakob Leon Pajeken"
+    },
+    "nationalities": [
+     "DE"
     ],
     "isCuban": false,
     "title": "IM"
    },
    "extra": {
-    "team": "Data Technology Pressbaum / Eichgraben",
-    "performance": 3282
+    "team": "Malerei Edlinger Rapid Feffernitz",
+    "performance": 2723
    }
   },
   {
-   "rank": 6,
+   "rank": 8,
+   "participantId": "p.david-berczes",
+   "participantType": "person",
+   "stats": {
+    "RANK": 8,
+    "PTS": 2.5,
+    "ELO": 2341,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.david-berczes",
+    "name": {
+     "full": "David Berczes"
+    },
+    "nationalities": [
+     "HU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "SV Gamlitz",
+    "performance": 2757
+   }
+  },
+  {
+   "rank": 9,
+   "participantId": "p.benedikt-huber",
+   "participantType": "person",
+   "stats": {
+    "RANK": 9,
+    "PTS": 2.5,
+    "ELO": 2308,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.benedikt-huber",
+    "name": {
+     "full": "Benedikt Huber"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "1. SK Ottakring",
+    "performance": 2604
+   }
+  },
+  {
+   "rank": 10,
    "participantId": "p.aditya-mittal.2006",
    "participantType": "person",
    "stats": {
-    "RANK": 6,
-    "PTS": 1.5,
+    "RANK": 10,
+    "PTS": 2.0,
     "ELO": 2616,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.aditya-mittal.2006",
@@ -235,18 +339,18 @@
    },
    "extra": {
     "team": "Pinggau-Friedberg",
-    "performance": 2641
+    "performance": 2608
    }
   },
   {
-   "rank": 7,
+   "rank": 11,
    "participantId": "p.suri-vaibhav",
    "participantType": "person",
    "stats": {
-    "RANK": 7,
-    "PTS": 1.5,
+    "RANK": 11,
+    "PTS": 2.0,
     "ELO": 2569,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.suri-vaibhav",
@@ -261,70 +365,148 @@
    },
    "extra": {
     "team": "Pinggau-Friedberg",
-    "performance": 2629
+    "performance": 2582
    }
   },
   {
-   "rank": 8,
-   "participantId": "p.rainer-buhmann",
+   "rank": 12,
+   "participantId": "p.viktor-erdos",
    "participantType": "person",
    "stats": {
-    "RANK": 8,
-    "PTS": 1.5,
-    "ELO": 2546,
-    "GP": 2
+    "RANK": 12,
+    "PTS": 2.0,
+    "ELO": 2566,
+    "GP": 3
    },
    "person": {
-    "id": "p.rainer-buhmann",
+    "id": "p.viktor-erdos",
     "name": {
-     "full": "Rainer Buhmann"
+     "full": "Viktor Erdos"
+    },
+    "nationalities": [
+     "HU"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Pinggau-Friedberg",
+    "performance": 2436
+   }
+  },
+  {
+   "rank": 13,
+   "participantId": "p.peter-michalik",
+   "participantType": "person",
+   "stats": {
+    "RANK": 13,
+    "PTS": 2.0,
+    "ELO": 2534,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.peter-michalik",
+    "name": {
+     "full": "Peter Michalik"
+    },
+    "nationalities": [
+     "SK"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Mayrhofen Zell/Zillertal",
+    "performance": 2598
+   }
+  },
+  {
+   "rank": 14,
+   "participantId": "p.robert-markus",
+   "participantType": "person",
+   "stats": {
+    "RANK": 14,
+    "PTS": 2.0,
+    "ELO": 2531,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.robert-markus",
+    "name": {
+     "full": "Robert Markus"
+    },
+    "nationalities": [
+     "RS"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "LL-resources Fürstenfeld/TSV Hartberg",
+    "performance": 2600
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.ruben-gideon-koellner",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
+    "PTS": 2.0,
+    "ELO": 2526,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.ruben-gideon-koellner",
+    "name": {
+     "full": "Ruben Gideon Koellner"
     },
     "nationalities": [
      "DE"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "SV - Das Wien - St. Veit",
+    "performance": 2684
+   }
+  },
+  {
+   "rank": 16,
+   "participantId": "p.david-shengelia",
+   "participantType": "person",
+   "stats": {
+    "RANK": 16,
+    "PTS": 2.0,
+    "ELO": 2503,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.david-shengelia",
+    "name": {
+     "full": "David Shengelia"
+    },
+    "nationalities": [
+     "AT"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
     "team": "SK Austria Wien",
-    "performance": 2581
+    "performance": 2361
    }
   },
   {
-   "rank": 9,
-   "participantId": "p.nikita-meshkovs",
-   "participantType": "person",
-   "stats": {
-    "RANK": 9,
-    "PTS": 1.5,
-    "ELO": 2518,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.nikita-meshkovs",
-    "name": {
-     "full": "Nikita Meshkovs"
-    },
-    "nationalities": [
-     "LV"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Malerei Edlinger Rapid Feffernitz",
-    "performance": 2752
-   }
-  },
-  {
-   "rank": 10,
+   "rank": 17,
    "participantId": "p.konstantin-peyrer",
    "participantType": "person",
    "stats": {
-    "RANK": 10,
-    "PTS": 1.5,
+    "RANK": 17,
+    "PTS": 2.0,
     "ELO": 2498,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.konstantin-peyrer",
@@ -339,23 +521,49 @@
    },
    "extra": {
     "team": "1. SK Ottakring",
-    "performance": 2638
+    "performance": 2611
    }
   },
   {
-   "rank": 11,
-   "participantId": "p.valentin-baidetskyi",
+   "rank": 18,
+   "participantId": "p.leon-mons",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
-    "PTS": 1.5,
-    "ELO": 2484,
-    "GP": 2
+    "RANK": 18,
+    "PTS": 2.0,
+    "ELO": 2475,
+    "GP": 3
    },
    "person": {
-    "id": "p.valentin-baidetskyi",
+    "id": "p.leon-mons",
     "name": {
-     "full": "Valentin Baidetskyi"
+     "full": "Leon Mons"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Schach ohne Grenzen",
+    "performance": 2575
+   }
+  },
+  {
+   "rank": 19,
+   "participantId": "p.georgii-arzumanian",
+   "participantType": "person",
+   "stats": {
+    "RANK": 19,
+    "PTS": 2.0,
+    "ELO": 2464,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.georgii-arzumanian",
+    "name": {
+     "full": "Georgii Arzumanian"
     },
     "nationalities": [
      "AT"
@@ -364,24 +572,50 @@
     "title": "GM"
    },
    "extra": {
-    "team": "Mayrhofen Zell/Zillertal",
-    "performance": 2622
+    "team": "SK Austria Wien",
+    "performance": 2269
    }
   },
   {
-   "rank": 12,
-   "participantId": "p.jakob-leon-pajeken",
+   "rank": 20,
+   "participantId": "p.marco-baldauf",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
-    "PTS": 1.5,
-    "ELO": 2484,
-    "GP": 2
+    "RANK": 20,
+    "PTS": 2.0,
+    "ELO": 2435,
+    "GP": 3
    },
    "person": {
-    "id": "p.jakob-leon-pajeken",
+    "id": "p.marco-baldauf",
     "name": {
-     "full": "Jakob Leon Pajeken"
+     "full": "Marco Baldauf"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Schach ohne Grenzen",
+    "performance": 2625
+   }
+  },
+  {
+   "rank": 21,
+   "participantId": "p.alexander-krastev",
+   "participantType": "person",
+   "stats": {
+    "RANK": 21,
+    "PTS": 2.0,
+    "ELO": 2432,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.alexander-krastev",
+    "name": {
+     "full": "Alexander Krastev"
     },
     "nationalities": [
      "DE"
@@ -390,16 +624,251 @@
     "title": "IM"
    },
    "extra": {
-    "team": "Malerei Edlinger Rapid Feffernitz",
-    "performance": 2641
+    "team": "SV - Das Wien - St. Veit",
+    "performance": 2563
    }
   },
   {
-   "rank": 13,
+   "rank": 22,
+   "participantId": "p.adrian-gschnitzer",
+   "participantType": "person",
+   "stats": {
+    "RANK": 22,
+    "PTS": 2.0,
+    "ELO": 2406,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.adrian-gschnitzer",
+    "name": {
+     "full": "Adrian Gschnitzer"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "LL-resources Fürstenfeld/TSV Hartberg",
+    "performance": 2536
+   }
+  },
+  {
+   "rank": 23,
+   "participantId": "p.peter-lizak",
+   "participantType": "person",
+   "stats": {
+    "RANK": 23,
+    "PTS": 2.0,
+    "ELO": 2388,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.peter-lizak",
+    "name": {
+     "full": "Peter Lizak"
+    },
+    "nationalities": [
+     "HU"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Data Technology Pressbaum / Eichgraben",
+    "performance": 2624
+   }
+  },
+  {
+   "rank": 24,
+   "participantId": "p.liviu-dieter-nisipeanu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 24,
+    "PTS": 1.5,
+    "ELO": 2582,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.liviu-dieter-nisipeanu",
+    "name": {
+     "full": "Liviu-Dieter Nisipeanu"
+    },
+    "nationalities": [
+     "RO"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Mayrhofen Zell/Zillertal",
+    "performance": 2501
+   }
+  },
+  {
+   "rank": 25,
+   "participantId": "p.leonardo-costa.2008",
+   "participantType": "person",
+   "stats": {
+    "RANK": 25,
+    "PTS": 1.5,
+    "ELO": 2557,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.leonardo-costa.2008",
+    "name": {
+     "full": "Leonardo Costa"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "SK Austria Wien",
+    "performance": 2431
+   }
+  },
+  {
+   "rank": 26,
+   "participantId": "p.felix-blohberger",
+   "participantType": "person",
+   "stats": {
+    "RANK": 26,
+    "PTS": 1.5,
+    "ELO": 2553,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.felix-blohberger",
+    "name": {
+     "full": "Felix Blohberger"
+    },
+    "nationalities": [
+     "AT"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "1. SK Ottakring",
+    "performance": 2518
+   }
+  },
+  {
+   "rank": 27,
+   "participantId": "p.nikita-meshkovs",
+   "participantType": "person",
+   "stats": {
+    "RANK": 27,
+    "PTS": 1.5,
+    "ELO": 2518,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.nikita-meshkovs",
+    "name": {
+     "full": "Nikita Meshkovs"
+    },
+    "nationalities": [
+     "LV"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Malerei Edlinger Rapid Feffernitz",
+    "performance": 2548
+   }
+  },
+  {
+   "rank": 28,
+   "participantId": "p.roven-vogel",
+   "participantType": "person",
+   "stats": {
+    "RANK": 28,
+    "PTS": 1.5,
+    "ELO": 2515,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.roven-vogel",
+    "name": {
+     "full": "Roven Vogel"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Mayrhofen Zell/Zillertal",
+    "performance": 2412
+   }
+  },
+  {
+   "rank": 29,
+   "participantId": "p.yuri-solodovnichenko",
+   "participantType": "person",
+   "stats": {
+    "RANK": 29,
+    "PTS": 1.5,
+    "ELO": 2500,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.yuri-solodovnichenko",
+    "name": {
+     "full": "Yuri Solodovnichenko"
+    },
+    "nationalities": [
+     "UA"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "SV - Das Wien - St. Veit",
+    "performance": 2532
+   }
+  },
+  {
+   "rank": 30,
+   "participantId": "p.michael-prusikin",
+   "participantType": "person",
+   "stats": {
+    "RANK": 30,
+    "PTS": 1.5,
+    "ELO": 2484,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.michael-prusikin",
+    "name": {
+     "full": "Michael Prusikin"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Schach ohne Grenzen",
+    "performance": 2400
+   }
+  },
+  {
+   "rank": 31,
    "participantId": "p.matej-sebenik",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 31,
     "PTS": 1.5,
     "ELO": 2484,
     "GP": 2
@@ -421,40 +890,40 @@
    }
   },
   {
-   "rank": 14,
-   "participantId": "p.alexander-krastev",
+   "rank": 32,
+   "participantId": "p.robert-ernst",
    "participantType": "person",
    "stats": {
-    "RANK": 14,
+    "RANK": 32,
     "PTS": 1.5,
-    "ELO": 2432,
-    "GP": 2
+    "ELO": 2413,
+    "GP": 3
    },
    "person": {
-    "id": "p.alexander-krastev",
+    "id": "p.robert-ernst",
     "name": {
-     "full": "Alexander Krastev"
+     "full": "Robert Ernst"
     },
     "nationalities": [
-     "DE"
+     "AT"
     ],
     "isCuban": false,
     "title": "IM"
    },
    "extra": {
-    "team": "SV - Das Wien - St. Veit",
-    "performance": 2643
+    "team": "Data Technology Pressbaum / Eichgraben",
+    "performance": 2500
    }
   },
   {
-   "rank": 15,
+   "rank": 33,
    "participantId": "p.domen-tisaj",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 33,
     "PTS": 1.5,
     "ELO": 2397,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.domen-tisaj",
@@ -469,18 +938,44 @@
    },
    "extra": {
     "team": "SV Gamlitz",
-    "performance": 2545
+    "performance": 2416
    }
   },
   {
-   "rank": 16,
+   "rank": 34,
+   "participantId": "p.max-hess",
+   "participantType": "person",
+   "stats": {
+    "RANK": 34,
+    "PTS": 1.5,
+    "ELO": 2384,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.max-hess",
+    "name": {
+     "full": "Max Hess"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Schach ohne Grenzen",
+    "performance": 2348
+   }
+  },
+  {
+   "rank": 35,
    "participantId": "p.mario-schachinger",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 35,
     "PTS": 1.5,
     "ELO": 2373,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.mario-schachinger",
@@ -495,67 +990,67 @@
    },
    "extra": {
     "team": "SV - Das Wien - St. Veit",
-    "performance": 2573
+    "performance": 2400
    }
   },
   {
-   "rank": 17,
-   "participantId": "p.david-berczes",
+   "rank": 36,
+   "participantId": "p.alexander-belezky",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 36,
     "PTS": 1.5,
-    "ELO": 2341,
-    "GP": 2
+    "ELO": 2310,
+    "GP": 3
    },
    "person": {
-    "id": "p.david-berczes",
+    "id": "p.alexander-belezky",
     "name": {
-     "full": "David Berczes"
-    },
-    "nationalities": [
-     "HU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "SV Gamlitz",
-    "performance": 2630
-   }
-  },
-  {
-   "rank": 18,
-   "participantId": "p.benedikt-huber",
-   "participantType": "person",
-   "stats": {
-    "RANK": 18,
-    "PTS": 1.5,
-    "ELO": 2308,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.benedikt-huber",
-    "name": {
-     "full": "Benedikt Huber"
+     "full": "Alexander Belezky"
     },
     "nationalities": [
      "DE"
     ],
     "isCuban": false,
-    "title": "FM"
+    "title": "IM"
    },
    "extra": {
-    "team": "1. SK Ottakring",
-    "performance": 2443
+    "team": "SV Sparkasse Grieskirchen",
+    "performance": 2399
    }
   },
   {
-   "rank": 19,
+   "rank": 37,
+   "participantId": "p.julian-leitgeb",
+   "participantType": "person",
+   "stats": {
+    "RANK": 37,
+    "PTS": 1.5,
+    "ELO": 2265,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.julian-leitgeb",
+    "name": {
+     "full": "Julian Leitgeb"
+    },
+    "nationalities": [
+     "AT"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "LL-resources Fürstenfeld/TSV Hartberg",
+    "performance": 2342
+   }
+  },
+  {
+   "rank": 38,
    "participantId": "p.daniel-koelber",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 38,
     "PTS": 1.5,
     "ELO": 2227,
     "GP": 2
@@ -576,11 +1071,37 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 39,
+   "participantId": "p.thomas-lentrodt",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 1.5,
+    "ELO": 2216,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.thomas-lentrodt",
+    "name": {
+     "full": "Thomas Lentrodt"
+    },
+    "nationalities": [
+     "DE"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "SV Sparkasse Grieskirchen",
+    "performance": 2266
+   }
+  },
+  {
+   "rank": 40,
    "participantId": "p.mietek-bakalarz",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 40,
     "PTS": 1.5,
     "ELO": 2165,
     "GP": 2
@@ -602,40 +1123,14 @@
    }
   },
   {
-   "rank": 21,
-   "participantId": "p.liviu-dieter-nisipeanu",
-   "participantType": "person",
-   "stats": {
-    "RANK": 21,
-    "PTS": 1.0,
-    "ELO": 2582,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.liviu-dieter-nisipeanu",
-    "name": {
-     "full": "Liviu-Dieter Nisipeanu"
-    },
-    "nationalities": [
-     "RO"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Mayrhofen Zell/Zillertal",
-    "performance": 2545
-   }
-  },
-  {
-   "rank": 22,
+   "rank": 41,
    "participantId": "p.dennis-wagner",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 41,
     "PTS": 1.0,
     "ELO": 2577,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.dennis-wagner",
@@ -650,153 +1145,49 @@
    },
    "extra": {
     "team": "SK Austria Wien",
-    "performance": 2469
+    "performance": 2301
    }
   },
   {
-   "rank": 23,
-   "participantId": "p.viktor-erdos",
+   "rank": 42,
+   "participantId": "p.lorenzo-lodici",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 42,
     "PTS": 1.0,
-    "ELO": 2566,
-    "GP": 2
+    "ELO": 2565,
+    "GP": 3
    },
    "person": {
-    "id": "p.viktor-erdos",
+    "id": "p.lorenzo-lodici",
     "name": {
-     "full": "Viktor Erdos"
+     "full": "Lorenzo Lodici"
     },
     "nationalities": [
-     "HU"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Pinggau-Friedberg",
-    "performance": 2324
-   }
-  },
-  {
-   "rank": 24,
-   "participantId": "p.felix-blohberger",
-   "participantType": "person",
-   "stats": {
-    "RANK": 24,
-    "PTS": 1.0,
-    "ELO": 2553,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.felix-blohberger",
-    "name": {
-     "full": "Felix Blohberger"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "1. SK Ottakring",
-    "performance": 2470
-   }
-  },
-  {
-   "rank": 25,
-   "participantId": "p.peter-michalik",
-   "participantType": "person",
-   "stats": {
-    "RANK": 25,
-    "PTS": 1.0,
-    "ELO": 2534,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.peter-michalik",
-    "name": {
-     "full": "Peter Michalik"
-    },
-    "nationalities": [
-     "SK"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Mayrhofen Zell/Zillertal",
-    "performance": 2515
-   }
-  },
-  {
-   "rank": 26,
-   "participantId": "p.robert-markus",
-   "participantType": "person",
-   "stats": {
-    "RANK": 26,
-    "PTS": 1.0,
-    "ELO": 2531,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.robert-markus",
-    "name": {
-     "full": "Robert Markus"
-    },
-    "nationalities": [
-     "RS"
+     "IT"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
     "team": "LL-resources Fürstenfeld/TSV Hartberg",
-    "performance": 2520
+    "performance": 2382
    }
   },
   {
-   "rank": 27,
-   "participantId": "p.ruben-gideon-koellner",
+   "rank": 43,
+   "participantId": "p.vitaly-kunin",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 43,
     "PTS": 1.0,
-    "ELO": 2526,
-    "GP": 2
+    "ELO": 2506,
+    "GP": 3
    },
    "person": {
-    "id": "p.ruben-gideon-koellner",
+    "id": "p.vitaly-kunin",
     "name": {
-     "full": "Ruben Gideon Koellner"
-    },
-    "nationalities": [
-     "DE"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "SV - Das Wien - St. Veit",
-    "performance": 2579
-   }
-  },
-  {
-   "rank": 28,
-   "participantId": "p.roven-vogel",
-   "participantType": "person",
-   "stats": {
-    "RANK": 28,
-    "PTS": 1.0,
-    "ELO": 2515,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.roven-vogel",
-    "name": {
-     "full": "Roven Vogel"
+     "full": "Vitaly Kunin"
     },
     "nationalities": [
      "DE"
@@ -805,71 +1196,19 @@
     "title": "GM"
    },
    "extra": {
-    "team": "Mayrhofen Zell/Zillertal",
-    "performance": 2458
+    "team": "Malerei Edlinger Rapid Feffernitz",
+    "performance": 2384
    }
   },
   {
-   "rank": 29,
-   "participantId": "p.david-shengelia",
-   "participantType": "person",
-   "stats": {
-    "RANK": 29,
-    "PTS": 1.0,
-    "ELO": 2503,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.david-shengelia",
-    "name": {
-     "full": "David Shengelia"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "SK Austria Wien",
-    "performance": 2286
-   }
-  },
-  {
-   "rank": 30,
-   "participantId": "p.yuri-solodovnichenko",
-   "participantType": "person",
-   "stats": {
-    "RANK": 30,
-    "PTS": 1.0,
-    "ELO": 2500,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.yuri-solodovnichenko",
-    "name": {
-     "full": "Yuri Solodovnichenko"
-    },
-    "nationalities": [
-     "UA"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "SV - Das Wien - St. Veit",
-    "performance": 2545
-   }
-  },
-  {
-   "rank": 31,
+   "rank": 44,
    "participantId": "p.ivan-ivanisevic",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 44,
     "PTS": 1.0,
     "ELO": 2493,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.ivan-ivanisevic",
@@ -884,96 +1223,44 @@
    },
    "extra": {
     "team": "Pinggau-Friedberg",
-    "performance": 2184
+    "performance": 2100
    }
   },
   {
-   "rank": 32,
-   "participantId": "p.michael-prusikin",
+   "rank": 45,
+   "participantId": "p.yevgeniy-roshka",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 45,
     "PTS": 1.0,
-    "ELO": 2484,
-    "GP": 2
+    "ELO": 2482,
+    "GP": 1
    },
    "person": {
-    "id": "p.michael-prusikin",
+    "id": "p.yevgeniy-roshka",
     "name": {
-     "full": "Michael Prusikin"
+     "full": "Yevgeniy Roshka"
     },
     "nationalities": [
-     "DE"
+     "UA"
     ],
     "isCuban": false,
-    "title": "GM"
+    "title": "IM"
    },
    "extra": {
-    "team": "Schach ohne Grenzen",
-    "performance": 2409
+    "team": "LL-resources Fürstenfeld/TSV Hartberg",
+    "performance": 3083
    }
   },
   {
-   "rank": 33,
-   "participantId": "p.leon-mons",
-   "participantType": "person",
-   "stats": {
-    "RANK": 33,
-    "PTS": 1.0,
-    "ELO": 2475,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.leon-mons",
-    "name": {
-     "full": "Leon Mons"
-    },
-    "nationalities": [
-     "DE"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Schach ohne Grenzen",
-    "performance": 2477
-   }
-  },
-  {
-   "rank": 34,
-   "participantId": "p.georgii-arzumanian",
-   "participantType": "person",
-   "stats": {
-    "RANK": 34,
-    "PTS": 1.0,
-    "ELO": 2464,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.georgii-arzumanian",
-    "name": {
-     "full": "Georgii Arzumanian"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "SK Austria Wien",
-    "performance": 2150
-   }
-  },
-  {
-   "rank": 35,
+   "rank": 46,
    "participantId": "p.rafal-antoniewski",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 46,
     "PTS": 1.0,
     "ELO": 2454,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.rafal-antoniewski",
@@ -988,44 +1275,44 @@
    },
    "extra": {
     "team": "SV - Das Wien - St. Veit",
-    "performance": 2530
+    "performance": 2390
    }
   },
   {
-   "rank": 36,
-   "participantId": "p.marco-baldauf",
+   "rank": 47,
+   "participantId": "p.andreas-diermair",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 47,
     "PTS": 1.0,
-    "ELO": 2435,
-    "GP": 2
+    "ELO": 2441,
+    "GP": 1
    },
    "person": {
-    "id": "p.marco-baldauf",
+    "id": "p.andreas-diermair",
     "name": {
-     "full": "Marco Baldauf"
+     "full": "Andreas Diermair"
     },
     "nationalities": [
-     "DE"
+     "AT"
     ],
     "isCuban": false,
     "title": "GM"
    },
    "extra": {
-    "team": "Schach ohne Grenzen",
-    "performance": 2519
+    "team": "Malerei Edlinger Rapid Feffernitz",
+    "performance": 3173
    }
   },
   {
-   "rank": 37,
+   "rank": 48,
    "participantId": "p.peter-balint",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 48,
     "PTS": 1.0,
     "ELO": 2434,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.peter-balint",
@@ -1040,23 +1327,23 @@
    },
    "extra": {
     "team": "1. SK Ottakring",
-    "performance": 2383
+    "performance": 2309
    }
   },
   {
-   "rank": 38,
-   "participantId": "p.robert-ernst",
+   "rank": 49,
+   "participantId": "p.lukas-leisch",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 49,
     "PTS": 1.0,
-    "ELO": 2413,
-    "GP": 2
+    "ELO": 2422,
+    "GP": 3
    },
    "person": {
-    "id": "p.robert-ernst",
+    "id": "p.lukas-leisch",
     "name": {
-     "full": "Robert Ernst"
+     "full": "Lukas Leisch"
     },
     "nationalities": [
      "AT"
@@ -1065,42 +1352,42 @@
     "title": "IM"
    },
    "extra": {
-    "team": "Data Technology Pressbaum / Eichgraben",
-    "performance": 2459
+    "team": "SV Sparkasse Grieskirchen",
+    "performance": 2392
    }
   },
   {
-   "rank": 39,
-   "participantId": "p.adrian-gschnitzer",
+   "rank": 50,
+   "participantId": "p.peter-schreiner",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 50,
     "PTS": 1.0,
-    "ELO": 2406,
+    "ELO": 2415,
     "GP": 2
    },
    "person": {
-    "id": "p.adrian-gschnitzer",
+    "id": "p.peter-schreiner",
     "name": {
-     "full": "Adrian Gschnitzer"
+     "full": "Peter Schreiner"
     },
     "nationalities": [
-     "DE"
+     "AT"
     ],
     "isCuban": false,
     "title": "IM"
    },
    "extra": {
-    "team": "LL-resources Fürstenfeld/TSV Hartberg",
-    "performance": 2461
+    "team": "Malerei Edlinger Rapid Feffernitz",
+    "performance": 2348
    }
   },
   {
-   "rank": 40,
+   "rank": 51,
    "participantId": "p.jens-uwe-maiwald",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 51,
     "PTS": 1.0,
     "ELO": 2397,
     "GP": 2
@@ -1122,14 +1409,14 @@
    }
   },
   {
-   "rank": 41,
+   "rank": 52,
    "participantId": "p.petr-haba",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 52,
     "PTS": 1.0,
     "ELO": 2385,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.petr-haba",
@@ -1144,44 +1431,44 @@
    },
    "extra": {
     "team": "SV Sparkasse Grieskirchen",
-    "performance": 2486
+    "performance": 2376
    }
   },
   {
-   "rank": 42,
-   "participantId": "p.max-hess",
+   "rank": 53,
+   "participantId": "p.oliver-lehner",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 53,
     "PTS": 1.0,
-    "ELO": 2384,
-    "GP": 2
+    "ELO": 2382,
+    "GP": 3
    },
    "person": {
-    "id": "p.max-hess",
+    "id": "p.oliver-lehner",
     "name": {
-     "full": "Max Hess"
+     "full": "Oliver Lehner"
     },
     "nationalities": [
-     "DE"
+     "AT"
     ],
     "isCuban": false,
     "title": "IM"
    },
    "extra": {
-    "team": "Schach ohne Grenzen",
-    "performance": 2416
+    "team": "Schachklub Schwaz",
+    "performance": 2347
    }
   },
   {
-   "rank": 43,
+   "rank": 54,
    "participantId": "p.christoph-renner",
    "participantType": "person",
    "stats": {
-    "RANK": 43,
+    "RANK": 54,
     "PTS": 1.0,
     "ELO": 2313,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.christoph-renner",
@@ -1196,18 +1483,44 @@
    },
    "extra": {
     "team": "SV Sparkasse Grieskirchen",
-    "performance": 2367
+    "performance": 2255
    }
   },
   {
-   "rank": 44,
+   "rank": 55,
+   "participantId": "p.zigurds-lanka",
+   "participantType": "person",
+   "stats": {
+    "RANK": 55,
+    "PTS": 1.0,
+    "ELO": 2296,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.zigurds-lanka",
+    "name": {
+     "full": "Zigurds Lanka"
+    },
+    "nationalities": [
+     "LV"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Mayrhofen Zell/Zillertal",
+    "performance": 2257
+   }
+  },
+  {
+   "rank": 56,
    "participantId": "p.florentin-stickler",
    "participantType": "person",
    "stats": {
-    "RANK": 44,
+    "RANK": 56,
     "PTS": 1.0,
     "ELO": 2286,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.florentin-stickler",
@@ -1222,41 +1535,41 @@
    },
    "extra": {
     "team": "1. SK Ottakring",
-    "performance": 2374
+    "performance": 2313
    }
   },
   {
-   "rank": 45,
-   "participantId": "p.julian-leitgeb",
+   "rank": 57,
+   "participantId": "p.fabian-platzgummer",
    "participantType": "person",
    "stats": {
-    "RANK": 45,
+    "RANK": 57,
     "PTS": 1.0,
-    "ELO": 2265,
+    "ELO": 2255,
     "GP": 2
    },
    "person": {
-    "id": "p.julian-leitgeb",
+    "id": "p.fabian-platzgummer",
     "name": {
-     "full": "Julian Leitgeb"
+     "full": "Fabian Platzgummer"
     },
     "nationalities": [
      "AT"
     ],
     "isCuban": false,
-    "title": "FM"
+    "title": "IM"
    },
    "extra": {
-    "team": "LL-resources Fürstenfeld/TSV Hartberg",
-    "performance": 2406
+    "team": "Mayrhofen Zell/Zillertal",
+    "performance": 2109
    }
   },
   {
-   "rank": 46,
+   "rank": 58,
    "participantId": "p.andreas-ciolek",
    "participantType": "person",
    "stats": {
-    "RANK": 46,
+    "RANK": 58,
     "PTS": 1.0,
     "ELO": 2225,
     "GP": 2
@@ -1278,37 +1591,36 @@
    }
   },
   {
-   "rank": 47,
-   "participantId": "p.thomas-lentrodt",
+   "rank": 59,
+   "participantId": "p.moriz-binder",
    "participantType": "person",
    "stats": {
-    "RANK": 47,
+    "RANK": 59,
     "PTS": 1.0,
-    "ELO": 2216,
-    "GP": 2
+    "ELO": 2212,
+    "GP": 3
    },
    "person": {
-    "id": "p.thomas-lentrodt",
+    "id": "p.moriz-binder",
     "name": {
-     "full": "Thomas Lentrodt"
+     "full": "Moriz Binder"
     },
     "nationalities": [
-     "DE"
+     "AT"
     ],
-    "isCuban": false,
-    "title": "FM"
+    "isCuban": false
    },
    "extra": {
-    "team": "SV Sparkasse Grieskirchen",
-    "performance": 2266
+    "team": "Schachklub Schwaz",
+    "performance": 2221
    }
   },
   {
-   "rank": 48,
+   "rank": 60,
    "participantId": "p.marco-stagl",
    "participantType": "person",
    "stats": {
-    "RANK": 48,
+    "RANK": 60,
     "PTS": 1.0,
     "ELO": 2162,
     "GP": 2
@@ -1329,14 +1641,14 @@
    }
   },
   {
-   "rank": 49,
+   "rank": 61,
    "participantId": "p.richard-singer",
    "participantType": "person",
    "stats": {
-    "RANK": 49,
+    "RANK": 61,
     "PTS": 1.0,
     "ELO": 2132,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.richard-singer",
@@ -1351,97 +1663,44 @@
    },
    "extra": {
     "team": "SV Gamlitz",
-    "performance": 2727
+    "performance": 2195
    }
   },
   {
-   "rank": 50,
-   "participantId": "p.lorenzo-lodici",
+   "rank": 62,
+   "participantId": "p.klaus-de-francesco",
    "participantType": "person",
    "stats": {
-    "RANK": 50,
-    "PTS": 0.5,
-    "ELO": 2565,
-    "GP": 2
+    "RANK": 62,
+    "PTS": 1.0,
+    "ELO": 2115,
+    "GP": 1
    },
    "person": {
-    "id": "p.lorenzo-lodici",
+    "id": "p.klaus-de-francesco",
     "name": {
-     "full": "Lorenzo Lodici"
-    },
-    "nationalities": [
-     "IT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "LL-resources Fürstenfeld/TSV Hartberg",
-    "performance": 2357
-   }
-  },
-  {
-   "rank": 51,
-   "participantId": "p.leonardo-costa.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 51,
-    "PTS": 0.5,
-    "ELO": 2557,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.leonardo-costa.2008",
-    "name": {
-     "full": "Leonardo Costa"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "DE"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "SK Austria Wien",
-    "performance": 2251
-   }
-  },
-  {
-   "rank": 52,
-   "participantId": "p.vitaly-kunin",
-   "participantType": "person",
-   "stats": {
-    "RANK": 52,
-    "PTS": 0.5,
-    "ELO": 2506,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.vitaly-kunin",
-    "name": {
-     "full": "Vitaly Kunin"
+     "full": "Klaus de Francesco"
     },
     "nationalities": [
      "DE"
     ],
     "isCuban": false,
-    "title": "GM"
+    "title": "FM"
    },
    "extra": {
-    "team": "Malerei Edlinger Rapid Feffernitz",
-    "performance": 2321
+    "team": "Schachklub Schwaz",
+    "performance": 3153
    }
   },
   {
-   "rank": 53,
+   "rank": 63,
    "participantId": "p.bennet-hagner",
    "participantType": "person",
    "stats": {
-    "RANK": 53,
+    "RANK": 63,
     "PTS": 0.5,
     "ELO": 2462,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.bennet-hagner",
@@ -1456,18 +1715,18 @@
    },
    "extra": {
     "team": "Schachklub Schwaz",
-    "performance": 2285
+    "performance": 2191
    }
   },
   {
-   "rank": 54,
+   "rank": 64,
    "participantId": "p.anastasiia-hnatyshyn.2010",
    "participantType": "person",
    "stats": {
-    "RANK": 54,
+    "RANK": 64,
     "PTS": 0.5,
     "ELO": 2462,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.anastasiia-hnatyshyn.2010",
@@ -1483,15 +1742,15 @@
    },
    "extra": {
     "team": "LL-resources Fürstenfeld/TSV Hartberg",
-    "performance": 2306
+    "performance": 2163
    }
   },
   {
-   "rank": 55,
+   "rank": 65,
    "participantId": "p.sanjin-culum",
    "participantType": "person",
    "stats": {
-    "RANK": 55,
+    "RANK": 65,
     "PTS": 0.5,
     "ELO": 2452,
     "GP": 2
@@ -1513,11 +1772,11 @@
    }
   },
   {
-   "rank": 56,
+   "rank": 66,
    "participantId": "p.tim-janzelj",
    "participantType": "person",
    "stats": {
-    "RANK": 56,
+    "RANK": 66,
     "PTS": 0.5,
     "ELO": 2438,
     "GP": 2
@@ -1539,66 +1798,14 @@
    }
   },
   {
-   "rank": 57,
-   "participantId": "p.lukas-leisch",
-   "participantType": "person",
-   "stats": {
-    "RANK": 57,
-    "PTS": 0.5,
-    "ELO": 2422,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.lukas-leisch",
-    "name": {
-     "full": "Lukas Leisch"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "SV Sparkasse Grieskirchen",
-    "performance": 2301
-   }
-  },
-  {
-   "rank": 58,
-   "participantId": "p.peter-schreiner",
-   "participantType": "person",
-   "stats": {
-    "RANK": 58,
-    "PTS": 0.5,
-    "ELO": 2415,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.peter-schreiner",
-    "name": {
-     "full": "Peter Schreiner"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Malerei Edlinger Rapid Feffernitz",
-    "performance": 2265
-   }
-  },
-  {
-   "rank": 59,
+   "rank": 67,
    "participantId": "p.tadej-sakelsek",
    "participantType": "person",
    "stats": {
-    "RANK": 59,
+    "RANK": 67,
     "PTS": 0.5,
     "ELO": 2407,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.tadej-sakelsek",
@@ -1613,18 +1820,18 @@
    },
    "extra": {
     "team": "SV Gamlitz",
-    "performance": 2200
+    "performance": 2174
    }
   },
   {
-   "rank": 60,
+   "rank": 68,
    "participantId": "p.niklas-schmider",
    "participantType": "person",
    "stats": {
-    "RANK": 60,
+    "RANK": 68,
     "PTS": 0.5,
     "ELO": 2398,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.niklas-schmider",
@@ -1639,93 +1846,93 @@
    },
    "extra": {
     "team": "Schachklub Schwaz",
-    "performance": 2295
+    "performance": 2210
    }
   },
   {
-   "rank": 61,
-   "participantId": "p.oliver-lehner",
+   "rank": 69,
+   "participantId": "p.jens-hirneise",
    "participantType": "person",
    "stats": {
-    "RANK": 61,
+    "RANK": 69,
     "PTS": 0.5,
-    "ELO": 2382,
-    "GP": 2
+    "ELO": 2350,
+    "GP": 3
    },
    "person": {
-    "id": "p.oliver-lehner",
+    "id": "p.jens-hirneise",
     "name": {
-     "full": "Oliver Lehner"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Schachklub Schwaz",
-    "performance": 2273
-   }
-  },
-  {
-   "rank": 62,
-   "participantId": "p.alexander-belezky",
-   "participantType": "person",
-   "stats": {
-    "RANK": 62,
-    "PTS": 0.5,
-    "ELO": 2310,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.alexander-belezky",
-    "name": {
-     "full": "Alexander Belezky"
+     "full": "Jens Hirneise"
     },
     "nationalities": [
      "DE"
     ],
     "isCuban": false,
-    "title": "IM"
+    "title": "FM"
    },
    "extra": {
-    "team": "SV Sparkasse Grieskirchen",
-    "performance": 2175
+    "team": "1. SK Ottakring",
+    "performance": 2165
    }
   },
   {
-   "rank": 63,
-   "participantId": "p.zigurds-lanka",
+   "rank": 70,
+   "participantId": "p.matic-nareks",
    "participantType": "person",
    "stats": {
-    "RANK": 63,
+    "RANK": 70,
     "PTS": 0.5,
-    "ELO": 2296,
+    "ELO": 2326,
     "GP": 1
    },
    "person": {
-    "id": "p.zigurds-lanka",
+    "id": "p.matic-nareks",
     "name": {
-     "full": "Zigurds Lanka"
+     "full": "Matic Nareks"
     },
     "nationalities": [
-     "LV"
+     "SI"
     ],
     "isCuban": false,
-    "title": "GM"
+    "title": "FM"
    },
    "extra": {
-    "team": "Mayrhofen Zell/Zillertal",
-    "performance": 2373
+    "team": "SV Gamlitz",
+    "performance": 2543
    }
   },
   {
-   "rank": 64,
+   "rank": 71,
+   "participantId": "p.sandor-videki",
+   "participantType": "person",
+   "stats": {
+    "RANK": 71,
+    "PTS": 0.5,
+    "ELO": 2322,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.sandor-videki",
+    "name": {
+     "full": "Sandor Videki"
+    },
+    "nationalities": [
+     "HU"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Data Technology Pressbaum / Eichgraben",
+    "performance": 2213
+   }
+  },
+  {
+   "rank": 72,
    "participantId": "p.thomas-hoefelsauer",
    "participantType": "person",
    "stats": {
-    "RANK": 64,
+    "RANK": 72,
     "PTS": 0.5,
     "ELO": 2284,
     "GP": 1
@@ -1747,14 +1954,14 @@
    }
   },
   {
-   "rank": 65,
+   "rank": 73,
    "participantId": "p.stefan-salvenmoser",
    "participantType": "person",
    "stats": {
-    "RANK": 65,
+    "RANK": 73,
     "PTS": 0.5,
     "ELO": 2283,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.stefan-salvenmoser",
@@ -1769,43 +1976,18 @@
    },
    "extra": {
     "team": "SV Sparkasse Grieskirchen",
-    "performance": 2266
+    "performance": 2193
    }
   },
   {
-   "rank": 66,
-   "participantId": "p.moriz-binder",
-   "participantType": "person",
-   "stats": {
-    "RANK": 66,
-    "PTS": 0.5,
-    "ELO": 2212,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.moriz-binder",
-    "name": {
-     "full": "Moriz Binder"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Schachklub Schwaz",
-    "performance": 2134
-   }
-  },
-  {
-   "rank": 67,
+   "rank": 74,
    "participantId": "p.ludwig-deglmann",
    "participantType": "person",
    "stats": {
-    "RANK": 67,
+    "RANK": 74,
     "PTS": 0.5,
     "ELO": 2197,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.ludwig-deglmann",
@@ -1820,15 +2002,15 @@
    },
    "extra": {
     "team": "Schachklub Schwaz",
-    "performance": 2172
+    "performance": 2121
    }
   },
   {
-   "rank": 68,
+   "rank": 75,
    "participantId": "p.georg-fuchs",
    "participantType": "person",
    "stats": {
-    "RANK": 68,
+    "RANK": 75,
     "PTS": 0.5,
     "ELO": 2144,
     "GP": 2
@@ -1850,14 +2032,40 @@
    }
   },
   {
-   "rank": 69,
+   "rank": 76,
+   "participantId": "p.gerald-hechl",
+   "participantType": "person",
+   "stats": {
+    "RANK": 76,
+    "PTS": 0.5,
+    "ELO": 2141,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.gerald-hechl",
+    "name": {
+     "full": "Gerald Hechl"
+    },
+    "nationalities": [
+     "AT"
+    ],
+    "isCuban": false,
+    "title": "FM"
+   },
+   "extra": {
+    "team": "Data Technology Pressbaum / Eichgraben",
+    "performance": 2206
+   }
+  },
+  {
+   "rank": 77,
    "participantId": "p.herbert-benda",
    "participantType": "person",
    "stats": {
-    "RANK": 69,
+    "RANK": 77,
     "PTS": 0.5,
     "ELO": 2135,
-    "GP": 1
+    "GP": 2
    },
    "person": {
     "id": "p.herbert-benda",
@@ -1872,15 +2080,15 @@
    },
    "extra": {
     "team": "SV Gamlitz",
-    "performance": 2212
+    "performance": 2164
    }
   },
   {
-   "rank": 70,
+   "rank": 78,
    "participantId": "p.werner-wandl",
    "participantType": "person",
    "stats": {
-    "RANK": 70,
+    "RANK": 78,
     "PTS": 0.5,
     "ELO": 1923,
     "GP": 1
@@ -1901,92 +2109,40 @@
    }
   },
   {
-   "rank": 71,
-   "participantId": "p.jens-hirneise",
+   "rank": 79,
+   "participantId": "p.arthur-kruckenhauser",
    "participantType": "person",
    "stats": {
-    "RANK": 71,
+    "RANK": 79,
     "PTS": 0.0,
-    "ELO": 2350,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.jens-hirneise",
-    "name": {
-     "full": "Jens Hirneise"
-    },
-    "nationalities": [
-     "DE"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "1. SK Ottakring",
-    "performance": 1598
-   }
-  },
-  {
-   "rank": 72,
-   "participantId": "p.sandor-videki",
-   "participantType": "person",
-   "stats": {
-    "RANK": 72,
-    "PTS": 0.0,
-    "ELO": 2322,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.sandor-videki",
-    "name": {
-     "full": "Sandor Videki"
-    },
-    "nationalities": [
-     "HU"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "Data Technology Pressbaum / Eichgraben",
-    "performance": 1671
-   }
-  },
-  {
-   "rank": 73,
-   "participantId": "p.fabian-platzgummer",
-   "participantType": "person",
-   "stats": {
-    "RANK": 73,
-    "PTS": 0.0,
-    "ELO": 2255,
+    "ELO": 2353,
     "GP": 1
    },
    "person": {
-    "id": "p.fabian-platzgummer",
+    "id": "p.arthur-kruckenhauser",
     "name": {
-     "full": "Fabian Platzgummer"
+     "full": "Arthur Kruckenhauser"
     },
     "nationalities": [
      "AT"
     ],
     "isCuban": false,
-    "title": "IM"
+    "title": "FM"
    },
    "extra": {
-    "team": "Mayrhofen Zell/Zillertal",
-    "performance": 1427
+    "team": "Schach ohne Grenzen",
+    "performance": 1315
    }
   },
   {
-   "rank": 74,
+   "rank": 80,
    "participantId": "p.hannes-ganaus",
    "participantType": "person",
    "stats": {
-    "RANK": 74,
+    "RANK": 80,
     "PTS": 0.0,
     "ELO": 2237,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.hannes-ganaus",
@@ -2001,41 +2157,40 @@
    },
    "extra": {
     "team": "Data Technology Pressbaum / Eichgraben",
-    "performance": 1554
+    "performance": 1597
    }
   },
   {
-   "rank": 75,
-   "participantId": "p.gerald-hechl",
+   "rank": 81,
+   "participantId": "p.florian-schmidt",
    "participantType": "person",
    "stats": {
-    "RANK": 75,
+    "RANK": 81,
     "PTS": 0.0,
-    "ELO": 2141,
+    "ELO": 1991,
     "GP": 1
    },
    "person": {
-    "id": "p.gerald-hechl",
+    "id": "p.florian-schmidt",
     "name": {
-     "full": "Gerald Hechl"
+     "full": "Florian Schmidt"
     },
     "nationalities": [
      "AT"
     ],
-    "isCuban": false,
-    "title": "FM"
+    "isCuban": false
    },
    "extra": {
     "team": "Data Technology Pressbaum / Eichgraben",
-    "performance": 1703
+    "performance": 1455
    }
   },
   {
-   "rank": 76,
+   "rank": 82,
    "participantId": "p.marcus-hudec",
    "participantType": "person",
    "stats": {
-    "RANK": 76,
+    "RANK": 82,
     "PTS": 0.0,
     "ELO": 1927,
     "GP": 2
@@ -2053,149 +2208,6 @@
    "extra": {
     "team": "Data Technology Pressbaum / Eichgraben",
     "performance": 1498
-   }
-  },
-  {
-   "rank": 77,
-   "participantId": "p.yevgeniy-roshka",
-   "participantType": "person",
-   "stats": {
-    "RANK": 77,
-    "ELO": 2482,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.yevgeniy-roshka",
-    "name": {
-     "full": "Yevgeniy Roshka"
-    },
-    "nationalities": [
-     "UA"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "team": "LL-resources Fürstenfeld/TSV Hartberg"
-   }
-  },
-  {
-   "rank": 78,
-   "participantId": "p.andreas-diermair",
-   "participantType": "person",
-   "stats": {
-    "RANK": 78,
-    "ELO": 2441,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.andreas-diermair",
-    "name": {
-     "full": "Andreas Diermair"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Malerei Edlinger Rapid Feffernitz"
-   }
-  },
-  {
-   "rank": 79,
-   "participantId": "p.arthur-kruckenhauser",
-   "participantType": "person",
-   "stats": {
-    "RANK": 79,
-    "ELO": 2353,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.arthur-kruckenhauser",
-    "name": {
-     "full": "Arthur Kruckenhauser"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "Schach ohne Grenzen"
-   }
-  },
-  {
-   "rank": 80,
-   "participantId": "p.matic-nareks",
-   "participantType": "person",
-   "stats": {
-    "RANK": 80,
-    "ELO": 2326,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.matic-nareks",
-    "name": {
-     "full": "Matic Nareks"
-    },
-    "nationalities": [
-     "SI"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "SV Gamlitz"
-   }
-  },
-  {
-   "rank": 81,
-   "participantId": "p.klaus-de-francesco",
-   "participantType": "person",
-   "stats": {
-    "RANK": 81,
-    "ELO": 2115,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.klaus-de-francesco",
-    "name": {
-     "full": "Klaus de Francesco"
-    },
-    "nationalities": [
-     "DE"
-    ],
-    "isCuban": false,
-    "title": "FM"
-   },
-   "extra": {
-    "team": "Schachklub Schwaz"
-   }
-  },
-  {
-   "rank": 82,
-   "participantId": "p.florian-schmidt",
-   "participantType": "person",
-   "stats": {
-    "RANK": 82,
-    "ELO": 1991,
-    "GP": 0
-   },
-   "person": {
-    "id": "p.florian-schmidt",
-    "name": {
-     "full": "Florian Schmidt"
-    },
-    "nationalities": [
-     "AT"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Data Technology Pressbaum / Eichgraben"
    }
   }
  ]

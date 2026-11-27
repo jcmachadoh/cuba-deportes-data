@@ -2,14 +2,14 @@
  "schemaVersion": 1,
  "type": "roster",
  "id": "baseball.venados-de-mazatlan:2026-27",
- "updatedAt": "2026-11-26T18:38:53Z",
+ "updatedAt": "2026-11-27T18:27:24Z",
  "sources": [
   "mlb-statsapi"
  ],
  "teamId": "baseball.venados-de-mazatlan",
  "competitionId": "baseball.lmp",
  "season": "2026-27",
- "count": 43,
+ "count": 44,
  "groups": [
   {
    "code": "P",
@@ -54,6 +54,24 @@
      }
     },
     {
+     "personId": "p.alejandro-carrillo.2000",
+     "number": "12",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.alejandro-carrillo.2000",
+      "name": {
+       "full": "Alejandro Carrillo",
+       "first": "Alejandro",
+       "last": "Carrillo"
+      },
+      "birthDate": "2000-02-05",
+      "isCuban": false,
+      "birthCountry": "MX"
+     }
+    },
+    {
      "personId": "p.raul-carrillo.1991",
      "number": "18",
      "position": "P",
@@ -85,24 +103,6 @@
        "last": "Bernal"
       },
       "birthDate": "2002-06-29",
-      "isCuban": false,
-      "birthCountry": "MX"
-     }
-    },
-    {
-     "personId": "p.guillermo-arvizu.2002",
-     "number": "30",
-     "position": "P",
-     "role": "player",
-     "status": "Active",
-     "person": {
-      "id": "p.guillermo-arvizu.2002",
-      "name": {
-       "full": "Guillermo Arvizu",
-       "first": "Guillermo",
-       "last": "Arvizu"
-      },
-      "birthDate": "2002-08-28",
       "isCuban": false,
       "birthCountry": "MX"
      }
@@ -249,6 +249,27 @@
       "birthDate": "1988-01-29",
       "isCuban": false,
       "birthCountry": "MX"
+     }
+    },
+    {
+     "personId": "p.ronald-bolanos.1996",
+     "number": "80",
+     "position": "P",
+     "role": "player",
+     "status": "Active",
+     "person": {
+      "id": "p.ronald-bolanos.1996",
+      "name": {
+       "full": "Ronald Bolaños",
+       "first": "Ronald",
+       "last": "Bolaños"
+      },
+      "birthDate": "1996-08-23",
+      "nationalities": [
+       "CU"
+      ],
+      "isCuban": true,
+      "birthCountry": "CU"
      }
     },
     {

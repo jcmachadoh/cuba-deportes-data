@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "persons",
  "id": "ae",
- "updatedAt": "2026-11-26T22:00:40Z",
+ "updatedAt": "2026-11-27T18:36:00Z",
  "persons": {
   "p.achyuth-aravindhan": {
    "id": "p.achyuth-aravindhan",
@@ -496,6 +496,26 @@
    "sources": [
     "mlb-statsapi"
    ]
+  },
+  "p.dalton-perrine": {
+   "id": "p.dalton-perrine",
+   "name": {
+    "full": "Dalton Perrine"
+   },
+   "nationalities": [
+    "US"
+   ],
+   "isCuban": false,
+   "title": "FM",
+   "externalIds": {
+    "fide": "2048434"
+   },
+   "sources": [
+    "lichess"
+   ],
+   "extra": {
+    "federation": "USA"
+   }
   },
   "p.daniel-lynch-iv.1996": {
    "id": "p.daniel-lynch-iv.1996",
@@ -1589,19 +1609,25 @@
     "full": "Julio Becerra Rivero"
    },
    "nationalities": [
+    "CU",
     "US"
    ],
-   "isCuban": false,
+   "isCuban": true,
    "title": "GM",
    "externalIds": {
-    "fide": "3501728"
+    "fide": "3501728",
+    "wikidata": "Q3774349"
    },
    "sources": [
     "lichess"
    ],
    "extra": {
     "federation": "USA"
-   }
+   },
+   "cubanEvidence": [
+    "wikidata.P19",
+    "wikidata.P27"
+   ]
   },
   "p.julio-miranda": {
    "id": "p.julio-miranda",
