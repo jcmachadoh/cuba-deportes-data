@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:wYvYFVtt",
- "updatedAt": "2026-11-27T18:34:58Z",
+ "updatedAt": "2026-11-27T23:05:21Z",
  "sources": [
   "lichess"
  ],
@@ -76,17 +76,69 @@
    {
     "name": "Round 11",
     "startsAt": 1795788900000,
-    "finished": null
+    "finished": true
    }
   ]
  },
  "standings": [
   {
    "rank": 1,
-   "participantId": "p.prraneeth-vuppala.2007",
+   "participantId": "p.ethan-vaz.2011",
    "participantType": "person",
    "stats": {
     "RANK": 1,
+    "PTS": 9.0,
+    "ELO": 2511,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.ethan-vaz.2011",
+    "name": {
+     "full": "Ethan Vaz"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "IN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2612
+   }
+  },
+  {
+   "rank": 2,
+   "participantId": "p.khagan-ahmad.2011",
+   "participantType": "person",
+   "stats": {
+    "RANK": 2,
+    "PTS": 8.5,
+    "ELO": 2536,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.khagan-ahmad.2011",
+    "name": {
+     "full": "Khagan Ahmad"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "AZ"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2570
+   }
+  },
+  {
+   "rank": 3,
+   "participantId": "p.prraneeth-vuppala.2007",
+   "participantType": "person",
+   "stats": {
+    "RANK": 3,
     "PTS": 8.5,
     "ELO": 2472,
     "GP": 11
@@ -108,37 +160,11 @@
    }
   },
   {
-   "rank": 2,
-   "participantId": "p.khagan-ahmad.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 2,
-    "PTS": 8.0,
-    "ELO": 2536,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.khagan-ahmad.2011",
-    "name": {
-     "full": "Khagan Ahmad"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "AZ"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2599
-   }
-  },
-  {
-   "rank": 3,
+   "rank": 4,
    "participantId": "p.erdem-khubukshanov.2007",
    "participantType": "person",
    "stats": {
-    "RANK": 3,
+    "RANK": 4,
     "PTS": 8.0,
     "ELO": 2513,
     "GP": 11
@@ -157,32 +183,6 @@
    },
    "extra": {
     "performance": 2499
-   }
-  },
-  {
-   "rank": 4,
-   "participantId": "p.ethan-vaz.2011",
-   "participantType": "person",
-   "stats": {
-    "RANK": 4,
-    "PTS": 8.0,
-    "ELO": 2511,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.ethan-vaz.2011",
-    "name": {
-     "full": "Ethan Vaz"
-    },
-    "birthDate": "2011",
-    "nationalities": [
-     "IN"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2601
    }
   },
   {
@@ -212,10 +212,35 @@
   },
   {
    "rank": 6,
-   "participantId": "p.santiago-lopez-rayo",
+   "participantId": "p.juan-sebastian-melian",
    "participantType": "person",
    "stats": {
     "RANK": 6,
+    "PTS": 7.5,
+    "ELO": 2355,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.juan-sebastian-melian",
+    "name": {
+     "full": "Juan Sebastian Melian"
+    },
+    "nationalities": [
+     "PY"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "performance": 2364
+   }
+  },
+  {
+   "rank": 7,
+   "participantId": "p.santiago-lopez-rayo",
+   "participantType": "person",
+   "stats": {
+    "RANK": 7,
     "PTS": 7.0,
     "ELO": 2445,
     "GP": 11
@@ -233,31 +258,6 @@
    },
    "extra": {
     "performance": 2428
-   }
-  },
-  {
-   "rank": 7,
-   "participantId": "p.juan-sebastian-melian",
-   "participantType": "person",
-   "stats": {
-    "RANK": 7,
-    "PTS": 7.0,
-    "ELO": 2355,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.juan-sebastian-melian",
-    "name": {
-     "full": "Juan Sebastian Melian"
-    },
-    "nationalities": [
-     "PY"
-    ],
-    "isCuban": false,
-    "title": "IM"
-   },
-   "extra": {
-    "performance": 2350
    }
   },
   {
@@ -317,7 +317,7 @@
     "RANK": 10,
     "PTS": 7.0,
     "ELO": 2243,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.christopher-leonel-garzon-zapatanga",
@@ -331,7 +331,7 @@
     "title": "IM"
    },
    "extra": {
-    "performance": 2450
+    "performance": 2422
    }
   },
   {
@@ -412,10 +412,34 @@
   },
   {
    "rank": 14,
-   "participantId": "p.angel-gabriel-cordoba-roa",
+   "participantId": "p.vladislav-malygin",
    "participantType": "person",
    "stats": {
     "RANK": 14,
+    "PTS": 6.5,
+    "ELO": 2229,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.vladislav-malygin",
+    "name": {
+     "full": "Vladislav Malygin"
+    },
+    "nationalities": [
+     "KZ"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2250
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.angel-gabriel-cordoba-roa",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
     "PTS": 6.0,
     "ELO": 2385,
     "GP": 11
@@ -436,11 +460,11 @@
    }
   },
   {
-   "rank": 15,
+   "rank": 16,
    "participantId": "p.amir-zouaghi",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 16,
     "PTS": 6.0,
     "ELO": 2347,
     "GP": 11
@@ -461,11 +485,11 @@
    }
   },
   {
-   "rank": 16,
+   "rank": 17,
    "participantId": "p.jesus-daniel-diaz-guerrero",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 17,
     "PTS": 6.0,
     "ELO": 2297,
     "GP": 11
@@ -486,11 +510,11 @@
    }
   },
   {
-   "rank": 17,
+   "rank": 18,
    "participantId": "p.fabian-ricardo-reyes-zavaleta",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 18,
     "PTS": 6.0,
     "ELO": 2267,
     "GP": 11
@@ -511,11 +535,11 @@
    }
   },
   {
-   "rank": 18,
+   "rank": 19,
    "participantId": "p.valentin-unhold",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 19,
     "PTS": 6.0,
     "ELO": 2259,
     "GP": 11
@@ -535,11 +559,11 @@
    }
   },
   {
-   "rank": 19,
+   "rank": 20,
    "participantId": "p.dilson-alejandro-pena-duran",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 20,
     "PTS": 6.0,
     "ELO": 2257,
     "GP": 11
@@ -560,11 +584,11 @@
    }
   },
   {
-   "rank": 20,
+   "rank": 21,
    "participantId": "p.carlos-francisco-varela-velazquez",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 21,
     "PTS": 6.0,
     "ELO": 2208,
     "GP": 11
@@ -585,11 +609,11 @@
    }
   },
   {
-   "rank": 21,
+   "rank": 22,
    "participantId": "p.tyover-collins-tyowase",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 22,
     "PTS": 6.0,
     "ELO": 2183,
     "GP": 11
@@ -606,11 +630,11 @@
    }
   },
   {
-   "rank": 22,
+   "rank": 23,
    "participantId": "p.jesus-adrian-franco-gimenez",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 23,
     "PTS": 6.0,
     "ELO": 2168,
     "GP": 11
@@ -630,11 +654,11 @@
    }
   },
   {
-   "rank": 23,
+   "rank": 24,
    "participantId": "p.sebastian-francisco-borges-oliveros",
    "participantType": "person",
    "stats": {
-    "RANK": 23,
+    "RANK": 24,
     "PTS": 6.0,
     "ELO": 2136,
     "GP": 11
@@ -655,11 +679,11 @@
    }
   },
   {
-   "rank": 24,
+   "rank": 25,
    "participantId": "p.jason-yeung",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 25,
     "PTS": 6.0,
     "ELO": 2123,
     "GP": 11
@@ -680,11 +704,11 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 26,
    "participantId": "p.jose-david-torres-yepez",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 26,
     "PTS": 6.0,
     "ELO": 2107,
     "GP": 11
@@ -704,11 +728,11 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 27,
    "participantId": "p.christian-gabriel-allen-leydenz",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 27,
     "PTS": 6.0,
     "ELO": 2076,
     "GP": 11
@@ -729,11 +753,11 @@
    }
   },
   {
-   "rank": 27,
+   "rank": 28,
    "participantId": "p.jose-gabriel-casares-contreras",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 28,
     "PTS": 6.0,
     "ELO": 2046,
     "GP": 11
@@ -753,35 +777,35 @@
    }
   },
   {
-   "rank": 28,
-   "participantId": "p.vladislav-malygin",
+   "rank": 29,
+   "participantId": "p.andres-alejandro-padron-jimenez",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 29,
     "PTS": 5.5,
-    "ELO": 2229,
-    "GP": 10
+    "ELO": 2083,
+    "GP": 11
    },
    "person": {
-    "id": "p.vladislav-malygin",
+    "id": "p.andres-alejandro-padron-jimenez",
     "name": {
-     "full": "Vladislav Malygin"
+     "full": "Andres Alejandro Padron Jimenez"
     },
     "nationalities": [
-     "KZ"
+     "VE"
     ],
     "isCuban": false
    },
    "extra": {
-    "performance": 2239
+    "performance": 1976
    }
   },
   {
-   "rank": 29,
+   "rank": 30,
    "participantId": "p.caleb-vargas-arguedas",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
+    "RANK": 30,
     "PTS": 5.5,
     "ELO": 2058,
     "GP": 11
@@ -798,14 +822,14 @@
    }
   },
   {
-   "rank": 30,
+   "rank": 31,
    "participantId": "p.marco-alejandro-blumenthal-mujica",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
+    "RANK": 31,
     "PTS": 5.5,
     "ELO": 2005,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.marco-alejandro-blumenthal-mujica",
@@ -818,15 +842,15 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 2179
+    "performance": 2151
    }
   },
   {
-   "rank": 31,
+   "rank": 32,
    "participantId": "p.jose-antonio-rodriguez-barradas",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 32,
     "PTS": 5.5,
     "ELO": 1944,
     "GP": 11
@@ -846,11 +870,35 @@
    }
   },
   {
-   "rank": 32,
+   "rank": 33,
+   "participantId": "p.santiago-enmanuel-ortega-amaya",
+   "participantType": "person",
+   "stats": {
+    "RANK": 33,
+    "PTS": 5.5,
+    "ELO": 1813,
+    "GP": 11
+   },
+   "person": {
+    "id": "p.santiago-enmanuel-ortega-amaya",
+    "name": {
+     "full": "Santiago Enmanuel Ortega Amaya"
+    },
+    "nationalities": [
+     "VE"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 2179
+   }
+  },
+  {
+   "rank": 34,
    "participantId": "p.mauricio-jose-vivas-gelves",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 34,
     "PTS": 5.0,
     "ELO": 2159,
     "GP": 11
@@ -870,11 +918,11 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 35,
    "participantId": "p.natanael-emanuel-vanegas-lopez",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 35,
     "PTS": 5.0,
     "ELO": 2139,
     "GP": 11
@@ -892,35 +940,11 @@
    }
   },
   {
-   "rank": 34,
-   "participantId": "p.andres-alejandro-padron-jimenez",
-   "participantType": "person",
-   "stats": {
-    "RANK": 34,
-    "PTS": 5.0,
-    "ELO": 2083,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.andres-alejandro-padron-jimenez",
-    "name": {
-     "full": "Andres Alejandro Padron Jimenez"
-    },
-    "nationalities": [
-     "VE"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1992
-   }
-  },
-  {
-   "rank": 35,
+   "rank": 36,
    "participantId": "p.esteban-quesada-fallas",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 36,
     "PTS": 5.0,
     "ELO": 2052,
     "GP": 11
@@ -937,11 +961,11 @@
    }
   },
   {
-   "rank": 36,
+   "rank": 37,
    "participantId": "p.luciano-alejandro-sanchez-medina",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 37,
     "PTS": 5.0,
     "ELO": 2039,
     "GP": 11
@@ -961,11 +985,11 @@
    }
   },
   {
-   "rank": 37,
+   "rank": 38,
    "participantId": "p.samuel-elias-echeto-hernandez",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 38,
     "PTS": 5.0,
     "ELO": 1997,
     "GP": 11
@@ -986,11 +1010,11 @@
    }
   },
   {
-   "rank": 38,
+   "rank": 39,
    "participantId": "p.santiago-leandro-cedeno-cedeno",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 39,
     "PTS": 5.0,
     "ELO": 1993,
     "GP": 11
@@ -1010,11 +1034,11 @@
    }
   },
   {
-   "rank": 39,
+   "rank": 40,
    "participantId": "p.jesus-eleazar-rivas-villarreal",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 40,
     "PTS": 5.0,
     "ELO": 1977,
     "GP": 11
@@ -1034,11 +1058,11 @@
    }
   },
   {
-   "rank": 40,
+   "rank": 41,
    "participantId": "p.diego-gabriel-gonzalez-ariza",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 41,
     "PTS": 5.0,
     "ELO": 1926,
     "GP": 11
@@ -1058,11 +1082,11 @@
    }
   },
   {
-   "rank": 41,
+   "rank": 42,
    "participantId": "p.jose-luis-gomez-pereira",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 42,
     "PTS": 5.0,
     "ELO": 1905,
     "GP": 11
@@ -1082,11 +1106,11 @@
    }
   },
   {
-   "rank": 42,
+   "rank": 43,
    "participantId": "p.luis-alfredo-zamora-garcia",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 43,
     "PTS": 5.0,
     "ELO": 1905,
     "GP": 11
@@ -1103,30 +1127,6 @@
    },
    "extra": {
     "performance": 1895
-   }
-  },
-  {
-   "rank": 43,
-   "participantId": "p.santiago-enmanuel-ortega-amaya",
-   "participantType": "person",
-   "stats": {
-    "RANK": 43,
-    "PTS": 5.0,
-    "ELO": 1813,
-    "GP": 10
-   },
-   "person": {
-    "id": "p.santiago-enmanuel-ortega-amaya",
-    "name": {
-     "full": "Santiago Enmanuel Ortega Amaya"
-    },
-    "nationalities": [
-     "VE"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 2188
    }
   },
   {
@@ -1306,7 +1306,7 @@
     "RANK": 51,
     "PTS": 3.5,
     "ELO": 1924,
-    "GP": 10
+    "GP": 11
    },
    "person": {
     "id": "p.diego-andres-sandoval-manaure",
@@ -1319,7 +1319,7 @@
     "isCuban": false
    },
    "extra": {
-    "performance": 1828
+    "performance": 1796
    }
   },
   {
@@ -1370,10 +1370,34 @@
   },
   {
    "rank": 54,
-   "participantId": "p.daniel-ramirez",
+   "participantId": "p.luis-david-oses-gonzalez",
    "participantType": "person",
    "stats": {
     "RANK": 54,
+    "PTS": 3.5,
+    "ELO": 1837,
+    "GP": 10
+   },
+   "person": {
+    "id": "p.luis-david-oses-gonzalez",
+    "name": {
+     "full": "Luis David Oses Gonzalez"
+    },
+    "nationalities": [
+     "PA"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "performance": 1820
+   }
+  },
+  {
+   "rank": 55,
+   "participantId": "p.daniel-ramirez",
+   "participantType": "person",
+   "stats": {
+    "RANK": 55,
     "PTS": 3.0,
     "ELO": 1950,
     "GP": 11
@@ -1390,11 +1414,11 @@
    }
   },
   {
-   "rank": 55,
+   "rank": 56,
    "participantId": "p.jorge-luis-miquilena-lozano",
    "participantType": "person",
    "stats": {
-    "RANK": 55,
+    "RANK": 56,
     "PTS": 3.0,
     "ELO": 1907,
     "GP": 10
@@ -1414,11 +1438,11 @@
    }
   },
   {
-   "rank": 56,
+   "rank": 57,
    "participantId": "p.stefan-hrvacanin",
    "participantType": "person",
    "stats": {
-    "RANK": 56,
+    "RANK": 57,
     "PTS": 2.5,
     "ELO": 1873,
     "GP": 10
@@ -1435,30 +1459,6 @@
    },
    "extra": {
     "performance": 1721
-   }
-  },
-  {
-   "rank": 57,
-   "participantId": "p.luis-david-oses-gonzalez",
-   "participantType": "person",
-   "stats": {
-    "RANK": 57,
-    "PTS": 2.5,
-    "ELO": 1837,
-    "GP": 9
-   },
-   "person": {
-    "id": "p.luis-david-oses-gonzalez",
-    "name": {
-     "full": "Luis David Oses Gonzalez"
-    },
-    "nationalities": [
-     "PA"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "performance": 1765
    }
   },
   {

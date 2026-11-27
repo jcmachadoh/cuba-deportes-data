@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "standings",
  "id": "soccer.fra-1:2026-27",
- "updatedAt": "2026-11-22T23:37:01Z",
+ "updatedAt": "2026-11-27T22:42:32Z",
  "sources": [
   "espn"
  ],
@@ -39,14 +39,35 @@
      "participantType": "team",
      "rank": 2,
      "stats": {
-      "GP": 11,
+      "GP": 12,
       "W": 7,
       "D": 2,
-      "L": 2,
+      "L": 3,
       "GF": 21,
-      "GA": 10,
-      "GD": 11,
+      "GA": 11,
+      "GD": 10,
       "PTS": 23
+     },
+     "extra": {
+      "note": {
+       "text": "Champions League",
+       "color": "#81D6AC"
+      }
+     }
+    },
+    {
+     "participantId": "soccer.brest",
+     "participantType": "team",
+     "rank": 3,
+     "stats": {
+      "GP": 12,
+      "W": 6,
+      "D": 3,
+      "L": 3,
+      "GF": 20,
+      "GA": 12,
+      "GD": 8,
+      "PTS": 21
      },
      "extra": {
       "note": {
@@ -58,7 +79,7 @@
     {
      "participantId": "soccer.lille",
      "participantType": "team",
-     "rank": 3,
+     "rank": 4,
      "stats": {
       "GP": 11,
       "W": 6,
@@ -71,15 +92,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League",
-       "color": "#81D6AC"
+       "text": "Champions League qualifying",
+       "color": "#B5E7CE"
       }
      }
     },
     {
      "participantId": "soccer.lyon",
      "participantType": "team",
-     "rank": 4,
+     "rank": 5,
      "stats": {
       "GP": 11,
       "W": 6,
@@ -92,15 +113,15 @@
      },
      "extra": {
       "note": {
-       "text": "Champions League qualifying",
-       "color": "#B5E7CE"
+       "text": "Europa League",
+       "color": "#B2BFD0"
       }
      }
     },
     {
      "participantId": "soccer.marseille",
      "participantType": "team",
-     "rank": 5,
+     "rank": 6,
      "stats": {
       "GP": 11,
       "W": 6,
@@ -108,27 +129,6 @@
       "L": 5,
       "GF": 24,
       "GA": 17,
-      "GD": 7,
-      "PTS": 18
-     },
-     "extra": {
-      "note": {
-       "text": "Europa League",
-       "color": "#B2BFD0"
-      }
-     }
-    },
-    {
-     "participantId": "soccer.brest",
-     "participantType": "team",
-     "rank": 6,
-     "stats": {
-      "GP": 11,
-      "W": 5,
-      "D": 3,
-      "L": 3,
-      "GF": 19,
-      "GA": 12,
       "GD": 7,
       "PTS": 18
      },
