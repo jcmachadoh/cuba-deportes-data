@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:TemMv6c8",
- "updatedAt": "2026-11-27T04:39:11Z",
+ "updatedAt": "2026-11-27T14:16:59Z",
  "sources": [
   "lichess"
  ],
@@ -49,11 +49,11 @@
    {
     "name": "Semifinales | Partida 1",
     "startsAt": 1795760100000,
-    "finished": null
+    "finished": true
    },
    {
     "name": "Semifinales | Partida 2",
-    "startsAt": 1796019300000,
+    "startsAt": 1795846500000,
     "finished": null
    },
    {
@@ -117,7 +117,7 @@
     "RANK": 1,
     "PTS": 5.0,
     "ELO": 2179,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.xue-bai",
@@ -131,7 +131,7 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2350
+    "performance": 2264
    }
   },
   {
@@ -140,9 +140,9 @@
    "participantType": "person",
    "stats": {
     "RANK": 2,
-    "PTS": 3.5,
+    "PTS": 4.5,
     "ELO": 2490,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.yunguo-wan",
@@ -157,7 +157,7 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2573
+    "performance": 2650
    }
   },
   {
@@ -195,7 +195,7 @@
     "RANK": 4,
     "PTS": 3.0,
     "ELO": 2663,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.volodar-murzin.2006",
@@ -211,7 +211,7 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2546
+    "performance": 2509
    }
   },
   {
@@ -274,7 +274,7 @@
     "RANK": 7,
     "PTS": 3.0,
     "ELO": 2398,
-    "GP": 6
+    "GP": 7
    },
    "person": {
     "id": "p.yixin-ding.1991",
@@ -290,7 +290,7 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2342
+    "performance": 2304
    }
   },
   {
@@ -347,10 +347,37 @@
   },
   {
    "rank": 10,
-   "participantId": "p.qingnan-liu",
+   "participantId": "p.tingjie-lei.1997",
    "participantType": "person",
    "stats": {
     "RANK": 10,
+    "PTS": 2.5,
+    "ELO": 2552,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.tingjie-lei.1997",
+    "name": {
+     "full": "Tingjie Lei"
+    },
+    "birthDate": "1997",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Chongqing Sports Lottery",
+    "performance": 2720
+   }
+  },
+  {
+   "rank": 11,
+   "participantId": "p.qingnan-liu",
+   "participantType": "person",
+   "stats": {
+    "RANK": 11,
     "PTS": 2.5,
     "ELO": 2529,
     "GP": 4
@@ -372,11 +399,11 @@
    }
   },
   {
-   "rank": 11,
+   "rank": 12,
    "participantId": "p.deshun-xiu",
    "participantType": "person",
    "stats": {
-    "RANK": 11,
+    "RANK": 12,
     "PTS": 2.5,
     "ELO": 2509,
     "GP": 3
@@ -398,11 +425,11 @@
    }
   },
   {
-   "rank": 12,
+   "rank": 13,
    "participantId": "p.yue-wang",
    "participantType": "person",
    "stats": {
-    "RANK": 12,
+    "RANK": 13,
     "PTS": 2.0,
     "ELO": 2619,
     "GP": 4
@@ -424,11 +451,11 @@
    }
   },
   {
-   "rank": 13,
+   "rank": 14,
    "participantId": "p.arkadij-naiditsch",
    "participantType": "person",
    "stats": {
-    "RANK": 13,
+    "RANK": 14,
     "PTS": 2.0,
     "ELO": 2572,
     "GP": 4
@@ -450,33 +477,6 @@
    }
   },
   {
-   "rank": 14,
-   "participantId": "p.tingjie-lei.1997",
-   "participantType": "person",
-   "stats": {
-    "RANK": 14,
-    "PTS": 2.0,
-    "ELO": 2552,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.tingjie-lei.1997",
-    "name": {
-     "full": "Tingjie Lei"
-    },
-    "birthDate": "1997",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Chongqing Sports Lottery",
-    "performance": 3239
-   }
-  },
-  {
    "rank": 15,
    "participantId": "p.zhongyi-tan.1991",
    "participantType": "person",
@@ -484,7 +484,7 @@
     "RANK": 15,
     "PTS": 2.0,
     "ELO": 2536,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.zhongyi-tan.1991",
@@ -500,7 +500,7 @@
    },
    "extra": {
     "team": "Chongqing Sports Lottery",
-    "performance": 3143
+    "performance": 2465
    }
   },
   {
@@ -644,7 +644,7 @@
     "RANK": 21,
     "PTS": 1.5,
     "ELO": 2651,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.xiangzhi-bu.1985",
@@ -660,7 +660,7 @@
    },
    "extra": {
     "team": "Chongqing Sports Lottery",
-    "performance": 2722
+    "performance": 2592
    }
   },
   {
@@ -691,10 +691,37 @@
   },
   {
    "rank": 23,
-   "participantId": "p.renjie-huang",
+   "participantId": "p.tong-qd-xiao.2008",
    "participantType": "person",
    "stats": {
     "RANK": 23,
+    "PTS": 1.5,
+    "ELO": 2598,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.tong-qd-xiao.2008",
+    "name": {
+     "full": "Tong(QD) Xiao"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Chongqing Sports Lottery",
+    "performance": 2519
+   }
+  },
+  {
+   "rank": 24,
+   "participantId": "p.renjie-huang",
+   "participantType": "person",
+   "stats": {
+    "RANK": 24,
     "PTS": 1.5,
     "ELO": 2508,
     "GP": 3
@@ -715,11 +742,11 @@
    }
   },
   {
-   "rank": 24,
+   "rank": 25,
    "participantId": "p.tao-pang",
    "participantType": "person",
    "stats": {
-    "RANK": 24,
+    "RANK": 25,
     "PTS": 1.5,
     "ELO": 2464,
     "GP": 4
@@ -741,11 +768,11 @@
    }
   },
   {
-   "rank": 25,
+   "rank": 26,
    "participantId": "p.kaifan-xie",
    "participantType": "person",
    "stats": {
-    "RANK": 25,
+    "RANK": 26,
     "PTS": 1.5,
     "ELO": 2452,
     "GP": 2
@@ -767,11 +794,11 @@
    }
   },
   {
-   "rank": 26,
+   "rank": 27,
    "participantId": "p.di-zhang",
    "participantType": "person",
    "stats": {
-    "RANK": 26,
+    "RANK": 27,
     "PTS": 1.5,
     "ELO": 2447,
     "GP": 2
@@ -792,11 +819,11 @@
    }
   },
   {
-   "rank": 27,
+   "rank": 28,
    "participantId": "p.muziyan-gao.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 27,
+    "RANK": 28,
     "PTS": 1.5,
     "ELO": 2252,
     "GP": 2
@@ -819,21 +846,21 @@
    }
   },
   {
-   "rank": 28,
-   "participantId": "p.tong-qd-xiao.2008",
+   "rank": 29,
+   "participantId": "p.liren-ding.1992",
    "participantType": "person",
    "stats": {
-    "RANK": 28,
+    "RANK": 29,
     "PTS": 1.0,
-    "ELO": 2598,
-    "GP": 2
+    "ELO": 2723,
+    "GP": 1
    },
    "person": {
-    "id": "p.tong-qd-xiao.2008",
+    "id": "p.liren-ding.1992",
     "name": {
-     "full": "Tong(QD) Xiao"
+     "full": "Liren Ding"
     },
-    "birthDate": "2008",
+    "birthDate": "1992",
     "nationalities": [
      "CN"
     ],
@@ -841,16 +868,97 @@
     "title": "GM"
    },
    "extra": {
-    "team": "Chongqing Sports Lottery",
-    "performance": 2460
+    "team": "Hangzhou Bank",
+    "performance": 3463
    }
   },
   {
-   "rank": 29,
+   "rank": 30,
+   "participantId": "p.m-amin-tabatabaei.2001",
+   "participantType": "person",
+   "stats": {
+    "RANK": 30,
+    "PTS": 1.0,
+    "ELO": 2720,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.m-amin-tabatabaei.2001",
+    "name": {
+     "full": "M. Amin Tabatabaei"
+    },
+    "birthDate": "2001",
+    "nationalities": [
+     "IR"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Shenzhen Pengcheng",
+    "performance": 3451
+   }
+  },
+  {
+   "rank": 31,
+   "participantId": "p.polina-shuvalova.2001",
+   "participantType": "person",
+   "stats": {
+    "RANK": 31,
+    "PTS": 1.0,
+    "ELO": 2514,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.polina-shuvalova.2001",
+    "name": {
+     "full": "Polina Shuvalova"
+    },
+    "birthDate": "2001",
+    "nationalities": [
+     "XX"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Hangzhou Bank",
+    "performance": 3198
+   }
+  },
+  {
+   "rank": 32,
+   "participantId": "p.haochen-jiang.2011",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32,
+    "PTS": 1.0,
+    "ELO": 2501,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.haochen-jiang.2011",
+    "name": {
+     "full": "Haochen Jiang"
+    },
+    "birthDate": "2011",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Shenzhen Pengcheng",
+    "performance": 3285
+   }
+  },
+  {
+   "rank": 33,
    "participantId": "p.yihan-meng",
    "participantType": "person",
    "stats": {
-    "RANK": 29,
+    "RANK": 33,
     "PTS": 1.0,
     "ELO": 2473,
     "GP": 2
@@ -872,11 +980,11 @@
    }
   },
   {
-   "rank": 30,
+   "rank": 34,
    "participantId": "p.qi-b-chen",
    "participantType": "person",
    "stats": {
-    "RANK": 30,
+    "RANK": 34,
     "PTS": 1.0,
     "ELO": 2437,
     "GP": 2
@@ -898,11 +1006,11 @@
    }
   },
   {
-   "rank": 31,
+   "rank": 35,
    "participantId": "p.bella-khotenashvili.1988",
    "participantType": "person",
    "stats": {
-    "RANK": 31,
+    "RANK": 35,
     "PTS": 1.0,
     "ELO": 2437,
     "GP": 2
@@ -925,11 +1033,11 @@
    }
   },
   {
-   "rank": 32,
+   "rank": 36,
    "participantId": "p.hongfu-dong",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 36,
     "PTS": 1.0,
     "ELO": 2434,
     "GP": 2
@@ -950,11 +1058,11 @@
    }
   },
   {
-   "rank": 33,
+   "rank": 37,
    "participantId": "p.junwei-xu",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 37,
     "PTS": 1.0,
     "ELO": 2398,
     "GP": 1
@@ -975,11 +1083,11 @@
    }
   },
   {
-   "rank": 34,
+   "rank": 38,
    "participantId": "p.xinyang-nie",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 38,
     "PTS": 1.0,
     "ELO": 2367,
     "GP": 1
@@ -1001,11 +1109,36 @@
    }
   },
   {
-   "rank": 35,
+   "rank": 39,
+   "participantId": "p.yuan-chen",
+   "participantType": "person",
+   "stats": {
+    "RANK": 39,
+    "PTS": 1.0,
+    "ELO": 2357,
+    "GP": 3
+   },
+   "person": {
+    "id": "p.yuan-chen",
+    "name": {
+     "full": "Yuan Chen"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng",
+    "performance": 2553
+   }
+  },
+  {
+   "rank": 40,
    "participantId": "p.jennifer-yu.2002",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 40,
     "PTS": 1.0,
     "ELO": 2343,
     "GP": 4
@@ -1028,11 +1161,63 @@
    }
   },
   {
-   "rank": 36,
+   "rank": 41,
+   "participantId": "p.tianqi-yan",
+   "participantType": "person",
+   "stats": {
+    "RANK": 41,
+    "PTS": 1.0,
+    "ELO": 2336,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.tianqi-yan",
+    "name": {
+     "full": "Tianqi Yan"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "WIM"
+   },
+   "extra": {
+    "team": "Hangzhou Bank",
+    "performance": 2979
+   }
+  },
+  {
+   "rank": 42,
+   "participantId": "p.mo-zhai",
+   "participantType": "person",
+   "stats": {
+    "RANK": 42,
+    "PTS": 1.0,
+    "ELO": 2335,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.mo-zhai",
+    "name": {
+     "full": "Mo Zhai"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "WGM"
+   },
+   "extra": {
+    "team": "Shenzhen Pengcheng",
+    "performance": 3336
+   }
+  },
+  {
+   "rank": 43,
    "participantId": "p.shiqun-ni",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 43,
     "PTS": 1.0,
     "ELO": 2309,
     "GP": 2
@@ -1054,11 +1239,11 @@
    }
   },
   {
-   "rank": 37,
+   "rank": 44,
    "participantId": "p.xiao-zhang",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 44,
     "PTS": 1.0,
     "ELO": 2212,
     "GP": 2
@@ -1080,11 +1265,11 @@
    }
   },
   {
-   "rank": 38,
+   "rank": 45,
    "participantId": "p.yijing-yang",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 45,
     "PTS": 1.0,
     "ELO": 2164,
     "GP": 4
@@ -1106,11 +1291,38 @@
    }
   },
   {
-   "rank": 39,
+   "rank": 46,
+   "participantId": "p.shanglei-lu.1995",
+   "participantType": "person",
+   "stats": {
+    "RANK": 46,
+    "PTS": 0.5,
+    "ELO": 2637,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.shanglei-lu.1995",
+    "name": {
+     "full": "Shanglei Lu"
+    },
+    "birthDate": "1995",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Shenzhen Pengcheng",
+    "performance": 2598
+   }
+  },
+  {
+   "rank": 47,
    "participantId": "p.evgeniy-najer",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 47,
     "PTS": 0.5,
     "ELO": 2584,
     "GP": 2
@@ -1132,14 +1344,41 @@
    }
   },
   {
-   "rank": 40,
+   "rank": 48,
+   "participantId": "p.xiangrui-kong.2009",
+   "participantType": "person",
+   "stats": {
+    "RANK": 48,
+    "PTS": 0.5,
+    "ELO": 2553,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.xiangrui-kong.2009",
+    "name": {
+     "full": "Xiangrui Kong"
+    },
+    "birthDate": "2009",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Hangzhou Bank",
+    "performance": 2357
+   }
+  },
+  {
+   "rank": 49,
    "participantId": "p.yan-liu",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 49,
     "PTS": 0.5,
     "ELO": 2485,
-    "GP": 2
+    "GP": 3
    },
    "person": {
     "id": "p.yan-liu",
@@ -1154,15 +1393,42 @@
    },
    "extra": {
     "team": "Chongqing Sports Lottery",
-    "performance": 2212
+    "performance": 2164
    }
   },
   {
-   "rank": 41,
+   "rank": 50,
+   "participantId": "p.yuxin-song.2005",
+   "participantType": "person",
+   "stats": {
+    "RANK": 50,
+    "PTS": 0.5,
+    "ELO": 2465,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.yuxin-song.2005",
+    "name": {
+     "full": "Yuxin Song"
+    },
+    "birthDate": "2005",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "IM"
+   },
+   "extra": {
+    "team": "Shenzhen Pengcheng",
+    "performance": 2552
+   }
+  },
+  {
+   "rank": 51,
    "participantId": "p.yi-xu",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 51,
     "PTS": 0.5,
     "ELO": 2456,
     "GP": 2
@@ -1184,11 +1450,11 @@
    }
   },
   {
-   "rank": 42,
+   "rank": 52,
    "participantId": "p.xue-zhao.1985",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 52,
     "PTS": 0.5,
     "ELO": 2439,
     "GP": 4
@@ -1211,11 +1477,11 @@
    }
   },
   {
-   "rank": 43,
+   "rank": 53,
    "participantId": "p.yiping-lou",
    "participantType": "person",
    "stats": {
-    "RANK": 43,
+    "RANK": 53,
     "PTS": 0.5,
     "ELO": 2437,
     "GP": 1
@@ -1237,11 +1503,11 @@
    }
   },
   {
-   "rank": 44,
+   "rank": 54,
    "participantId": "p.sunle-gong",
    "participantType": "person",
    "stats": {
-    "RANK": 44,
+    "RANK": 54,
     "PTS": 0.5,
     "ELO": 2426,
     "GP": 1
@@ -1263,35 +1529,11 @@
    }
   },
   {
-   "rank": 45,
-   "participantId": "p.yuan-chen",
-   "participantType": "person",
-   "stats": {
-    "RANK": 45,
-    "PTS": 0.5,
-    "ELO": 2357,
-    "GP": 2
-   },
-   "person": {
-    "id": "p.yuan-chen",
-    "name": {
-     "full": "Yuan Chen"
-    },
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false
-   },
-   "extra": {
-    "team": "Zhejiang Shaoxing Yuecheng"
-   }
-  },
-  {
-   "rank": 46,
+   "rank": 55,
    "participantId": "p.guohao-li",
    "participantType": "person",
    "stats": {
-    "RANK": 46,
+    "RANK": 55,
     "PTS": 0.5,
     "ELO": 2318,
     "GP": 2
@@ -1313,11 +1555,11 @@
    }
   },
   {
-   "rank": 47,
+   "rank": 56,
    "participantId": "p.liu-jiang",
    "participantType": "person",
    "stats": {
-    "RANK": 47,
+    "RANK": 56,
     "PTS": 0.5,
     "ELO": 2238,
     "GP": 1
@@ -1338,11 +1580,11 @@
    }
   },
   {
-   "rank": 48,
+   "rank": 57,
    "participantId": "p.tianhao-xue.2013",
    "participantType": "person",
    "stats": {
-    "RANK": 48,
+    "RANK": 57,
     "PTS": 0.5,
     "ELO": 2170,
     "GP": 2
@@ -1365,11 +1607,11 @@
    }
   },
   {
-   "rank": 49,
+   "rank": 58,
    "participantId": "p.shumeng-zhou",
    "participantType": "person",
    "stats": {
-    "RANK": 49,
+    "RANK": 58,
     "PTS": 0.5,
     "ELO": 2144,
     "GP": 4
@@ -1390,11 +1632,11 @@
    }
   },
   {
-   "rank": 50,
+   "rank": 59,
    "participantId": "p.lvheng-chen",
    "participantType": "person",
    "stats": {
-    "RANK": 50,
+    "RANK": 59,
     "PTS": 0.5,
     "ELO": 2125,
     "GP": 2
@@ -1415,11 +1657,37 @@
    }
   },
   {
-   "rank": 51,
+   "rank": 60,
+   "participantId": "p.qun-ma",
+   "participantType": "person",
+   "stats": {
+    "RANK": 60,
+    "PTS": 0.0,
+    "ELO": 2596,
+    "GP": 1
+   },
+   "person": {
+    "id": "p.qun-ma",
+    "name": {
+     "full": "Qun Ma"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Hangzhou Bank",
+    "performance": 1690
+   }
+  },
+  {
+   "rank": 61,
    "participantId": "p.chongsheng-zeng",
    "participantType": "person",
    "stats": {
-    "RANK": 51,
+    "RANK": 61,
     "PTS": 0.0,
     "ELO": 2561,
     "GP": 2
@@ -1441,11 +1709,11 @@
    }
   },
   {
-   "rank": 52,
+   "rank": 62,
    "participantId": "p.zilong-yang",
    "participantType": "person",
    "stats": {
-    "RANK": 52,
+    "RANK": 62,
     "PTS": 0.0,
     "ELO": 2407,
     "GP": 1
@@ -1467,11 +1735,11 @@
    }
   },
   {
-   "rank": 53,
+   "rank": 63,
    "participantId": "p.qingfeng-cao",
    "participantType": "person",
    "stats": {
-    "RANK": 53,
+    "RANK": 63,
     "PTS": 0.0,
     "ELO": 2396,
     "GP": 1
@@ -1493,11 +1761,11 @@
    }
   },
   {
-   "rank": 54,
+   "rank": 64,
    "participantId": "p.mingren-hong",
    "participantType": "person",
    "stats": {
-    "RANK": 54,
+    "RANK": 64,
     "PTS": 0.0,
     "ELO": 2355,
     "GP": 1
@@ -1519,11 +1787,11 @@
    }
   },
   {
-   "rank": 55,
+   "rank": 65,
    "participantId": "p.hongsen-chen",
    "participantType": "person",
    "stats": {
-    "RANK": 55,
+    "RANK": 65,
     "PTS": 0.0,
     "ELO": 2314,
     "GP": 1
@@ -1545,11 +1813,11 @@
    }
   },
   {
-   "rank": 56,
+   "rank": 66,
    "participantId": "p.chao-sun",
    "participantType": "person",
    "stats": {
-    "RANK": 56,
+    "RANK": 66,
     "PTS": 0.0,
     "ELO": 2272,
     "GP": 2
@@ -1571,11 +1839,11 @@
    }
   },
   {
-   "rank": 57,
+   "rank": 67,
    "participantId": "p.zile-zhu",
    "participantType": "person",
    "stats": {
-    "RANK": 57,
+    "RANK": 67,
     "PTS": 0.0,
     "ELO": 1926,
     "GP": 2
@@ -1596,11 +1864,11 @@
    }
   },
   {
-   "rank": 58,
+   "rank": 68,
    "participantId": "p.jihan-sun",
    "participantType": "person",
    "stats": {
-    "RANK": 58,
+    "RANK": 68,
     "PTS": 0.0,
     "ELO": 1884,
     "GP": 2
