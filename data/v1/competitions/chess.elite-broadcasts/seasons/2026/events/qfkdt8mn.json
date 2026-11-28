@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:qfkdt8mn",
- "updatedAt": "2026-11-26T18:55:58Z",
+ "updatedAt": "2026-11-28T08:09:49Z",
  "sources": [
   "lichess"
  ],
@@ -119,7 +119,10 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2710
+    "performance": {
+     "rating": 2710,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -145,7 +148,10 @@
     "title": "GM"
    },
    "extra": {
-    "performance": 2782
+    "performance": {
+     "rating": 2782,
+     "isUncertain": true
+    }
    }
   }
  ]

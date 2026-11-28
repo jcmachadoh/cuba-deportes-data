@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "type": "event",
  "id": "chess.elite-broadcasts:2026:TemMv6c8",
- "updatedAt": "2026-11-27T18:34:58Z",
+ "updatedAt": "2026-11-28T08:09:49Z",
  "sources": [
   "lichess"
  ],
@@ -131,7 +131,10 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2264
+    "performance": {
+     "rating": 2264,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -157,7 +160,10 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2650
+    "performance": {
+     "rating": 2650,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -184,7 +190,10 @@
    },
    "extra": {
     "team": "Beijing",
-    "performance": 2638
+    "performance": {
+     "rating": 2638,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -211,7 +220,10 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2509
+    "performance": {
+     "rating": 2509,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -237,7 +249,10 @@
    },
    "extra": {
     "team": "Tianjin",
-    "performance": 2657
+    "performance": {
+     "rating": 2657,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -263,7 +278,10 @@
    },
    "extra": {
     "team": "Shandong Foreign Languages",
-    "performance": 2644
+    "performance": {
+     "rating": 2644,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -290,7 +308,10 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2304
+    "performance": {
+     "rating": 2304,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -316,7 +337,10 @@
    },
    "extra": {
     "team": "Beijing",
-    "performance": 2353
+    "performance": {
+     "rating": 2353,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -342,7 +366,10 @@
    },
    "extra": {
     "team": "Beijing",
-    "performance": 2217
+    "performance": {
+     "rating": 2217,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -369,7 +396,10 @@
    },
    "extra": {
     "team": "Chongqing Sports Lottery",
-    "performance": 2720
+    "performance": {
+     "rating": 2720,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -395,7 +425,10 @@
    },
    "extra": {
     "team": "Shandong Foreign Languages",
-    "performance": 2701
+    "performance": {
+     "rating": 2701,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -421,7 +454,10 @@
    },
    "extra": {
     "team": "Beijing",
-    "performance": 2640
+    "performance": {
+     "rating": 2640,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -447,15 +483,48 @@
    },
    "extra": {
     "team": "Tianjin",
-    "performance": 2663
+    "performance": {
+     "rating": 2663,
+     "isUncertain": true
+    }
    }
   },
   {
    "rank": 14,
-   "participantId": "p.arkadij-naiditsch",
+   "participantId": "p.tong-qd-xiao.2008",
    "participantType": "person",
    "stats": {
     "RANK": 14,
+    "PTS": 2.0,
+    "ELO": 2598,
+    "GP": 4
+   },
+   "person": {
+    "id": "p.tong-qd-xiao.2008",
+    "name": {
+     "full": "Tong(QD) Xiao"
+    },
+    "birthDate": "2008",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Chongqing Sports Lottery",
+    "performance": {
+     "rating": 2548,
+     "isUncertain": false
+    }
+   }
+  },
+  {
+   "rank": 15,
+   "participantId": "p.arkadij-naiditsch",
+   "participantType": "person",
+   "stats": {
+    "RANK": 15,
     "PTS": 2.0,
     "ELO": 2572,
     "GP": 4
@@ -473,15 +542,18 @@
    },
    "extra": {
     "team": "Chongqing Jiulongpo",
-    "performance": 2644
+    "performance": {
+     "rating": 2644,
+     "isUncertain": false
+    }
    }
   },
   {
-   "rank": 15,
+   "rank": 16,
    "participantId": "p.zhongyi-tan.1991",
    "participantType": "person",
    "stats": {
-    "RANK": 15,
+    "RANK": 16,
     "PTS": 2.0,
     "ELO": 2536,
     "GP": 3
@@ -500,15 +572,18 @@
    },
    "extra": {
     "team": "Chongqing Sports Lottery",
-    "performance": 2465
+    "performance": {
+     "rating": 2465,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 16,
+   "rank": 17,
    "participantId": "p.xiongjian-peng",
    "participantType": "person",
    "stats": {
-    "RANK": 16,
+    "RANK": 17,
     "PTS": 2.0,
     "ELO": 2501,
     "GP": 4
@@ -526,15 +601,18 @@
    },
    "extra": {
     "team": "Chongqing Jiulongpo",
-    "performance": 2533
+    "performance": {
+     "rating": 2533,
+     "isUncertain": false
+    }
    }
   },
   {
-   "rank": 17,
+   "rank": 18,
    "participantId": "p.changren-dai",
    "participantType": "person",
    "stats": {
-    "RANK": 17,
+    "RANK": 18,
     "PTS": 2.0,
     "ELO": 2500,
     "GP": 4
@@ -552,15 +630,18 @@
    },
    "extra": {
     "team": "Tianjin",
-    "performance": 2490
+    "performance": {
+     "rating": 2490,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 18,
+   "rank": 19,
    "participantId": "p.lela-javakhishvili.1984",
    "participantType": "person",
    "stats": {
-    "RANK": 18,
+    "RANK": 19,
     "PTS": 2.0,
     "ELO": 2394,
     "GP": 4
@@ -579,15 +660,18 @@
    },
    "extra": {
     "team": "Chongqing Jiulongpo",
-    "performance": 2368
+    "performance": {
+     "rating": 2368,
+     "isUncertain": false
+    }
    }
   },
   {
-   "rank": 19,
+   "rank": 20,
    "participantId": "p.yiyi-xiao.1996",
    "participantType": "person",
    "stats": {
-    "RANK": 19,
+    "RANK": 20,
     "PTS": 2.0,
     "ELO": 2376,
     "GP": 4
@@ -606,15 +690,18 @@
    },
    "extra": {
     "team": "Tianjin",
-    "performance": 2398
+    "performance": {
+     "rating": 2398,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 20,
+   "rank": 21,
    "participantId": "p.qinxuanyi-wang.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 20,
+    "RANK": 21,
     "PTS": 2.0,
     "ELO": 2274,
     "GP": 2
@@ -633,15 +720,18 @@
    },
    "extra": {
     "team": "Hangzhou Zhiyun School",
-    "performance": 2964
+    "performance": {
+     "rating": 2964,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 21,
+   "rank": 22,
    "participantId": "p.xiangzhi-bu.1985",
    "participantType": "person",
    "stats": {
-    "RANK": 21,
+    "RANK": 22,
     "PTS": 1.5,
     "ELO": 2651,
     "GP": 3
@@ -660,15 +750,18 @@
    },
    "extra": {
     "team": "Chongqing Sports Lottery",
-    "performance": 2592
+    "performance": {
+     "rating": 2592,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 22,
+   "rank": 23,
    "participantId": "p.chao-b-li",
    "participantType": "person",
    "stats": {
-    "RANK": 22,
+    "RANK": 23,
     "PTS": 1.5,
     "ELO": 2615,
     "GP": 3
@@ -686,34 +779,10 @@
    },
    "extra": {
     "team": "Beijing",
-    "performance": 2424
-   }
-  },
-  {
-   "rank": 23,
-   "participantId": "p.tong-qd-xiao.2008",
-   "participantType": "person",
-   "stats": {
-    "RANK": 23,
-    "PTS": 1.5,
-    "ELO": 2598,
-    "GP": 3
-   },
-   "person": {
-    "id": "p.tong-qd-xiao.2008",
-    "name": {
-     "full": "Tong(QD) Xiao"
-    },
-    "birthDate": "2008",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Chongqing Sports Lottery",
-    "performance": 2519
+    "performance": {
+     "rating": 2424,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -738,7 +807,10 @@
    },
    "extra": {
     "team": "Shandong Foreign Languages",
-    "performance": 2490
+    "performance": {
+     "rating": 2490,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -764,7 +836,10 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2363
+    "performance": {
+     "rating": 2363,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -790,7 +865,10 @@
    },
    "extra": {
     "team": "Hangzhou Zhiyun School",
-    "performance": 2694
+    "performance": {
+     "rating": 2694,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -815,7 +893,10 @@
    },
    "extra": {
     "team": "Beijing",
-    "performance": 2318
+    "performance": {
+     "rating": 2318,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -842,7 +923,10 @@
    },
    "extra": {
     "team": "Jiangsu",
-    "performance": 2632
+    "performance": {
+     "rating": 2632,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -869,7 +953,10 @@
    },
    "extra": {
     "team": "Hangzhou Bank",
-    "performance": 3463
+    "performance": {
+     "rating": 3463,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -896,15 +983,48 @@
    },
    "extra": {
     "team": "Shenzhen Pengcheng",
-    "performance": 3451
+    "performance": {
+     "rating": 3451,
+     "isUncertain": true
+    }
    }
   },
   {
    "rank": 31,
-   "participantId": "p.polina-shuvalova.2001",
+   "participantId": "p.shanglei-lu.1995",
    "participantType": "person",
    "stats": {
     "RANK": 31,
+    "PTS": 1.0,
+    "ELO": 2637,
+    "GP": 2
+   },
+   "person": {
+    "id": "p.shanglei-lu.1995",
+    "name": {
+     "full": "Shanglei Lu"
+    },
+    "birthDate": "1995",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Shenzhen Pengcheng",
+    "performance": {
+     "rating": 2598,
+     "isUncertain": true
+    }
+   }
+  },
+  {
+   "rank": 32,
+   "participantId": "p.polina-shuvalova.2001",
+   "participantType": "person",
+   "stats": {
+    "RANK": 32,
     "PTS": 1.0,
     "ELO": 2514,
     "GP": 1
@@ -923,15 +1043,18 @@
    },
    "extra": {
     "team": "Hangzhou Bank",
-    "performance": 3198
+    "performance": {
+     "rating": 3198,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 32,
+   "rank": 33,
    "participantId": "p.haochen-jiang.2011",
    "participantType": "person",
    "stats": {
-    "RANK": 32,
+    "RANK": 33,
     "PTS": 1.0,
     "ELO": 2501,
     "GP": 1
@@ -950,15 +1073,18 @@
    },
    "extra": {
     "team": "Shenzhen Pengcheng",
-    "performance": 3285
+    "performance": {
+     "rating": 3285,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 33,
+   "rank": 34,
    "participantId": "p.yihan-meng",
    "participantType": "person",
    "stats": {
-    "RANK": 33,
+    "RANK": 34,
     "PTS": 1.0,
     "ELO": 2473,
     "GP": 2
@@ -976,15 +1102,18 @@
    },
    "extra": {
     "team": "China Mobile Shanghai",
-    "performance": 2663
+    "performance": {
+     "rating": 2663,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 34,
+   "rank": 35,
    "participantId": "p.qi-b-chen",
    "participantType": "person",
    "stats": {
-    "RANK": 34,
+    "RANK": 35,
     "PTS": 1.0,
     "ELO": 2437,
     "GP": 2
@@ -1002,15 +1131,18 @@
    },
    "extra": {
     "team": "Jiangsu",
-    "performance": 2508
+    "performance": {
+     "rating": 2508,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 35,
+   "rank": 36,
    "participantId": "p.bella-khotenashvili.1988",
    "participantType": "person",
    "stats": {
-    "RANK": 35,
+    "RANK": 36,
     "PTS": 1.0,
     "ELO": 2437,
     "GP": 2
@@ -1029,15 +1161,18 @@
    },
    "extra": {
     "team": "Hangzhou Zhiyun School",
-    "performance": 2394
+    "performance": {
+     "rating": 2394,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 36,
+   "rank": 37,
    "participantId": "p.hongfu-dong",
    "participantType": "person",
    "stats": {
-    "RANK": 36,
+    "RANK": 37,
     "PTS": 1.0,
     "ELO": 2434,
     "GP": 2
@@ -1054,15 +1189,18 @@
    },
    "extra": {
     "team": "Chongqing Jiulongpo",
-    "performance": 2373
+    "performance": {
+     "rating": 2373,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 37,
+   "rank": 38,
    "participantId": "p.junwei-xu",
    "participantType": "person",
    "stats": {
-    "RANK": 37,
+    "RANK": 38,
     "PTS": 1.0,
     "ELO": 2398,
     "GP": 1
@@ -1079,15 +1217,18 @@
    },
    "extra": {
     "team": "Shandong Foreign Languages",
-    "performance": 3285
+    "performance": {
+     "rating": 3285,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 38,
+   "rank": 39,
    "participantId": "p.xinyang-nie",
    "participantType": "person",
    "stats": {
-    "RANK": 38,
+    "RANK": 39,
     "PTS": 1.0,
     "ELO": 2367,
     "GP": 1
@@ -1105,15 +1246,18 @@
    },
    "extra": {
     "team": "Chongqing Jiulongpo",
-    "performance": 3155
+    "performance": {
+     "rating": 3155,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 39,
+   "rank": 40,
    "participantId": "p.yuan-chen",
    "participantType": "person",
    "stats": {
-    "RANK": 39,
+    "RANK": 40,
     "PTS": 1.0,
     "ELO": 2357,
     "GP": 3
@@ -1130,15 +1274,18 @@
    },
    "extra": {
     "team": "Zhejiang Shaoxing Yuecheng",
-    "performance": 2553
+    "performance": {
+     "rating": 2553,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 40,
+   "rank": 41,
    "participantId": "p.jennifer-yu.2002",
    "participantType": "person",
    "stats": {
-    "RANK": 40,
+    "RANK": 41,
     "PTS": 1.0,
     "ELO": 2343,
     "GP": 4
@@ -1157,15 +1304,18 @@
    },
    "extra": {
     "team": "Shandong Foreign Languages",
-    "performance": 2181
+    "performance": {
+     "rating": 2181,
+     "isUncertain": false
+    }
    }
   },
   {
-   "rank": 41,
+   "rank": 42,
    "participantId": "p.tianqi-yan",
    "participantType": "person",
    "stats": {
-    "RANK": 41,
+    "RANK": 42,
     "PTS": 1.0,
     "ELO": 2336,
     "GP": 1
@@ -1183,15 +1333,18 @@
    },
    "extra": {
     "team": "Hangzhou Bank",
-    "performance": 2979
+    "performance": {
+     "rating": 2979,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 42,
+   "rank": 43,
    "participantId": "p.mo-zhai",
    "participantType": "person",
    "stats": {
-    "RANK": 42,
+    "RANK": 43,
     "PTS": 1.0,
     "ELO": 2335,
     "GP": 1
@@ -1209,15 +1362,18 @@
    },
    "extra": {
     "team": "Shenzhen Pengcheng",
-    "performance": 3336
+    "performance": {
+     "rating": 3336,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 43,
+   "rank": 44,
    "participantId": "p.shiqun-ni",
    "participantType": "person",
    "stats": {
-    "RANK": 43,
+    "RANK": 44,
     "PTS": 1.0,
     "ELO": 2309,
     "GP": 2
@@ -1235,15 +1391,18 @@
    },
    "extra": {
     "team": "China Mobile Shanghai",
-    "performance": 2398
+    "performance": {
+     "rating": 2398,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 44,
+   "rank": 45,
    "participantId": "p.xiao-zhang",
    "participantType": "person",
    "stats": {
-    "RANK": 44,
+    "RANK": 45,
     "PTS": 1.0,
     "ELO": 2212,
     "GP": 2
@@ -1261,15 +1420,18 @@
    },
    "extra": {
     "team": "Jiangsu",
-    "performance": 2343
+    "performance": {
+     "rating": 2343,
+     "isUncertain": true
+    }
    }
   },
   {
-   "rank": 45,
+   "rank": 46,
    "participantId": "p.yijing-yang",
    "participantType": "person",
    "stats": {
-    "RANK": 45,
+    "RANK": 46,
     "PTS": 1.0,
     "ELO": 2164,
     "GP": 4
@@ -1287,34 +1449,10 @@
    },
    "extra": {
     "team": "Chongqing Jiulongpo",
-    "performance": 2023
-   }
-  },
-  {
-   "rank": 46,
-   "participantId": "p.shanglei-lu.1995",
-   "participantType": "person",
-   "stats": {
-    "RANK": 46,
-    "PTS": 0.5,
-    "ELO": 2637,
-    "GP": 1
-   },
-   "person": {
-    "id": "p.shanglei-lu.1995",
-    "name": {
-     "full": "Shanglei Lu"
-    },
-    "birthDate": "1995",
-    "nationalities": [
-     "CN"
-    ],
-    "isCuban": false,
-    "title": "GM"
-   },
-   "extra": {
-    "team": "Shenzhen Pengcheng",
-    "performance": 2598
+    "performance": {
+     "rating": 2023,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -1340,7 +1478,10 @@
    },
    "extra": {
     "team": "Hangzhou Zhiyun School",
-    "performance": 2379
+    "performance": {
+     "rating": 2379,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1367,7 +1508,10 @@
    },
    "extra": {
     "team": "Hangzhou Bank",
-    "performance": 2357
+    "performance": {
+     "rating": 2357,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1393,7 +1537,10 @@
    },
    "extra": {
     "team": "Chongqing Sports Lottery",
-    "performance": 2164
+    "performance": {
+     "rating": 2164,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1420,7 +1567,10 @@
    },
    "extra": {
     "team": "Shenzhen Pengcheng",
-    "performance": 2552
+    "performance": {
+     "rating": 2552,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1446,7 +1596,10 @@
    },
    "extra": {
     "team": "China Mobile Shanghai",
-    "performance": 2297
+    "performance": {
+     "rating": 2297,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1473,7 +1626,10 @@
    },
    "extra": {
     "team": "Shandong Foreign Languages",
-    "performance": 2080
+    "performance": {
+     "rating": 2080,
+     "isUncertain": false
+    }
    }
   },
   {
@@ -1499,7 +1655,10 @@
    },
    "extra": {
     "team": "China Mobile Shanghai",
-    "performance": 2464
+    "performance": {
+     "rating": 2464,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1525,7 +1684,10 @@
    },
    "extra": {
     "team": "China Mobile Shanghai",
-    "performance": 2464
+    "performance": {
+     "rating": 2464,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1551,7 +1713,10 @@
    },
    "extra": {
     "team": "Jiangxi Feimi",
-    "performance": 2512
+    "performance": {
+     "rating": 2512,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1576,7 +1741,10 @@
    },
    "extra": {
     "team": "Hangzhou Zhiyun School",
-    "performance": 2434
+    "performance": {
+     "rating": 2434,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1603,7 +1771,10 @@
    },
    "extra": {
     "team": "China Mobile Shanghai",
-    "performance": 1986
+    "performance": {
+     "rating": 1986,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1628,7 +1799,10 @@
    },
    "extra": {
     "team": "Tianjin",
-    "performance": 1986
+    "performance": {
+     "rating": 1986,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1653,7 +1827,10 @@
    },
    "extra": {
     "team": "Jiangxi Feimi",
-    "performance": 2254
+    "performance": {
+     "rating": 2254,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1679,7 +1856,10 @@
    },
    "extra": {
     "team": "Hangzhou Bank",
-    "performance": 1690
+    "performance": {
+     "rating": 1690,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1705,7 +1885,10 @@
    },
    "extra": {
     "team": "Jiangsu",
-    "performance": 1729
+    "performance": {
+     "rating": 1729,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1731,7 +1914,10 @@
    },
    "extra": {
     "team": "Jiangsu",
-    "performance": 1612
+    "performance": {
+     "rating": 1612,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1757,7 +1943,10 @@
    },
    "extra": {
     "team": "Chongqing Jiulongpo",
-    "performance": 1709
+    "performance": {
+     "rating": 1709,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1783,7 +1972,10 @@
    },
    "extra": {
     "team": "Hangzhou Zhiyun School",
-    "performance": 1567
+    "performance": {
+     "rating": 1567,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1809,7 +2001,10 @@
    },
    "extra": {
     "team": "Jiangsu",
-    "performance": 1612
+    "performance": {
+     "rating": 1612,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1835,7 +2030,10 @@
    },
    "extra": {
     "team": "Jiangxi Feimi",
-    "performance": 1762
+    "performance": {
+     "rating": 1762,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1860,7 +2058,10 @@
    },
    "extra": {
     "team": "Jiangxi Feimi",
-    "performance": 1500
+    "performance": {
+     "rating": 1500,
+     "isUncertain": true
+    }
    }
   },
   {
@@ -1885,7 +2086,82 @@
    },
    "extra": {
     "team": "Jiangxi Feimi",
-    "performance": 1358
+    "performance": {
+     "rating": 1358,
+     "isUncertain": true
+    }
+   }
+  },
+  {
+   "rank": 69,
+   "participantId": "p.jinshi-bai",
+   "participantType": "person",
+   "stats": {
+    "RANK": 69,
+    "ELO": 2600,
+    "GP": 0
+   },
+   "person": {
+    "id": "p.jinshi-bai",
+    "name": {
+     "full": "Jinshi Bai"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Hangzhou Bank"
+   }
+  },
+  {
+   "rank": 70,
+   "participantId": "p.yifan-hou.1994",
+   "participantType": "person",
+   "stats": {
+    "RANK": 70,
+    "ELO": 2596,
+    "GP": 0
+   },
+   "person": {
+    "id": "p.yifan-hou.1994",
+    "name": {
+     "full": "Yifan Hou"
+    },
+    "birthDate": "1994",
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false,
+    "title": "GM"
+   },
+   "extra": {
+    "team": "Shenzhen Pengcheng"
+   }
+  },
+  {
+   "rank": 71,
+   "participantId": "p.xing-hong",
+   "participantType": "person",
+   "stats": {
+    "RANK": 71,
+    "ELO": 2161,
+    "GP": 0
+   },
+   "person": {
+    "id": "p.xing-hong",
+    "name": {
+     "full": "Xing Hong"
+    },
+    "nationalities": [
+     "CN"
+    ],
+    "isCuban": false
+   },
+   "extra": {
+    "team": "Zhejiang Shaoxing Yuecheng"
    }
   }
  ]
